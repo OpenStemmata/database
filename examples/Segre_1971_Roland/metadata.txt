@@ -1,32 +1,16 @@
-# Metadata fields (all optional)
-## Edition
-editionType: "book" #or "article"
-editionTitle: "La Chanson de Roland"
-editionDate: 1971
-editionPlace: "Milano/Napoli"
-editionCollection: "Documenti di filologia"
-editionCollNumber: 16
-editionStemmaNum: 1 # in case the edition contains several different stemmata
-editor: "Segre, Cesare"
-editionPage: ""
-editionLink: "" # URL to a digital facsimile of the edition
-## Work
-workOrigDate: 1080-1100
-workOrigPlace: "Normandie?"
-workAuthor: ""
-workGenre: "chanson de geste"
-workLang: "fro"
-## Stemma itself
-stemmaType: "reconstructed" # "observed" for the arbres réels 
-contamination: "no" # or "yes" if there is any contamination (can be deduced from edgelist, though)
-extraStemmaticContamination: "no" # "yes" if there is an arrow coming from outside the tradition
-rootType: "archetype" # or "original" if the root of the tree goes back not to the original, but 
-note: "" # if anything left to say
-# Witness List (for the very brave only)
-witness: "O"
-witDate: 1120-1140
-witPlace: "England"
-witSigla: "Oxford, Bodleian Library, Digby 23"
-witMsDesc: "https://medieval.bodleian.ox.ac.uk/catalog/manuscript_4352"
-witDigit: "https://digital.bodleian.ox.ac.uk/inquire/p/41437984-e3d4-4a14-8c0b-a991ac44c6f2"
-### etc.
+editionType : "book"
+editionTitle : "La Chanson de Roland"
+editionDate : "1971"
+editionPlace : "Milano/Napoli"
+editionColl : "Documenti di filologia"
+editionCollNum: "16"
+editor : "Segre, Cesare"
+workOrigDate : "1080-1100"
+workOrigPlace : "Normandie?"
+workAuthor : ""
+workGenre : "chanson de geste"
+workLangCode : "fro"
+stemmaType : "reconstructed"
+contam : "no"
+extraStemmContam : "no"
+rootType : "archetype"
