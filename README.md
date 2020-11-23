@@ -71,15 +71,23 @@ digraph {
     omega -> 1; 
     1 -> a # use numbers for unlabelled nodes in the source stemma
     1 -> aprime
-
+    
+    b -> e [style="dashed"] # use "dashed" to indicate contamination
+    b -> c [dir=none, style="dashed"]; # use dir=none for the exception where an undirected link is existant.
+    
     # Hover over color names to get a color picker
-    b -> e [style="dashed"]
-    b -> c [dir=none, style="dashed"]; # for the exception where an undirected link is existant.
-
     # Grey color is used for hypothetical nodes; labels can be redefined if needed
-    omega [color="grey"];
     1 [color="grey", label=""]; 
-    aprime[label="a'"]
+    
+    aprime[label="a'"] # We can use the label attribute to indicate the visual representation of a nodes' name
+    
+    # It is common to use Greek letters for hypotetical nodes. 
+    # We recommend naming them with a transliteration of their name in the Latin script ("alpha", "beta", etc.)
+    # Optionally, we can add the Greek letters as the label fot those nodes.
+    # Here is a list of those letters if you don't know how to type them on your keyboard: 
+    # Α α, Β β, Γ γ, Δ δ, Ε ε, Ζ ζ, Η η, Θ θ, Ι ι, Κ κ, Λ λ, Μ μ, Ν ν, Ξ ξ, Ο ο, Π π, Ρ ρ, Σ σ, Τ τ, Υ υ, Φ φ, Χ χ, Ψ ψ, Ω ω
+    omega [color="grey", label="ω"];
+    
 }
 
 ```
