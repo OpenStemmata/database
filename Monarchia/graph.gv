@@ -1,0 +1,49 @@
+digraph {
+    autographe -> Archetype;
+    Archetype -> K;
+    Archetype -> alpha;
+    Archetype -> beta;
+
+    alpha -> T;
+    alpha -> A¹;
+
+    beta -> B1;
+    beta -> B2;
+    beta -> B3;
+    beta -> B4;
+
+    B1 -> B;
+    B1 -> L;
+    L -> Q;
+
+    B2 -> P;
+    B2 -> x1;
+    x1 -> F;
+    x1 -> N;
+
+    B3 -> x2;
+    B3 -> E;
+    B3 -> A²;
+    E -> R;
+
+    x2 -> x3;
+    x2 -> x4;
+    x3 -> V;
+    x3 -> Ph;
+
+    x4 -> G;
+    x4 -> D;
+
+    B4 -> x5;
+    B4 -> x7;
+    B4 -> U;
+    x5 -> C;
+    x5 -> x6;
+    x6 -> M;
+    x6 -> S;
+    x7 -> H;
+    x7 -> Z;
+   
+
+
+}
