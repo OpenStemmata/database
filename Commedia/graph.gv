@@ -1,4 +1,7 @@
 digraph {
+    alpha[color="grey", label="α"]
+    beta[color="grey", label="β"]
+
     O -> alpha;
     O -> beta;
 
