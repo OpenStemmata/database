@@ -1,0 +1,50 @@
+digraph {
+    alpha[color="grey", label="α"]
+    beta[color="grey", label="β"]
+    delta[color="grey", label="δ"]
+    lambda[color="grey", label="λ"]
+    epsilon[color="grey", label="ε"]
+    pi[color="grey", label="π"]
+    iota[color="grey", label="ι"]
+    question[color="grey", label="?"]
+    questionBis[color="grey", label="?"]
+    questionTer[color="grey", label="?"]
+    LlLlr[label="Ll-Llr"]
+
+    X ->alpha;
+    X ->beta;
+
+    alpha -> question;
+    alpha -> H;
+    alpha -> delta;
+    question -> MP;
+    question -> A;
+    A -> Aa;
+    delta -> lambda;
+    delta -> N;
+    lambda -> Lo;
+    Lo -> B;
+
+    beta -> epsilon;
+    beta -> V;
+    epsilon -> E;
+    epsilon -> questionBis;
+    epsilon -> O;
+
+    V -> pi;
+    V -> iota;
+    iota -> J;
+    iota -> C;
+    iota -> questionTer;
+    J -> F;
+    questionTer -> F;
+    pi -> P;
+    P -> Pa;
+    P -> Pb;
+
+    MP -> LlLlr[dir=none, style="dashed"];
+    E -> LlLlr[dir=none, style="dashed"];
+    question -> LlLlr[dir=none, style="dashed"];
+    J -> LlLlr[dir=none, style="dashed"];
+
+}
