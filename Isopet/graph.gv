@@ -1,11 +1,36 @@
 # Place the cursor inside "graph" to get some refactoring options
 
 digraph {
+    # Greek letters/hypothetical links
+    omega[color="grey", label="Ω"]
+    alpha[color="grey", label="α"]
+    alpha¹[color="grey", label="α¹"]
+    alpha²[color="grey", label="α²"]
+    beta[color="grey", label="β"]
+    beta¹[color="grey", label="β¹"]
+    beta²[color="grey", label="β²"]
+    gamma[color="grey", label="γ"]
+    gamma¹[color="grey", label="γ¹"]
+    gamma²[color="grey", label="γ²/(L?)"]
+    nu[color="grey", label="ν"]
+    iota[color="grey", label="ι"]
+    tau[color="grey", label="τ"]
+    pi[color="grey", label="π"]
+    upsilon[color="grey", label="υ"]
+    kappa[color="grey", label="κ"]
+    omicron[color="grey", label="ο"]
+    sigma[color="grey", label="σ"]
+    rho[color="grey", label="ϱ"]
 
-    # To refactor nodes, place the cursor left to a node name
-    omega -> 0;
-    0 -> X;
-    0 -> y;
+    #
+    Z[label="Z(?)"]
+
+    # twice the same label in Warnke's stemma, so we use Obis
+    Obis[label="O"]
+
+    omega -> O;
+    O -> X;
+    O -> y;
     X -> alpha;
     alpha -> Y;
     alpha -> alpha¹;
@@ -43,11 +68,11 @@ digraph {
     upsilon -> kappa;
     kappa -> K;
     kappa -> C;
-    C -> O [dir=none, style="dashed"];
+    C -> Obis[dir=none, style="dashed"];
     kappa -> omicron;
     omicron -> R [dir=none, style="dashed"];
 
-    omicron -> O;
+    omicron -> Obis;
     omicron -> F;
 
     gamma² -> sigma;
@@ -56,8 +81,4 @@ digraph {
     sigma -> rho;
     rho -> R;
     rho -> V;
-
-
-
-
 }
