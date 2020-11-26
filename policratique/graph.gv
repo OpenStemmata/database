@@ -1,0 +1,19 @@
+digraph {
+    zprime [label="z'"]
+    Nprime [label="N'"]
+    O[color="grey"]
+    x[color="grey"]
+    y[color="grey"]
+    z[color="grey"]
+    zprime[color="grey"]
+
+    O -> x;
+    x -> N;
+    x -> y;
+    y -> n;
+    y -> z;
+    z -> G;
+    z -> zprime;
+    zprime -> A;
+    zprime -> Nprime;
+}
