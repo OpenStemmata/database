@@ -1,0 +1,18 @@
+digraph {
+    O [color="grey"]
+    x [color="grey"]
+    y [color="grey"]
+
+    O -> x[dir=none, style="dashed"];
+    x -> y;
+    y -> Art;
+    y -> L;
+    y -> U¹;
+
+    x -> s ;
+    s -> S ;
+
+    x -> U²;
+    x -> N;
+
+}
