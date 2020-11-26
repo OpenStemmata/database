@@ -1,0 +1,8 @@
+digraph {
+    Xprime [label="X'"]
+    X -> Xprime;
+    X -> D ;
+    Xprime -> A;
+    Xprime -> B;
+    D -> C;
+}
