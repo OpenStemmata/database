@@ -6,7 +6,7 @@ publicationSeries : "Beiträge zur Geschichte der deutschen Sprache und Literatu
 publicationNum: "1"
 publicationStemmaNum: "1"
 publicationAuthors : "Paul, Hermann"
-publicationPage : "288-401"
+publicationPage : "336"
 publicationLink : "https://www.degruyter.com/view/journals/bgsl/1/Jahresband/article-p288.xml"
 workTitle : "Iwein"
 workViaf : "3145910983027061536"
