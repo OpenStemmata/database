@@ -1,0 +1,25 @@
+digraph {
+
+    alpha -> beta
+    alpha -> gamma
+    beta -> epsilon
+    beta -> delta
+    beta -> c
+    beta -> f
+    gamma -> D 
+    gamma -> zeta
+    epsilon -> A 
+    epsilon -> d 
+    delta -> E 
+    delta -> a 
+    zeta -> B 
+    zeta -> b 
+
+    alpha[color="grey", label="α"]
+    beta[color="grey", label="β"]
+    delta[color="grey", label="δ"]
+    gamma[color="grey", label="γ"]
+    epsilon[color="grey", label="ε"]
+    zeta[color="grey", label="ζ"]
+}
+
