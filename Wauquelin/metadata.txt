@@ -1,5 +1,5 @@
 editionType : "book"
-editionTitle : "Les Faicts et les conquestes d’Alexandre de Grand"
+editionTitle : "Les Faicts et les conquestes d’Alexandre le Grand"
 editionDate : "2000"
 editionPlace : "Genève"
 editionColl : "Textes littéraires français"
