@@ -3,15 +3,18 @@
 digraph {
     # Greek letters/hypothetical links
     omega[color="grey", label="Ω"]
+    O[color="grey"]
+    X[color="grey"]
+    y[color="grey"]
     alpha[color="grey", label="α"]
-    alpha¹[color="grey", label="α¹"]
-    alpha²[color="grey", label="α²"]
+    alphaprime[color="grey", label="α¹"]
+    alphasecond[color="grey", label="α²"]
     beta[color="grey", label="β"]
-    beta¹[color="grey", label="β¹"]
-    beta²[color="grey", label="β²"]
+    betaprime[color="grey", label="β¹"]
+    betasecond[color="grey", label="β²"]
     gamma[color="grey", label="γ"]
-    gamma¹[color="grey", label="γ¹"]
-    gamma²[color="grey", label="γ²/(L?)"]
+    gammaprime[color="grey", label="γ¹"]
+    gammasecond[color="grey", label="γ²/(L?)"]
     nu[color="grey", label="ν"]
     iota[color="grey", label="ι"]
     tau[color="grey", label="τ"]
@@ -33,35 +36,35 @@ digraph {
     O -> y;
     X -> alpha;
     alpha -> Y;
-    alpha -> alpha¹;
-    alpha¹ -> M;
-    alpha¹ -> alpha²;
-    alpha² -> A;
-    alpha² -> D;
+    alpha -> alphaprime;
+    alphaprime -> M;
+    alphaprime -> alphasecond;
+    alphasecond -> A;
+    alphasecond -> D;
 
     y -> beta;
     y -> gamma;
-    beta -> beta¹;
-    beta -> beta²;
-    beta¹ -> E;
-    beta¹ -> L;
-    beta² -> nu;
+    beta -> betaprime;
+    beta -> betasecond;
+    betaprime -> E;
+    betaprime -> B;
+    betasecond -> nu;
     nu -> N;
     nu -> iota;
     iota -> I;
     iota -> G;
-    beta² -> Z;
-    beta² -> tau;
+    betasecond -> Z;
+    betasecond -> tau;
     tau -> omicron [dir=none, style="dashed"];
     tau-> T;
     tau -> Q;
     T -> G [dir=none, style="dashed"];
     T -> Y [dir=none, style="dashed"];
 
-    gamma -> gamma¹;
-    gamma -> gamma²;
-    gamma¹ -> H;
-    gamma¹ -> pi;
+    gamma -> gammaprime;
+    gamma -> gammasecond;
+    gammaprime -> H;
+    gammaprime -> pi;
     pi -> P;
     pi -> upsilon;
     upsilon ->W;
@@ -75,7 +78,7 @@ digraph {
     omicron -> Obis;
     omicron -> F;
 
-    gamma² -> sigma;
+    gammasecond -> sigma;
     sigma -> S;
     S -> V [dir=none, style="dashed"];
     sigma -> rho;
