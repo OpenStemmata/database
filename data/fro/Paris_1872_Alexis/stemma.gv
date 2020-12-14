@@ -1,0 +1,29 @@
+digraph {
+    O -> x;
+    x -> a;
+    a -> L;
+    a -> Astar;
+    Astar -> A;
+    x -> b;
+    b -> Pstar;
+    Pstar -> P;
+    b -> z1;
+    z1 -> i;
+    i -> Sstar;
+    Sstar -> S;
+    i -> Mstar;
+    Mstar -> M;
+    M -> Q;
+
+    O[color="grey"];
+    x[color="grey"];
+    a[color="grey"];
+    b[color="grey"];
+    z1[color="grey"];
+    i[color="grey"];
+    Astar[color="grey", label="A*"];
+    Pstar[color="grey", label="P*"];
+    Sstar[color="grey", label="S*"];
+    Mstar[color="grey", label="M*"];
+
+}
