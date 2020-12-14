@@ -1,0 +1,87 @@
+# Place the cursor inside "graph" to get some refactoring options
+
+digraph {
+    # Greek letters/hypothetical links
+    omega[color="grey", label="Ω"]
+    O[color="grey"]
+    X[color="grey"]
+    y[color="grey"]
+    alpha[color="grey", label="α"]
+    alphaprime[color="grey", label="α¹"]
+    alphasecond[color="grey", label="α²"]
+    beta[color="grey", label="β"]
+    betaprime[color="grey", label="β¹"]
+    betasecond[color="grey", label="β²"]
+    gamma[color="grey", label="γ"]
+    gammaprime[color="grey", label="γ¹"]
+    gammasecond[color="grey", label="γ²/(L?)"]
+    nu[color="grey", label="ν"]
+    iota[color="grey", label="ι"]
+    tau[color="grey", label="τ"]
+    pi[color="grey", label="π"]
+    upsilon[color="grey", label="υ"]
+    chi[color="grey", label="χ"]
+    omicron[color="grey", label="ο"]
+    sigma[color="grey", label="σ"]
+    rho[color="grey", label="ϱ"]
+
+    #
+    Z[label="Z(?)"]
+
+    # twice the same label in Warnke's stemma, so we use Obis
+    Obis[label="O"]
+
+    omega -> O;
+    O -> X;
+    O -> y;
+    X -> alpha;
+    alpha -> Y;
+    alpha -> alphaprime;
+    alphaprime -> M;
+    alphaprime -> alphasecond;
+    alphasecond -> A;
+    alphasecond -> D;
+
+    y -> beta;
+    y -> gamma;
+    beta -> betaprime;
+    beta -> betasecond;
+    betaprime -> E;
+    betaprime -> B;
+    betasecond -> nu;
+    nu -> N;
+    nu -> iota;
+    iota -> I;
+    iota -> G;
+    betasecond -> Z;
+    betasecond -> tau;
+    tau -> omicron [dir=none, style="dashed"];
+    tau-> T;
+    tau -> Q;
+    T -> G [dir=none, style="dashed"];
+    T -> Y [dir=none, style="dashed"];
+
+    gamma -> gammaprime;
+    gamma -> gammasecond;
+    gammaprime -> H;
+    gammaprime -> pi;
+    pi -> P;
+    pi -> upsilon;
+    upsilon ->W;
+    upsilon -> chi;
+    chi -> K;
+    chi -> C;
+    C -> Obis[dir=none, style="dashed"];
+    chi -> omicron;
+    omicron -> R [dir=none, style="dashed"];
+
+    omicron -> Obis;
+    omicron -> F;
+
+    gammasecond -> sigma;
+    sigma -> S;
+    S -> V [dir=none, style="dashed"];
+    sigma -> rho;
+    rho -> R;
+    rho -> V;
+}
