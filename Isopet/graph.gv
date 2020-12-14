@@ -20,7 +20,7 @@ digraph {
     tau[color="grey", label="τ"]
     pi[color="grey", label="π"]
     upsilon[color="grey", label="υ"]
-    kappa[color="grey", label="κ"]
+    chi[color="grey", label="χ"]
     omicron[color="grey", label="ο"]
     sigma[color="grey", label="σ"]
     rho[color="grey", label="ϱ"]
@@ -68,11 +68,11 @@ digraph {
     pi -> P;
     pi -> upsilon;
     upsilon ->W;
-    upsilon -> kappa;
-    kappa -> K;
-    kappa -> C;
+    upsilon -> chi;
+    chi -> K;
+    chi -> C;
     C -> Obis[dir=none, style="dashed"];
-    kappa -> omicron;
+    chi -> omicron;
     omicron -> R [dir=none, style="dashed"];
 
     omicron -> Obis;
