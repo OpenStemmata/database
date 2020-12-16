@@ -1,24 +1,25 @@
 digraph {
+    X[color="grey"]
     alpha[color="grey", label="α"]
     beta[color="grey", label="β"]
     delta[color="grey", label="δ"]
+    gamma[color="grey", label="γ"]
     lambda[color="grey", label="λ"]
     epsilon[color="grey", label="ε"]
     pi[color="grey", label="π"]
     iota[color="grey", label="ι"]
     question[color="grey", label="?"]
     questionBis[color="grey", label="?"]
-    questionTer[color="grey", label="?"]
     LlLlr[label="Ll-Llr"]
 
     X ->alpha;
     X ->beta;
 
-    alpha -> question;
+    alpha -> gamma;
     alpha -> H;
     alpha -> delta;
-    question -> MP;
-    question -> A;
+    gamma -> MP;
+    gamma -> A;
     A -> Aa;
     delta -> lambda;
     delta -> N;
@@ -28,23 +29,23 @@ digraph {
     beta -> epsilon;
     beta -> V;
     epsilon -> E;
-    epsilon -> questionBis;
+    epsilon -> question [style="dashed"];
     epsilon -> O;
 
     V -> pi;
     V -> iota;
     iota -> J;
     iota -> C;
-    iota -> questionTer;
+    iota -> questionBis;
     J -> F;
-    questionTer -> F;
+    questionBis -> F;
     pi -> P;
     P -> Pa;
     P -> Pb;
 
-    MP -> LlLlr[dir=none, style="dashed"];
-    E -> LlLlr[dir=none, style="dashed"];
-    question -> LlLlr[dir=none, style="dashed"];
-    J -> LlLlr[dir=none, style="dashed"];
+    MP -> LlLlr[style="dashed"];
+    E -> LlLlr[style="dashed"];
+    question -> LlLlr[style="dashed"];
+    J -> LlLlr[style="dashed"];
 
 }
