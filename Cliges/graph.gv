@@ -4,10 +4,14 @@ digraph {
     beta [label="β", color="grey"]
     betaPrime [label="β'", color="grey"]
     gamma [label="γ", color="grey"]
+		1[label="", color="grey"]
+		2[label="", color="grey"]
 
     O -> alpha;
     O -> beta;
-    alpha -> AN;
+    alpha -> 1;
+		1 -> A;
+		1 -> N
     alpha -> S;
     alpha -> M;
     alpha -> P;
@@ -16,5 +20,8 @@ digraph {
     betaPrime -> P;
     betaPrime -> B;
     beta -> gamma;
-    gamma ->CRT;
+    gamma ->2;
+    2 ->C;
+    2 ->R;
+    2 ->T;
 }
