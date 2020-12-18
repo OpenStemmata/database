@@ -1,0 +1,73 @@
+digraph {
+    alpha[color="grey", label="α"]
+    beta[color="grey", label="β"]
+    original[color="grey", label="O"]
+    a[color="grey"]
+    b[color="grey"]
+    bprime[color="grey", label="b₁"]
+    c[color="grey"]
+    d[color="grey"]
+    e[color="grey"]
+    cprime[color="grey", label="c₁"]
+
+    original -> alpha;
+    original -> beta;
+
+    alpha -> a;
+    alpha -> b;
+    alpha -> c;
+
+    a -> Triv;
+    a -> Mart;
+    
+
+    b -> Ash;
+    b -> Co;
+    b -> Gv;
+    b -> bprime;
+
+    Ash -> Ham;
+    Ash -> Fi;
+    Co -> Ham;
+    Co -> Eg;
+    Co -> Fi;
+    Co -> Pa;
+    Gv -> Ham [dir=none, style="dashed"];
+    bprime -> Ham;
+    Ham -> Laur;
+    Ham -> Po;
+
+    c-> Parm;
+    c -> Pr;
+    c -> Ga;
+    c -> Vat;
+    c -> Cha;
+    c -> cprime;
+
+    Parm -> Po;
+    Parm -> Eg;
+    Pr -> Laur [dir=none, style="dashed"];
+    Pr -> Fi [dir=none, style="dashed"];
+    Ga -> Lau;
+    Ga -> Lo;
+    Ga -> Ricc;
+    Ga -> Sa;
+    Ga -> Tz;
+
+    Vat -> Pa [dir=none, style="dashed"];
+    Vat -> To;
+    Vat -> Ri;
+    Vat -> Chig;
+    To -> Ri;
+    Ri -> Chig;
+
+    cprime -> La;
+
+    beta -> d;
+    beta -> e;
+    d -> La;
+    e -> Mad;
+    e -> Urb;
+    e -> Rb;
+
+}
