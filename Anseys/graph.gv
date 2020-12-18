@@ -5,14 +5,18 @@ digraph {
 
     O -> x[dir=none, style="dashed"];
     x -> y;
-    y -> Art;
-    y -> L;
-    y -> U¹;
+    y->empty1;
+    empty1 -> Art;
+    empty1 -> L;
+    empty1 -> U¹;
 
     x -> s ;
     s -> S ;
 
-    x -> U²;
-    x -> N;
+    x -> empty2;
+    empty2 -> U²;
+    empty2 -> N;
 
+    empty1[color="grey"; label=""]
+    empty2[color="grey"; label=""]
 }
