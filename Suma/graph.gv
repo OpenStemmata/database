@@ -10,10 +10,12 @@ digraph {
     iota[color="grey", label="ι"]
     question[color="grey", label="?"]
     questionBis[color="grey", label="?"]
+    
     LlLlr[label="Ll-Llr"]
 
     X ->alpha;
     X ->beta;
+
 
     alpha -> gamma;
     alpha -> H;
@@ -29,19 +31,24 @@ digraph {
     beta -> epsilon;
     beta -> V;
     epsilon -> E;
+
     epsilon -> question [style="dashed"];
+
     epsilon -> O;
 
     V -> pi;
     V -> iota;
     iota -> J;
     iota -> C;
+
     iota -> questionBis;
     J -> F;
     questionBis -> F;
+
     pi -> P;
     P -> Pa;
     P -> Pb;
+
 
     MP -> LlLlr[style="dashed"];
     E -> LlLlr[style="dashed"];
