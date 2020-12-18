@@ -1,5 +1,5 @@
 publicationType : "book"
-publicationTitle : "Les Faicts et les conquestes d’Alexandre de Grand"
+publicationTitle : "Les Faicts et les conquestes d’Alexandre le Grand"
 publicationDate : "2000"
 publicationPlace : "Genève"
 publicationSeries : "Textes littéraires français"
