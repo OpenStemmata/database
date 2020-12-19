@@ -1,6 +1,6 @@
 publicationType : "book"
-publicationTitle : " La commedia secondo l’antica Vulgata"
-publicationDate : "2009"
+publicationTitle : "La commedia secondo l’antica Vulgata"
+publicationDate : "1966"
 publicationPlace : "Milan"
 publicationColl : ""
 publicationCollNum: ""
