@@ -1,0 +1,18 @@
+digraph {
+    O [color="grey"]
+    w [color="grey"]
+    x [color="grey"]
+    y [color="grey"]
+    z [color="grey"]
+
+    O -> w ;
+    w -> P;
+    w-> x;
+    x -> Mon;
+    x -> y;
+    y -> V;
+    y -> f;
+    y -> z;
+    z -> Ph;
+    z -> B;
+}
