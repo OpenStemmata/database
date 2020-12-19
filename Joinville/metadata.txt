@@ -16,7 +16,7 @@ workLangCode : "fro"
 stemmaType : "reconstructed"
 contam : "no"
 extraStemmContam : "no"
-rootType : "unspecified"
+rootType : "original"
 note : "An alternative stemma exists by Gaston Paris (1898)"
 wits:
     - witSigla: ""
