@@ -2,7 +2,7 @@
 
 digraph {
     # Greek letters/hypothetical links
-    omega[color="grey", label="Ω"]
+    omega[color="grey", label="ω"]
     alpha[color="grey", label="α"]
     beta[color="grey", label="β"]
     delta[color="grey", label="δ"]
@@ -11,6 +11,8 @@ digraph {
     delta³[color="grey", label="δ³"]
     gamma[color="grey", label="γ"]
     epsilon[color="grey", label="ε"]
+    Fr[color="grey"]
+    Z[color="grey"]
 
     omega -> alpha;
     omega -> beta;
