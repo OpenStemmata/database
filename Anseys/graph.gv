@@ -3,7 +3,7 @@ digraph {
     x [color="grey"]
     y [color="grey"]
 
-    O -> x[dir=none, style="dashed"];
+    O -> x;
     x -> y;
     y->empty1;
     empty1 -> Art;
