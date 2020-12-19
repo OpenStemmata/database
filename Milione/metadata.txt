@@ -22,7 +22,7 @@ extraStemmContam : "no"
 rootType : "original"
 contributor : "Simon Gabay"
 contributorORCID : "0000-0001-9094-4475"
-note : ""
+note : "Fr is the French version, K the cataln version, TA the toscan version, VA and VB the venitian, Z the latin"
 wits:
     - witSigla: ""
       witSignature: ""
