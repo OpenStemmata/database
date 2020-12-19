@@ -2,6 +2,7 @@ digraph {
     O [color="grey"]
     x [color="grey"]
     y [color="grey"]
+    s [color="grey"]
 
     O -> x;
     x -> y;
