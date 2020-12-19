@@ -1,0 +1,27 @@
+digraph {
+    O [color="grey"]
+    alpha [label="α", color="grey"]
+    beta [label="β", color="grey"]
+    betaPrime [label="β'", color="grey"]
+    gamma [label="γ", color="grey"]
+		1[label="", color="grey"]
+		2[label="", color="grey"]
+
+    O -> alpha;
+    O -> beta;
+    alpha -> 1;
+		1 -> A;
+		1 -> N
+    alpha -> S;
+    alpha -> M;
+    alpha -> P;
+
+    beta -> betaPrime;
+    betaPrime -> P;
+    betaPrime -> B;
+    beta -> gamma;
+    gamma ->2;
+    2 ->C;
+    2 ->R;
+    2 ->T;
+}
