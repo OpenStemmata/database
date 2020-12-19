@@ -13,6 +13,11 @@ digraph {
     epsilon[color="grey", label="ε"]
     Fr[color="grey"]
     Z[color="grey"]
+    TA[color="grey"]
+    VA[color="grey"]
+    VB[color="grey"]
+    l[color="grey"]
+    L[color="grey"]
 
     omega -> alpha;
     omega -> beta;
