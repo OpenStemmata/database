@@ -1,4 +1,10 @@
 digraph {
+    D[color=grey]
+    J[color=grey]
+    TD[color=grey]
+    TJ[color=grey]
+    H[color=grey]
+
     D -> J;
     D -> TD;
 
