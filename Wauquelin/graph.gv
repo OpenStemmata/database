@@ -6,5 +6,6 @@ digraph {
     Xprime -> B;
     D -> C;
 
+    X[color="grey"]
     Xprime[color="grey"]
 }
