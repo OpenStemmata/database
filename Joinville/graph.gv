@@ -1,0 +1,19 @@
+digraph {
+    D[color=grey]
+    J[color=grey]
+    TD[color=grey]
+    TJ[color=grey]
+    H[color=grey]
+
+    D -> J;
+    D -> TD;
+
+    J -> H;
+    J -> TJ;
+    H -> A;
+    TJ -> B;
+    TJ -> L;
+
+    TD -> M;
+    TD -> R;
+}
