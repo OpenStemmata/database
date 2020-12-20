@@ -1,0 +1,23 @@
+digraph {
+    O [color="grey"]
+    x [color="grey"]
+    y [color="grey"]
+    s [color="grey"]
+
+    O -> x;
+    x -> y;
+    y->empty1;
+    empty1 -> Art;
+    empty1 -> L;
+    empty1 -> U¹;
+
+    x -> s ;
+    s -> S ;
+
+    x -> empty2;
+    empty2 -> U²;
+    empty2 -> N;
+
+    empty1[color="grey"; label=""]
+    empty2[color="grey"; label=""]
+}
