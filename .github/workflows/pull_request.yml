@@ -17,9 +17,8 @@ jobs:
       run: Rscript -e 'pak::local_system_requirements(execute = TRUE)'
     
     - name: Install dependencies
-        run: |
-          install.packages(c("testthat", "sna", "igraph", "DiagrammeR"))
-        shell: Rscript {0}
+      run: install.packages(c("testthat", "sna", "igraph", "DiagrammeR"))
+      shell: Rscript {0}
     - uses: actions/checkout@master
     - name: Test
       uses: skx/github-action-tester@master
