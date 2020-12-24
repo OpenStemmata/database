@@ -25,5 +25,4 @@ digraph {
     Pstar[color="grey", label="P*"];
     Sstar[color="grey", label="S*"];
     Mstar[color="grey", label="M*"];
-
 }
