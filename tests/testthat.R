@@ -2,7 +2,7 @@
 #DiagrammeR::grViz("../examples/Paris_1872_Alexis/stemma.gv")
 #DiagrammeR::grViz("../examples/Paris_1872_Alexis/stemma.gv", engine="topi")
 library("testthat")
-testthat::test_dir("testthat/")
+testthat::test_dir("tests/testthat/")
 
 #library("igraph")
 #igraph::write_graph()
