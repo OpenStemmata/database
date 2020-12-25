@@ -11,7 +11,7 @@ jobs:
     - name: Install dependencies
       run: install.packages(c("testthat", "sna", "stringr")) # , "igraph", "DiagrammeR"))
       shell: Rscript {0}
-	- run: Rscript -e tests/testthat.R
+	- run: Rscript tests/testthat.R
     #- uses: actions/checkout@master
     #- name: Test
     #  uses: skx/github-action-tester@master
