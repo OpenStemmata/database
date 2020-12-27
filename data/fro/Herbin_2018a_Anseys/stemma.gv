@@ -1,0 +1,24 @@
+digraph {
+    O[color="grey"]
+    x[color="grey"]
+    y[color="grey"]
+    s[color="grey"]
+    yprime[color="grey", label="y'"]
+
+    O -> x;
+    x -> y;
+    x -> yprime
+    
+    y -> Art;
+    y -> L;
+    y -> U¹;
+
+    yprime->s ;
+    s -> S ;
+
+    yprime -> 2;
+    2 -> U²;
+    2 -> N;
+
+    2[color="grey", label=""]
+}
