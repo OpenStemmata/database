@@ -1,11 +1,11 @@
 digraph {
     O [color="grey"]
-    alpha [label="α", color="grey"]
-    beta [label="β", color="grey"]
-    betaPrime [label="β'", color="grey"]
-    gamma [label="γ", color="grey"]
-		1[label="", color="grey"]
-		2[label="", color="grey"]
+    alpha [label="α", color="grey"];
+    beta [label="β", color="grey"];
+    betaPrime [label="β'", color="grey"];
+    gamma [label="γ", color="grey"];
+		1[label="", color="grey"];
+		2[label="", color="grey"];
 
     O -> alpha;
     O -> beta;

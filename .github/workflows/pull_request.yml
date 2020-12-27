@@ -11,7 +11,7 @@ jobs:
     - name: Install dependencies
       run: install.packages(c("testthat", "stringr")) #"sna" , "igraph", "DiagrammeR"))
       shell: Rscript {0}
-    - run: Rscript -e "getwd()"
+    # - run: Rscript -e "getwd()"
     - run: Rscript tests/testthat.R
     #- uses: actions/checkout@master
     #- name: Test

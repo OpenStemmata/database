@@ -34,10 +34,10 @@ digraph {
     delta[color="grey"]
     deltaprime[color="grey", label="d'"]
     deltasecond[color="grey", label="d''"]
-    1[color="grey",label=""]
-    2[color="grey",label=""]
-    3[color="grey",label=""]
-    4[color="grey",label=""]
-    5[color="grey",label=""]
+    1[color="grey", label=""]
+    2[color="grey", label=""]
+    3[color="grey", label=""]
+    4[color="grey", label=""]
+    5[color="grey", label=""]
 
 }

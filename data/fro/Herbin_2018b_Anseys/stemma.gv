@@ -18,5 +18,5 @@ digraph {
     2 -> U²;
     2 -> N;
 
-    2[color="grey"; label=""]
+    2[color="grey", label=""]
 }

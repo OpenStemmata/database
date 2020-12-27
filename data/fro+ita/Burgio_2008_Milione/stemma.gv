@@ -6,9 +6,9 @@ digraph {
     alpha[color="grey", label="α"]
     beta[color="grey", label="β"]
     delta[color="grey", label="δ"]
-    delta¹[color="grey", label="δ¹"]
-    delta²[color="grey", label="δ²"]
-    delta³[color="grey", label="δ³"]
+    deltaUn[color="grey", label="δ¹"]
+    deltaDeux[color="grey", label="δ²"]
+    deltaTrois[color="grey", label="δ³"]
     gamma[color="grey", label="γ"]
     epsilon[color="grey", label="ε"]
     Fr[color="grey"]
@@ -26,16 +26,16 @@ digraph {
     gamma -> V;
     alpha -> delta;
     delta -> Fr;
-    Fr -> delta²;
-    delta² -> l;
-    delta² -> F;
+    Fr -> deltaDeux;
+    deltaDeux -> l;
+    deltaDeux -> F;
     l -> L;
 
-    delta -> delta¹;
-    delta¹ -> delta³;
-    delta³ -> TA;
-    delta³ -> VA;
-    delta³ -> VB
+    delta -> deltaUn;
+    deltaUn -> deltaTrois;
+    deltaTrois -> TA;
+    deltaTrois -> VA;
+    deltaTrois -> VB
     VA -> P;
     P -> R [dir=none, style="dashed"];
 
