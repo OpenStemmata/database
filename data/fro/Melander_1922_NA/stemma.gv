@@ -1,0 +1,15 @@
+digraph {
+b[color="grey"];
+O2[color="grey"];
+x[color="grey"];
+z[color="grey"];
+O2->x;
+x->A;
+x->b;
+b->B;
+b->C;
+O2->P;
+O2->z;
+z->I;
+z->R;
+}

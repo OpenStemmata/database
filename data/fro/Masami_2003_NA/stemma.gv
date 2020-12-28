@@ -1,0 +1,17 @@
+digraph {
+1[label="", color="grey"];
+2[label="", color="grey"];
+a[color="grey"];
+b[color="grey"];
+O[color="grey"];
+O->a;
+a->D;
+a->S;
+O->b;
+b->1;
+1->2;
+2->B;
+2->S;
+1->H;
+b->G;
+}

@@ -1,0 +1,14 @@
+digraph {
+A[color="grey"];
+B[color="grey"];
+Xprime[label="X'", color="grey"];
+Y[color="grey"];
+Xprime->A;
+A->A1;
+A->A2;
+Xprime->Y;
+Y->B;
+B->B1;
+B->B2;
+Y->C;
+}

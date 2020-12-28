@@ -1,0 +1,9 @@
+digraph {
+Omega[color="grey"];
+Omega->f1;
+f1->D;
+f1->De;
+Omega->S4[style=uncert];
+Omega->B;
+Omega->N1;
+}
