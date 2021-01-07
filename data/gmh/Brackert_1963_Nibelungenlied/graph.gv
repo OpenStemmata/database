@@ -4,12 +4,12 @@ digraph {
     y[color="grey", label="y*"]
     z[color="grey", label="z*"]
     ADb[color="grey", label="ADb*"]
-    alpha[color="grey", label="α"]
+    alpha[color="grey", label="α*"]
     Db[color="grey", label="Db*"]
     DNb[color="grey", label="DNb*"]
     Nb[color="grey", label="Nb*"]
     LgM[color="grey", label="LgM*"]
-    dstar[color="grey"]
+    dstar[color="grey", label="d*"]
     zprime[color="grey", label="z₁*"]
     jprime[color="grey", label="J₁*"]
     jsec[color="grey", label="J₂*"]
@@ -23,6 +23,7 @@ digraph {
     archetype -> y
     archetype -> z
     y -> ADb
+    y -> B
     ADb -> alpha
     alpha -> A
 
@@ -54,7 +55,7 @@ digraph {
     jsec -> K 
     jthird -> J 
     jthird -> Q 
-    j -> h 
+    J -> h 
 
     Cstar -> CprimeStar
     CprimeStar -> C 
@@ -64,7 +65,7 @@ digraph {
     Ra -> a 
     CprimeStar -> F 
 
-    CprimeStar -> CsecStar 
+    Cstar -> CsecStar 
     CsecStar -> Db 
     CsecStar -> U 
     CsecStar -> K
