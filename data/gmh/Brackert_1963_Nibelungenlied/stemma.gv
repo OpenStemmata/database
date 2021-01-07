@@ -1,0 +1,74 @@
+digraph {
+    original[color="grey", label="O"]
+    archetype[color="grey", label="X*"]
+    y[color="grey", label="y*"]
+    z[color="grey", label="z*"]
+    ADb[color="grey", label="ADb*"]
+    alpha[color="grey", label="α*"]
+    Db[color="grey", label="Db*"]
+    DNb[color="grey", label="DNb*"]
+    Nb[color="grey", label="Nb*"]
+    LgM[color="grey", label="LgM*"]
+    dstar[color="grey", label="d*"]
+    zprime[color="grey", label="z₁*"]
+    jprime[color="grey", label="J₁*"]
+    jsec[color="grey", label="J₂*"]
+    jthird[color="grey", label="J₃*"]
+    Cstar[color="grey", label="C*"]
+    CprimeStar[color="grey", label="C₁*"]
+    CsecStar[color="grey", label="C₂*"]
+    Ra[color="grey", label="Ra*"]
+
+    original -> archetype
+    archetype -> y
+    archetype -> z
+    y -> ADb
+    y -> B
+    ADb -> alpha
+    alpha -> A
+
+    ADb -> LgM[style="dashed"]
+    ADb -> Db
+    LgM -> L
+    LgM -> M 
+    L -> g
+
+    Db -> S
+    Db -> DNb
+    DNb -> Nb
+    DNb -> D
+    Nb -> b
+    Nb -> N 
+
+    z -> dstar
+    z -> zprime
+    dstar -> O 
+    dstar -> H 
+    O -> d 
+
+    zprime -> jprime 
+    zprime -> Cstar 
+
+    jprime -> jsec
+    jprime -> I 
+    jsec -> jthird 
+    jsec -> K 
+    jthird -> J 
+    jthird -> Q 
+    J -> h 
+
+    Cstar -> CprimeStar
+    CprimeStar -> C 
+    CprimeStar -> E 
+    CprimeStar -> Ra 
+    Ra -> R 
+    Ra -> a 
+    CprimeStar -> F 
+
+    Cstar -> CsecStar 
+    CsecStar -> Db 
+    CsecStar -> U 
+    CsecStar -> K
+
+
+}
