@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../TEI_documentation/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../TEI_documentation/openStemmata.rng"" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Chanson de roland</title>
+            <author>Segre, Cesare</author>
+            <respStmt>
+               <resp>contributed to OpenStemmata by</resp>
+               <persName>Jean-Baptiste Camps</persName>
+               <idno type="ORCID" n="0000-0003-0385-7037"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>
+               <name>Openstemmata</name>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <availability>
+               <licence n="cc.by" target="https://creativecommons.org/licenses/by/4.0"/>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note/>
+         </notesStmt>
+         <sourceDesc >
+            <bibl type="book">
+               <title>La Chanson de Roland"</title>
+               <date>1971</date>
+               <pubPlace>Milano/Napoli</pubPlace>
+               <series>Documenti di filologia</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="16"/>
+               <author>Segre, Cesare</author>
+               <biblScope unit="page" n=""/>
+               <ptr type="digitised"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title>
+              <name role="author">
+                 <persName>Anonyme</persName>
+                 <idno type="VIAF"/>
+              </name>
+              <title>Chanson de Roland</title>
+              <idno type="VIAF" n="301374774"/>
+           </title>
+           <origDate>1080-1100</origDate>
+           <origDate>Normandy ?</origDate>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">chanson de geste</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">archetype</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="fro"/>
+        </langUsage>
+     </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <eTree type="hypothetical">
+            <label xml:id="n_Omega">Omega</label>
+            <eTree>
+               <label xml:id="n_alpha" type="hypothetical">alpha</label>
+               <eLeaf>
+                  <label xml:id="n_O">O</label>
+               </eLeaf>
+            </eTree>
+            <eTree>
+               <label xml:id="n_beta"  type="hypothetical"/>
+               <eTree>
+                  <label xml:id="n_1"  type="hypothetical"/>
+                  <eLeaf>
+                     <label xml:id="n_w">w</label>
+                  </eLeaf>
+                  <eTree>
+                     <label xml:id="n_2"  type="hypothetical"/>
+                     <eLeaf>
+                        <label xml:id="n_K">K</label>
+                     </eLeaf>
+                     <eLeaf>
+                        <label xml:id="n_n">n</label>
+                     </eLeaf>
+                  </eTree>
+                  <eLeaf>
+                     <label xml:id="n_h">h</label>
+                  </eLeaf>
+               </eTree>
+               <eTree>
+                  <label xml:id="n_gamma"  type="hypothetical">gamma</label>
+                  <eLeaf>
+                     <label xml:id="n_V4">V4</label>
+                  </eLeaf>
+                  <eTree>
+                     <label xml:id="n_delta" type="hypothetical">delta</label>
+                     <eTree>
+                        <label xml:id="n_deltaprime" type="hypothetical">d'</label>
+                        <eLeaf>
+                           <label xml:id="n_C">C</label>
+                        </eLeaf>
+                        <eLeaf>
+                           <label xml:id="n_V7">V7</label>
+                        </eLeaf>
+                     </eTree>
+                     <eTree>
+                        <label xml:id="n_deltasecond"  type="hypothetical">d''</label>
+                        <eTree>
+                           <label xml:id="n_3" type="hypothetical"/>
+                           <eLeaf>
+                              <label xml:id="n_P">P</label>
+                           </eLeaf>
+                           <eLeaf>
+                              <label xml:id="n_F">F</label>
+                           </eLeaf>
+                        </eTree>
+                        <eTree>
+                           <label xml:id="n_4"  type="hypothetical"/>
+                           <eLeaf>
+                              <label xml:id="n_L">L</label>
+                           </eLeaf>
+                           <eLeaf>
+                              <label xml:id="n_l">l</label>
+                           </eLeaf>
+                        </eTree>
+                        <eTree>
+                           <label xml:id="n_5" type="hypothetical"/>
+                           <eLeaf>
+                              <label xml:id="n_T">T</label>
+                           </eLeaf>
+                           <eLeaf>
+                              <label xml:id="n_B">B</label>
+                           </eLeaf>
+                        </eTree>
+                     </eTree>
+                  </eTree>
+               </eTree>
+            </eTree>
+         </eTree>
+      </body>
+  </text>
+</TEI>
