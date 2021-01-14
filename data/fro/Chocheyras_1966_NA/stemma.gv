@@ -1,14 +1,11 @@
 digraph {
-a[color="grey"];
-Oprime[label="O'", color="grey"];
-x[color="grey"];
-y[color="grey"];
-Oprime->x;
-x->a;
-a->A;
-a->B;
-x->C;
-Oprime->y;
-y->D;
-y->E;
+F->O;
+O->N;
+O->G;
+F->H;
+H->M;
+H->I;
+I->J;
+J->K;
+H->P;
 }

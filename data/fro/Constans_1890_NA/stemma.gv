@@ -1,0 +1,18 @@
+digraph {
+1[label="", color="grey"];
+O[color="grey"];
+x[color="grey"];
+y[color="grey"];
+z[color="grey"];
+O->z;
+z->S;
+z->x;
+x->B;
+x->C;
+O->1;
+1->D;
+1->y;
+y->P;
+y->A;
+x->y[style=added,dashed];
+}

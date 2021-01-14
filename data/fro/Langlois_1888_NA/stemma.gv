@@ -1,17 +1,17 @@
 digraph {
-alpha[label="α", color="grey"];
-beta[label="β", color="grey"];
-delta[label="δ", color="grey"];
-gamma[label="γ", color="grey"];
-omega[, color="grey"];
-omega->alpha;
-alpha->N;
-alpha->x;
-omega->beta;
-beta->gamma;
-gamma->a;
-gamma->delta;
-delta->d;
-delta->g;
-beta->r;
+A[color="grey"];
+B[color="grey"];
+O[color="grey"];
+x[color="grey"];
+O->x;
+x->A;
+A->A1;
+A->A2;
+A->A3;
+A->A4;
+x->B;
+B->B1;
+B->B2;
+O->C;
+O->D;
 }
