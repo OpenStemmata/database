@@ -1,8 +1,11 @@
 digraph {
 A[color="grey"];
 B[color="grey"];
+X[color="grey"]
 Xprime[label="X'", color="grey"];
 Y[color="grey"];
+1[color="grey",label=""]
+X->Xprime;
 Xprime->A;
 A->A1;
 A->A2;
@@ -10,5 +13,7 @@ Xprime->Y;
 Y->B;
 B->B1;
 B->B2;
-Y->C;
+Y->1;
+1->C;
+1->A1[style="dashed"]
 }
