@@ -3,6 +3,8 @@ A[color="grey"];
 B[color="grey"];
 O[color="grey"];
 x[color="grey"];
+Cstar[color="grey", label="C*"]
+Dstar[color="grey", label="D*"]
 O->x;
 x->A;
 A->A1;
@@ -12,6 +14,8 @@ A->A4;
 x->B;
 B->B1;
 B->B2;
-O->C;
-O->D;
+O->Cstar;
+Cstar->C;
+O->Dstar;
+Dstar->D
 }
