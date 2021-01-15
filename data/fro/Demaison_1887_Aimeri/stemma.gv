@@ -13,7 +13,7 @@ Xprime->Y;
 Y->B;
 B->B1;
 B->B2;
-Y->1;
-1->C;
-1->A1[style="dashed"]
+Y->1; // added (contamination mentioned in the text)
+1->C; //added
+1->A1[style="dashed"] //added
 }

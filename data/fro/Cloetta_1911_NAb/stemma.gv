@@ -1,5 +1,0 @@
-digraph {
-x[color="grey"];
-x->A;
-x->B;
-}

@@ -1,9 +1,0 @@
-digraph {
-x[color="grey"];
-X[color="grey"];
-X->D;
-X->N;
-X->x;
-x->L;
-x->R;
-}
