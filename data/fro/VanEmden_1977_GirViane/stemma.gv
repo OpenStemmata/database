@@ -4,14 +4,16 @@ digraph {
 a[color="grey"];
 b[color="grey"];
 O[color="grey"];
+S1[label="S (1426-5029)"]
+S2[label="S (1-1425, 5030-6934)"]
 O->a;
 a->D;
-a->S;
+a->S1;
 O->b;
 b->1;
 1->2;
 2->B;
-2->S;
+2->S2;
 1->H;
 b->G;
 }
