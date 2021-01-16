@@ -1,15 +1,23 @@
 digraph {
+o[color="grey"]
 a[color="grey"];
+a1[color="grey"];
+b[color="grey"];
 c[color="grey"];
 d[color="grey"];
 gamma[label="γ", color="grey"];
 gamma1[label="γ1"color="grey"];
+alpha[label="α", color="grey"]
 o1[color="grey"];
 x[color="grey"];
-o1->B;
+o->o1;
+o1->b;
+b->B;
 o1->a;
-a->A;
-a->x;
+a->alpha;
+alpha->a1;
+a1->A;
+alpha->x;
 x->c;
 c->gamma;
 gamma->C1;
