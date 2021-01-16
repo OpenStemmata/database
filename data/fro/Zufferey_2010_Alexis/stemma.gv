@@ -4,9 +4,9 @@ digraph {
 a[color="grey"];
 b[color="grey"];
 i[color="grey"];
-omega1[color="grey"];
-omega2[color="grey"];
-omega3[color="grey"];
+omega1[label="ω1", color="grey"];
+omega2[label="ω2",color="grey"];
+omega3[label="ω3", color="grey"];
 p[color="grey"];
 omega1->a;
 a->A;
