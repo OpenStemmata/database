@@ -1,0 +1,173 @@
+
+
+digraph {
+
+    original[color="grey", label="Or."]
+    archetyp[color="grey", label=Z]
+    X[color="grey", label=X]
+    starXY[color="grey", label="*XY"]
+    Y[color="grey", label="Y"]
+    1[color="grey", label=""]
+    a
+    q1slashq[color="grey", label="q1/q"]
+    M
+    H
+    h
+    2[color="grey", label=""]
+    m
+    f1slashf[color="grey", label="f1/1"]
+    starF[color="grey", label="*F"]
+    t
+    alpha[color="grey", label="α"]
+    beta[color="grey", label="β"]
+    starBEbe[color="grey", label="*BEbe"]
+    B
+    starEb[color="grey", label="*Eb"]
+    b
+    E
+    questionprime[color="grey", label="?₁"]
+    3[color="grey", label=""]
+    e1slashe[color="grey", label="e1/e"]
+    N
+    F
+    starNRS[color="grey", label="*NRS"]
+    g
+    starnN[color="grey", label="*nN"]
+    l
+    r
+    zslashz1[color="grey", label="z/z1"]
+    oe[label="ö"]
+    starRS[color="grey", label="*RS"]
+    n
+    R
+    starS[color="grey", label="*S"]
+    4[color="grey", label=""]
+    s
+    5[color="grey", label=""]
+    w
+    W
+    v
+    starOP[color="grey", label="*OP"]
+    6[color="grey", label=""]
+    O
+    P
+    questionsec[color="grey", label="?₂"]
+    100[color="grey", label=""]
+    101[color="grey", label=""]
+    102[color="grey", label=""]
+    103[color="grey", label=""]
+    104[color="grey", label=""]
+    105[color="grey", label=""]
+    106[color="grey", label=""]
+    107[color="grey", label=""]
+    108[color="grey", label=""]
+    109[color="grey", label=""]
+    
+
+   original -> archetyp
+   archetyp -> X
+   archetyp -> starXY
+   archetyp -> Y
+
+   X -> 1
+   X -> a
+   X -> q1slashq
+   X -> 102
+
+   102 -> M
+
+   1 -> 100
+   1 -> h
+
+   100 -> H
+   
+   starXY -> 2
+   starXY -> starF
+   starXY -> 106
+
+   106 -> t
+   
+   2 -> m
+   2 -> f1slashf
+
+   Y -> beta
+   Y -> 103
+
+   103 -> alpha
+
+   M -> starBEbe
+
+   starF -> starBEbe
+   starF -> e1slashe
+   starF -> F
+   starF -> g
+
+   starBEbe -> starEb
+   starBEbe -> e1slashe
+   starBEbe -> N
+   starBEbe -> starNRS
+   starBEbe -> 105
+
+   105 -> B
+
+   starEb -> b
+
+   b -> 3
+
+   3 -> questionprime
+   3 -> E
+
+   alpha -> F 
+   alpha -> starNRS
+
+   starNRS -> starnN
+   starNRS -> l
+   starNRS -> r
+   starNRS -> zslashz1
+   starNRS -> oe
+   starNRS -> starRS
+
+   starnN -> n
+   starnN -> 109
+
+   109 -> N
+
+   starRS -> R
+   starRS -> starS
+
+   beta -> s
+   beta -> 5
+   beta -> 107
+
+   107 -> 104
+
+   104 -> 4
+
+   4 -> w
+   4 -> W
+
+   5 -> v
+   5 -> 101
+
+   101 -> starOP
+
+   starOP -> P
+   starOP -> 108
+
+   108 -> 6
+
+   6 -> questionsec
+   6 -> O
+
+
+   100 -> 101 [style="dashed"]
+   102 -> 103 [style="dashed"]
+   102 -> 104 [style="dashed"]
+   2 -> 105 [style="dashed"]
+
+
+
+   106 -> 107 [style="dashed"]
+   108 -> 109 [style="dashed"]
+
+}
