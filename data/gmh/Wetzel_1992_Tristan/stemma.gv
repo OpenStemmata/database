@@ -24,7 +24,7 @@ digraph {
     starEb[color="grey", label="*Eb"]
     b
     E
-    questionprime[color="grey", label="?₁"]
+    questionprime[color="grey", label="?"]
     e1slashe[label="e1/e"]
     N
     F
@@ -48,7 +48,7 @@ digraph {
     starOP[color="grey", label="*OP"]
     O
     P
-    questionsec[color="grey", label="?₂"]
+    questionsec[color="grey", label="?"]
     108[color="grey", label=""]
     
 
