@@ -2,7 +2,7 @@
 digraph {
 
     original[color="grey", label="Or."]
-    archetyp[color="grey", label=Z]
+    archetyp[color="grey", label="Z"]
     X[color="grey"]
     starXY[color="grey", label="*XY"]
     Y[color="grey"]
