@@ -49,7 +49,7 @@ digraph {
     O
     P
     questionsec[color="grey", label="?"]
-    108[color="grey", label=""]
+    6[color="grey", label=""]
     
 
    original -> archetyp
@@ -121,9 +121,9 @@ digraph {
    5 -> starOP
 
    starOP -> P
-   starOP -> 108
+   starOP -> 6
 
-   108 -> O
+   6 -> O
 
    questionsec -> O
 
@@ -132,6 +132,6 @@ digraph {
    M -> 4 [style="dashed"]
    2 -> B [style="dashed"]
    t -> 4 [style="dashed"]
-   108 -> N [style="dashed"]
+   6 -> N [style="dashed"]
 
 }
