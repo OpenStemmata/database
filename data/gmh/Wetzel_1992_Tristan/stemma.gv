@@ -7,50 +7,27 @@ digraph {
     starXY[color="grey", label="*XY"]
     Y[color="grey"]
     1[color="grey", label=""]
-    a
     q1slashq[label="q1/q"]
-    M
-    H
-    h
     2[color="grey", label=""]
-    m
     f1slashf[label="f1/1"]
     starF[color="grey", label="*F"]
-    t
     alpha[color="grey", label="α"]
     beta[color="grey", label="β"]
     starBEbe[color="grey", label="*BEbe"]
-    B
     starEb[color="grey", label="*Eb"]
-    b
-    E
     questionprime[color="grey", label="?"]
     e1slashe[label="e1/e"]
-    N
-    F
     starNRS[color="grey", label="*NRS"]
-    g
     starnN[color="grey", label="*nN"]
-    l
-    r
     zslashz1[label="z/z1"]
     oe[label="ö"]
     starRS[color="grey", label="*RS"]
-    n
-    R
     starS[color="grey", label="*S"]
     4[color="grey", label=""]
-    s
     5[color="grey", label=""]
-    w
-    W
-    v
     starOP[color="grey", label="*OP"]
-    O
-    P
     questionsec[color="grey", label="?"]
     6[color="grey", label=""]
-    
 
    original -> archetyp
    archetyp -> X
