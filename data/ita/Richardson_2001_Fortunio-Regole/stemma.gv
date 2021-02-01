@@ -1,0 +1,46 @@
+digraph {
+
+O[label="1516 Guerr"]
+M1[label="1517 Minuz"]
+S1[label="1517 Scinz"]
+A1[label="1518 Arriv"]
+Z1[label="1538 Zio"]
+B1[label="1524 Bind"]
+G1[label="1527 Gar"]
+S2[label="1529 Sessa"]
+N1[label="1533 Nicol"]
+B2[label="1533 Bind"]
+B3[label="1539 Bind"]
+B4[label="1550 Bind"]
+C1[label="1552 Calp"]
+F1[label="1541 F. di Aldo"]
+S3[label="1541-50 Sessa"]
+P1[label="1551 Padov"]
+A2[label="1545 Aldo"]
+A3[label="1552 Aldo"]
+S4[label="1562 Sans"]
+R1[label="1565 Rampaz"]
+S5[label="1643 Salicat"]
+
+O->M1;
+O->S1;
+O->A1;
+A1->Z1;
+A1->B1;
+B1->G1;
+G1->S2;
+S2->N1;
+N1->B2;
+B2->B3;
+B3->B4;
+B4->C1;
+B3->F1;
+F1->S3;
+S3->P1;
+F1->A2;
+A2->A3;
+F1->S4;
+S4->R1;
+B1-> S5;
+
+}
