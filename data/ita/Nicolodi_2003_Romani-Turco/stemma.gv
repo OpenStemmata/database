@@ -1,0 +1,31 @@
+digraph {
+Dr16RV[label="Dr16 R-V"]
+Mi14->Mi19;
+Mi14->Münch19;
+Mi14->Al22;
+Mi14->Bo16;
+Bo16->Lu19;
+Bo16->Ra17;
+Bo16->Si17;
+Si17->Paris20;
+Paris20->Lond21;
+Si17->Si22;
+Si22->Si30;
+Si17->Tn24;
+Mi14->Fi14;
+Fi14->Fe15;
+Fe15->Dr16RV;
+Fe15->Mo18;
+Mo18->Mo21;
+Fi14->Ve16;
+Ve16->Mn17;
+Mn17->Barc20;
+Barc20->Madr22;
+Mn17->Pa23;
+Ve16->To16;
+To16->To23;
+To23->To30;
+To16->Vr17;
+Si17->Fi14[style="dashed"];
+Pa23->To23[style="dashed"]; //small doubt as to the exact target of this one.
+}
