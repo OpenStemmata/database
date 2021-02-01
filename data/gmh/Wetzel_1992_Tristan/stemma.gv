@@ -27,9 +27,9 @@ digraph {
     starOP[color="grey", label="*OP"]
     questionsec[color="grey", label="?"]
     6[color="grey", label=""]
-
-	preH[color="grey", label=""]
-	preM[color="grey", label=""]     pret[color="grey", label=""]
+    preH[color="grey", label=""]
+    preM[color="grey", label=""]
+    pret[color="grey", label=""]
 	
 
    original -> archetyp
