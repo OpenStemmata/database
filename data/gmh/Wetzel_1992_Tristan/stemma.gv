@@ -1,4 +1,3 @@
-
 digraph {
 
     original[color="grey", label="Or."]
@@ -29,6 +28,10 @@ digraph {
     questionsec[color="grey", label="?"]
     6[color="grey", label=""]
 
+	preH[color="grey", label=""]
+	preM[color="grey", label=""]     pret[color="grey", label=""]
+	
+
    original -> archetyp
    archetyp -> X
    archetyp -> starXY
@@ -37,15 +40,18 @@ digraph {
    X -> 1
    X -> a
    X -> q1slashq
-   X -> M
+   X -> preM
+   preM -> M
 
-   1 -> H
+   1 -> preH
+   preH -> H
    1 -> h
-   
+
    starXY -> 2
    starXY -> starF
-   starXY -> t
-   
+   starXY -> pret
+   pret -> t
+
    2 -> m
    2 -> f1slashf
 
@@ -104,11 +110,11 @@ digraph {
 
    questionsec -> O
 
-   H -> starOP [style="dashed"]
-   M -> alpha [style="dashed"]
-   M -> 4 [style="dashed"]
+   preH -> starOP [style="dashed"]
+   preM -> alpha [style="dashed"]
+   preM -> 4 [style="dashed"]
    2 -> B [style="dashed"]
-   t -> 4 [style="dashed"]
+   pret -> 4 [style="dashed"]
    6 -> N [style="dashed"]
 
 }
