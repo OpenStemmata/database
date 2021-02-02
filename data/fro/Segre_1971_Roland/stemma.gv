@@ -27,17 +27,17 @@ digraph {
     5 -> T
     5 -> B
 
-    omega[color="grey"]
-    alpha[color="grey"]
-    beta[color="grey"]
-    gamma[color="grey"]
-    delta[color="grey"]
-    deltaprime[color="grey", label="d'"]
-    deltasecond[color="grey", label="d''"]
-    1[color="grey", label=""]
-    2[color="grey", label=""]
-    3[color="grey", label=""]
-    4[color="grey", label=""]
-    5[color="grey", label=""]
+    omega[color="grey", label="ω"]
+    alpha[color="grey", label="α"]
+    beta[color="grey", label="β"]
+    gamma[color="grey", label="γ"]
+    delta[color="grey", label="δ"]
+    deltaprime[color="grey", label="δ'"]
+    deltasecond[color="grey", label="δ''"]
+    1[color="grey",label=""]
+    2[color="grey",label=""]
+    3[color="grey",label=""]
+    4[color="grey",label=""]
+    5[color="grey",label=""]
 
 }
