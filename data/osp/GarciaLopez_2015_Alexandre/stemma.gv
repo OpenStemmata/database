@@ -1,6 +1,6 @@
 digraph {
-    original[label="ω"]
-    archetype[label="x"]
+    original[label="ω", color="grey"]
+    archetype[label="x", color="grey"]
     G[label="Ga,Gb,Gc"]
     alpha[label="α", color="grey"]
 
