@@ -55,7 +55,7 @@ digraph {
     S -> Phi; 
     Phi [label="Φ"];
     
-    Phi -> PhiC
+    Phi -> PhiC;
     PhiC [label="Φc"];
 
     PhiC -> Rho; 
