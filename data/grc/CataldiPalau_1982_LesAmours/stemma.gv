@@ -17,8 +17,9 @@ digraph {
     delta -> J;
     delta -> K;
 
-    K -> "apographes du XVIe et XVIIe siècle";
-    K -> beta 
+    K -> textApo;
+    textApo[label="apographes du XVIe et XVIIe siècle"];
+    K -> beta;
     beta [label="β"];
 
     G -> R;
