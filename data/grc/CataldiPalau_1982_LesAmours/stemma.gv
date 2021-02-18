@@ -82,6 +82,5 @@ digraph {
     lambda [label="λ"]; 
 
     4 -> Xi; 
-    Xi [label="Ξ"]; 
-    
+    Xi [label="Ξ"];     
 }
