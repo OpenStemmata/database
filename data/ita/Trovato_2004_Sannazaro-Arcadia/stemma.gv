@@ -27,7 +27,8 @@ Gio[label="1543 Gio"]
 Gio2[label="1549 Gio"]
 Sta[label="1531 Sta"]
 Na2[label="1507 Na, 1509Mi,1510,1512"] //VERY WEIRD, correct this
-Bo[label="1516 Bo"]
+Bo1516[label="1516 Bo"]
+Bo1520[label="1520 Bo"]
 
 Na->Ald;
 Ald->Rusc;
@@ -54,7 +55,8 @@ Guad1->Guad2;
 Guad2->Gio;
 Gio->Gio2;
 Bind1->Sta;
+Als->Bo1520;
 Na->Na2;
-Na->Bo;
+Na->Bo1516;
 Sta->Na2[style="dashed"];//this is a bit unclear : where does the arrow go exactly……
 }
