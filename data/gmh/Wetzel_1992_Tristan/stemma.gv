@@ -21,7 +21,7 @@ digraph {
     zslashz1[label="z/z1"]
     oe[label="ö"]
     starRS[color="grey", label="*RS"]
-    starS[color="grey", label="*S"]
+    starS[label="*S"]
     4[color="grey", label=""]
     5[color="grey", label=""]
     starOP[color="grey", label="*OP"]
