@@ -1,0 +1,69 @@
+digraph {
+archetyp[color="grey", label=""]
+delta[label=" Δ"]
+epsilon[label="ɛ"]
+tau1[label="𝜏(1)"]
+ypsilon[label="υ"]
+beta[label="β"]
+M
+N
+U
+RSWZ
+alpha[label="α"]
+x[color="grey"]
+lambda[label="λ"]
+pi[label="π"]
+sigma[label="Σ"]
+E
+phi[label="ϕ"]
+G
+P
+F
+tau[label="τ(4-15)"]
+L
+preRSWZ[color="grey", label=""]
+1 [color="grey", label=""]
+2 [color="grey", label=""]
+3 [color="grey", label=""]
+4 [color="grey", label=""]
+5 [color="grey", label=""]
+6 [color="grey", label=""]
+
+archetyp -> delta
+archetyp -> alpha
+archetyp -> x
+archetyp -> lambda
+archetyp -> pi [label="?"]
+
+delta -> epsilon
+epsilon -> tau1
+delta -> preRSWZ
+preRSWZ -> RSWZ
+delta -> 1
+1 -> 2
+2 -> ypsilon
+2 -> beta
+2 -> M
+1-> 3
+3 -> N
+3 -> U
+
+x -> U [style="dashed"]
+x -> RSWZ [style="dashed"]
+x -> 5 [style="dashed"]
+
+archetyp -> 4
+4 -> pi [label="?"]
+4 -> sigma
+sigma -> 5
+5 -> E
+5 -> phi
+sigma -> G
+sigma -> P
+sigma -> 6
+6 -> F
+6 -> tau
+sigma -> L
+
+
+}
