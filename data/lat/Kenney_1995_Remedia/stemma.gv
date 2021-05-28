@@ -1,6 +1,7 @@
 digraph {
-archetyp [color="grey", label="α"];
+archetyp [color="grey", label="α''"];
 1 [color="grey", label=""];
+P6 [label="P6²"]
 archetyp -> 1 ;
 1 -> R;
 1 -> P6;
