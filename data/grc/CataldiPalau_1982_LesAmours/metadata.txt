@@ -22,7 +22,7 @@ extraStemmContam : "no"
 rootType : "archetype"
 contributor : "Benedetta Salvati "
 contributorORCID : ""
-note : ""
+note : "Apographs and descripti are eliminated. The stemma could be furtherly enriched by including them (JBC)."
 wits:
     - witSigla: ""
       witSignature: ""
