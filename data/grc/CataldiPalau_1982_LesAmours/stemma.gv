@@ -22,7 +22,6 @@ digraph {
     K -> beta;
     beta [label="β"];
 
-    G -> R;
     G -> 1; 
     G -> 2;
     2 -> Lambda;
@@ -81,6 +80,7 @@ digraph {
     4 -> lambda; 
 
     lambda [label="λ"]; 
+    X->W;
 
     4 -> Xi; 
     Xi [label="Ξ"];     
