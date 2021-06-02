@@ -1,5 +1,5 @@
 publicationType : "article"
-publicationTitle : "La tradizione primo ottocentesca dei li- bretti (1814-1830)"
+publicationTitle : "La tradizione primo ottocentesca dei libretti (1814-1830)"
 publicationDate : "2003"
 publicationPlace : "Pesaro"
 publicationSeries : "Gioacchino Rossini, Il Turco in Italia, a cura di Fiamma Nicolodi"
