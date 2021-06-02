@@ -3,9 +3,9 @@ digraph {
     alpha -> gamma;
     alpha -> delta;
 
-    alpha [label="α"]; 
-    gamma [label="γ"]; 
-    delta [label="δ"];
+    alpha [label="α", color="grey"]; 
+    gamma [label="γ", color="grey"];
+    delta [label="δ", color="grey"];
 
     gamma -> E;
     gamma -> V;
@@ -20,7 +20,7 @@ digraph {
     K -> textApo;
     textApo[label="apographes du XVIe et XVIIe siècle"];
     K -> beta;
-    beta [label="β"];
+    beta [label="β", color="grey"];
 
     G -> 1; 
     G -> 2;
@@ -51,10 +51,10 @@ digraph {
     3 -> C;
 
     C -> S; 
-    
+
     S -> Phi; 
     Phi [label="Φ"];
-    
+
     Phi -> PhiC;
     PhiC [label="Φc"];
 
