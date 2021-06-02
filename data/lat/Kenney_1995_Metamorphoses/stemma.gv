@@ -12,7 +12,6 @@ pi [label="π"];
 sigma [label="Σ"];
 phi [label="ϕ"];
 tau [label="τ(4-15)"];
-preRSWZ [color="grey", label=""];
 1 [color="grey", label=""];
 2 [color="grey", label=""];
 3 [color="grey", label=""];
