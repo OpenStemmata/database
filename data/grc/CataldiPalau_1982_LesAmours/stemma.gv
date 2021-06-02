@@ -1,0 +1,87 @@
+digraph {
+
+    alpha -> gamma;
+    alpha -> delta;
+
+    alpha [label="α", color="grey"]; 
+    gamma [label="γ", color="grey"];
+    delta [label="δ", color="grey"];
+
+    gamma -> E;
+    gamma -> V;
+    gamma -> G;
+    gamma -> J;
+
+    E -> V [style="dashed"]; 
+
+    delta -> J;
+    delta -> K;
+
+    K -> textApo;
+    textApo[label="apographes du XVIe et XVIIe siècle"];
+    K -> beta;
+    beta [label="β", color="grey"];
+
+    G -> 1; 
+    G -> 2;
+    2 -> Lambda;
+    2 -> B;
+
+    Lambda [label="Λ"];
+
+    1 -> R;
+    1 -> I; 
+
+    1 [label="", color="grey"];
+    2 [label="", color="grey"];
+
+    R -> Z; 
+
+    B -> Psi;
+
+    Psi [label="Ψ"]; 
+
+    J -> beta;
+
+    beta -> 3;
+
+    3 [label="", color="grey"];
+
+    3 -> M;
+    3 -> C;
+
+    C -> S; 
+
+    S -> Phi; 
+    Phi [label="Φ"];
+
+    Phi -> PhiC;
+    PhiC [label="Φc"];
+
+    PhiC -> Rho; 
+    Rho [label="Ρ"]; 
+
+    beta -> T; 
+    beta -> 4; 
+
+    4 [label="", color="grey"]; 
+
+    T -> A; 
+    T -> Y; 
+
+    Y -> F; 
+
+    F -> Delta; 
+    Delta [label="Δ"]; 
+
+    4 -> U; 
+    4 -> N; 
+    4 -> X; 
+    4 -> lambda; 
+
+    lambda [label="λ"]; 
+    X->W;
+
+    4 -> Xi; 
+    Xi [label="Ξ"];     
+}
