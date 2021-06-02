@@ -1,0 +1,11 @@
+digraph {
+archetyp [color="grey", label="α'"];
+1 [color="grey", label=""];
+b [label="b²"];
+Sa [label="Sₐ"];
+archetyp -> 1 ;
+1 -> R;
+1 -> b;
+1 -> Sa;
+archetyp -> O;
+}
