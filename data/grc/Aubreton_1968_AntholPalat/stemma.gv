@@ -1,0 +1,61 @@
+
+digraph {
+
+    1 -> Simonide; 
+    1 -> "Recueil d'épigrammes scripturaires anonymes"; 
+    1 -> "Couronne de Méléagre"; 
+    1 -> "Couronne de Philippe"; 
+    1 -> "Editions de Léonidas de Tarente, Rufin, Lucillius"; 
+    1 -> "Anthologeion de Diogénien, Editions de Straton";
+    1 -> "Sylloge Σ"; 
+    1 -> "Sylloge E"; 
+    1 -> "Sylloge F"; 
+    1 -> "Anthologie perdue"; 
+
+    1 [label="", color="grey"]; 
+
+    "Anthologie perdue" -> "Edition de Palladas?";
+    "Anthologie perdue" -> "Cycle d'Agathias";
+    "Anthologie perdue" -> "Métaphrase de Nonnus" [style="dashed"];
+    "Anthologie perdue" -> "ekphrasis de Christodoros" [style="dashed"];
+    "Anthologie perdue" -> "Palatinus"; 
+    "Anthologie perdue" -> "Anthologie de Céphalas";
+    "Anthologie perdue" -> "Sylloge S"; 
+    "Anthologie perdue" -> "Sylloge Σπ"; 
+    "Anthologie perdue" -> "Plan. a"; 
+    "Anthologie perdue" -> "Sylloge K" [style="dashed"]; 
+    "Sylloge K" -> "Matritensis"; 
+    "Anthologie perdue" -> "Plan. b"; 
+
+    "Plan. b" -> "Sylloge VB"; 
+    "Plan. b" -> "Marcianus"; 
+    "Marcianus" -> "Londinensis"; 
+    "Marcianus" -> "Parisinus 2744"; 
+
+    "Parisinus 2744" -> "Sylloge K"; 
+    "Parisinus 2744" -> 2;
+    2 [label="", color="grey"]; 
+    2 -> "Parisinus 2739"; 
+    2 -> "Laurentianus Gr XXXI_28"; 
+    2 -> "Ambrosianus Gr 57"; 
+    2 -> "Parisinus 2741"; 
+
+    "Parisinus 2739" -> "Matritensis"; 
+    "Parisinus 2739" -> "Ed. XVI et XVIII s."; 
+
+    "Ed. XVI et XVIII s." -> "Parisinus 2742"; 
+    "Ed. XVI et XVIII s." -> "Parisinus 2891"; 
+
+
+    "Ancréon" -> "Palatinus" [style="dashed"]; 
+    "Iscriptions de Cyzique" -> "Palatinus" [style="dashed"]; 
+    "S. Grégoire de Nazianze" -> "Palatinus" [style="dashed"]; 
+    "ekphrasis de Christodoros" -> "Palatinus"[style="dashed"]; 
+    "Iscriptions funéraires chrétiennes" -> "Palatinus" [style="dashed"]; 
+    "ekphrasis de Jean Gaza" -> "Palatinus" [style="dashed"]; 
+    "Epigrammes des IX-X s." -> "Palatinus" [style="dashed"]; 
+
+    "Palatinus" -> "Ed. Saumaise, Jacobs"; 
+    "Palatinus" -> "Sylloge S"; 
+
+}
