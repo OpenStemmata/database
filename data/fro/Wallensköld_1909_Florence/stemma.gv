@@ -4,7 +4,8 @@ digraph {
 3[label="", color="grey"];
 4[label="", color="grey"];
 5[label="", color="grey"];
-O[color="grey"];
+O[label="Orig.", color="grey"];
+D[label="D(?)"]
 O->1;
 1->2;
 2->3;
