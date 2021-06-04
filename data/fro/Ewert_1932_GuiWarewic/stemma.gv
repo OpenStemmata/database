@@ -3,12 +3,12 @@ original[label="", color="grey"]
 1[label="", color="grey"];
 alpha[label="α", color="grey"];
 alphaprime[label="α'", color="grey"];
-alpha2[label="α2"color="grey"];
+alpha2[label="α2", color="grey"];
 beta[label="β", color="grey"];
 betaprime[label="β'", color="grey"];
-beta2[label="β2"color="grey"];
-beta3[label="β3"color="grey"];
-beta4[label="β4"color="grey"];
+beta2[label="β2", color="grey"];
+beta3[label="β3", color="grey"];
+beta4[label="β4", color="grey"];
 x[color="grey"];
 original->x;
 x->alpha;

@@ -4,7 +4,7 @@ digraph {
 alpha[label="α", color="grey"];
 beta[label="β", color="grey"];
 gamma[label="γ", color="grey"];
-omega[, color="grey"];
+omega[label="ω", color="grey"];
 x[color="grey"];
 y[color="grey"];
 omega->alpha;

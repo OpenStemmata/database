@@ -1,7 +1,7 @@
 digraph {
 1[label="", color="grey"];
-alpha2[label="α2"color="grey"];
-alpha3[label="α3"color="grey"];
+alpha2[label="α2", color="grey"];
+alpha3[label="α3", color="grey"];
 beta[label="β", color="grey"];
 chi2[label="χ2", color="grey"];
 kappa[label="κ", color="grey"];
