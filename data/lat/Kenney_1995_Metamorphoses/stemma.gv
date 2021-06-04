@@ -1,0 +1,64 @@
+digraph {
+archetyp [color="grey", label=""];
+delta [label=" Δ"];
+epsilon [label="ɛ"];
+tau1 [label="𝜏(1)"];
+ypsilon [label="υ"];
+beta [label="β"];
+alpha [label="α"];
+x [color="grey", label="(x)"];
+lambda [label="λ"];
+pi [label="π"];
+sigma [label="Σ"];
+phi [label="ϕ"];
+tau [label="τ(4-15)"];
+1 [color="grey", label=""];
+2 [color="grey", label=""];
+3 [color="grey", label=""];
+4 [color="grey", label=""];
+5 [color="grey", label=""];
+6 [color="grey", label=""];
+delta2 [color="grey", label=""];
+pisigma [color="grey", label=""];
+preU [color="grey", label=""];
+GP [color="grey", label=""];
+
+archetyp -> delta;
+archetyp -> alpha;
+archetyp -> x;
+archetyp -> lambda;
+archetyp -> pi [label="?"];
+
+delta -> epsilon;
+epsilon -> tau1;
+delta -> delta2;
+delta2 -> RSWZ;
+delta2 -> 1;
+1 -> 2;
+2 -> 3;
+2 -> ypsilon;
+3 -> beta;
+3 -> M;
+1 -> 4;
+4 -> N;
+4 -> preU;
+preU -> U;
+
+x -> preU [style="dashed"];
+x -> RSWZ [style="dashed"];
+x -> 5 [style="dashed"];
+
+archetyp -> pisigma;
+pisigma -> pi [label="?"];
+pisigma -> sigma;
+sigma -> 5;
+5 -> E;
+5 -> phi;
+sigma -> GP
+GP -> G;
+GP -> P;
+sigma -> 6;
+6 -> F;
+6 -> tau;
+6 -> L;
+}

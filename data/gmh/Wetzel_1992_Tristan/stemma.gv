@@ -1,0 +1,120 @@
+digraph {
+
+    original[color="grey", label="Or."]
+    archetyp[color="grey", label="Z"]
+    X[color="grey"]
+    starXY[color="grey", label="*XY"]
+    Y[color="grey"]
+    1[color="grey", label=""]
+    q1slashq[label="q1/q"]
+    2[color="grey", label=""]
+    f1slashf[label="f1/1"]
+    starF[color="grey", label="*F"]
+    alpha[color="grey", label="α"]
+    beta[color="grey", label="β"]
+    starBEbe[color="grey", label="*BEbe"]
+    starEb[color="grey", label="*Eb"]
+    questionprime[color="grey", label="?"]
+    e1slashe[label="e1/e"]
+    starNRS[color="grey", label="*NRS"]
+    starnN[color="grey", label="*nN"]
+    zslashz1[label="z/z1"]
+    oe[label="ö"]
+    starRS[color="grey", label="*RS"]
+    starS[label="*S"]
+    4[color="grey", label=""]
+    5[color="grey", label=""]
+    starOP[color="grey", label="*OP"]
+    questionsec[color="grey", label="?"]
+    6[color="grey", label=""]
+    preH[color="grey", label=""]
+    preM[color="grey", label=""]
+    pret[color="grey", label=""]
+	
+
+   original -> archetyp
+   archetyp -> X
+   archetyp -> starXY
+   archetyp -> Y
+
+   X -> 1
+   X -> a
+   X -> q1slashq
+   X -> preM
+   preM -> M
+
+   1 -> preH
+   preH -> H
+   1 -> h
+
+   starXY -> 2
+   starXY -> starF
+   starXY -> pret
+   pret -> t
+
+   2 -> m
+   2 -> f1slashf
+
+   Y -> beta
+   Y -> alpha
+
+   M -> starBEbe
+
+   starF -> starBEbe
+   starF -> e1slashe
+   starF -> F
+   starF -> g
+
+   starBEbe -> starEb
+   starBEbe -> e1slashe
+   starBEbe -> N
+   starBEbe -> starNRS
+   starBEbe -> B
+
+   starEb -> b
+
+   b -> E
+
+   questionprime -> E
+
+   alpha -> F 
+   alpha -> starNRS
+
+   starNRS -> starnN
+   starNRS -> l
+   starNRS -> r
+   starNRS -> zslashz1
+   starNRS -> oe
+   starNRS -> starRS
+
+   starnN -> n
+   starnN -> N
+
+   starRS -> R
+   starRS -> starS
+
+   beta -> s
+   beta -> 5
+   beta -> 4
+
+   4 -> w
+   4 -> W
+
+   5 -> v
+   5 -> starOP
+
+   starOP -> P
+   starOP -> 6
+
+   6 -> O
+
+   questionsec -> O
+
+   preH -> starOP [style="dashed"]
+   preM -> alpha [style="dashed"]
+   preM -> 4 [style="dashed"]
+   2 -> B [style="dashed"]
+   pret -> 4 [style="dashed"]
+   6 -> N [style="dashed"]
+
+}

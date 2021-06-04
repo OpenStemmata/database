@@ -1,0 +1,36 @@
+digraph {
+    alpha[color="grey",label="α"];
+    alpha1[color="grey",label="α1"];
+    alpha2[color="grey",label="α2"];
+    beta[color="grey",label="β"];
+    gamma[color="grey",label="γ"];
+    empty1[color="grey",label=""];
+    empty2[color="grey",label=""];
+
+    alpha->alpha1;
+    alpha ->alpha2;
+
+    alpha1->LR19;
+
+    alpha2->empty1;
+    empty1->BN747;
+    empty1->NH;
+
+    alpha2->beta;
+    beta->Darm;
+    beta->BN95;
+    beta->Bonn;
+    beta->OX303;
+    beta->empty2;
+    beta->gamma;
+
+    OX303->BN1426;
+
+    empty2->BN19162;
+    empty2->BN24934;
+
+    gamma->Add10292;
+    gamma->BN749;
+    gamma->BN96;
+    gamma->BN110;
+}
