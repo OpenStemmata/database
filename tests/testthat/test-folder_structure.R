@@ -24,7 +24,7 @@ test_that("subsubfolders are named consistently (FirstEditorLastName_Date_TitleW
   folders = sub("^.*/([^/]+)$", "\\1", Sys.glob("../../data/*/*"))
   # For testing the test
   #folders = c(folders, "NOT_A_Good_Name")
-  well_formed = stringr::str_detect(folders,"^[\\p{Lu}][\\p{Ll}]+\\_\\d\\d\\d\\d[a-z]?\\_[\\p{L}\\-]+$")
+  well_formed = stringr::str_detect(folders,"^[\\p{Lu}][\\p{Ll}]+\\_\\d\\d\\d\\d[a-z]?\\_[\\p{L}\\-]+\d*$")
   errs = paste("Folder not well named: ", folders[!well_formed])
   expect_true(all(well_formed), info = errs)
 })
