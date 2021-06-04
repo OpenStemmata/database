@@ -1,8 +1,10 @@
 digraph {
 1[label="", color="grey"];
 o[color="grey"];
+oprime[label="o'", color="grey"];
 x[color="grey"];
 y[color="grey"];
+oprime->o;
 o->x;
 x->A;
 x->B;
