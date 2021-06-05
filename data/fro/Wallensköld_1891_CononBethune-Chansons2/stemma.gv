@@ -1,0 +1,39 @@
+digraph {
+
+II[color="grey"]
+1[label="", color="grey"]
+2[label="", color="grey"]
+3[label="", color="grey"]
+4[label="", color="grey"]
+5[label="", color="grey"]
+6[label="", color="grey"]
+7[label="", color="grey"]
+8[label="", color="grey"]
+9[label="", color="grey"]
+10[label="", color="grey"]
+
+
+II->1;
+1->H;
+1->y;
+II->2;
+2->3;
+3->C;
+3->4;
+4->U;
+4->I;
+2->5;
+5->O;
+5->6;
+6->7;
+7->x;
+7->V;
+6->8;
+8->N;
+8->9;
+9->K;
+9->10;
+10->X;
+10->P;
+
+}
