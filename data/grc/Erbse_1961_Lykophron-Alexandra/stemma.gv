@@ -1,12 +1,12 @@
 digraph {
-archetyp[color="grey", label="ω"] ;
-AB [color="grey", label=" "] ;
-CD [color="grey", label=" "] ;
-A [label="A (=Marc.)"] ;
-archetyp -> AB ;
-archetyp -> CD ;
-AB -> A ;
-AB -> B ;
-CD -> C ;
-CD -> D ;
+archetyp[color="grey", label="ω"] 
+AB [color="grey", label=" "] 
+CD [color="grey", label=" "] 
+A [label="A (=Marc.)"] 
+archetyp -> AB 
+archetyp -> CD 
+AB -> A 
+AB -> B 
+CD -> C 
+CD -> D 
 }

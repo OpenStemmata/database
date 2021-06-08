@@ -1,27 +1,27 @@
 digraph {
-archetyp[color="grey", label="ω"] ;
-phi [label="Φ"] ;
-pi[color="grey", label="π"] ;
-beta [color="grey", label="β"] ;
-xi [color="grey", label="ξ"] ;
-rho [color="grey", label="ρ"] ;
-sigma [color="grey", label="σ"] ;
-psi [color="grey", label="ψ"] ;
-ThomMag [label="Ausg. des Thom. Mag."] ;
-Trikl [label="Ausg. des Trikl."] ;
-archetyp -> M ;
-archetyp -> phi ;
-phi -> pi ;
-phi -> beta ;
-phi -> ThomMag ;
-beta -> xi ;
-ThomMag -> xi ;
-ThomMag -> rho ;
-ThomMag -> sigma ;
-archetyp -> psi ;
-psi -> Trikl ;
-ThomMag -> Trikl ;
-Trikl -> F ;
-psi -> F ;
-psi -> G ;
+archetyp[color="grey", label="ω"] 
+phi [label="Φ"] 
+pi[color="grey", label="π"] 
+beta [color="grey", label="β"] 
+xi [color="grey", label="ξ"] 
+rho [color="grey", label="ρ"] 
+sigma [color="grey", label="σ"] 
+psi [color="grey", label="ψ"] 
+ThomMag [label="Ausg. des Thom. Mag."] 
+Trikl [label="Ausg. des Trikl."] 
+archetyp -> M 
+archetyp -> phi 
+phi -> pi 
+phi -> beta 
+phi -> ThomMag 
+beta -> xi 
+ThomMag -> xi 
+ThomMag -> rho 
+ThomMag -> sigma 
+archetyp -> psi 
+psi -> Trikl 
+ThomMag -> Trikl 
+Trikl -> F 
+psi -> F 
+psi -> G 
 }
