@@ -1,4 +1,16 @@
 digraph {
+
+    O[color="grey"];
+    x[color="grey"];
+    a[color="grey"];
+    b[color="grey"];
+    z1[color="grey"];
+    i[color="grey"];
+    Astar[color="grey", label="A*"];
+    Pstar[color="grey", label="P*"];
+    Sstar[color="grey", label="S*"];
+    Mstar[color="grey", label="M*"];
+
     O -> x;
     x -> a;
     a -> L;
@@ -15,14 +27,4 @@ digraph {
     Mstar -> M;
     M -> Q;
 
-    O[color="grey"];
-    x[color="grey"];
-    a[color="grey"];
-    b[color="grey"];
-    z1[color="grey"];
-    i[color="grey"];
-    Astar[color="grey", label="A*"];
-    Pstar[color="grey", label="P*"];
-    Sstar[color="grey", label="S*"];
-    Mstar[color="grey", label="M*"];
 }
