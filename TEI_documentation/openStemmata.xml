@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron"
+    xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>OpenStemmata</title>
+                <author xml:id="SG">
+                    <name>Simon Gabay</name>
+                    <idno type="ORCID" n="0000-0001-9094-4475"/>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>
+                    <name>Openstemmata</name>
+                    <ptr target="https://openstemmata.github.io/"/>
+                </authority>
+                <availability>
+                    <licence n="cc.by" target="https://creativecommons.org/licenses/by/4.0"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Created 7/01/2020</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2020-01-08" who="#SG">Adding <gi>elementSpec</gi></change>
+            <change when="2020-01-09" who="#SG">Adding <gi>classSpec</gi></change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <divGen type="toc"/>
+        </front>
+        <body>
+            <div>
+                <head>ODD for the openStemmata project</head>
+                <p>This ODD documents the TEI file agregating metadata and graph</p>
+            </div>
+            <div>
+                <schemaSpec ident="openStemmata" docLang="en" prefix="tei_" xml:lang="en">
+                    <moduleRef key="core"
+                        except="add addrLine address analytic biblStruct binaryObject cb choice cit citedRange corr del distinct divGen editor email emph expan foreign gap gb gloss graphic head headItem headLabel hi imprint index item l lb lg list listBibl measure measureGrp media meeting mentioned milestone monogr num orig p pb postBox postCode publisher q quote ref reg relatedItem rs said sic soCalled sp speaker stage street teiCorpus textLang time unclear unit"/>
+                    <moduleRef key="tei" except=""/>
+                    <moduleRef key="header"
+                        except="abstract appInfo application biblFull cRefPattern calendar calendarDesc catDesc catRef category change classCode classDecl conversion correction correspAction correspContext correspDesc distributor edition editionStmt editorialDecl encodingDesc extent funder geoDecl handNote hyphenation interpretation listChange listPrefixDef namespace normalization prefixDef principal punctuation quotation refState refsDecl rendition revisionDesc samplingDecl schemaRef scriptNote segmentation seriesStmt sponsor stdVals styleDefDecl tagUsage tagsDecl taxonomy unitDecl unitDef xenoData"/>
+                    <moduleRef key="textstructure"
+                        except="argument back byline closer dateline div div1 div2 div3 div4 div5 div6 div7 docAuthor docDate docEdition docImprint docTitle epigraph floatingText front group imprimatur opener postscript salute signed titlePage titlePart trailer"/>
+                    <moduleRef key="msdescription"
+                        except="accMat acquisition additional additions adminInfo altIdentifier binding bindingDesc catchwords collation collection colophon condition custEvent custodialHist decoDesc decoNote depth dim dimensions explicit filiation finalRubric foliation handDesc height heraldry history incipit institution layout layoutDesc locus locusGrp material msContents msDesc msFrag msIdentifier msItem msItemStruct msName msPart musicNotation objectDesc objectType origin physDesc provenance recordHist repository rubric scriptDesc seal sealDesc secFol signatures source stamp summary support supportDesc surrogates typeDesc typeNote watermark width"/>
+                    <moduleRef key="namesdates"
+                        except="addName affiliation age birth bloc climate country death district education event faith floruit forename genName geo geogFeat geogName langKnowledge langKnown listEvent listNym listObject listOrg listPerson listPlace listRelation location nameLink nationality nym object objectIdentifier objectName occupation offset org orgName person personGrp persona place placeName population region relation residence roleName settlement sex socecStatus state surname terrain trait"/>
+                    <moduleRef key="nets"
+                        except="arc forest graph iNode leaf listForest node root tree triangle"/>
+                    <moduleRef key="textcrit"
+                        except="app lacunaEnd lacunaStart lem listApp rdg rdgGrp variantEncoding wit witDetail witEnd witStart"/>
+                    
+                    
+<!-- element -->
+                    
+                    <elementSpec ident="ptr" mode="change">
+                        <attList>
+                            <attDef ident="type" mode="change" usage="rec">
+                                <valList type="closed" mode="add" >
+                                    <valItem ident="digitised"/>
+                                    <valItem ident="description"/>
+                                </valList>
+                            </attDef>
+                            <attDef ident="target" mode="change" usage="rec">
+                                <datatype>
+                                    <dataRef key="teidata.text"/>
+                                </datatype>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    
+                    <elementSpec ident="bibl" mode="change">
+                        <attList>
+                            <attDef ident="type" mode="change" usage="req">
+                                <valList type="closed" mode="add" >
+                                    <valItem ident="book"/>
+                                    <valItem ident="article"/>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    
+                    <elementSpec ident="label" mode="change">
+                        <constraintSpec ident="descId" scheme="schematron">
+                            <constraint>
+                                <sch:rule context="tei:label">
+                                    <sch:assert test="@xml:id" role="error">Please add a @xml:id
+                                        attribute</sch:assert>
+                                    <sch:assert test="matches(@xml:id, 'n_.*')">L'id doit commencer par n_</sch:assert>
+                                </sch:rule>
+                            </constraint>
+                        </constraintSpec>
+                        <attList>
+                            <attDef ident="type" mode="change">
+                                <valList type="closed" mode="add" >
+                                    <valItem ident="hypothetical"/>
+                                </valList>
+                            </attDef>
+                            <attDef ident="rend" mode="change">
+                                <datatype>
+                                    <dataRef key="teidata.text"/>
+                                </datatype>
+                            </attDef>
+                            <attDef ident="xml:id" mode="change" usage="req"/>
+                        </attList>
+                    </elementSpec>
+             
+                    <elementSpec ident="titleStmt" mode="change">
+                        <content> 
+                            <sequence preserveOrder="true"> 
+                                <elementRef key="title"  minOccurs="2" maxOccurs="2"/> 
+                                <elementRef key="author" minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="respStmt" minOccurs="1" maxOccurs="1"/> 
+                            </sequence> 
+                        </content> 
+                    </elementSpec>
+                    
+                    <elementSpec ident="respStmt" mode="change">
+                        <content> 
+                            <sequence preserveOrder="true"> 
+                                <elementRef key="resp"  minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="persName"  minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="idno" minOccurs="1" maxOccurs="1"/> 
+                            </sequence> 
+                        </content> 
+                    </elementSpec>
+                    
+                    <elementSpec ident="editor" mode="change">
+                        <content> 
+                            <sequence preserveOrder="true"> 
+                                <elementRef key="persName"  minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="idno" minOccurs="1" maxOccurs="1"/> 
+                            </sequence> 
+                        </content> 
+                    </elementSpec>
+             
+                    <elementSpec ident="publicationStmt" mode="change">
+                        <content> 
+                            <sequence preserveOrder="true"> 
+                                <elementRef key="authority"  minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="availability" minOccurs="1" maxOccurs="1"/> 
+                            </sequence> 
+                        </content> 
+                    </elementSpec>
+                    
+                    <elementSpec ident="authority" mode="change">
+                        <content> 
+                            <sequence preserveOrder="true"> 
+                                <elementRef key="name"  minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="ptr" minOccurs="1" maxOccurs="1"/> 
+                            </sequence> 
+                        </content> 
+                    </elementSpec>
+                    
+             
+                    <elementSpec ident="bibl" mode="change">
+                        <content> 
+                            <sequence preserveOrder="true"> 
+                                <elementRef key="title"  minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="date" minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="pubPlace" minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="series" minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="biblScope" minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="author" minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="biblScope" minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="ptr" minOccurs="1" maxOccurs="1"/> 
+                            </sequence> 
+                        </content> 
+                    </elementSpec>
+                    
+                    <elementSpec ident="creation" mode="change">
+                        <content> 
+                            <sequence preserveOrder="true"> 
+                                <elementRef key="title"  minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="origDate" minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="origDate" minOccurs="1" maxOccurs="1"/> 
+                            </sequence> 
+                        </content> 
+                    </elementSpec>
+                    
+                    <elementSpec ident="term" mode="change">
+                        <constraintSpec ident="authorityFile" scheme="schematron">
+                            <constraint>
+                                <sch:rule context="tei:term">
+                                    <sch:assert test="@type" role="error">Please add a @type
+                                        attribute</sch:assert>
+                                    <sch:assert test="matches(@type, 'workGenre|stemmaType|contam|extraStemmContam|rootType')">
+                                        The value of @type must be workGenre|stemmaType|contam|extraStemmContam|rootType</sch:assert>
+                                </sch:rule>
+                            </constraint>
+                        </constraintSpec>
+                        <attList>
+                            <attDef ident="type" mode="change" usage="req">
+                                <valList type="closed" mode="add">
+                                    <valItem ident="workGenre"/>
+                                    <valItem ident="stemmaType"/>
+                                    <valItem ident="contam"/>
+                                    <valItem ident="extraStemmContam"/>
+                                    <valItem ident="rootType"/>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    
+                    <elementSpec ident="witness" mode="change">
+                        <content> 
+                            <sequence preserveOrder="true"> 
+                                <elementRef key="abbr" minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="idno" minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="origDate" minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="origPlace" minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="ptr" minOccurs="2" maxOccurs="2"/>
+                                <elementRef key="desc" minOccurs="1" maxOccurs="1"/> 
+                            </sequence> 
+                        </content> 
+                        <constraintSpec ident="descId" scheme="schematron">
+                            <constraint>
+                                <sch:rule context="tei:witness">
+                                    <sch:assert test="@xml:id" role="error">Please add a @xml:id
+                                        attribute</sch:assert>
+                                </sch:rule>
+                            </constraint>
+                        </constraintSpec>
+                    </elementSpec>
+                    
+                    <elementSpec ident="idno" mode="change">
+                        <constraintSpec ident="authorityFile" scheme="schematron">
+                            <constraint>
+                                <sch:rule context="tei:editor//tei:idno|tei:name//tei:idno">
+                                    <sch:assert test="@type" role="error">Please add a @type
+                                        attribute</sch:assert>
+                                    <sch:assert test="matches(@type, 'VIAF|ORCID')">The ide must begin with n_</sch:assert>
+                                </sch:rule>
+                            </constraint>
+                        </constraintSpec>
+                    </elementSpec>
+                    
+                    <elementSpec ident="name" mode="change">
+                        <constraintSpec ident="authorityFile" scheme="schematron">
+                            <constraint>
+                                <sch:rule context="tei:title//tei:name">
+                                    <sch:assert test="@role" role="error">Please add a @role
+                                        attribute</sch:assert>
+                                    <sch:assert test="matches(@role, 'author')">The value of @role is author</sch:assert>
+                                </sch:rule>
+                            </constraint>
+                        </constraintSpec>
+                    </elementSpec>
+                    
+                    <elementSpec ident="language" mode="change">
+                        <attList>
+                            <attDef ident="ident" mode="change" usage="req">
+                                <valList type="closed"  mode="add">
+                                    <valItem ident="fro"/>
+                                    <valItem ident="frm"/>
+                                    <valItem ident="gmh"/>
+                                    <valItem ident="lat"/>
+                                    <valItem ident="dum"/>
+                                    <valItem ident="enm"/>
+                                    <valItem ident="wlm"/>
+                                    <valItem ident="osp"/>
+                                    <valItem ident="pro"/>
+                                    <valItem ident="cat"/>
+                                    <valItem ident="ita"/>
+                                    <valItem ident="grc"/>
+                                    <valItem ident="other"/>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+
+<!-- class -->
+                  
+                    <classSpec ident="att.global.responsibility" type="atts" mode="delete"/>
+                    <classSpec ident="att.global.analytic" type="atts" mode="delete"/>   
+                    <classSpec ident="att.global.facs" type="atts" mode="delete"/>   
+                    <classSpec ident="att.global.change" type="atts" mode="delete"/>   
+                    <classSpec ident="att.global.source" type="atts" mode="delete"/>   
+                    <classSpec ident="att.global.linking" type="atts" mode="delete"/>   
+                    <classSpec ident="att.datable.w3c" type="atts" mode="delete"/> 
+                    <classSpec ident="att.datable.iso" type="atts" mode="delete"/>  
+                    <classSpec ident="att.datable.custom" type="atts" mode="delete"/>  
+                    <classSpec ident="att.datable" type="atts" mode="delete"/> 
+                    <classSpec ident="att.ranging" type="atts" mode="delete"/> 
+                    <classSpec ident="att.canonical" type="atts" mode="delete"/>
+                    <classSpec ident="att.scoping" type="atts" mode="delete"/>   
+                    <classSpec ident="att.written" type="atts" mode="delete"/>
+                    <classSpec ident="att.sortable" type="atts" mode="delete"/>
+                    <classSpec ident="att.cReferencing" type="atts" mode="delete"/>
+                    <classSpec ident="att.editLike" type="atts" mode="delete"/>
+                    <classSpec ident="att.translatable" type="atts" mode="delete"/>
+                    <classSpec ident="att.global.rendition" type="atts" mode="delete"/>
+                    
+                    <classSpec ident="att.dimensions" type="atts" mode="change">
+                        <attList>
+                            <attDef ident="scope" mode="delete"/>
+                            <attDef ident="precision" mode="delete"/>
+                            <attDef ident="extent" mode="delete"/>
+                            <attDef ident="quantity" mode="delete"/>
+                        </attList>
+                    </classSpec>
+                    
+                    <classSpec ident="att.pointing" type="atts" mode="change">
+                        <attList>
+                            <attDef ident="targetLang" mode="delete"/>
+                            <attDef ident="evaluate" mode="delete"/>
+                        </attList>
+                    </classSpec>
+
+                    <classSpec ident="att.typed" type="atts" mode="change">
+                        <attList>
+                            <attDef ident="subtype" mode="delete"/>
+                        </attList>
+                    </classSpec>
+
+                    <classSpec ident="att.global" type="atts" mode="change">
+                        <attList>
+                            <attDef ident="xml:lang" mode="delete"/>
+                            <attDef ident="xml:base" mode="delete"/>
+                            <attDef ident="xml:space" mode="delete"/>
+                        </attList>
+                    </classSpec>
+                    
+                    <classSpec ident="att.naming" type="atts" mode="change">
+                        <attList>
+                            <attDef ident="nymRef" mode="delete"/>
+                        </attList>
+                    </classSpec>
+                    
+                    <classSpec ident="att.personal" type="atts" mode="change">
+                        <attList>
+                            <attDef ident="full" mode="delete"/>
+                            <attDef ident="sort" mode="delete"/>
+                        </attList>
+                    </classSpec>
+                    
+                </schemaSpec>         
+            </div>
+        </body>
+    </text>
+</TEI>
