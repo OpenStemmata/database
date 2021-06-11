@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TEI_documentation/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--<?xml-model href="../../TEI_documentation/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../TEI_documentation/openStemmata.rng"" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -11,8 +11,7 @@
             <author>Paris, Gaston and Pannier, Léopold</author>
             <respStmt>
                <resp>contributed to OpenStemmata by</resp>
-               <persName>Jean-Baptiste Camps</persName>
-               <idno type="ORCID" n="0000-0003-0385-7037"/>
+               <persName ref="https://orcid.org/0000-0003-0385-7037">Jean-Baptiste Camps</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -127,54 +126,99 @@
   </teiHeader>
   <text>
       <body>
-         <eTree type="hypothetical">
-            <label xml:id="n_O">O</label>
-            <eTree>
-               <label xml:id="n_x" type="hypothetical">x</label>
-               <eTree>
-                  <label xml:id="n_a" type="hypothetical">a</label>
-                  <eLeaf>
-                     <label xml:id="n_L">L</label>
-                  </eLeaf>
-                  <eTree>
-                     <label xml:id="n_Astar" type="hypothetical">A*</label>
-                     <eLeaf>
-                        <label xml:id="n_A">A</label>
-                     </eLeaf>
-                  </eTree>
-               </eTree>
-               <eTree>
-                  <label xml:id="n_b" type="hypothetical">b</label>
-                  <eTree>
-                     <label xml:id="n_Pstar" type="hypothetical">P*</label>
-                     <eLeaf>
-                        <label xml:id="n_P">P</label>
-                     </eLeaf>
-                  </eTree>
-                  <eTree>
-                     <label xml:id="n_zl" type="hypothetical">zl</label>
-                     <eTree>
-                        <label xml:id="n_i" type="hypothetical">i</label>
-                        <eTree>
-                           <label xml:id="n_Sstar" type="hypothetical">S*</label>
-                           <eLeaf>
-                              <label xml:id="n_S">S</label>
-                           </eLeaf>
-                        </eTree>
-                        <eTree>
-                           <label type="hypothetical" xml:id="n_Mstar">M*</label>
-                           <eTree>
-                              <label xml:id="n_M">M</label>
-                              <eLeaf>
-                                 <label xml:id="n_Q">Q</label>
-                              </eLeaf>
-                           </eTree>
-                        </eTree>
-                     </eTree>
-                  </eTree>
-               </eTree>
-            </eTree>
-         </eTree>
+         <graph type="directed" order="16" size="14">
+            <label>hypothetical</label>
+            <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1">
+               <label>O</label>
+            </node>
+            <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
+               <label>x</label>
+            </node>
+            <node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="2">
+               <label>a</label>
+            </node>
+            <node xml:id="n_b" type="hypothetical" inDegree="2" outDegree="2">
+               <label>b</label>
+            </node>
+            <node xml:id="n_z1" type="hypothetical" inDegree="1" outDegree="1">
+               <label>z1</label>
+            </node>
+            <node xml:id="n_i" type="hypothetical" inDegree="1" outDegree="2">
+               <label>i</label>
+            </node>
+            <node xml:id="n_Astar" type="hypothetical" inDegree="1" outDegree="1">
+               <label>A*</label>
+            </node>
+            <node xml:id="n_Pstar" type="hypothetical" inDegree="1" outDegree="1">
+               <label>P*</label>
+            </node>
+            <node xml:id="n_Sstar" type="hypothetical" inDegree="1" outDegree="1">
+               <label>S*</label>
+            </node>
+            <node xml:id="n_Mstar" type="hypothetical" inDegree="1" outDegree="1">
+               <label>M*</label>
+            </node>
+            <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+               <label>L</label>
+            </node>
+            <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+               <label>A</label>
+            </node>
+            <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+               <label>P</label>
+            </node>
+            <node xml:id="n_S" type="witness" inDegree="1" outDegree="0">
+               <label>S</label>
+            </node>
+            <node xml:id="n_M" type="witness" inDegree="1" outDegree="1">
+               <label>M</label>
+            </node>
+            <node xml:id="n_Q" type="witness" inDegree="1" outDegree="0">
+               <label>Q</label>
+            </node>
+            <arc from="#n_O" to="#n_x" cert="unknown">
+               <label>filiation</label>
+            </arc>
+            <arc from="#n_x" to="#n_a" cert="unknown">
+               <label>filiation</label>
+            </arc>
+            <arc from="#n_a" to="#n_L" cert="unknown">
+               <label>filiation</label>
+            </arc>
+            <arc from="#n_a" to="#n_Astar" cert="unknown">
+               <label>filiation</label>
+            </arc>
+            <arc from="#n_x" to="#n_b" cert="unknown">
+               <label>filiation</label>
+            </arc>
+            <arc from="#n_b" to="#n_Pstar" cert="unknown">
+               <label>filiation</label>
+            </arc>
+            <arc from="#n_Pstar" to="#n_P" cert="unknown">
+               <label>filiation</label>
+            </arc>
+            <arc from="#n_b" to="#n_z1" cert="unknown">
+               <label>filiation</label>
+            </arc>
+            <arc from="#n_z1" to="#n_i" cert="unknown">
+               <label>filiation</label>
+            </arc>
+            <arc from="#n_i" to="#n_Sstar" cert="unknown">
+               <label>filiation</label>
+            </arc>
+            <arc from="#n_Sstar" to="#n_S" cert="unknown">
+               <label>filiation</label>
+            </arc>
+            <arc from="#n_i" to="#n_Mstar" cert="unknown">
+               <label>filiation</label>
+            </arc>
+            <arc from="#n_Mstart" to="#n_M" cert="unknown">
+               <label>filiation</label>
+            </arc>
+            <arc from="#n_M" to="#n_Q" cert="unknown">
+               <label>filiation</label>
+            </arc>
+         </graph>
       </body>
   </text>
 </TEI>
