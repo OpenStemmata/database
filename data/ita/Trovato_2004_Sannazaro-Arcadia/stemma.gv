@@ -1,0 +1,71 @@
+digraph {
+Na[label="1504Na"]
+Ald[label="1514 Ald"]
+Rusc[label="1515 Rusc"]
+Zopp1[label="1521 Zopp"]
+Zopp2[label="1524 Zopp"]
+Pag[label="1515 Pag"]
+Fi1[label="1515 Fi"]
+Tac[label="1519 Tac"]
+Rusc2[label="1522 Rusc"]
+Fi2[label="1519 Fi"]
+Ald2[label="1534 Ald"]
+Greg[label="1525 Gref"]
+Zopp2[label="1524 Zopp"]
+Zopp3[label="1530 Zopp"]
+Pag2[label="1530-1 Pag"]
+Bind1[label="1531 Bind"]
+Bind2[label="1533 Bind"]
+Bind3[label="1543 Bind"]
+Bind4[label="1545 Bind"]
+Imp[label="1548 Imp"]
+Sess[label="1532 Sess"]
+Zio[label="1538 Zio"]
+Guad1[label="1539 Guad"]
+Guad2[label="1543 Guad"]
+Gio[label="1543 Gio"]
+Gio2[label="1549 Gio"]
+Sta[label="1531 Sta"]
+Na2[label="1507 Na"] 
+Mi1[label="1509 Mi"]
+Mi2[label="1510 Mi"]
+Mi3[label="1512 Mi"]
+
+Bo1516[label="1516 Bo"]
+Bo1520[label="1520 Bo"]
+
+Na->Ald;
+Ald->Rusc;
+Rusc->Zopp1;
+Zopp1->Zopp2;
+Ald->Pag;
+Ald->Fi1;
+Fi1->Tac;
+Tac->Rusc2;
+Fi1->Fi2;
+Ald->Ald2;
+Ald->Greg;
+Ald->Zopp3;
+Zopp3->Pag2;
+Zopp3->Bind1;
+Bind1->Sess;
+Sess->Zio;
+Bind1->Bind2;
+Bind2->Bind3;
+Bind3->Bind4;
+Bind4->Imp;
+Bind1->Guad1;
+Guad1->Guad2;
+Guad2->Gio;
+Gio->Gio2;
+Bind1->Sta;
+Ald->Bo1520;
+Na->Na2;
+Na->Mi1;
+Na->Mi2;
+Na->Mi3;
+Na->Bo1516;
+Sta->Na2[style="dashed"];//this is a bit unclear : where does the arrow go exactly……
+
+}
+
