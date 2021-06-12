@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="../../TEI_documentation/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../TEI_documentation/openStemmata.rng"" type="application/xml"
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="../../schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/openStemmata.rng"" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -16,11 +19,12 @@
          </titleStmt>
          <publicationStmt>
             <authority>
-               <name>Openstemmata</name>
+               <orgName>Openstemmata</orgName>
                <ptr target="https://openstemmata.github.io/"/>
             </authority>
+            <date>2021</date><!-- File creation date? -->
             <availability>
-               <licence n="cc.by" target="https://creativecommons.org/licenses/by/4.0"/>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
             </availability>
          </publicationStmt>
          <notesStmt>
@@ -40,75 +44,68 @@
             </bibl>
             <listWit>
                <witness xml:id="L">
-                  <abbr type="siglum">L</abbr>
+                  <label type="siglum">L</label>
                   <idno>HILDESHEIM,  Sankt Godohard Kirche,  Psautier de Saint-Alban</idno>
                   <origDate>1101-1200</origDate>
                   <origPlace>England (Saint-Albans)</origPlace>
+                  <note>Famous manuscript, perhaps from the 1130's, one of the very rare french ms. for the first half of the XIIth century</note>
                   <ptr type="digitised" target="https://www.abdn.ac.uk/stalbanspsalter/english/translation/trans058.shtml"/>
                   <ptr type="description" target="http://jonas.irht.cnrs.fr/manuscrit/24358"/>
-                  <!-- Mis la note dans un desc… note est refusé -->
-                  <desc>Famous manuscript, perhaps from the 1130's, one of the very rare french ms. for the first half of the XIIth century</desc>
                </witness>
                <witness xml:id="A">
-                  <abbr type="siglum">A</abbr>
+                  <label type="siglum">A</label>
                   <idno>Paris, BnF, NAF 4503 (olim Ashburnham place)</idno>
                   <origDate>1130-1170</origDate>
                   <origPlace>England</origPlace>
+                  <note></note>
                   <ptr type="digitised" />
                   <ptr type="description" target="http://jonas.irht.cnrs.fr/manuscrit/48105"/>
-                  <desc></desc>
                </witness>
                <witness xml:id="P">
-                  <abbr type="siglum">P</abbr>
+                  <label type="siglum">P</label>
                   <idno>Paris, BnF, fr. 19525 (olim Saint-Germain 1856)</idno>
                   <origDate>1280-1300</origDate>
                   <origPlace>England</origPlace>
+                  <note></note>
                   <ptr type="digitised" />
                   <ptr type="description" target="http://jonas.irht.cnrs.fr/manuscrit/45875"/>
-                  <desc></desc>
                </witness>
                <witness xml:id="S">
-                  <abbr type="siglum">S</abbr>
+                  <label type="siglum">S</label>
                   <idno>Paris, BnF, fr. 12471 (olim Suppl. fr. 532)</idno>
                   <origDate/>
                   <origPlace>France</origPlace>
+                  <note>rédaction i, premier témoin</note>
                   <ptr type="digitised" />
                   <ptr type="description" target="http://jonas.irht.cnrs.fr/manuscrit/45789"/>
-                  <desc>rédaction i, premier témoin</desc>
                </witness>
                <witness xml:id="M">
-                  <abbr type="siglum">M</abbr>
+                  <label type="siglum">M</label>
                   <idno>Paris, BnF, fr. 1533</idno>
                   <origDate>1284</origDate>
                   <origPlace></origPlace>
+                  <note>rédaction i, deuxième témoin</note>
                   <ptr type="digitised"/>
                   <ptr type="description" target="http://jonas.irht.cnrs.fr/manuscrit/45620"/>
-                  <desc>rédaction i, deuxième témoin</desc>
                </witness>
                <witness xml:id="Q">
-                  <abbr type="siglum">Q</abbr>
+                  <label type="siglum">Q</label>
                   <idno/>
                   <origDate/>
                   <origPlace/>
+                  <note>Rédaction en quatrain monorimes conservée par six manuscrits</note>
                   <ptr type="digitised"/>
                   <ptr type="description"/>
-                  <desc>Rédaction en quatrain monorimes conservée par six manuscrits</desc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>
         <creation>
-           <title>
-              <name role="author">
-                 <persName>Anonyme</persName>
-                 <idno type="VIAF"/>
-              </name>
-              <title>Chanson de saint Alexis</title>
-              <idno type="VIAF" n="180769076"/>
-           </title>
+           <title ref="http://viaf.org/180769076">Chanson de saint Alexis</title>
+           <persName role="author">Anonyme</persName>
            <origDate>1030-1070</origDate>
-           <origDate>"Normandy ?</origDate>
+           <origPlace>Normandy ?</origPlace>
         </creation>
         <textClass>
            <keywords>
@@ -116,18 +113,21 @@
               <term type="stemmaType">reconstructed</term>
               <term type="contam">no</term>
               <term type="extraStemmContam">no</term>
-              <term type="rootType"/>
+              <term type="rootType">original</term>
            </keywords>
         </textClass>
         <langUsage>
            <language ident="fro"/>
         </langUsage>
      </profileDesc>
+     <revisionDesc>
+        <change when="2021-05-12">Automated generation of the file.</change>
+     </revisionDesc>
   </teiHeader>
   <text>
       <body>
          <graph type="directed" order="16" size="14">
-            <label>hypothetical</label>
+            <label>1</label><!-- Or the stemma number here? -->
             <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1">
                <label>O</label>
             </node>
