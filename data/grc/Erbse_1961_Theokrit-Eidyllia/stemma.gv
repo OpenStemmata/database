@@ -1,0 +1,17 @@
+digraph {
+archetyp [color="grey", label="α"] 
+hyparchetypbeta [color="grey", label="β"] 
+archetyp -> hyparchetypbeta 
+PAnt [label="P. Ant."] 
+archetyp -> PAnt 
+GroupLaur [label="Laur.", color="grey"] 
+GroupVat [label="Vat.", color="grey"] 
+1 [color="grey", label=""] 
+2 [color="grey", label=""] 
+hyparchetypbeta -> 1 
+1 -> K 
+1 -> GroupVat 
+hyparchetypbeta -> 2 
+2 -> GroupLaur 
+2 -> GroupVat 
+}

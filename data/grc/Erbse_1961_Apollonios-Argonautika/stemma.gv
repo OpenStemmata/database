@@ -1,0 +1,18 @@
+digraph {
+archetyp [color="grey", label="ω"] 
+groupm [color="grey", label="m"] 
+VL [color="grey", label=" "] 
+groupw [color="grey", label="w"] 
+groupk [color="grey", label="k"] 
+fivecopies [color="grey", label="5 erhaltene Abschriften"] 
+archetyp -> groupm 
+groupm -> A 
+groupm -> VL 
+VL -> V 
+VL -> L 
+archetyp -> groupw 
+groupw -> S 
+groupw -> G 
+archetyp -> groupk 
+groupk -> fivecopies 
+}

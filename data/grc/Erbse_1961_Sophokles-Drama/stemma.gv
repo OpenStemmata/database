@@ -1,0 +1,10 @@
+digraph {
+archetyp[color="grey", label="ω"] 
+grouplambda [label="λ", color="grey"] 
+palimpsestlambda [label="Λ"] 
+grouprho [label="ρ (GRMQ)", color="grey"] 
+archetyp -> grouplambda 
+grouplambda -> L 
+grouplambda -> palimpsestlambda 
+archetyp -> grouprho 
+}
