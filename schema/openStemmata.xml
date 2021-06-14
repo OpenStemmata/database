@@ -155,8 +155,9 @@
                         <attList>
                             <attDef ident="type" mode="change" usage="req">
                                 <valList type="closed" mode="add" >
-                                    <valItem ident="book"/>
-                                    <valItem ident="article"/>
+                                    <valItem ident="book"><desc>caracterises the bibliographic reference as a book, in the sense of a <gi>monogr</gi>.</desc></valItem>
+                                    <valItem ident="publicationPart"><desc>caracterises the bibliographic reference 
+                                        as a part of a larger publication, i.e. a chapter, an article, conference proceeding, etc., in the sense of an <gi>analytic</gi> element.</desc></valItem>
                                 </valList>
                             </attDef>
                         </attList>
@@ -354,20 +355,30 @@
                     
                     <elementSpec ident="arc" mode="change">
                         <content>
-                            <elementRef key="label"/>
+                            <elementRef key="label" minOccurs="0" maxOccurs="1"/>
                         </content>
                         <constraintSpec ident="arcLabels" scheme="schematron">
-                            <constraint>
+                            <!--<constraint>
                                 <s:assert test="label[parent::arc] = 'filiation' or
                                     label[parent::arc] = 'contamination'
                                     or label[parent::arc] = 'uncertain'
                                     ">arc labels must be equal to 'filiation', 'contamination' or 'uncertain'</s:assert>
-                            </constraint>
+                            </constraint>-->
                         </constraintSpec>
                         <attList>
                             <attDef ident="from" usage="req" mode="change"></attDef>
                             <attDef ident="to" usage="req" mode="change"></attDef>
                             <attDef ident="cert" usage="req" mode="change"></attDef>
+                            <!--<attRef class="att.type" name="type"/>-->
+                            <attDef ident="type" mode="add" ns="http://openstemmata.github.io/odd.html" usage="req">
+                                <defaultVal>filiation</defaultVal>
+                                <valList mode="add" type="closed">
+                                    <valItem ident="filiation">
+                                        <desc>caracterises an edge as a regular filiation.</desc>
+                                    </valItem>
+                                    <valItem ident="contamination"><desc>caracterises an edge as a lateral transmission (i.e., contamination).</desc></valItem>
+                                </valList>
+                            </attDef>
                         </attList>
                     </elementSpec>
 

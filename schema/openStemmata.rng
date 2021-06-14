@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2021-06-14T08:57:02Z. .
+Schema generated from ODD source 2021-06-14T17:54:13Z. .
 TEI Edition: Version 4.2.2. Last updated on
 	9th April 2021, revision 609a109b1
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.2.2/
@@ -1318,9 +1318,9 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
             <choice>
                <value>book</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>article</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">caracterises the bibliographic reference as a book, in the sense of a <code xmlns="http://www.w3.org/1999/xhtml">&lt;monogr&gt;</code>.</a:documentation>
+               <value>publicationPart</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">caracterises the bibliographic reference as a part of a larger publication, i.e. a chapter, an article, conference proceeding, etc., in the sense of an <code xmlns="http://www.w3.org/1999/xhtml">&lt;analytic&gt;</code> element.</a:documentation>
             </choice>
          </attribute>
          <empty/>
@@ -1857,17 +1857,9 @@ Suggested values include: 1] undirected; 2] directed; 3] transitionNetwork; 4] t
    <define name="arc">
       <element name="arc">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(arc) encodes an arc, the connection from one node to another in a graph. [19.1. Graphs and Digraphs]</a:documentation>
-         <ref name="label"/>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="openStemmata-arc-arcLabels-constraint-assert-6">
-            <rule context="tei:arc">
-               <s:assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                         xmlns="http://www.tei-c.org/ns/1.0"
-                         xmlns:s="http://purl.oclc.org/dsdl/schematron"
-                         xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                         test="label[parent::arc] = 'filiation' or                                     label[parent::arc] = 'contamination'                                     or label[parent::arc] = 'uncertain'                                     ">arc labels must be equal to 'filiation', 'contamination' or 'uncertain'</s:assert>
-            </rule>
-         </pattern>
+         <optional>
+            <ref name="label"/>
+         </optional>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.attribute.xmllang"/>
@@ -1886,6 +1878,18 @@ Suggested values include: 1] undirected; 2] directed; 3] transitionNetwork; 4] t
                   <value>unknown</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                </choice>
+            </choice>
+         </attribute>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="type"
+                    ns="http://openstemmata.github.io/odd.html"
+                    a:defaultValue="filiation">
+            <a:documentation/>
+            <choice>
+               <value>filiation</value>
+               <a:documentation>caracterises an edge as a regular filiation.</a:documentation>
+               <value>contamination</value>
+               <a:documentation>caracterises an edge as a lateral transmission (i.e., contamination).</a:documentation>
             </choice>
          </attribute>
          <attribute name="from">

@@ -5,7 +5,7 @@
 <?xml-model href="../../schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../schema/openStemmata.rng"" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -150,81 +150,31 @@
             <node xml:id="n_w" type="witness" inDegree="1" outDegree="0">
                <label>w</label>
             </node>
-            <arc cert="unknown" from="#n_omega" to="#n_alpha">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_alpha" to="#n_O">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_omega" to="#n_beta">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_beta" to="#n_1">
-               <label>filiation</label>
-            </arc>
-            <arc cert="low" from="#n_1" to="#n_w">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_1" to="#n_2">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_2" to="#n_K">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_2" to="#n_n">
-               <label>filiation</label>
-            </arc>
-            <arc cert="low" from="#n_1" to="#n_h">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_beta" to="#n_gamma">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_gamma" to="#n_V4">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_gamma" to="#n_delta">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_delta" to="#n_deltaprime">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_deltaprime" to="#n_C">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_deltaprime" to="#n_V7">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_delta" to="#n_deltasecond">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_deltasecond" to="#n_3">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_3" to="#n_P">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_3" to="#n_F">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_deltasecond" to="#n_4">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_4" to="#n_L">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_4" to="#n_l">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_deltasecond" to="#n_5">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_5" to="#n_T">
-               <label>filiation</label>
-            </arc>
-            <arc cert="unknown" from="#n_5" to="#n_B">
-               <label>filiation</label>
-            </arc>
+            <arc cert="unknown" from="#n_omega" to="#n_alpha" od:type="filiation"/>
+            <arc cert="unknown" from="#n_alpha" to="#n_O" od:type="filiation"/>
+            <arc cert="unknown" from="#n_omega" to="#n_beta" od:type="filiation"/>
+            <arc cert="unknown" from="#n_beta" to="#n_1" od:type="filiation"/>
+            <arc cert="low" from="#n_1" to="#n_w" od:type="filiation"/>
+            <arc cert="unknown" from="#n_1" to="#n_2" od:type="filiation"/>
+            <arc cert="unknown" from="#n_2" to="#n_K" od:type="filiation"/>
+            <arc cert="unknown" from="#n_2" to="#n_n" od:type="filiation"/>
+            <arc cert="low" from="#n_1" to="#n_h" od:type="filiation"/>
+            <arc cert="unknown" from="#n_beta" to="#n_gamma" od:type="filiation"/>
+            <arc cert="unknown" from="#n_gamma" to="#n_V4" od:type="filiation"/>
+            <arc cert="unknown" from="#n_gamma" to="#n_delta" od:type="filiation"/>
+            <arc cert="unknown" from="#n_delta" to="#n_deltaprime" od:type="filiation"/>
+            <arc cert="unknown" from="#n_deltaprime" to="#n_C" od:type="filiation"/>
+            <arc cert="unknown" from="#n_deltaprime" to="#n_V7" od:type="filiation"/>
+            <arc cert="unknown" from="#n_delta" to="#n_deltasecond" od:type="filiation"/>
+            <arc cert="unknown" from="#n_deltasecond" to="#n_3" od:type="filiation"/>
+            <arc cert="unknown" from="#n_3" to="#n_P" od:type="filiation"/>
+            <arc cert="unknown" from="#n_3" to="#n_F" od:type="filiation"/>
+            <arc cert="unknown" from="#n_deltasecond" to="#n_4" od:type="filiation"/>
+            <arc cert="unknown" from="#n_4" to="#n_L" od:type="filiation"/>
+            <arc cert="unknown" from="#n_4" to="#n_l" od:type="filiation"/>
+            <arc cert="unknown" from="#n_deltasecond" to="#n_5" od:type="filiation"/>
+            <arc cert="unknown" from="#n_5" to="#n_T" od:type="filiation"/>
+            <arc cert="unknown" from="#n_5" to="#n_B" od:type="filiation"/>
          </graph>
       </body>
   </text>
