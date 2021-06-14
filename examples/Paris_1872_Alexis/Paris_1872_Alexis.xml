@@ -14,7 +14,7 @@
             <author>Paris, Gaston and Pannier, Léopold</author>
             <respStmt>
                <resp>contributed to OpenStemmata by</resp>
-               <persName ref="https://orcid.org/0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+               <persName ref="http://orcid.org/0000-0003-0385-7037">Jean-Baptiste Camps</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -103,7 +103,7 @@
      <profileDesc>
         <creation>
            <title ref="http://viaf.org/180769076">Chanson de saint Alexis</title>
-           <persName role="author">Anonyme</persName>
+           <persName role="author">Anonyme</persName><!-- Or empty value? -->
            <origDate>1030-1070</origDate>
            <origPlace>Normandy ?</origPlace>
         </creation>

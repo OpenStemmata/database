@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron"
     xmlns:sch="http://purl.oclc.org/dsdl/schematron">
     <teiHeader>
@@ -42,7 +42,7 @@
             </div>
             <div>
                 <head>Specifications</head>
-                <schemaSpec ident="openStemmata" docLang="en" prefix="tei_" xml:lang="en">
+                <schemaSpec ident="openStemmata" docLang="en" xml:lang="en" start="TEI">
                     <!-- TODO: redo the module in a positive way (@include) -->
                     <moduleRef key="core"
                         include="author bibl biblScope date label note ptr pubPlace resp respStmt series term title"/>
@@ -94,7 +94,7 @@
                     <elementSpec ident="sourceDesc" mode="change">
                         <content>
                             <elementRef key="bibl" minOccurs="1" maxOccurs="1"/>
-                            <elementRef key="listWit" minOccurs="1" maxOccurs="1"/>
+                            <elementRef key="listWit" minOccurs="0" maxOccurs="1"/>
                         </content>
                     </elementSpec>
                     
@@ -332,8 +332,8 @@
                         </content>
                         <attList>
                             <attDef ident="xml:id" usage="req" mode="change"/>
-                            <attDef ident="type" mode="change" usage="req">
-                                <valList type="closed">
+                            <attDef ident="type" mode="replace" usage="req">
+                                <valList type="closed" mode="change">
                                     <valItem ident="hypothetical">
                                         <desc>reconstructed node (archetype, subarchetype…)</desc>
                                     </valItem>
@@ -344,6 +344,11 @@
                             </attDef>
                             <attDef ident="inDegree" usage="req" mode="change"/>
                             <attDef ident="outDegree" usage="req" mode="change"/>
+                            <attDef ident="degree" mode="delete"/>
+                            <attDef ident="adj" mode="delete"/>
+                            <attDef ident="adjFrom" mode="delete"/>
+                            <attDef ident="adjTo" mode="delete"/>
+                            <attDef ident="value" mode="delete"/>
                         </attList>
                     </elementSpec>
                     

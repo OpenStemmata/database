@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TEI_documentation/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--<?xml-model href="../../TEI_documentation/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../TEI_documentation/openStemmata.rng"" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="../../schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/openStemmata.rng"" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -11,17 +14,17 @@
             <author>Segre, Cesare</author>
             <respStmt>
                <resp>contributed to OpenStemmata by</resp>
-               <persName>Jean-Baptiste Camps</persName>
-               <idno type="ORCID" n="0000-0003-0385-7037"/>
+               <persName ref="http://orcid.org/0000-0003-0385-7037">Jean-Baptiste Camps</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
             <authority>
-               <name>Openstemmata</name>
+               <orgName>Openstemmata</orgName>
                <ptr target="https://openstemmata.github.io/"/>
             </authority>
+            <date>2021</date><!-- File creation date? -->
             <availability>
-               <licence n="cc.by" target="https://creativecommons.org/licenses/by/4.0"/>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
             </availability>
          </publicationStmt>
          <notesStmt>
@@ -43,16 +46,10 @@
       </fileDesc>
      <profileDesc>
         <creation>
-           <title>
-              <name role="author">
-                 <persName>Anonyme</persName>
-                 <idno type="VIAF"/>
-              </name>
-              <title>Chanson de Roland</title>
-              <idno type="VIAF" n="301374774"/>
-           </title>
+           <title ref="http://viaf.org/301374774">Chanson de Roland</title>
+           <persName role="author">Anonyme</persName><!-- Or empty value? -->
            <origDate>1080-1100</origDate>
-           <origDate>Normandy ?</origDate>
+           <origPlace>Normandy ?</origPlace>
         </creation>
         <textClass>
            <keywords>
@@ -67,87 +64,168 @@
            <language ident="fro"/>
         </langUsage>
      </profileDesc>
+     <revisionDesc>
+        <change when="2021-05-14">Automated generation of the file.</change>
+     </revisionDesc>
   </teiHeader>
   <text>
       <body>
-         <eTree type="hypothetical">
-            <label xml:id="n_Omega">Omega</label>
-            <eTree>
-               <label xml:id="n_alpha" type="hypothetical">alpha</label>
-               <eLeaf>
-                  <label xml:id="n_O">O</label>
-               </eLeaf>
-            </eTree>
-            <eTree>
-               <label xml:id="n_beta"  type="hypothetical"/>
-               <eTree>
-                  <label xml:id="n_1"  type="hypothetical"/>
-                  <eLeaf>
-                     <label xml:id="n_w">w</label>
-                  </eLeaf>
-                  <eTree>
-                     <label xml:id="n_2"  type="hypothetical"/>
-                     <eLeaf>
-                        <label xml:id="n_K">K</label>
-                     </eLeaf>
-                     <eLeaf>
-                        <label xml:id="n_n">n</label>
-                     </eLeaf>
-                  </eTree>
-                  <eLeaf>
-                     <label xml:id="n_h">h</label>
-                  </eLeaf>
-               </eTree>
-               <eTree>
-                  <label xml:id="n_gamma"  type="hypothetical">gamma</label>
-                  <eLeaf>
-                     <label xml:id="n_V4">V4</label>
-                  </eLeaf>
-                  <eTree>
-                     <label xml:id="n_delta" type="hypothetical">delta</label>
-                     <eTree>
-                        <label xml:id="n_deltaprime" type="hypothetical">d'</label>
-                        <eLeaf>
-                           <label xml:id="n_C">C</label>
-                        </eLeaf>
-                        <eLeaf>
-                           <label xml:id="n_V7">V7</label>
-                        </eLeaf>
-                     </eTree>
-                     <eTree>
-                        <label xml:id="n_deltasecond"  type="hypothetical">d''</label>
-                        <eTree>
-                           <label xml:id="n_3" type="hypothetical"/>
-                           <eLeaf>
-                              <label xml:id="n_P">P</label>
-                           </eLeaf>
-                           <eLeaf>
-                              <label xml:id="n_F">F</label>
-                           </eLeaf>
-                        </eTree>
-                        <eTree>
-                           <label xml:id="n_4"  type="hypothetical"/>
-                           <eLeaf>
-                              <label xml:id="n_L">L</label>
-                           </eLeaf>
-                           <eLeaf>
-                              <label xml:id="n_l">l</label>
-                           </eLeaf>
-                        </eTree>
-                        <eTree>
-                           <label xml:id="n_5" type="hypothetical"/>
-                           <eLeaf>
-                              <label xml:id="n_T">T</label>
-                           </eLeaf>
-                           <eLeaf>
-                              <label xml:id="n_B">B</label>
-                           </eLeaf>
-                        </eTree>
-                     </eTree>
-                  </eTree>
-               </eTree>
-            </eTree>
-         </eTree>
+         <graph type="directed" order="26" size="25">
+            <label>1</label>
+            <node xml:id="n_omega" type="hypothetical" inDegree="0" outDegree="2">
+               <label>ω</label>
+            </node>
+            <node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="1">
+               <label>α</label>
+            </node>
+            <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2">
+               <label>β</label>
+            </node>
+            <node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="2">
+               <label>γ</label>
+            </node>
+            <node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="2">
+               <label>δ</label>
+            </node>
+            <node xml:id="n_deltaprime" type="hypothetical" inDegree="1" outDegree="2">
+               <label>δ'</label>
+            </node>
+            <node xml:id="n_deltasecond" type="hypothetical" inDegree="1" outDegree="3">
+               <label>δ''</label>
+            </node>
+            <node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="3">
+               <label/>
+            </node>
+            <node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2">
+               <label/>
+            </node>
+            <node xml:id="n_3" type="hypothetical" inDegree="1" outDegree="2">
+               <label/>
+            </node>
+            <node xml:id="n_4" type="hypothetical" inDegree="1" outDegree="2">
+               <label/>
+            </node>
+            <node xml:id="n_5" type="hypothetical" inDegree="1" outDegree="2">
+               <label/>
+            </node>
+            <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+               <label>B</label>
+            </node>
+            <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+               <label>C</label>
+            </node>
+            <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+               <label>F</label>
+            </node>
+            <node xml:id="n_K" type="witness" inDegree="1" outDegree="0">
+               <label>K</label>
+            </node>
+            <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+               <label>L</label>
+            </node>
+            <node xml:id="n_O" type="witness" inDegree="1" outDegree="0">
+               <label>O</label>
+            </node>
+            <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+               <label>P</label>
+            </node>
+            <node xml:id="n_T" type="witness" inDegree="1" outDegree="0">
+               <label>T</label>
+            </node>
+            <node xml:id="n_V4" type="witness" inDegree="1" outDegree="0">
+               <label>V4</label>
+            </node>
+            <node xml:id="n_V7" type="witness" inDegree="1" outDegree="0">
+               <label>V7</label>
+            </node>
+            <node xml:id="n_h" type="witness" inDegree="1" outDegree="0">
+               <label>h</label>
+            </node>
+            <node xml:id="n_l" type="witness" inDegree="1" outDegree="0">
+               <label>l</label>
+            </node>
+            <node xml:id="n_n" type="witness" inDegree="1" outDegree="0">
+               <label>n</label>
+            </node>
+            <node xml:id="n_w" type="witness" inDegree="1" outDegree="0">
+               <label>w</label>
+            </node>
+            <arc cert="unknown" from="#n_omega" to="#n_alpha">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_alpha" to="#n_O">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_omega" to="#n_beta">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_beta" to="#n_1">
+               <label>filiation</label>
+            </arc>
+            <arc cert="low" from="#n_1" to="#n_w">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_1" to="#n_2">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_2" to="#n_K">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_2" to="#n_n">
+               <label>filiation</label>
+            </arc>
+            <arc cert="low" from="#n_1" to="#n_h">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_beta" to="#n_gamma">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_gamma" to="#n_V4">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_gamma" to="#n_delta">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_delta" to="#n_deltaprime">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_deltaprime" to="#n_C">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_deltaprime" to="#n_V7">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_delta" to="#n_deltasecond">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_deltasecond" to="#n_3">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_3" to="#n_P">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_3" to="#n_F">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_deltasecond" to="#n_4">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_4" to="#n_L">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_4" to="#n_l">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_deltasecond" to="#n_5">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_5" to="#n_T">
+               <label>filiation</label>
+            </arc>
+            <arc cert="unknown" from="#n_5" to="#n_B">
+               <label>filiation</label>
+            </arc>
+         </graph>
       </body>
   </text>
 </TEI>
