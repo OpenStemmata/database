@@ -1,0 +1,18 @@
+digraph {
+Omega[label="Mort Artu P-V", color="grey"];
+f1[color="grey"];
+f[color="grey", label="f (source française des versions ibériques)"];
+dx[color="grey", label="dx (première traduction ibérique)"];
+b[color="grey"];
+n[color="grey"];
+Omega->f1;
+f1->f;
+f->dx;
+dx->D;
+dx->De;
+Omega->S4;
+Omega->b;
+b->B;
+Omega->n;
+n->N1;
+}
