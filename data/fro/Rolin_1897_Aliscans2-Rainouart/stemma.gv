@@ -3,7 +3,7 @@ digraph {
 Original[color="grey"];
 x[color="grey"];
 y[label="Baudus.....y", color="grey"];
-yprime[label="y'", color="grey"];
+y1[label="y1", color="grey"];
 ysec[label="y2+H'", color="grey"]
 xprime[label="x'...Walegrape", color="grey"];
 z[label="z+H'", color="grey"];
@@ -22,8 +22,8 @@ s2[color="grey"]
 
 Original->x;
 x->y;
-y->yprime;
-yprime->M;
+y->y1;
+y1->M;
 y->ysec;
 ysec->s;
 s->s1;

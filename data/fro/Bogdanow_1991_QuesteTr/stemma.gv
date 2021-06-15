@@ -1,6 +1,6 @@
 digraph {
 Y1[label="Queste P-V (ms. du groupe Y1)", color="grey"];
-X[label="Archétype (X) de tous les \n mss. de la Queste Tr. II", color="grey"];
+X[label="Archétype (X) de tous les mss. de la Queste Tr. II", color="grey"];
 X2[color="grey"];
 X3[color="grey"];
 X3a[color="grey"];

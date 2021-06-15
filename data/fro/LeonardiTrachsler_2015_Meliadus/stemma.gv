@@ -2,6 +2,7 @@ digraph {
 alpha[label="α", color="grey"];
 alpha1[label="α1", color="grey"];  
 alpha2[label="[α2]", color="grey"];  
+beta[label="β", color="grey"];
 betaZero[label="β0", color="grey"];
 gamma[label="γ", color="grey"];
 gamma1[label="γ1", color="grey"];
