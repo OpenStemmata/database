@@ -1,0 +1,10 @@
+digraph {
+archetyp[color="grey", label="ω"] 
+groupx [color="grey", label="x"] 
+groupRecentiores [label="Recentiores"] 
+archetyp -> M 
+M -> groupRecentiores 
+archetyp -> groupx 
+groupx -> S 
+groupx -> groupRecentiores [style="dashed"] 
+}

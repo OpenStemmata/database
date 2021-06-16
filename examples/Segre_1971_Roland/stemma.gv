@@ -1,4 +1,18 @@
 digraph {
+
+omega[color="grey", label="ω"]
+    alpha[color="grey", label="α"]
+    beta[color="grey", label="β"]
+    gamma[color="grey", label="γ"]
+    delta[color="grey", label="δ"]
+    deltaprime[color="grey", label="δ’"]
+    deltasecond[color="grey", label="δ’’"]
+    1[color="grey",label=""]
+    2[color="grey",label=""]
+    3[color="grey",label=""]
+    4[color="grey",label=""]
+    5[color="grey",label=""]
+
     omega -> alpha;
     alpha -> O;
     omega -> beta
@@ -24,16 +38,4 @@ digraph {
     deltasecond -> 5
     5 -> T
     5 -> B
-    omega[color="grey", label="ω"]
-    alpha[color="grey", label="α"]
-    beta[color="grey", label="β"]
-    gamma[color="grey", label="γ"]
-    delta[color="grey", label="δ"]
-    deltaprime[color="grey", label="δ’"]
-    deltasecond[color="grey", label="δ’’"]
-    1[color="grey",label=""]
-    2[color="grey",label=""]
-    3[color="grey",label=""]
-    4[color="grey",label=""]
-    5[color="grey",label=""]
 }

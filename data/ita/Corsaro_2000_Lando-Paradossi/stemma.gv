@@ -1,0 +1,12 @@
+digraph {
+L->V1x;
+V1x->V2;
+V2->B;
+B->V1;
+V2->V3;
+V3->V4;
+V4->V5;
+L->Vly;
+L->L2;
+L2->V6;
+}

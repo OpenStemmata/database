@@ -1,0 +1,8 @@
+digraph {
+A [color="grey"] 
+Acorrected [label="Acorr."] 
+groupd [label="d", color="grey"] 
+A -> D 
+A -> Acorrected 
+Acorrected -> groupd 
+}

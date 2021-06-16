@@ -1,0 +1,11 @@
+digraph {
+archetyp[color="grey", label="ω"] 
+Vind [label="Vind."] 
+Vaticanus989 [label="Vat. 989"] 
+hyparchetypy [label="y", color="grey"] 
+groupd [label="d", color="grey"] 
+archetyp -> Vind 
+archetyp -> hyparchetypy 
+hyparchetypy -> Vaticanus989 
+hyparchetypy -> groupd 
+}
