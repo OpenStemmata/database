@@ -1,0 +1,18 @@
+digraph {
+    original[label="O", color="grey"];
+    archetype[label="*EC", color="grey"];
+    AB[label="*AB", color="grey"];
+    DB[label="*DB", color="grey"];
+    B[label="*B", color="grey"];
+    original -> archetype;
+    archetype -> E;
+    archetype -> C;
+    archetype -> AB;
+    AB -> A;
+    AB -> DB;
+    DB -> D;
+    DB -> B
+    B -> Ba;
+    B -> Bb[style="dashed"];
+    Ba -> Bb;
+}
