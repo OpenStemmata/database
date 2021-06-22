@@ -1,0 +1,24 @@
+digraph {
+beta[label="β", color="grey"];
+betaEtoile[label="β*", color="grey"];
+delta[label="δ", color="grey"]
+epsilon[label="ε", color="grey"];
+gamma[label="γ", color="grey"];
+gamma1[label="γ1", color="grey"];
+omega[label="ω=β0", color="grey"];
+356[label="357"]
+358[label="362"]
+omega->betaEtoile;
+betaEtoile->350;
+betaEtoile->beta;
+beta->gamma;
+gamma->338;
+gamma->gamma1;
+gamma1->356;
+gamma1->A2;
+beta->delta;
+delta->358
+omega->epsilon;
+epsilon->L4;
+
+}

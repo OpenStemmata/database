@@ -1,0 +1,30 @@
+digraph {
+1[label="", color="grey"];
+O[color="grey"];
+x[color="grey"];
+y[color="grey"];
+z[color="grey"];
+zprime[color="grey", label="z'"];
+s[color="grey"]
+2[color="grey", label=""]
+yprime[color="grey", label="y'"]
+p[color="grey"]
+a[color="grey"]
+O->z;
+z->zprime;
+zprime->s;
+s->S;
+zprime->x;
+x->2;
+2->B;
+x->C;
+O->1;
+1->D;
+1->yprime;
+yprime->y;
+y->p;
+p->P;
+y->a;
+a->A;
+x->yprime[style="dashed"]; //added
+}

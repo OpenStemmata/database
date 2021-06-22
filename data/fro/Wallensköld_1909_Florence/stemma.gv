@@ -1,0 +1,21 @@
+digraph {
+1[label="", color="grey"];
+2[label="", color="grey"];
+3[label="", color="grey"];
+4[label="", color="grey"];
+5[label="", color="grey"];
+O[label="Orig.", color="grey"];
+D[label="D(?)"]
+O->1;
+1->2;
+2->3;
+3->L;
+3->4;
+4->M;
+4->D;
+2->5;
+5->P;
+5->S;
+1->R;
+O->Q;
+}

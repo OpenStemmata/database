@@ -1,0 +1,43 @@
+digraph {
+Omega[label="Ω", color="grey"]
+X[color="grey"]
+alpha[label="α", color="grey"]
+beta[label="β", color="grey"]
+gamma[label="γ", color="grey"]
+delta[label="δ", color="grey"]
+epsilon[label="ε", color="grey"]
+zeta[label="ζ", color="grey"]
+1[label="", color="grey"]
+2[label="", color="grey"]
+Uetal[label="U et al."]
+Ketal[label="U et al."]
+S1etal[label="S1 et al."]
+
+Omega->X;
+X->alpha;
+alpha->A;
+A->W[color="grey"];
+X->X1;
+X1->X2;
+X2->beta;
+beta->D;
+X2->gamma;
+gamma->1;
+1->O;
+1->Ac;
+gamma->2[color="grey"]
+X1->delta;
+delta->2[color="grey"];
+2->X3[color="grey"];
+X3->epsilon;
+epsilon->W[color="grey"];
+epsilon->Uetal;
+X3->zeta;
+zeta->Ketal;
+Ketal->S1etal;
+delta->V;
+delta->F;
+delta->O1;
+delta->O4;
+
+}

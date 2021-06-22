@@ -1,0 +1,27 @@
+digraph {
+m[color="grey"];
+n[color="grey"];
+Omega[label="Queste P-V (ms. original)", color="grey"];
+X[color="grey"];
+
+Y[color="grey"];
+Y1[color="grey"];
+Z1[color="grey"];
+X1[label="X1 Archétype des mss de la Queste Tr.", color="grey"];
+
+Omega->Y1;
+Y1->X;
+X->X1;
+Omega->Y;
+Y->Z1;
+Z1->D;
+Z1->S1;
+Y->m;
+m->S;
+m->n;
+n->O;
+n->N;
+m->S5[color="grey"];
+Omega->S2[color="grey"];
+Omega->S3[color="grey"];
+}

@@ -1,0 +1,51 @@
+digraph {
+alpha[label="α", color="grey"];
+alpha1[label="α1", color="grey"];  
+alpha2[label="[α2]", color="grey"];  
+beta[label="β", color="grey"];
+betaZero[label="β0", color="grey"];
+gamma[label="γ", color="grey"];
+gamma1[label="γ1", color="grey"];
+
+delta[label="δ", color="grey"]
+delta1[label="δ1", color="grey"];
+delta2[label="δ2", color="grey"];
+delta3[label="δ3", color="grey"];
+delta4[label="δ4", color="grey"];
+omega[label="ω", color="grey"];
+356[label="356-357"]
+358[label="358-363"]
+
+omega->alpha;
+alpha->alpha1;
+alpha1->A1;
+alpha1->Fe;
+alpha1->V2;
+alpha->alpha2;
+alpha2->5243[color="grey"];
+alpha2->Fi[color="grey"];
+alpha2->L1[color="grey"];
+alpha2->350[color="grey"];
+
+omega->betaZero;
+betaZero->350[style="dashed"]
+betaZero->beta;
+beta->gamma;
+gamma->338;
+gamma->gamma1;
+gamma1->356;
+gamma1->A2;
+beta->delta;
+delta->358;
+delta->delta1;
+delta1->delta2;
+delta2->C;
+delta2->delta4;
+delta4->T;
+delta4->L3;
+delta1->delta3;
+delta3->355;
+delta3->Gp;
+
+}
+

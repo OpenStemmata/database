@@ -1,0 +1,30 @@
+digraph {
+1[label="", color="grey"];
+2[label="", color="grey"];
+a[color="grey"];
+b[color="grey"];
+i[color="grey"];
+omega1[label="ω1", color="grey"];
+omega2[label="ω2",color="grey"];
+omega3[label="ω3", color="grey"];
+p[color="grey"];
+omega1->a;
+a->A;
+a->L;
+a->1[style=dashed];
+omega1->omega2;
+omega2->V;
+omega2->omega3;
+omega3->b;
+b->L[style=dashed];
+b->A[style=dashed];
+b->1;
+1->p;
+p->P2;
+p->P;
+1->i;
+i->S;
+i->2;
+2->M;
+2->M2;
+}

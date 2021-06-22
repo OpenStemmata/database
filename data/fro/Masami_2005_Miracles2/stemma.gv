@@ -1,0 +1,11 @@
+digraph {
+alpha[label="α", color="grey"];
+beta[label="β", color="grey"];
+omega[label="ω", color="grey"];
+omega->alpha;
+alpha->L;
+alpha->F;
+omega->beta;
+beta->N;
+beta->R;
+}

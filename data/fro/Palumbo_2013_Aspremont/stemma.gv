@@ -1,0 +1,27 @@
+digraph {
+1[label="", color="grey"];
+2[label="", color="grey"];
+alpha[label="α", color="grey"];
+beta[label="β", color="grey"];
+gamma[label="γ", color="grey"];
+omega[label="ω", color="grey"];
+x[color="grey"];
+y[color="grey"];
+omega->alpha;
+alpha->P2;
+alpha->P3;
+alpha->L2;
+omega->1;
+1->beta;
+beta->W;
+beta->P5;
+1->gamma;
+gamma->2;
+2->L3;
+2->Ch;
+gamma->x;
+x->V6;
+x->y;
+y->Cha;
+y->V4;
+}

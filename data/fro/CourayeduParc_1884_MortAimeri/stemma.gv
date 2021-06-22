@@ -1,0 +1,16 @@
+digraph {
+1[label="", color="grey"];
+o[color="grey"];
+oprime[label="o'", color="grey"];
+x[color="grey"];
+y[color="grey"];
+oprime->o;
+o->x;
+x->A;
+x->B;
+o->y;
+y->C;
+y->1;
+1->D;
+1->D2;
+}

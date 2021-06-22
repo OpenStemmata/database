@@ -1,0 +1,36 @@
+digraph {
+a[color="grey"];
+a1[color="grey"];
+b[color="grey"];
+b1[color="grey"];
+c[color="grey"];
+d[color="grey"];
+d1[color="grey"];
+delta[color="grey", label="δ"]
+gamma[label="γ", color="grey"]
+gammaprime[label="γ'", color="grey"];
+O[color="grey"];
+x[color="grey"];
+z[color="grey"];
+P[label="P(=P1-P2)"]
+O->a;
+a->a1;
+a1->A;
+O->x;
+x->b;
+b->b1;
+b1->B;
+x->z;
+z->c;
+c->gamma;
+gamma->C1;
+gamma->C3;
+c->gammaprime;
+gammaprime->C2;
+z->d;
+d->d1;
+d1->D1;
+d1->D2;
+d->delta;
+delta->P;
+}

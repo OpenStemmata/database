@@ -1,0 +1,57 @@
+digraph {
+1[label="", color="grey"];
+beta[label="β", color="grey"];
+betaEtoile[label="β*", color="grey"];
+betax[label="βx", color="grey"]
+betay[label="βy", color="grey"];
+delta[label="δ", color="grey"]
+delta1[label="δ1", color="grey"];
+delta2[label="δ2", color="grey"];
+delta1x[label="δ1x", color="grey"];
+delta1y[label="δ1y", color="grey"];
+delta3[label="δ3", color="grey"];
+epsilon[label="ε", color="grey"];
+epsilon1[label="ε1", color="grey"];
+epsilon2[label="ε2", color="grey"];
+epsilon3[label="ε3", color="grey"];
+gamma[label="γ", color="grey"];
+gamma1[label="γ1", color="grey"];
+omega[label="ω=β0", color="grey"];
+356[label="356-357"]
+357[label="357*"]
+358[label="358-363"]
+A2Etoile[label="A2*"]
+omega->betaEtoile;
+betaEtoile->betax;
+betax->350;
+betaEtoile->betay;
+betay->Pr;
+betay->beta;
+beta->gamma;
+gamma->338;
+gamma->gamma1;
+gamma1->356;
+gamma1->A2;
+beta->delta;
+delta->358
+omega->epsilon;
+epsilon->L4;
+epsilon->epsilon1;
+epsilon1->L2;
+epsilon1->epsilon2;
+epsilon2->1;
+1->V1;
+1->Fi;
+epsilon2->epsilon3;
+epsilon3->delta1;
+delta1->delta1x;
+delta1x->delta2;
+delta2->C;
+delta1x->delta3;
+delta3->355;
+delta3->Ver;
+delta1->delta1y;
+delta1y->357;
+delta1y->A2Etoile;
+epsilon3->Mar;
+}

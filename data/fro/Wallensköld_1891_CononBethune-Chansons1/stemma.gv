@@ -1,0 +1,17 @@
+digraph {
+
+I[color="grey"]
+1[label="", color="grey"]
+2[label="", color="grey"]
+3[label="", color="grey"]
+
+I->1;
+1->2;
+2->3;
+3->T;
+3->M;
+2->e;
+1->R;
+I->a;
+
+}

@@ -1,0 +1,19 @@
+digraph {
+A[color="grey"];
+B[color="grey"];
+X[color="grey"]
+Xprime[label="X'", color="grey"];
+Y[color="grey"];
+1[color="grey",label=""]
+X->Xprime;
+Xprime->A;
+A->A1;
+A->A2;
+Xprime->Y;
+Y->B;
+B->B1;
+B->B2;
+Y->1; // added (contamination mentioned in the text)
+1->C; //added
+1->A1[style="dashed"] //added
+}

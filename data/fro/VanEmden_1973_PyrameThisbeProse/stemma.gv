@@ -1,0 +1,20 @@
+digraph {
+PT[label="P. et T. (Ovide moralisé)", color="grey"]
+O[label="O (Mise en prose)", color="grey"]
+X[color="grey"];
+Y[color="grey"];
+Z[color="grey"];
+PT->O;
+O->X;
+X->Y;
+Y->Z;
+Z->L;
+Z->C;
+Y->M;
+M->V1;
+V1->V3;
+V3->V4;
+V4->W;
+V1->V2;
+X->P;
+}

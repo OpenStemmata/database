@@ -1,0 +1,58 @@
+digraph {
+
+Original[color="grey"];
+x[color="grey"];
+y[label="Baudus.....y", color="grey"];
+y1[label="y1", color="grey"];
+ysec[label="y2+H'", color="grey"]
+xprime[label="x'...Walegrape", color="grey"];
+z[label="z+H'", color="grey"];
+zprime[label="z'", color="grey"];
+H[label="H....Heirat", color="grey"];
+Hprime[label="H'", color="grey"];
+r[color="grey"]
+r1[color="grey"]
+r2[color="grey"]
+o1[color="grey"]
+o2[color="grey"]
+p[color="grey"]
+s[color="grey"]
+s1[color="grey"]
+s2[color="grey"]
+
+Original->x;
+x->y;
+y->y1;
+y1->M;
+y->ysec;
+ysec->s;
+s->s1;
+s1->L;
+s1->s2;
+s2->r;
+r->r1;
+r1->o2;
+o2->C;
+o2->e;
+r1->o1;
+o1->A;
+o1->p;
+p->B;
+B->T;
+B->b;
+r->r2;
+r2->d;
+r2->P;
+s1->V;
+s->a;
+x->xprime;
+xprime->z;
+z->zprime;
+zprime->r
+z->f;
+Original->H;
+H->Hprime;
+Hprime->ysec[style="dashed"];
+Hprime->z[style="dashed"];
+
+}

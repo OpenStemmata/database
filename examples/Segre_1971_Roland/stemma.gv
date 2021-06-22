@@ -1,6 +1,6 @@
 digraph {
 
-    omega[color="grey", label="ω"]
+omega[color="grey", label="ω"]
     alpha[color="grey", label="α"]
     beta[color="grey", label="β"]
     gamma[color="grey", label="γ"]
@@ -38,5 +38,4 @@ digraph {
     deltasecond -> 5
     5 -> T
     5 -> B
-
 }
