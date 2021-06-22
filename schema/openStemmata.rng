@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2021-06-14T17:54:13Z. .
+Schema generated from ODD source 2021-06-22T14:42:33Z. .
 TEI Edition: Version 4.2.2. Last updated on
 	9th April 2021, revision 609a109b1
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.2.2/
@@ -365,22 +365,14 @@ Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] 
          </attribute>
       </optional>
    </define>
-   <define name="att.internetMedia.attributes">
-      <ref name="att.internetMedia.attribute.mimeType"/>
+   <define name="att.resourced.attributes">
+      <ref name="att.resourced.attribute.url"/>
    </define>
-   <define name="att.internetMedia.attribute.mimeType">
-      <optional>
-         <attribute name="mimeType">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(MIME media type) specifies the applicable multimedia internet mail extension (MIME) media type</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="token">
-                     <param name="pattern">[^\p{C}\p{Z}]+</param>
-                  </data>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
+   <define name="att.resourced.attribute.url">
+      <attribute name="url">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(uniform resource locator) specifies the URL from which the media concerned may be obtained.</a:documentation>
+         <data type="anyURI"/>
+      </attribute>
    </define>
    <define name="att.naming.attributes">
       <ref name="att.canonical.attributes"/>
@@ -694,7 +686,9 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
       <notAllowed/>
    </define>
    <define name="model.graphicLike">
-      <notAllowed/>
+      <choice>
+         <ref name="graphic"/>
+      </choice>
    </define>
    <define name="model.offsetLike">
       <notAllowed/>
@@ -895,6 +889,9 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
          <ref name="licence"/>
       </choice>
    </define>
+   <define name="model.descLike">
+      <notAllowed/>
+   </define>
    <define name="model.quoteLike">
       <notAllowed/>
    </define>
@@ -1064,11 +1061,6 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
          <ref name="model.pPart.data"/>
       </choice>
    </define>
-   <define name="model.resource">
-      <choice>
-         <ref name="text"/>
-      </choice>
-   </define>
    <define name="att.personal.attributes">
       <ref name="att.naming.attributes"/>
    </define>
@@ -1143,7 +1135,6 @@ attributes @target and @cRef may be supplied on <name/>.</report>
             </rule>
          </pattern>
          <ref name="att.global.attributes"/>
-         <ref name="att.internetMedia.attributes"/>
          <optional>
             <attribute name="target">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the destination of the reference by supplying one or more URI References</a:documentation>
@@ -1190,6 +1181,17 @@ attributes @target and @cRef may be supplied on <name/>.</report>
          <ref name="att.pointing.attributes"/>
          <ref name="att.typed.attributes"/>
          <ref name="att.anchoring.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="graphic">
+      <element name="graphic">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(graphic) indicates the location of a graphic or illustration, either forming part of a text, or providing an image of it. [3.10. Graphics and Other Non-textual Components 11.1. Digital Facsimiles]</a:documentation>
+         <zeroOrMore>
+            <ref name="model.descLike"/>
+         </zeroOrMore>
+         <ref name="att.global.attributes"/>
+         <ref name="att.resourced.attributes"/>
          <empty/>
       </element>
    </define>
@@ -1631,22 +1633,9 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
    <define name="TEI">
       <element name="TEI">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI document) contains a single TEI-conformant document, combining a single TEI header with one or more members of the model.resource class. Multiple <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> elements may be combined within a <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> (or <code xmlns="http://www.w3.org/1999/xhtml">&lt;teiCorpus&gt;</code>) element. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
-         <group>
-            <ref name="teiHeader"/>
-            <choice>
-               <group>
-                  <oneOrMore>
-                     <ref name="model.resource"/>
-                  </oneOrMore>
-                  <zeroOrMore>
-                     <ref name="TEI"/>
-                  </zeroOrMore>
-               </group>
-               <oneOrMore>
-                  <ref name="TEI"/>
-               </oneOrMore>
-            </choice>
-         </group>
+         <ref name="teiHeader"/>
+         <ref name="facsimile"/>
+         <ref name="text"/>
          <sch:ns xmlns:rng="http://relaxng.org/ns/structure/1.0"
                  xmlns="http://www.tei-c.org/ns/1.0"
                  xmlns:s="http://purl.oclc.org/dsdl/schematron"
@@ -1701,6 +1690,20 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
       <element name="body">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text body) contains the whole body of a single unitary text, excluding any front or back matter. [4. Default Text Structure]</a:documentation>
          <ref name="graph"/>
+         <ref name="att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="facsimile">
+      <element name="facsimile">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a representation of some written source in the form of a set of images rather than as transcribed or encoded text. [11.1. Digital Facsimiles]</a:documentation>
+         <group>
+            <oneOrMore>
+               <choice>
+                  <ref name="model.graphicLike"/>
+               </choice>
+            </oneOrMore>
+         </group>
          <ref name="att.global.attributes"/>
          <empty/>
       </element>
