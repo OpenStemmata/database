@@ -4,7 +4,7 @@ O[label="O", color="grey"];
 Oprime[label="O'", color="grey"];
 x[color="grey"];
 y[color="grey"];
-O->Oprime;
+O->Oprime[color="grey"];
 Oprime->x;
 x->a;
 a->A;

@@ -22,10 +22,10 @@ alpha1->A1;
 alpha1->Fe;
 alpha1->V2;
 alpha->alpha2;
-alpha2->5243[style="uncert"];
-alpha2->Fi[style="uncert"];
-alpha2->L1[style="uncert"];
-alpha2->350[style="uncert"];
+alpha2->5243[color="grey"];
+alpha2->Fi[color="grey"];
+alpha2->L1[color="grey"];
+alpha2->350[color="grey"];
 
 omega->betaZero;
 betaZero->350[style="dashed"]

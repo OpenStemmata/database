@@ -17,9 +17,9 @@ omega[label="ω=β0", color="grey"];
 356[label="356-357"]
 358[label="360-361"]
 
-omega->betax;
-betax->Mar;
-betax->betax1;
+omega->betax[color="grey"];
+betax->Mar[color="grey"];
+betax->betax1[color="grey"];
 betax1->350;
 betax1->betax2;
 betax2->Pi;

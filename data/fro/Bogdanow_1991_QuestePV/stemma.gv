@@ -21,7 +21,7 @@ m->S;
 m->n;
 n->O;
 n->N;
-m->S5[style=uncert];
-Omega->S2[style=uncert];
-Omega->S3[style=uncert];
+m->S5[color="grey"];
+Omega->S2[color="grey"];
+Omega->S3[color="grey"];
 }

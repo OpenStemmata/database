@@ -1,4 +1,5 @@
 digraph {
+beta[label="β", color="grey"];
 betaEtoile[label="β*", color="grey"];
 delta[label="δ", color="grey"]
 epsilon[label="ε", color="grey"];

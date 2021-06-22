@@ -6,7 +6,7 @@ O2[color="grey"];
 y[color="grey"]
 x[color="grey"];
 z[color="grey"];
-O->O2;
+O->O2[color="grey"];
 O2->x;
 x->A;
 x->b;
