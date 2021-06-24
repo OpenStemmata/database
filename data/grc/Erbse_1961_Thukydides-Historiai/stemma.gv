@@ -1,12 +1,12 @@
 digraph {
-archetyp[color="grey", label="Ω"] ;
-hyparchetypa [label="a", color="grey"] ;
-hyparchetypphi [label="Min.-Ex. (φ)", color="grey"] ;
-hyparchetypzeta [label="ζ", color="grey"] ;
-hyparchetypomega [label="ω", color="grey"] ;
-groupb [label="b", color="grey"] ;
-groupc [label="c", color="grey"] ;
-collationcopy [label="Koll.-Ex.", color="grey"] ;
+archetyp[color="grey", label="Ω"] 
+hyparchetypa [label="a", color="grey"] 
+hyparchetypphi [label="Min.-Ex. (φ)", color="grey"] 
+hyparchetypzeta [label="ζ", color="grey"] 
+hyparchetypomega [label="ω", color="grey"] 
+groupb [label="b", color="grey"] 
+groupc [label="c", color="grey"]
+collationcopy [label="Koll.-Ex.", color="grey"] 
 1 [color="grey", label=" "]
 2 [color="grey", label=" "]
 3 [color="grey", label=" "]

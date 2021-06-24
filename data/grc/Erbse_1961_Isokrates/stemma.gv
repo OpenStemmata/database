@@ -1,15 +1,15 @@
 digraph {
-archetyp[color="grey", label="ω"] ;
-hyparchetypalpha [color="grey", label="α"] ;
-hyparchetypbeta [color="grey", label="β"] ;
-gamma [label="Γ"] ;
-delta [label="Δ"] ;
-theta [label="Θ"] ;
-lambda [label="Λ"] ;
-piandny [label="", color="grey"] ;
-pi [label="Π"];
-pi [label="Ν"];
-epsilon [label="E"] ;
+archetyp[color="grey", label="ω"] 
+hyparchetypalpha [color="grey", label="α"] 
+hyparchetypbeta [color="grey", label="β"] 
+gamma [label="Γ"] 
+delta [label="Δ"] 
+theta [label="Θ"] 
+lambda [label="Λ"] 
+piandny [label="", color="grey"] 
+pi [label="Π"]
+pi [label="Ν"]
+epsilon [label="E"] 
 archetyp -> gamma ;
 gamma -> delta ;
 delta -> epsilon ;

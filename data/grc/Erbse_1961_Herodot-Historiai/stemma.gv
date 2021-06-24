@@ -1,11 +1,11 @@
 digraph {
-archetyp[color="grey", label="ω"] ;
-groupalpha[color="grey", label="α"] ;
-groupbeta[color="grey", label="β"] ;
-1[color="grey", label=" "] ;
-2[color="grey", label=" "] ;
-SandV[label="", color="grey"] ;
-archetyp -> groupalpha ;
+archetyp[color="grey", label="ω"] 
+groupalpha[color="grey", label="α"] 
+groupbeta[color="grey", label="β"] 
+1[color="grey", label=" "] 
+2[color="grey", label=" "] 
+SandV[label="", color="grey"] 
+archetyp -> groupalpha ; 
 archetyp -> groupbeta ;
 groupalpha -> 1 ;
 1 -> A ;
