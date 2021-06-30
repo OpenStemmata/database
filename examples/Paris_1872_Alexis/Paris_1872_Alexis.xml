@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <?xml-model href="../../schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../schema/openStemmata.rng"" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
       <fileDesc>
@@ -124,10 +124,13 @@
         <change when="2021-05-12">Automated generation of the file.</change>
      </revisionDesc>
   </teiHeader>
-  <text>
+   <facsimile>
+      <graphic url="./stemma.png"/>
+   </facsimile>
+   <text>
       <body>
          <graph type="directed" order="16" size="14">
-            <label>1</label><!-- Or the stemma number here? -->
+            <label>1</label>
             <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1">
                <label>O</label>
             </node>
