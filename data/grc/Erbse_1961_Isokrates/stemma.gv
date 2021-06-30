@@ -8,7 +8,6 @@ theta [label="Θ"]
 lambda [label="Λ"] 
 piandny [label="", color="grey"] 
 pi [label="Π"]
-pi [label="Ν"]
 epsilon [label="E"] 
 archetyp -> gamma ;
 gamma -> delta ;
@@ -19,5 +18,5 @@ hyparchetypalpha -> hyparchetypbeta ;
 hyparchetypbeta -> lambda ;
 hyparchetypbeta -> piandny ;
 piandny -> pi;
-piandny -> ny;
+piandny -> N;
 }

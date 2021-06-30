@@ -9,8 +9,8 @@ sigma [color="grey", label="Σ ?"] ;
 phi [color="grey", label="Φ ?"] ; 
 picturelesseditions [color="grey", label="Bilderlose Hss."]
 archetyp -> editioncommentedbyProbus ;
-archetyp -> Cicerocomment [style="dotted"] ;
-archetyp -> Varrocomment [style="dotted"];
+archetyp -> Cicerocomment [color="grey"] ;
+archetyp -> Varrocomment [color="grey"];
 editioncommentedbyProbus -> phi ;
 phi -> A ;
 phi -> sigma ;
