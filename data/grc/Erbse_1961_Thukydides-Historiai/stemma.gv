@@ -1,0 +1,38 @@
+digraph {
+archetyp[color="grey", label="Ω"] 
+hyparchetypa [label="a", color="grey"] 
+hyparchetypphi [label="Min.-Ex. (φ)", color="grey"] 
+hyparchetypzeta [label="ζ", color="grey"] 
+hyparchetypomega [label="ω", color="grey"] 
+groupb [label="b", color="grey"] 
+groupc [label="c", color="grey"]
+collationcopy [label="Koll.-Ex.", color="grey"] 
+1 [color="grey", label=" "]
+2 [color="grey", label=" "]
+3 [color="grey", label=" "]
+archetyp -> hyparchetypphi ;
+hyparchetypphi -> hyparchetypa ;
+hyparchetypphi -> collationcopy ;
+hyparchetypa -> groupc ;
+hyparchetypa -> groupb ;
+groupc -> C ;
+groupc -> G ;
+groupb -> M ;
+archetyp -> hyparchetypomega ;
+hyparchetypomega -> hyparchetypzeta ;
+groupb -> 1 ;
+1 -> E ;
+1 -> 2 ;
+2 -> F ;
+2 -> 3 ;
+3 -> A ;
+3 -> hyparchetypzeta ;
+hyparchetypzeta -> H ;
+hyparchetypzeta -> B ;
+groupc -> M [style="dashed"] ;
+groupc -> E [style="dashed"] ;
+groupb -> G [style="dashed"] ;
+collationcopy -> G [style="dashed"] ;
+collationcopy -> M [style="dashed"] ;
+collationcopy -> F [style="dashed"] ;
+}

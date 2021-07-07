@@ -1,0 +1,20 @@
+digraph {
+archetyp[color="grey", label="ω"] 
+hyparchetypy [color="grey", label="y"] 
+phi [color="grey", label="Φ"] 
+groupv [color="grey", label="v"] 
+alpha [label="Α"] 
+gamma [label="Γ"] 
+theta [label="Θ"] 
+eplusgamma [label="E (Γ³)"] 
+archetyp -> R ;
+archetyp -> hyparchetypy ;
+hyparchetypy -> phi ;
+hyparchetypy -> groupv ;
+phi -> alpha ;
+phi -> gamma ;
+phi -> theta ;
+phi -> U ;
+groupv -> eplusgamma ;
+groupv -> V ;
+}

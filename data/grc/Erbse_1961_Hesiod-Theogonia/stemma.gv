@@ -1,0 +1,15 @@
+digraph {
+archetyp[color="grey", label="ω"] 
+groupb [color="grey", label="b"] 
+groupdelta [color="grey", label="δ"] 
+groupy [color="grey", label="y"] 
+archetyp -> groupb ;
+archetyp -> C [color="grey"] ;
+archetyp -> groupdelta ;
+groupb -> E ;
+groupb -> F ;
+groupdelta -> D ;
+groupdelta -> groupy ;
+groupy -> K ;
+groupy -> L ;
+}
