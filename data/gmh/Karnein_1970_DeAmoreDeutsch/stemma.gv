@@ -1,0 +1,35 @@
+digraph {
+Hartlieb [color="grey"] ;
+Archetypus [color="grey"] ;
+x [color="grey"] ;
+y [color="grey"] ;
+y₁ [color="grey"] ;
+y₂ [color="grey"] ;
+y₂₁ [color="grey", label="y₂.₁"] ;
+y₂₂ [color="grey", label="y₂.₂"] ;
+z [color="grey"] ;
+M₄ [label="M₄(?)"] ;
+Hartlieb -> Archetypus ;
+Archetypus -> x ;
+Archetypus -> y ;
+Archetypus -> z ;
+x -> D₁ ;
+y -> y₁ ;
+y -> y₂ ;
+y₁ -> E ;
+y₁ -> M₄ ;
+y₁ -> G ;
+E -> M₂ ;
+y₂ -> y₂₁ ;
+y₂ -> y₂₂ ;
+y₂₁ -> M₁ ;
+y₂₁ -> W ;
+y₂₁ -> L ;
+y₂₂ -> D₂ ;
+y₂₂ -> I₁ ;
+I₁ -> I₂ ;
+I₁ -> I₃ ;
+z -> M₃ ;
+}
+
+
