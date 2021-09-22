@@ -2,7 +2,7 @@ digraph {
 A [color="grey"] ;
 X [color="grey"] ;
 Y [color="grey"] ;
-ZZxZy [color="grey", label="Z\nZx/Zy"] ;
+ZZxZy [color="grey", label="Z Zx/Zy"] ;
 Gstar [color="grey", label="*G"] ;
 Nystar [color="grey", label="*Ny"] ;
 WM2star [color="grey", label="*WM2"] ;
@@ -29,5 +29,4 @@ Y1 -> P ;
 Y1 -> H ;
 Y2 -> L ;
 }
-
 
