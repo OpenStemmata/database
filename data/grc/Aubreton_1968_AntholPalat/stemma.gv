@@ -1,61 +1,97 @@
 
 digraph {
 
+    EdSaum[label="Ed. Saumaise, Jacobs"];
+    syllS[label="Sylloge S"];
+    RecEpiScriAno[label="Recueil d'épigrammes scripturaires anonymes"]; 
+    Mele[label="Couronne de Méléagre"]; 
+    CourPhi[label="Couronne de Philippe"]; 
+    EdLeoTarRufLuci[label="Editions de Léonidas de Tarente, Rufin, Lucillius"]; 
+    Anthologeion[label="Anthologeion de Diogénien, Editions de Straton"];
+    syllSigma[label="Sylloge Σ"]; 
+    syllE[label="Sylloge E"]; 
+    syllF[label="Sylloge F"]; 
+    anthoPerdue[label="Anthologie perdue"]; 
+    1[label="", color="grey"];
+    edPallad[label="Edition de Palladas?"];
+    cyclAgad[label="Cycle d'Agathias"];
+    metaNonnus[label="Métaphrase de Nonnus"];
+    ekphraChristo[label="ekphrasis de Christodoros"];
+    anthoCéphal[label="Anthologie de Céphalas"];
+    syllSigmaPi[label="Sylloge Σπ"];
+    plana[label="Plan. a"];
+    syllK[label="Sylloge K"];
+    planb[label="Plan. b"];
+    parisinus[label="Parisinus 2739"];
+    parisinusautre[label="Parisinus 2744"];
+    parisinuster[label="Parisinus 2742"];
+    parisinusquart[label="Parisinus 2741"];
+    parisinusquint[label="Parisinus 2891"];
+    edXVIXVII[label="Ed. XVI et XVIII s."];
+    2[label="", color="grey"];
+    laurentianus[label="Laurentianus Gr XXXI_28"];
+    syllVB[label="Sylloge VB"];
+    ancreon[label="Ancréon"];
+    cyzique[label="Iscriptions de Cyzique"];
+    nazianze[label="S. Grégoire de Nazianze"];
+    christodoros[label="ekphrasis de Christodoros"];
+    inscFuneraires[label="Inscriptions funéraires chrétiennes"];
+    gaza[label="ekphrasis de Jean Gaza"];
+    epigrNeufDix[label="Epigrammes des IX-X s."];
+    
     1 -> Simonide; 
-    1 -> "Recueil d'épigrammes scripturaires anonymes"; 
-    1 -> "Couronne de Méléagre"; 
-    1 -> "Couronne de Philippe"; 
-    1 -> "Editions de Léonidas de Tarente, Rufin, Lucillius"; 
-    1 -> "Anthologeion de Diogénien, Editions de Straton";
-    1 -> "Sylloge Σ"; 
-    1 -> "Sylloge E"; 
-    1 -> "Sylloge F"; 
-    1 -> "Anthologie perdue"; 
+    1 -> RecEpiScriAno; 
+    1 -> Mele; 
+    1 -> CourPhi; 
+    1 -> EdLeoTarRufLuci; 
+    1 -> Anthologeion;
+    1 -> syllSigma; 
+    1 -> syllE; 
+    1 -> syllF; 
+    1 -> anthoPerdue; 
 
-    1 [label="", color="grey"]; 
+    anthoPerdue -> edPallad;
+    anthoPerdue -> cyclAgad;
+    anthoPerdue -> metaNonnus [style="dashed"];
+    anthoPerdue -> ekphraChristo [style="dashed"];
+    anthoPerdue -> Palat[label="Palatinus"]; 
+    anthoPerdue -> anthoCéphal;
+    anthoPerdue -> syllS; 
+    anthoPerdue -> syllSigmaPi; 
+    anthoPerdue -> plana; 
+    anthoPerdue -> syllK [style="dashed"]; 
+    syllK -> Matritensis; 
+    anthoPerdue -> planb; 
 
-    "Anthologie perdue" -> "Edition de Palladas?";
-    "Anthologie perdue" -> "Cycle d'Agathias";
-    "Anthologie perdue" -> "Métaphrase de Nonnus" [style="dashed"];
-    "Anthologie perdue" -> "ekphrasis de Christodoros" [style="dashed"];
-    "Anthologie perdue" -> "Palatinus"; 
-    "Anthologie perdue" -> "Anthologie de Céphalas";
-    "Anthologie perdue" -> "Sylloge S"; 
-    "Anthologie perdue" -> "Sylloge Σπ"; 
-    "Anthologie perdue" -> "Plan. a"; 
-    "Anthologie perdue" -> "Sylloge K" [style="dashed"]; 
-    "Sylloge K" -> "Matritensis"; 
-    "Anthologie perdue" -> "Plan. b"; 
+    planb -> syllVB; 
+    planb -> Marcianus; 
+    Marcianus -> Londinensis; 
+    Marcianus -> parisinusautre; 
 
-    "Plan. b" -> "Sylloge VB"; 
-    "Plan. b" -> "Marcianus"; 
-    "Marcianus" -> "Londinensis"; 
-    "Marcianus" -> "Parisinus 2744"; 
-
-    "Parisinus 2744" -> "Sylloge K"; 
-    "Parisinus 2744" -> 2;
-    2 [label="", color="grey"]; 
-    2 -> "Parisinus 2739"; 
-    2 -> "Laurentianus Gr XXXI_28"; 
+    parisinusautre -> syllK; 
+    parisinusautre -> 2;
+     
+    2 -> parisinus; 
+    2 -> laurentianus; 
     2 -> "Ambrosianus Gr 57"; 
-    2 -> "Parisinus 2741"; 
+    2 -> parisinusquart; 
 
-    "Parisinus 2739" -> "Matritensis"; 
-    "Parisinus 2739" -> "Ed. XVI et XVIII s."; 
+    parisinus -> Matritensis; 
+    parisinus -> "Ed. XVI et XVIII s."; 
 
-    "Ed. XVI et XVIII s." -> "Parisinus 2742"; 
-    "Ed. XVI et XVIII s." -> "Parisinus 2891"; 
+    edXVIXVII -> parisinuster; 
+    edXVIXVII -> parisinusquint; 
 
 
-    "Ancréon" -> "Palatinus" [style="dashed"]; 
-    "Iscriptions de Cyzique" -> "Palatinus" [style="dashed"]; 
-    "S. Grégoire de Nazianze" -> "Palatinus" [style="dashed"]; 
-    "ekphrasis de Christodoros" -> "Palatinus"[style="dashed"]; 
-    "Iscriptions funéraires chrétiennes" -> "Palatinus" [style="dashed"]; 
-    "ekphrasis de Jean Gaza" -> "Palatinus" [style="dashed"]; 
-    "Epigrammes des IX-X s." -> "Palatinus" [style="dashed"]; 
+    ancreon -> Palat [style="dashed"]; 
+    cyzique -> Palat [style="dashed"]; 
+    naziance -> Palat [style="dashed"]; 
+    christodoros -> Palat[style="dashed"]; 
+    inscFuneraires -> Palat [style="dashed"]; 
+    gaza -> Palat [style="dashed"]; 
+    epigrNeufDix -> Palat [style="dashed"]; 
 
-    "Palatinus" -> "Ed. Saumaise, Jacobs"; 
-    "Palatinus" -> "Sylloge S"; 
+    Palat -> EdSaum; 
+    Palat -> syllS; 
 
 }
