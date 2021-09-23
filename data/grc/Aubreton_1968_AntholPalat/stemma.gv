@@ -38,7 +38,9 @@ digraph {
     inscFuneraires[label="Inscriptions funéraires chrétiennes"];
     gaza[label="ekphrasis de Jean Gaza"];
     epigrNeufDix[label="Epigrammes des IX-X s."];
-    
+    ambrosianus[label="Ambrosianus Gr 57"];
+    syllV[label="Sylloge V"];
+
     1 -> Simonide; 
     1 -> RecEpiScriAno; 
     1 -> Mele; 
@@ -60,7 +62,8 @@ digraph {
     anthoPerdue -> syllSigmaPi; 
     anthoPerdue -> plana; 
     anthoPerdue -> syllK [style="dashed"]; 
-    syllK -> Matritensis; 
+    syllK -> Matritensis[style="dashed"]; 
+    plana->Marcianus;
     anthoPerdue -> planb; 
 
     planb -> syllVB; 
@@ -70,14 +73,15 @@ digraph {
 
     parisinusautre -> syllK; 
     parisinusautre -> 2;
+    parisinusautre-> syllV;
      
     2 -> parisinus; 
     2 -> laurentianus; 
-    2 -> "Ambrosianus Gr 57"; 
+    2 -> ambrosianus; 
     2 -> parisinusquart; 
 
     parisinus -> Matritensis; 
-    parisinus -> "Ed. XVI et XVIII s."; 
+    parisinus -> edXVIXVII; 
 
     edXVIXVII -> parisinuster; 
     edXVIXVII -> parisinusquint; 
@@ -85,7 +89,7 @@ digraph {
 
     ancreon -> Palat [style="dashed"]; 
     cyzique -> Palat [style="dashed"]; 
-    naziance -> Palat [style="dashed"]; 
+    nazianze -> Palat [style="dashed"]; 
     christodoros -> Palat[style="dashed"]; 
     inscFuneraires -> Palat [style="dashed"]; 
     gaza -> Palat [style="dashed"]; 
