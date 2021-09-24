@@ -6,7 +6,7 @@ Y2 [color="grey", label="⁺Y₂"] ;
 Y3 [color="grey", label="⁺Y₃"] ;
 Y4 [color="grey", label="⁺Y₄"] ;
 Archetypus -> X ;
-Archetypus -> Y₁ ;
+Archetypus -> Y1 ;
 X -> A ;
 X -> B ;
 A -> C ;
