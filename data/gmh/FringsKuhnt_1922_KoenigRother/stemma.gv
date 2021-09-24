@@ -1,0 +1,10 @@
+digraph {
+Original [label="Original (um 1130-1140 an der niederdeutschen Grenze entstanden)", color="grey"] ;
+Umarbeitung [label="Umarbeitung (in Baiern?) anscheinend von einem Nieder- oder Mitteldeutschen verfaßt", color="grey"] ;
+VorlageH [label="Vorlage von H", color="grey"] ;
+Original -> Umarbeitung ;
+Umarbeitung -> VorlageH ;
+Umarbeitung -> M ;
+VorlageH -> H ;
+}
+
