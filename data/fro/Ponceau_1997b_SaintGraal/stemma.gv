@@ -1,0 +1,36 @@
+digraph {
+    omega[color="grey",label=""];
+    alpha[color="grey",label="α"];
+    beta[color="grey",label="β"];
+    delta[color="grey",label="δ"];
+    1[color="grey",label=""];
+    2[color="grey",label=""];
+    3[color="grey",label=""];
+    4[color="grey",label=""];
+    5[color="grey",label=""];
+
+    omega->alpha;
+    alpha->1;
+    1->Ams;
+    Ams->LR14;
+    Ams->BN113;
+    1->2;
+    2->BN344;
+    2->BN2455;
+    alpha->Add32125;
+    alpha->beta;
+    beta->3;
+    3->Camb;
+    3->Ars3349;
+    beta->delta;
+    delta->BN98;
+    delta->4;
+    4->Mans;
+    4->BN770;
+    4->Len;
+    4->Chant;
+    delta->5;
+    5->Ars3348;
+    5->NH;
+
+}
