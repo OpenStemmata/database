@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable"/>
+            <author/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note></note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title/>
+               <date/>
+               <pubPlace/>
+               <series/>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n=""/>
+               <author/>
+               <biblScope unit="page" n=""/>
+               <ptr type="digitised"/>
+            </bibl>
+            </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title/>
+           <persName role="author">Anonymous</persName>
+           <origDate>c. 1050</origDate>
+           <origPlace>Normandy</origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">Vie</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">yes</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">unspecified</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="fro"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Zufferey_2007_Alexis/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="16" size="17"><node xml:id="n_omegaUn" type="hypothetical" inDegree="0" outDegree="2"><label>ω₁</label></node><node xml:id="n_omegaDeux" type="hypothetical" inDegree="1" outDegree="2"><label>ω₂</label></node><node xml:id="n_omegaTrois" type="hypothetical" inDegree="1" outDegree="3"><label>ω₃</label></node><node xml:id="n_EmpytOne" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_EmpytTwo" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_a" type="witness" inDegree="1" outDegree="3"><label>a</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_L" type="witness" inDegree="2" outDegree="0"><label>L</label></node><node xml:id="n_V" type="witness" inDegree="1" outDegree="0"><label>V</label></node><node xml:id="n_b" type="witness" inDegree="1" outDegree="1"><label>b</label></node><node xml:id="n_i" type="witness" inDegree="2" outDegree="2"><label>i</label></node><node xml:id="n_P₂" type="witness" inDegree="1" outDegree="0"><label>P₂</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><node xml:id="n_S" type="witness" inDegree="1" outDegree="0"><label>S</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_M₂" type="witness" inDegree="1" outDegree="0"><label>M₂</label></node><arc from="#n_omegaUn" to="#n_omegaDeux" od:type="filiation" cert="unknown"/><arc from="#n_omegaUn" to="#n_a" od:type="filiation" cert="unknown"/><arc from="#n_omegaDeux" to="#n_omegaTrois" od:type="filiation" cert="unknown"/><arc from="#n_omegaDeux" to="#n_V" od:type="filiation" cert="unknown"/><arc from="#n_omegaTrois" to="#n_b" od:type="filiation" cert="unknown"/><arc from="#n_omegaTrois" to="#n_EmpytOne" od:type="filiation" cert="unknown"/><arc from="#n_omegaTrois" to="#n_i" od:type="filiation" cert="unknown"/><arc from="#n_EmpytOne" to="#n_P₂" od:type="filiation" cert="unknown"/><arc from="#n_EmpytOne" to="#n_P" od:type="filiation" cert="unknown"/><arc from="#n_EmpytTwo" to="#n_M" od:type="filiation" cert="unknown"/><arc from="#n_EmpytTwo" to="#n_M₂" od:type="filiation" cert="unknown"/><arc from="#n_a" to="#n_A" od:type="filiation" cert="unknown"/><arc from="#n_a" to="#n_L" od:type="filiation" cert="unknown"/><arc from="#n_a" to="#n_i" od:type="contamination" cert="unknown"/><arc from="#n_b" to="#n_L" od:type="contamination" cert="unknown"/><arc from="#n_i" to="#n_S" od:type="filiation" cert="unknown"/><arc from="#n_i" to="#n_EmpytTwo" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

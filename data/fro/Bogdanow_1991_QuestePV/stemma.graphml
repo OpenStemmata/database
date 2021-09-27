@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="m">
+  <data key="d0">grey</data>
+</node>
+<node id="n">
+  <data key="d0">grey</data>
+</node>
+<node id="Omega">
+  <data key="d1">Queste P-V (ms. original)</data>
+  <data key="d0">grey</data>
+</node>
+<node id="X">
+  <data key="d0">grey</data>
+</node>
+<node id="Y">
+  <data key="d0">grey</data>
+</node>
+<node id="Y1">
+  <data key="d0">grey</data>
+</node>
+<node id="Z1">
+  <data key="d0">grey</data>
+</node>
+<node id="X1">
+  <data key="d1">X1 Archétype des mss de la Queste Tr.</data>
+  <data key="d0">grey</data>
+</node>
+<node id="D"/>
+<node id="S1"/>
+<node id="S"/>
+<node id="O"/>
+<node id="N"/>
+<node id="S5"/>
+<node id="S2"/>
+<node id="S3"/>
+<edge source="m" target="S">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="m" target="n">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="m" target="S5">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="n" target="O">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="n" target="N">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Omega" target="Y1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Omega" target="Y">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Omega" target="S2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Omega" target="S3">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="X" target="X1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y" target="Z1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y" target="m">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y1" target="X">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Z1" target="D">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Z1" target="S1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

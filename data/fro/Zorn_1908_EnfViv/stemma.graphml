@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="o">
+  <data key="d0">grey</data>
+</node>
+<node id="a">
+  <data key="d0">grey</data>
+</node>
+<node id="a1">
+  <data key="d0">grey</data>
+</node>
+<node id="b">
+  <data key="d0">grey</data>
+</node>
+<node id="c">
+  <data key="d0">grey</data>
+</node>
+<node id="d">
+  <data key="d0">grey</data>
+</node>
+<node id="gamma">
+  <data key="d1">γ</data>
+  <data key="d0">grey</data>
+</node>
+<node id="gamma1">
+  <data key="d1">γ1</data>
+  <data key="d0">grey</data>
+</node>
+<node id="alpha">
+  <data key="d1">α</data>
+  <data key="d0">grey</data>
+</node>
+<node id="o1">
+  <data key="d0">grey</data>
+</node>
+<node id="x">
+  <data key="d0">grey</data>
+</node>
+<node id="B"/>
+<node id="A"/>
+<node id="C1"/>
+<node id="C2"/>
+<node id="C3"/>
+<node id="C4"/>
+<node id="D1"/>
+<node id="D2"/>
+<edge source="o" target="o1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="a" target="alpha">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="a1" target="A">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b" target="B">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="c" target="gamma">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="c" target="gamma1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="d" target="D1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="d" target="D2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="gamma" target="C1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="gamma" target="C2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="gamma1" target="C3">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="gamma1" target="C4">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="alpha" target="a1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="alpha" target="x">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="o1" target="b">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="o1" target="a">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x" target="c">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x" target="d">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Florence de Rome</title>
+            <author>Wallensköld, A.</author>
+         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Many stemmata, representing differents steps of the work on the genealogy, and competing hypotheses. Only the last one, retained here, is the final stemma retained by the editor.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="book">
+               <title>Florence de Rome, chanson d’aventure du premier quart du XIIIe siècle</title>
+               <date>1909</date>
+               <pubPlace>Paris</pubPlace>
+               <series>SATF</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="55"/>
+               <author>Wallensköld, A.</author>
+               <biblScope unit="page" n="26"/>
+               <ptr type="digitised" target="https://archive.org/details/florencederome01wall/page/26"/>
+            </bibl>
+            </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/35159474046127660877">Florence de Rome</title>
+           <persName role="author" ref="http://viaf.org/"></persName>
+           <origDate>1201-1225</origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">chanson de geste</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">original</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="fro"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Wallensköld_1909_Florence/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="13" size="12"><label>1</label><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_3" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_4" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_5" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="2"><label>Orig.</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D(?)</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><node xml:id="n_S" type="witness" inDegree="1" outDegree="0"><label>S</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><node xml:id="n_Q" type="witness" inDegree="1" outDegree="0"><label>Q</label></node><arc from="#n_1" to="#n_2" od:type="filiation" cert="unknown"/><arc from="#n_1" to="#n_R" od:type="filiation" cert="unknown"/><arc from="#n_2" to="#n_3" od:type="filiation" cert="unknown"/><arc from="#n_2" to="#n_5" od:type="filiation" cert="unknown"/><arc from="#n_3" to="#n_L" od:type="filiation" cert="unknown"/><arc from="#n_3" to="#n_4" od:type="filiation" cert="unknown"/><arc from="#n_4" to="#n_M" od:type="filiation" cert="unknown"/><arc from="#n_4" to="#n_D" od:type="filiation" cert="unknown"/><arc from="#n_5" to="#n_P" od:type="filiation" cert="unknown"/><arc from="#n_5" to="#n_S" od:type="filiation" cert="unknown"/><arc from="#n_O" to="#n_1" od:type="filiation" cert="unknown"/><arc from="#n_O" to="#n_Q" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

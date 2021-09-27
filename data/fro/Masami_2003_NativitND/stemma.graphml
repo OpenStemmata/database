@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d1" for="edge" attr.name="type" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="x">
+  <data key="d0">grey</data>
+</node>
+<node id="X">
+  <data key="d0">grey</data>
+</node>
+<node id="D"/>
+<node id="N"/>
+<node id="L"/>
+<node id="R"/>
+<edge source="x" target="L">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="x" target="R">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="X" target="D">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="X" target="N">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="X" target="x">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+</graph></graphml>

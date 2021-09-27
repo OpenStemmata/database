@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="archetyp">
+  <data key="d0">grey</data>
+  <data key="d1">ω</data>
+</node>
+<node id="phi">
+  <data key="d0">grey</data>
+  <data key="d1">Φ</data>
+</node>
+<node id="pi">
+  <data key="d0">grey</data>
+  <data key="d1">π</data>
+</node>
+<node id="beta">
+  <data key="d0">grey</data>
+  <data key="d1">β</data>
+</node>
+<node id="xi">
+  <data key="d0">grey</data>
+  <data key="d1">ξ</data>
+</node>
+<node id="rho">
+  <data key="d0">grey</data>
+  <data key="d1">ρ</data>
+</node>
+<node id="sigma">
+  <data key="d0">grey</data>
+  <data key="d1">σ</data>
+</node>
+<node id="psi">
+  <data key="d0">grey</data>
+  <data key="d1">ψ</data>
+</node>
+<node id="ThomMag">
+  <data key="d1">Ausg. des Thom. Mag.</data>
+  <data key="d0">grey</data>
+</node>
+<node id="Trikl">
+  <data key="d1">Ausg. des Trikl.</data>
+  <data key="d0">grey</data>
+</node>
+<node id="M"/>
+<node id="F"/>
+<node id="G"/>
+<edge source="archetyp" target="M">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="archetyp" target="phi">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="archetyp" target="psi">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="phi" target="pi">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="phi" target="beta">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="phi" target="ThomMag">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="beta" target="xi">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="psi" target="Trikl">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="psi" target="F">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="psi" target="G">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="ThomMag" target="xi">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="ThomMag" target="rho">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="ThomMag" target="sigma">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="ThomMag" target="Trikl">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Trikl" target="F">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

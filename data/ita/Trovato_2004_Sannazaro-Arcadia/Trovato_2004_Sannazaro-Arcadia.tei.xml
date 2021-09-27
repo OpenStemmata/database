@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Arcadia (ii redazione)</title>
+            <author>Trovato, Paolo</author>
+         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Deprecated version, see Trovato 2014 instead. -- There are unexplicited representations in the stemma as published in the paper: dashed arrow travelling back and a single node uniting 4 editions. I have explicited them using Trovato (2014), Everything…, p. 141-143.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="publicationPart">
+               <title>Sugli stemmi bipartiti: decimazione, asimmetria e calcolo delle probabilità. 1. Dagli alberi reali agli stemmi</title>
+               <date>2004</date>
+               <pubPlace></pubPlace>
+               <series>Filologia italiana</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="1"/>
+               <author>Trovato, Paolo</author>
+               <biblScope unit="page" n=""/>
+               <ptr type="digitised" target=""/>
+            </bibl>
+            </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/223467036">Arcadia (ii redazione)</title>
+           <persName role="author" ref="http://viaf.org/87990970">Sannazaro, Jacopo</persName>
+           <origDate>1480 c. ?</origDate>
+           <origPlace>Naples?</origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre"></term>
+              <term type="stemmaType">observed</term>
+              <term type="contam">yes</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">original</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="ita"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/ita/Trovato_2004_Sannazaro-Arcadia/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="32" size="32"><label></label><node xml:id="n_Na" type="witness" inDegree="0" outDegree="6"><label>1504Na</label></node><node xml:id="n_Ald" type="witness" inDegree="1" outDegree="7"><label>1514 Ald</label></node><node xml:id="n_Rusc" type="witness" inDegree="1" outDegree="1"><label>1515 Rusc</label></node><node xml:id="n_Zopp1" type="witness" inDegree="1" outDegree="1"><label>1521 Zopp</label></node><node xml:id="n_Zopp2" type="witness" inDegree="1" outDegree="0"><label>1524 Zopp</label></node><node xml:id="n_Pag" type="witness" inDegree="1" outDegree="0"><label>1515 Pag</label></node><node xml:id="n_Fi1" type="witness" inDegree="1" outDegree="2"><label>1515 Fi</label></node><node xml:id="n_Tac" type="witness" inDegree="1" outDegree="1"><label>1519 Tac</label></node><node xml:id="n_Rusc2" type="witness" inDegree="1" outDegree="0"><label>1522 Rusc</label></node><node xml:id="n_Fi2" type="witness" inDegree="1" outDegree="0"><label>1519 Fi</label></node><node xml:id="n_Ald2" type="witness" inDegree="1" outDegree="0"><label>1534 Ald</label></node><node xml:id="n_Greg" type="witness" inDegree="1" outDegree="0"><label>1525 Gref</label></node><node xml:id="n_Zopp3" type="witness" inDegree="1" outDegree="2"><label>1530 Zopp</label></node><node xml:id="n_Pag2" type="witness" inDegree="1" outDegree="0"><label>1530-1 Pag</label></node><node xml:id="n_Bind1" type="witness" inDegree="1" outDegree="4"><label>1531 Bind</label></node><node xml:id="n_Bind2" type="witness" inDegree="1" outDegree="1"><label>1533 Bind</label></node><node xml:id="n_Bind3" type="witness" inDegree="1" outDegree="1"><label>1543 Bind</label></node><node xml:id="n_Bind4" type="witness" inDegree="1" outDegree="1"><label>1545 Bind</label></node><node xml:id="n_Imp" type="witness" inDegree="1" outDegree="0"><label>1548 Imp</label></node><node xml:id="n_Sess" type="witness" inDegree="1" outDegree="1"><label>1532 Sess</label></node><node xml:id="n_Zio" type="witness" inDegree="1" outDegree="0"><label>1538 Zio</label></node><node xml:id="n_Guad1" type="witness" inDegree="1" outDegree="1"><label>1539 Guad</label></node><node xml:id="n_Guad2" type="witness" inDegree="1" outDegree="1"><label>1543 Guad</label></node><node xml:id="n_Gio" type="witness" inDegree="1" outDegree="1"><label>1543 Gio</label></node><node xml:id="n_Gio2" type="witness" inDegree="1" outDegree="0"><label>1549 Gio</label></node><node xml:id="n_Sta" type="witness" inDegree="1" outDegree="1"><label>1531 Sta</label></node><node xml:id="n_Na2" type="witness" inDegree="2" outDegree="0"><label>1507 Na</label></node><node xml:id="n_Mi1" type="witness" inDegree="1" outDegree="0"><label>1509 Mi</label></node><node xml:id="n_Mi2" type="witness" inDegree="1" outDegree="0"><label>1510 Mi</label></node><node xml:id="n_Mi3" type="witness" inDegree="1" outDegree="0"><label>1512 Mi</label></node><node xml:id="n_Bo1516" type="witness" inDegree="1" outDegree="0"><label>1516 Bo</label></node><node xml:id="n_Bo1520" type="witness" inDegree="1" outDegree="0"><label>1520 Bo</label></node><arc from="#n_Na" to="#n_Ald" od:type="filiation" cert="unknown"/><arc from="#n_Na" to="#n_Na2" od:type="filiation" cert="unknown"/><arc from="#n_Na" to="#n_Mi1" od:type="filiation" cert="unknown"/><arc from="#n_Na" to="#n_Mi2" od:type="filiation" cert="unknown"/><arc from="#n_Na" to="#n_Mi3" od:type="filiation" cert="unknown"/><arc from="#n_Na" to="#n_Bo1516" od:type="filiation" cert="unknown"/><arc from="#n_Ald" to="#n_Rusc" od:type="filiation" cert="unknown"/><arc from="#n_Ald" to="#n_Pag" od:type="filiation" cert="unknown"/><arc from="#n_Ald" to="#n_Fi1" od:type="filiation" cert="unknown"/><arc from="#n_Ald" to="#n_Ald2" od:type="filiation" cert="unknown"/><arc from="#n_Ald" to="#n_Greg" od:type="filiation" cert="unknown"/><arc from="#n_Ald" to="#n_Zopp3" od:type="filiation" cert="unknown"/><arc from="#n_Ald" to="#n_Bo1520" od:type="filiation" cert="unknown"/><arc from="#n_Rusc" to="#n_Zopp1" od:type="filiation" cert="unknown"/><arc from="#n_Zopp1" to="#n_Zopp2" od:type="filiation" cert="unknown"/><arc from="#n_Fi1" to="#n_Tac" od:type="filiation" cert="unknown"/><arc from="#n_Fi1" to="#n_Fi2" od:type="filiation" cert="unknown"/><arc from="#n_Tac" to="#n_Rusc2" od:type="filiation" cert="unknown"/><arc from="#n_Zopp3" to="#n_Pag2" od:type="filiation" cert="unknown"/><arc from="#n_Zopp3" to="#n_Bind1" od:type="filiation" cert="unknown"/><arc from="#n_Bind1" to="#n_Sess" od:type="filiation" cert="unknown"/><arc from="#n_Bind1" to="#n_Bind2" od:type="filiation" cert="unknown"/><arc from="#n_Bind1" to="#n_Guad1" od:type="filiation" cert="unknown"/><arc from="#n_Bind1" to="#n_Sta" od:type="filiation" cert="unknown"/><arc from="#n_Bind2" to="#n_Bind3" od:type="filiation" cert="unknown"/><arc from="#n_Bind3" to="#n_Bind4" od:type="filiation" cert="unknown"/><arc from="#n_Bind4" to="#n_Imp" od:type="filiation" cert="unknown"/><arc from="#n_Sess" to="#n_Zio" od:type="filiation" cert="unknown"/><arc from="#n_Guad1" to="#n_Guad2" od:type="filiation" cert="unknown"/><arc from="#n_Guad2" to="#n_Gio" od:type="filiation" cert="unknown"/><arc from="#n_Gio" to="#n_Gio2" od:type="filiation" cert="unknown"/><arc from="#n_Sta" to="#n_Na2" od:type="contamination" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

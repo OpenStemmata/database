@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Eidyllia</title>
+            <author>Erbse, Hartmut</author>
+         <respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>most important representatives of the Laurentian group: Codices P and W of Florence, most important representatives of the Vatican group: Manuscripts A, E, U</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="chapter">
+               <title>Überlieferungsgeschichte der griechischen klassischen und hellenistischen Literatur</title>
+               <date>1961</date>
+               <pubPlace>Zürich</pubPlace>
+               <series>Geschichte der Textüberlieferung der antiken und mittelalterlichen Literatur</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="1"/>
+               <author>Erbse, Hartmut</author>
+               <biblScope unit="page" n="248"/>
+               <ptr type="digitised" target="http://opac.regesta-imperii.de/lang_de/anzeige.php?sammelwerk=Geschichte+der+Text%C3%BCberlieferung+der+antiken+und+mittelalterlichen+Literatur"/>
+            </bibl>
+            <listWit><witness xml:id="K"><label type="siglum">K</label><settlement>Milano</settlement><repository> Biblioteca Ambrosiana</repository><idno> fonds principal C222 inf. (Martini-Bassi 0886)</idno><origDate>13c</origDate><ptr type="digitised" target="http://213.21.172.25/0b02da8280051c1e"/></witness><witness xml:id="P. Ant."><label type="siglum">P. Ant.</label><origDate>c. 500</origDate></witness></listWit>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/126146936764313781894">Eidyllia</title>
+           <persName role="author" ref="http://viaf.org/95161348">Theokritos</persName>
+           <origDate>400-301</origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">pastoral poetry</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">archetype</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="grc"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/grc/Erbse_1961_Theokrit-Eidyllia/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="8" size="8"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="2"><label>α</label></node><node xml:id="n_hyparchetypbeta" type="hypothetical" inDegree="1" outDegree="2"><label>β</label></node><node xml:id="n_PAnt" type="witness" inDegree="1" outDegree="0"><label>P. Ant.</label></node><node xml:id="n_GroupLaur" type="hypothetical" inDegree="1" outDegree="0"><label>Laur.</label></node><node xml:id="n_GroupVat" type="hypothetical" inDegree="2" outDegree="0"><label>Vat.</label></node><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_K" type="witness" inDegree="1" outDegree="0"><label>K</label></node><arc from="#n_archetyp" to="#n_hyparchetypbeta" od:type="filiation" cert="unknown"/><arc from="#n_archetyp" to="#n_PAnt" od:type="filiation" cert="unknown"/><arc from="#n_hyparchetypbeta" to="#n_1" od:type="filiation" cert="unknown"/><arc from="#n_hyparchetypbeta" to="#n_2" od:type="filiation" cert="unknown"/><arc from="#n_1" to="#n_K" od:type="filiation" cert="unknown"/><arc from="#n_1" to="#n_GroupVat" od:type="filiation" cert="unknown"/><arc from="#n_2" to="#n_GroupLaur" od:type="filiation" cert="unknown"/><arc from="#n_2" to="#n_GroupVat" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

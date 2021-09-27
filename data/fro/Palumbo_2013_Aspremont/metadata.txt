@@ -1,4 +1,4 @@
-publicationType: "article"
+publicationType: "publicationPart"
 publicationTitle: "Le stemma codicum de la Chanson d’Aspremont"
 publicationDate: "2013"
 publicationPlace: "Nancy"

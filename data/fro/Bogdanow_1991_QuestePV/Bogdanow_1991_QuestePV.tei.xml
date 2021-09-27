@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Queste del Saint Graal (version Post-Vulgate)</title>
+            <author>Bogdanow, Fanni</author>
+         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>The original is from a branch/redaction, not from the work itself. Deux stemmata sont donnés, en fonction de deux ensembles de lieux variants conflictuels, p. 292, mais en indiquant qu’il faut retenir le premier, puis un stemma, p. 415, des descendants de X1 (soit la Queste tristanienne). Ces deux premiers sont fusionnables dans un seul fichier. En revanche, p. 445, stemma de la mort artu post-vulgate, qui vaut seul</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="book">
+               <title>La Version Post-Vulgate de la Queste del Saint Graal et de la Mort Artu</title>
+               <date>1991</date>
+               <pubPlace>Paris</pubPlace>
+               <series>SATF</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="101"/>
+               <author>Bogdanow, Fanni</author>
+               <biblScope unit="page" n="292"/>
+               <ptr type="digitised" target=""/>
+            </bibl>
+            </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/180231660">Queste del Saint Graal (version Post-Vulgate)</title>
+           <persName role="author" ref="http://viaf.org/"></persName>
+           <origDate>1230-1240</origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">roman arthurien en prose</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">original</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="fro"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Bogdanow_1991_QuestePV/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="16" size="15"><label>2</label><node xml:id="n_m" type="hypothetical" inDegree="1" outDegree="3"><label>m</label></node><node xml:id="n_n" type="hypothetical" inDegree="1" outDegree="2"><label>n</label></node><node xml:id="n_Omega" type="hypothetical" inDegree="0" outDegree="4"><label>Queste P-V (ms. original)</label></node><node xml:id="n_X" type="hypothetical" inDegree="1" outDegree="1"><label>X</label></node><node xml:id="n_Y" type="hypothetical" inDegree="1" outDegree="2"><label>Y</label></node><node xml:id="n_Y1" type="hypothetical" inDegree="1" outDegree="1"><label>Y1</label></node><node xml:id="n_Z1" type="hypothetical" inDegree="1" outDegree="2"><label>Z1</label></node><node xml:id="n_X1" type="hypothetical" inDegree="1" outDegree="0"><label>X1 Archétype des mss de la Queste Tr.</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_S1" type="witness" inDegree="1" outDegree="0"><label>S1</label></node><node xml:id="n_S" type="witness" inDegree="1" outDegree="0"><label>S</label></node><node xml:id="n_O" type="witness" inDegree="1" outDegree="0"><label>O</label></node><node xml:id="n_N" type="witness" inDegree="1" outDegree="0"><label>N</label></node><node xml:id="n_S5" type="witness" inDegree="1" outDegree="0"><label>S5</label></node><node xml:id="n_S2" type="witness" inDegree="1" outDegree="0"><label>S2</label></node><node xml:id="n_S3" type="witness" inDegree="1" outDegree="0"><label>S3</label></node><arc from="#n_m" to="#n_S" od:type="filiation" cert="unknown"/><arc from="#n_m" to="#n_n" od:type="filiation" cert="unknown"/><arc from="#n_m" to="#n_S5" od:type="filiation" cert="unknown"/><arc from="#n_n" to="#n_O" od:type="filiation" cert="unknown"/><arc from="#n_n" to="#n_N" od:type="filiation" cert="unknown"/><arc from="#n_Omega" to="#n_Y1" od:type="filiation" cert="unknown"/><arc from="#n_Omega" to="#n_Y" od:type="filiation" cert="unknown"/><arc from="#n_Omega" to="#n_S2" od:type="filiation" cert="unknown"/><arc from="#n_Omega" to="#n_S3" od:type="filiation" cert="unknown"/><arc from="#n_X" to="#n_X1" od:type="filiation" cert="unknown"/><arc from="#n_Y" to="#n_Z1" od:type="filiation" cert="unknown"/><arc from="#n_Y" to="#n_m" od:type="filiation" cert="unknown"/><arc from="#n_Y1" to="#n_X" od:type="filiation" cert="unknown"/><arc from="#n_Z1" to="#n_D" od:type="filiation" cert="unknown"/><arc from="#n_Z1" to="#n_S1" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

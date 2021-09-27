@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d1" for="edge" attr.name="type" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="D">
+  <data key="d0">grey</data>
+</node>
+<node id="J">
+  <data key="d0">grey</data>
+</node>
+<node id="TD">
+  <data key="d0">grey</data>
+</node>
+<node id="TJ">
+  <data key="d0">grey</data>
+</node>
+<node id="H">
+  <data key="d0">grey</data>
+</node>
+<node id="A"/>
+<node id="B"/>
+<node id="L"/>
+<node id="M"/>
+<node id="R"/>
+<edge source="D" target="J">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="D" target="TD">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="J" target="H">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="J" target="TJ">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="TD" target="M">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="TD" target="R">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="TJ" target="B">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="TJ" target="L">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="H" target="A">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+</graph></graphml>

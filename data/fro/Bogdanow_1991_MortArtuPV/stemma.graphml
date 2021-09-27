@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="color" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="Omega">
+  <data key="d0">Mort Artu P-V</data>
+  <data key="d1">grey</data>
+</node>
+<node id="f1">
+  <data key="d1">grey</data>
+</node>
+<node id="f">
+  <data key="d1">grey</data>
+  <data key="d0">f (source française des versions ibériques)</data>
+</node>
+<node id="dx">
+  <data key="d1">grey</data>
+  <data key="d0">dx (première traduction ibérique)</data>
+</node>
+<node id="b">
+  <data key="d1">grey</data>
+</node>
+<node id="n">
+  <data key="d1">grey</data>
+</node>
+<node id="D"/>
+<node id="De"/>
+<node id="S4"/>
+<node id="B"/>
+<node id="N1"/>
+<edge source="Omega" target="f1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Omega" target="S4">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Omega" target="b">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Omega" target="n">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="f1" target="f">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="f" target="dx">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="dx" target="D">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="dx" target="De">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b" target="B">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="n" target="N1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

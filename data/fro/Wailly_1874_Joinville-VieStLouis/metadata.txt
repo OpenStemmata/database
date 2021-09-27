@@ -1,4 +1,4 @@
-publicationType : "article"
+publicationType : "publicationPart"
 publicationTitle : "Lettre à M. Gaston Paris sur le texte de Joinville"
 publicationDate : "1874"
 publicationPlace : "Paris"

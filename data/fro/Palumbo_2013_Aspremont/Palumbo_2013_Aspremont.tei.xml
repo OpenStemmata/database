@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Chanson d'Aspremont</title>
+            <author>Palumbo, Giovanni; Rinoldi, Paolo</author>
+         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>deux stemmata, un pour le début du texte; l’autre pour la fin. À actualiser quand le stemma définitif sera paru. Pour le 1er, les liens entre subarchétypes ne sont pas encore donnés.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="publicationPart">
+               <title>Le stemma codicum de la Chanson d’Aspremont</title>
+               <date>2013</date>
+               <pubPlace>Nancy</pubPlace>
+               <series></series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n=""/>
+               <author>Palumbo, Giovanni; Rinoldi, Paolo</author>
+               <biblScope unit="page" n=""/>
+               <ptr type="digitised" target="http://www.atilf.fr/cilpr2013/programme/resumes/bdde6b2a84f0fc7747f617b3f986c5b8.pdf"/>
+            </bibl>
+            </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/178682253">Chanson d'Aspremont</title>
+           <persName role="author" ref="http://viaf.org/"></persName>
+           <origDate>1194 av.</origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">chanson de geste</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">archetype</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="fro"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Palumbo_2013_Aspremont/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="18" size="17"><label>2</label><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="3"><label>α</label></node><node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2"><label>β</label></node><node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="2"><label>γ</label></node><node xml:id="n_omega" type="hypothetical" inDegree="0" outDegree="2"><label>ω</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_P2" type="witness" inDegree="1" outDegree="0"><label>P2</label></node><node xml:id="n_P3" type="witness" inDegree="1" outDegree="0"><label>P3</label></node><node xml:id="n_L2" type="witness" inDegree="1" outDegree="0"><label>L2</label></node><node xml:id="n_W" type="witness" inDegree="1" outDegree="0"><label>W</label></node><node xml:id="n_P5" type="witness" inDegree="1" outDegree="0"><label>P5</label></node><node xml:id="n_L3" type="witness" inDegree="1" outDegree="0"><label>L3</label></node><node xml:id="n_Ch" type="witness" inDegree="1" outDegree="0"><label>Ch</label></node><node xml:id="n_V6" type="witness" inDegree="1" outDegree="0"><label>V6</label></node><node xml:id="n_Cha" type="witness" inDegree="1" outDegree="0"><label>Cha</label></node><node xml:id="n_V4" type="witness" inDegree="1" outDegree="0"><label>V4</label></node><arc from="#n_1" to="#n_beta" od:type="filiation" cert="unknown"/><arc from="#n_1" to="#n_gamma" od:type="filiation" cert="unknown"/><arc from="#n_2" to="#n_L3" od:type="filiation" cert="unknown"/><arc from="#n_2" to="#n_Ch" od:type="filiation" cert="unknown"/><arc from="#n_alpha" to="#n_P2" od:type="filiation" cert="unknown"/><arc from="#n_alpha" to="#n_P3" od:type="filiation" cert="unknown"/><arc from="#n_alpha" to="#n_L2" od:type="filiation" cert="unknown"/><arc from="#n_beta" to="#n_W" od:type="filiation" cert="unknown"/><arc from="#n_beta" to="#n_P5" od:type="filiation" cert="unknown"/><arc from="#n_gamma" to="#n_2" od:type="filiation" cert="unknown"/><arc from="#n_gamma" to="#n_x" od:type="filiation" cert="unknown"/><arc from="#n_omega" to="#n_alpha" od:type="filiation" cert="unknown"/><arc from="#n_omega" to="#n_1" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_V6" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_y" od:type="filiation" cert="unknown"/><arc from="#n_y" to="#n_Cha" od:type="filiation" cert="unknown"/><arc from="#n_y" to="#n_V4" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

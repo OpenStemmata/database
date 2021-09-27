@@ -1,4 +1,4 @@
-publicationType: "article"
+publicationType: "publicationPart"
 publicationTitle: "Les éditions de la Passion de Jean Michel au XVIe"
 publicationDate: "1966"
 publicationPlace: "Paris"

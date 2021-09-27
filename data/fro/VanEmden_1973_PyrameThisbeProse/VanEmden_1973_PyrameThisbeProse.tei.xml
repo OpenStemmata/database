@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Ovide moralisé en prose (2nde version)</title>
+            <author>Van Emden, Wolfgang</author>
+         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>1 stemma complet, les autres étant partiels; inclut des éditions imprimées, etc. Il s’agit en partie d’un arbre réel. P et L sont des manuscrits, M, V1 à 4, et W sont des éditions imprimées anciennes, C une traduction qui a été imprimée aussi. La contamination n’est pas portée. C'est la seconde version de la mise en prose (cf. Arlima)</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="publicationPart">
+               <title>L'histoire de Pyrame et Thisbê dans la mise en prose de l'Ovide moralisé : Texte du manuscrit Paris, B. N., f. fr. 137, avec variantes et commentaires</title>
+               <date>1973</date>
+               <pubPlace>Paris</pubPlace>
+               <series>Romania</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="94"/>
+               <author>Van Emden, Wolfgang</author>
+               <biblScope unit="page" n="29-56"/>
+               <ptr type="digitised" target="https://doi.org/10.3406/roma.1973.2353"/>
+            </bibl>
+            <listWit><witness xml:id="P"><label type="siglum">P</label><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 137</idno></witness><witness xml:id="L"><label type="siglum">L</label><idno>Londres BM Royal 17 E IV</idno></witness><witness xml:id="M"><label type="siglum">M</label><settlement>Édition Colard Mansion</settlement><repository> Bruges</repository><idno> 1484</idno></witness><witness xml:id="V1"><label type="siglum">V1</label><idno>édition Antoine Verard 1 (1493)</idno></witness><witness xml:id="V2"><label type="siglum">V2</label><idno>édition Antoine Verard 2</idno></witness><witness xml:id="V3"><label type="siglum">V3</label><idno>édition Antoine Verard 3</idno></witness><witness xml:id="V4"><label type="siglum">V4</label><idno>édition Antoine Verard 4</idno></witness><witness xml:id="W"><label type="siglum">W</label><idno>Le Grand Olympe des Hystoires Poetiques du prince de poesie Ovide Naso en sa Metamorphose… Traduict de latin en françoys et imprimé nouvellement, 1532</idno><note>Plagiat de V4</note></witness><witness xml:id="C"><label type="siglum">C</label><idno>Traduction anglaise par William Caxton (manuscrit)</idno></witness><witness xml:id="P. et T."><label type="siglum">P. et T.</label><idno>Pyramus et Tisbé (version contenue dans l'Ovide moralisé)</idno></witness></listWit>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/210085459">Ovide moralisé en prose (2nde version)</title>
+           <persName role="author" ref="http://viaf.org/"></persName>
+           <origDate></origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">narratif</term>
+              <term type="stemmaType">observed</term>
+              <term type="contam">yes</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">archetype</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="fro"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/VanEmden_1973_PyrameThisbeProse/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="14" size="13"><label>1</label><node xml:id="n_PT" type="hypothetical" inDegree="0" outDegree="1"><label>P. et T. (Ovide moralisé)</label></node><node xml:id="n_O" type="hypothetical" inDegree="1" outDegree="1"><label>O (Mise en prose)</label></node><node xml:id="n_X" type="hypothetical" inDegree="1" outDegree="2"><label>X</label></node><node xml:id="n_Y" type="hypothetical" inDegree="1" outDegree="2"><label>Y</label></node><node xml:id="n_Z" type="hypothetical" inDegree="1" outDegree="2"><label>Z</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="1"><label>M</label></node><node xml:id="n_V1" type="witness" inDegree="1" outDegree="2"><label>V1</label></node><node xml:id="n_V3" type="witness" inDegree="1" outDegree="1"><label>V3</label></node><node xml:id="n_V4" type="witness" inDegree="1" outDegree="1"><label>V4</label></node><node xml:id="n_W" type="witness" inDegree="1" outDegree="0"><label>W</label></node><node xml:id="n_V2" type="witness" inDegree="1" outDegree="0"><label>V2</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><arc from="#n_PT" to="#n_O" od:type="filiation" cert="unknown"/><arc from="#n_O" to="#n_X" od:type="filiation" cert="unknown"/><arc from="#n_X" to="#n_Y" od:type="filiation" cert="unknown"/><arc from="#n_X" to="#n_P" od:type="filiation" cert="unknown"/><arc from="#n_Y" to="#n_Z" od:type="filiation" cert="unknown"/><arc from="#n_Y" to="#n_M" od:type="filiation" cert="unknown"/><arc from="#n_Z" to="#n_L" od:type="filiation" cert="unknown"/><arc from="#n_Z" to="#n_C" od:type="filiation" cert="unknown"/><arc from="#n_M" to="#n_V1" od:type="filiation" cert="unknown"/><arc from="#n_V1" to="#n_V3" od:type="filiation" cert="unknown"/><arc from="#n_V1" to="#n_V2" od:type="filiation" cert="unknown"/><arc from="#n_V3" to="#n_V4" od:type="filiation" cert="unknown"/><arc from="#n_V4" to="#n_W" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

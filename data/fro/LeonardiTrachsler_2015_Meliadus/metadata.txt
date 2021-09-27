@@ -1,4 +1,4 @@
-publicationType : "article"
+publicationType : "publicationPart"
 publicationTitle : "L’édition critique des romans en prose : le cas de Guiron le Courtois"
 publicationDate : "2015"
 publicationPlace : ""

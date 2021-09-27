@@ -1,4 +1,4 @@
-publicationType : "article"
+publicationType : "publicationPart"
 publicationTitle : "Über das gegenseitige Verhältnis der Handschriften von Hartmanns Iwein"
 publicationDate : "1874"
 publicationPlace : ""

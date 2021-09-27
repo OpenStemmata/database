@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="archetyp">
+  <data key="d0">grey</data>
+  <data key="d1"> </data>
+</node>
+<node id="editioncommentedbyProbus">
+  <data key="d0">grey</data>
+  <data key="d1">Probus ?</data>
+</node>
+<node id="Cicerocomment">
+  <data key="d1">Cicero</data>
+</node>
+<node id="Varrocomment">
+  <data key="d1">Varro</data>
+</node>
+<node id="groupgamma">
+  <data key="d0">grey</data>
+  <data key="d1">γ</data>
+</node>
+<node id="groupdelta">
+  <data key="d0">grey</data>
+  <data key="d1">δ</data>
+</node>
+<node id="sigma">
+  <data key="d0">grey</data>
+  <data key="d1">Σ ?</data>
+</node>
+<node id="phi">
+  <data key="d0">grey</data>
+  <data key="d1">Φ ?</data>
+</node>
+<node id="picturelesseditions">
+  <data key="d0">grey</data>
+  <data key="d1">Bilderlose Hss.</data>
+</node>
+<node id="A"/>
+<node id="C"/>
+<node id="P"/>
+<node id="F"/>
+<node id="D"/>
+<node id="G"/>
+<edge source="archetyp" target="editioncommentedbyProbus">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="archetyp" target="Cicerocomment">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="archetyp" target="Varrocomment">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="editioncommentedbyProbus" target="phi">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="groupgamma" target="C">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="groupgamma" target="P">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="groupgamma" target="F">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="groupgamma" target="picturelesseditions">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="groupdelta" target="D">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="groupdelta" target="G">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="sigma" target="groupgamma">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="sigma" target="groupdelta">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="phi" target="A">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="phi" target="sigma">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

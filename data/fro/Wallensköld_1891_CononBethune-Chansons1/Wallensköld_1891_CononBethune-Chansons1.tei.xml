@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Chansons</title>
+            <author> Wallensköld, Axel</author>
+         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Two stemmata are drawn, for the two main groups. Group I is Schwan S1, Group II is Schwan S2+S3 (bringing it  from 3 to 2 main branches, even though their relations are not shown here, and the rule of admitting a leçon common to two subgroups of II contradicts it). The tradition is contaminated, even if it is not shown, especially C O P U.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="book">
+               <title> Les chansons de Conon de Béthune</title>
+               <date>1891</date>
+               <pubPlace>Paris</pubPlace>
+               <series>CFMA</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="24"/>
+               <author> Wallensköld, Axel</author>
+               <biblScope unit="page" n="xx"/>
+               <ptr type="digitised" target="https://gallica.bnf.fr/ark:/12148/bpt6k977f/f22.item.texteImage#"/>
+            </bibl>
+            </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/">Chansons</title>
+           <persName role="author" ref="http://viaf.org/31225362">Conon de Béthune</persName>
+           <origDate>1180-1220</origDate>
+           <origPlace>Artois</origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">lyrique</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">yes</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">archetype</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="fro"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Wallensköld_1891_CononBethune-Chansons1/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="9" size="8"><label>1</label><node xml:id="n_I" type="hypothetical" inDegree="0" outDegree="2"><label>I</label></node><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_3" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_T" type="witness" inDegree="1" outDegree="0"><label>T</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_e" type="witness" inDegree="1" outDegree="0"><label>e</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><node xml:id="n_a" type="witness" inDegree="1" outDegree="0"><label>a</label></node><arc from="#n_I" to="#n_1" od:type="filiation" cert="unknown"/><arc from="#n_I" to="#n_a" od:type="filiation" cert="unknown"/><arc from="#n_1" to="#n_2" od:type="filiation" cert="unknown"/><arc from="#n_1" to="#n_R" od:type="filiation" cert="unknown"/><arc from="#n_2" to="#n_3" od:type="filiation" cert="unknown"/><arc from="#n_2" to="#n_e" od:type="filiation" cert="unknown"/><arc from="#n_3" to="#n_T" od:type="filiation" cert="unknown"/><arc from="#n_3" to="#n_M" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

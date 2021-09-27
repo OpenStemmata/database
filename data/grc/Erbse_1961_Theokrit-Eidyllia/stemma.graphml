@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="archetyp">
+  <data key="d0">grey</data>
+  <data key="d1">α</data>
+</node>
+<node id="hyparchetypbeta">
+  <data key="d0">grey</data>
+  <data key="d1">β</data>
+</node>
+<node id="PAnt">
+  <data key="d1">P. Ant.</data>
+</node>
+<node id="GroupLaur">
+  <data key="d1">Laur.</data>
+  <data key="d0">grey</data>
+</node>
+<node id="GroupVat">
+  <data key="d1">Vat.</data>
+  <data key="d0">grey</data>
+</node>
+<node id="1">
+  <data key="d0">grey</data>
+  <data key="d1"></data>
+</node>
+<node id="2">
+  <data key="d0">grey</data>
+  <data key="d1"></data>
+</node>
+<node id="K"/>
+<edge source="archetyp" target="hyparchetypbeta">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="archetyp" target="PAnt">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="hyparchetypbeta" target="1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="hyparchetypbeta" target="2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="1" target="K">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="1" target="GroupVat">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="2" target="GroupLaur">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="2" target="GroupVat">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

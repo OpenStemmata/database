@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="archetyp">
+  <data key="d0">grey</data>
+  <data key="d1">ω</data>
+</node>
+<node id="groupm">
+  <data key="d0">grey</data>
+  <data key="d1">m</data>
+</node>
+<node id="VL">
+  <data key="d0">grey</data>
+  <data key="d1"> </data>
+</node>
+<node id="groupw">
+  <data key="d0">grey</data>
+  <data key="d1">w</data>
+</node>
+<node id="groupk">
+  <data key="d0">grey</data>
+  <data key="d1">k</data>
+</node>
+<node id="fivecopies">
+  <data key="d0">grey</data>
+  <data key="d1">5 erhaltene Abschriften</data>
+</node>
+<node id="A"/>
+<node id="V"/>
+<node id="L"/>
+<node id="S"/>
+<node id="G"/>
+<edge source="archetyp" target="groupm">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="archetyp" target="groupw">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="archetyp" target="groupk">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="groupm" target="A">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="groupm" target="VL">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="VL" target="V">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="VL" target="L">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="groupw" target="S">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="groupw" target="G">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="groupk" target="fivecopies">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d1" for="edge" attr.name="type" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="Dr16RV">
+  <data key="d0">Dr16 R-V</data>
+</node>
+<node id="Mi14"/>
+<node id="Mi19"/>
+<node id="Münch19"/>
+<node id="Al22"/>
+<node id="Bo16"/>
+<node id="Lu19"/>
+<node id="Ra17"/>
+<node id="Si17"/>
+<node id="Paris20"/>
+<node id="Lond21"/>
+<node id="Si22"/>
+<node id="Si30"/>
+<node id="Tn24"/>
+<node id="Fi14"/>
+<node id="Fe15"/>
+<node id="Mo18"/>
+<node id="Mo21"/>
+<node id="Ve16"/>
+<node id="Mn17"/>
+<node id="Barc20"/>
+<node id="Madr22"/>
+<node id="Pa23"/>
+<node id="To16"/>
+<node id="To23"/>
+<node id="To30"/>
+<node id="Vr17"/>
+<edge source="Mi14" target="Mi19">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Mi14" target="Münch19">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Mi14" target="Al22">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Mi14" target="Bo16">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Mi14" target="Fi14">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Bo16" target="Lu19">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Bo16" target="Ra17">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Bo16" target="Si17">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Si17" target="Paris20">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Si17" target="Si22">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Si17" target="Tn24">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Si17" target="Fi14">
+  <data key="d1">contamination</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Paris20" target="Lond21">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Si22" target="Si30">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Fi14" target="Fe15">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Fi14" target="Ve16">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Fe15" target="Dr16RV">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Fe15" target="Mo18">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Mo18" target="Mo21">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Ve16" target="Mn17">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Ve16" target="To16">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Mn17" target="Barc20">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Mn17" target="Pa23">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Barc20" target="Madr22">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Pa23" target="To23">
+  <data key="d1">contamination</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="To16" target="To23">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="To16" target="Vr17">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="To23" target="To30">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+</graph></graphml>

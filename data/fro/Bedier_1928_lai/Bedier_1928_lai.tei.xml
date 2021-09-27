@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Lai de l’Ombre</title>
+            <author>Bédier, Joseph</author>
+         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0001-9094-4475">Simon Gabay</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note></note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="book">
+               <title> La tradition manuscrite du Lai de l’Ombre. Réflexions sur l'art d'éditer les anciens textes (premier article)</title>
+               <date>1928</date>
+               <pubPlace>Paris</pubPlace>
+               <series>Romania</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="214"/>
+               <author>Bédier, Joseph</author>
+               <biblScope unit="page" n="166"/>
+               <ptr type="digitised" target="https://www.persee.fr/doc/roma_0035-8029_1928_num_54_214_4345"/>
+            </bibl>
+            <listWit><witness xml:id="A"><label type="siglum">A</label><settlement>Paris</settlement><repository> BNF</repository><idno> Fr. 837</idno></witness><witness xml:id="B"><label type="siglum">B</label><settlement>Paris</settlement><repository> BNF</repository><idno> Fr. 1593</idno></witness><witness xml:id="C"><label type="siglum">C</label><settlement>Paris</settlement><repository> BNF</repository><idno> Fr. 12603</idno></witness><witness xml:id="G"><label type="siglum">G</label><settlement>Paris</settlement><repository> BNF</repository><idno> Fr. 1553</idno></witness><witness xml:id="D"><label type="siglum">D</label><settlement>Paris</settlement><repository> BNF</repository><idno> Fr. 19152</idno></witness><witness xml:id="E"><label type="siglum">E</label><settlement>Paris</settlement><repository> BNF</repository><idno> Nv. acq. 1104</idno></witness><witness xml:id="F"><label type="siglum">F</label><settlement>Paris</settlement><repository> BNF</repository><idno> Fr. 14971</idno></witness></listWit>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/175784363">Lai de l’Ombre</title>
+           <persName role="author" ref="http://viaf.org/88948366">Jean Renart</persName>
+           <origDate>Beginning of 13th c.</origDate>
+           <origPlace>Liège?</origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">Lai</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">unspecified</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="fro"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Bedier_1928_lai/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="13" size="12"><label>2</label><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="2"><label>O</label></node><node xml:id="n_w" type="hypothetical" inDegree="1" outDegree="2"><label>w</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="2"><label>z</label></node><node xml:id="n_t" type="hypothetical" inDegree="1" outDegree="2"><label>t</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_G" type="witness" inDegree="1" outDegree="0"><label>G</label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_F" type="witness" inDegree="1" outDegree="0"><label>F</label></node><arc from="#n_O" to="#n_w" od:type="filiation" cert="unknown"/><arc from="#n_O" to="#n_z" od:type="filiation" cert="unknown"/><arc from="#n_w" to="#n_x" od:type="filiation" cert="unknown"/><arc from="#n_w" to="#n_y" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_A" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_B" od:type="filiation" cert="unknown"/><arc from="#n_y" to="#n_C" od:type="filiation" cert="unknown"/><arc from="#n_y" to="#n_G" od:type="filiation" cert="unknown"/><arc from="#n_z" to="#n_t" od:type="filiation" cert="unknown"/><arc from="#n_z" to="#n_E" od:type="filiation" cert="unknown"/><arc from="#n_t" to="#n_D" od:type="filiation" cert="unknown"/><arc from="#n_t" to="#n_F" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

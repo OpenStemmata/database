@@ -1,4 +1,4 @@
-publicationType: "article"
+publicationType: "publicationPart"
 publicationTitle: "Essai de classement des manuscrits de la Suite du Merlin"
 publicationDate: "1960"
 publicationPlace: "Paris"

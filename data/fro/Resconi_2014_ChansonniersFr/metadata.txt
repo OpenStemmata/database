@@ -1,4 +1,4 @@
-publicationType: "article"
+publicationType: "publicationPart"
 publicationTitle: "Le seriazioni nel processo di formazione dei canzonieri francesi: alcuni aspetti significativi."
 publicationDate: "2014"
 publicationPlace: ""

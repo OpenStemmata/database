@@ -1,4 +1,4 @@
-publicationType : "article"
+publicationType : "publicationPart"
 publicationTitle : "La tradizione primo ottocentesca dei libretti (1814-1830)"
 publicationDate : "2003"
 publicationPlace : "Pesaro"

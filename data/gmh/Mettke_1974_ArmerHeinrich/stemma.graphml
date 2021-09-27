@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="color" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="original">
+  <data key="d0">O</data>
+  <data key="d1">grey</data>
+</node>
+<node id="archetype">
+  <data key="d0">*EC</data>
+  <data key="d1">grey</data>
+</node>
+<node id="AB">
+  <data key="d0">*AB</data>
+  <data key="d1">grey</data>
+</node>
+<node id="DB">
+  <data key="d0">*DB</data>
+  <data key="d1">grey</data>
+</node>
+<node id="B">
+  <data key="d0">*B</data>
+  <data key="d1">grey</data>
+</node>
+<node id="E"/>
+<node id="C"/>
+<node id="A"/>
+<node id="D"/>
+<node id="Ba"/>
+<node id="Bb"/>
+<edge source="original" target="archetype">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="archetype" target="E">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="archetype" target="C">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="archetype" target="AB">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="AB" target="A">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="AB" target="DB">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="DB" target="D">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="DB" target="B">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="B" target="Ba">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="B" target="Bb">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Ba" target="Bb">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Roman de Thebes</title>
+            <author>Constans, Léopold</author>
+         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>la contamination est notée sur le stemma via le signe d'addition, selon la première mode, et indiquée dans le texte. y a utilisé un modèle secondaire de la famille de x.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="book">
+               <title>Le Roman de Thèbes, publié d’après tous les manuscrits</title>
+               <date>1890</date>
+               <pubPlace>Paris</pubPlace>
+               <series>SATF</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="30"/>
+               <author>Constans, Léopold</author>
+               <biblScope unit="page" n="LXVI"/>
+               <ptr type="digitised" target=""/>
+            </bibl>
+            </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/184279798">Roman de Thebes</title>
+           <persName role="author" ref="http://viaf.org/"></persName>
+           <origDate></origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">roman antique</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">yes</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">original</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="fro"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Constans_1890_Thebes/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="17" size="17"><label>1</label><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="2"><label>O</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="3"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="1"><label>z</label></node><node xml:id="n_zprime" type="hypothetical" inDegree="1" outDegree="2"><label>z'</label></node><node xml:id="n_s" type="hypothetical" inDegree="1" outDegree="1"><label>s</label></node><node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="1"><label></label></node><node xml:id="n_yprime" type="hypothetical" inDegree="2" outDegree="1"><label>y'</label></node><node xml:id="n_p" type="hypothetical" inDegree="1" outDegree="1"><label>p</label></node><node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="1"><label>a</label></node><node xml:id="n_S" type="witness" inDegree="1" outDegree="0"><label>S</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><arc from="#n_1" to="#n_D" od:type="filiation" cert="unknown"/><arc from="#n_1" to="#n_yprime" od:type="filiation" cert="unknown"/><arc from="#n_O" to="#n_z" od:type="filiation" cert="unknown"/><arc from="#n_O" to="#n_1" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_2" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_C" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_yprime" od:type="contamination" cert="unknown"/><arc from="#n_y" to="#n_p" od:type="filiation" cert="unknown"/><arc from="#n_y" to="#n_a" od:type="filiation" cert="unknown"/><arc from="#n_z" to="#n_zprime" od:type="filiation" cert="unknown"/><arc from="#n_zprime" to="#n_s" od:type="filiation" cert="unknown"/><arc from="#n_zprime" to="#n_x" od:type="filiation" cert="unknown"/><arc from="#n_s" to="#n_S" od:type="filiation" cert="unknown"/><arc from="#n_2" to="#n_B" od:type="filiation" cert="unknown"/><arc from="#n_yprime" to="#n_y" od:type="filiation" cert="unknown"/><arc from="#n_p" to="#n_P" od:type="filiation" cert="unknown"/><arc from="#n_a" to="#n_A" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

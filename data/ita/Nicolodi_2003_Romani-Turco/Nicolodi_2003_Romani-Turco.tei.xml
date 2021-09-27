@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Il Turco in Italia</title>
+            <author>Nicolodia, Fiamma; Trovato, Paolo</author>
+         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Stemma encoded not from the edition, but from Trovato (2004), Sugli stemmi bipartiti</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="publicationPart">
+               <title>La tradizione primo ottocentesca dei libretti (1814-1830)</title>
+               <date>2003</date>
+               <pubPlace>Pesaro</pubPlace>
+               <series>Gioacchino Rossini, Il Turco in Italia, a cura di Fiamma Nicolodi</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n=""/>
+               <author>Nicolodia, Fiamma; Trovato, Paolo</author>
+               <biblScope unit="page" n="LXI-CI"/>
+               <ptr type="digitised" target=""/>
+            </bibl>
+            </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/306072732">Il Turco in Italia</title>
+           <persName role="author" ref="http://viaf.org/19683628">Felice Romani</persName>
+           <origDate>1814</origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">libretto</term>
+              <term type="stemmaType">observed</term>
+              <term type="contam">yes</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">original</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="ita"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/ita/Nicolodi_2003_Romani-Turco/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="27" size="28"><label></label><node xml:id="n_Dr16RV" type="witness" inDegree="1" outDegree="0"><label>Dr16 R-V</label></node><node xml:id="n_Mi14" type="witness" inDegree="0" outDegree="5"><label>Mi14</label></node><node xml:id="n_Mi19" type="witness" inDegree="1" outDegree="0"><label>Mi19</label></node><node xml:id="n_Münch19" type="witness" inDegree="1" outDegree="0"><label>Münch19</label></node><node xml:id="n_Al22" type="witness" inDegree="1" outDegree="0"><label>Al22</label></node><node xml:id="n_Bo16" type="witness" inDegree="1" outDegree="3"><label>Bo16</label></node><node xml:id="n_Lu19" type="witness" inDegree="1" outDegree="0"><label>Lu19</label></node><node xml:id="n_Ra17" type="witness" inDegree="1" outDegree="0"><label>Ra17</label></node><node xml:id="n_Si17" type="witness" inDegree="1" outDegree="4"><label>Si17</label></node><node xml:id="n_Paris20" type="witness" inDegree="1" outDegree="1"><label>Paris20</label></node><node xml:id="n_Lond21" type="witness" inDegree="1" outDegree="0"><label>Lond21</label></node><node xml:id="n_Si22" type="witness" inDegree="1" outDegree="1"><label>Si22</label></node><node xml:id="n_Si30" type="witness" inDegree="1" outDegree="0"><label>Si30</label></node><node xml:id="n_Tn24" type="witness" inDegree="1" outDegree="0"><label>Tn24</label></node><node xml:id="n_Fi14" type="witness" inDegree="2" outDegree="2"><label>Fi14</label></node><node xml:id="n_Fe15" type="witness" inDegree="1" outDegree="2"><label>Fe15</label></node><node xml:id="n_Mo18" type="witness" inDegree="1" outDegree="1"><label>Mo18</label></node><node xml:id="n_Mo21" type="witness" inDegree="1" outDegree="0"><label>Mo21</label></node><node xml:id="n_Ve16" type="witness" inDegree="1" outDegree="2"><label>Ve16</label></node><node xml:id="n_Mn17" type="witness" inDegree="1" outDegree="2"><label>Mn17</label></node><node xml:id="n_Barc20" type="witness" inDegree="1" outDegree="1"><label>Barc20</label></node><node xml:id="n_Madr22" type="witness" inDegree="1" outDegree="0"><label>Madr22</label></node><node xml:id="n_Pa23" type="witness" inDegree="1" outDegree="1"><label>Pa23</label></node><node xml:id="n_To16" type="witness" inDegree="1" outDegree="2"><label>To16</label></node><node xml:id="n_To23" type="witness" inDegree="2" outDegree="1"><label>To23</label></node><node xml:id="n_To30" type="witness" inDegree="1" outDegree="0"><label>To30</label></node><node xml:id="n_Vr17" type="witness" inDegree="1" outDegree="0"><label>Vr17</label></node><arc from="#n_Mi14" to="#n_Mi19" od:type="filiation" cert="unknown"/><arc from="#n_Mi14" to="#n_Münch19" od:type="filiation" cert="unknown"/><arc from="#n_Mi14" to="#n_Al22" od:type="filiation" cert="unknown"/><arc from="#n_Mi14" to="#n_Bo16" od:type="filiation" cert="unknown"/><arc from="#n_Mi14" to="#n_Fi14" od:type="filiation" cert="unknown"/><arc from="#n_Bo16" to="#n_Lu19" od:type="filiation" cert="unknown"/><arc from="#n_Bo16" to="#n_Ra17" od:type="filiation" cert="unknown"/><arc from="#n_Bo16" to="#n_Si17" od:type="filiation" cert="unknown"/><arc from="#n_Si17" to="#n_Paris20" od:type="filiation" cert="unknown"/><arc from="#n_Si17" to="#n_Si22" od:type="filiation" cert="unknown"/><arc from="#n_Si17" to="#n_Tn24" od:type="filiation" cert="unknown"/><arc from="#n_Si17" to="#n_Fi14" od:type="contamination" cert="unknown"/><arc from="#n_Paris20" to="#n_Lond21" od:type="filiation" cert="unknown"/><arc from="#n_Si22" to="#n_Si30" od:type="filiation" cert="unknown"/><arc from="#n_Fi14" to="#n_Fe15" od:type="filiation" cert="unknown"/><arc from="#n_Fi14" to="#n_Ve16" od:type="filiation" cert="unknown"/><arc from="#n_Fe15" to="#n_Dr16RV" od:type="filiation" cert="unknown"/><arc from="#n_Fe15" to="#n_Mo18" od:type="filiation" cert="unknown"/><arc from="#n_Mo18" to="#n_Mo21" od:type="filiation" cert="unknown"/><arc from="#n_Ve16" to="#n_Mn17" od:type="filiation" cert="unknown"/><arc from="#n_Ve16" to="#n_To16" od:type="filiation" cert="unknown"/><arc from="#n_Mn17" to="#n_Barc20" od:type="filiation" cert="unknown"/><arc from="#n_Mn17" to="#n_Pa23" od:type="filiation" cert="unknown"/><arc from="#n_Barc20" to="#n_Madr22" od:type="filiation" cert="unknown"/><arc from="#n_Pa23" to="#n_To23" od:type="contamination" cert="unknown"/><arc from="#n_To16" to="#n_To23" od:type="filiation" cert="unknown"/><arc from="#n_To16" to="#n_Vr17" od:type="filiation" cert="unknown"/><arc from="#n_To23" to="#n_To30" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>
