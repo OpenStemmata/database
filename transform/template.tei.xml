@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable"></title>
+            <author></author>
+            <respStmt>
+               <resp>contributed to OpenStemmata by</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date></date><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note></note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title></title>
+               <date></date>
+               <pubPlace></pubPlace>
+               <series></series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n=""/>
+               <author></author>
+               <biblScope unit="page" n=""/>
+               <ptr type="digitised"/>
+            </bibl>
+            <listWit></listWit>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title></title>
+           <persName role="author"></persName>
+           <origDate></origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre"></term>
+              <term type="stemmaType"></term>
+              <term type="contam"></term>
+              <term type="extraStemmContam"></term>
+              <term type="rootType"></term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change></change>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic></graphic>
+  </facsimile>
+  <text>
+      <body>
+         <graph></graph>
+      </body>
+  </text>
+</TEI>
