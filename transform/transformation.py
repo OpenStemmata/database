@@ -11,8 +11,7 @@ from lxml import etree as et
 # for changed_file in ./* ; do python ./transform/transformation.py $changed_file ; done
 # 
 # Local:
-# for changed_file in $( find ~/Dokumente/OpenStemmata/database/data -name '*.*' ) ; do ~/Dokumente/OpenStemmata/venv/bin/python3 ~/Dokumente/OpenStemmata/test/transform/transformation.py $changed_file ; done
-#
+# for changed_file in $( find ~/Dokumente/OpenStemmata/database/data -name '*.*' ) ; do ~/Dokumente/OpenStemmata/venv/bin/python3 ~/Dokumente/OpenStemmata/database/transform/transformation.py $changed_file ; done
 
 attributes_regex = '(\w+)="([^"]*)",?\s*'
 
@@ -32,7 +31,8 @@ if len(sys.argv) > 1:
         txtFile = changed_file
         dotFile = '/'.join(path) + '/stemma.gv'
     else:
-        sys.exit('Changed file is not .txt nor .gv')
+        # sys.exit('Changed file is not .txt nor .gv')
+        sys.exit()
 
     
     
@@ -101,7 +101,6 @@ if len(sys.argv) > 1:
         creation = root.find('./tei:teiHeader/tei:profileDesc/tei:creation', ns)
         keywords = root.find('./tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords', ns)
         listWit = root.find('./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listWit', ns)
-        respStmt = root.find('./tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt', ns)
         graph = root.find('.//tei:graph', ns)
 
         #This is useful for the url of the graphic element
@@ -211,11 +210,15 @@ if len(sys.argv) > 1:
                 el.text = cont
             elif re.match('^[\s]*contributor[^O]', line):
                 cont = re.findall('"([^"]*)"', line)[0]
+                respStmt = et.SubElement(titleStmt, 'respStmt')
+                resp = et.SubElement(respStmt, 'resp')
+                resp.text = "contributed to OpenStemmata by"
                 el = et.SubElement(respStmt, 'persName')
                 el.text = cont
             elif re.match('^[\s]*contributorORCID', line):
                 cont = re.findall('"([^"]*)"', line)[0]
-                el.attrib['ref'] = cont
+                if len(cont) > 5:
+                    el.attrib['ref'] = cont
             elif re.match('^[\s]*note', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = root.find('./tei:teiHeader/tei:fileDesc/tei:notesStmt/tei:note', ns)
@@ -229,8 +232,17 @@ if len(sys.argv) > 1:
             elif re.match('^[\s]+witSignature', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 if cont != '':
-                    el = et.SubElement(wit, 'idno')
-                    el.text = cont
+                    split_cont = cont.split(',')
+                    if len(split_cont) != 3:
+                        el = et.SubElement(wit, 'idno')
+                        el.text = cont
+                    else:
+                        settlement = et.SubElement(wit, 'settlement')
+                        settlement.text = split_cont[0]
+                        repository = et.SubElement(wit, 'repository')
+                        repository.text = split_cont[1]
+                        idno = et.SubElement(wit, 'idno')
+                        idno.text = split_cont[2]
             elif re.match('^[\s]+witOrigDate', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 if cont != '':
@@ -259,7 +271,7 @@ if len(sys.argv) > 1:
         graphic.attrib['url'] = facsimileLink + new_file_name + '/stemma.png?raw=true'
 
     if len(list(listWit)) == 0:
-        print("Zero")
+        # print("Zero")
         listWit.getparent().remove(listWit)
 
 
