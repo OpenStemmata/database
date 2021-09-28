@@ -7,7 +7,6 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable"></title>
-            <author></author>
          </titleStmt>
          <publicationStmt>
             <authority>
@@ -30,7 +29,6 @@
                <series></series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
-               <author></author>
                <biblScope unit="page" n=""/>
                <ptr type="digitised"/>
             </bibl>

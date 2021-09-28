@@ -4,6 +4,7 @@ import sys
 import re 
 from lxml import etree as et 
 
+
 # Transforms files DOT and metadata to TEI and Graphml
 # The file changed is in the variable: changed_file. The script checks if the file changed is DOT or txt and transforms both
 # It is applied automaticly with each push for the files changed
@@ -17,7 +18,7 @@ attributes_regex = '(\w+)="([^"]*)",?\s*'
 
 if len(sys.argv) > 1:
     changed_file = str(sys.argv[1])
-    print(changed_file)
+    
     dotFile = ''
     txtFile = ''
     path = changed_file.split('/')[0:-1]
@@ -35,7 +36,7 @@ if len(sys.argv) > 1:
         sys.exit()
 
     
-    
+    print("Processing: ", changed_file)
     
 
     with codecs.open(dotFile, 'r', 'utf-8') as dot:
@@ -101,10 +102,14 @@ if len(sys.argv) > 1:
         creation = root.find('./tei:teiHeader/tei:profileDesc/tei:creation', ns)
         keywords = root.find('./tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords', ns)
         listWit = root.find('./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listWit', ns)
+        # date = root.find('./tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:data', ns)
         graph = root.find('.//tei:graph', ns)
 
         #This is useful for the url of the graphic element
         facsimileLink = "https://github.com/OpenStemmata/database/blob/main/data/"
+
+
+
         for line in metadata:
             if re.match('^[\s]*publicationType', line):
                 cont = re.findall('"([^"]*)"', line)
@@ -145,9 +150,9 @@ if len(sys.argv) > 1:
                 graphLabel.text = cont
             elif re.match('^[\s]*publicationAuthors', line):
                 cont = re.findall('"([^"]*)"', line)[0]
-                el = bibl.find('./tei:author', ns)
+                el = et.SubElement(bibl, 'author')
                 el.text = cont
-                el2 = titleStmt.find('./tei:author', ns)
+                el2 = et.SubElement(titleStmt, 'author')
                 el2.text = cont
             elif re.match('^[\s]*publicationPage', line):
                 cont = re.findall('"([^"]*)"', line)[0]
