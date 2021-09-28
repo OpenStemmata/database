@@ -1,6 +1,7 @@
 #browseVignettes("DiagrammeR")
 #DiagrammeR::grViz("../examples/Paris_1872_Alexis/stemma.gv")
 #DiagrammeR::grViz("../examples/Paris_1872_Alexis/stemma.gv", engine="topi")
+library("stringr")
 library("testthat")
 testthat::test_dir("tests/testthat/", stop_on_warning = TRUE)
 

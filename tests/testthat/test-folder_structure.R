@@ -47,7 +47,7 @@ test_that("All submissions are complete", {
                 info = paste("Error in folder",
                                   folders[i], 
                                   " Each submission must contain only:", 
-                                  paste(correct_structure, collapse = " "), 
+                                  paste(correct_structure_min, collapse = " "), 
                                   collapse = " ")
     ) 
   }
