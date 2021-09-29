@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="color" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="Original">
+  <data key="d0">Original (um 1130-1140 an der niederdeutschen Grenze entstanden)</data>
+  <data key="d1">grey</data>
+</node>
+<node id="Umarbeitung">
+  <data key="d0">Umarbeitung (in Baiern?) anscheinend von einem Nieder- oder Mitteldeutschen verfaßt</data>
+  <data key="d1">grey</data>
+</node>
+<node id="VorlageH">
+  <data key="d0">Vorlage von H</data>
+  <data key="d1">grey</data>
+</node>
+<node id="M"/>
+<node id="H"/>
+<edge source="Original" target="Umarbeitung">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Umarbeitung" target="VorlageH">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Umarbeitung" target="M">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="VorlageH" target="H">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

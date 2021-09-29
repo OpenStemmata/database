@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Trachiniai</title>
+            <author>Erbse, Hartmut</author>
+         <respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>most important representants of group ρ are G (Firenze, Biblioteca Medicea Laurenziana, Conventi Soppressi 152, written 1282), R (Vaticano, Biblioteca Apostolica Vaticana, Vat. gr. 2291, written in 15c), M (Modena, Biblioteca Estense universitaria, fonds principal α. T. 9. 04 (Puntoni 41), written in 15c) and Q (Paris, Bibliothèque nationale de France, Supplément grec 109, written in 16c)</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="chapter">
+               <title>Überlieferungsgeschichte der griechischen klassischen und hellenistischen Literatur</title>
+               <date>1961</date>
+               <pubPlace>Zürich</pubPlace>
+               <series>Geschichte der Textüberlieferung der antiken und mittelalterlichen Literatur</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="1"/>
+               <author>Erbse, Hartmut</author>
+               <biblScope unit="page" n="275"/>
+               <ptr type="digitised" target="http://opac.regesta-imperii.de/id/834709"/>
+            </bibl>
+            <listWit><witness xml:id="L"><label type="siglum">L</label><settlement>Firenze</settlement><repository> Biblioteca Medicea Laurenziana</repository><idno> Plutei 32.09</idno><origDate>14c</origDate><ptr type="digitised" target="http://mss.bmlonline.it/Catalogo.aspx?Shelfmark=Plut.32.9&amp;Creator=Sophocles"/></witness><witness xml:id="Λ"><label type="siglum">Λ</label><settlement>Leiden</settlement><repository> Bibliotheek der Rijksuniversiteit</repository><idno> BPG 060A</idno><origDate>14c</origDate><note>has been overwritten (palimpsest)</note><ptr type="digitised" target="http://hdl.handle.net/1887.1/item:375386"/></witness></listWit>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/314711610">Trachiniai</title>
+           <persName role="author" ref="http://viaf.org/101760867">Sophokles</persName>
+           <origDate>500-401</origDate>
+           <origPlace>Athen</origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">drama</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">archetype</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="grc"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/grc/Erbse_1961_Sophokles-Drama/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="5" size="4"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="2"><label>ω</label></node><node xml:id="n_grouplambda" type="hypothetical" inDegree="1" outDegree="2"><label>λ</label></node><node xml:id="n_palimpsestlambda" type="witness" inDegree="1" outDegree="0"><label>Λ</label></node><node xml:id="n_grouprho" type="hypothetical" inDegree="1" outDegree="0"><label>ρ (GRMQ)</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><arc from="#n_archetyp" to="#n_grouplambda" od:type="filiation" cert="unknown"/><arc from="#n_archetyp" to="#n_grouprho" od:type="filiation" cert="unknown"/><arc from="#n_grouplambda" to="#n_L" od:type="filiation" cert="unknown"/><arc from="#n_grouplambda" to="#n_palimpsestlambda" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

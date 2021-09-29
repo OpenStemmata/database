@@ -1,4 +1,4 @@
-publicationType: "article"
+publicationType: "publicationPart"
 publicationTitle: "Le texte critique de la Mort le roi Artu. Question ouverte"
 publicationDate: "2003"
 publicationPlace: "Paris"

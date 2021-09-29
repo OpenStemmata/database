@@ -1,4 +1,4 @@
-publicationType: "article"
+publicationType: "publicationPart"
 publicationTitle: "Archéologie alexienne : le scriptorium de Saint Albans [Vie de saint Alexis]"
 publicationDate: "2010"
 publicationPlace: "Paris"

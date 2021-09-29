@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Der arme Heinrich</title>
+            <author>Mettke, Heinz</author>
+         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0002-2202-6354">Gustavo Riva</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note></note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="book">
+               <title>Der arme Heinrich</title>
+               <date>1974</date>
+               <pubPlace>Leipzig</pubPlace>
+               <series> </series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n=""/>
+               <author>Mettke, Heinz</author>
+               <biblScope unit="page" n="42"/>
+               <ptr type="digitised" target=""/>
+            </bibl>
+            <listWit><witness xml:id="A"><label type="siglum">A</label><settlement>Straßburg</settlement><repository> Stadtbibliothek</repository><idno> Cod. A 94</idno><origDate>1300-1350</origDate><origPlace>Alsace</origPlace><note>Destroyed</note><ptr type="description" target="https://handschriftencensus.de/2724"/></witness><witness xml:id="Ba"><label type="siglum">Ba</label><settlement>Heidelberg</settlement><repository> Universitätsbibliothek</repository><idno> Cod. Pal. germ. 341</idno><origDate>1300-1325</origDate><origPlace>Oberfranken</origPlace><ptr type="description" target="https://handschriftencensus.de/4214"/><ptr type="digitised" target="https://digi.ub.uni-heidelberg.de/cpg341"/></witness><witness xml:id="Bb"><label type="siglum">Bb</label><settlement>Cologny</settlement><repository> Fondation Martin Bodmer</repository><idno> Cod. Bodmer 72</idno><origDate>1300-1325</origDate><origPlace>Oberfranken</origPlace><ptr type="description" target="https://handschriftencensus.de/4215"/><ptr type="digitised" target="http://www.e-codices.unifr.ch/de/list/one/cb/0072"/></witness><witness xml:id="C"><label type="siglum">C</label><settlement>Berlin</settlement><repository> Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</repository><idno> Ms. germ. fol. 923 Nr. 7a</idno><origDate>1200-1250</origDate><origPlace>Bavaria</origPlace><ptr type="description" target="https://handschriftencensus.de/1061"/><ptr type="digitised" target="https://www.fgcu.edu/rboggs/hartmann/heinrich/AhImages/AhImageC.htm?x=135&amp;y=81"/></witness><witness xml:id="D"><label type="siglum">D</label><settlement>Munich</settlement><repository>  Bayerische Staatsbibliothek</repository><idno> Cgm 5249(29a-(30a</idno><origDate>1350-1400</origDate><ptr type="description" target="https://handschriftencensus.de/3029"/><ptr type="digitised" target="https://daten.digitale-sammlungen.de/bsb00107009/image_1"/></witness><witness xml:id="E"><label type="siglum">E</label><settlement>Munich</settlement><repository>  Bayerische Staatsbibliothek</repository><idno> Cgm 5249(29b</idno><origDate>1280-1300</origDate><ptr type="description" target="https://handschriftencensus.de/1077"/><ptr type="digitised" target="https://digi.ub.uni-heidelberg.de/diglit/bsb_cgm5249_29b"/></witness><witness xml:id="F"><label type="siglum">F</label><idno>Freiburg i.Br., Universitätsbibliothek, Hs. 381, fol. 72</idno><origDate>1280-1310</origDate><ptr type="description" target="https://handschriftencensus.de/1093"/><ptr type="digitised" target="https://digi.ub.uni-heidelberg.de/diglit/ubfr_hs381_fol72/"/></witness></listWit>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/">Der arme Heinrich</title>
+           <persName role="author" ref="http://viaf.org/54167250">Hartmann von Aue</persName>
+           <origDate>1160-1210</origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre"></term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">yes</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">original</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="gmh"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Mettke_1974_ArmerHeinrich/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="11" size="11"><label>1</label><node xml:id="n_original" type="hypothetical" inDegree="0" outDegree="1"><label>O</label></node><node xml:id="n_archetype" type="hypothetical" inDegree="1" outDegree="3"><label>*EC</label></node><node xml:id="n_AB" type="hypothetical" inDegree="1" outDegree="2"><label>*AB</label></node><node xml:id="n_DB" type="hypothetical" inDegree="1" outDegree="2"><label>*DB</label></node><node xml:id="n_B" type="hypothetical" inDegree="1" outDegree="2"><label>*B</label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_Ba" type="witness" inDegree="1" outDegree="1"><label>Ba</label></node><node xml:id="n_Bb" type="witness" inDegree="2" outDegree="0"><label>Bb</label></node><arc from="#n_original" to="#n_archetype" od:type="filiation" cert="unknown"/><arc from="#n_archetype" to="#n_E" od:type="filiation" cert="unknown"/><arc from="#n_archetype" to="#n_C" od:type="filiation" cert="unknown"/><arc from="#n_archetype" to="#n_AB" od:type="filiation" cert="unknown"/><arc from="#n_AB" to="#n_A" od:type="filiation" cert="unknown"/><arc from="#n_AB" to="#n_DB" od:type="filiation" cert="unknown"/><arc from="#n_DB" to="#n_D" od:type="filiation" cert="unknown"/><arc from="#n_DB" to="#n_B" od:type="filiation" cert="unknown"/><arc from="#n_B" to="#n_Ba" od:type="filiation" cert="unknown"/><arc from="#n_B" to="#n_Bb" od:type="contamination" cert="unknown"/><arc from="#n_Ba" to="#n_Bb" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

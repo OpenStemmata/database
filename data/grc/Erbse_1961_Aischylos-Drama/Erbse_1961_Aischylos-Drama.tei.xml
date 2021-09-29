@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Eumenides</title>
+            <author>Erbse, Hartmut</author>
+         <respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>M contains all seven tragedies, M has been defaced and is lacking V. 311-1066 and 1160-1673 of Agamemnon and the hypothesis and a part of the prologue of Choephoroi, Φ and the edition of Thomas Magister contain only Persai, Hepta epi Thebas and Prometheus desmotes, ψ has gone astray and contained Prometheus desmotes, Hepta epi Thebas, Persai, Agamemnon and a fragmentary edition of Eumenides</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="chapter">
+               <title>Überlieferungsgeschichte der griechischen klassischen und hellenistischen Literatur</title>
+               <date>1961</date>
+               <pubPlace>Zürich</pubPlace>
+               <series>Geschichte der Textüberlieferung der antiken und mittelalterlichen Literatur</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="1"/>
+               <author>Erbse, Hartmut</author>
+               <biblScope unit="page" n="274"/>
+               <ptr type="digitised" target="http://opac.regesta-imperii.de/lang_de/anzeige.php?sammelwerk=Geschichte+der+Text%C3%BCberlieferung+der+antiken+und+mittelalterlichen+Literatur"/>
+            </bibl>
+            <listWit><witness xml:id="M"><label type="siglum">M</label><settlement>Firenze</settlement><repository> Biblioteca Medicea Laurenziana</repository><idno> Plut. 32. 09</idno><origDate>begin of 11c</origDate><note>also known as L</note><ptr type="digitised" target="http://mss.bmlonline.it/s.aspx?Id=AWOIscHBI1A4r7GxMJ4Q&amp;c=II.%20Aeschyli%20tragoediae%20VII#/book"/></witness><witness xml:id="Ausg. des Thom. Mag."><label type="siglum">Ausg. des Thom. Mag.</label></witness><witness xml:id="Φ"><label type="siglum">Φ</label></witness><witness xml:id="F"><label type="siglum">F</label></witness><witness xml:id="G"><label type="siglum">G</label></witness><witness xml:id="Ausg. des Trikl."><label type="siglum">Ausg. des Trikl.</label></witness></listWit>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/188652016">Eumenides</title>
+           <persName role="author" ref="http://viaf.org/268526195">Aischylos</persName>
+           <origDate>600-401</origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">drama</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">archetype</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="grc"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/grc/Erbse_1961_Aischylos-Drama/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="13" size="15"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="3"><label>ω</label></node><node xml:id="n_phi" type="hypothetical" inDegree="1" outDegree="3"><label>Φ</label></node><node xml:id="n_pi" type="hypothetical" inDegree="1" outDegree="0"><label>π</label></node><node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="1"><label>β</label></node><node xml:id="n_xi" type="hypothetical" inDegree="2" outDegree="0"><label>ξ</label></node><node xml:id="n_rho" type="hypothetical" inDegree="1" outDegree="0"><label>ρ</label></node><node xml:id="n_sigma" type="hypothetical" inDegree="1" outDegree="0"><label>σ</label></node><node xml:id="n_psi" type="hypothetical" inDegree="1" outDegree="3"><label>ψ</label></node><node xml:id="n_ThomMag" type="hypothetical" inDegree="1" outDegree="4"><label>Ausg. des Thom. Mag.</label></node><node xml:id="n_Trikl" type="hypothetical" inDegree="2" outDegree="1"><label>Ausg. des Trikl.</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_F" type="witness" inDegree="2" outDegree="0"><label>F</label></node><node xml:id="n_G" type="witness" inDegree="1" outDegree="0"><label>G</label></node><arc from="#n_archetyp" to="#n_M" od:type="filiation" cert="unknown"/><arc from="#n_archetyp" to="#n_phi" od:type="filiation" cert="unknown"/><arc from="#n_archetyp" to="#n_psi" od:type="filiation" cert="unknown"/><arc from="#n_phi" to="#n_pi" od:type="filiation" cert="unknown"/><arc from="#n_phi" to="#n_beta" od:type="filiation" cert="unknown"/><arc from="#n_phi" to="#n_ThomMag" od:type="filiation" cert="unknown"/><arc from="#n_beta" to="#n_xi" od:type="filiation" cert="unknown"/><arc from="#n_psi" to="#n_Trikl" od:type="filiation" cert="unknown"/><arc from="#n_psi" to="#n_F" od:type="filiation" cert="unknown"/><arc from="#n_psi" to="#n_G" od:type="filiation" cert="unknown"/><arc from="#n_ThomMag" to="#n_xi" od:type="filiation" cert="unknown"/><arc from="#n_ThomMag" to="#n_rho" od:type="filiation" cert="unknown"/><arc from="#n_ThomMag" to="#n_sigma" od:type="filiation" cert="unknown"/><arc from="#n_ThomMag" to="#n_Trikl" od:type="filiation" cert="unknown"/><arc from="#n_Trikl" to="#n_F" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

@@ -1,4 +1,4 @@
-publicationType: "article"
+publicationType: "publicationPart"
 publicationTitle: "L'histoire de Pyrame et Thisbê dans la mise en prose de l'Ovide moralisé : Texte du manuscrit Paris, B. N., f. fr. 137, avec variantes et commentaires"
 publicationDate: "1973"
 publicationPlace: "Paris"

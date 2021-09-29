@@ -1,4 +1,4 @@
-publicationType: "article"
+publicationType: "publicationPart"
 publicationTitle: "Les versions françaises médiévales du récit apocryphe de la formation d'Adam"
 publicationDate: "1979"
 publicationPlace: "Paris"

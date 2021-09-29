@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d1" for="edge" attr.name="type" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="Na">
+  <data key="d0">1504Na</data>
+</node>
+<node id="Ald">
+  <data key="d0">1514 Ald</data>
+</node>
+<node id="Rusc">
+  <data key="d0">1515 Rusc</data>
+</node>
+<node id="Zopp1">
+  <data key="d0">1521 Zopp</data>
+</node>
+<node id="Zopp2">
+  <data key="d0">1524 Zopp</data>
+</node>
+<node id="Pag">
+  <data key="d0">1515 Pag</data>
+</node>
+<node id="Fi1">
+  <data key="d0">1515 Fi</data>
+</node>
+<node id="Tac">
+  <data key="d0">1519 Tac</data>
+</node>
+<node id="Rusc2">
+  <data key="d0">1522 Rusc</data>
+</node>
+<node id="Fi2">
+  <data key="d0">1519 Fi</data>
+</node>
+<node id="Ald2">
+  <data key="d0">1534 Ald</data>
+</node>
+<node id="Greg">
+  <data key="d0">1525 Gref</data>
+</node>
+<node id="Zopp3">
+  <data key="d0">1530 Zopp</data>
+</node>
+<node id="Pag2">
+  <data key="d0">1530-1 Pag</data>
+</node>
+<node id="Bind1">
+  <data key="d0">1531 Bind</data>
+</node>
+<node id="Bind2">
+  <data key="d0">1533 Bind</data>
+</node>
+<node id="Bind3">
+  <data key="d0">1543 Bind</data>
+</node>
+<node id="Bind4">
+  <data key="d0">1545 Bind</data>
+</node>
+<node id="Imp">
+  <data key="d0">1548 Imp</data>
+</node>
+<node id="Sess">
+  <data key="d0">1532 Sess</data>
+</node>
+<node id="Zio">
+  <data key="d0">1538 Zio</data>
+</node>
+<node id="Guad1">
+  <data key="d0">1539 Guad</data>
+</node>
+<node id="Guad2">
+  <data key="d0">1543 Guad</data>
+</node>
+<node id="Gio">
+  <data key="d0">1543 Gio</data>
+</node>
+<node id="Gio2">
+  <data key="d0">1549 Gio</data>
+</node>
+<node id="Sta">
+  <data key="d0">1531 Sta</data>
+</node>
+<node id="Na2">
+  <data key="d0">1507 Na</data>
+</node>
+<node id="Mi1">
+  <data key="d0">1509 Mi</data>
+</node>
+<node id="Mi2">
+  <data key="d0">1510 Mi</data>
+</node>
+<node id="Mi3">
+  <data key="d0">1512 Mi</data>
+</node>
+<node id="Bo1516">
+  <data key="d0">1516 Bo</data>
+</node>
+<node id="Bo1520">
+  <data key="d0">1520 Bo</data>
+</node>
+<edge source="Na" target="Ald">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Na" target="Na2">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Na" target="Mi1">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Na" target="Mi2">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Na" target="Mi3">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Na" target="Bo1516">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Ald" target="Rusc">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Ald" target="Pag">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Ald" target="Fi1">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Ald" target="Ald2">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Ald" target="Greg">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Ald" target="Zopp3">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Ald" target="Bo1520">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Rusc" target="Zopp1">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Zopp1" target="Zopp2">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Fi1" target="Tac">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Fi1" target="Fi2">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Tac" target="Rusc2">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Zopp3" target="Pag2">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Zopp3" target="Bind1">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Bind1" target="Sess">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Bind1" target="Bind2">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Bind1" target="Guad1">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Bind1" target="Sta">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Bind2" target="Bind3">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Bind3" target="Bind4">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Bind4" target="Imp">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Sess" target="Zio">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Guad1" target="Guad2">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Guad2" target="Gio">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Gio" target="Gio2">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="Sta" target="Na2">
+  <data key="d1">contamination</data>
+  <data key="d2">unknown</data>
+</edge>
+</graph></graphml>

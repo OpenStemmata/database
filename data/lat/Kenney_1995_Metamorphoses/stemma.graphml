@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="archetyp">
+  <data key="d0">grey</data>
+  <data key="d1"></data>
+</node>
+<node id="delta">
+  <data key="d1"> Δ</data>
+</node>
+<node id="epsilon">
+  <data key="d1">ɛ</data>
+</node>
+<node id="tau1">
+  <data key="d1">𝜏(1)</data>
+</node>
+<node id="ypsilon">
+  <data key="d1">υ</data>
+</node>
+<node id="beta">
+  <data key="d1">β</data>
+</node>
+<node id="alpha">
+  <data key="d1">α</data>
+</node>
+<node id="x">
+  <data key="d0">grey</data>
+  <data key="d1">(x)</data>
+</node>
+<node id="lambda">
+  <data key="d1">λ</data>
+</node>
+<node id="pi">
+  <data key="d1">π</data>
+</node>
+<node id="sigma">
+  <data key="d1">Σ</data>
+</node>
+<node id="phi">
+  <data key="d1">ϕ</data>
+</node>
+<node id="tau">
+  <data key="d1">τ(4-15)</data>
+</node>
+<node id="1">
+  <data key="d0">grey</data>
+  <data key="d1"></data>
+</node>
+<node id="2">
+  <data key="d0">grey</data>
+  <data key="d1"></data>
+</node>
+<node id="3">
+  <data key="d0">grey</data>
+  <data key="d1"></data>
+</node>
+<node id="4">
+  <data key="d0">grey</data>
+  <data key="d1"></data>
+</node>
+<node id="5">
+  <data key="d0">grey</data>
+  <data key="d1"></data>
+</node>
+<node id="6">
+  <data key="d0">grey</data>
+  <data key="d1"></data>
+</node>
+<node id="delta2">
+  <data key="d0">grey</data>
+  <data key="d1"></data>
+</node>
+<node id="pisigma">
+  <data key="d0">grey</data>
+  <data key="d1"></data>
+</node>
+<node id="preU">
+  <data key="d0">grey</data>
+  <data key="d1"></data>
+</node>
+<node id="GP">
+  <data key="d0">grey</data>
+  <data key="d1"></data>
+</node>
+<node id="RSWZ"/>
+<node id="M"/>
+<node id="N"/>
+<node id="U"/>
+<node id="E"/>
+<node id="G"/>
+<node id="P"/>
+<node id="F"/>
+<node id="L"/>
+<edge source="archetyp" target="delta">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="archetyp" target="alpha">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="archetyp" target="x">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="archetyp" target="lambda">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="archetyp" target="pi">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="archetyp" target="pisigma">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="delta" target="epsilon">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="delta" target="delta2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="epsilon" target="tau1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x" target="preU">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x" target="RSWZ">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x" target="5">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="sigma" target="5">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="sigma" target="GP">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="sigma" target="6">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="1" target="2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="1" target="4">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="2" target="3">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="2" target="ypsilon">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="3" target="beta">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="3" target="M">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="4" target="N">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="4" target="preU">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="5" target="E">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="5" target="phi">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="6" target="F">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="6" target="tau">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="6" target="L">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="delta2" target="RSWZ">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="delta2" target="1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="pisigma" target="pi">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="pisigma" target="sigma">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="preU" target="U">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="GP" target="G">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="GP" target="P">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

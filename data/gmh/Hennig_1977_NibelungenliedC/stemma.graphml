@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="Cstar">
+  <data key="d0">grey</data>
+  <data key="d1">C*</data>
+</node>
+<node id="Cstar1">
+  <data key="d0">grey</data>
+  <data key="d1">C₁*</data>
+</node>
+<node id="Cstar2">
+  <data key="d0">grey</data>
+  <data key="d1">C₂*</data>
+</node>
+<node id="Rastar">
+  <data key="d0">grey</data>
+  <data key="d1">Ra*</data>
+</node>
+<node id="DbSNstar">
+  <data key="d0">grey</data>
+  <data key="d1">DbS(N)* bis 268,1</data>
+</node>
+<node id="C"/>
+<node id="E"/>
+<node id="F"/>
+<node id="R"/>
+<node id="a"/>
+<node id="U"/>
+<node id="k"/>
+<edge source="Cstar" target="Cstar1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Cstar" target="Cstar2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Cstar1" target="C">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Cstar1" target="E">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Cstar1" target="Rastar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Cstar1" target="F">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Cstar2" target="DbSNstar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Cstar2" target="U">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Cstar2" target="k">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Rastar" target="R">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Rastar" target="a">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Gui de Warewic</title>
+            <author>Ewert, Alfred</author>
+         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note></note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="book">
+               <title>Gui de Warewic : roman du XIIIe siècle</title>
+               <date>1932</date>
+               <pubPlace>Paris</pubPlace>
+               <series>CFMA</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="74-75"/>
+               <author>Ewert, Alfred</author>
+               <biblScope unit="page" n="xvi"/>
+               <ptr type="digitised" target=""/>
+            </bibl>
+            </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/215284610">Gui de Warewic</title>
+           <persName role="author" ref="http://viaf.org/"></persName>
+           <origDate>1200-1250</origDate>
+           <origPlace>England</origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">chanson de geste</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">yes</term>
+              <term type="extraStemmContam">yes</term>
+              <term type="rootType">archetype</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="fro"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Ewert_1932_GuiWarewic/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="21" size="25"><label>1</label><node xml:id="n_original" type="hypothetical" inDegree="0" outDegree="2"><label></label></node><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="1"><label></label></node><node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="3"><label>α</label></node><node xml:id="n_alphaprime" type="hypothetical" inDegree="1" outDegree="3"><label>α'</label></node><node xml:id="n_alpha2" type="hypothetical" inDegree="1" outDegree="3"><label>α2</label></node><node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="4"><label>β</label></node><node xml:id="n_betaprime" type="hypothetical" inDegree="1" outDegree="2"><label>β'</label></node><node xml:id="n_beta2" type="hypothetical" inDegree="2" outDegree="2"><label>β2</label></node><node xml:id="n_beta3" type="hypothetical" inDegree="2" outDegree="2"><label>β3</label></node><node xml:id="n_beta4" type="hypothetical" inDegree="1" outDegree="1"><label>β4</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x</label></node><node xml:id="n_H" type="witness" inDegree="1" outDegree="0"><label>H</label></node><node xml:id="n_M" type="witness" inDegree="2" outDegree="0"><label>M</label></node><node xml:id="n_F" type="witness" inDegree="1" outDegree="0"><label>F</label></node><node xml:id="n_Y" type="witness" inDegree="2" outDegree="0"><label>Y</label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_P" type="witness" inDegree="2" outDegree="0"><label>P</label></node><node xml:id="n_G" type="witness" inDegree="1" outDegree="0"><label>G</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><arc from="#n_original" to="#n_x" od:type="filiation" cert="unknown"/><arc from="#n_original" to="#n_1" od:type="filiation" cert="unknown"/><arc from="#n_1" to="#n_P" od:type="filiation" cert="unknown"/><arc from="#n_alpha" to="#n_H" od:type="filiation" cert="unknown"/><arc from="#n_alpha" to="#n_M" od:type="filiation" cert="unknown"/><arc from="#n_alpha" to="#n_alphaprime" od:type="filiation" cert="unknown"/><arc from="#n_alphaprime" to="#n_alpha2" od:type="filiation" cert="unknown"/><arc from="#n_alphaprime" to="#n_E" od:type="filiation" cert="unknown"/><arc from="#n_alphaprime" to="#n_beta2" od:type="filiation" cert="unknown"/><arc from="#n_alpha2" to="#n_M" od:type="filiation" cert="unknown"/><arc from="#n_alpha2" to="#n_F" od:type="filiation" cert="unknown"/><arc from="#n_alpha2" to="#n_Y" od:type="filiation" cert="unknown"/><arc from="#n_beta" to="#n_Y" od:type="filiation" cert="unknown"/><arc from="#n_beta" to="#n_beta4" od:type="filiation" cert="unknown"/><arc from="#n_beta" to="#n_beta3" od:type="filiation" cert="unknown"/><arc from="#n_beta" to="#n_betaprime" od:type="filiation" cert="unknown"/><arc from="#n_betaprime" to="#n_beta2" od:type="filiation" cert="unknown"/><arc from="#n_betaprime" to="#n_R" od:type="filiation" cert="unknown"/><arc from="#n_beta2" to="#n_beta3" od:type="filiation" cert="unknown"/><arc from="#n_beta2" to="#n_G" od:type="filiation" cert="unknown"/><arc from="#n_beta3" to="#n_A" od:type="filiation" cert="unknown"/><arc from="#n_beta3" to="#n_P" od:type="filiation" cert="unknown"/><arc from="#n_beta4" to="#n_C" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_alpha" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_beta" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

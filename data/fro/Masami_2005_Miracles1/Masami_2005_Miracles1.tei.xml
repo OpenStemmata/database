@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Miracles Nostre Dame</title>
+            <author>Masami, Okubo</author>
+         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>3 stemmata: 1, chansons de sainte Leocade et livre 2; 2, chansons du livre 1; 3, prologue du Livre 1 et miracle de Téophile; mais pas tous les manuscrits inclus à chaque fois. En fait, les textes sont contaminés, et il faudrait essayer de tout réunir en un seul stemma</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="publicationPart">
+               <title>La formation de la collection des Miracles de Gautier de Coinci (première partie)</title>
+               <date>2005</date>
+               <pubPlace>Paris</pubPlace>
+               <series>Romania</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="123"/>
+               <author>Masami, Okubo</author>
+               <biblScope unit="page" n="141-212"/>
+               <ptr type="digitised" target="https://doi.org/10.3406/roma.2005.1351"/>
+            </bibl>
+            </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/178828714">Miracles Nostre Dame</title>
+           <persName role="author" ref="http://viaf.org/95263624">Gautier de Coinci</persName>
+           <origDate>1224-1227</origDate>
+           <origPlace>Soissonnais (traits pic.mérid. et champ.)</origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">Miracles+lyrique</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">unspecified</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="fro"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Masami_2005_Miracles1/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="7" size="6"><label>1</label><node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2"><label>α</label></node><node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2"><label>β</label></node><node xml:id="n_omega" type="hypothetical" inDegree="0" outDegree="2"><label>ω</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_N" type="witness" inDegree="1" outDegree="0"><label>N</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><arc from="#n_alpha" to="#n_N" od:type="filiation" cert="unknown"/><arc from="#n_alpha" to="#n_beta" od:type="filiation" cert="unknown"/><arc from="#n_beta" to="#n_L" od:type="filiation" cert="unknown"/><arc from="#n_beta" to="#n_R" od:type="filiation" cert="unknown"/><arc from="#n_omega" to="#n_M" od:type="filiation" cert="unknown"/><arc from="#n_omega" to="#n_alpha" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

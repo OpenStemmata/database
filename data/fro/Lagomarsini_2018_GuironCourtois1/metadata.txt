@@ -1,4 +1,4 @@
-publicationType: "article"
+publicationType: "publicationPart"
 publicationTitle: "Pour l'édition du `Roman de Guiron'. Classement des manuscrits"
 publicationDate: "2018"
 publicationPlace: "Paris"

@@ -1,4 +1,4 @@
-publicationType : "article"
+publicationType : "publicationPart"
 publicationTitle : "Reflexiones sobre la edición crítica del Libro de Alexandre"
 publicationDate : "2015"
 publicationPlace : ""

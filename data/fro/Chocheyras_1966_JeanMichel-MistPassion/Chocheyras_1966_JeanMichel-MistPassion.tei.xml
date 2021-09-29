@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Mystère de la passion (d'Angers)</title>
+            <author>Chocheyras, Jacques</author>
+         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>arbre réel, mais pas toutes les éditions, et perfectible. Pour les éditions plus anciennes, il faut absolument aller voir l’ouvrage d’Omer Jodogne, le Mystère de la Passion de Jean Michel, 1959. Sur les deux stemmata, le premier (trifide) est la reprise de Jodogne, et le second (bifide) la nouvelle proposition.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="publicationPart">
+               <title>Les éditions de la Passion de Jean Michel au XVIe</title>
+               <date>1966</date>
+               <pubPlace>Paris</pubPlace>
+               <series>Romania</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="87"/>
+               <author>Chocheyras, Jacques</author>
+               <biblScope unit="page" n="175-193"/>
+               <ptr type="digitised" target="https://doi.org/10.3406/roma.1966.2561"/>
+            </bibl>
+            </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/205797670">Mystère de la passion (d'Angers)</title>
+           <persName role="author" ref="http://viaf.org/56604469">Jean Michel</persName>
+           <origDate>1486</origDate>
+           <origPlace>Angers</origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">drama</term>
+              <term type="stemmaType">observed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">archetype</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="fro"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Chocheyras_1966_JeanMichel-MistPassion/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="10" size="9"><label>2</label><node xml:id="n_F" type="witness" inDegree="0" outDegree="2"><label>F</label></node><node xml:id="n_O" type="witness" inDegree="1" outDegree="2"><label>O</label></node><node xml:id="n_N" type="witness" inDegree="1" outDegree="0"><label>N</label></node><node xml:id="n_G" type="witness" inDegree="1" outDegree="0"><label>G</label></node><node xml:id="n_H" type="witness" inDegree="1" outDegree="3"><label>H</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_I" type="witness" inDegree="1" outDegree="1"><label>I</label></node><node xml:id="n_J" type="witness" inDegree="1" outDegree="1"><label>J</label></node><node xml:id="n_K" type="witness" inDegree="1" outDegree="0"><label>K</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><arc from="#n_F" to="#n_O" od:type="filiation" cert="unknown"/><arc from="#n_F" to="#n_H" od:type="filiation" cert="unknown"/><arc from="#n_O" to="#n_N" od:type="filiation" cert="unknown"/><arc from="#n_O" to="#n_G" od:type="filiation" cert="unknown"/><arc from="#n_H" to="#n_M" od:type="filiation" cert="unknown"/><arc from="#n_H" to="#n_I" od:type="filiation" cert="unknown"/><arc from="#n_H" to="#n_P" od:type="filiation" cert="unknown"/><arc from="#n_I" to="#n_J" od:type="filiation" cert="unknown"/><arc from="#n_J" to="#n_K" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

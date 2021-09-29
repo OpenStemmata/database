@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Aliscans, 1re partie (Guillaume)</title>
+            <author>Rolin, Gustav</author>
+         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note></note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="book">
+               <title>Aliscans mit Berücksichtigung von Wolframs von Eschenbach Willehalm kritisch herausgegeben</title>
+               <date>1897</date>
+               <pubPlace>Leipzig</pubPlace>
+               <series>Altfranzösische Bibliothek</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="15"/>
+               <author>Rolin, Gustav</author>
+               <biblScope unit="page" n="LXIII"/>
+               <ptr type="digitised" target="https://archive.org/stream/AliscansRolin1897/Aliscans_Rolin_1897#page/n69"/>
+            </bibl>
+            <listWit><witness xml:id="M"><label type="siglum">M</label><idno>Venedig</idno></witness><witness xml:id="f"><label type="siglum">f</label><idno>Boulogne</idno></witness><witness xml:id="L"><label type="siglum">L</label><idno>London</idno></witness><witness xml:id="a"><label type="siglum">a</label><idno>Arsenal</idno></witness><witness xml:id="V"><label type="siglum">V</label><idno>BN 24369</idno></witness><witness xml:id="B"><label type="siglum">B</label><idno>BN 368</idno></witness><witness xml:id="C"><label type="siglum">C</label><idno>Bern</idno></witness><witness xml:id="A"><label type="siglum">A</label><idno>BN 774</idno></witness><witness xml:id="d"><label type="siglum">d</label><idno>BN 2494</idno></witness><witness xml:id="e"><label type="siglum">e</label><idno>BN 1448</idno></witness><witness xml:id="T"><label type="siglum">T</label><idno>Trivulziana</idno></witness><witness xml:id="b"><label type="siglum">b</label><idno>BN 1449</idno></witness><witness xml:id="P"><label type="siglum">P</label><idno>Cheltenhamer Handschrift</idno></witness></listWit>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/182731512">Aliscans, 1re partie (Guillaume)</title>
+           <persName role="author" ref="http://viaf.org/"></persName>
+           <origDate></origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">chanson de geste</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">original?</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="fro"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Rolin_1897_Aliscans1-Guillaume/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="21" size="20"><label>1</label><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="2"><label>O</label></node><node xml:id="n_s" type="hypothetical" inDegree="1" outDegree="2"><label>s</label></node><node xml:id="n_s1" type="hypothetical" inDegree="1" outDegree="2"><label>s1</label></node><node xml:id="n_s2" type="hypothetical" inDegree="1" outDegree="3"><label>s2</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x</label></node><node xml:id="n_x1" type="hypothetical" inDegree="1" outDegree="1"><label>x1</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="3"><label>z</label></node><node xml:id="n_z1" type="hypothetical" inDegree="1" outDegree="1"><label>z1</label></node><node xml:id="n_a" type="witness" inDegree="1" outDegree="0"><label>a</label></node><node xml:id="n_f" type="witness" inDegree="1" outDegree="0"><label>f</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><node xml:id="n_V" type="witness" inDegree="1" outDegree="0"><label>V</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="1"><label>A</label></node><node xml:id="n_T" type="witness" inDegree="1" outDegree="0"><label>T</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="1"><label>B</label></node><node xml:id="n_b" type="witness" inDegree="1" outDegree="0"><label>b</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_d" type="witness" inDegree="1" outDegree="0"><label>d</label></node><arc from="#n_O" to="#n_a" od:type="filiation" cert="unknown"/><arc from="#n_O" to="#n_y" od:type="filiation" cert="unknown"/><arc from="#n_s" to="#n_f" od:type="filiation" cert="unknown"/><arc from="#n_s" to="#n_M" od:type="filiation" cert="unknown"/><arc from="#n_s1" to="#n_L" od:type="filiation" cert="unknown"/><arc from="#n_s1" to="#n_V" od:type="filiation" cert="unknown"/><arc from="#n_s2" to="#n_A" od:type="filiation" cert="unknown"/><arc from="#n_s2" to="#n_P" od:type="filiation" cert="unknown"/><arc from="#n_s2" to="#n_B" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_z" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_z1" od:type="filiation" cert="unknown"/><arc from="#n_x1" to="#n_d" od:type="filiation" cert="unknown"/><arc from="#n_y" to="#n_x" od:type="filiation" cert="unknown"/><arc from="#n_y" to="#n_x1" od:type="filiation" cert="unknown"/><arc from="#n_z" to="#n_s" od:type="filiation" cert="unknown"/><arc from="#n_z" to="#n_s1" od:type="filiation" cert="unknown"/><arc from="#n_z" to="#n_s2" od:type="filiation" cert="unknown"/><arc from="#n_z1" to="#n_C" od:type="filiation" cert="unknown"/><arc from="#n_A" to="#n_T" od:type="filiation" cert="unknown"/><arc from="#n_B" to="#n_b" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

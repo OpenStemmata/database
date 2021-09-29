@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d1" for="edge" attr.name="type" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="O">
+  <data key="d0">1516 Guerr</data>
+</node>
+<node id="M1">
+  <data key="d0">1517 Minuz</data>
+</node>
+<node id="S1">
+  <data key="d0">1517 Scinz</data>
+</node>
+<node id="A1">
+  <data key="d0">1518 Arriv</data>
+</node>
+<node id="Z1">
+  <data key="d0">1538 Zio</data>
+</node>
+<node id="B1">
+  <data key="d0">1524 Bind</data>
+</node>
+<node id="G1">
+  <data key="d0">1527 Gar</data>
+</node>
+<node id="S2">
+  <data key="d0">1529 Sessa</data>
+</node>
+<node id="N1">
+  <data key="d0">1533 Nicol</data>
+</node>
+<node id="B2">
+  <data key="d0">1533 Bind</data>
+</node>
+<node id="B3">
+  <data key="d0">1539 Bind</data>
+</node>
+<node id="B4">
+  <data key="d0">1550 Bind</data>
+</node>
+<node id="C1">
+  <data key="d0">1552 Calp</data>
+</node>
+<node id="F1">
+  <data key="d0">1541 F. di Aldo</data>
+</node>
+<node id="S3">
+  <data key="d0">1541-50 Sessa</data>
+</node>
+<node id="P1">
+  <data key="d0">1551 Padov</data>
+</node>
+<node id="A2">
+  <data key="d0">1545 Aldo</data>
+</node>
+<node id="A3">
+  <data key="d0">1552 Aldo</data>
+</node>
+<node id="S4">
+  <data key="d0">1562 Sans</data>
+</node>
+<node id="R1">
+  <data key="d0">1565 Rampaz</data>
+</node>
+<node id="S5">
+  <data key="d0">1643 Salicat</data>
+</node>
+<edge source="O" target="M1">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="O" target="S1">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="O" target="A1">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="A1" target="Z1">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="A1" target="B1">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="B1" target="G1">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="B1" target="S5">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="G1" target="S2">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="S2" target="N1">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="N1" target="B2">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="B2" target="B3">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="B3" target="B4">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="B3" target="F1">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="B4" target="C1">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="F1" target="S3">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="F1" target="A2">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="F1" target="S4">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="S3" target="P1">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="A2" target="A3">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+<edge source="S4" target="R1">
+  <data key="d1">filiation</data>
+  <data key="d2">unknown</data>
+</edge>
+</graph></graphml>

@@ -1,4 +1,4 @@
-publicationType : "article"
+publicationType : "publicationPart"
 publicationTitle : "La tradition manuscrite d'Eustathe Makrembolitès"
 publicationDate : "1982"
 publicationPlace : ""

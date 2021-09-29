@@ -1,4 +1,4 @@
-publicationType: "article"
+publicationType: "publicationPart"
 publicationTitle: "Autour de la Nativité Nostre Dame et de son attribution à Gautier de Coinci "
 publicationDate: "2003"
 publicationPlace: "Paris"

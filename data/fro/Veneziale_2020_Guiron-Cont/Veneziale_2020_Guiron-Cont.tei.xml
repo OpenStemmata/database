@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Roman de Guiron (continuation)</title>
+            <author>Veneziale, Marco</author>
+         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>This stemma of the continuation is a subset of the complete stemma of Roman de Guiron part 2. See Lagomarsini_2018_GuironCourtois2, and Leonardi &amp; Trachsler 2015.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="book">
+               <title>Continuazione del Roman de Guiron</title>
+               <date>2020</date>
+               <pubPlace>Firenze</pubPlace>
+               <series>Il Ciclo di Guiron le courtois, romanzi in prosa del secolo XIII</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="6"/>
+               <author>Veneziale, Marco</author>
+               <biblScope unit="page" n="59"/>
+               <ptr type="digitised" target="https://www.zora.uzh.ch/id/eprint/198157/1/AR40_Continuazione_del_Roman_de_Guiron.pdf"/>
+            </bibl>
+            </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/180610121">Roman de Guiron (continuation)</title>
+           <persName role="author" ref="http://viaf.org/"></persName>
+           <origDate>1240-1280</origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">roman arthurien en prose</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">archetype</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="fro"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Veneziale_2020_Guiron-Cont/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="13" size="12"><label>1</label><node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2"><label>β</label></node><node xml:id="n_betaEtoile" type="hypothetical" inDegree="1" outDegree="2"><label>β*</label></node><node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="1"><label>δ</label></node><node xml:id="n_epsilon" type="hypothetical" inDegree="1" outDegree="1"><label>ε</label></node><node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="2"><label>γ</label></node><node xml:id="n_gamma1" type="hypothetical" inDegree="1" outDegree="2"><label>γ1</label></node><node xml:id="n_omega" type="hypothetical" inDegree="0" outDegree="2"><label>ω=β0</label></node><node xml:id="n_356" type="witness" inDegree="1" outDegree="0"><label>357</label></node><node xml:id="n_358" type="witness" inDegree="1" outDegree="0"><label>362</label></node><node xml:id="n_350" type="witness" inDegree="1" outDegree="0"><label>350</label></node><node xml:id="n_338" type="witness" inDegree="1" outDegree="0"><label>338</label></node><node xml:id="n_A2" type="witness" inDegree="1" outDegree="0"><label>A2</label></node><node xml:id="n_L4" type="witness" inDegree="1" outDegree="0"><label>L4</label></node><arc from="#n_beta" to="#n_gamma" od:type="filiation" cert="unknown"/><arc from="#n_beta" to="#n_delta" od:type="filiation" cert="unknown"/><arc from="#n_betaEtoile" to="#n_350" od:type="filiation" cert="unknown"/><arc from="#n_betaEtoile" to="#n_beta" od:type="filiation" cert="unknown"/><arc from="#n_delta" to="#n_358" od:type="filiation" cert="unknown"/><arc from="#n_epsilon" to="#n_L4" od:type="filiation" cert="unknown"/><arc from="#n_gamma" to="#n_338" od:type="filiation" cert="unknown"/><arc from="#n_gamma" to="#n_gamma1" od:type="filiation" cert="unknown"/><arc from="#n_gamma1" to="#n_356" od:type="filiation" cert="unknown"/><arc from="#n_gamma1" to="#n_A2" od:type="filiation" cert="unknown"/><arc from="#n_omega" to="#n_betaEtoile" od:type="filiation" cert="unknown"/><arc from="#n_omega" to="#n_epsilon" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

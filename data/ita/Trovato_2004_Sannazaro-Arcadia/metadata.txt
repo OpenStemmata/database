@@ -1,4 +1,4 @@
-publicationType : "article"
+publicationType : "publicationPart"
 publicationTitle : "Sugli stemmi bipartiti: decimazione, asimmetria e calcolo delle probabilità. 1. Dagli alberi reali agli stemmi"
 publicationDate : "2004"
 publicationPlace : ""

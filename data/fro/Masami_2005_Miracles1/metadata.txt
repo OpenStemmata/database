@@ -1,4 +1,4 @@
-publicationType: "article"
+publicationType: "publicationPart"
 publicationTitle: "La formation de la collection des Miracles de Gautier de Coinci (première partie)"
 publicationDate: "2005"
 publicationPlace: "Paris"
