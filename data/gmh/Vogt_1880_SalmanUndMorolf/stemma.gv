@@ -1,0 +1,9 @@
+digraph {
+X [color="grey"] ;
+Y [color="grey"] ;
+X -> Y ;
+X -> E ;
+Y -> d ;
+Y -> S ;
+}
+
