@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="color" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="original">
+  <data key="d0">*MS</data>
+  <data key="d1">grey</data>
+</node>
+<node id="MIstar">
+  <data key="d0">*MI</data>
+  <data key="d1">grey</data>
+</node>
+<node id="sbstar">
+  <data key="d0">*sb</data>
+  <data key="d1">grey</data>
+</node>
+<node id="Sstarstar">
+  <data key="d0">**S</data>
+  <data key="d1">grey</data>
+</node>
+<node id="Istar">
+  <data key="d0">*I</data>
+  <data key="d1">grey</data>
+</node>
+<node id="sstar">
+  <data key="d0">*s</data>
+  <data key="d1">grey</data>
+</node>
+<node id="betastar">
+  <data key="d0">*β</data>
+  <data key="d1">grey</data>
+</node>
+<node id="Sstar">
+  <data key="d0">*S</data>
+  <data key="d1">grey</data>
+</node>
+<node id="beta">
+  <data key="d0">β</data>
+  <data key="d1">grey</data>
+</node>
+<node id="M"/>
+<node id="I"/>
+<node id="s"/>
+<node id="Mk"/>
+<node id="u"/>
+<node id="b"/>
+<node id="S"/>
+<edge source="original" target="MIstar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="original" target="sbstar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="original" target="Sstarstar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="MIstar" target="M">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="MIstar" target="Istar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="sbstar" target="sstar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="sbstar" target="betastar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Sstarstar" target="Sstar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Istar" target="I">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="sstar" target="s">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="betastar" target="Mk">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="betastar" target="beta">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Sstar" target="S">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="beta" target="u">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="beta" target="b">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>
