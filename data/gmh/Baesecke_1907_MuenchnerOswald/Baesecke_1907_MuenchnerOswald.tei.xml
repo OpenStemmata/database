@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Münchner Oswald</title>
+         <author>Baesecke, Georg</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>3 of the manuscripts are prosifications of the original verse version: s, b, and u</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="book">
+               <title>Der Münchener Oswald. Text und Abhandlung</title>
+               <date>1907</date>
+               <pubPlace>Breslau</pubPlace>
+               <series>Germanistische Abhandlungen</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="28"/>
+               <biblScope unit="page" n="199"/>
+               <ptr type="digitised" target="https://archive.org/details/germanistischea00mlgoog/page/n8/mode/2up?view=theater"/>
+            <author>Baesecke, Georg</author></bibl>
+            <listWit><witness xml:id="M"><label type="siglum">M</label><settlement>München</settlement><repository> Staatsbibl.</repository><idno> Cgm 719</idno><origDate>1425-1450</origDate><note>verse</note><ptr type="digitised" target="https://www.digitale-sammlungen.de/de/view/bsb00136348?page=,1"/></witness><witness xml:id="I"><label type="siglum">I</label><settlement>Innsbruck</settlement><repository> Landesmuseum Ferdinandeum</repository><idno> Cod. FB 1114</idno><origDate>1440-1460</origDate><ptr type="description" target="verse"/></witness><witness xml:id="Mk"><label type="siglum">Mk</label><settlement>München</settlement><repository> Staatsbibl.</repository><idno> Cgm 5377</idno><origDate>1470-1499</origDate><ptr type="description" target="verse"/></witness><witness xml:id="s"><label type="siglum">s</label><settlement>Stuttgart</settlement><repository> Landesbibl.</repository><idno> Cod. theol. et phil. 4° 81</idno><origDate>1479</origDate><origPlace>Dominican convent Reutin near Wildberg</origPlace><note>prosa</note><ptr type="digitised" target="http://digital.wlb-stuttgart.de/sammlungen/sammlungsliste/werksansicht/?no_cache=1&amp;tx_dlf%5Bid%5D=11965&amp;tx_dlf%5Bpage%5D=1"/></witness><witness xml:id="b"><label type="siglum">b</label><settlement>Berlin</settlement><repository> Staatsbibl.</repository><idno> mgo 288</idno><origDate>1450-1499</origDate><note>prosa; also known as 'Budapester Oswald'</note></witness><witness xml:id="u"><label type="siglum">u</label><settlement>Budapest</settlement><repository> Nationalbibl.</repository><idno> Cod. Germ. 31</idno><origDate>1471</origDate><note>prosa; also known as 'Budapester Oswald'</note></witness><witness xml:id="S"><label type="siglum">S</label><settlement>Schaffhausen</settlement><repository> Stadtbibl.</repository><idno> Cod. Gen. 10</idno><origDate>1472</origDate><ptr type="description" target="verse"/></witness></listWit>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/209122100">Münchner Oswald</title>
+           <persName role="author" ref="http://viaf.org/"></persName>
+           <origDate>1100-1499</origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">romance</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">original</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="gmh"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Baesecke_1907_MuenchnerOswald/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="16" size="15"><label></label><node xml:id="n_original" type="hypothetical" inDegree="0" outDegree="3"><label>*MS</label></node><node xml:id="n_MIstar" type="hypothetical" inDegree="1" outDegree="2"><label>*MI</label></node><node xml:id="n_sbstar" type="hypothetical" inDegree="1" outDegree="2"><label>*sb</label></node><node xml:id="n_Sstarstar" type="hypothetical" inDegree="1" outDegree="1"><label>**S</label></node><node xml:id="n_Istar" type="hypothetical" inDegree="1" outDegree="1"><label>*I</label></node><node xml:id="n_sstar" type="hypothetical" inDegree="1" outDegree="1"><label>*s</label></node><node xml:id="n_betastar" type="hypothetical" inDegree="1" outDegree="2"><label>*β</label></node><node xml:id="n_Sstar" type="hypothetical" inDegree="1" outDegree="1"><label>*S</label></node><node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2"><label>β</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_I" type="witness" inDegree="1" outDegree="0"><label>I</label></node><node xml:id="n_s" type="witness" inDegree="1" outDegree="0"><label>s</label></node><node xml:id="n_Mk" type="witness" inDegree="1" outDegree="0"><label>Mk</label></node><node xml:id="n_u" type="witness" inDegree="1" outDegree="0"><label>u</label></node><node xml:id="n_b" type="witness" inDegree="1" outDegree="0"><label>b</label></node><node xml:id="n_S" type="witness" inDegree="1" outDegree="0"><label>S</label></node><arc from="#n_original" to="#n_MIstar" od:type="filiation" cert="unknown"/><arc from="#n_original" to="#n_sbstar" od:type="filiation" cert="unknown"/><arc from="#n_original" to="#n_Sstarstar" od:type="filiation" cert="unknown"/><arc from="#n_MIstar" to="#n_M" od:type="filiation" cert="unknown"/><arc from="#n_MIstar" to="#n_Istar" od:type="filiation" cert="unknown"/><arc from="#n_sbstar" to="#n_sstar" od:type="filiation" cert="unknown"/><arc from="#n_sbstar" to="#n_betastar" od:type="filiation" cert="unknown"/><arc from="#n_Sstarstar" to="#n_Sstar" od:type="filiation" cert="unknown"/><arc from="#n_Istar" to="#n_I" od:type="filiation" cert="unknown"/><arc from="#n_sstar" to="#n_s" od:type="filiation" cert="unknown"/><arc from="#n_betastar" to="#n_Mk" od:type="filiation" cert="unknown"/><arc from="#n_betastar" to="#n_beta" od:type="filiation" cert="unknown"/><arc from="#n_Sstar" to="#n_S" od:type="filiation" cert="unknown"/><arc from="#n_beta" to="#n_u" od:type="filiation" cert="unknown"/><arc from="#n_beta" to="#n_b" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

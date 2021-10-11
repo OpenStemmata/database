@@ -1,6 +1,9 @@
 name: Transform
 
-on: [pull_request]
+on: 
+  push:
+      branches-ignore:
+        - 'main'
 
 jobs:
   build:
