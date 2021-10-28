@@ -1,7 +1,7 @@
 
 test_that("Root has good folder structure", {
   
-  rootLs = c("data", "examples", "example_graph.png", "LICENSE", "README.md",
+  rootLs = c("data", "CITATION.cff", "examples", "example_graph.png", "LICENSE", "README.md",
              "schema", "tests", "transform")
   
   
