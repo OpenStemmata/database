@@ -191,7 +191,7 @@
             <arc from="#n_i" to="#n_Sstar" cert="unknown" od:type="filiation"/>
             <arc from="#n_Sstar" to="#n_S" cert="unknown" od:type="filiation"/>
             <arc from="#n_i" to="#n_Mstar" cert="unknown" od:type="filiation"/>
-            <arc from="#n_Mstart" to="#n_M" cert="unknown" od:type="filiation"/>
+            <arc from="#n_Mstar" to="#n_M" cert="unknown" od:type="filiation"/>
             <arc from="#n_M" to="#n_Q" cert="unknown" od:type="filiation"/>
          </graph>
       </body>
