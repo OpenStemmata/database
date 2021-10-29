@@ -1,0 +1,37 @@
+digraph{
+    
+    O[color="grey"];
+    alpha[label="α", color="grey"];
+    alphaprime[label="α'", color="grey"];
+    beta[label="β", color="grey"];
+    betaprime[label="β'", color="grey"];
+    gamma[label="γ", color="grey"];
+    gammaprime[label="γ'", color="grey"];
+    1[label="", color="grey"];
+    2[label="", color="grey"];
+    3[label="", color="grey"];
+    X[label="X", color="grey"];
+
+    O->alpha;
+    alpha->alphaprime;
+    alphaprime->A;
+    alphaprime->An;
+    alphaprime->P;
+    O->beta;
+    beta->betaprime;
+    betaprime->F;
+    betaprime->X;
+    betaprime->G;
+    X->1;
+    G->1;
+    1->2;
+    2->C;
+    2->S;
+    C->3;
+    3->M;
+    3->Mod;
+    O->gamma;
+    gamma->gammaprime;
+    gammaprime->V;
+
+}
