@@ -1,0 +1,14 @@
+digraph {
+    V[color="grey"];
+    A[color="grey"];
+    A2[color="grey"];
+    L[color="grey"];
+    M[color="grey"];
+
+    V->A2;
+    V->D;
+    A2->A;
+    A->M
+    L->A;
+
+}
