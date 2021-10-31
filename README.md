@@ -10,8 +10,9 @@ Find more information on the [**project website**](https://openstemmata.github.i
 
 You can contribute by sending us images and/or metadata and DOT files,
 
-- by making a pull request on the main branch (preferred);
-- by sending it to us via email.
+- by making a **pull request** on the main branch (preferred);
+- by opening [**an issue**](https://github.com/OpenStemmata/database/issues/13);
+- by sending it to us via email, to OpenStemmata \[at\] protonmail.com.
 
 If you wish to contribute, have a look at the [examples](./tree/master/examples) folder:
 
