@@ -1,5 +1,4 @@
-digraph{
-    
+digraph {
     O[color="grey"];
     alpha[label="α", color="grey"];
     alphaprime[label="α'", color="grey"];

@@ -25,8 +25,4 @@ digraph {
     1->P[style="dashed"];
     2->P[style="dashed"];
 
-    /*Very weird on P, where to anchor it ? I have anchored it 
-    according to the discussion in the main text, that gives common errors 
-    DP (sometimes DLP) as well as HP (sometimes BHP) --- [JBC].*/
-
 }

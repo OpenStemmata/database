@@ -22,7 +22,7 @@ extraStemmContam : "no"
 rootType : "archetype"
 contributor : "Jean-Baptiste Camps"
 contributorORCID : "0000-0003-0385-7037"
-note : "On P: «P, welches zum Teil mit DL, zum Teil mit HB, un am Schlusse durchaus selbständig ist, besonders metrisch, sehr corumpiert; es lässt sich keiner der beiden Gruppen unbedingt zuzählen, ist vielmehr als Mischhandschrift anzusehen». In the text, he gives, common errors of DP; HP; DLP; BHP . Image of the stemma taken from A. Henry, Les Œuvres d’Adenet le Roi, II, Buevon de Conmarchis, 1953, Bruges, p. 19 (that includes updated sigla in parentheses). This stemma does not account for the fragment University of Chicago Library, Special Collections Research Center, ed. by McMillan (1942-1943, 10.3406/roma.1942.3528)"
+note : "The status of P is difficult, particularly, one does not know where to anchor it exactly. I have anchored it according to the discussion in the main text, that gives common errors DP (sometimes DLP) as well as HP (sometimes BHP). On P: «P, welches zum Teil mit DL, zum Teil mit HB, un am Schlusse durchaus selbständig ist, besonders metrisch, sehr corumpiert; es lässt sich keiner der beiden Gruppen unbedingt zuzählen, ist vielmehr als Mischhandschrift anzusehen». In the text, he gives, common errors of DP; HP; DLP; BHP . Image of the stemma taken from A. Henry, Les Œuvres d’Adenet le Roi, II, Buevon de Conmarchis, 1953, Bruges, p. 19 (that includes updated sigla in parentheses). This stemma does not account for the fragment University of Chicago Library, Special Collections Research Center, ed. by McMillan (1942-1943, 10.3406/roma.1942.3528)"
 wits:
     - witSigla: "D (=Perrier A)"
       witSignature: "Londre, BL, 20 D XI"
