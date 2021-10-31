@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note/>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title/>
+               <date/>
+               <pubPlace/>
+               <series/>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n=""/>
+               <biblScope unit="page" n=""/>
+               <ptr type="digitised"/>
+            </bibl>
+            </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title/>
+           <persName role="author"/>
+           <origDate/>
+           <origPlace/>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre"/>
+              <term type="stemmaType"/>
+              <term type="contam"/>
+              <term type="extraStemmContam"/>
+              <term type="rootType"/>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/Clive_1959_FloridanEtElvide/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="7" size="6"><node xml:id="n_BN10057" type="witness" inDegree="0" outDegree="1"><label>BN n.a. 10057</label></node><node xml:id="n_BN1506" type="witness" inDegree="1" outDegree="0"><label>BN fr. 1506</label></node><node xml:id="n_Revised" type="hypothetical" inDegree="1" outDegree="2"><label>Revised</label></node><node xml:id="n_BLNero" type="witness" inDegree="1" outDegree="0"><label>BM Cotton Nero D ix</label></node><node xml:id="n_RegLat" type="witness" inDegree="1" outDegree="1"><label>Vatican Reg. lat. 896</label></node><node xml:id="n_Genappe" type="hypothetical" inDegree="1" outDegree="2"><label>1459 Genappe MS.</label></node><node xml:id="n_Editions" type="witness" inDegree="1" outDegree="0"><label>Editions</label></node><arc from="#n_BN10057" to="#n_Revised" od:type="filiation" cert="unknown"/><arc from="#n_Revised" to="#n_BLNero" od:type="filiation" cert="unknown"/><arc from="#n_Revised" to="#n_RegLat" od:type="filiation" cert="unknown"/><arc from="#n_RegLat" to="#n_Genappe" od:type="filiation" cert="unknown"/><arc from="#n_Genappe" to="#n_BN1506" od:type="filiation" cert="unknown"/><arc from="#n_Genappe" to="#n_Editions" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>
