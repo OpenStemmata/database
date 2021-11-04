@@ -14,18 +14,18 @@ You can contribute by sending us images and/or metadata and DOT files,
 - by opening [**an issue**](https://github.com/OpenStemmata/database/issues/13);
 - by sending it to us via email, to OpenStemmata \[at\] protonmail.com.
 
-If you wish to contribute, have a look at the [examples](./tree/master/examples) folder:
+If you wish to contribute, have a look at the [examples](https://github.com/OpenStemmata/database/tree/main/examples) folder:
 
 It contains several cases:
 
-- a simple case, but with very complete metadata: [Segre_1971_Roland](./tree/dev/examples/Segre_1971_Roland)
-- a slightly more complex case: [Paris_1872_Alexis](./tree/dev/examples/Paris_1872_Alexis)
+- a simple case, but with very complete metadata: [Segre_1971_Roland](https://github.com/OpenStemmata/database/tree/main/examples/Segre_1971_Roland)
+- a slightly more complex case: [Paris_1872_Alexis](https://github.com/OpenStemmata/database/tree/main/examples/Paris_1872_Alexis)
 
 You can also read our more detailed [Guidelines](https://openstemmata.github.io/guidelines.html) !
 
 ### Organisation of a record
 
-Actual data is stored in the [data](./tree/master/data) folder, and are sorted by linguistic code (e.g., `fro` for Old French traditions; `gmh` for Middle High German).
+Actual data is stored in the [data](https://github.com/OpenStemmata/database/tree/main/data) folder, and are sorted by linguistic code (e.g., `fro` for Old French traditions; `gmh` for Middle High German).
 
 Each record is contained in a dedicated folder, and can contain up to three elements:
 
