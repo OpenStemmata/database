@@ -1,0 +1,22 @@
+digraph {
+archetype [color="grey", label=" "] ;
+x [color="grey"] ;
+y [color="grey"] ;
+z [color="grey"] ;
+a [color="grey"] ;
+R2 [label="R²"] ;
+R3 [label="R³"] ;
+archetype -> x ;
+archetype -> y ;
+archetype -> z ;
+x -> C ;
+x -> a ;
+a -> E ;
+a -> R2 ;
+y -> R3 ;
+y -> a ;
+C -> R3 [style="dashed"];
+z -> M ;
+}
+
+

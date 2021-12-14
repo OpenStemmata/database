@@ -1,0 +1,18 @@
+digraph {
+archetype [color="grey", label=" "] ;
+x [color="grey", label="x (?)"] ;
+y [color="grey", label="y"] ;
+a [color="grey"] ;
+b [color="grey"] ;
+archetype -> x ;
+archetype -> y ;
+y -> N ;
+x -> a ;
+x -> H ;
+a -> b ;
+a -> D ;
+b -> K ;
+b -> I ;
+}
+
+
