@@ -1,0 +1,23 @@
+# Athenaeus: Arnott 1996
+# Epitome derived from A, contamination from a sibling of A
+
+digraph {
+
+    omega -> A;
+    omega -> sibling_of_A;
+    A -> epitome;
+    sibling_of_A -> epitome [style="dashed"]; # hypothetical ms. derived from the archetype, by definition
+    epitome -> gamma;
+    gamma -> delta;
+    delta -> C;
+    delta -> E;
+    gamma -> Eustathius_ms;
+
+    omega [color="grey", label="ω"]; # Arnott names the archetype α
+    sibling_of_A [color="grey", label=""];
+    epitome [color="grey", label="Epitome"];
+    Eustathius_ms [color="grey", label="Eustathius’s\nmanuscript"];
+    gamma [color="grey", label="γ"];
+    delta [color="grey", label="δ"];
+
+}
