@@ -12,7 +12,7 @@ digraph {
 
     omega [color="grey", label="ω"];
     epitome [color="grey", label="Epitome"];
-    Eustathius_ms [color="grey", label="Eustathius’s\nmanuscript"];
+    Eustathius_ms [color="grey", label="Eustathius’s MS"]; # Eustathius’s manuscript source for the Epitome
     1 [color="grey", label=""];
 
 }

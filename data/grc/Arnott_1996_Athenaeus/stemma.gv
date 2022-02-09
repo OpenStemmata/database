@@ -1,22 +1,22 @@
 # Athenaeus: Arnott 1996
-# Epitome derived from A, contamination from a sibling of A
+# Epitome derived from A, with contamination from another source
 
 digraph {
 
-    omega -> A;
-    omega -> sibling_of_A;
+    alpha -> A;
+    # alpha -> other_source; # no explicit statement from the editor on the relationship between the archetype alpha and this hypothetical source
     A -> epitome;
-    sibling_of_A -> epitome [style="dashed"]; # hypothetical ms. derived from the archetype, by definition
+    other_source -> epitome [style="dashed"]; # "and so it may be wiser to believe that [A] was the main but not the only source of Epit[ome]"
     epitome -> gamma;
     gamma -> delta;
     delta -> C;
     delta -> E;
-    gamma -> Eustathius_ms;
+    gamma -> Eustathius_ms [color="grey"];
 
-    omega [color="grey", label="ω"]; # Arnott names the archetype α
-    sibling_of_A [color="grey", label=""];
+    alpha [color="grey", label="α"];
+    other_source [color="grey", label=""];
     epitome [color="grey", label="Epitome"];
-    Eustathius_ms [color="grey", label="Eustathius’s\nmanuscript"];
+    Eustathius_ms [color="grey", label="Eustathius’s MS"]; # Eustathius’s manuscript source for the Epitome
     gamma [color="grey", label="γ"];
     delta [color="grey", label="δ"];
 
