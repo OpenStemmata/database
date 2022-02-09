@@ -1,0 +1,11 @@
+digraph {
+O [color="grey", label="O (Original)"] ;
+x [color="grey", label="x (verderbte gemeinsame Vorlage)"] ;
+y [color="grey"] ;
+O -> x ;
+x -> y ;
+x -> A ;
+y -> V ;
+y -> R ;
+}
+
