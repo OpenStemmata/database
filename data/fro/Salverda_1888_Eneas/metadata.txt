@@ -1,7 +1,7 @@
 publicationType : "book"
 publicationTitle : "Introduction à une édition critique du Roman d’Énéas"
 publicationDate : "1888"
-publicationPlace : "’S-Gravenhage"
+publicationPlace : "Den Haag"
 publicationSeries : ""
 publicationNum: ""
 publicationStemmaNum: "1"
