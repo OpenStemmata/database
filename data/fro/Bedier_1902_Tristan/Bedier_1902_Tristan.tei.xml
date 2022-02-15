@@ -47,7 +47,7 @@
               <term type="workGenre">roman arthurien en vers</term>
               <term type="stemmaType">reconstructed</term>
               <term type="contam">yes</term>
-              <term type="extraStemmContam">no</term>
+              <term type="extraStemmContam">yes</term>
               <term type="rootType">archetype</term>
            </keywords>
         </textClass>
