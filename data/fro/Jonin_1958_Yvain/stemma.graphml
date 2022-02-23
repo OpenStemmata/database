@@ -34,14 +34,6 @@
   <data key="d1"></data>
   <data key="d0">grey</data>
 </node>
-<node id="2">
-  <data key="d1"></data>
-  <data key="d0">grey</data>
-</node>
-<node id="3">
-  <data key="d1"></data>
-  <data key="d0">grey</data>
-</node>
 <node id="X">
   <data key="d1">X</data>
   <data key="d0">grey</data>
@@ -108,23 +100,11 @@
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
-<edge source="1" target="2">
+<edge source="1" target="C">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
-<edge source="2" target="C">
-  <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
-</edge>
-<edge source="2" target="S">
-  <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
-</edge>
-<edge source="3" target="M">
-  <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
-</edge>
-<edge source="3" target="Mod">
+<edge source="1" target="S">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
@@ -136,7 +116,11 @@
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
-<edge source="C" target="3">
+<edge source="C" target="M">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="C" target="Mod">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
