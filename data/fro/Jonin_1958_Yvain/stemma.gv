@@ -7,8 +7,6 @@ digraph {
     gamma[label="γ", color="grey"];
     gammaprime[label="γ'", color="grey"];
     1[label="", color="grey"];
-    2[label="", color="grey"];
-    3[label="", color="grey"];
     X[label="X", color="grey"];
 
     O->alpha;
@@ -23,12 +21,10 @@ digraph {
     betaprime->G;
     X->1;
     G->1;
-    1->2;
-    2->C;
-    2->S;
-    C->3;
-    3->M;
-    3->Mod;
+    1->C;
+    1->S;
+    C->M;
+    C->Mod;
     O->gamma;
     gamma->gammaprime;
     gammaprime->V;
