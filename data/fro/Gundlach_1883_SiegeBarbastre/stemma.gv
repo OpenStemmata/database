@@ -1,0 +1,28 @@
+digraph {
+    x[color="grey"];
+    xprime[label="x'", color="grey"];
+    y[color="grey"];
+    z[color="grey"];
+    D[label="D (A)"];
+    L[label="L (B)"];
+    H[label="H (D)"];
+    B[label="B (C)"];
+    A[label="A (Adenet)"];
+    P[label="P (P)"];
+    1[label="", color="grey"];
+    2[label="", color="grey"];
+
+    x->xprime;
+    xprime->y;
+    y->1;
+    1->D;
+    y->L;
+    xprime->z;
+    z->2;
+    2->H;
+    z->B;
+    B->A;
+    1->P[style="dashed"];
+    2->P[style="dashed"];
+
+}
