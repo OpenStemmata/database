@@ -107,6 +107,7 @@ if len(sys.argv) > 1:
 
         #This is useful for the url of the graphic element
         facsimileLink = "https://github.com/OpenStemmata/database/blob/main/data/"
+        facsimileLinkBase = "https://github.com/OpenStemmata/database/blob/main/data/"
 
 
 
@@ -213,6 +214,10 @@ if len(sys.argv) > 1:
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = keywords.find('./tei:term[@type="rootType"]', ns)
                 el.text = cont
+            elif re.match('^[\s]*drawnStemma', line):
+                cont = re.findall('"([^"]*)"', line)[0]
+                el = et.SubElement(keywords, '{http://www.tei-c.org/ns/1.0}term', attrib={'type': 'drawnStemma'})
+                el.text = cont
             elif re.match('^[\s]*contributor[^O]', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 respStmt = et.SubElement(titleStmt, 'respStmt')
@@ -272,8 +277,9 @@ if len(sys.argv) > 1:
                 if cont != '':
                     et.SubElement(wit, 'ptr', attrib={'type': 'digitised', 'target': cont})
         
-        graphic = root.find('./tei:facsimile/tei:graphic', ns)
-        graphic.attrib['url'] = facsimileLink + new_file_name + '/stemma.png?raw=true'
+        if facsimileLink != facsimileLinkBase:
+            graphic = root.find('./tei:facsimile/tei:graphic', ns)
+            graphic.attrib['url'] = facsimileLink + new_file_name + '/stemma.png?raw=true'
 
     if len(list(listWit)) == 0:
         # print("Zero")
