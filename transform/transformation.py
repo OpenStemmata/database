@@ -98,7 +98,7 @@ if len(sys.argv) > 1:
     with codecs.open(txtFile, 'r', 'utf-8') as metadatafile:
         metadata = metadatafile.readlines()
         titleStmt = root.find('.//tei:teiHeader/tei:fileDesc/tei:titleStmt', ns)
-        resp = root.find('.//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:resp', ns)
+        respStmt = root.find('.//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt', ns)
         bibl = root.find('.//tei:bibl', ns)
         creation = root.find('./tei:teiHeader/tei:profileDesc/tei:creation', ns)
         keywords = root.find('./tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords', ns)
@@ -134,8 +134,9 @@ if len(sys.argv) > 1:
                 cont = re.findall('"([^"]*)"', line)
                 if len(cont) > 0:
                     cont = cont[0]
-                    el = bibl.find('./tei:pubPlace', ns)
+                    el = et.Element('pubPlace')
                     el.text = cont
+                    bibl.insert(2, el)
             elif re.match('^[\s]*publicationSeries', line):
                 cont = re.findall('"([^"]*)"', line)
                 if len(cont) > 0:
@@ -152,10 +153,16 @@ if len(sys.argv) > 1:
                 graphLabel.text = cont
             elif re.match('^[\s]*publicationAuthors', line):
                 cont = re.findall('"([^"]*)"', line)[0]
-                el = et.SubElement(bibl, 'author')
-                el.text = cont
-                el2 = et.SubElement(titleStmt, 'author')
-                el2.text = cont
+                author_el1 = et.Element('author')
+                author_el1.text = cont
+                author_el2 = et.Element('author')
+                author_el2.text = cont
+                bibl.insert(0, author_el1)
+                titleStmt.insert(2, author_el2)
+                # el = et.SubElement(bibl, 'author')
+                # el.text = cont
+                # el2 = et.SubElement(titleStmt, 'author')
+                # el2.text = cont
             elif re.match('^[\s]*publicationPage', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = bibl.find('./tei:biblScope[@unit="page"]', ns)
@@ -221,7 +228,7 @@ if len(sys.argv) > 1:
                 el.text = cont
             elif re.match('^[\s]*contributor[^O]', line):
                 cont = re.findall('"([^"]*)"', line)[0]
-                el = et.SubElement(resp, 'persName')
+                el = et.SubElement(respStmt, 'persName')
                 el.text = cont
             elif re.match('^[\s]*contributorORCID', line):
                 cont = re.findall('"([^"]*)"', line)[0]
