@@ -46,8 +46,8 @@ test_that("All submissions are complete", {
                 correct_structure_min),
                 info = paste("Error in folder",
                                   folders[i], 
-                                  " Each submission must contain at least:", 
-                                  paste(correct_structure_min, collapse = " "), 
+                                  "Submission is missing at least:", 
+                                  paste(correct_structure_min[!correct_structure_min %in% list.files(folders[i])], collapse = " "), 
                                   collapse = " ")
     ) 
   }
