@@ -98,6 +98,7 @@ if len(sys.argv) > 1:
     with codecs.open(txtFile, 'r', 'utf-8') as metadatafile:
         metadata = metadatafile.readlines()
         titleStmt = root.find('.//tei:teiHeader/tei:fileDesc/tei:titleStmt', ns)
+        resp = root.find('.//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:resp', ns)
         bibl = root.find('.//tei:bibl', ns)
         creation = root.find('./tei:teiHeader/tei:profileDesc/tei:creation', ns)
         keywords = root.find('./tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords', ns)
@@ -220,10 +221,7 @@ if len(sys.argv) > 1:
                 el.text = cont
             elif re.match('^[\s]*contributor[^O]', line):
                 cont = re.findall('"([^"]*)"', line)[0]
-                respStmt = et.SubElement(titleStmt, 'respStmt')
-                resp = et.SubElement(respStmt, 'resp')
-                resp.text = "contributed to OpenStemmata by"
-                el = et.SubElement(respStmt, 'persName')
+                el = et.SubElement(resp, 'persName')
                 el.text = cont
             elif re.match('^[\s]*contributorORCID', line):
                 cont = re.findall('"([^"]*)"', line)[0]
