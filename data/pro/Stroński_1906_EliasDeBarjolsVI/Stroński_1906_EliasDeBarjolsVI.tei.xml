@@ -6,7 +6,7 @@
       <fileDesc>
          <titleStmt>
             <title type="standard">Stemma of</title>
-            <title type="variable">Una valenta…</title>
+            <title type="variable">Be fui conoissens a mon dan…</title>
          <author>Stroński, Stanisław</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
@@ -29,18 +29,18 @@
                <series>Bibliothèque méridionale</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="10"/>
-               <biblScope unit="page" n="44"/>
+               <biblScope unit="page" n="61"/>
                <ptr type="digitised" target=""/>
             <author>Stroński, Stanisław</author></bibl>
-            <listWit><witness xml:id="K"><label type="siglum">K</label></witness><witness xml:id="I"><label type="siglum">I</label></witness><witness xml:id="D"><label type="siglum">D</label></witness><witness xml:id="H"><label type="siglum">H</label></witness><witness xml:id="N"><label type="siglum">N</label></witness></listWit>
+            <listWit><witness xml:id="L"><label type="siglum">L</label></witness><witness xml:id="C"><label type="siglum">C</label></witness><witness xml:id="R"><label type="siglum">R</label></witness><witness xml:id="G"><label type="siglum">G</label></witness><witness xml:id="K"><label type="siglum">K</label></witness><witness xml:id="d"><label type="siglum">d</label></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>
         <creation>
-           <title ref="http://viaf.org/">Una valenta…</title>
+           <title ref="http://viaf.org/">Be fui conoissens a mon dan…</title>
            <persName role="author" ref="http://viaf.org/231763501">Elias de Barjols</persName>
-           <origDate>1200-1204</origDate>
-           <origPlace>Sault</origPlace>
+           <origDate>1200-1222</origDate>
+           <origPlace></origPlace>
         </creation>
         <textClass>
            <keywords>
@@ -60,11 +60,11 @@
      </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/pro/Stroński_1906_EliasDeBarjolsIII/stemma.png?raw=true"/>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/pro/Stroński_1906_EliasDeBarjolsVI/stemma.png?raw=true"/>
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="10" size="9"><label></label><node xml:id="n_archetype" type="hypothetical" inDegree="0" outDegree="2"><label></label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x (?)</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="1"><label>y</label></node><node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="2"><label>a</label></node><node xml:id="n_b" type="hypothetical" inDegree="1" outDegree="2"><label>b</label></node><node xml:id="n_N" type="witness" inDegree="1" outDegree="0"><label>N</label></node><node xml:id="n_H" type="witness" inDegree="1" outDegree="0"><label>H</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_K" type="witness" inDegree="1" outDegree="0"><label>K</label></node><node xml:id="n_I" type="witness" inDegree="1" outDegree="0"><label>I</label></node><arc from="#n_archetype" to="#n_x" od:type="filiation" cert="unknown"/><arc from="#n_archetype" to="#n_y" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_a" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_H" od:type="filiation" cert="unknown"/><arc from="#n_y" to="#n_N" od:type="filiation" cert="unknown"/><arc from="#n_a" to="#n_b" od:type="filiation" cert="unknown"/><arc from="#n_a" to="#n_D" od:type="filiation" cert="unknown"/><arc from="#n_b" to="#n_K" od:type="filiation" cert="unknown"/><arc from="#n_b" to="#n_I" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="9" size="8"><label></label><node xml:id="n_archetype" type="hypothetical" inDegree="0" outDegree="3"><label></label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="1"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="2"><label>z</label></node><node xml:id="n_Kd" type="witness" inDegree="1" outDegree="0"><label>K (d)</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><node xml:id="n_G" type="witness" inDegree="1" outDegree="0"><label>G</label></node><arc from="#n_archetype" to="#n_x" od:type="filiation" cert="unknown"/><arc from="#n_archetype" to="#n_y" od:type="filiation" cert="unknown"/><arc from="#n_archetype" to="#n_z" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_L" od:type="filiation" cert="unknown"/><arc from="#n_y" to="#n_C" od:type="filiation" cert="unknown"/><arc from="#n_y" to="#n_R" od:type="filiation" cert="unknown"/><arc from="#n_z" to="#n_G" od:type="filiation" cert="unknown"/><arc from="#n_z" to="#n_Kd" od:type="filiation" cert="unknown"/></graph>
       </body>
   </text>
 </TEI>

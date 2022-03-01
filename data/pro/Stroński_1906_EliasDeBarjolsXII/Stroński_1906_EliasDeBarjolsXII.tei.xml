@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Be deu hom son bo seignor…</title>
+         <author>Stroński, Stanisław</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>α is attached to C</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="book">
+               <title>Le troubadour Elias de Barjols edition critique</title>
+               <date>1906</date>
+               <pubPlace>Toulouse</pubPlace>
+               <series>Bibliothèque méridionale</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="10"/>
+               <biblScope unit="page" n="94"/>
+               <ptr type="digitised" target=""/>
+            <author>Stroński, Stanisław</author></bibl>
+            <listWit><witness xml:id="α"><label type="siglum">α</label></witness><witness xml:id="C"><label type="siglum">C</label></witness><witness xml:id="E"><label type="siglum">E</label></witness><witness xml:id="f"><label type="siglum">f</label></witness><witness xml:id="R"><label type="siglum">R</label></witness><witness xml:id="M"><label type="siglum">M</label></witness><witness xml:id="D"><label type="siglum">D</label></witness><witness xml:id="H"><label type="siglum">H</label></witness><witness xml:id="P"><label type="siglum">P</label></witness><witness xml:id="S"><label type="siglum">S</label></witness></listWit>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/">Be deu hom son bo seignor…</title>
+           <persName role="author" ref="http://viaf.org/231763501">Elias de Barjols</persName>
+           <origDate>1219-1237</origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">lyric poetry</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">archetype</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="pro"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/pro/Stroński_1906_EliasDeBarjolsXII/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="15" size="14"><label></label><node xml:id="n_archetype" type="hypothetical" inDegree="0" outDegree="3"><label></label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="3"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="2"><label>z</label></node><node xml:id="n_Calpha" type="witness" inDegree="1" outDegree="0"><label>C (α)</label></node><node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="2"><label>a</label></node><node xml:id="n_PS" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><node xml:id="n_f" type="witness" inDegree="1" outDegree="0"><label>f</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_H" type="witness" inDegree="1" outDegree="0"><label>H</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><node xml:id="n_S" type="witness" inDegree="1" outDegree="0"><label>S</label></node><arc from="#n_archetype" to="#n_x" od:type="filiation" cert="unknown"/><arc from="#n_archetype" to="#n_z" od:type="filiation" cert="unknown"/><arc from="#n_archetype" to="#n_y" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_Calpha" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_E" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_f" od:type="filiation" cert="unknown"/><arc from="#n_y" to="#n_D" od:type="filiation" cert="unknown"/><arc from="#n_y" to="#n_a" od:type="filiation" cert="unknown"/><arc from="#n_z" to="#n_R" od:type="filiation" cert="unknown"/><arc from="#n_z" to="#n_M" od:type="filiation" cert="unknown"/><arc from="#n_a" to="#n_H" od:type="filiation" cert="unknown"/><arc from="#n_a" to="#n_PS" od:type="filiation" cert="unknown"/><arc from="#n_PS" to="#n_P" od:type="filiation" cert="unknown"/><arc from="#n_PS" to="#n_S" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

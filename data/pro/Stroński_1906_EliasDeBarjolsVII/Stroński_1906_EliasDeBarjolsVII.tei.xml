@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Amors, ben m'avetz tengut…</title>
+         <author>Stroński, Stanisław</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>There are several contaminations within the stemma: x and z contaminate G, z and presumably x contaminate a and c contaminates E</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="book">
+               <title>Le troubadour Elias de Barjols edition critique</title>
+               <date>1906</date>
+               <pubPlace>Toulouse</pubPlace>
+               <series>Bibliothèque méridionale</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="10"/>
+               <biblScope unit="page" n="63"/>
+               <ptr type="digitised" target=""/>
+            <author>Stroński, Stanisław</author></bibl>
+            <listWit><witness xml:id="D"><label type="siglum">D</label></witness><witness xml:id="I"><label type="siglum">I</label></witness><witness xml:id="K"><label type="siglum">K</label></witness><witness xml:id="G"><label type="siglum">G</label></witness><witness xml:id="a"><label type="siglum">a</label></witness><witness xml:id="H²"><label type="siglum">H²</label></witness><witness xml:id="C"><label type="siglum">C</label></witness><witness xml:id="E"><label type="siglum">E</label></witness><witness xml:id="f"><label type="siglum">f</label></witness><witness xml:id="H³"><label type="siglum">H³</label></witness><witness xml:id="S"><label type="siglum">S</label></witness></listWit>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/">Amors, ben m'avetz tengut…</title>
+           <persName role="author" ref="http://viaf.org/231763501">Elias de Barjols</persName>
+           <origDate>1216-1217</origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">lyric poetry</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">yes</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">archetype</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="pro"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/pro/Stroński_1906_EliasDeBarjolsVII/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="19" size="23"><label></label><node xml:id="n_archetype" type="hypothetical" inDegree="0" outDegree="3"><label></label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="4"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="3"><label>y</label></node><node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="3"><label>z</label></node><node xml:id="n_b" type="hypothetical" inDegree="1" outDegree="2"><label>b</label></node><node xml:id="n_c" type="hypothetical" inDegree="1" outDegree="3"><label>c</label></node><node xml:id="n_d" type="hypothetical" inDegree="1" outDegree="2"><label>d</label></node><node xml:id="n_H2" type="witness" inDegree="1" outDegree="0"><label>H²</label></node><node xml:id="n_H3" type="witness" inDegree="1" outDegree="0"><label>H³</label></node><node xml:id="n_Ef" type="witness" inDegree="2" outDegree="2"><label></label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_I" type="witness" inDegree="1" outDegree="0"><label>I</label></node><node xml:id="n_K" type="witness" inDegree="1" outDegree="0"><label>K</label></node><node xml:id="n_G" type="witness" inDegree="3" outDegree="0"><label>G</label></node><node xml:id="n_a" type="witness" inDegree="3" outDegree="1"><label>a</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><node xml:id="n_f" type="witness" inDegree="1" outDegree="0"><label>f</label></node><node xml:id="n_S" type="witness" inDegree="1" outDegree="0"><label>S</label></node><arc from="#n_archetype" to="#n_x" od:type="filiation" cert="unknown"/><arc from="#n_archetype" to="#n_y" od:type="filiation" cert="unknown"/><arc from="#n_archetype" to="#n_z" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_D" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_d" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_G" od:type="contamination" cert="unknown"/><arc from="#n_x" to="#n_a" od:type="contamination" cert="unknown"/><arc from="#n_y" to="#n_G" od:type="filiation" cert="unknown"/><arc from="#n_y" to="#n_a" od:type="filiation" cert="unknown"/><arc from="#n_y" to="#n_c" od:type="filiation" cert="unknown"/><arc from="#n_z" to="#n_G" od:type="contamination" cert="unknown"/><arc from="#n_z" to="#n_a" od:type="filiation" cert="unknown"/><arc from="#n_z" to="#n_b" od:type="filiation" cert="unknown"/><arc from="#n_b" to="#n_H3" od:type="filiation" cert="unknown"/><arc from="#n_b" to="#n_S" od:type="filiation" cert="unknown"/><arc from="#n_c" to="#n_H2" od:type="filiation" cert="unknown"/><arc from="#n_c" to="#n_C" od:type="filiation" cert="unknown"/><arc from="#n_c" to="#n_Ef" od:type="contamination" cert="unknown"/><arc from="#n_d" to="#n_I" od:type="filiation" cert="unknown"/><arc from="#n_d" to="#n_K" od:type="filiation" cert="unknown"/><arc from="#n_Ef" to="#n_E" od:type="filiation" cert="unknown"/><arc from="#n_Ef" to="#n_f" od:type="filiation" cert="unknown"/><arc from="#n_a" to="#n_Ef" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

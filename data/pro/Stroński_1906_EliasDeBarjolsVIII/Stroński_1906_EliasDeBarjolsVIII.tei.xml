@@ -6,7 +6,7 @@
       <fileDesc>
          <titleStmt>
             <title type="standard">Stemma of</title>
-            <title type="variable">VIII</title>
+            <title type="variable">Car compri vostras beutatz…</title>
          <author>Stroński, Stanisław</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
@@ -37,7 +37,7 @@
       </fileDesc>
      <profileDesc>
         <creation>
-           <title ref="http://viaf.org/">VIII</title>
+           <title ref="http://viaf.org/">Car compri vostras beutatz…</title>
            <persName role="author" ref="http://viaf.org/231763501">Elias de Barjols</persName>
            <origDate>1217-1220</origDate>
            <origPlace>Provence</origPlace>
@@ -52,7 +52,7 @@
            </keywords>
         </textClass>
         <langUsage>
-           <language ident="fro"/>
+           <language ident="pro"/>
         </langUsage>
      </profileDesc>
      <revisionDesc>
@@ -60,7 +60,7 @@
      </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Stroński_1906_EliasDeBarjolsVIII/stemma.png?raw=true"/>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/pro/Stroński_1906_EliasDeBarjolsVIII/stemma.png?raw=true"/>
   </facsimile>
   <text>
       <body>
