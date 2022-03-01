@@ -9,7 +9,7 @@ jobs:
     - uses: r-lib/actions/setup-r@v1
       id: install-r  
     - name: Install dependencies
-      run: install.packages(c("testthat", "stringr")) #"sna" , "igraph", "DiagrammeR"))
+      run: install.packages(c("testthat", "stringr", "xml2")) #"sna" , "igraph", "DiagrammeR"))
       shell: Rscript {0}
     # - run: Rscript -e "getwd()"
     - run: Rscript tests/testthat.R
