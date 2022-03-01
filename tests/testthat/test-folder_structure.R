@@ -56,7 +56,16 @@ test_that("All submissions are complete", {
 })
 
 
-
+test_that("All tei files are valid", {
+  folders = Sys.glob("../../data/*/*")
+  for(i in 1:length(folders)){
+    file_name = stringr::str_split(folders[i], '/')[[1]][length(stringr::str_split(folders[i], '/')[[1]])]
+    file_path = paste(folders[i], 
+                      paste(file_name, '.tei.xml', sep = ''),
+                      sep = '/')
+    xml2::xml_validate(read_xml(file_path), read_xml("../../schema/openStemmata.xsd", package = "xml2"))
+  }
+})
 
 
 
