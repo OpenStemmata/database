@@ -226,6 +226,18 @@ if len(sys.argv) > 1:
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = et.SubElement(keywords, '{http://www.tei-c.org/ns/1.0}term', attrib={'type': 'drawnStemma'})
                 el.text = cont
+            elif re.match('^[\s]*completeWis', line):
+                cont = re.findall('"([^"]*)"', line)[0]
+                el = et.SubElement(keywords, '{http://www.tei-c.org/ns/1.0}term', attrib={'type': 'completeWis'})
+                el.text = cont
+            elif re.match('^[\s]*sourceText', line):
+                cont = re.findall('"([^"]*)"', line)[0]
+                el = et.SubElement(keywords, '{http://www.tei-c.org/ns/1.0}term', attrib={'type': 'sourceText'})
+                el.text = cont
+            elif re.match('^[\s]*derivatives', line):
+                cont = re.findall('"([^"]*)"', line)[0]
+                el = et.SubElement(keywords, '{http://www.tei-c.org/ns/1.0}term', attrib={'type': 'derivatives'})
+                el.text = cont
             elif re.match('^[\s]*contributor[^O]', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = et.SubElement(respStmt, 'persName')
