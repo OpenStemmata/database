@@ -33,20 +33,20 @@ test_that("subsubfolders are named consistently (FirstEditorLastName_Date_TitleW
 
 test_that("All submissions are complete", {
   folders = Sys.glob("../../data/*/*")
-  correct_structure_min = sort(c("stemma.png", "stemma.gv", "metadata.txt"))
-  correct_structure_full = sort(c("stemma.png", "stemma.graphml", "stemma.gv", "metadata.txt"))
+  correct_structure_without_image = sort(c("stemma.graphml", "stemma.gv", "metadata.txt"))
   for(i in 1:length(folders)){
     file_name = c(stringr::str_split(folders[i], '/'))
     file_name_2 = paste(file_name[[1]][length(file_name[[1]])], '.tei.xml', sep = '')
-    correct_structure = sort(append(correct_structure_full, file_name_2 , after = length(correct_structure_full)))
+    correct_structure_min = sort(append(correct_structure_without_image, file_name_2 , after = length(correct_structure_min)))
+    correct_structure_max = sort(c(correct_structure_min, "stemma.png"))
     expect_true(identical(sort(list.files(folders[i])),
-                correct_structure)
+                          correct_structure_max)
                 ||
                 identical(sort(list.files(folders[i])),
                 correct_structure_min),
                 info = paste("Error in folder",
                                   folders[i], 
-                                  " Each submission must contain only:", 
+                                  " Each submission must contain at least:", 
                                   paste(correct_structure_min, collapse = " "), 
                                   collapse = " ")
     ) 
