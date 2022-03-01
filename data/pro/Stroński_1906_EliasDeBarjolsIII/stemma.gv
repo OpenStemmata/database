@@ -1,6 +1,6 @@
 digraph {
 archetype [color="grey", label=" "] ;
-x [color="grey", label="x (?)"] ;
+x [color="grey", label="x (?)"] ; # "la pièce est semi-anonyme dans H; mais il résulte de ce que nous avons dit plus haut que ceci ne saurait éliminer H du groupe x"
 y [color="grey", label="y"] ;
 a [color="grey"] ;
 b [color="grey"] ;
