@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Arcadia (ii redazione)</title>
-            <author>Trovato, Paolo</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Trovato, Paolo</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>Everything you always wanted to know about Lachmann's method: a non-standard handbook of genealogical textual criticism in the age of post-structuralism, cladistics, and copy-text</title>
+               <author>Trovato, Paolo</author><title>Everything you always wanted to know about Lachmann's method: a non-standard handbook of genealogical textual criticism in the age of post-structuralism, cladistics, and copy-text</title>
                <date>2014</date>
-               <pubPlace>Limena</pubPlace>
-               <series></series>
+               <pubPlace>Limena</pubPlace><series></series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
-               <author>Trovato, Paolo</author>
                <biblScope unit="page" n="142"/>
                <ptr type="digitised" target=""/>
             </bibl>

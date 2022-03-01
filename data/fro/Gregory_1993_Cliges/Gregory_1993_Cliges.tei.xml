@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Cligès</title>
-            <author>Gregory, Stewart; Luttrell, Claude</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0001-9094-4475">Simon Gabay</persName></respStmt></titleStmt>
+            <author>Gregory, Stewart; Luttrell, Claude</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0001-9094-4475">Simon Gabay</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>Cligès</title>
+               <author>Gregory, Stewart; Luttrell, Claude</author><title>Cligès</title>
                <date>1993</date>
-               <pubPlace>Cambridge : D.S.Brewer</pubPlace>
-               <series>Arthurian studies</series>
+               <pubPlace>Cambridge : D.S.Brewer</pubPlace><series>Arthurian studies</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="28"/>
-               <author>Gregory, Stewart; Luttrell, Claude</author>
                <biblScope unit="page" n="26"/>
                <ptr type="digitised" target=""/>
             </bibl>

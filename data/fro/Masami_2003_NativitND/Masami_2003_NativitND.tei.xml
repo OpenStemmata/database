@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Nativité Nostre Dame</title>
-            <author>Masami, Okubo</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Masami, Okubo</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="publicationPart">
-               <title>Autour de la Nativité Nostre Dame et de son attribution à Gautier de Coinci </title>
+               <author>Masami, Okubo</author><title>Autour de la Nativité Nostre Dame et de son attribution à Gautier de Coinci </title>
                <date>2003</date>
-               <pubPlace>Paris</pubPlace>
-               <series>Romania</series>
+               <pubPlace>Paris</pubPlace><series>Romania</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="121"/>
-               <author>Masami, Okubo</author>
                <biblScope unit="page" n="348-381"/>
                <ptr type="digitised" target="https://doi.org/10.3406/roma.2003.1299"/>
             </bibl>

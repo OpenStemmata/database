@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Mort le roi Artu</title>
-            <author>Leonardi, Lino</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Leonardi, Lino</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="publicationPart">
-               <title>Le texte critique de la Mort le roi Artu. Question ouverte</title>
+               <author>Leonardi, Lino</author><title>Le texte critique de la Mort le roi Artu. Question ouverte</title>
                <date>2003</date>
-               <pubPlace>Paris</pubPlace>
-               <series>Romania</series>
+               <pubPlace>Paris</pubPlace><series>Romania</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="121"/>
-               <author>Leonardi, Lino</author>
                <biblScope unit="page" n=""/>
                <ptr type="digitised" target="https://doi.org/10.3406/roma.2003.1287"/>
             </bibl>

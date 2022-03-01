@@ -1313,12 +1313,12 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
       <element name="bibl">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. [3.12.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]</a:documentation>
          <group>
+            <ref name="author"/>
             <ref name="title"/>
             <ref name="date"/>
             <ref name="pubPlace"/>
             <ref name="series"/>
             <ref name="biblScope"/>
-            <ref name="author"/>
             <ref name="biblScope"/>
             <ref name="ptr"/>
          </group>

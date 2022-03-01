@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Moniage Guillaume</title>
-            <author>Cloetta, Wilhelm</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Cloetta, Wilhelm</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>Les deux rédactions en vers du Moniage Guillaume, chansons de geste du XIIe siècle, publiées d’après tous les manuscrits connus</title>
+               <author>Cloetta, Wilhelm</author><title>Les deux rédactions en vers du Moniage Guillaume, chansons de geste du XIIe siècle, publiées d’après tous les manuscrits connus</title>
                <date>1911</date>
-               <pubPlace>Paris</pubPlace>
-               <series>SATF</series>
+               <pubPlace>Paris</pubPlace><series>SATF</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="54"/>
-               <author>Cloetta, Wilhelm</author>
                <biblScope unit="page" n="241"/>
                <ptr type="digitised" target=""/>
             </bibl>

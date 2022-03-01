@@ -7,7 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Alexius (Verslegende B)</title>
-         <author>Blau, Max Friedrich</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+            <author>Blau, Max Friedrich</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName>Lena Reich</persName><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -23,15 +26,14 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="article">
-               <title>Zur Alexiuslegende II</title>
+               <author>Blau, Max Friedrich</author><title>Zur Alexiuslegende II</title>
                <date>1889</date>
-               <pubPlace></pubPlace>
-               <series>Germania</series>
+               <pubPlace></pubPlace><series>Germania</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="34"/>
                <biblScope unit="page" n="158"/>
                <ptr type="digitised" target="https://de.wikisource.org/wiki/Datei:Germania_34_1889.pdf"/>
-            <author>Blau, Max Friedrich</author></bibl>
+            </bibl>
             <listWit><witness xml:id="A"><label type="siglum">A</label><settlement>Annaberg-Buchholz (Erzgebirge)</settlement><repository> Kirchenbibl. St. Anna</repository><idno> Cod. 329 (früher D 187)</idno><origDate>1447</origDate></witness><witness xml:id="R"><label type="siglum">R</label><settlement>Königsberg</settlement><repository> Staats- und Universitätsbibl.</repository><idno> Hs. 900</idno><origDate>1300-1500</origDate><note>lost</note></witness><witness xml:id="V"><label type="siglum">V</label><settlement>Wien</settlement><repository> Österr. Nationalbibl.</repository><idno> Cod. 3007</idno><origDate>1472</origDate></witness></listWit>
          </sourceDesc>
       </fileDesc>

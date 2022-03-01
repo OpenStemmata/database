@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Spiritualis philosophia Deutsch</title>
-            <author>Wagner, Renata</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+            <author>Wagner, Renata</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName>Lena Reich</persName><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>Ein nücz und schone ler von der aygen erkantnuß. Des Pseudo-Johannes von Kastl 'Spiritualis philosophia' deutsch. Text und Untersuchungen</title>
+               <author>Wagner, Renata</author><title>Ein nücz und schone ler von der aygen erkantnuß. Des Pseudo-Johannes von Kastl 'Spiritualis philosophia' deutsch. Text und Untersuchungen</title>
                <date>1972</date>
-               <pubPlace>München</pubPlace>
-               <series>Münchener Texte und Untersuchungen zur deutschen Literatur des Mittelalters</series>
+               <pubPlace>München</pubPlace><series>Münchener Texte und Untersuchungen zur deutschen Literatur des Mittelalters</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="39"/>
-               <author>Wagner, Renata</author>
                <biblScope unit="page" n="70"/>
                <ptr type="digitised" target=""/>
             </bibl>

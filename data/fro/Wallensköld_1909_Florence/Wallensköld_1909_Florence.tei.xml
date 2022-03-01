@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Florence de Rome</title>
-            <author>Wallensköld, A.</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Wallensköld, A.</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>Florence de Rome, chanson d’aventure du premier quart du XIIIe siècle</title>
+               <author>Wallensköld, A.</author><title>Florence de Rome, chanson d’aventure du premier quart du XIIIe siècle</title>
                <date>1909</date>
-               <pubPlace>Paris</pubPlace>
-               <series>SATF</series>
+               <pubPlace>Paris</pubPlace><series>SATF</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="55"/>
-               <author>Wallensköld, A.</author>
                <biblScope unit="page" n="26"/>
                <ptr type="digitised" target="https://archive.org/details/florencederome01wall/page/26"/>
             </bibl>

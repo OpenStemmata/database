@@ -7,7 +7,9 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Les fables de Marie de France</title>
-            <author>Warnke, Karl</author>
+            <author>Warnke, Karl</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <authority>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>Die Fabeln der Marie de France</title>
+               <author>Warnke, Karl</author><title>Die Fabeln der Marie de France</title>
                <date>1898</date>
-               <pubPlace>Halle</pubPlace>
-               <series>Bibliotheca normannica</series>
+               <pubPlace>Halle</pubPlace><series>Bibliotheca normannica</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="6"/>
-               <author>Warnke, Karl</author>
                <biblScope unit="page" n=""/>
                <ptr type="digitised" target=""/>
             </bibl>

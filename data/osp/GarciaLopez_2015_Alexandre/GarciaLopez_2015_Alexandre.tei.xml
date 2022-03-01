@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Libro de Alexandre</title>
-            <author/>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+            <respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -26,11 +28,9 @@
             <bibl type="publicationPart">
                <title>Reflexiones sobre la edición crítica del Libro de Alexandre</title>
                <date>2015</date>
-               <pubPlace></pubPlace>
-               <series/>
+               <pubPlace></pubPlace><series/>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
-               <author/>
                <biblScope unit="page" n=""/>
                <ptr type="digitised" target="https://doi.org/10.4000/atalaya.1531"/>
             </bibl>

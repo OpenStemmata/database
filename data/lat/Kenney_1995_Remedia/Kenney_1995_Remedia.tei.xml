@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Remedia amoris</title>
-            <author>R. J. Tarrant</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt></titleStmt>
+            <author>R. J. Tarrant</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName>Lena Reich</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>P. Ovidi Nasonis Metamorphoses. Amores, Medicamina faciei femineae, Ars amatoria, Remedia amoris. Iteratis curis edidit E. J. Kenney</title>
+               <author>R. J. Tarrant</author><title>P. Ovidi Nasonis Metamorphoses. Amores, Medicamina faciei femineae, Ars amatoria, Remedia amoris. Iteratis curis edidit E. J. Kenney</title>
                <date>1995</date>
-               <pubPlace>Oxford</pubPlace>
-               <series>Oxford classical texts</series>
+               <pubPlace>Oxford</pubPlace><series>Oxford classical texts</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
-               <author>R. J. Tarrant</author>
                <biblScope unit="page" n="vi"/>
                <ptr type="digitised" target=""/>
             </bibl>

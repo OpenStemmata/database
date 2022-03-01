@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Guiron le Courtois</title>
-            <author>Leonardi, Lino &amp; Trachsler, Richard</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Leonardi, Lino &amp; Trachsler, Richard</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="publicationPart">
-               <title>L’édition critique des romans en prose : le cas de Guiron le Courtois</title>
+               <author>Leonardi, Lino &amp; Trachsler, Richard</author><title>L’édition critique des romans en prose : le cas de Guiron le Courtois</title>
                <date>2015</date>
-               <pubPlace></pubPlace>
-               <series>Manuel de la philologie de l’édition</series>
+               <pubPlace></pubPlace><series>Manuel de la philologie de l’édition</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
-               <author>Leonardi, Lino &amp; Trachsler, Richard</author>
                <biblScope unit="page" n="62"/>
                <ptr type="digitised" target="https://d1wqtxts1xzle7.cloudfront.net/58126413/Trotter_______Manuel_de_la_philologie_de_lAdition.pdf?1546802327=&amp;response-content-disposition=inline%3B+filename%3DLes_editions_de_textes_du_XVIIe_siecle.pdf&amp;Expires=1623141368&amp;Signature=Umskf9rhYzmYrwv8Q-eP2yO7CMlTDh3IreoEMMeWAgO1v2xVUpNT1K2Fq3baJXij2GwfiR33bVFNXa5wslLByldX0PK9wZvC9dg8hozrobOfM6LFiUeCjSDqiAHNe93mXC7EJM2Pm5vRVr~IIIY5a26dgik1ro5ZiJ~XLMJYgdqNMJTVA3i~g595tZj2ucP8dBKzQJ4a0FOXL-0VnKUID6iZmim6PTYzmkbtwFn6c4Z1FeRholFyYXyK4CQO8EKhpA-~ikwVtgv4oiyzbPm-xO1Cwb4McMsRbVqmzj-VMb4qy1BZx6513kORng06LefvAmIgP6d1bSaOpI01P-LwfA__&amp;Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA#page=50"/>
             </bibl>

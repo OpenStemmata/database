@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">De amore deutsch</title>
-            <author>Karnein, Alfred</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+            <author>Karnein, Alfred</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName>Lena Reich</persName><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>De Amore deutsch. Der Tractatus des Andreas Capellanus in der Übersetzung Johann Hartliebs</title>
+               <author>Karnein, Alfred</author><title>De Amore deutsch. Der Tractatus des Andreas Capellanus in der Übersetzung Johann Hartliebs</title>
                <date>1970</date>
-               <pubPlace>München</pubPlace>
-               <series>Münchener Texte und Untersuchungen zur deutschen Literatur des Mittelalters</series>
+               <pubPlace>München</pubPlace><series>Münchener Texte und Untersuchungen zur deutschen Literatur des Mittelalters</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="28"/>
-               <author>Karnein, Alfred</author>
                <biblScope unit="page" n="55"/>
                <ptr type="digitised" target=""/>
             </bibl>

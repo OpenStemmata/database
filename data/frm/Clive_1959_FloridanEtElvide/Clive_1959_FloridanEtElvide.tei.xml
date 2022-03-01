@@ -7,6 +7,9 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable"/>
+            <respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <authority>
@@ -25,7 +28,6 @@
             <bibl>
                <title/>
                <date/>
-               <pubPlace/>
                <series/>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
@@ -59,7 +61,7 @@
      </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/Clive_1959_FloridanEtElvide/stemma.png?raw=true"/>
+   <graphic/>
   </facsimile>
   <text>
       <body>

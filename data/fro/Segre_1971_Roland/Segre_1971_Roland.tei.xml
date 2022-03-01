@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Chanson de Roland</title>
-            <author>Segre, Cesare</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Segre, Cesare</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>La Chanson de Roland</title>
+               <author>Segre, Cesare</author><title>La Chanson de Roland</title>
                <date>1971</date>
-               <pubPlace>Milano/Napoli</pubPlace>
-               <series>Documenti di filologia</series>
+               <pubPlace>Milano/Napoli</pubPlace><series>Documenti di filologia</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="16"/>
-               <author>Segre, Cesare</author>
                <biblScope unit="page" n=""/>
                <ptr type="digitised"/>
             </bibl>

@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Aliscans, 1re partie (Guillaume)</title>
-            <author>Rolin, Gustav</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Rolin, Gustav</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>Aliscans mit Berücksichtigung von Wolframs von Eschenbach Willehalm kritisch herausgegeben</title>
+               <author>Rolin, Gustav</author><title>Aliscans mit Berücksichtigung von Wolframs von Eschenbach Willehalm kritisch herausgegeben</title>
                <date>1897</date>
-               <pubPlace>Leipzig</pubPlace>
-               <series>Altfranzösische Bibliothek</series>
+               <pubPlace>Leipzig</pubPlace><series>Altfranzösische Bibliothek</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="15"/>
-               <author>Rolin, Gustav</author>
                <biblScope unit="page" n="LXIII"/>
                <ptr type="digitised" target="https://archive.org/stream/AliscansRolin1897/Aliscans_Rolin_1897#page/n69"/>
             </bibl>

@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Vie de saint Alexis</title>
-            <author>Zufferey, François</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Zufferey, François</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="publicationPart">
-               <title>Archéologie alexienne : le scriptorium de Saint Albans [Vie de saint Alexis]</title>
+               <author>Zufferey, François</author><title>Archéologie alexienne : le scriptorium de Saint Albans [Vie de saint Alexis]</title>
                <date>2010</date>
-               <pubPlace>Paris</pubPlace>
-               <series>Romania</series>
+               <pubPlace>Paris</pubPlace><series>Romania</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="128"/>
-               <author>Zufferey, François</author>
                <biblScope unit="page" n="1-28 (19)"/>
                <ptr type="digitised" target="https://doi.org/10.3406/roma.2010.7270"/>
             </bibl>

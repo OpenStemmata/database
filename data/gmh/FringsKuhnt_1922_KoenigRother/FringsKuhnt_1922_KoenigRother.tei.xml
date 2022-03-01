@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">König Rother</title>
-            <author>Frings, Theodor &amp; Kuhnt, Joachim</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+            <author>Frings, Theodor &amp; Kuhnt, Joachim</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName>Lena Reich</persName><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>König Rother</title>
+               <author>Frings, Theodor &amp; Kuhnt, Joachim</author><title>König Rother</title>
                <date>1922</date>
-               <pubPlace>Bonn/Leipzig</pubPlace>
-               <series>Rheinische Beiträge und Hülfsbücher zur germanischen Philologie und Volkskunde</series>
+               <pubPlace>Bonn/Leipzig</pubPlace><series>Rheinische Beiträge und Hülfsbücher zur germanischen Philologie und Volkskunde</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="3"/>
-               <author>Frings, Theodor &amp; Kuhnt, Joachim</author>
                <biblScope unit="page" n="196"/>
                <ptr type="digitised" target="https://archive.org/details/KoenigRotherHrsgVonTheodorFrings/page/n7/mode/2up"/>
             </bibl>

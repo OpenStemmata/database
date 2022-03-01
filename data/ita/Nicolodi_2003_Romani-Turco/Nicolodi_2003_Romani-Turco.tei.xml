@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Il Turco in Italia</title>
-            <author>Nicolodia, Fiamma; Trovato, Paolo</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Nicolodia, Fiamma; Trovato, Paolo</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="publicationPart">
-               <title>La tradizione primo ottocentesca dei libretti (1814-1830)</title>
+               <author>Nicolodia, Fiamma; Trovato, Paolo</author><title>La tradizione primo ottocentesca dei libretti (1814-1830)</title>
                <date>2003</date>
-               <pubPlace>Pesaro</pubPlace>
-               <series>Gioacchino Rossini, Il Turco in Italia, a cura di Fiamma Nicolodi</series>
+               <pubPlace>Pesaro</pubPlace><series>Gioacchino Rossini, Il Turco in Italia, a cura di Fiamma Nicolodi</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
-               <author>Nicolodia, Fiamma; Trovato, Paolo</author>
                <biblScope unit="page" n="LXI-CI"/>
                <ptr type="digitised" target=""/>
             </bibl>

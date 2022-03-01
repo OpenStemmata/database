@@ -7,7 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Huon de Bordeaux</title>
-         <author>Ruelle, Pierre</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Ruelle, Pierre</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -23,15 +26,14 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>Huon de Bordeaux</title>
+               <author>Ruelle, Pierre</author><title>Huon de Bordeaux</title>
                <date>1960</date>
-               <pubPlace>Bruxelles</pubPlace>
-               <series>Travaux de la faculté de philosophie et lettres</series>
+               <pubPlace>Bruxelles</pubPlace><series>Travaux de la faculté de philosophie et lettres</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="20"/>
                <biblScope unit="page" n="15"/>
                <ptr type="digitised" target=""/>
-            <author>Ruelle, Pierre</author></bibl>
+            </bibl>
             <listWit><witness xml:id="M"><label type="siglum">M</label><idno>BM Tours, 936</idno><origDate>1260-1280</origDate><origPlace>Picardy</origPlace></witness><witness xml:id="P"><label type="siglum">P</label><idno>BnF, fr. 22555</idno><origDate>1401-1500</origDate><origPlace>Lorraine</origPlace></witness><witness xml:id="T"><label type="siglum">T</label><idno>Torino, L.II.14</idno><origDate>1311</origDate><origPlace>Picardy</origPlace></witness><witness xml:id="b"><label type="siglum">b</label><settlement>Boston</settlement><repository> Massachusetts Historical Society</repository><idno> ??</idno><ptr type="description" target="https://www.arlima.net/eh/huon_de_bordeaux.html"/></witness></listWit>
          </sourceDesc>
       </fileDesc>

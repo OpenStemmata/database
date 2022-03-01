@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Guibert d'Andrenas</title>
-            <author>Melander, J.</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Melander, J.</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>Guibert d'Andrenas, chanson de geste, publiée pour la première fois</title>
+               <author>Melander, J.</author><title>Guibert d'Andrenas, chanson de geste, publiée pour la première fois</title>
                <date>1922</date>
-               <pubPlace>Paris</pubPlace>
-               <series>Champion</series>
+               <pubPlace>Paris</pubPlace><series>Champion</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
-               <author>Melander, J.</author>
                <biblScope unit="page" n="XXXIII"/>
                <ptr type="digitised" target="https://archive.org/details/guibertdandrenas00melauoft/page/xxxiii/"/>
             </bibl>

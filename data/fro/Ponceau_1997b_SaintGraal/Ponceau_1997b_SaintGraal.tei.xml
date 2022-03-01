@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">L’Estoire del Saint Graal</title>
-            <author>Ponceau, Jean-Paul</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0001-9094-4475">Simon Gabay</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Ponceau, Jean-Paul</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0001-9094-4475">Simon Gabay</persName><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>L’Estoire del Saint Graal</title>
+               <author>Ponceau, Jean-Paul</author><title>L’Estoire del Saint Graal</title>
                <date>1997</date>
-               <pubPlace>Paris</pubPlace>
-               <series>Classiques français du Moyen Âge</series>
+               <pubPlace>Paris</pubPlace><series>Classiques français du Moyen Âge</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="120"/>
-               <author>Ponceau, Jean-Paul</author>
                <biblScope unit="page" n="xxix"/>
                <ptr type="digitised" target=""/>
             </bibl>

@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Iwein</title>
-            <author>Paul, Hermann</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+            <author>Paul, Hermann</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="publicationPart">
-               <title>Über das gegenseitige Verhältnis der Handschriften von Hartmanns Iwein</title>
+               <author>Paul, Hermann</author><title>Über das gegenseitige Verhältnis der Handschriften von Hartmanns Iwein</title>
                <date>1874</date>
-               <pubPlace></pubPlace>
-               <series>Beiträge zur Geschichte der deutschen Sprache und Literatur</series>
+               <pubPlace></pubPlace><series>Beiträge zur Geschichte der deutschen Sprache und Literatur</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="1"/>
-               <author>Paul, Hermann</author>
                <biblScope unit="page" n="336"/>
                <ptr type="digitised" target="https://www.degruyter.com/view/journals/bgsl/1/Jahresband/article-p288.xml"/>
             </bibl>

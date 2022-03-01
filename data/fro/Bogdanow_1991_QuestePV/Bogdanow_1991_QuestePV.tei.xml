@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Queste del Saint Graal (version Post-Vulgate)</title>
-            <author>Bogdanow, Fanni</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Bogdanow, Fanni</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>La Version Post-Vulgate de la Queste del Saint Graal et de la Mort Artu</title>
+               <author>Bogdanow, Fanni</author><title>La Version Post-Vulgate de la Queste del Saint Graal et de la Mort Artu</title>
                <date>1991</date>
-               <pubPlace>Paris</pubPlace>
-               <series>SATF</series>
+               <pubPlace>Paris</pubPlace><series>SATF</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="101"/>
-               <author>Bogdanow, Fanni</author>
                <biblScope unit="page" n="292"/>
                <ptr type="digitised" target=""/>
             </bibl>

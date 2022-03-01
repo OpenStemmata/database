@@ -7,7 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Münchner Oswald</title>
-         <author>Baesecke, Georg</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+            <author>Baesecke, Georg</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName>Lena Reich</persName><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -23,15 +26,14 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>Der Münchener Oswald. Text und Abhandlung</title>
+               <author>Baesecke, Georg</author><title>Der Münchener Oswald. Text und Abhandlung</title>
                <date>1907</date>
-               <pubPlace>Breslau</pubPlace>
-               <series>Germanistische Abhandlungen</series>
+               <pubPlace>Breslau</pubPlace><series>Germanistische Abhandlungen</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="28"/>
                <biblScope unit="page" n="199"/>
                <ptr type="digitised" target="https://archive.org/details/germanistischea00mlgoog/page/n8/mode/2up?view=theater"/>
-            <author>Baesecke, Georg</author></bibl>
+            </bibl>
             <listWit><witness xml:id="M"><label type="siglum">M</label><settlement>München</settlement><repository> Staatsbibl.</repository><idno> Cgm 719</idno><origDate>1425-1450</origDate><note>verse</note><ptr type="digitised" target="https://www.digitale-sammlungen.de/de/view/bsb00136348?page=,1"/></witness><witness xml:id="I"><label type="siglum">I</label><settlement>Innsbruck</settlement><repository> Landesmuseum Ferdinandeum</repository><idno> Cod. FB 1114</idno><origDate>1440-1460</origDate><ptr type="description" target="verse"/></witness><witness xml:id="Mk"><label type="siglum">Mk</label><settlement>München</settlement><repository> Staatsbibl.</repository><idno> Cgm 5377</idno><origDate>1470-1499</origDate><ptr type="description" target="verse"/></witness><witness xml:id="s"><label type="siglum">s</label><settlement>Stuttgart</settlement><repository> Landesbibl.</repository><idno> Cod. theol. et phil. 4° 81</idno><origDate>1479</origDate><origPlace>Dominican convent Reutin near Wildberg</origPlace><note>prosa</note><ptr type="digitised" target="http://digital.wlb-stuttgart.de/sammlungen/sammlungsliste/werksansicht/?no_cache=1&amp;tx_dlf%5Bid%5D=11965&amp;tx_dlf%5Bpage%5D=1"/></witness><witness xml:id="b"><label type="siglum">b</label><settlement>Berlin</settlement><repository> Staatsbibl.</repository><idno> mgo 288</idno><origDate>1450-1499</origDate><note>prosa; also known as 'Budapester Oswald'</note></witness><witness xml:id="u"><label type="siglum">u</label><settlement>Budapest</settlement><repository> Nationalbibl.</repository><idno> Cod. Germ. 31</idno><origDate>1471</origDate><note>prosa; also known as 'Budapester Oswald'</note></witness><witness xml:id="S"><label type="siglum">S</label><settlement>Schaffhausen</settlement><repository> Stadtbibl.</repository><idno> Cod. Gen. 10</idno><origDate>1472</origDate><ptr type="description" target="verse"/></witness></listWit>
          </sourceDesc>
       </fileDesc>

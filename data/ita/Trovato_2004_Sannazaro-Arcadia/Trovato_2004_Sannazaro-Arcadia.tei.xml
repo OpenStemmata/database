@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Arcadia (ii redazione)</title>
-            <author>Trovato, Paolo</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Trovato, Paolo</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="publicationPart">
-               <title>Sugli stemmi bipartiti: decimazione, asimmetria e calcolo delle probabilità. 1. Dagli alberi reali agli stemmi</title>
+               <author>Trovato, Paolo</author><title>Sugli stemmi bipartiti: decimazione, asimmetria e calcolo delle probabilità. 1. Dagli alberi reali agli stemmi</title>
                <date>2004</date>
-               <pubPlace></pubPlace>
-               <series>Filologia italiana</series>
+               <pubPlace></pubPlace><series>Filologia italiana</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="1"/>
-               <author>Trovato, Paolo</author>
                <biblScope unit="page" n=""/>
                <ptr type="digitised" target=""/>
             </bibl>

@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Aimeri de Narbonne</title>
-            <author>Demaison, Louis</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Demaison, Louis</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>Aymeri de Narbonne, chanson de geste, publiée d’après les manuscrits de Londres et de Paris</title>
+               <author>Demaison, Louis</author><title>Aymeri de Narbonne, chanson de geste, publiée d’après les manuscrits de Londres et de Paris</title>
                <date>1887</date>
-               <pubPlace>Paris</pubPlace>
-               <series>SATF</series>
+               <pubPlace>Paris</pubPlace><series>SATF</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="24"/>
-               <author>Demaison, Louis</author>
                <biblScope unit="page" n="LX"/>
                <ptr type="digitised" target=""/>
             </bibl>

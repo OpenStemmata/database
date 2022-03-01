@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Tristan und Isolde</title>
-            <author>Wetzel, René</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+            <author>Wetzel, René</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName>Lena Reich</persName><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>Die handschriftliche Überlieferung des 'Tristan' Gottfrieds von Straßburg: Untersucht an ihren Fragmenten</title>
+               <author>Wetzel, René</author><title>Die handschriftliche Überlieferung des 'Tristan' Gottfrieds von Straßburg: Untersucht an ihren Fragmenten</title>
                <date>1992</date>
-               <pubPlace>Fribourg</pubPlace>
-               <series></series>
+               <pubPlace>Fribourg</pubPlace><series></series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
-               <author>Wetzel, René</author>
                <biblScope unit="page" n="403"/>
                <ptr type="digitised" target="https://archive-ouverte.unige.ch/unige:91768"/>
             </bibl>

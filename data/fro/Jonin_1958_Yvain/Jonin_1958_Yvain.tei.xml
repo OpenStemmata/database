@@ -7,7 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Yvain</title>
-         <author>Jonin, Pierre</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Jonin, Pierre</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -23,15 +26,14 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>Prolégomènes à une édition d’Yvain</title>
+               <author>Jonin, Pierre</author><title>Prolégomènes à une édition d’Yvain</title>
                <date>1958</date>
-               <pubPlace>Aix</pubPlace>
-               <series></series>
+               <pubPlace>Aix</pubPlace><series></series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
                <biblScope unit="page" n="90"/>
                <ptr type="digitised" target=""/>
-            <author>Jonin, Pierre</author></bibl>
+            </bibl>
             </sourceDesc>
       </fileDesc>
      <profileDesc>

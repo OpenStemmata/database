@@ -7,7 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Sept Sages de Rome</title>
-         <author>Paris, Gaston</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Paris, Gaston</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -23,15 +26,14 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>Deux rédactions du roman des Sept Sages de Rome</title>
+               <author>Paris, Gaston</author><title>Deux rédactions du roman des Sept Sages de Rome</title>
                <date>1876</date>
-               <pubPlace>Paris</pubPlace>
-               <series>SATF</series>
+               <pubPlace>Paris</pubPlace><series>SATF</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="5"/>
                <biblScope unit="page" n="XXVI"/>
                <ptr type="digitised" target=""/>
-            <author>Paris, Gaston</author></bibl>
+            </bibl>
             <listWit><witness xml:id="V"><label type="siglum">V</label><note>La rédaction en vers représentée par les textes de K, D et V</note></witness><witness xml:id="K"><label type="siglum">K</label><note>La version en vers publiée par M. de Keller</note></witness><witness xml:id="D"><label type="siglum">D</label><idno>BnF, fr. 5036</idno><note>Le ms. où le texte est dérimé</note><ptr type="description" target="https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/5036.html#F42"/></witness><witness xml:id="C"><label type="siglum">C</label><settlement>Chartres</settlement><repository> Bibliothèque municipale</repository><idno> 620</idno><note>f. 19-26 (prose) et 27-44 (vers). Ms. détruit dans les bombardements de 1944.</note><ptr type="description" target="https://www.arlima.net/mss/france/chartres/bibliotheque_municipale/620.html#F19"/></witness><witness xml:id="L"><label type="siglum">L</label><note>a prose version represented in at least 6 mss</note></witness><witness xml:id="A"><label type="siglum">A</label><note>a prose version represented in at least 33 mss</note></witness><witness xml:id="A2"><label type="siglum">A2</label><note>second part of A, close to K</note></witness><witness xml:id="M"><label type="siglum">M</label><note>Neuf exempla remontant à la version A de la légende des Sept sages de Rome suivis de six exempla d'origines diverses (Arlima)</note><ptr type="description" target="https://www.arlima.net/qt/sept_sages_de_rome_en_francais.html#vem"/></witness></listWit>
          </sourceDesc>
       </fileDesc>

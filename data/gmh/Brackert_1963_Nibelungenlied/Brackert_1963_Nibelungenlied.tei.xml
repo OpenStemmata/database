@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Nibelungenlied</title>
-            <author>Brackert, Helmut</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0002-2202-6354">Gustavo Riva</persName></respStmt></titleStmt>
+            <author>Brackert, Helmut</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0002-2202-6354">Gustavo Riva</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>Beiträge zur Handschriftenkritik des Nibelungenliedes</title>
+               <author>Brackert, Helmut</author><title>Beiträge zur Handschriftenkritik des Nibelungenliedes</title>
                <date>1963</date>
-               <pubPlace>Berlin</pubPlace>
-               <series> Quellen und Forschungen zur Sprach- und Kulturgeschichte der germanischen Völker. N.F.</series>
+               <pubPlace>Berlin</pubPlace><series> Quellen und Forschungen zur Sprach- und Kulturgeschichte der germanischen Völker. N.F.</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="11"/>
-               <author>Brackert, Helmut</author>
                <biblScope unit="page" n="174"/>
                <ptr type="digitised" target="https://www.degruyter.com/view/title/6743"/>
             </bibl>

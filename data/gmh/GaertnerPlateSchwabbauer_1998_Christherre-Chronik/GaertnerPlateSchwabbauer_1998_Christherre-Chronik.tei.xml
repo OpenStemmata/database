@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Christherre-Chronik</title>
-            <author>Gärtner, Kurt &amp; Plate, Ralf &amp; Schwabbauer, Monika</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+            <author>Gärtner, Kurt &amp; Plate, Ralf &amp; Schwabbauer, Monika</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName>Lena Reich</persName><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>Die Christherre-Chronik V. 7161-12450 der in den 'Deutschen Texten des Mittelalters' erscheinenden Ausgabe nach der Göttinger Handschrift Cod. 2° Philol. 188/10 (olim Gotha, Membr. I 88)</title>
+               <author>Gärtner, Kurt &amp; Plate, Ralf &amp; Schwabbauer, Monika</author><title>Die Christherre-Chronik V. 7161-12450 der in den 'Deutschen Texten des Mittelalters' erscheinenden Ausgabe nach der Göttinger Handschrift Cod. 2° Philol. 188/10 (olim Gotha, Membr. I 88)</title>
                <date>1998</date>
-               <pubPlace>Trier</pubPlace>
-               <series></series>
+               <pubPlace>Trier</pubPlace><series></series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
-               <author>Gärtner, Kurt &amp; Plate, Ralf &amp; Schwabbauer, Monika</author>
                <biblScope unit="page" n="XIII"/>
                <ptr type="digitised" target="http://dtm.bbaw.de/bilder/christherrechronik-teilausgabe.pdf"/>
             </bibl>

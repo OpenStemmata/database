@@ -7,7 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Tristan</title>
-         <author>Bédier, Joseph</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Bédier, Joseph</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -23,15 +26,14 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>Le roman de Tristan par Thomas</title>
+               <author>Bédier, Joseph</author><title>Le roman de Tristan par Thomas</title>
                <date>1905</date>
-               <pubPlace>Paris</pubPlace>
-               <series>SATF</series>
+               <pubPlace>Paris</pubPlace><series>SATF</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
                <biblScope unit="page" n="309"/>
                <ptr type="digitised" target="https://archive.org/details/leromandetristan02thomuoft/page/309"/>
-            <author>Bédier, Joseph</author></bibl>
+            </bibl>
             <listWit><witness xml:id="X"><label type="siglum">X</label><origDate>1100-1150</origDate><note>Archetype of the Old French Tristan, sometimes called the Estoire</note></witness><witness xml:id="y"><label type="siglum">y</label><note>Béroul and Eilhart's model (epic version?)</note></witness><witness xml:id="x"><label type="siglum">x</label><note>Archetype of the Folie Tristan ?</note></witness><witness xml:id="Béroul"><label type="siglum">Béroul</label><origDate>1180</origDate><note>Béroul, Tristan</note></witness><witness xml:id="B2"><label type="siglum">B2</label><origDate>1209</origDate><note>Continuateur de Béroul</note></witness><witness xml:id="Eilhart"><label type="siglum">Eilhart</label><origDate>1190-1200</origDate></witness><witness xml:id="Volksbuch"><label type="siglum">Volksbuch</label><origDate>1350</origDate></witness><witness xml:id="1re trad. tchèque"><label type="siglum">1re trad. tchèque</label><origDate>1300</origDate></witness><witness xml:id="Ulrich de Türheim"><label type="siglum">Ulrich de Türheim</label><origDate>1250</origDate></witness><witness xml:id="Henrich de Freyberg"><label type="siglum">Henrich de Freyberg</label><origDate>1300</origDate></witness><witness xml:id="2e trad. tchèque"><label type="siglum">2e trad. tchèque</label><origDate>1300</origDate></witness><witness xml:id="Gottfried"><label type="siglum">Gottfried</label><origDate>1200-1220</origDate></witness><witness xml:id="Sir Tristrem"><label type="siglum">Sir Tristrem</label><origDate>1280-1300</origDate></witness><witness xml:id="Tavola ritonda"><label type="siglum">Tavola ritonda</label><origDate>1300</origDate></witness><witness xml:id="Fd"><label type="siglum">Fd</label><idno>Folie Tristan du ms. Douce</idno><origDate>1180-1200</origDate><note>Archetype of the Old French Tristan</note></witness><witness xml:id="Fb"><label type="siglum">Fb</label><idno>Folie Tristan du ms. de Berne</idno><origDate>1170</origDate><note>Archetype of the Old French Tristan</note></witness><witness xml:id="Roman français en prose"><label type="siglum">Roman français en prose</label><origDate>1230</origDate><note>For the first redaction. Other redactions could be included.</note></witness></listWit>
          </sourceDesc>
       </fileDesc>

@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Guiron le courtois</title>
-            <author>Lagomarsini, C.</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Lagomarsini, C.</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="publicationPart">
-               <title>Pour l'édition du `Roman de Guiron'. Classement des manuscrits</title>
+               <author>Lagomarsini, C.</author><title>Pour l'édition du `Roman de Guiron'. Classement des manuscrits</title>
                <date>2018</date>
-               <pubPlace>Paris</pubPlace>
-               <series>Le Cycle de Guiron le Courtois: prolégomènes à l'édition intégrale du corpus, sous la dir. de Lino Leonardi et R. Trachsler</series>
+               <pubPlace>Paris</pubPlace><series>Le Cycle de Guiron le Courtois: prolégomènes à l'édition intégrale du corpus, sous la dir. de Lino Leonardi et R. Trachsler</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
-               <author>Lagomarsini, C.</author>
                <biblScope unit="page" n="249-430"/>
                <ptr type="digitised" target=""/>
             </bibl>

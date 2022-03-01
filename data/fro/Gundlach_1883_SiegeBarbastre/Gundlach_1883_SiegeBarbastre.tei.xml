@@ -7,7 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Siege de Barbastre</title>
-         <author>Gundlach, Ad.</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Gundlach, Ad.</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -23,15 +26,14 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>Das Handschriften-Verhältnis des Siege de Barbastre</title>
+               <author>Gundlach, Ad.</author><title>Das Handschriften-Verhältnis des Siege de Barbastre</title>
                <date>1883</date>
-               <pubPlace>Marbourg</pubPlace>
-               <series></series>
+               <pubPlace>Marbourg</pubPlace><series></series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
                <biblScope unit="page" n="33"/>
                <ptr type="digitised" target="https://archive.org/details/HandschriftenVerhBarbastre/page/n38"/>
-            <author>Gundlach, Ad.</author></bibl>
+            </bibl>
             <listWit><witness xml:id="D (=Perrier A)"><label type="siglum">D (=Perrier A)</label><settlement>Londre</settlement><repository> BL</repository><idno> 20 D XI</idno></witness><witness xml:id="L (=Perrier B)"><label type="siglum">L (=Perrier B)</label><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 24369</idno></witness><witness xml:id="H (=Perrier D)"><label type="siglum">H (=Perrier D)</label><settlement>Londre</settlement><repository> BL</repository><idno> Harley 1321</idno></witness><witness xml:id="B (=Perrier C)"><label type="siglum">B (=Perrier C)</label><settlement>Londre</settlement><repository> BL</repository><idno> Roy. 20 B XIX</idno></witness><witness xml:id="P (=Perrier P)"><label type="siglum">P (=Perrier P)</label><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 1448</idno></witness><witness xml:id="Perrier E"><label type="siglum">Perrier E</label><settlement>Paris</settlement><repository> BnF</repository><idno> NAF 6298</idno></witness></listWit>
          </sourceDesc>
       </fileDesc>

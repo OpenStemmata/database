@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Fierabras</title>
-            <author>Le Person, Marc</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Le Person, Marc</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>Fierabras: Chanson de geste du XIIe siècle</title>
+               <author>Le Person, Marc</author><title>Fierabras: Chanson de geste du XIIe siècle</title>
                <date>2003</date>
-               <pubPlace>Paris</pubPlace>
-               <series>CFMA</series>
+               <pubPlace>Paris</pubPlace><series>CFMA</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="142"/>
-               <author>Le Person, Marc</author>
                <biblScope unit="page" n="81"/>
                <ptr type="digitised" target=""/>
             </bibl>

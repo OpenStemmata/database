@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Metamorphoses</title>
-            <author>R. J. Tarrant</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+            <author>R. J. Tarrant</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName>Lena Reich</persName><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>P. Ovidi Nasonis Metamorphoses. Recognovit brevique adnotatione critica instrvxit R. J. Tarrant</title>
+               <author>R. J. Tarrant</author><title>P. Ovidi Nasonis Metamorphoses. Recognovit brevique adnotatione critica instrvxit R. J. Tarrant</title>
                <date>2004</date>
-               <pubPlace>Oxford</pubPlace>
-               <series>Oxford classical texts</series>
+               <pubPlace>Oxford</pubPlace><series>Oxford classical texts</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
-               <author>R. J. Tarrant</author>
                <biblScope unit="page" n="xxvii"/>
                <ptr type="digitised" target=""/>
             </bibl>

@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Adelphoe</title>
-            <author>Büchner, Karl</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt></titleStmt>
+            <author>Büchner, Karl</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName>Lena Reich</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="chapter">
-               <title>Überlieferungsgeschichte der lateinischen Literatur des Altertums</title>
+               <author>Büchner, Karl</author><title>Überlieferungsgeschichte der lateinischen Literatur des Altertums</title>
                <date>1961</date>
-               <pubPlace>Zürich</pubPlace>
-               <series>Geschichte der Textüberlieferung der antiken und mittelalterlichen Literatur</series>
+               <pubPlace>Zürich</pubPlace><series>Geschichte der Textüberlieferung der antiken und mittelalterlichen Literatur</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="1"/>
-               <author>Büchner, Karl</author>
                <biblScope unit="page" n="380"/>
                <ptr type="digitised" target="http://opac.regesta-imperii.de/lang_de/anzeige.php?sammelwerk=Geschichte+der+Text%C3%BCberlieferung+der+antiken+und+mittelalterlichen+Literatur"/>
             </bibl>

@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Bestiaire d'Amour</title>
-            <author>Segre, Cesare</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+            <author>Segre, Cesare</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <title>Richart de Fornival, Li Bestiaires d’amours di Maistre Richart de Fornival et li response du Bestiaire</title>
+               <author>Segre, Cesare</author><title>Richart de Fornival, Li Bestiaires d’amours di Maistre Richart de Fornival et li response du Bestiaire</title>
                <date>1957</date>
-               <pubPlace>Milan/Naples</pubPlace>
-               <series>Documenti di filologia</series>
+               <pubPlace>Milan/Naples</pubPlace><series>Documenti di filologia</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="2"/>
-               <author>Segre, Cesare</author>
                <biblScope unit="page" n=""/>
                <ptr type="digitised" target=""/>
             </bibl>

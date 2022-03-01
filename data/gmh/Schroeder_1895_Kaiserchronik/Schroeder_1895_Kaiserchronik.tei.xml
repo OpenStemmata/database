@@ -7,8 +7,10 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Kaiserchronik</title>
-            <author>Schröder, Edward</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+            <author>Schröder, Edward</author><respStmt>
+               <resp>Contributed to OpenStemmata by</resp>
+            <persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,13 +26,11 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="publicationPart">
-               <title>Die Kaiserchronik eines Regensburger Geistlichen</title>
+               <author>Schröder, Edward</author><title>Die Kaiserchronik eines Regensburger Geistlichen</title>
                <date>1892</date>
-               <pubPlace>Hannover</pubPlace>
-               <series>Monumenta Germaniae Historica. Deutsche Chroniken und andere Geschichtsbücher des Mittelalters</series>
+               <pubPlace>Hannover</pubPlace><series>Monumenta Germaniae Historica. Deutsche Chroniken und andere Geschichtsbücher des Mittelalters</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="1"/>
-               <author>Schröder, Edward</author>
                <biblScope unit="page" n="33"/>
                <ptr type="digitised" target="urn:nbn:de:bvb:12-bsb00000775-4"/>
             </bibl>
