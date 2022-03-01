@@ -37,7 +37,9 @@ test_that("All submissions are complete", {
   for(i in 1:length(folders)){
     file_name = c(stringr::str_split(folders[i], '/'))
     file_name_2 = paste(file_name[[1]][length(file_name[[1]])], '.tei.xml', sep = '')
-    correct_structure_min = sort(append(correct_structure_without_image, file_name_2 , after = length(correct_structure_min)))
+    correct_structure_min = sort(
+      append(correct_structure_without_image, file_name_2 , 
+             after = length(correct_structure_without_image)))
     correct_structure_max = sort(c(correct_structure_min, "stemma.png"))
     expect_true(identical(sort(list.files(folders[i])),
                           correct_structure_max)
