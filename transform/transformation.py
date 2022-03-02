@@ -257,7 +257,9 @@ if len(sys.argv) > 1:
                 cont = re.findall('"([^"]*)"', line)[0]
                 wit = et.SubElement(listWit, 'witness')
                 if cont != '':
-                    clean_id = 'w_' + superscript.get_normal(escape(cont.replace(' ', '_')))
+                    clean_id = 'w_' + superscript.get_normal(
+                                    cont.replace(' ', '_').replace("'", 'prime')
+                                    )
                     wit.attrib['{http://www.w3.org/XML/1998/namespace}id'] = clean_id
                 label = et.SubElement(wit, 'label', attrib= {'type': 'siglum'})
                 label.text = cont 
@@ -315,7 +317,8 @@ if len(sys.argv) > 1:
     graph.attrib['size'] = str(len(G.edges))
 
     for node in G.nodes(data=True):
-        nodeEl = et.SubElement(graph, 'node', attrib={'{http://www.w3.org/XML/1998/namespace}id': "n_" + node[0]})
+        nodeEl = et.SubElement(graph, 'node',
+                attrib={'{http://www.w3.org/XML/1998/namespace}id': "n_" + node[0]})
         labelEl = et.SubElement(nodeEl, 'label')
         if 'label' in node[1]:
             label = node[1]['label']
