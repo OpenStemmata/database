@@ -3,6 +3,9 @@ import networkx as nx
 import sys 
 import re 
 from lxml import etree as et 
+from html import escape
+
+import superscript
 
 
 # Transforms files DOT and metadata to TEI and Graphml
@@ -252,47 +255,49 @@ if len(sys.argv) > 1:
                 el.text = cont
             elif re.match('^[\s]+- witSigla', line):
                 cont = re.findall('"([^"]*)"', line)[0]
+                wit = et.SubElement(listWit, 'witness')
                 if cont != '':
-                    wit = et.SubElement(listWit, 'witness', attrib= {'{http://www.w3.org/XML/1998/namespace}id': cont})
-                    el = et.SubElement(wit, 'label', attrib= {'type': 'siglum'})
-                    el.text = cont 
+                    clean_id = 'w_' + superscript.get_normal(escape(cont.replace(' ', '_')))
+                    wit.attrib['{http://www.w3.org/XML/1998/namespace}id'] = clean_id
+                label = et.SubElement(wit, 'label', attrib= {'type': 'siglum'})
+                label.text = cont 
             elif re.match('^[\s]+witSignature', line):
                 cont = re.findall('"([^"]*)"', line)[0]
-                if cont != '':
-                    split_cont = cont.split(',')
-                    if len(split_cont) != 3:
-                        el = et.SubElement(wit, 'idno')
-                        el.text = cont
-                    else:
-                        settlement = et.SubElement(wit, 'settlement')
-                        settlement.text = split_cont[0]
-                        repository = et.SubElement(wit, 'repository')
-                        repository.text = split_cont[1]
-                        idno = et.SubElement(wit, 'idno')
-                        idno.text = split_cont[2]
+                # if cont != '':
+                split_cont = cont.split(',')
+                if len(split_cont) != 3:
+                    el = et.SubElement(wit, 'idno')
+                    el.text = cont
+                else:
+                    settlement = et.SubElement(wit, 'settlement')
+                    settlement.text = split_cont[0]
+                    repository = et.SubElement(wit, 'repository')
+                    repository.text = split_cont[1]
+                    idno = et.SubElement(wit, 'idno')
+                    idno.text = split_cont[2]
             elif re.match('^[\s]+witOrigDate', line):
                 cont = re.findall('"([^"]*)"', line)[0]
-                if cont != '':
-                    el = et.SubElement(wit, 'origDate')
-                    el.text = cont
+                # if cont != '':
+                el = et.SubElement(wit, 'origDate')
+                el.text = cont
             elif re.match('^[\s]+witOrigPlace', line):
                 cont = re.findall('"([^"]*)"', line)[0]
-                if cont != '':
-                    el = et.SubElement(wit, 'origPlace')
-                    el.text = cont
+                # if cont != '':
+                el = et.SubElement(wit, 'origPlace')
+                el.text = cont
             elif re.match('^[\s]+witNotes', line):
                 cont = re.findall('"([^"]*)"', line)[0]
-                if cont != '':
-                    el = et.SubElement(wit, 'note')
-                    el.text = cont
+                # if cont != '':
+                el = et.SubElement(wit, 'note')
+                el.text = cont
             elif re.match('^[\s]+witMsDesc', line):
                 cont = re.findall('"([^"]*)"', line)[0]
-                if cont != '':
-                    et.SubElement(wit, 'ptr', attrib={'type': 'description', 'target': cont})
+                #if cont != '':
+                et.SubElement(wit, 'ptr', attrib={'type': 'description', 'target': cont})
             elif re.match('^[\s]+witDigit', line):
                 cont = re.findall('"([^"]*)"', line)[0]
-                if cont != '':
-                    et.SubElement(wit, 'ptr', attrib={'type': 'digitised', 'target': cont})
+                #if cont != '':
+                et.SubElement(wit, 'ptr', attrib={'type': 'digitised', 'target': cont})
         
         if facsimileLink != facsimileLinkBase:
             graphic = root.find('./tei:facsimile/tei:graphic', ns)
