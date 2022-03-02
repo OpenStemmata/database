@@ -34,7 +34,8 @@
                <biblScope unit="page" n="113"/>
                <ptr type="digitised" target="https://www.persee.fr/doc/rht_0373-6075_1982_num_10_1980_1216"/>
             </bibl>
-            </sourceDesc>
+            <listWit><witness><label type="siglum"></label><idno></idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
+         </sourceDesc>
       </fileDesc>
      <profileDesc>
         <creation>

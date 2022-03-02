@@ -34,7 +34,7 @@
                <biblScope unit="page" n="256"/>
                <ptr type="digitised" target="http://opac.regesta-imperii.de/lang_de/anzeige.php?sammelwerk=Geschichte+der+Text%C3%BCberlieferung+der+antiken+und+mittelalterlichen+Literatur"/>
             </bibl>
-            <listWit><witness xml:id="A"><label type="siglum">A</label><settlement>Firenze</settlement><repository> Biblioteca Medicea Laurenziana</repository><idno> Plut. 70. 03</idno><origDate>900-999</origDate><ptr type="digitised" target="http://mss.bmlonline.it/Catalogo.aspx?Shelfmark=Plut.70.3"/></witness><witness xml:id="R"><label type="siglum">R</label><settlement>Vaticano</settlement><repository> Biblioteca Apostolica Vaticana</repository><idno> Vat. gr. 0123</idno><origDate>1300-1399</origDate></witness></listWit>
+            <listWit><witness xml:id="w_A"><label type="siglum">A</label><settlement>Firenze</settlement><repository> Biblioteca Medicea Laurenziana</repository><idno> Plut. 70. 03</idno><origDate>900-999</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="http://mss.bmlonline.it/Catalogo.aspx?Shelfmark=Plut.70.3"/></witness><witness xml:id="w_R"><label type="siglum">R</label><settlement>Vaticano</settlement><repository> Biblioteca Apostolica Vaticana</repository><idno> Vat. gr. 0123</idno><origDate>1300-1399</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>

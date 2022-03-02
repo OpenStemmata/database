@@ -34,7 +34,7 @@
                <biblScope unit="page" n="268"/>
                <ptr type="digitised" target="http://opac.regesta-imperii.de/lang_de/anzeige.php?sammelwerk=Geschichte+der+Text%C3%BCberlieferung+der+antiken+und+mittelalterlichen+Literatur"/>
             </bibl>
-            <listWit><witness xml:id="A"><label type="siglum">A</label><settlement>Vaticano</settlement><repository> Biblioteca Apostolica Vaticana</repository><idno> Vat. gr. 1335</idno><origDate>12c</origDate><note>has been corrected</note><ptr type="digitised" target="https://digi.vatlib.it/view/MSS_Vat.gr.1335"/></witness><witness xml:id="D"><label type="siglum">D</label><settlement>Vaticano</settlement><repository> Biblioteca Apostolica Vaticana</repository><idno> Vat. gr. 1950</idno><origDate>14c</origDate></witness></listWit>
+            <listWit><witness xml:id="w_A"><label type="siglum">A</label><settlement>Vaticano</settlement><repository> Biblioteca Apostolica Vaticana</repository><idno> Vat. gr. 1335</idno><origDate>12c</origDate><origPlace></origPlace><note>has been corrected</note><ptr type="description" target=""/><ptr type="digitised" target="https://digi.vatlib.it/view/MSS_Vat.gr.1335"/></witness><witness xml:id="w_D"><label type="siglum">D</label><settlement>Vaticano</settlement><repository> Biblioteca Apostolica Vaticana</repository><idno> Vat. gr. 1950</idno><origDate>14c</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>

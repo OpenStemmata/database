@@ -34,7 +34,7 @@
                <biblScope unit="page" n="250"/>
                <ptr type="digitised" target="http://opac.regesta-imperii.de/lang_de/anzeige.php?sammelwerk=Geschichte+der+Text%C3%BCberlieferung+der+antiken+und+mittelalterlichen+Literatur"/>
             </bibl>
-            <listWit><witness xml:id="M"><label type="siglum">M</label><settlement>Venezia</settlement><repository> Biblioteca Nazionale Marciana</repository><idno> gr. Z. 476 (coll. 0703)</idno><origDate>11/12c</origDate></witness><witness xml:id="S"><label type="siglum">S</label><settlement>El Escorial</settlement><repository> Real Biblioteca</repository><idno> fonds principal Σ. III. 03</idno><origDate>15c</origDate></witness></listWit>
+            <listWit><witness xml:id="w_M"><label type="siglum">M</label><settlement>Venezia</settlement><repository> Biblioteca Nazionale Marciana</repository><idno> gr. Z. 476 (coll. 0703)</idno><origDate>11/12c</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_S"><label type="siglum">S</label><settlement>El Escorial</settlement><repository> Real Biblioteca</repository><idno> fonds principal Σ. III. 03</idno><origDate>15c</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>

@@ -34,7 +34,8 @@
                <biblScope unit="page" n="174"/>
                <ptr type="digitised" target="https://www.degruyter.com/view/title/6743"/>
             </bibl>
-            </sourceDesc>
+            <listWit><witness><label type="siglum"></label><idno></idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
+         </sourceDesc>
       </fileDesc>
      <profileDesc>
         <creation>

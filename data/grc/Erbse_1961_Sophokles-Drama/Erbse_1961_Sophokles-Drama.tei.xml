@@ -34,7 +34,7 @@
                <biblScope unit="page" n="275"/>
                <ptr type="digitised" target="http://opac.regesta-imperii.de/id/834709"/>
             </bibl>
-            <listWit><witness xml:id="L"><label type="siglum">L</label><settlement>Firenze</settlement><repository> Biblioteca Medicea Laurenziana</repository><idno> Plutei 32.09</idno><origDate>14c</origDate><ptr type="digitised" target="http://mss.bmlonline.it/Catalogo.aspx?Shelfmark=Plut.32.9&amp;Creator=Sophocles"/></witness><witness xml:id="Λ"><label type="siglum">Λ</label><settlement>Leiden</settlement><repository> Bibliotheek der Rijksuniversiteit</repository><idno> BPG 060A</idno><origDate>14c</origDate><note>has been overwritten (palimpsest)</note><ptr type="digitised" target="http://hdl.handle.net/1887.1/item:375386"/></witness></listWit>
+            <listWit><witness xml:id="w_L"><label type="siglum">L</label><settlement>Firenze</settlement><repository> Biblioteca Medicea Laurenziana</repository><idno> Plutei 32.09</idno><origDate>14c</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="http://mss.bmlonline.it/Catalogo.aspx?Shelfmark=Plut.32.9&amp;Creator=Sophocles"/></witness><witness xml:id="w_Λ"><label type="siglum">Λ</label><settlement>Leiden</settlement><repository> Bibliotheek der Rijksuniversiteit</repository><idno> BPG 060A</idno><origDate>14c</origDate><origPlace></origPlace><note>has been overwritten (palimpsest)</note><ptr type="description" target=""/><ptr type="digitised" target="http://hdl.handle.net/1887.1/item:375386"/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>

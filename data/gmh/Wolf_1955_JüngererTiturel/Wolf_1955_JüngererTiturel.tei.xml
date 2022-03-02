@@ -34,7 +34,7 @@
                <biblScope unit="page" n="XIX"/>
                <ptr type="digitised" target=""/>
             </bibl>
-            <listWit><witness xml:id="H"><label type="siglum">H</label><settlement>Heidelberg</settlement><repository> Universitätsbibl.</repository><idno> Cpg 141</idno><ptr type="digitised" target="https://digi.ub.uni-heidelberg.de/diglit/cpg141"/></witness></listWit>
+            <listWit><witness xml:id="w_H"><label type="siglum">H</label><settlement>Heidelberg</settlement><repository> Universitätsbibl.</repository><idno> Cpg 141</idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digi.ub.uni-heidelberg.de/diglit/cpg141"/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>

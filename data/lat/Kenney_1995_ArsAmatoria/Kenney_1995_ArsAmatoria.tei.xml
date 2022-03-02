@@ -34,7 +34,7 @@
                <biblScope unit="page" n="vi"/>
                <ptr type="digitised" target=""/>
             </bibl>
-            <listWit><witness xml:id="R"><label type="siglum">R</label><idno>Parisinus Latinus 7311</idno><origDate>9c.</origDate><origPlace>France</origPlace></witness><witness xml:id="b"><label type="siglum">b</label><idno>Bambergensis M. V. 18</idno><origDate>10c.</origDate></witness><witness xml:id="O"><label type="siglum">O</label><idno>Oxoniensis Bodleianus Auct. F. 4. 32</idno><origDate>9c.</origDate><origPlace>Wallis</origPlace></witness><witness xml:id="Sa"><label type="siglum">Sa</label><idno>Sangallensis 821</idno><origDate>11c.</origDate></witness></listWit>
+            <listWit><witness xml:id="w_R"><label type="siglum">R</label><idno>Parisinus Latinus 7311</idno><origDate>9c.</origDate><origPlace>France</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_b"><label type="siglum">b</label><idno>Bambergensis M. V. 18</idno><origDate>10c.</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_O"><label type="siglum">O</label><idno>Oxoniensis Bodleianus Auct. F. 4. 32</idno><origDate>9c.</origDate><origPlace>Wallis</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Sa"><label type="siglum">Sa</label><idno>Sangallensis 821</idno><origDate>11c.</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>

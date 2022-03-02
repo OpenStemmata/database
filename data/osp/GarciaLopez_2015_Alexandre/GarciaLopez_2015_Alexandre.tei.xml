@@ -34,7 +34,8 @@
                <biblScope unit="page" n=""/>
                <ptr type="digitised" target="https://doi.org/10.4000/atalaya.1531"/>
             </bibl>
-            </sourceDesc>
+            <listWit><witness><label type="siglum"></label><idno></idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
+         </sourceDesc>
       </fileDesc>
      <profileDesc>
         <creation>

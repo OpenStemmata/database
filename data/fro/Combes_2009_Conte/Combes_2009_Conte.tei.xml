@@ -34,7 +34,7 @@
                <biblScope unit="page" n="63"/>
                <ptr type="digitised" target=""/>
             </bibl>
-            <listWit><witness xml:id="Ab"><label type="siglum">Ab</label><settlement>Paris</settlement><repository> BNF</repository><idno> Fr. 122</idno><origDate>1345</origDate><origPlace>Paris</origPlace></witness><witness xml:id="Ac"><label type="siglum">Ac</label><idno>Paris, Arsenal 3480</idno><origDate>1400</origDate><origPlace>Paris</origPlace></witness><witness xml:id="Aa"><label type="siglum">Aa</label><settlement>Paris</settlement><repository> BNF</repository><idno> Fr. 119</idno><origDate>1400</origDate><origPlace>Paris</origPlace></witness></listWit>
+            <listWit><witness xml:id="w_Ab"><label type="siglum">Ab</label><settlement>Paris</settlement><repository> BNF</repository><idno> Fr. 122</idno><origDate>1345</origDate><origPlace>Paris</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Ac"><label type="siglum">Ac</label><idno>Paris, Arsenal 3480</idno><origDate>1400</origDate><origPlace>Paris</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Aa"><label type="siglum">Aa</label><settlement>Paris</settlement><repository> BNF</repository><idno> Fr. 119</idno><origDate>1400</origDate><origPlace>Paris</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>

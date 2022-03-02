@@ -34,7 +34,7 @@
                <biblScope unit="page" n=""/>
                <ptr type="digitised"/>
             </bibl>
-            <listWit><witness xml:id="A"><label type="siglum">A</label><settlement>Paris</settlement><repository> Bibliothèque du Petit Palais</repository><idno> Collection Dutuit 456</idno><origDate>1457-1459</origDate><origPlace>Burgundy</origPlace></witness><witness xml:id="B"><label type="siglum">B</label><idno>Paris, BNF Fr. 707</idno><origDate>1470-1480</origDate></witness><witness xml:id="C"><label type="siglum">C</label><idno>Paris, BNF Fr. 9342</idno><origDate>1447-1448</origDate><origPlace>Burgundy</origPlace></witness></listWit>
+            <listWit><witness xml:id="w_A"><label type="siglum">A</label><settlement>Paris</settlement><repository> Bibliothèque du Petit Palais</repository><idno> Collection Dutuit 456</idno><origDate>1457-1459</origDate><origPlace>Burgundy</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B"><label type="siglum">B</label><idno>Paris, BNF Fr. 707</idno><origDate>1470-1480</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_C"><label type="siglum">C</label><idno>Paris, BNF Fr. 9342</idno><origDate>1447-1448</origDate><origPlace>Burgundy</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>

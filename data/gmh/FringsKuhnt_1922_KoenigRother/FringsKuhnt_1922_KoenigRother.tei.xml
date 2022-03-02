@@ -34,7 +34,7 @@
                <biblScope unit="page" n="196"/>
                <ptr type="digitised" target="https://archive.org/details/KoenigRotherHrsgVonTheodorFrings/page/n7/mode/2up"/>
             </bibl>
-            <listWit><witness xml:id="H"><label type="siglum">H</label><settlement>Heidelberg</settlement><repository> Universitätsbibl.</repository><idno> Cpg 390</idno><origDate>1200-1225</origDate><ptr type="digitised" target="https://digi.ub.uni-heidelberg.de/diglit/cpg390"/></witness><witness xml:id="M"><label type="siglum">M</label><settlement>München</settlement><repository> Staatsbibl.</repository><idno> Cgm 5249/1</idno><origDate>1190-1210</origDate></witness></listWit>
+            <listWit><witness xml:id="w_H"><label type="siglum">H</label><settlement>Heidelberg</settlement><repository> Universitätsbibl.</repository><idno> Cpg 390</idno><origDate>1200-1225</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digi.ub.uni-heidelberg.de/diglit/cpg390"/></witness><witness xml:id="w_M"><label type="siglum">M</label><settlement>München</settlement><repository> Staatsbibl.</repository><idno> Cgm 5249/1</idno><origDate>1190-1210</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>

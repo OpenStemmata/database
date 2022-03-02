@@ -34,7 +34,7 @@
                <biblScope unit="page" n="281"/>
                <ptr type="digitised" target="http://opac.regesta-imperii.de/lang_de/anzeige.php?sammelwerk=Geschichte+der+Text%C3%BCberlieferung+der+antiken+und+mittelalterlichen+Literatur"/>
             </bibl>
-            <listWit><witness xml:id="A"><label type="siglum">A</label><settlement>Milano</settlement><repository> Biblioteca Ambrosiana</repository><idno> fonds principal C 222 inf.</idno><origDate>13c</origDate><ptr type="digitised" target="http://213.21.172.25/0b02da8280051c1e"/></witness></listWit>
+            <listWit><witness xml:id="w_A"><label type="siglum">A</label><settlement>Milano</settlement><repository> Biblioteca Ambrosiana</repository><idno> fonds principal C 222 inf.</idno><origDate>13c</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="http://213.21.172.25/0b02da8280051c1e"/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>

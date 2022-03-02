@@ -34,7 +34,7 @@
                <biblScope unit="page" n="269"/>
                <ptr type="digitised" target="http://opac.regesta-imperii.de/id/834709"/>
             </bibl>
-            <listWit><witness xml:id="Vind."><label type="siglum">Vind.</label><settlement>Wien</settlement><repository> Österreichische Nationalbibliothek</repository><idno> phil. gr. 037</idno><origDate>16c</origDate></witness><witness xml:id="Vat. 989"><label type="siglum">Vat. 989</label><settlement>Vaticano</settlement><repository> Biblioteca Apostolica Vaticana</repository><idno> Vat. gr. 0989</idno><ptr type="digitised" target="https://digi.vatlib.it/view/MSS_Vat.gr.989"/></witness></listWit>
+            <listWit><witness xml:id="w_Vind."><label type="siglum">Vind.</label><settlement>Wien</settlement><repository> Österreichische Nationalbibliothek</repository><idno> phil. gr. 037</idno><origDate>16c</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Vat._989"><label type="siglum">Vat. 989</label><settlement>Vaticano</settlement><repository> Biblioteca Apostolica Vaticana</repository><idno> Vat. gr. 0989</idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digi.vatlib.it/view/MSS_Vat.gr.989"/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>

@@ -34,7 +34,7 @@
                <biblScope unit="page" n="vi"/>
                <ptr type="digitised" target=""/>
             </bibl>
-            <listWit><witness xml:id="R"><label type="siglum">R</label><idno>Parisinus Latinus 7311</idno><origDate>9c.</origDate><origPlace>France</origPlace></witness><witness xml:id="P6"><label type="siglum">P6</label><idno>Parisinus Latinus 8069</idno><origDate>10/11c.</origDate></witness><witness xml:id="E"><label type="siglum">E</label><idno>Extonensis 150 (Bl. 6,5)</idno><origDate>11c.</origDate><origPlace>Barina</origPlace></witness><witness xml:id="K"><label type="siglum">K</label><idno>Parisinus Latinus 8460 (Puteanus)</idno><origDate>12c.</origDate></witness></listWit>
+            <listWit><witness xml:id="w_R"><label type="siglum">R</label><idno>Parisinus Latinus 7311</idno><origDate>9c.</origDate><origPlace>France</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_P6"><label type="siglum">P6</label><idno>Parisinus Latinus 8069</idno><origDate>10/11c.</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_E"><label type="siglum">E</label><idno>Extonensis 150 (Bl. 6,5)</idno><origDate>11c.</origDate><origPlace>Barina</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_K"><label type="siglum">K</label><idno>Parisinus Latinus 8460 (Puteanus)</idno><origDate>12c.</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>
