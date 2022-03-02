@@ -1,6 +1,8 @@
 digraph {
     alpha[color="grey", label="α"]
     beta[color="grey", label="β"]
+    A1[label="A¹"]
+    A2[label="A²"]
     B1[color="grey", label="β1"]
     B2[color="grey", label="β2"]
     B3[color="grey", label="β3"]
@@ -21,7 +23,7 @@ digraph {
     Archetype -> beta;
 
     alpha -> T;
-    alpha -> A¹;
+    alpha -> A1;
 
     beta -> B1;
     beta -> etoile;
@@ -41,7 +43,7 @@ digraph {
 
     B3 -> x2;
     B3 -> E;
-    B3 -> A²;
+    B3 -> A2;
     E -> R;
 
     x2 -> x3;

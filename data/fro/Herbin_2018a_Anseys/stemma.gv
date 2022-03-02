@@ -4,6 +4,8 @@ digraph {
     y[color="grey"]
     s[color="grey"]
     yprime[color="grey", label="y'"]
+    U1[label="U¹"]
+    U2[label="U²"]
 
     O -> x;
     x -> y;
@@ -11,13 +13,13 @@ digraph {
     
     y -> Art;
     y -> L;
-    y -> U¹;
+    y -> U1;
 
     yprime->s ;
     s -> S ;
 
     yprime -> 2;
-    2 -> U²;
+    2 -> U2;
     2 -> N;
 
     2[color="grey", label=""]

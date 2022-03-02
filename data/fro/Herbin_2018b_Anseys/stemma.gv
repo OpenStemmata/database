@@ -3,19 +3,21 @@ digraph {
     x [color="grey"]
     y [color="grey"]
     s [color="grey"]
+    U1 [label="U¹"]
+    U2 [label="U²"]
 
     O -> x;
     x -> y;
 
     y -> Art;
     y -> L;
-    y -> U¹;
+    y -> U1;
 
     x -> s ;
     s -> S ;
 
     x -> 2;
-    2 -> U²;
+    2 -> U2;
     2 -> N;
 
     2[color="grey", label=""]

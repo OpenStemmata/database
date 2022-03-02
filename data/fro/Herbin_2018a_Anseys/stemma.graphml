@@ -19,15 +19,19 @@
   <data key="d0">grey</data>
   <data key="d1">y'</data>
 </node>
+<node id="U1">
+  <data key="d1">U¹</data>
+</node>
+<node id="U2">
+  <data key="d1">U²</data>
+</node>
 <node id="Art"/>
 <node id="L"/>
-<node id="U¹"/>
 <node id="S"/>
 <node id="2">
   <data key="d0">grey</data>
   <data key="d1"></data>
 </node>
-<node id="U²"/>
 <node id="N"/>
 <edge source="O" target="x">
   <data key="d2">filiation</data>
@@ -49,7 +53,7 @@
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
-<edge source="y" target="U¹">
+<edge source="y" target="U1">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
@@ -65,7 +69,7 @@
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
-<edge source="2" target="U²">
+<edge source="2" target="U2">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>

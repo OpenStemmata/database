@@ -11,6 +11,12 @@
   <data key="d0">grey</data>
   <data key="d1">β</data>
 </node>
+<node id="A1">
+  <data key="d1">A¹</data>
+</node>
+<node id="A2">
+  <data key="d1">A²</data>
+</node>
 <node id="B1">
   <data key="d0">grey</data>
   <data key="d1">β1</data>
@@ -59,7 +65,6 @@
 <node id="Archetype"/>
 <node id="K"/>
 <node id="T"/>
-<node id="A¹"/>
 <node id="B"/>
 <node id="L"/>
 <node id="Q"/>
@@ -67,7 +72,6 @@
 <node id="F"/>
 <node id="N"/>
 <node id="E"/>
-<node id="A²"/>
 <node id="R"/>
 <node id="V"/>
 <node id="Ph"/>
@@ -82,7 +86,7 @@
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
-<edge source="alpha" target="A¹">
+<edge source="alpha" target="A1">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
@@ -122,7 +126,7 @@
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
-<edge source="B3" target="A²">
+<edge source="B3" target="A2">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
