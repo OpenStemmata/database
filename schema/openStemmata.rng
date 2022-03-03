@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-03-01T09:45:37Z. .
+Schema generated from ODD source 2022-03-03T14:58:07Z. .
 TEI Edition: Version 4.3.0. Last updated on
         31st August 2021, revision b4f72b1ff
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
@@ -1313,12 +1313,16 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
       <element name="bibl">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. [3.12.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]</a:documentation>
          <group>
-            <ref name="author"/>
             <ref name="title"/>
             <ref name="date"/>
-            <ref name="pubPlace"/>
+            <oneOrMore>
+               <ref name="pubPlace"/>
+            </oneOrMore>
             <ref name="series"/>
             <ref name="biblScope"/>
+            <oneOrMore>
+               <ref name="author"/>
+            </oneOrMore>
             <ref name="biblScope"/>
             <ref name="ptr"/>
          </group>
@@ -1366,7 +1370,9 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
             <ref name="title"/>
             <ref name="title"/>
          </group>
-         <ref name="author"/>
+         <oneOrMore>
+            <ref name="author"/>
+         </oneOrMore>
          <oneOrMore>
             <ref name="respStmt"/>
          </oneOrMore>
@@ -1642,7 +1648,9 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
       <element name="TEI">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI document) contains a single TEI-conformant document, combining a single TEI header with one or more members of the model.resource class. Multiple <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> elements may be combined within a <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> (or <code xmlns="http://www.w3.org/1999/xhtml">&lt;teiCorpus&gt;</code>) element. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
          <ref name="teiHeader"/>
-         <ref name="facsimile"/>
+         <optional>
+            <ref name="facsimile"/>
+         </optional>
          <ref name="text"/>
          <sch:ns xmlns:rng="http://relaxng.org/ns/structure/1.0"
                  xmlns="http://www.tei-c.org/ns/1.0"
