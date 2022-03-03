@@ -2,6 +2,7 @@
 #DiagrammeR::grViz("../examples/Paris_1872_Alexis/stemma.gv")
 #DiagrammeR::grViz("../examples/Paris_1872_Alexis/stemma.gv", engine="topi")
 library("testthat")
+options(testthat.progress.max_fails = 100)
 testthat::test_dir("tests/testthat/", stop_on_warning = TRUE)
 
 #library("igraph")

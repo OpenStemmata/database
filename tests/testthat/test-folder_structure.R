@@ -63,7 +63,13 @@ test_that("All tei files are valid", {
     file_path = paste(folders[i], 
                       paste(file_name, '.tei.xml', sep = ''),
                       sep = '/')
-    xml2::xml_validate(xml2::read_xml(file_path), xml2::read_xml("../../schema/openStemmata.xsd"))
+    validation = xml2::xml_validate(xml2::read_xml(file_path), xml2::read_xml("../../schema/openStemmata.xsd"))
+    expect_true(validation)
+    if(!validation){
+      for(i in 1:length(attributes(validation)$errors)){
+        warning(attributes(validation)$errors[i])
+      }
+    }
   }
 })
 
