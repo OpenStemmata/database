@@ -9,7 +9,7 @@
    <xs:import namespace="http://www.w3.org/XML/1998/namespace"
               schemaLocation="xml.tmp"/>
    <!--
-    Schema generated from ODD source 2022-03-03T14:58:12Z. .
+    Schema generated from ODD source 2022-03-04T13:59:52Z. .
     TEI Edition: Version 4.3.0. Last updated on
             31st August 2021, revision b4f72b1ff
     TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
@@ -753,33 +753,7 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
    </xs:element>
    <xs:element name="model.biblLike"
                abstract="true"
-               substitutionGroup="tei:model.inter">
-      <xs:complexType>
-         <xs:sequence>
-            <xs:element ref="tei:title"/>
-            <xs:element ref="tei:date"/>
-            <xs:element maxOccurs="unbounded" ref="tei:pubPlace"/>
-            <xs:element ref="tei:series"/>
-            <xs:element ref="tei:biblScope"/>
-            <xs:element maxOccurs="unbounded" ref="tei:author"/>
-            <xs:element ref="tei:biblScope"/>
-            <xs:element ref="tei:ptr"/>
-         </xs:sequence>
-         <xs:attributeGroup ref="tei:att.global.attributes"/>
-         <xs:attributeGroup ref="tei:att.docStatus.attributes"/>
-         <xs:attribute name="type" use="required">
-            <xs:annotation>
-               <xs:documentation>characterizes the element in some sense, using any convenient classification scheme or typology.</xs:documentation>
-            </xs:annotation>
-            <xs:simpleType>
-               <xs:restriction base="xs:token">
-                  <xs:enumeration value="book"/>
-                  <xs:enumeration value="publicationPart"/>
-               </xs:restriction>
-            </xs:simpleType>
-         </xs:attribute>
-      </xs:complexType>
-   </xs:element>
+               substitutionGroup="tei:model.inter"/>
    <xs:element name="model.labelLike"
                abstract="true"
                substitutionGroup="tei:model.inter">
@@ -891,6 +865,68 @@ Suggested values include: 1] undirected; 2] directed; 3] transitionNetwork; 4] t
          </xs:attribute>
       </xs:complexType>
    </xs:element>
+   <xs:group name="model.placeNamePart">
+      <xs:sequence>
+         <xs:element ref="tei:settlement"/>
+      </xs:sequence>
+   </xs:group>
+   <xs:group name="model.placeNamePart_alternation">
+      <xs:sequence>
+         <xs:element ref="tei:settlement"/>
+      </xs:sequence>
+   </xs:group>
+   <xs:group name="model.placeNamePart_sequence">
+      <xs:sequence>
+         <xs:element ref="tei:settlement"/>
+      </xs:sequence>
+   </xs:group>
+   <xs:group name="model.placeNamePart_sequenceOptional">
+      <xs:sequence>
+         <xs:element minOccurs="0" ref="tei:settlement"/>
+      </xs:sequence>
+   </xs:group>
+   <xs:group name="model.placeNamePart_sequenceOptionalRepeatable">
+      <xs:sequence>
+         <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:settlement"/>
+      </xs:sequence>
+   </xs:group>
+   <xs:group name="model.placeNamePart_sequenceRepeatable">
+      <xs:sequence>
+         <xs:element maxOccurs="unbounded" ref="tei:settlement"/>
+      </xs:sequence>
+   </xs:group>
+   <xs:group name="model.placeStateLike">
+      <xs:sequence>
+         <xs:group ref="tei:model.placeNamePart"/>
+      </xs:sequence>
+   </xs:group>
+   <xs:group name="model.placeStateLike_alternation">
+      <xs:sequence>
+         <xs:group ref="tei:model.placeNamePart_alternation"/>
+      </xs:sequence>
+   </xs:group>
+   <xs:group name="model.placeStateLike_sequence">
+      <xs:sequence>
+         <xs:group ref="tei:model.placeNamePart_sequence"/>
+      </xs:sequence>
+   </xs:group>
+   <xs:group name="model.placeStateLike_sequenceOptional">
+      <xs:sequence>
+         <xs:group minOccurs="0" ref="tei:model.placeNamePart_sequenceOptional"/>
+      </xs:sequence>
+   </xs:group>
+   <xs:group name="model.placeStateLike_sequenceOptionalRepeatable">
+      <xs:sequence>
+         <xs:group minOccurs="0"
+                   maxOccurs="unbounded"
+                   ref="tei:model.placeNamePart_sequenceOptionalRepeatable"/>
+      </xs:sequence>
+   </xs:group>
+   <xs:group name="model.placeStateLike_sequenceRepeatable">
+      <xs:sequence>
+         <xs:group maxOccurs="unbounded" ref="tei:model.placeNamePart_sequenceRepeatable"/>
+      </xs:sequence>
+   </xs:group>
    <xs:element name="model.publicationStmtPart.agency" abstract="true">
       <xs:complexType>
          <xs:sequence>
@@ -924,24 +960,28 @@ Suggested values include: 1] undirected; 2] directed; 3] transitionNetwork; 4] t
    <xs:group name="model.nameLike">
       <xs:choice>
          <xs:group ref="tei:model.nameLike.agent"/>
+         <xs:group ref="tei:model.placeStateLike"/>
          <xs:element ref="tei:idno"/>
       </xs:choice>
    </xs:group>
    <xs:group name="model.nameLike_alternation">
       <xs:choice>
          <xs:group ref="tei:model.nameLike.agent_alternation"/>
+         <xs:group ref="tei:model.placeStateLike_alternation"/>
          <xs:element ref="tei:idno"/>
       </xs:choice>
    </xs:group>
    <xs:group name="model.nameLike_sequence">
       <xs:sequence>
          <xs:group ref="tei:model.nameLike.agent_sequence"/>
+         <xs:group ref="tei:model.placeStateLike_sequence"/>
          <xs:element ref="tei:idno"/>
       </xs:sequence>
    </xs:group>
    <xs:group name="model.nameLike_sequenceOptional">
       <xs:sequence>
          <xs:group minOccurs="0" ref="tei:model.nameLike.agent_sequenceOptional"/>
+         <xs:group minOccurs="0" ref="tei:model.placeStateLike_sequenceOptional"/>
          <xs:element minOccurs="0" ref="tei:idno"/>
       </xs:sequence>
    </xs:group>
@@ -950,6 +990,9 @@ Suggested values include: 1] undirected; 2] directed; 3] transitionNetwork; 4] t
          <xs:group minOccurs="0"
                    maxOccurs="unbounded"
                    ref="tei:model.nameLike.agent_sequenceOptionalRepeatable"/>
+         <xs:group minOccurs="0"
+                   maxOccurs="unbounded"
+                   ref="tei:model.placeStateLike_sequenceOptionalRepeatable"/>
          <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:idno"/>
       </xs:sequence>
    </xs:group>
@@ -1011,27 +1054,47 @@ Suggested values include: 1] undirected; 2] directed; 3] transitionNetwork; 4] t
                      <xs:restriction base="xs:token">
                         <xs:enumeration value="workGenre">
                            <xs:annotation>
-                              <xs:documentation/>
+                              <xs:documentation>genre of the work (e.g., epic poetry, tragedy, etc.)</xs:documentation>
                            </xs:annotation>
                         </xs:enumeration>
                         <xs:enumeration value="stemmaType">
                            <xs:annotation>
-                              <xs:documentation/>
+                              <xs:documentation>type of tree (reconstructed or observed)</xs:documentation>
+                           </xs:annotation>
+                        </xs:enumeration>
+                        <xs:enumeration value="drawnStemma">
+                           <xs:annotation>
+                              <xs:documentation>drawn vs. prose genealogy</xs:documentation>
                            </xs:annotation>
                         </xs:enumeration>
                         <xs:enumeration value="contam">
                            <xs:annotation>
-                              <xs:documentation/>
+                              <xs:documentation>contamination</xs:documentation>
                            </xs:annotation>
                         </xs:enumeration>
                         <xs:enumeration value="extraStemmContam">
                            <xs:annotation>
-                              <xs:documentation/>
+                              <xs:documentation>extra-stemmatic contamination</xs:documentation>
                            </xs:annotation>
                         </xs:enumeration>
                         <xs:enumeration value="rootType">
                            <xs:annotation>
-                              <xs:documentation/>
+                              <xs:documentation>type of root (original, archetype)</xs:documentation>
+                           </xs:annotation>
+                        </xs:enumeration>
+                        <xs:enumeration value="completeWits">
+                           <xs:annotation>
+                              <xs:documentation>completion regarding witnesses</xs:documentation>
+                           </xs:annotation>
+                        </xs:enumeration>
+                        <xs:enumeration value="sourceText">
+                           <xs:annotation>
+                              <xs:documentation>completion regarding source text(s)</xs:documentation>
+                           </xs:annotation>
+                        </xs:enumeration>
+                        <xs:enumeration value="derivatives">
+                           <xs:annotation>
+                              <xs:documentation>completion regarding derivatives</xs:documentation>
                            </xs:annotation>
                         </xs:enumeration>
                      </xs:restriction>
@@ -1223,6 +1286,32 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
       <xs:annotation>
          <xs:documentation>(bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. [3.12.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]</xs:documentation>
       </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="tei:title"/>
+            <xs:element maxOccurs="unbounded" ref="tei:author"/>
+            <xs:element ref="tei:date"/>
+            <xs:element maxOccurs="unbounded" ref="tei:pubPlace"/>
+            <xs:element ref="tei:series"/>
+            <xs:sequence>
+               <xs:element ref="tei:biblScope" minOccurs="1" maxOccurs="2"/>
+            </xs:sequence>
+            <xs:element ref="tei:ptr"/>
+         </xs:sequence>
+         <xs:attributeGroup ref="tei:att.global.attributes"/>
+         <xs:attributeGroup ref="tei:att.docStatus.attributes"/>
+         <xs:attribute name="type" use="required">
+            <xs:annotation>
+               <xs:documentation>characterizes the element in some sense, using any convenient classification scheme or typology.</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+               <xs:restriction base="xs:token">
+                  <xs:enumeration value="book"/>
+                  <xs:enumeration value="publicationPart"/>
+               </xs:restriction>
+            </xs:simpleType>
+         </xs:attribute>
+      </xs:complexType>
    </xs:element>
    <xs:element name="teiHeader">
       <xs:annotation>
@@ -1686,6 +1775,20 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          <xs:attributeGroup ref="tei:att.global.attributes"/>
       </xs:complexType>
    </xs:element>
+   <xs:element name="msDesc" substitutionGroup="tei:model.biblLike">
+      <xs:annotation>
+         <xs:documentation>(manuscript description) contains a description of a single identifiable manuscript or other text-bearing object such as early printed books. [10.1. Overview]</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:complexContent>
+            <xs:extension base="tei:msIdentifier">
+               <xs:attributeGroup ref="tei:att.global.attributes"/>
+               <xs:attributeGroup ref="tei:att.typed.attributes"/>
+               <xs:attributeGroup ref="tei:att.docStatus.attributes"/>
+            </xs:extension>
+         </xs:complexContent>
+      </xs:complexType>
+   </xs:element>
    <xs:element name="origDate" substitutionGroup="tei:model.pPart.msdesc">
       <xs:annotation>
          <xs:documentation>(origin date) contains any form of date, used to identify the date of origin for a manuscript, manuscript part, or other object. [10.3.1. Origination]</xs:documentation>
@@ -1711,6 +1814,37 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
                <xs:attributeGroup ref="tei:att.naming.attributes"/>
                <xs:attributeGroup ref="tei:att.datable.attributes"/>
                <xs:attributeGroup ref="tei:att.typed.attributes"/>
+            </xs:extension>
+         </xs:complexContent>
+      </xs:complexType>
+   </xs:element>
+   <xs:complexType name="msIdentifier">
+      <xs:sequence>
+         <xs:element ref="tei:msIdentifier"/>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:element name="msIdentifier">
+      <xs:annotation>
+         <xs:documentation>(manuscript identifier) contains the information required to identify the manuscript or similar object being described. [10.4. The Manuscript Identifier]</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" ref="tei:settlement"/>
+            <xs:element minOccurs="0" ref="tei:repository"/>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:idno"/>
+         </xs:sequence>
+         <xs:attributeGroup ref="tei:att.global.attributes"/>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="repository">
+      <xs:annotation>
+         <xs:documentation>(repository) contains the name of a repository within which manuscripts or other objects are stored, possibly forming part of an institution. [10.4. The Manuscript Identifier]</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:complexContent>
+            <xs:extension base="tei:macro.phraseSeq.limited">
+               <xs:attributeGroup ref="tei:att.global.attributes"/>
+               <xs:attributeGroup ref="tei:att.naming.attributes"/>
             </xs:extension>
          </xs:complexContent>
       </xs:complexType>
@@ -1741,6 +1875,21 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
                <xs:attributeGroup ref="tei:att.datable.attributes"/>
                <xs:attributeGroup ref="tei:att.personal.attributes"/>
                <xs:attributeGroup ref="tei:att.typed.attributes"/>
+            </xs:extension>
+         </xs:complexContent>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="settlement">
+      <xs:annotation>
+         <xs:documentation>(settlement) contains the name of a settlement such as a city, town, or village identified as a single geo-political or administrative unit. [13.2.3. Place Names]</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:complexContent>
+            <xs:extension base="tei:macro.phraseSeq">
+               <xs:attributeGroup ref="tei:att.global.attributes"/>
+               <xs:attributeGroup ref="tei:att.naming.attributes"/>
+               <xs:attributeGroup ref="tei:att.typed.attributes"/>
+               <xs:attributeGroup ref="tei:att.datable.attributes"/>
             </xs:extension>
          </xs:complexContent>
       </xs:complexType>
@@ -1864,7 +2013,10 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
       <xs:complexType>
          <xs:sequence>
             <xs:element ref="tei:label"/>
-            <xs:element ref="tei:idno"/>
+            <xs:choice>
+               <xs:element ref="tei:idno"/>
+               <xs:element ref="tei:msDesc"/>
+            </xs:choice>
             <xs:element ref="tei:origDate"/>
             <xs:element ref="tei:origPlace"/>
             <xs:element ref="tei:note"/>

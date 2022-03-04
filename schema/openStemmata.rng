@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-03-03T14:58:07Z. .
+Schema generated from ODD source 2022-03-04T13:59:47Z. .
 TEI Edition: Version 4.3.0. Last updated on
         31st August 2021, revision b4f72b1ff
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
@@ -793,6 +793,7 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
    <define name="model.biblLike">
       <choice>
          <ref name="bibl"/>
+         <ref name="msDesc"/>
       </choice>
    </define>
    <define name="model.headLike">
@@ -833,22 +834,32 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
       </choice>
    </define>
    <define name="model.placeNamePart">
-      <notAllowed/>
+      <choice>
+         <ref name="settlement"/>
+      </choice>
    </define>
    <define name="model.placeNamePart_alternation">
-      <notAllowed/>
+      <choice>
+         <ref name="settlement"/>
+      </choice>
    </define>
    <define name="model.placeNamePart_sequence">
-      <empty/>
+      <ref name="settlement"/>
    </define>
    <define name="model.placeNamePart_sequenceOptional">
-      <empty/>
+      <optional>
+         <ref name="settlement"/>
+      </optional>
    </define>
    <define name="model.placeNamePart_sequenceOptionalRepeatable">
-      <empty/>
+      <zeroOrMore>
+         <ref name="settlement"/>
+      </zeroOrMore>
    </define>
    <define name="model.placeNamePart_sequenceRepeatable">
-      <notAllowed/>
+      <oneOrMore>
+         <ref name="settlement"/>
+      </oneOrMore>
    </define>
    <define name="model.placeStateLike">
       <choice>
@@ -1096,15 +1107,23 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
             <choice>
                <value>workGenre</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">genre of the work (e.g., epic poetry, tragedy, etc.)</a:documentation>
                <value>stemmaType</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">type of tree (reconstructed or observed)</a:documentation>
+               <value>drawnStemma</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">drawn vs. prose genealogy</a:documentation>
                <value>contam</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contamination</a:documentation>
                <value>extraStemmContam</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">extra-stemmatic contamination</a:documentation>
                <value>rootType</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">type of root (original, archetype)</a:documentation>
+               <value>completeWits</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">completion regarding witnesses</a:documentation>
+               <value>sourceText</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">completion regarding source text(s)</a:documentation>
+               <value>derivatives</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">completion regarding derivatives</a:documentation>
             </choice>
          </attribute>
          <empty/>
@@ -1314,16 +1333,20 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. [3.12.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]</a:documentation>
          <group>
             <ref name="title"/>
+            <oneOrMore>
+               <ref name="author"/>
+            </oneOrMore>
             <ref name="date"/>
             <oneOrMore>
                <ref name="pubPlace"/>
             </oneOrMore>
             <ref name="series"/>
-            <ref name="biblScope"/>
-            <oneOrMore>
-               <ref name="author"/>
-            </oneOrMore>
-            <ref name="biblScope"/>
+            <group>
+               <ref name="biblScope"/>
+               <optional>
+                  <ref name="biblScope"/>
+               </optional>
+            </group>
             <ref name="ptr"/>
          </group>
          <ref name="att.global.attributes"/>
@@ -1724,6 +1747,27 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          <empty/>
       </element>
    </define>
+   <define name="msDesc">
+      <element name="msDesc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(manuscript description) contains a description of a single identifiable manuscript or other text-bearing object such as early printed books. [10.1. Overview]</a:documentation>
+         <group>
+            <ref name="msIdentifier"/>
+            <zeroOrMore>
+               <ref name="model.headLike"/>
+            </zeroOrMore>
+            <choice>
+               <oneOrMore>
+                  <ref name="model.pLike"/>
+               </oneOrMore>
+               <empty/>
+            </choice>
+         </group>
+         <ref name="att.global.attributes"/>
+         <ref name="att.typed.attributes"/>
+         <ref name="att.docStatus.attributes"/>
+         <empty/>
+      </element>
+   </define>
    <define name="origDate">
       <element name="origDate">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(origin date) contains any form of date, used to identify the date of origin for a manuscript, manuscript part, or other object. [10.3.1. Origination]</a:documentation>
@@ -1749,6 +1793,47 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          <ref name="att.naming.attributes"/>
          <ref name="att.datable.attributes"/>
          <ref name="att.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="msIdentifier">
+      <element name="msIdentifier">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(manuscript identifier) contains the information required to identify the manuscript or similar object being described. [10.4. The Manuscript Identifier]</a:documentation>
+         <group>
+            <group>
+               <optional>
+                  <ref name="settlement"/>
+               </optional>
+               <optional>
+                  <ref name="repository"/>
+               </optional>
+               <zeroOrMore>
+                  <ref name="idno"/>
+               </zeroOrMore>
+            </group>
+            <zeroOrMore>
+               <empty/>
+            </zeroOrMore>
+         </group>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="openStemmata-msIdentifier-msId_minimal-constraint-report-5">
+            <rule context="tei:msIdentifier">
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       test="not(parent::tei:msPart) and (local-name(*[1])='idno' or local-name(*[1])='altIdentifier' or normalize-space(.)='')">An msIdentifier must contain either a repository or location.</report>
+            </rule>
+         </pattern>
+         <ref name="att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="repository">
+      <element name="repository">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(repository) contains the name of a repository within which manuscripts or other objects are stored, possibly forming part of an institution. [10.4. The Manuscript Identifier]</a:documentation>
+         <ref name="macro.phraseSeq.limited"/>
+         <ref name="att.global.attributes"/>
+         <ref name="att.naming.attributes"/>
          <empty/>
       </element>
    </define>
@@ -1789,6 +1874,17 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          <ref name="att.datable.attributes"/>
          <ref name="att.personal.attributes"/>
          <ref name="att.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="settlement">
+      <element name="settlement">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(settlement) contains the name of a settlement such as a city, town, or village identified as a single geo-political or administrative unit. [13.2.3. Place Names]</a:documentation>
+         <ref name="macro.phraseSeq"/>
+         <ref name="att.global.attributes"/>
+         <ref name="att.naming.attributes"/>
+         <ref name="att.typed.attributes"/>
+         <ref name="att.datable.attributes"/>
          <empty/>
       </element>
    </define>
@@ -1945,7 +2041,10 @@ Suggested values include: 1] undirected; 2] directed; 3] transitionNetwork; 4] t
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(witness) contains either a description of a single witness referred to within the critical apparatus, or a list of witnesses which is to be referred to by a single sigil. [12.1. The Apparatus Entry, Readings, and Witnesses]</a:documentation>
          <group>
             <ref name="label"/>
-            <ref name="idno"/>
+            <choice>
+               <ref name="idno"/>
+               <ref name="msDesc"/>
+            </choice>
             <ref name="origDate"/>
             <ref name="origPlace"/>
             <ref name="note"/>

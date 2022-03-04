@@ -59,9 +59,9 @@
                     <moduleRef key="transcr"
                         include="facsimile"/>
                     <moduleRef key="msdescription"
-                        include="origDate origPlace"/>
+                        include="origDate origPlace msDesc msIdentifier repository"/>
                     <moduleRef key="namesdates"
-                        include="persName orgName"/>
+                        include="persName orgName settlement"/>
                     
                     <!-- Graph -->
                     <moduleRef key="nets"
@@ -207,14 +207,13 @@
                     
                     <elementSpec ident="bibl" mode="change">
                         <content> 
-                            <sequence preserveOrder="true"> 
+                            <sequence preserveOrder="false"> 
                                 <elementRef key="title"  minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="author" minOccurs="1" maxOccurs="unbounded"/>
                                 <elementRef key="date" minOccurs="1" maxOccurs="1"/> 
                                 <elementRef key="pubPlace" minOccurs="1" maxOccurs="unbounded"/> 
                                 <elementRef key="series" minOccurs="1" maxOccurs="1"/> 
-                                <elementRef key="biblScope" minOccurs="1" maxOccurs="1"/> 
-                                <elementRef key="author" minOccurs="1" maxOccurs="unbounded"/> 
-                                <elementRef key="biblScope" minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="biblScope" minOccurs="1" maxOccurs="2"/> 
                                 <elementRef key="ptr" minOccurs="1" maxOccurs="1"/> 
                             </sequence> 
                         </content>
@@ -243,11 +242,15 @@
                         <attList>
                             <attDef ident="type" mode="change" usage="req">
                                 <valList type="closed" mode="add">
-                                    <valItem ident="workGenre"/>
-                                    <valItem ident="stemmaType"/>
-                                    <valItem ident="contam"/>
-                                    <valItem ident="extraStemmContam"/>
-                                    <valItem ident="rootType"/>
+                                    <valItem ident="workGenre"><desc>genre of the work (e.g., epic poetry, tragedy, etc.)</desc></valItem>
+                                    <valItem ident="stemmaType"><desc>type of tree (reconstructed or observed)</desc></valItem>
+                                    <valItem ident="drawnStemma"><desc>drawn vs. prose genealogy</desc></valItem>
+                                    <valItem ident="contam"><desc>contamination</desc></valItem>
+                                    <valItem ident="extraStemmContam"><desc>extra-stemmatic contamination</desc></valItem>
+                                    <valItem ident="rootType"><desc>type of root (original, archetype)</desc></valItem>
+                                    <valItem ident="completeWits"><desc>completion regarding witnesses</desc></valItem>
+                                    <valItem ident="sourceText"><desc>completion regarding source text(s)</desc></valItem>
+                                    <valItem ident="derivatives"><desc>completion regarding derivatives</desc></valItem>
                                 </valList>
                             </attDef>
                         </attList>
@@ -257,7 +260,10 @@
                         <content> 
                             <sequence preserveOrder="true"> 
                                 <elementRef key="label" minOccurs="1" maxOccurs="1"/> 
-                                <elementRef key="idno" minOccurs="1" maxOccurs="1"/> 
+                                <alternate minOccurs="1" maxOccurs="1">
+                                    <elementRef key="idno" minOccurs="1" maxOccurs="1"/>
+                                    <elementRef key="msDesc" minOccurs="1" maxOccurs="1"/>
+                                </alternate> 
                                 <elementRef key="origDate" minOccurs="1" maxOccurs="1"/> 
                                 <elementRef key="origPlace" minOccurs="1" maxOccurs="1"/> 
                                 <elementRef key="note" minOccurs="1" maxOccurs="1"/>
