@@ -50,12 +50,12 @@
                 <schemaSpec ident="openStemmata" docLang="en" xml:lang="en" start="TEI">
                     <!-- TODO: redo the module in a positive way (@include) -->
                     <moduleRef key="core"
-                        include="author bibl biblScope date graphic label note ptr pubPlace resp respStmt series term title"/>
+                        include="author bibl biblScope date graphic label note noteGrp ptr pubPlace resp respStmt series term title"/>
                     <moduleRef key="tei" except=""/>
                     <moduleRef key="header"
                         include="authority availability change creation fileDesc idno keywords langUsage language licence notesStmt profileDesc publicationStmt revisionDesc sourceDesc teiHeader textClass titleStmt"/>
                     <moduleRef key="textstructure"
-                        include="TEI body text"/>
+                        include="TEI back body text"/>
                     <moduleRef key="transcr"
                         include="facsimile"/>
                     <moduleRef key="msdescription"
@@ -312,6 +312,12 @@
                     </elementSpec>
                     
                     <!-- The BODY -->
+                    
+                    <elementSpec ident="back" mode="change">
+                        <content>
+                            <elementRef key="noteGrp" minOccurs="0" maxOccurs="unbounded"/>
+                        </content>
+                    </elementSpec>
                     
                     <elementSpec ident="body" mode="change">
                         <content>

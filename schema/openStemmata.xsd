@@ -4,12 +4,8 @@
            xmlns:tei="http://www.tei-c.org/ns/1.0"
            elementFormDefault="qualified"
            targetNamespace="http://www.tei-c.org/ns/1.0">
-   <xs:import namespace="http://openstemmata.github.io/odd.html"
-              schemaLocation="odd.html.tmp"/>
-   <xs:import namespace="http://www.w3.org/XML/1998/namespace"
-              schemaLocation="xml.tmp"/>
    <!--
-    Schema generated from ODD source 2022-03-04T13:59:52Z. .
+    Schema generated from ODD source 2022-03-06T14:30:56Z. .
     TEI Edition: Version 4.3.0. Last updated on
             31st August 2021, revision b4f72b1ff
     TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
@@ -996,19 +992,7 @@ Suggested values include: 1] undirected; 2] directed; 3] transitionNetwork; 4] t
          <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:idno"/>
       </xs:sequence>
    </xs:group>
-   <xs:element name="model.global" abstract="true">
-      <xs:complexType>
-         <xs:complexContent>
-            <xs:extension base="tei:macro.specialPara">
-               <xs:attributeGroup ref="tei:att.global.attributes"/>
-               <xs:attributeGroup ref="tei:att.placement.attributes"/>
-               <xs:attributeGroup ref="tei:att.pointing.attributes"/>
-               <xs:attributeGroup ref="tei:att.typed.attributes"/>
-               <xs:attributeGroup ref="tei:att.anchoring.attributes"/>
-            </xs:extension>
-         </xs:complexContent>
-      </xs:complexType>
-   </xs:element>
+   <xs:element name="model.global" abstract="true"/>
    <xs:group name="model.pPart.data">
       <xs:choice>
          <xs:group ref="tei:model.dateLike"/>
@@ -1133,6 +1117,33 @@ Suggested values include: 1] undirected; 2] directed; 3] transitionNetwork; 4] t
       <xs:annotation>
          <xs:documentation>(note) contains a note or annotation. [3.9.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.12.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]</xs:documentation>
       </xs:annotation>
+      <xs:complexType>
+         <xs:complexContent>
+            <xs:extension base="tei:macro.specialPara">
+               <xs:attributeGroup ref="tei:att.global.attributes"/>
+               <xs:attributeGroup ref="tei:att.placement.attributes"/>
+               <xs:attributeGroup ref="tei:att.pointing.attributes"/>
+               <xs:attributeGroup ref="tei:att.typed.attributes"/>
+               <xs:attributeGroup ref="tei:att.anchoring.attributes"/>
+            </xs:extension>
+         </xs:complexContent>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="noteGrp" substitutionGroup="tei:model.noteLike">
+      <xs:annotation>
+         <xs:documentation>contains a group of notes [3.9.1.1. Encoding Grouped Notes]</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:choice maxOccurs="unbounded">
+            <xs:element ref="tei:note"/>
+            <xs:element ref="tei:noteGrp"/>
+         </xs:choice>
+         <xs:attributeGroup ref="tei:att.global.attributes"/>
+         <xs:attributeGroup ref="tei:att.placement.attributes"/>
+         <xs:attributeGroup ref="tei:att.pointing.attributes"/>
+         <xs:attributeGroup ref="tei:att.typed.attributes"/>
+         <xs:attributeGroup ref="tei:att.anchoring.attributes"/>
+      </xs:complexType>
    </xs:element>
    <xs:element name="graphic" substitutionGroup="tei:model.graphicLike">
       <xs:annotation>
@@ -1748,6 +1759,10 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
             <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:model.global"/>
             <xs:element ref="tei:body"/>
             <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:model.global"/>
+            <xs:sequence minOccurs="0">
+               <xs:element ref="tei:back"/>
+               <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:model.global"/>
+            </xs:sequence>
          </xs:sequence>
          <xs:attributeGroup ref="tei:att.global.attributes"/>
          <xs:attributeGroup ref="tei:att.typed.attributes"/>
@@ -1764,6 +1779,17 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          <xs:attributeGroup ref="tei:att.global.attributes"/>
       </xs:complexType>
    </xs:element>
+   <xs:element name="back">
+      <xs:annotation>
+         <xs:documentation>(back matter) contains any appendixes, etc. following the main part of a text. [4.7. Back Matter 4. Default Text Structure]</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:noteGrp"/>
+         </xs:sequence>
+         <xs:attributeGroup ref="tei:att.global.attributes"/>
+      </xs:complexType>
+   </xs:element>
    <xs:element name="facsimile">
       <xs:annotation>
          <xs:documentation>contains a representation of some written source in the form of a set of images rather than as transcribed or encoded text. [11.1. Digital Facsimiles]</xs:documentation>
@@ -1771,6 +1797,7 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
       <xs:complexType>
          <xs:sequence>
             <xs:element maxOccurs="unbounded" ref="tei:model.graphicLike"/>
+            <xs:element minOccurs="0" ref="tei:back"/>
          </xs:sequence>
          <xs:attributeGroup ref="tei:att.global.attributes"/>
       </xs:complexType>

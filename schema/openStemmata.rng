@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-03-04T13:59:47Z. .
+Schema generated from ODD source 2022-03-06T14:30:51Z. .
 TEI Edition: Version 4.3.0. Last updated on
         31st August 2021, revision b4f72b1ff
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
@@ -812,6 +812,7 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
    <define name="model.noteLike">
       <choice>
          <ref name="note"/>
+         <ref name="noteGrp"/>
       </choice>
    </define>
    <define name="model.lLike">
@@ -1203,6 +1204,25 @@ attributes @target and @cRef may be supplied on <name/>.</report>
       <element name="note">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(note) contains a note or annotation. [3.9.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.12.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]</a:documentation>
          <ref name="macro.specialPara"/>
+         <ref name="att.global.attributes"/>
+         <ref name="att.placement.attributes"/>
+         <ref name="att.pointing.attributes"/>
+         <ref name="att.typed.attributes"/>
+         <ref name="att.anchoring.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="noteGrp">
+      <element name="noteGrp">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a group of notes [3.9.1.1. Encoding Grouped Notes]</a:documentation>
+         <group>
+            <oneOrMore>
+               <choice>
+                  <ref name="note"/>
+                  <ref name="noteGrp"/>
+               </choice>
+            </oneOrMore>
+         </group>
          <ref name="att.global.attributes"/>
          <ref name="att.placement.attributes"/>
          <ref name="att.pointing.attributes"/>
@@ -1719,6 +1739,14 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
             <zeroOrMore>
                <ref name="model.global"/>
             </zeroOrMore>
+            <optional>
+               <group>
+                  <ref name="back"/>
+                  <zeroOrMore>
+                     <ref name="model.global"/>
+                  </zeroOrMore>
+               </group>
+            </optional>
          </group>
          <ref name="att.global.attributes"/>
          <ref name="att.typed.attributes"/>
@@ -1733,6 +1761,16 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          <empty/>
       </element>
    </define>
+   <define name="back">
+      <element name="back">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(back matter) contains any appendixes, etc. following the main part of a text. [4.7. Back Matter 4. Default Text Structure]</a:documentation>
+         <zeroOrMore>
+            <ref name="noteGrp"/>
+         </zeroOrMore>
+         <ref name="att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
    <define name="facsimile">
       <element name="facsimile">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a representation of some written source in the form of a set of images rather than as transcribed or encoded text. [11.1. Digital Facsimiles]</a:documentation>
@@ -1742,6 +1780,9 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
                   <ref name="model.graphicLike"/>
                </choice>
             </oneOrMore>
+            <optional>
+               <ref name="back"/>
+            </optional>
          </group>
          <ref name="att.global.attributes"/>
          <empty/>
