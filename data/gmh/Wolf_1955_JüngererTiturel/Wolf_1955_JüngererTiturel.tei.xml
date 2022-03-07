@@ -51,7 +51,7 @@
            </keywords>
         </textClass>
         <langUsage>
-           <language ident=""/>
+           <language ident="gmh"/>
         </langUsage>
      </profileDesc>
      <revisionDesc>
@@ -59,7 +59,7 @@
      </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data//Wolf_1955_JüngererTiturel/stemma.png?raw=true"/>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Wolf_1955_JüngererTiturel/stemma.png?raw=true"/>
   </facsimile>
   <text>
       <body>
