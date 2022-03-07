@@ -7,10 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">König Rother</title>
-            <author>Frings, Theodor &amp; Kuhnt, Joachim</author><respStmt>
-               <resp>Contributed to OpenStemmata by</resp>
-            <persName>Lena Reich</persName><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt>
-         </titleStmt>
+         <respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -26,7 +23,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <author>Frings, Theodor &amp; Kuhnt, Joachim</author><title>König Rother</title>
+               <title>König Rother</title>
                <date>1922</date>
                <pubPlace>Bonn/Leipzig</pubPlace><series>Rheinische Beiträge und Hülfsbücher zur germanischen Philologie und Volkskunde</series>
                <!-- Numero de série -->
@@ -66,7 +63,11 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="5" size="4"><label></label><node xml:id="n_Original" type="hypothetical" inDegree="0" outDegree="1"><label>Original (um 1130-1140 an der niederdeutschen Grenze entstanden)</label></node><node xml:id="n_Umarbeitung" type="hypothetical" inDegree="1" outDegree="2"><label>Umarbeitung (in Baiern?) anscheinend von einem Nieder- oder Mitteldeutschen verfaßt</label></node><node xml:id="n_VorlageH" type="hypothetical" inDegree="1" outDegree="1"><label>Vorlage von H</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_H" type="witness" inDegree="1" outDegree="0"><label>H</label></node><arc from="#n_Original" to="#n_Umarbeitung" od:type="filiation" cert="unknown"/><arc from="#n_Umarbeitung" to="#n_VorlageH" od:type="filiation" cert="unknown"/><arc from="#n_Umarbeitung" to="#n_M" od:type="filiation" cert="unknown"/><arc from="#n_VorlageH" to="#n_H" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="5" size="4"><label></label><node xml:id="n_Original" type="hypothetical" inDegree="0" outDegree="1"><label>Original (um 1130-1140 an der niederdeutschen Grenze entstanden)</label></node><node xml:id="n_Umarbeitung" type="hypothetical" inDegree="1" outDegree="2"><label>Umarbeitung (in Baiern?) anscheinend von einem Nieder- oder Mitteldeutschen verfaßt</label></node><node xml:id="n_VorlageH" type="hypothetical" inDegree="1" outDegree="1"><label>Vorlage von H</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_H" type="witness" inDegree="1" outDegree="0"><label>H</label></node><arc xml:id="arc_1" from="#n_Original" to="#n_Umarbeitung" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_Umarbeitung" to="#n_VorlageH" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_Umarbeitung" to="#n_M" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_VorlageH" to="#n_H" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         <noteGrp>
+         </noteGrp>
+      </back>
   </text>
 </TEI>
