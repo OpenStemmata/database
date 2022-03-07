@@ -125,11 +125,11 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="epsilon" target="VB">
-  <data key="d2">contamination</data>
+  <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="epsilon" target="R">
-  <data key="d2">contamination</data>
+  <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="Fr" target="deltaDeux">
@@ -141,7 +141,7 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="VB" target="R">
-  <data key="d2">contamination</data>
+  <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="l" target="L">
@@ -149,7 +149,7 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="P" target="R">
-  <data key="d2">contamination</data>
+  <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
 </graph></graphml>
