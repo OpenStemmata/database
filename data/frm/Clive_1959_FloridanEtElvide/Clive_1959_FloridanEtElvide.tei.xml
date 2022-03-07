@@ -7,10 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Floridan et Elvide</title>
-            <author>Clive, Peter H.</author><respStmt>
-               <resp>Contributed to OpenStemmata by</resp>
-            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
-         </titleStmt>
+         <author>Clive, Peter H.</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -65,7 +62,11 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="7" size="6"><label></label><node xml:id="n_BN10057" type="witness" inDegree="0" outDegree="1"><label>BN n.a. 10057</label></node><node xml:id="n_BN1506" type="witness" inDegree="1" outDegree="0"><label>BN fr. 1506</label></node><node xml:id="n_Revised" type="hypothetical" inDegree="1" outDegree="2"><label>Revised</label></node><node xml:id="n_BLNero" type="witness" inDegree="1" outDegree="0"><label>BM Cotton Nero D ix</label></node><node xml:id="n_RegLat" type="witness" inDegree="1" outDegree="1"><label>Vatican Reg. lat. 896</label></node><node xml:id="n_Genappe" type="hypothetical" inDegree="1" outDegree="2"><label>1459 Genappe MS.</label></node><node xml:id="n_Editions" type="witness" inDegree="1" outDegree="0"><label>Editions</label></node><arc from="#n_BN10057" to="#n_Revised" od:type="filiation" cert="unknown"/><arc from="#n_Revised" to="#n_BLNero" od:type="filiation" cert="unknown"/><arc from="#n_Revised" to="#n_RegLat" od:type="filiation" cert="unknown"/><arc from="#n_RegLat" to="#n_Genappe" od:type="filiation" cert="unknown"/><arc from="#n_Genappe" to="#n_BN1506" od:type="filiation" cert="unknown"/><arc from="#n_Genappe" to="#n_Editions" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="7" size="6"><label></label><node xml:id="n_BN10057" type="witness" inDegree="0" outDegree="1"><label>BN n.a. 10057</label></node><node xml:id="n_BN1506" type="witness" inDegree="1" outDegree="0"><label>BN fr. 1506</label></node><node xml:id="n_Revised" type="hypothetical" inDegree="1" outDegree="2"><label>Revised</label></node><node xml:id="n_BLNero" type="witness" inDegree="1" outDegree="0"><label>BM Cotton Nero D ix</label></node><node xml:id="n_RegLat" type="witness" inDegree="1" outDegree="1"><label>Vatican Reg. lat. 896</label></node><node xml:id="n_Genappe" type="hypothetical" inDegree="1" outDegree="2"><label>1459 Genappe MS.</label></node><node xml:id="n_Editions" type="witness" inDegree="1" outDegree="0"><label>Editions</label></node><arc xml:id="arc_1" from="#n_BN10057" to="#n_Revised" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_Revised" to="#n_BLNero" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_Revised" to="#n_RegLat" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_RegLat" to="#n_Genappe" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_Genappe" to="#n_BN1506" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_Genappe" to="#n_Editions" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         <noteGrp>
+         </noteGrp>
+      </back>
   </text>
 </TEI>

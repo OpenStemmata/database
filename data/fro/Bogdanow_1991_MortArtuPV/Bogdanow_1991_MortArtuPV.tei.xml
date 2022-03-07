@@ -7,10 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Mort Artu (Post-Vulgate)</title>
-            <author>Bogdanow, Fanni</author><respStmt>
-               <resp>Contributed to OpenStemmata by</resp>
-            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
-         </titleStmt>
+         <author>Bogdanow, Fanni</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -66,7 +63,11 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="11" size="10"><label>2</label><node xml:id="n_Omega" type="hypothetical" inDegree="0" outDegree="4"><label>Mort Artu P-V</label></node><node xml:id="n_f1" type="hypothetical" inDegree="1" outDegree="1"><label>f1</label></node><node xml:id="n_f" type="hypothetical" inDegree="1" outDegree="1"><label>f (source française des versions ibériques)</label></node><node xml:id="n_dx" type="hypothetical" inDegree="1" outDegree="2"><label>dx (première traduction ibérique)</label></node><node xml:id="n_b" type="hypothetical" inDegree="1" outDegree="1"><label>b</label></node><node xml:id="n_n" type="hypothetical" inDegree="1" outDegree="1"><label>n</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_De" type="witness" inDegree="1" outDegree="0"><label>De</label></node><node xml:id="n_S4" type="witness" inDegree="1" outDegree="0"><label>S4</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_N1" type="witness" inDegree="1" outDegree="0"><label>N1</label></node><arc from="#n_Omega" to="#n_f1" od:type="filiation" cert="unknown"/><arc from="#n_Omega" to="#n_S4" od:type="filiation" cert="unknown"/><arc from="#n_Omega" to="#n_b" od:type="filiation" cert="unknown"/><arc from="#n_Omega" to="#n_n" od:type="filiation" cert="unknown"/><arc from="#n_f1" to="#n_f" od:type="filiation" cert="unknown"/><arc from="#n_f" to="#n_dx" od:type="filiation" cert="unknown"/><arc from="#n_dx" to="#n_D" od:type="filiation" cert="unknown"/><arc from="#n_dx" to="#n_De" od:type="filiation" cert="unknown"/><arc from="#n_b" to="#n_B" od:type="filiation" cert="unknown"/><arc from="#n_n" to="#n_N1" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="11" size="10"><label>2</label><node xml:id="n_Omega" type="hypothetical" inDegree="0" outDegree="4"><label>Mort Artu P-V</label></node><node xml:id="n_f1" type="hypothetical" inDegree="1" outDegree="1"><label>f1</label></node><node xml:id="n_f" type="hypothetical" inDegree="1" outDegree="1"><label>f (source française des versions ibériques)</label></node><node xml:id="n_dx" type="hypothetical" inDegree="1" outDegree="2"><label>dx (première traduction ibérique)</label></node><node xml:id="n_b" type="hypothetical" inDegree="1" outDegree="1"><label>b</label></node><node xml:id="n_n" type="hypothetical" inDegree="1" outDegree="1"><label>n</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_De" type="witness" inDegree="1" outDegree="0"><label>De</label></node><node xml:id="n_S4" type="witness" inDegree="1" outDegree="0"><label>S4</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_N1" type="witness" inDegree="1" outDegree="0"><label>N1</label></node><arc xml:id="arc_1" from="#n_Omega" to="#n_f1" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_Omega" to="#n_S4" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_Omega" to="#n_b" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_Omega" to="#n_n" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_f1" to="#n_f" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_f" to="#n_dx" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_dx" to="#n_D" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_dx" to="#n_De" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_b" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_n" to="#n_N1" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         <noteGrp>
+         </noteGrp>
+      </back>
   </text>
 </TEI>

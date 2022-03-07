@@ -7,10 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Guibert d'Andrenas</title>
-            <author>Melander, J.</author><respStmt>
-               <resp>Contributed to OpenStemmata by</resp>
-            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
-         </titleStmt>
+         <author>Melander, J.</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -65,7 +62,11 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="10" size="9"><label>1</label><node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="2"><label>a</label></node><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1"><label>O</label></node><node xml:id="n_Oprime" type="hypothetical" inDegree="1" outDegree="2"><label>O'</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><arc from="#n_a" to="#n_A" od:type="filiation" cert="unknown"/><arc from="#n_a" to="#n_B" od:type="filiation" cert="unknown"/><arc from="#n_O" to="#n_Oprime" od:type="filiation" cert="unknown"/><arc from="#n_Oprime" to="#n_x" od:type="filiation" cert="unknown"/><arc from="#n_Oprime" to="#n_y" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_a" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_C" od:type="filiation" cert="unknown"/><arc from="#n_y" to="#n_D" od:type="filiation" cert="unknown"/><arc from="#n_y" to="#n_E" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="10" size="9"><label>1</label><node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="2"><label>a</label></node><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1"><label>O</label></node><node xml:id="n_Oprime" type="hypothetical" inDegree="1" outDegree="2"><label>O'</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><arc xml:id="arc_1" from="#n_a" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_a" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_O" to="#n_Oprime" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_Oprime" to="#n_x" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_Oprime" to="#n_y" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_x" to="#n_a" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_x" to="#n_C" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_y" to="#n_D" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_y" to="#n_E" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         <noteGrp>
+         </noteGrp>
+      </back>
   </text>
 </TEI>

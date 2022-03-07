@@ -7,10 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Mystère de la passion (d'Angers)</title>
-            <author>Chocheyras, Jacques</author><respStmt>
-               <resp>Contributed to OpenStemmata by</resp>
-            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
-         </titleStmt>
+         <author>Chocheyras, Jacques</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -65,7 +62,11 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="10" size="9"><label>2</label><node xml:id="n_F" type="witness" inDegree="0" outDegree="2"><label>F</label></node><node xml:id="n_O" type="witness" inDegree="1" outDegree="2"><label>O</label></node><node xml:id="n_N" type="witness" inDegree="1" outDegree="0"><label>N</label></node><node xml:id="n_G" type="witness" inDegree="1" outDegree="0"><label>G</label></node><node xml:id="n_H" type="witness" inDegree="1" outDegree="3"><label>H</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_I" type="witness" inDegree="1" outDegree="1"><label>I</label></node><node xml:id="n_J" type="witness" inDegree="1" outDegree="1"><label>J</label></node><node xml:id="n_K" type="witness" inDegree="1" outDegree="0"><label>K</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><arc from="#n_F" to="#n_O" od:type="filiation" cert="unknown"/><arc from="#n_F" to="#n_H" od:type="filiation" cert="unknown"/><arc from="#n_O" to="#n_N" od:type="filiation" cert="unknown"/><arc from="#n_O" to="#n_G" od:type="filiation" cert="unknown"/><arc from="#n_H" to="#n_M" od:type="filiation" cert="unknown"/><arc from="#n_H" to="#n_I" od:type="filiation" cert="unknown"/><arc from="#n_H" to="#n_P" od:type="filiation" cert="unknown"/><arc from="#n_I" to="#n_J" od:type="filiation" cert="unknown"/><arc from="#n_J" to="#n_K" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="10" size="9"><label>2</label><node xml:id="n_F" type="witness" inDegree="0" outDegree="2"><label>F</label></node><node xml:id="n_O" type="witness" inDegree="1" outDegree="2"><label>O</label></node><node xml:id="n_N" type="witness" inDegree="1" outDegree="0"><label>N</label></node><node xml:id="n_G" type="witness" inDegree="1" outDegree="0"><label>G</label></node><node xml:id="n_H" type="witness" inDegree="1" outDegree="3"><label>H</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_I" type="witness" inDegree="1" outDegree="1"><label>I</label></node><node xml:id="n_J" type="witness" inDegree="1" outDegree="1"><label>J</label></node><node xml:id="n_K" type="witness" inDegree="1" outDegree="0"><label>K</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><arc xml:id="arc_1" from="#n_F" to="#n_O" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_F" to="#n_H" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_O" to="#n_N" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_O" to="#n_G" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_H" to="#n_M" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_H" to="#n_I" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_H" to="#n_P" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_I" to="#n_J" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_J" to="#n_K" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         <noteGrp>
+         </noteGrp>
+      </back>
   </text>
 </TEI>

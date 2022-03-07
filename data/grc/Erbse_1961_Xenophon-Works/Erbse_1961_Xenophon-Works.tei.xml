@@ -7,10 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Poroi</title>
-            <author>Erbse, Hartmut</author><respStmt>
-               <resp>Contributed to OpenStemmata by</resp>
-            <persName>Lena Reich</persName><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt>
-         </titleStmt>
+         <author>Erbse, Hartmut</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -66,7 +63,11 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="4" size="3"><label></label><node xml:id="n_A" type="hypothetical" inDegree="0" outDegree="2"><label>A</label></node><node xml:id="n_Acorrected" type="witness" inDegree="1" outDegree="1"><label>Acorr.</label></node><node xml:id="n_groupd" type="hypothetical" inDegree="1" outDegree="0"><label>d</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><arc from="#n_A" to="#n_D" od:type="filiation" cert="unknown"/><arc from="#n_A" to="#n_Acorrected" od:type="filiation" cert="unknown"/><arc from="#n_Acorrected" to="#n_groupd" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="4" size="3"><label></label><node xml:id="n_A" type="hypothetical" inDegree="0" outDegree="2"><label>A</label></node><node xml:id="n_Acorrected" type="witness" inDegree="1" outDegree="1"><label>Acorr.</label></node><node xml:id="n_groupd" type="hypothetical" inDegree="1" outDegree="0"><label>d</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><arc xml:id="arc_1" from="#n_A" to="#n_D" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_A" to="#n_Acorrected" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_Acorrected" to="#n_groupd" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         <noteGrp>
+         </noteGrp>
+      </back>
   </text>
 </TEI>

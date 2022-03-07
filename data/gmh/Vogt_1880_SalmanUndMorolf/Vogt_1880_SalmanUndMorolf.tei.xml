@@ -7,10 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Salman und Morolf</title>
-            <author>Vogt, Friedrich</author><respStmt>
-               <resp>Contributed to OpenStemmata by</resp>
-            <persName>Lena Reich</persName><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt>
-         </titleStmt>
+         <author>Vogt, Friedrich</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -66,7 +63,11 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="5" size="4"><label></label><node xml:id="n_X" type="hypothetical" inDegree="0" outDegree="2"><label>X</label></node><node xml:id="n_Y" type="hypothetical" inDegree="1" outDegree="2"><label>Y</label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><node xml:id="n_d" type="witness" inDegree="1" outDegree="0"><label>d</label></node><node xml:id="n_S" type="witness" inDegree="1" outDegree="0"><label>S</label></node><arc from="#n_X" to="#n_Y" od:type="filiation" cert="unknown"/><arc from="#n_X" to="#n_E" od:type="filiation" cert="unknown"/><arc from="#n_Y" to="#n_d" od:type="filiation" cert="unknown"/><arc from="#n_Y" to="#n_S" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="5" size="4"><label></label><node xml:id="n_X" type="hypothetical" inDegree="0" outDegree="2"><label>X</label></node><node xml:id="n_Y" type="hypothetical" inDegree="1" outDegree="2"><label>Y</label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><node xml:id="n_d" type="witness" inDegree="1" outDegree="0"><label>d</label></node><node xml:id="n_S" type="witness" inDegree="1" outDegree="0"><label>S</label></node><arc xml:id="arc_1" from="#n_X" to="#n_Y" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_X" to="#n_E" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_Y" to="#n_d" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_Y" to="#n_S" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         <noteGrp>
+         </noteGrp>
+      </back>
   </text>
 </TEI>

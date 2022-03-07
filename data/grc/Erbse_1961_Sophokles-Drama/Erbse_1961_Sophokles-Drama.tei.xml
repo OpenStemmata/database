@@ -7,10 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Trachiniai</title>
-            <author>Erbse, Hartmut</author><respStmt>
-               <resp>Contributed to OpenStemmata by</resp>
-            <persName>Lena Reich</persName><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt>
-         </titleStmt>
+         <author>Erbse, Hartmut</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -66,7 +63,11 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="5" size="4"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="2"><label>ω</label></node><node xml:id="n_grouplambda" type="hypothetical" inDegree="1" outDegree="2"><label>λ</label></node><node xml:id="n_palimpsestlambda" type="witness" inDegree="1" outDegree="0"><label>Λ</label></node><node xml:id="n_grouprho" type="hypothetical" inDegree="1" outDegree="0"><label>ρ (GRMQ)</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><arc from="#n_archetyp" to="#n_grouplambda" od:type="filiation" cert="unknown"/><arc from="#n_archetyp" to="#n_grouprho" od:type="filiation" cert="unknown"/><arc from="#n_grouplambda" to="#n_L" od:type="filiation" cert="unknown"/><arc from="#n_grouplambda" to="#n_palimpsestlambda" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="5" size="4"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="2"><label>ω</label></node><node xml:id="n_grouplambda" type="hypothetical" inDegree="1" outDegree="2"><label>λ</label></node><node xml:id="n_palimpsestlambda" type="witness" inDegree="1" outDegree="0"><label>Λ</label></node><node xml:id="n_grouprho" type="hypothetical" inDegree="1" outDegree="0"><label>ρ (GRMQ)</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><arc xml:id="arc_1" from="#n_archetyp" to="#n_grouplambda" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_archetyp" to="#n_grouprho" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_grouplambda" to="#n_L" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_grouplambda" to="#n_palimpsestlambda" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         <noteGrp>
+         </noteGrp>
+      </back>
   </text>
 </TEI>

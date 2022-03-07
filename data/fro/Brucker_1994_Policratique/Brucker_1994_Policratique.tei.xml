@@ -7,10 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Policraticus (fro)</title>
-            <author>Brucker, Charles</author><respStmt>
-               <resp>Contributed to OpenStemmata by</resp>
-            <persName ref="0000-0001-9094-4475">Simon Gabays</persName></respStmt>
-         </titleStmt>
+         <author>Brucker, Charles</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0001-9094-4475">Simon Gabays</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -66,7 +63,11 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="10" size="9"><label></label><node xml:id="n_zprime" type="hypothetical" inDegree="1" outDegree="2"><label>zprime</label></node><node xml:id="n_Nprime" type="witness" inDegree="1" outDegree="0"><label>N'</label></node><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1"><label>O</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="2"><label>z</label></node><node xml:id="n_N" type="witness" inDegree="1" outDegree="0"><label>N</label></node><node xml:id="n_n" type="witness" inDegree="1" outDegree="0"><label>n</label></node><node xml:id="n_G" type="witness" inDegree="1" outDegree="0"><label>G</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><arc from="#n_zprime" to="#n_A" od:type="filiation" cert="unknown"/><arc from="#n_zprime" to="#n_Nprime" od:type="filiation" cert="unknown"/><arc from="#n_O" to="#n_x" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_N" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_y" od:type="filiation" cert="unknown"/><arc from="#n_y" to="#n_n" od:type="filiation" cert="unknown"/><arc from="#n_y" to="#n_z" od:type="filiation" cert="unknown"/><arc from="#n_z" to="#n_G" od:type="filiation" cert="unknown"/><arc from="#n_z" to="#n_zprime" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="10" size="9"><label></label><node xml:id="n_zprime" type="hypothetical" inDegree="1" outDegree="2"><label>zprime</label></node><node xml:id="n_Nprime" type="witness" inDegree="1" outDegree="0"><label>N'</label></node><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1"><label>O</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="2"><label>z</label></node><node xml:id="n_N" type="witness" inDegree="1" outDegree="0"><label>N</label></node><node xml:id="n_n" type="witness" inDegree="1" outDegree="0"><label>n</label></node><node xml:id="n_G" type="witness" inDegree="1" outDegree="0"><label>G</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><arc xml:id="arc_1" from="#n_zprime" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_zprime" to="#n_Nprime" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_O" to="#n_x" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_x" to="#n_N" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_x" to="#n_y" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_y" to="#n_n" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_y" to="#n_z" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_z" to="#n_G" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_z" to="#n_zprime" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         <noteGrp>
+         </noteGrp>
+      </back>
   </text>
 </TEI>

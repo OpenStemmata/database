@@ -7,10 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Sept Sages de Rome</title>
-            <author>Paris, Gaston</author><respStmt>
-               <resp>Contributed to OpenStemmata by</resp>
-            <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt>
-         </titleStmt>
+         <author>Paris, Gaston</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -66,7 +63,11 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="6" size="5"><label>1</label><node xml:id="n_V" type="hypothetical" inDegree="0" outDegree="2"><label>V</label></node><node xml:id="n_A" type="hypothetical" inDegree="2" outDegree="1"><label>A</label></node><node xml:id="n_A2" type="hypothetical" inDegree="1" outDegree="1"><label>A2</label></node><node xml:id="n_L" type="hypothetical" inDegree="0" outDegree="1"><label>L</label></node><node xml:id="n_M" type="hypothetical" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><arc from="#n_V" to="#n_A2" od:type="filiation" cert="unknown"/><arc from="#n_V" to="#n_D" od:type="filiation" cert="unknown"/><arc from="#n_A" to="#n_M" od:type="filiation" cert="unknown"/><arc from="#n_A2" to="#n_A" od:type="filiation" cert="unknown"/><arc from="#n_L" to="#n_A" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="6" size="5"><label>1</label><node xml:id="n_V" type="hypothetical" inDegree="0" outDegree="2"><label>V</label></node><node xml:id="n_A" type="hypothetical" inDegree="2" outDegree="1"><label>A</label></node><node xml:id="n_A2" type="hypothetical" inDegree="1" outDegree="1"><label>A2</label></node><node xml:id="n_L" type="hypothetical" inDegree="0" outDegree="1"><label>L</label></node><node xml:id="n_M" type="hypothetical" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><arc xml:id="arc_1" from="#n_V" to="#n_A2" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_V" to="#n_D" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_A" to="#n_M" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_A2" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_L" to="#n_A" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         <noteGrp>
+         </noteGrp>
+      </back>
   </text>
 </TEI>

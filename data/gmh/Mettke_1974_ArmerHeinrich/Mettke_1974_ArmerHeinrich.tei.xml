@@ -7,10 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Der arme Heinrich</title>
-            <author>Mettke, Heinz</author><respStmt>
-               <resp>Contributed to OpenStemmata by</resp>
-            <persName ref="0000-0002-2202-6354">Gustavo Riva</persName></respStmt>
-         </titleStmt>
+         <author>Mettke, Heinz</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0002-2202-6354">Gustavo Riva</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -66,7 +63,11 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="11" size="11"><label>1</label><node xml:id="n_original" type="hypothetical" inDegree="0" outDegree="1"><label>O</label></node><node xml:id="n_archetype" type="hypothetical" inDegree="1" outDegree="3"><label>*EC</label></node><node xml:id="n_AB" type="hypothetical" inDegree="1" outDegree="2"><label>*AB</label></node><node xml:id="n_DB" type="hypothetical" inDegree="1" outDegree="2"><label>*DB</label></node><node xml:id="n_B" type="hypothetical" inDegree="1" outDegree="2"><label>*B</label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_Ba" type="witness" inDegree="1" outDegree="1"><label>Ba</label></node><node xml:id="n_Bb" type="witness" inDegree="2" outDegree="0"><label>Bb</label></node><arc from="#n_original" to="#n_archetype" od:type="filiation" cert="unknown"/><arc from="#n_archetype" to="#n_E" od:type="filiation" cert="unknown"/><arc from="#n_archetype" to="#n_C" od:type="filiation" cert="unknown"/><arc from="#n_archetype" to="#n_AB" od:type="filiation" cert="unknown"/><arc from="#n_AB" to="#n_A" od:type="filiation" cert="unknown"/><arc from="#n_AB" to="#n_DB" od:type="filiation" cert="unknown"/><arc from="#n_DB" to="#n_D" od:type="filiation" cert="unknown"/><arc from="#n_DB" to="#n_B" od:type="filiation" cert="unknown"/><arc from="#n_B" to="#n_Ba" od:type="filiation" cert="unknown"/><arc from="#n_B" to="#n_Bb" od:type="contamination" cert="unknown"/><arc from="#n_Ba" to="#n_Bb" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="11" size="11"><label>1</label><node xml:id="n_original" type="hypothetical" inDegree="0" outDegree="1"><label>O</label></node><node xml:id="n_archetype" type="hypothetical" inDegree="1" outDegree="3"><label>*EC</label></node><node xml:id="n_AB" type="hypothetical" inDegree="1" outDegree="2"><label>*AB</label></node><node xml:id="n_DB" type="hypothetical" inDegree="1" outDegree="2"><label>*DB</label></node><node xml:id="n_B" type="hypothetical" inDegree="1" outDegree="2"><label>*B</label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_Ba" type="witness" inDegree="1" outDegree="1"><label>Ba</label></node><node xml:id="n_Bb" type="witness" inDegree="2" outDegree="0"><label>Bb</label></node><arc xml:id="arc_1" from="#n_original" to="#n_archetype" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_archetype" to="#n_E" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_archetype" to="#n_C" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_archetype" to="#n_AB" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_AB" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_AB" to="#n_DB" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_DB" to="#n_D" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_DB" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_B" to="#n_Ba" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_B" to="#n_Bb" od:type="contamination" cert="unknown"/><arc xml:id="arc_11" from="#n_Ba" to="#n_Bb" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         <noteGrp>
+         </noteGrp>
+      </back>
   </text>
 </TEI>

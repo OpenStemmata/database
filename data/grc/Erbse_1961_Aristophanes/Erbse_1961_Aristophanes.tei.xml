@@ -7,10 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Ekklesiazusai</title>
-            <author>Erbse, Hartmut</author><respStmt>
-               <resp>Contributed to OpenStemmata by</resp>
-            <persName>Lena Reich</persName><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt>
-         </titleStmt>
+         <author>Erbse, Hartmut</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -66,7 +63,11 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="11" size="10"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="2"><label>ω</label></node><node xml:id="n_hyparchetypy" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_phi" type="hypothetical" inDegree="1" outDegree="4"><label>Φ</label></node><node xml:id="n_groupv" type="hypothetical" inDegree="1" outDegree="2"><label>v</label></node><node xml:id="n_alpha" type="witness" inDegree="1" outDegree="0"><label>Α</label></node><node xml:id="n_gamma" type="witness" inDegree="1" outDegree="0"><label>Γ</label></node><node xml:id="n_theta" type="witness" inDegree="1" outDegree="0"><label>Θ</label></node><node xml:id="n_eplusgamma" type="witness" inDegree="1" outDegree="0"><label>E (Γ³)</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><node xml:id="n_U" type="witness" inDegree="1" outDegree="0"><label>U</label></node><node xml:id="n_V" type="witness" inDegree="1" outDegree="0"><label>V</label></node><arc from="#n_archetyp" to="#n_R" od:type="filiation" cert="unknown"/><arc from="#n_archetyp" to="#n_hyparchetypy" od:type="filiation" cert="unknown"/><arc from="#n_hyparchetypy" to="#n_phi" od:type="filiation" cert="unknown"/><arc from="#n_hyparchetypy" to="#n_groupv" od:type="filiation" cert="unknown"/><arc from="#n_phi" to="#n_alpha" od:type="filiation" cert="unknown"/><arc from="#n_phi" to="#n_gamma" od:type="filiation" cert="unknown"/><arc from="#n_phi" to="#n_theta" od:type="filiation" cert="unknown"/><arc from="#n_phi" to="#n_U" od:type="filiation" cert="unknown"/><arc from="#n_groupv" to="#n_eplusgamma" od:type="filiation" cert="unknown"/><arc from="#n_groupv" to="#n_V" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="11" size="10"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="2"><label>ω</label></node><node xml:id="n_hyparchetypy" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_phi" type="hypothetical" inDegree="1" outDegree="4"><label>Φ</label></node><node xml:id="n_groupv" type="hypothetical" inDegree="1" outDegree="2"><label>v</label></node><node xml:id="n_alpha" type="witness" inDegree="1" outDegree="0"><label>Α</label></node><node xml:id="n_gamma" type="witness" inDegree="1" outDegree="0"><label>Γ</label></node><node xml:id="n_theta" type="witness" inDegree="1" outDegree="0"><label>Θ</label></node><node xml:id="n_eplusgamma" type="witness" inDegree="1" outDegree="0"><label>E (Γ³)</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><node xml:id="n_U" type="witness" inDegree="1" outDegree="0"><label>U</label></node><node xml:id="n_V" type="witness" inDegree="1" outDegree="0"><label>V</label></node><arc xml:id="arc_1" from="#n_archetyp" to="#n_R" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_archetyp" to="#n_hyparchetypy" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_hyparchetypy" to="#n_phi" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_hyparchetypy" to="#n_groupv" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_phi" to="#n_alpha" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_phi" to="#n_gamma" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_phi" to="#n_theta" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_phi" to="#n_U" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_groupv" to="#n_eplusgamma" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_groupv" to="#n_V" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         <noteGrp>
+         </noteGrp>
+      </back>
   </text>
 </TEI>

@@ -7,10 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Daniel von dem blühenden Tal</title>
-            <author>Resler, Michael</author><respStmt>
-               <resp>Contributed to OpenStemmata by</resp>
-            <persName>Lena Reich</persName><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt>
-         </titleStmt>
+         <author>Resler, Michael</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -66,7 +63,11 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="9" size="8"><label></label><node xml:id="n_x" type="hypothetical" inDegree="0" outDegree="2"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="1"><label>y</label></node><node xml:id="n_starhb" type="hypothetical" inDegree="1" outDegree="2"><label>*hb</label></node><node xml:id="n_starkmd" type="hypothetical" inDegree="1" outDegree="2"><label>*kmd</label></node><node xml:id="n_h" type="witness" inDegree="1" outDegree="0"><label>h</label></node><node xml:id="n_b" type="witness" inDegree="1" outDegree="0"><label>b</label></node><node xml:id="n_k" type="witness" inDegree="1" outDegree="0"><label>k</label></node><node xml:id="n_m" type="witness" inDegree="1" outDegree="1"><label>m</label></node><node xml:id="n_d" type="witness" inDegree="1" outDegree="0"><label>d</label></node><arc from="#n_x" to="#n_starhb" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_y" od:type="filiation" cert="unknown"/><arc from="#n_y" to="#n_starkmd" od:type="filiation" cert="unknown"/><arc from="#n_starhb" to="#n_h" od:type="filiation" cert="unknown"/><arc from="#n_starhb" to="#n_b" od:type="filiation" cert="unknown"/><arc from="#n_starkmd" to="#n_k" od:type="filiation" cert="unknown"/><arc from="#n_starkmd" to="#n_m" od:type="filiation" cert="unknown"/><arc from="#n_m" to="#n_d" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="9" size="8"><label></label><node xml:id="n_x" type="hypothetical" inDegree="0" outDegree="2"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="1"><label>y</label></node><node xml:id="n_starhb" type="hypothetical" inDegree="1" outDegree="2"><label>*hb</label></node><node xml:id="n_starkmd" type="hypothetical" inDegree="1" outDegree="2"><label>*kmd</label></node><node xml:id="n_h" type="witness" inDegree="1" outDegree="0"><label>h</label></node><node xml:id="n_b" type="witness" inDegree="1" outDegree="0"><label>b</label></node><node xml:id="n_k" type="witness" inDegree="1" outDegree="0"><label>k</label></node><node xml:id="n_m" type="witness" inDegree="1" outDegree="1"><label>m</label></node><node xml:id="n_d" type="witness" inDegree="1" outDegree="0"><label>d</label></node><arc xml:id="arc_1" from="#n_x" to="#n_starhb" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_x" to="#n_y" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_y" to="#n_starkmd" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_starhb" to="#n_h" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_starhb" to="#n_b" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_starkmd" to="#n_k" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_starkmd" to="#n_m" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_m" to="#n_d" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         <noteGrp>
+         </noteGrp>
+      </back>
   </text>
 </TEI>

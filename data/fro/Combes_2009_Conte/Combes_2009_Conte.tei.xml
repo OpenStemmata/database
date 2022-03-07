@@ -7,10 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Conte de la Charrette</title>
-            <author>Combes, Annie</author><respStmt>
-               <resp>Contributed to OpenStemmata by</resp>
-            <persName ref="0000-0001-9094-4475">Simon Gabay</persName></respStmt>
-         </titleStmt>
+         <author>Combes, Annie</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0001-9094-4475">Simon Gabay</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -66,7 +63,11 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="5" size="4"><label>1</label><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1"><label>O</label></node><node xml:id="n_O1" type="hypothetical" inDegree="1" outDegree="2"><label>O1</label></node><node xml:id="n_Ab" type="witness" inDegree="1" outDegree="0"><label>Ab</label></node><node xml:id="n_Ac" type="witness" inDegree="1" outDegree="1"><label>Ac</label></node><node xml:id="n_Aa" type="witness" inDegree="1" outDegree="0"><label>Aa</label></node><arc from="#n_O" to="#n_O1" od:type="filiation" cert="unknown"/><arc from="#n_O1" to="#n_Ab" od:type="filiation" cert="unknown"/><arc from="#n_O1" to="#n_Ac" od:type="filiation" cert="unknown"/><arc from="#n_Ac" to="#n_Aa" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="5" size="4"><label>1</label><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1"><label>O</label></node><node xml:id="n_O1" type="hypothetical" inDegree="1" outDegree="2"><label>O1</label></node><node xml:id="n_Ab" type="witness" inDegree="1" outDegree="0"><label>Ab</label></node><node xml:id="n_Ac" type="witness" inDegree="1" outDegree="1"><label>Ac</label></node><node xml:id="n_Aa" type="witness" inDegree="1" outDegree="0"><label>Aa</label></node><arc xml:id="arc_1" from="#n_O" to="#n_O1" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_O1" to="#n_Ab" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_O1" to="#n_Ac" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_Ac" to="#n_Aa" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         <noteGrp>
+         </noteGrp>
+      </back>
   </text>
 </TEI>

@@ -7,10 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Libro de Alexandre</title>
-            <respStmt>
-               <resp>Contributed to OpenStemmata by</resp>
-            <persName ref="0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt>
-         </titleStmt>
+         <author>García López, Jorge</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -26,7 +23,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="publicationPart">
-               <title>Reflexiones sobre la edición crítica del Libro de Alexandre</title>
+               <author>García López, Jorge</author><title>Reflexiones sobre la edición crítica del Libro de Alexandre</title>
                <date>2015</date>
                <pubPlace></pubPlace><series/>
                <!-- Numero de série -->
@@ -66,7 +63,11 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="8" size="7"><label>1</label><node xml:id="n_original" type="hypothetical" inDegree="0" outDegree="1"><label>ω</label></node><node xml:id="n_archetype" type="hypothetical" inDegree="1" outDegree="4"><label>x</label></node><node xml:id="n_G" type="witness" inDegree="1" outDegree="0"><label>Ga,Gb,Gc</label></node><node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2"><label>α</label></node><node xml:id="n_Med" type="witness" inDegree="1" outDegree="0"><label>Med</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_O" type="witness" inDegree="1" outDegree="0"><label>O</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><arc from="#n_original" to="#n_archetype" od:type="filiation" cert="unknown"/><arc from="#n_archetype" to="#n_Med" od:type="filiation" cert="unknown"/><arc from="#n_archetype" to="#n_G" od:type="filiation" cert="unknown"/><arc from="#n_archetype" to="#n_alpha" od:type="filiation" cert="unknown"/><arc from="#n_archetype" to="#n_B" od:type="filiation" cert="unknown"/><arc from="#n_alpha" to="#n_O" od:type="filiation" cert="unknown"/><arc from="#n_alpha" to="#n_P" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="8" size="7"><label>1</label><node xml:id="n_original" type="hypothetical" inDegree="0" outDegree="1"><label>ω</label></node><node xml:id="n_archetype" type="hypothetical" inDegree="1" outDegree="4"><label>x</label></node><node xml:id="n_G" type="witness" inDegree="1" outDegree="0"><label>Ga,Gb,Gc</label></node><node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2"><label>α</label></node><node xml:id="n_Med" type="witness" inDegree="1" outDegree="0"><label>Med</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_O" type="witness" inDegree="1" outDegree="0"><label>O</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><arc xml:id="arc_1" from="#n_original" to="#n_archetype" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_archetype" to="#n_Med" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_archetype" to="#n_G" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_archetype" to="#n_alpha" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_archetype" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_alpha" to="#n_O" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_alpha" to="#n_P" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         <noteGrp>
+         </noteGrp>
+      </back>
   </text>
 </TEI>

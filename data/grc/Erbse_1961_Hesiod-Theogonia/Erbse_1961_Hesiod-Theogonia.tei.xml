@@ -7,10 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable"/>
-            <author>Erbse, Hartmut</author><respStmt>
-               <resp>Contributed to OpenStemmata by</resp>
-            <persName>Lena Reich</persName><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt>
-         </titleStmt>
+         <author>Erbse, Hartmut</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -66,7 +63,11 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="10" size="9"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="3"><label>ω</label></node><node xml:id="n_groupb" type="hypothetical" inDegree="1" outDegree="2"><label>b</label></node><node xml:id="n_groupdelta" type="hypothetical" inDegree="1" outDegree="2"><label>δ</label></node><node xml:id="n_groupy" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><node xml:id="n_F" type="witness" inDegree="1" outDegree="0"><label>F</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_K" type="witness" inDegree="1" outDegree="0"><label>K</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><arc from="#n_archetyp" to="#n_groupb" od:type="filiation" cert="unknown"/><arc from="#n_archetyp" to="#n_C" od:type="filiation" cert="unknown"/><arc from="#n_archetyp" to="#n_groupdelta" od:type="filiation" cert="unknown"/><arc from="#n_groupb" to="#n_E" od:type="filiation" cert="unknown"/><arc from="#n_groupb" to="#n_F" od:type="filiation" cert="unknown"/><arc from="#n_groupdelta" to="#n_D" od:type="filiation" cert="unknown"/><arc from="#n_groupdelta" to="#n_groupy" od:type="filiation" cert="unknown"/><arc from="#n_groupy" to="#n_K" od:type="filiation" cert="unknown"/><arc from="#n_groupy" to="#n_L" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="10" size="9"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="3"><label>ω</label></node><node xml:id="n_groupb" type="hypothetical" inDegree="1" outDegree="2"><label>b</label></node><node xml:id="n_groupdelta" type="hypothetical" inDegree="1" outDegree="2"><label>δ</label></node><node xml:id="n_groupy" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><node xml:id="n_F" type="witness" inDegree="1" outDegree="0"><label>F</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_K" type="witness" inDegree="1" outDegree="0"><label>K</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><arc xml:id="arc_1" from="#n_archetyp" to="#n_groupb" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_archetyp" to="#n_C" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_archetyp" to="#n_groupdelta" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_groupb" to="#n_E" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_groupb" to="#n_F" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_groupdelta" to="#n_D" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_groupdelta" to="#n_groupy" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_groupy" to="#n_K" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_groupy" to="#n_L" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         <noteGrp>
+         </noteGrp>
+      </back>
   </text>
 </TEI>
