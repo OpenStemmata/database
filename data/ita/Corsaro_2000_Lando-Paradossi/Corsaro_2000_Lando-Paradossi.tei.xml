@@ -23,8 +23,8 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <author>Corsaro, Antonio</author><title>Paradossi, cioè sentenze fuori del comun parere</title>
-               <date>2000</date>
+               <title>Paradossi, cioè sentenze fuori del comun parere</title>
+               <author>Corsaro, Antonio</author><date>2000</date>
                <pubPlace>Roma</pubPlace><series></series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
@@ -66,8 +66,6 @@
          <graph type="directed" order="11" size="10"><label></label><node xml:id="n_L" type="witness" inDegree="0" outDegree="3"><label>L</label></node><node xml:id="n_V1x" type="witness" inDegree="1" outDegree="1"><label>V1x</label></node><node xml:id="n_V2" type="witness" inDegree="1" outDegree="2"><label>V2</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="1"><label>B</label></node><node xml:id="n_V1" type="witness" inDegree="1" outDegree="0"><label>V1</label></node><node xml:id="n_V3" type="witness" inDegree="1" outDegree="1"><label>V3</label></node><node xml:id="n_V4" type="witness" inDegree="1" outDegree="1"><label>V4</label></node><node xml:id="n_V5" type="witness" inDegree="1" outDegree="0"><label>V5</label></node><node xml:id="n_Vly" type="witness" inDegree="1" outDegree="0"><label>Vly</label></node><node xml:id="n_L2" type="witness" inDegree="1" outDegree="1"><label>L2</label></node><node xml:id="n_V6" type="witness" inDegree="1" outDegree="0"><label>V6</label></node><arc xml:id="arc_1" from="#n_L" to="#n_V1x" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_L" to="#n_Vly" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_L" to="#n_L2" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_V1x" to="#n_V2" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_V2" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_V2" to="#n_V3" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_B" to="#n_V1" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_V3" to="#n_V4" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_V4" to="#n_V5" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_L2" to="#n_V6" od:type="filiation" cert="unknown"/></graph>
       </body>
       <back>
-         <noteGrp>
-         </noteGrp>
-      </back>
+         </back>
   </text>
 </TEI>

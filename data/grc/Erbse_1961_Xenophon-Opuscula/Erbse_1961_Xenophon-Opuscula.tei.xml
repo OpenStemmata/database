@@ -23,15 +23,15 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="chapter">
-               <author>Erbse, Hartmut</author><title>Überlieferungsgeschichte der griechischen klassischen und hellenistischen Literatur</title>
-               <date>1961</date>
+               <title>Überlieferungsgeschichte der griechischen klassischen und hellenistischen Literatur</title>
+               <author>Erbse, Hartmut</author><date>1961</date>
                <pubPlace>Zürich</pubPlace><series>Geschichte der Textüberlieferung der antiken und mittelalterlichen Literatur</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="1"/>
                <biblScope unit="page" n="269"/>
                <ptr type="digitised" target="http://opac.regesta-imperii.de/id/834709"/>
             </bibl>
-            <listWit><witness xml:id="w_Vind."><label type="siglum">Vind.</label><settlement>Wien</settlement><repository> Österreichische Nationalbibliothek</repository><idno> phil. gr. 037</idno><origDate>16c</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Vat._989"><label type="siglum">Vat. 989</label><settlement>Vaticano</settlement><repository> Biblioteca Apostolica Vaticana</repository><idno> Vat. gr. 0989</idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digi.vatlib.it/view/MSS_Vat.gr.989"/></witness></listWit>
+            <listWit><witness xml:id="w_Vind."><label type="siglum">Vind.</label><msDesc><msIdentifier><settlement>Wien</settlement><repository> Österreichische Nationalbibliothek</repository><idno> phil. gr. 037</idno></msIdentifier></msDesc><origDate>16c</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Vat._989"><label type="siglum">Vat. 989</label><msDesc><msIdentifier><settlement>Vaticano</settlement><repository> Biblioteca Apostolica Vaticana</repository><idno> Vat. gr. 0989</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digi.vatlib.it/view/MSS_Vat.gr.989"/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>
@@ -66,8 +66,6 @@
          <graph type="directed" order="5" size="4"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="2"><label>ω</label></node><node xml:id="n_Vind" type="witness" inDegree="1" outDegree="0"><label>Vind.</label></node><node xml:id="n_Vaticanus989" type="witness" inDegree="1" outDegree="0"><label>Vat. 989</label></node><node xml:id="n_hyparchetypy" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_groupd" type="hypothetical" inDegree="1" outDegree="0"><label>d</label></node><arc xml:id="arc_1" from="#n_archetyp" to="#n_Vind" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_archetyp" to="#n_hyparchetypy" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_hyparchetypy" to="#n_Vaticanus989" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_hyparchetypy" to="#n_groupd" od:type="filiation" cert="unknown"/></graph>
       </body>
       <back>
-         <noteGrp>
-         </noteGrp>
-      </back>
+         </back>
   </text>
 </TEI>

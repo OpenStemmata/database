@@ -23,8 +23,8 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <author>Cloetta, Wilhelm</author><title>Les deux rédactions en vers du Moniage Guillaume, chansons de geste du XIIe siècle, publiées d’après tous les manuscrits connus</title>
-               <date>1911</date>
+               <title>Les deux rédactions en vers du Moniage Guillaume, chansons de geste du XIIe siècle, publiées d’après tous les manuscrits connus</title>
+               <author>Cloetta, Wilhelm</author><date>1911</date>
                <pubPlace>Paris</pubPlace><series>SATF</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="54"/>
@@ -65,8 +65,6 @@
          <graph type="directed" order="6" size="5"><label>2</label><node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="1"><label>a</label></node><node xml:id="n_b" type="hypothetical" inDegree="1" outDegree="1"><label>b</label></node><node xml:id="n_o" type="hypothetical" inDegree="0" outDegree="1"><label>o</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><arc xml:id="arc_1" from="#n_a" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_b" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_o" to="#n_x" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_x" to="#n_a" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_x" to="#n_b" od:type="filiation" cert="unknown"/></graph>
       </body>
       <back>
-         <noteGrp>
-         </noteGrp>
-      </back>
+         </back>
   </text>
 </TEI>

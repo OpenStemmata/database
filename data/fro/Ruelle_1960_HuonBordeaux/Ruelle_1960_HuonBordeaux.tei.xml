@@ -23,15 +23,15 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <author>Ruelle, Pierre</author><title>Huon de Bordeaux</title>
-               <date>1960</date>
+               <title>Huon de Bordeaux</title>
+               <author>Ruelle, Pierre</author><date>1960</date>
                <pubPlace>Bruxelles</pubPlace><series>Travaux de la faculté de philosophie et lettres</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="20"/>
                <biblScope unit="page" n="15"/>
                <ptr type="digitised" target=""/>
             </bibl>
-            <listWit><witness xml:id="w_M"><label type="siglum">M</label><idno>BM Tours, 936</idno><origDate>1260-1280</origDate><origPlace>Picardy</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_P"><label type="siglum">P</label><idno>BnF, fr. 22555</idno><origDate>1401-1500</origDate><origPlace>Lorraine</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_T"><label type="siglum">T</label><idno>Torino, L.II.14</idno><origDate>1311</origDate><origPlace>Picardy</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_b"><label type="siglum">b</label><settlement>Boston</settlement><repository> Massachusetts Historical Society</repository><idno> ??</idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target="https://www.arlima.net/eh/huon_de_bordeaux.html"/><ptr type="digitised" target=""/></witness></listWit>
+            <listWit><witness xml:id="w_M"><label type="siglum">M</label><idno>BM Tours, 936</idno><origDate>1260-1280</origDate><origPlace>Picardy</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_P"><label type="siglum">P</label><idno>BnF, fr. 22555</idno><origDate>1401-1500</origDate><origPlace>Lorraine</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_T"><label type="siglum">T</label><idno>Torino, L.II.14</idno><origDate>1311</origDate><origPlace>Picardy</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_b"><label type="siglum">b</label><msDesc><msIdentifier><settlement>Boston</settlement><repository> Massachusetts Historical Society</repository><idno> ??</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target="https://www.arlima.net/eh/huon_de_bordeaux.html"/><ptr type="digitised" target=""/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>
@@ -66,8 +66,6 @@
          <graph type="directed" order="5" size="4"><label>1</label><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="2"><label>O</label></node><node xml:id="n_Mprime" type="hypothetical" inDegree="1" outDegree="2"><label>M'</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_T" type="witness" inDegree="1" outDegree="0"><label>T</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><arc xml:id="arc_1" from="#n_O" to="#n_Mprime" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_O" to="#n_P" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_Mprime" to="#n_M" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_Mprime" to="#n_T" od:type="filiation" cert="unknown"/></graph>
       </body>
       <back>
-         <noteGrp>
-         </noteGrp>
-      </back>
+         </back>
   </text>
 </TEI>

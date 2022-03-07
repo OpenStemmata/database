@@ -23,15 +23,15 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="chapter">
-               <author>Erbse, Hartmut</author><title>Überlieferungsgeschichte der griechischen klassischen und hellenistischen Literatur</title>
-               <date>1961</date>
+               <title>Überlieferungsgeschichte der griechischen klassischen und hellenistischen Literatur</title>
+               <author>Erbse, Hartmut</author><date>1961</date>
                <pubPlace>Zürich</pubPlace><series>Geschichte der Textüberlieferung der antiken und mittelalterlichen Literatur</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="1"/>
                <biblScope unit="page" n="275"/>
                <ptr type="digitised" target="http://opac.regesta-imperii.de/id/834709"/>
             </bibl>
-            <listWit><witness xml:id="w_L"><label type="siglum">L</label><settlement>Firenze</settlement><repository> Biblioteca Medicea Laurenziana</repository><idno> Plutei 32.09</idno><origDate>14c</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="http://mss.bmlonline.it/Catalogo.aspx?Shelfmark=Plut.32.9&amp;Creator=Sophocles"/></witness><witness xml:id="w_Λ"><label type="siglum">Λ</label><settlement>Leiden</settlement><repository> Bibliotheek der Rijksuniversiteit</repository><idno> BPG 060A</idno><origDate>14c</origDate><origPlace></origPlace><note>has been overwritten (palimpsest)</note><ptr type="description" target=""/><ptr type="digitised" target="http://hdl.handle.net/1887.1/item:375386"/></witness></listWit>
+            <listWit><witness xml:id="w_L"><label type="siglum">L</label><msDesc><msIdentifier><settlement>Firenze</settlement><repository> Biblioteca Medicea Laurenziana</repository><idno> Plutei 32.09</idno></msIdentifier></msDesc><origDate>14c</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="http://mss.bmlonline.it/Catalogo.aspx?Shelfmark=Plut.32.9&amp;Creator=Sophocles"/></witness><witness xml:id="w_Λ"><label type="siglum">Λ</label><msDesc><msIdentifier><settlement>Leiden</settlement><repository> Bibliotheek der Rijksuniversiteit</repository><idno> BPG 060A</idno></msIdentifier></msDesc><origDate>14c</origDate><origPlace></origPlace><note>has been overwritten (palimpsest)</note><ptr type="description" target=""/><ptr type="digitised" target="http://hdl.handle.net/1887.1/item:375386"/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>
@@ -66,8 +66,6 @@
          <graph type="directed" order="5" size="4"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="2"><label>ω</label></node><node xml:id="n_grouplambda" type="hypothetical" inDegree="1" outDegree="2"><label>λ</label></node><node xml:id="n_palimpsestlambda" type="witness" inDegree="1" outDegree="0"><label>Λ</label></node><node xml:id="n_grouprho" type="hypothetical" inDegree="1" outDegree="0"><label>ρ (GRMQ)</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><arc xml:id="arc_1" from="#n_archetyp" to="#n_grouplambda" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_archetyp" to="#n_grouprho" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_grouplambda" to="#n_L" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_grouplambda" to="#n_palimpsestlambda" od:type="filiation" cert="unknown"/></graph>
       </body>
       <back>
-         <noteGrp>
-         </noteGrp>
-      </back>
+         </back>
   </text>
 </TEI>

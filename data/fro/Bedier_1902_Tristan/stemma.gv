@@ -21,7 +21,7 @@ prose[label="Roman français en prose (1re rédaction vers 1230)"]
 
 X->y;
 y->Beroul
-Beroul->B2[style="dashed"]/*This two line are not really contamination, but a vaguer type of influence*/
+Beroul->B2[style="dashed"] # This two line are not really contamination, but a vaguer type of influence
 1->B2[style="dashed"];
 y->Eilhart;
 Eilhart->Volksbuch;

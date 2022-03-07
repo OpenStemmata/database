@@ -23,15 +23,15 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <author>Graef, Harald</author><title>Eraclius. Deutsches Gedicht des dreizehnten Jahrhunderts</title>
-               <date>1883</date>
+               <title>Eraclius. Deutsches Gedicht des dreizehnten Jahrhunderts</title>
+               <author>Graef, Harald</author><date>1883</date>
                <pubPlace>Straßburg</pubPlace><series>Quellen und Forschungen zur Sprach- und Kulturgeschichte der germanischen Völker</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="50"/>
                <biblScope unit="page" n="22"/>
                <ptr type="digitised" target="https://archive.org/details/eracliusdeutsche00otteuoft"/>
             </bibl>
-            <listWit><witness xml:id="w_A"><label type="siglum">A</label><settlement>Wien</settlement><repository> Österr. Nationalbibl.</repository><idno> Cod. 2693</idno><origDate>1275-1299</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_6197599&amp;order=1&amp;view=SINGLE"/></witness><witness xml:id="w_B"><label type="siglum">B</label><settlement>München</settlement><repository> Staatsbibl.</repository><idno> Cgm 57</idno><origDate>1300-1350</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://daten.digitale-sammlungen.de/~db/0009/bsb00095927/images/"/></witness></listWit>
+            <listWit><witness xml:id="w_A"><label type="siglum">A</label><msDesc><msIdentifier><settlement>Wien</settlement><repository> Österr. Nationalbibl.</repository><idno> Cod. 2693</idno></msIdentifier></msDesc><origDate>1275-1299</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_6197599&amp;order=1&amp;view=SINGLE"/></witness><witness xml:id="w_B"><label type="siglum">B</label><msDesc><msIdentifier><settlement>München</settlement><repository> Staatsbibl.</repository><idno> Cgm 57</idno></msIdentifier></msDesc><origDate>1300-1350</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://daten.digitale-sammlungen.de/~db/0009/bsb00095927/images/"/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>
@@ -66,8 +66,6 @@
          <graph type="directed" order="4" size="3"><label></label><node xml:id="n_x" type="hypothetical" inDegree="0" outDegree="1"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><arc xml:id="arc_1" from="#n_x" to="#n_y" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_y" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_y" to="#n_B" od:type="filiation" cert="unknown"/></graph>
       </body>
       <back>
-         <noteGrp>
-         </noteGrp>
-      </back>
+         </back>
   </text>
 </TEI>

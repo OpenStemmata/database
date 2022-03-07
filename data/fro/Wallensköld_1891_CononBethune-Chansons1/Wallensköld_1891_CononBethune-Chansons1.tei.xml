@@ -23,8 +23,8 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <author> Wallensköld, Axel</author><title> Les chansons de Conon de Béthune</title>
-               <date>1891</date>
+               <title> Les chansons de Conon de Béthune</title>
+               <author> Wallensköld, Axel</author><date>1891</date>
                <pubPlace>Paris</pubPlace><series>CFMA</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="24"/>
@@ -65,8 +65,6 @@
          <graph type="directed" order="9" size="8"><label>1</label><node xml:id="n_I" type="hypothetical" inDegree="0" outDegree="2"><label>I</label></node><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_3" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_T" type="witness" inDegree="1" outDegree="0"><label>T</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_e" type="witness" inDegree="1" outDegree="0"><label>e</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><node xml:id="n_a" type="witness" inDegree="1" outDegree="0"><label>a</label></node><arc xml:id="arc_1" from="#n_I" to="#n_1" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_I" to="#n_a" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_1" to="#n_2" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_1" to="#n_R" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_2" to="#n_3" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_2" to="#n_e" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_3" to="#n_T" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_3" to="#n_M" od:type="filiation" cert="unknown"/></graph>
       </body>
       <back>
-         <noteGrp>
-         </noteGrp>
-      </back>
+         </back>
   </text>
 </TEI>

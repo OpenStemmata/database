@@ -23,8 +23,8 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <author>Bédier, Joseph</author><title>Le roman de Tristan par Thomas</title>
-               <date>1905</date>
+               <title>Le roman de Tristan par Thomas</title>
+               <author>Bédier, Joseph</author><date>1905</date>
                <pubPlace>Paris</pubPlace><series>SATF</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
@@ -67,7 +67,7 @@
       </body>
       <back>
          <noteGrp>
-         </noteGrp>
+         <note target="#arc_10">This two line are not really contamination, but a vaguer type of influence</note></noteGrp>
       </back>
   </text>
 </TEI>

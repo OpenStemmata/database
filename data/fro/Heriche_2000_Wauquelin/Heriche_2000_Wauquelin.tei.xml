@@ -31,7 +31,7 @@
                <biblScope unit="page" n=""/>
                <ptr type="digitised"/>
             </bibl>
-            <listWit><witness xml:id="w_A"><label type="siglum">A</label><settlement>Paris</settlement><repository> Bibliothèque du Petit Palais</repository><idno> Collection Dutuit 456</idno><origDate>1457-1459</origDate><origPlace>Burgundy</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B"><label type="siglum">B</label><idno>Paris, BNF Fr. 707</idno><origDate>1470-1480</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_C"><label type="siglum">C</label><idno>Paris, BNF Fr. 9342</idno><origDate>1447-1448</origDate><origPlace>Burgundy</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
+            <listWit><witness xml:id="w_A"><label type="siglum">A</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> Bibliothèque du Petit Palais</repository><idno> Collection Dutuit 456</idno></msIdentifier></msDesc><origDate>1457-1459</origDate><origPlace>Burgundy</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B"><label type="siglum">B</label><idno>Paris, BNF Fr. 707</idno><origDate>1470-1480</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_C"><label type="siglum">C</label><idno>Paris, BNF Fr. 9342</idno><origDate>1447-1448</origDate><origPlace>Burgundy</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>
@@ -66,8 +66,6 @@
          <graph type="directed" order="6" size="5"><node xml:id="n_Xprime" type="hypothetical" inDegree="1" outDegree="2"><label>Xprime</label></node><node xml:id="n_X" type="hypothetical" inDegree="0" outDegree="2"><label>X</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="1"><label>D</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><arc xml:id="arc_1" from="#n_Xprime" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_Xprime" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_X" to="#n_Xprime" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_X" to="#n_D" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_D" to="#n_C" od:type="filiation" cert="unknown"/></graph>
       </body>
       <back>
-         <noteGrp>
-         </noteGrp>
-      </back>
+         </back>
   </text>
 </TEI>

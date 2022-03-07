@@ -23,15 +23,15 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <author>Herbin, Jean-Charles; Triaud, Annie</author><title>Anseÿs de Gascogne</title>
-               <date>2018</date>
+               <title>Anseÿs de Gascogne</title>
+               <author>Herbin, Jean-Charles; Triaud, Annie</author><date>2018</date>
                <pubPlace>Paris</pubPlace><series>Classiques français du Moyen Âge</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="184"/>
                <biblScope unit="page" n="LVIII"/>
                <ptr type="digitised" target=""/>
             </bibl>
-            <listWit><witness><label type="siglum"></label><idno></idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
+            <listWit><witness><idno></idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>
@@ -66,8 +66,6 @@
          <graph type="directed" order="12" size="11"><label>1</label><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1"><label>O</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="3"><label>y</label></node><node xml:id="n_s" type="hypothetical" inDegree="1" outDegree="1"><label>s</label></node><node xml:id="n_yprime" type="hypothetical" inDegree="1" outDegree="2"><label>y'</label></node><node xml:id="n_U1" type="witness" inDegree="1" outDegree="0"><label>U¹</label></node><node xml:id="n_U2" type="witness" inDegree="1" outDegree="0"><label>U²</label></node><node xml:id="n_Art" type="witness" inDegree="1" outDegree="0"><label>Art</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><node xml:id="n_S" type="witness" inDegree="1" outDegree="0"><label>S</label></node><node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_N" type="witness" inDegree="1" outDegree="0"><label>N</label></node><arc xml:id="arc_1" from="#n_O" to="#n_x" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_x" to="#n_y" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_x" to="#n_yprime" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_y" to="#n_Art" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_y" to="#n_L" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_y" to="#n_U1" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_s" to="#n_S" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_yprime" to="#n_s" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_yprime" to="#n_2" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_2" to="#n_U2" od:type="filiation" cert="unknown"/><arc xml:id="arc_11" from="#n_2" to="#n_N" od:type="filiation" cert="unknown"/></graph>
       </body>
       <back>
-         <noteGrp>
-         </noteGrp>
-      </back>
+         </back>
   </text>
 </TEI>

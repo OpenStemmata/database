@@ -23,15 +23,15 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <author>Wolf, Werner</author><title>Albrechts von Scharfenberg Jüngerer Titurel, Bd. I (Strophe 1-1957). Nach den ältesten und besten Handschriften</title>
-               <date>1955</date>
+               <title>Albrechts von Scharfenberg Jüngerer Titurel, Bd. I (Strophe 1-1957). Nach den ältesten und besten Handschriften</title>
+               <author>Wolf, Werner</author><date>1955</date>
                <pubPlace>Berlin</pubPlace><series>Deutsche Texte des Mittelalters</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="45"/>
                <biblScope unit="page" n="XIX"/>
                <ptr type="digitised" target=""/>
             </bibl>
-            <listWit><witness xml:id="w_H"><label type="siglum">H</label><settlement>Heidelberg</settlement><repository> Universitätsbibl.</repository><idno> Cpg 141</idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digi.ub.uni-heidelberg.de/diglit/cpg141"/></witness></listWit>
+            <listWit><witness xml:id="w_H"><label type="siglum">H</label><msDesc><msIdentifier><settlement>Heidelberg</settlement><repository> Universitätsbibl.</repository><idno> Cpg 141</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digi.ub.uni-heidelberg.de/diglit/cpg141"/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>
@@ -66,8 +66,6 @@
          <graph type="directed" order="5" size="4"><label></label><node xml:id="n_x" type="hypothetical" inDegree="0" outDegree="2"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_I" type="hypothetical" inDegree="1" outDegree="0"><label>I</label></node><node xml:id="n_II" type="hypothetical" inDegree="1" outDegree="0"><label>II</label></node><node xml:id="n_H" type="witness" inDegree="1" outDegree="0"><label>H</label></node><arc xml:id="arc_1" from="#n_x" to="#n_I" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_x" to="#n_y" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_y" to="#n_H" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_y" to="#n_II" od:type="filiation" cert="unknown"/></graph>
       </body>
       <back>
-         <noteGrp>
-         </noteGrp>
-      </back>
+         </back>
   </text>
 </TEI>

@@ -23,8 +23,8 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <author>Brucker, Charles</author><title>Le Policratique de Jean de Salisbury</title>
-               <date>1994</date>
+               <title>Le Policratique de Jean de Salisbury</title>
+               <author>Brucker, Charles</author><date>1994</date>
                <pubPlace>Genève, Droz</pubPlace><series/>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
@@ -66,8 +66,6 @@
          <graph type="directed" order="10" size="9"><label></label><node xml:id="n_zprime" type="hypothetical" inDegree="1" outDegree="2"><label>zprime</label></node><node xml:id="n_Nprime" type="witness" inDegree="1" outDegree="0"><label>N'</label></node><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1"><label>O</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="2"><label>z</label></node><node xml:id="n_N" type="witness" inDegree="1" outDegree="0"><label>N</label></node><node xml:id="n_n" type="witness" inDegree="1" outDegree="0"><label>n</label></node><node xml:id="n_G" type="witness" inDegree="1" outDegree="0"><label>G</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><arc xml:id="arc_1" from="#n_zprime" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_zprime" to="#n_Nprime" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_O" to="#n_x" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_x" to="#n_N" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_x" to="#n_y" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_y" to="#n_n" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_y" to="#n_z" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_z" to="#n_G" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_z" to="#n_zprime" od:type="filiation" cert="unknown"/></graph>
       </body>
       <back>
-         <noteGrp>
-         </noteGrp>
-      </back>
+         </back>
   </text>
 </TEI>

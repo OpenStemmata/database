@@ -23,8 +23,8 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <author>R. J. Tarrant</author><title>P. Ovidi Nasonis Metamorphoses. Amores, Medicamina faciei femineae, Ars amatoria, Remedia amoris. Iteratis curis edidit E. J. Kenney</title>
-               <date>1995</date>
+               <title>P. Ovidi Nasonis Metamorphoses. Amores, Medicamina faciei femineae, Ars amatoria, Remedia amoris. Iteratis curis edidit E. J. Kenney</title>
+               <author>R. J. Tarrant</author><date>1995</date>
                <pubPlace>Oxford</pubPlace><series>Oxford classical texts</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
@@ -66,8 +66,6 @@
          <graph type="directed" order="7" size="6"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="2"><label>α''</label></node><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_P6" type="witness" inDegree="1" outDegree="0"><label>P6²</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><node xml:id="n_K" type="witness" inDegree="1" outDegree="0"><label>K</label></node><arc xml:id="arc_1" from="#n_archetyp" to="#n_1" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_archetyp" to="#n_2" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_1" to="#n_R" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_1" to="#n_P6" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_2" to="#n_E" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_2" to="#n_K" od:type="filiation" cert="unknown"/></graph>
       </body>
       <back>
-         <noteGrp>
-         </noteGrp>
-      </back>
+         </back>
   </text>
 </TEI>

@@ -23,8 +23,8 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
-               <author>Couraye du Parc, J.</author><title>La mort Aymeri de Narbonne, chanson de geste publiée d'après les manuscrits de Londres et de Paris</title>
-               <date>1884</date>
+               <title>La mort Aymeri de Narbonne, chanson de geste publiée d'après les manuscrits de Londres et de Paris</title>
+               <author>Couraye du Parc, J.</author><date>1884</date>
                <pubPlace>Paris</pubPlace><series>SATF</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="?"/>
@@ -65,8 +65,6 @@
          <graph type="directed" order="10" size="9"><label>1</label><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_o" type="hypothetical" inDegree="1" outDegree="2"><label>o</label></node><node xml:id="n_oprime" type="hypothetical" inDegree="0" outDegree="1"><label>o'</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_D2" type="witness" inDegree="1" outDegree="0"><label>D2</label></node><arc xml:id="arc_1" from="#n_1" to="#n_D" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_1" to="#n_D2" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_o" to="#n_x" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_o" to="#n_y" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_oprime" to="#n_o" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_x" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_x" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_y" to="#n_C" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_y" to="#n_1" od:type="filiation" cert="unknown"/></graph>
       </body>
       <back>
-         <noteGrp>
-         </noteGrp>
-      </back>
+         </back>
   </text>
 </TEI>

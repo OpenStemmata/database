@@ -120,6 +120,7 @@ if len(sys.argv) > 1:
     listWit = root.find('./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listWit', ns)
     # date = root.find('./tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:data', ns)
     graph = root.find('.//tei:graph', ns)
+    back = root.find('./tei:text/tei:back', ns)
     noteGrp = root.find('./tei:text/tei:back/tei:noteGrp', ns)
 
     #This is useful for the url of the graphic element
@@ -178,7 +179,7 @@ if len(sys.argv) > 1:
                     author_el1.text = cont
                     author_el2 = et.Element('author')
                     author_el2.text = cont
-                    bibl.insert(0, author_el1)
+                    bibl.insert(1, author_el1)
                     titleStmt.insert(2, author_el2)
                     # el = et.SubElement(bibl, 'author')
                     # el.text = cont
@@ -282,8 +283,8 @@ if len(sys.argv) > 1:
                                     cont.replace(' ', '_').replace("'", 'prime')
                                     )
                     wit.attrib['{http://www.w3.org/XML/1998/namespace}id'] = clean_id
-                label = et.SubElement(wit, 'label', attrib= {'type': 'siglum'})
-                label.text = cont 
+                    label = et.SubElement(wit, 'label', attrib= {'type': 'siglum'})
+                    label.text = cont 
             elif re.match('^[\s]+witSignature', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 # if cont != '':
@@ -292,11 +293,13 @@ if len(sys.argv) > 1:
                     el = et.SubElement(wit, 'idno')
                     el.text = cont
                 else:
-                    settlement = et.SubElement(wit, 'settlement')
+                    msDesc = et.SubElement(wit, 'msDesc')
+                    msIdentif = et.SubElement(msDesc, 'msIdentifier')
+                    settlement = et.SubElement(msIdentif, 'settlement')
                     settlement.text = split_cont[0]
-                    repository = et.SubElement(wit, 'repository')
+                    repository = et.SubElement(msIdentif, 'repository')
                     repository.text = split_cont[1]
-                    idno = et.SubElement(wit, 'idno')
+                    idno = et.SubElement(msIdentif, 'idno')
                     idno.text = split_cont[2]
             elif re.match('^[\s]+witOrigDate', line):
                 cont = re.findall('"([^"]*)"', line)[0]
@@ -387,7 +390,8 @@ if len(sys.argv) > 1:
         
 
 
-
+    if len(noteGrp) < 1:
+        back.remove(noteGrp)
 
     tree.write( '/'.join(path) + '/' + new_file_name + '.tei.xml', pretty_print=True, encoding="UTF-8", xml_declaration=True)
 

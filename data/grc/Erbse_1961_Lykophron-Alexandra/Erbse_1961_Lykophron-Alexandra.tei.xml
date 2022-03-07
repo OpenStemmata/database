@@ -23,15 +23,15 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="chapter">
-               <author>Erbse, Hartmut</author><title>Überlieferungsgeschichte der griechischen klassischen und hellenistischen Literatur</title>
-               <date>1961</date>
+               <title>Überlieferungsgeschichte der griechischen klassischen und hellenistischen Literatur</title>
+               <author>Erbse, Hartmut</author><date>1961</date>
                <pubPlace>Zürich</pubPlace><series>Geschichte der Textüberlieferung der antiken und mittelalterlichen Literatur</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="1"/>
                <biblScope unit="page" n="252"/>
                <ptr type="digitised" target="http://opac.regesta-imperii.de/id/834709"/>
             </bibl>
-            <listWit><witness xml:id="w_A"><label type="siglum">A</label><settlement>Venezia</settlement><repository> Biblioteca Nazionale Marciana</repository><idno> gr. Z. 476</idno><origDate>c. 1100</origDate><origPlace></origPlace><note>=Marc.</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B"><label type="siglum">B</label><settlement>Paris</settlement><repository> Bibliothèque nationale de France</repository><idno> Coisl. 345</idno><origDate>10c</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://gallica.bnf.fr/ark:/12148/btv1b525026958"/></witness><witness xml:id="w_C"><label type="siglum">C</label><settlement>Paris</settlement><repository> Bibliothèque nationale de France</repository><idno> grec 2723</idno><origDate>1282</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://gallica.bnf.fr/ark:/12148/btv1b107237539"/></witness><witness xml:id="w_D"><label type="siglum">D</label><settlement>Paris</settlement><repository> Bibliothèque nationale de France</repository><idno> grec 2403</idno><origDate>13c</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://gallica.bnf.fr/ark:/12148/btv1b525056724"/></witness></listWit>
+            <listWit><witness xml:id="w_A"><label type="siglum">A</label><msDesc><msIdentifier><settlement>Venezia</settlement><repository> Biblioteca Nazionale Marciana</repository><idno> gr. Z. 476</idno></msIdentifier></msDesc><origDate>c. 1100</origDate><origPlace></origPlace><note>=Marc.</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B"><label type="siglum">B</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> Bibliothèque nationale de France</repository><idno> Coisl. 345</idno></msIdentifier></msDesc><origDate>10c</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://gallica.bnf.fr/ark:/12148/btv1b525026958"/></witness><witness xml:id="w_C"><label type="siglum">C</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> Bibliothèque nationale de France</repository><idno> grec 2723</idno></msIdentifier></msDesc><origDate>1282</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://gallica.bnf.fr/ark:/12148/btv1b107237539"/></witness><witness xml:id="w_D"><label type="siglum">D</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> Bibliothèque nationale de France</repository><idno> grec 2403</idno></msIdentifier></msDesc><origDate>13c</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://gallica.bnf.fr/ark:/12148/btv1b525056724"/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>
@@ -66,8 +66,6 @@
          <graph type="directed" order="7" size="6"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="2"><label>ω</label></node><node xml:id="n_AB" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_CD" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A (=Marc.)</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><arc xml:id="arc_1" from="#n_archetyp" to="#n_AB" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_archetyp" to="#n_CD" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_AB" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_AB" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_CD" to="#n_C" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_CD" to="#n_D" od:type="filiation" cert="unknown"/></graph>
       </body>
       <back>
-         <noteGrp>
-         </noteGrp>
-      </back>
+         </back>
   </text>
 </TEI>

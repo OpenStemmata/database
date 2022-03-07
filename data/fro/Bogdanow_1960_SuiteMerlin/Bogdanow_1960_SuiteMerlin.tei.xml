@@ -23,8 +23,8 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="publicationPart">
-               <author>Bogdanow, Fanni</author><title>Essai de classement des manuscrits de la Suite du Merlin</title>
-               <date>1960</date>
+               <title>Essai de classement des manuscrits de la Suite du Merlin</title>
+               <author>Bogdanow, Fanni</author><date>1960</date>
                <pubPlace>Paris</pubPlace><series>Romania</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="81"/>
@@ -65,8 +65,6 @@
          <graph type="directed" order="8" size="7"><label>1</label><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1"><label>O</label></node><node xml:id="n_O1" type="hypothetical" inDegree="1" outDegree="2"><label>O1</label></node><node xml:id="n_X" type="hypothetical" inDegree="1" outDegree="2"><label>X</label></node><node xml:id="n_Y" type="hypothetical" inDegree="1" outDegree="2"><label>Y</label></node><node xml:id="n_S" type="witness" inDegree="1" outDegree="0"><label>S</label></node><node xml:id="n_H" type="witness" inDegree="1" outDegree="0"><label>H</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><arc xml:id="arc_1" from="#n_O" to="#n_O1" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_O1" to="#n_S" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_O1" to="#n_X" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_X" to="#n_Y" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_X" to="#n_C" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_Y" to="#n_H" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_Y" to="#n_D" od:type="filiation" cert="unknown"/></graph>
       </body>
       <back>
-         <noteGrp>
-         </noteGrp>
-      </back>
+         </back>
   </text>
 </TEI>

@@ -23,15 +23,15 @@
          </notesStmt>
          <sourceDesc>
             <bibl type="chapter">
-               <author>Erbse, Hartmut</author><title>Überlieferungsgeschichte der griechischen klassischen und hellenistischen Literatur</title>
-               <date>1961</date>
+               <title>Überlieferungsgeschichte der griechischen klassischen und hellenistischen Literatur</title>
+               <author>Erbse, Hartmut</author><date>1961</date>
                <pubPlace>Zürich</pubPlace><series>Geschichte der Textüberlieferung der antiken und mittelalterlichen Literatur</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="1"/>
                <biblScope unit="page" n="248"/>
                <ptr type="digitised" target="http://opac.regesta-imperii.de/lang_de/anzeige.php?sammelwerk=Geschichte+der+Text%C3%BCberlieferung+der+antiken+und+mittelalterlichen+Literatur"/>
             </bibl>
-            <listWit><witness xml:id="w_K"><label type="siglum">K</label><settlement>Milano</settlement><repository> Biblioteca Ambrosiana</repository><idno> fonds principal C222 inf. (Martini-Bassi 0886)</idno><origDate>13c</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="http://213.21.172.25/0b02da8280051c1e"/></witness><witness xml:id="w_P._Ant."><label type="siglum">P. Ant.</label><idno></idno><origDate>c. 500</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
+            <listWit><witness xml:id="w_K"><label type="siglum">K</label><msDesc><msIdentifier><settlement>Milano</settlement><repository> Biblioteca Ambrosiana</repository><idno> fonds principal C222 inf. (Martini-Bassi 0886)</idno></msIdentifier></msDesc><origDate>13c</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="http://213.21.172.25/0b02da8280051c1e"/></witness><witness xml:id="w_P._Ant."><label type="siglum">P. Ant.</label><idno></idno><origDate>c. 500</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>
@@ -66,8 +66,6 @@
          <graph type="directed" order="8" size="8"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="2"><label>α</label></node><node xml:id="n_hyparchetypbeta" type="hypothetical" inDegree="1" outDegree="2"><label>β</label></node><node xml:id="n_PAnt" type="witness" inDegree="1" outDegree="0"><label>P. Ant.</label></node><node xml:id="n_GroupLaur" type="hypothetical" inDegree="1" outDegree="0"><label>Laur.</label></node><node xml:id="n_GroupVat" type="hypothetical" inDegree="2" outDegree="0"><label>Vat.</label></node><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_K" type="witness" inDegree="1" outDegree="0"><label>K</label></node><arc xml:id="arc_1" from="#n_archetyp" to="#n_hyparchetypbeta" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_archetyp" to="#n_PAnt" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_hyparchetypbeta" to="#n_1" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_hyparchetypbeta" to="#n_2" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_1" to="#n_K" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_1" to="#n_GroupVat" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_2" to="#n_GroupLaur" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_2" to="#n_GroupVat" od:type="filiation" cert="unknown"/></graph>
       </body>
       <back>
-         <noteGrp>
-         </noteGrp>
-      </back>
+         </back>
   </text>
 </TEI>
