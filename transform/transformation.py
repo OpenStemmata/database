@@ -17,7 +17,7 @@ import superscript
 # Local:
 # for changed_file in $( find ~/Dokumente/OpenStemmata/database/data -name '*.*' ) ; do ~/Dokumente/OpenStemmata/venv/bin/python3 ~/Dokumente/OpenStemmata/database/transform/transformation.py $changed_file ; done
 
-attributes_regex = '(\w+)="([^"]*)",?\s*'
+attributes_regex = '(\w+)="?([^"]*)"?,?\s*'
 
 if len(sys.argv) > 1:
     changed_file = str(sys.argv[1])
