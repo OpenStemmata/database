@@ -1,7 +1,4 @@
-# Place the cursor inside "graph" to get some refactoring options
-
 digraph {
-    # Greek letters/hypothetical links
     omega[color="grey", label="Ω"]
     O[color="grey"]
     X[color="grey"]
@@ -25,10 +22,9 @@ digraph {
     sigma[color="grey", label="σ"]
     rho[color="grey", label="ϱ"]
 
-    #
+
     Z[label="Z(?)"]
 
-    # twice the same label in Warnke's stemma, so we use Obis
     Obis[label="O"]
 
     omega -> O;

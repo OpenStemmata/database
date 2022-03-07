@@ -7,8 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Conte de la Charrette</title>
-            <author>Combes, Annie</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0001-9094-4475">Simon Gabay</persName></respStmt></titleStmt>
+         <author>Combes, Annie</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0001-9094-4475">Simon Gabay</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -25,16 +24,14 @@
          <sourceDesc>
             <bibl type="book">
                <title>Le Conte de la Charrette dans le Lancelot en prose: une version divergente de la vulgate</title>
-               <date>2009</date>
-               <pubPlace>Paris</pubPlace>
-               <series>Classiques français du Moyen âge</series>
+               <author>Combes, Annie</author><date>2009</date>
+               <pubPlace>Paris</pubPlace><series>Classiques français du Moyen âge</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="158"/>
-               <author>Combes, Annie</author>
                <biblScope unit="page" n="63"/>
                <ptr type="digitised" target=""/>
             </bibl>
-            <listWit><witness xml:id="Ab"><label type="siglum">Ab</label><settlement>Paris</settlement><repository> BNF</repository><idno> Fr. 122</idno><origDate>1345</origDate><origPlace>Paris</origPlace></witness><witness xml:id="Ac"><label type="siglum">Ac</label><idno>Paris, Arsenal 3480</idno><origDate>1400</origDate><origPlace>Paris</origPlace></witness><witness xml:id="Aa"><label type="siglum">Aa</label><settlement>Paris</settlement><repository> BNF</repository><idno> Fr. 119</idno><origDate>1400</origDate><origPlace>Paris</origPlace></witness></listWit>
+            <listWit><witness xml:id="w_Ab"><label type="siglum">Ab</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BNF</repository><idno> Fr. 122</idno></msIdentifier></msDesc><origDate>1345</origDate><origPlace>Paris</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Ac"><label type="siglum">Ac</label><idno>Paris, Arsenal 3480</idno><origDate>1400</origDate><origPlace>Paris</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Aa"><label type="siglum">Aa</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BNF</repository><idno> Fr. 119</idno></msIdentifier></msDesc><origDate>1400</origDate><origPlace>Paris</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>
@@ -66,7 +63,9 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="5" size="4"><label>1</label><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1"><label>O</label></node><node xml:id="n_O1" type="hypothetical" inDegree="1" outDegree="2"><label>O1</label></node><node xml:id="n_Ab" type="witness" inDegree="1" outDegree="0"><label>Ab</label></node><node xml:id="n_Ac" type="witness" inDegree="1" outDegree="1"><label>Ac</label></node><node xml:id="n_Aa" type="witness" inDegree="1" outDegree="0"><label>Aa</label></node><arc from="#n_O" to="#n_O1" od:type="filiation" cert="unknown"/><arc from="#n_O1" to="#n_Ab" od:type="filiation" cert="unknown"/><arc from="#n_O1" to="#n_Ac" od:type="filiation" cert="unknown"/><arc from="#n_Ac" to="#n_Aa" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="5" size="4"><label>1</label><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1"><label>O</label></node><node xml:id="n_O1" type="hypothetical" inDegree="1" outDegree="2"><label>O1</label></node><node xml:id="n_Ab" type="witness" inDegree="1" outDegree="0"><label>Ab</label></node><node xml:id="n_Ac" type="witness" inDegree="1" outDegree="1"><label>Ac</label></node><node xml:id="n_Aa" type="witness" inDegree="1" outDegree="0"><label>Aa</label></node><arc xml:id="arc_1" from="#n_O" to="#n_O1" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_O1" to="#n_Ab" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_O1" to="#n_Ac" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_Ac" to="#n_Aa" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         </back>
   </text>
 </TEI>

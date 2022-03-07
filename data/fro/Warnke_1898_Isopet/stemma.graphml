@@ -227,7 +227,7 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="tau" target="omicron">
-  <data key="d2">contamination</data>
+  <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="tau" target="T">
@@ -267,7 +267,7 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="omicron" target="R">
-  <data key="d2">contamination</data>
+  <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="omicron" target="Obis">
@@ -295,19 +295,19 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="T" target="G">
-  <data key="d2">contamination</data>
+  <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="T" target="Y">
-  <data key="d2">contamination</data>
+  <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="C" target="Obis">
-  <data key="d2">contamination</data>
+  <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="S" target="V">
-  <data key="d2">contamination</data>
+  <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
 </graph></graphml>

@@ -7,8 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Miracles Nostre Dame</title>
-            <author>Masami, Okubo</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <author>Masami, Okubo</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -25,12 +24,10 @@
          <sourceDesc>
             <bibl type="publicationPart">
                <title>La formation de la collection des Miracles de Gautier de Coinci (première partie)</title>
-               <date>2005</date>
-               <pubPlace>Paris</pubPlace>
-               <series>Romania</series>
+               <author>Masami, Okubo</author><date>2005</date>
+               <pubPlace>Paris</pubPlace><series>Romania</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="123"/>
-               <author>Masami, Okubo</author>
                <biblScope unit="page" n="141-212"/>
                <ptr type="digitised" target="https://doi.org/10.3406/roma.2005.1351"/>
             </bibl>
@@ -65,7 +62,9 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="12" size="11"><label>3</label><node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2"><label>α</label></node><node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2"><label>β</label></node><node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="2"><label>δ</label></node><node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="2"><label>γ</label></node><node xml:id="n_gammaprime" type="hypothetical" inDegree="1" outDegree="1"><label>γ'</label></node><node xml:id="n_omega" type="hypothetical" inDegree="0" outDegree="2"><label>ω</label></node><node xml:id="n_N" type="witness" inDegree="1" outDegree="0"><label>N</label></node><node xml:id="n_x" type="witness" inDegree="1" outDegree="0"><label>x</label></node><node xml:id="n_a" type="witness" inDegree="1" outDegree="0"><label>a</label></node><node xml:id="n_d" type="witness" inDegree="1" outDegree="0"><label>d</label></node><node xml:id="n_g" type="witness" inDegree="1" outDegree="0"><label>g</label></node><node xml:id="n_r" type="witness" inDegree="1" outDegree="0"><label>r</label></node><arc from="#n_alpha" to="#n_N" od:type="filiation" cert="unknown"/><arc from="#n_alpha" to="#n_x" od:type="filiation" cert="unknown"/><arc from="#n_beta" to="#n_gamma" od:type="filiation" cert="unknown"/><arc from="#n_beta" to="#n_r" od:type="filiation" cert="unknown"/><arc from="#n_delta" to="#n_d" od:type="filiation" cert="unknown"/><arc from="#n_delta" to="#n_g" od:type="filiation" cert="unknown"/><arc from="#n_gamma" to="#n_gammaprime" od:type="filiation" cert="unknown"/><arc from="#n_gamma" to="#n_delta" od:type="filiation" cert="unknown"/><arc from="#n_gammaprime" to="#n_a" od:type="filiation" cert="unknown"/><arc from="#n_omega" to="#n_alpha" od:type="filiation" cert="unknown"/><arc from="#n_omega" to="#n_beta" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="12" size="11"><label>3</label><node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2"><label>α</label></node><node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2"><label>β</label></node><node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="2"><label>δ</label></node><node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="2"><label>γ</label></node><node xml:id="n_gammaprime" type="hypothetical" inDegree="1" outDegree="1"><label>γ'</label></node><node xml:id="n_omega" type="hypothetical" inDegree="0" outDegree="2"><label>ω</label></node><node xml:id="n_N" type="witness" inDegree="1" outDegree="0"><label>N</label></node><node xml:id="n_x" type="witness" inDegree="1" outDegree="0"><label>x</label></node><node xml:id="n_a" type="witness" inDegree="1" outDegree="0"><label>a</label></node><node xml:id="n_d" type="witness" inDegree="1" outDegree="0"><label>d</label></node><node xml:id="n_g" type="witness" inDegree="1" outDegree="0"><label>g</label></node><node xml:id="n_r" type="witness" inDegree="1" outDegree="0"><label>r</label></node><arc xml:id="arc_1" from="#n_alpha" to="#n_N" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_alpha" to="#n_x" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_beta" to="#n_gamma" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_beta" to="#n_r" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_delta" to="#n_d" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_delta" to="#n_g" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_gamma" to="#n_gammaprime" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_gamma" to="#n_delta" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_gammaprime" to="#n_a" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_omega" to="#n_alpha" od:type="filiation" cert="unknown"/><arc xml:id="arc_11" from="#n_omega" to="#n_beta" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         </back>
   </text>
 </TEI>

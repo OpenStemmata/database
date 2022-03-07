@@ -7,8 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Florence de Rome</title>
-            <author>Wallensköld, A.</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <author>Wallensköld, A.</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -25,12 +24,10 @@
          <sourceDesc>
             <bibl type="book">
                <title>Florence de Rome, chanson d’aventure du premier quart du XIIIe siècle</title>
-               <date>1909</date>
-               <pubPlace>Paris</pubPlace>
-               <series>SATF</series>
+               <author>Wallensköld, A.</author><date>1909</date>
+               <pubPlace>Paris</pubPlace><series>SATF</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="55"/>
-               <author>Wallensköld, A.</author>
                <biblScope unit="page" n="26"/>
                <ptr type="digitised" target="https://archive.org/details/florencederome01wall/page/26"/>
             </bibl>
@@ -65,7 +62,9 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="13" size="12"><label>1</label><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_3" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_4" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_5" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="2"><label>Orig.</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D(?)</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><node xml:id="n_S" type="witness" inDegree="1" outDegree="0"><label>S</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><node xml:id="n_Q" type="witness" inDegree="1" outDegree="0"><label>Q</label></node><arc from="#n_1" to="#n_2" od:type="filiation" cert="unknown"/><arc from="#n_1" to="#n_R" od:type="filiation" cert="unknown"/><arc from="#n_2" to="#n_3" od:type="filiation" cert="unknown"/><arc from="#n_2" to="#n_5" od:type="filiation" cert="unknown"/><arc from="#n_3" to="#n_L" od:type="filiation" cert="unknown"/><arc from="#n_3" to="#n_4" od:type="filiation" cert="unknown"/><arc from="#n_4" to="#n_M" od:type="filiation" cert="unknown"/><arc from="#n_4" to="#n_D" od:type="filiation" cert="unknown"/><arc from="#n_5" to="#n_P" od:type="filiation" cert="unknown"/><arc from="#n_5" to="#n_S" od:type="filiation" cert="unknown"/><arc from="#n_O" to="#n_1" od:type="filiation" cert="unknown"/><arc from="#n_O" to="#n_Q" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="13" size="12"><label>1</label><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_3" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_4" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_5" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="2"><label>Orig.</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D(?)</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><node xml:id="n_S" type="witness" inDegree="1" outDegree="0"><label>S</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><node xml:id="n_Q" type="witness" inDegree="1" outDegree="0"><label>Q</label></node><arc xml:id="arc_1" from="#n_1" to="#n_2" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_1" to="#n_R" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_2" to="#n_3" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_2" to="#n_5" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_3" to="#n_L" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_3" to="#n_4" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_4" to="#n_M" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_4" to="#n_D" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_5" to="#n_P" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_5" to="#n_S" od:type="filiation" cert="unknown"/><arc xml:id="arc_11" from="#n_O" to="#n_1" od:type="filiation" cert="unknown"/><arc xml:id="arc_12" from="#n_O" to="#n_Q" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         </back>
   </text>
 </TEI>

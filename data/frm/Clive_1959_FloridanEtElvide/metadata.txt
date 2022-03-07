@@ -1,4 +1,4 @@
-publicationType : "article"
+publicationType : "publicationPart"
 publicationTitle : "Floridan et Elvide: a critical edition"
 publicationDate : "1957"
 publicationPlace : "Oxford"

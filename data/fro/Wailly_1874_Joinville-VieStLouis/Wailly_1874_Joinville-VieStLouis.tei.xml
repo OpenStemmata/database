@@ -7,8 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Vie de Saint Louis</title>
-            <author>Wailly, Natalis de</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0001-9094-4475">Simon Gabay</persName></respStmt></titleStmt>
+         <author>Wailly, Natalis de</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0001-9094-4475">Simon Gabay</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -25,16 +24,14 @@
          <sourceDesc>
             <bibl type="publicationPart">
                <title>Lettre à M. Gaston Paris sur le texte de Joinville</title>
-               <date>1874</date>
-               <pubPlace>Paris</pubPlace>
-               <series>Romania</series>
+               <author>Wailly, Natalis de</author><date>1874</date>
+               <pubPlace>Paris</pubPlace><series>Romania</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="3"/>
-               <author>Wailly, Natalis de</author>
                <biblScope unit="page" n="491"/>
                <ptr type="digitised" target="https://www.persee.fr/doc/roma_0035-8029_1874_num_3_12_6704"/>
             </bibl>
-            <listWit><witness xml:id="A"><label type="siglum">A</label><idno>Paris, BNF Fr. 13568</idno></witness><witness xml:id="B"><label type="siglum">B</label><note>Bruxelles MS</note></witness><witness xml:id="L"><label type="siglum">L</label><note>Lucca Ms</note></witness><witness xml:id="M"><label type="siglum">M</label><note>Early print by Menard</note></witness><witness xml:id="R"><label type="siglum">R</label><note>Early print by Rieux</note></witness></listWit>
+            <listWit><witness xml:id="w_A"><label type="siglum">A</label><idno>Paris, BNF Fr. 13568</idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B"><label type="siglum">B</label><idno></idno><origDate></origDate><origPlace></origPlace><note>Bruxelles MS</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_L"><label type="siglum">L</label><idno></idno><origDate></origDate><origPlace></origPlace><note>Lucca Ms</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_M"><label type="siglum">M</label><idno></idno><origDate></origDate><origPlace></origPlace><note>Early print by Menard</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_R"><label type="siglum">R</label><idno></idno><origDate></origDate><origPlace></origPlace><note>Early print by Rieux</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>
@@ -66,7 +63,9 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="10" size="9"><label></label><node xml:id="n_D" type="hypothetical" inDegree="0" outDegree="2"><label>D</label></node><node xml:id="n_J" type="hypothetical" inDegree="1" outDegree="2"><label>J</label></node><node xml:id="n_TD" type="hypothetical" inDegree="1" outDegree="2"><label>TD</label></node><node xml:id="n_TJ" type="hypothetical" inDegree="1" outDegree="2"><label>TJ</label></node><node xml:id="n_H" type="hypothetical" inDegree="1" outDegree="1"><label>H</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><arc from="#n_D" to="#n_J" od:type="filiation" cert="unknown"/><arc from="#n_D" to="#n_TD" od:type="filiation" cert="unknown"/><arc from="#n_J" to="#n_H" od:type="filiation" cert="unknown"/><arc from="#n_J" to="#n_TJ" od:type="filiation" cert="unknown"/><arc from="#n_TD" to="#n_M" od:type="filiation" cert="unknown"/><arc from="#n_TD" to="#n_R" od:type="filiation" cert="unknown"/><arc from="#n_TJ" to="#n_B" od:type="filiation" cert="unknown"/><arc from="#n_TJ" to="#n_L" od:type="filiation" cert="unknown"/><arc from="#n_H" to="#n_A" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="10" size="9"><label></label><node xml:id="n_D" type="hypothetical" inDegree="0" outDegree="2"><label>D</label></node><node xml:id="n_J" type="hypothetical" inDegree="1" outDegree="2"><label>J</label></node><node xml:id="n_TD" type="hypothetical" inDegree="1" outDegree="2"><label>TD</label></node><node xml:id="n_TJ" type="hypothetical" inDegree="1" outDegree="2"><label>TJ</label></node><node xml:id="n_H" type="hypothetical" inDegree="1" outDegree="1"><label>H</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><arc xml:id="arc_1" from="#n_D" to="#n_J" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_D" to="#n_TD" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_J" to="#n_H" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_J" to="#n_TJ" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_TD" to="#n_M" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_TD" to="#n_R" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_TJ" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_TJ" to="#n_L" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_H" to="#n_A" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         </back>
   </text>
 </TEI>

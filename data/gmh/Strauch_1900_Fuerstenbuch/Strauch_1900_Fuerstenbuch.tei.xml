@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Fürstenbuch</title>
+         <author>Philipp Strauch</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>the lost manuscript 9 is represented with brackets within the stemma next to the codices it is related to (3 and 4)</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="book">
+               <title>Jansen Enikels Werke</title>
+               <author>Philipp Strauch</author><date>1900</date>
+               <pubPlace>Hannover/Leipzig</pubPlace><series>Monumenta Germaniae Historica: Deutsche Chroniken und andere Geschichtsbücher des Mittelalters</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="3"/>
+               <biblScope unit="page" n="LXIII"/>
+               <ptr type="digitised" target="http://daten.digitale-sammlungen.de/bsb00000774/image_1"/>
+            </bibl>
+            <listWit><witness xml:id="w_1"><label type="siglum">1</label><msDesc><msIdentifier><settlement>Wien</settlement><repository> Österr. Nationalbibl.</repository><idno> Cod. 2733</idno></msIdentifier></msDesc><origDate>1350-1399</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_8589441&amp;order=1&amp;view=SINGLE"/></witness><witness xml:id="w_2"><label type="siglum">2</label><idno>Wien, Österr. Nationalbibl., Cod. 13897, Bl. 1-97</idno><origDate>1350-1399</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_8597512&amp;order=1&amp;view=SINGLE"/></witness><witness xml:id="w_3"><label type="siglum">3</label><msDesc><msIdentifier><settlement>Wien</settlement><repository> Österr. Nationalbibl.</repository><idno> Cod. 2778</idno></msIdentifier></msDesc><origDate>1380-1390</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_8589965&amp;order=1&amp;view=SINGLE"/></witness><witness xml:id="w_3a"><label type="siglum">3a</label><msDesc><msIdentifier><settlement>Schlierbach</settlement><repository> Stiftsbibl.</repository><idno> Cod. 27</idno></msIdentifier></msDesc><origDate>1600-1625</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_4"><label type="siglum">4</label><msDesc><msIdentifier><settlement>Wien</settlement><repository> Österr. Nationalbibl.</repository><idno> Cod. 2782</idno></msIdentifier></msDesc><origDate>1439</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_5"><label type="siglum">5</label><msDesc><msIdentifier><settlement>Prag</settlement><repository> Nationalbibl.</repository><idno> Cod. XXIII.G.50</idno></msIdentifier></msDesc><origDate>1300-1399</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_6"><label type="siglum">6</label><msDesc><msIdentifier><settlement>Berlin</settlement><repository> Staatsbibl.</repository><idno> mgq 1680</idno></msIdentifier></msDesc><origDate>1300-1499</origDate><origPlace></origPlace><note>used to be known as Cheltenham, Bibl. Phillippica, Ms. 11545</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_7"><label type="siglum">7</label><idno>Linz, Landesarchiv, Schlüsselberger Archiv, Hs. 57</idno><origDate>1380-1420</origDate><origPlace></origPlace><note>fragment</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_9"><label type="siglum">9</label><idno></idno><origDate></origDate><origPlace></origPlace><note>lost manuscript</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/208714182">Fürstenbuch</title>
+           <persName role="author" ref="http://viaf.org/9992038">Jans der Enikel</persName>
+           <origDate>1280-1290</origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">chronicle</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">yes</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">original</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="gmh"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Strauch_1900_Fuerstenbuch/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="16" size="17"><label></label><node xml:id="n_Original" type="hypothetical" inDegree="0" outDegree="1"><label>Original</label></node><node xml:id="n_Archetypus" type="hypothetical" inDegree="1" outDegree="2"><label>Archetypus</label></node><node xml:id="n_A" type="hypothetical" inDegree="1" outDegree="2"><label>A</label></node><node xml:id="n_B" type="hypothetical" inDegree="1" outDegree="2"><label>B</label></node><node xml:id="n_lostmanuscript9" type="witness" inDegree="1" outDegree="0"><label>(9)</label></node><node xml:id="n_dreia" type="witness" inDegree="1" outDegree="0"><label>3ª</label></node><node xml:id="n_Vorlage34" type="hypothetical" inDegree="1" outDegree="3"><label></label></node><node xml:id="n_Vorlage234" type="hypothetical" inDegree="2" outDegree="2"><label></label></node><node xml:id="n_Vorlage67" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_1" type="witness" inDegree="1" outDegree="0"><label>1</label></node><node xml:id="n_2" type="witness" inDegree="1" outDegree="0"><label>2</label></node><node xml:id="n_3" type="witness" inDegree="2" outDegree="1"><label>3</label></node><node xml:id="n_4" type="witness" inDegree="1" outDegree="0"><label>4</label></node><node xml:id="n_5" type="witness" inDegree="1" outDegree="0"><label>5</label></node><node xml:id="n_6" type="witness" inDegree="1" outDegree="2"><label>6</label></node><node xml:id="n_7" type="witness" inDegree="1" outDegree="0"><label>7</label></node><arc xml:id="arc_1" from="#n_Original" to="#n_Archetypus" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_Archetypus" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_Archetypus" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_A" to="#n_1" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_A" to="#n_Vorlage234" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_B" to="#n_5" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_B" to="#n_Vorlage67" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_Vorlage34" to="#n_3" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_Vorlage34" to="#n_4" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_Vorlage34" to="#n_lostmanuscript9" od:type="filiation" cert="unknown"/><arc xml:id="arc_11" from="#n_Vorlage234" to="#n_2" od:type="filiation" cert="unknown"/><arc xml:id="arc_12" from="#n_Vorlage234" to="#n_Vorlage34" od:type="filiation" cert="unknown"/><arc xml:id="arc_13" from="#n_Vorlage67" to="#n_6" od:type="filiation" cert="unknown"/><arc xml:id="arc_14" from="#n_Vorlage67" to="#n_7" od:type="filiation" cert="unknown"/><arc xml:id="arc_15" from="#n_3" to="#n_dreia" od:type="filiation" cert="unknown"/><arc xml:id="arc_16" from="#n_6" to="#n_3" od:type="contamination" cert="unknown"/><arc xml:id="arc_17" from="#n_6" to="#n_Vorlage234" od:type="contamination" cert="unknown"/></graph>
+      </body>
+      <back>
+         </back>
+  </text>
+</TEI>

@@ -25,7 +25,6 @@
             <bibl>
                <title></title>
                <date></date>
-               <pubPlace></pubPlace>
                <series></series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
@@ -66,5 +65,9 @@
       <body>
          <graph></graph>
       </body>
+      <back>
+         <noteGrp>
+         </noteGrp>
+      </back>
   </text>
 </TEI>

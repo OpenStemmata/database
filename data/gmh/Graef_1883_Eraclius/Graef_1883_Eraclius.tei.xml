@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Eraclius</title>
+         <author>Graef, Harald</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note></note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="book">
+               <title>Eraclius. Deutsches Gedicht des dreizehnten Jahrhunderts</title>
+               <author>Graef, Harald</author><date>1883</date>
+               <pubPlace>Straßburg</pubPlace><series>Quellen und Forschungen zur Sprach- und Kulturgeschichte der germanischen Völker</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="50"/>
+               <biblScope unit="page" n="22"/>
+               <ptr type="digitised" target="https://archive.org/details/eracliusdeutsche00otteuoft"/>
+            </bibl>
+            <listWit><witness xml:id="w_A"><label type="siglum">A</label><msDesc><msIdentifier><settlement>Wien</settlement><repository> Österr. Nationalbibl.</repository><idno> Cod. 2693</idno></msIdentifier></msDesc><origDate>1275-1299</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_6197599&amp;order=1&amp;view=SINGLE"/></witness><witness xml:id="w_B"><label type="siglum">B</label><msDesc><msIdentifier><settlement>München</settlement><repository> Staatsbibl.</repository><idno> Cgm 57</idno></msIdentifier></msDesc><origDate>1300-1350</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://daten.digitale-sammlungen.de/~db/0009/bsb00095927/images/"/></witness></listWit>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/1540145424661186831375">Eraclius</title>
+           <persName role="author" ref="http://viaf.org/281661579">Otte</persName>
+           <origDate>1200-1230</origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre"></term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">original</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="gmh"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Graef_1883_Eraclius/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="4" size="3"><label></label><node xml:id="n_x" type="hypothetical" inDegree="0" outDegree="1"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><arc xml:id="arc_1" from="#n_x" to="#n_y" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_y" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_y" to="#n_B" od:type="filiation" cert="unknown"/></graph>
+      </body>
+      <back>
+         </back>
+  </text>
+</TEI>

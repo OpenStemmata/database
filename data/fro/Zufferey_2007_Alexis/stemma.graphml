@@ -23,17 +23,21 @@
   <data key="d0">grey</data>
   <data key="d1"></data>
 </node>
+<node id="P2">
+  <data key="d1">P₂</data>
+</node>
+<node id="M2">
+  <data key="d1">M₂</data>
+</node>
 <node id="a"/>
 <node id="A"/>
 <node id="L"/>
 <node id="V"/>
 <node id="b"/>
 <node id="i"/>
-<node id="P₂"/>
 <node id="P"/>
 <node id="S"/>
 <node id="M"/>
-<node id="M₂"/>
 <edge source="omegaUn" target="omegaDeux">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
@@ -62,7 +66,7 @@
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
-<edge source="EmpytOne" target="P₂">
+<edge source="EmpytOne" target="P2">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
@@ -74,7 +78,7 @@
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
-<edge source="EmpytTwo" target="M₂">
+<edge source="EmpytTwo" target="M2">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>

@@ -1,4 +1,4 @@
-publicationType : "chapter"
+publicationType : "publicationPart"
 publicationTitle : "Überlieferung der griechischen klassischen und hellenistischen Literatur"
 publicationDate : "1961"
 publicationPlace : "Zürich"
