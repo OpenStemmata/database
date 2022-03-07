@@ -171,7 +171,7 @@ if len(sys.argv) > 1:
                 cont = re.findall('"([^"]*)"', line)[0]
                 graphLabel = et.SubElement(graph, 'label')
                 graphLabel.text = cont
-            elif re.match('^[\s]*publicationAuthor', line):
+            elif re.match('^[\s-]*publicationAuthor', line):
                 cont = re.findall('"([^"]*)"', line)
                 if len(cont) > 0:
                     cont = cont[0]
