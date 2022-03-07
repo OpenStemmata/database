@@ -7,7 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Guiron le Courtois</title>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <author>Trachsler, Richard</author><author>Leonardi, Lino</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,7 +24,7 @@
          <sourceDesc>
             <bibl type="publicationPart">
                <title>L’édition critique des romans en prose : le cas de Guiron le Courtois</title>
-               <date>2015</date>
+               <author>Trachsler, Richard</author><author>Leonardi, Lino</author><date>2015</date>
                <pubPlace></pubPlace><series>Manuel de la philologie de l’édition</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
