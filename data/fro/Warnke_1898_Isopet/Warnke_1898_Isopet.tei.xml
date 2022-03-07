@@ -7,7 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Les fables de Marie de France</title>
-         <author>Warnke, Karl</author></titleStmt>
+         <author>Warnke, Karl</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0001-9094-4475">Simon Gabays</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
