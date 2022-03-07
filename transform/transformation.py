@@ -46,10 +46,18 @@ if len(sys.argv) > 1:
         lines = dot.readlines()
         nodes = {}
         edges = []
-        for line in lines:
+        for fullline in lines:
+            comments = re.split('#', fullline)
+            if len(comments) > 1: 
+                comment = comments[1]
+                line = comments[0]
+            else:
+                comment = ''
+                line = fullline
             noAttrib = re.sub('\'.+?\'', '', line) 
             noAttrib = re.sub('".+?"', '', line)
             if "->" in noAttrib or "--" in noAttrib:
+                # If this is an edge
                 origin = re.split('->', noAttrib)[0].strip()
                 dest = re.split('->', noAttrib)[1].strip()
                 if '[' in dest:
@@ -70,15 +78,21 @@ if len(sys.argv) > 1:
                         elif attr[0] == 'color':
                             if attr[1] == 'red':
                                 edge_attr['cert'] = 'low'
-
+                if comment != '':
+                    edge_attr['note'] = comment
                 edges.append((origin,dest, edge_attr))
                 
-            elif '[' in noAttrib:
+            else:
+            # If this is a node
                 node = re.split('\[', noAttrib)[0].strip()
-                nodes[node] = {}
-                attributes = re.findall(attributes_regex, line)    
-                for attr in attributes:
-                    nodes[node][attr[0]] = attr[1]
+                if '[' in noAttrib:
+                    nodes[node] = {}
+                    attributes = re.findall(attributes_regex, line)    
+                    for attr in attributes:
+                        nodes[node][attr[0]] = attr[1]
+                if comment != '':
+                    nodes[node]['note'] = comment
+            
 
     nodes = [ (x,nodes[x]) for x in nodes ]
 
@@ -90,31 +104,33 @@ if len(sys.argv) > 1:
     nx.write_graphml(G, '/'.join(path) + '/' + 'stemma.graphml', encoding="utf-8")
 
 
-    tree = et.parse('./transform/template.tei.xml')
-    root = tree.getroot()
-
     ns = {'tei': 'http://www.tei-c.org/ns/1.0', 'od': 'http://openstemmata.github.io/odd.html' }
     et.register_namespace('tei', 'http://www.tei-c.org/ns/1.0')
     et.register_namespace('od', 'http://openstemmata.github.io/odd.html')
 
+    tree = et.parse('./transform/template.tei.xml')
+    root = tree.getroot()
+
+    # Useful TEI elements
+    titleStmt = root.find('.//tei:teiHeader/tei:fileDesc/tei:titleStmt', ns)
+    # respStmt = root.find('.//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt', ns)
+    bibl = root.find('.//tei:bibl', ns)
+    creation = root.find('./tei:teiHeader/tei:profileDesc/tei:creation', ns)
+    keywords = root.find('./tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords', ns)
+    listWit = root.find('./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listWit', ns)
+    # date = root.find('./tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:data', ns)
+    graph = root.find('.//tei:graph', ns)
+    noteGrp = root.find('./tei:text/tei:back/tei:noteGrp', ns)
+
+    #This is useful for the url of the graphic element
+    facsimileLink = "https://github.com/OpenStemmata/database/blob/main/data/"
+    facsimileLinkBase = "https://github.com/OpenStemmata/database/blob/main/data/"
+
+    
+
     # TEIHEADER
     with codecs.open(txtFile, 'r', 'utf-8') as metadatafile:
         metadata = metadatafile.readlines()
-        titleStmt = root.find('.//tei:teiHeader/tei:fileDesc/tei:titleStmt', ns)
-        # respStmt = root.find('.//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt', ns)
-        bibl = root.find('.//tei:bibl', ns)
-        creation = root.find('./tei:teiHeader/tei:profileDesc/tei:creation', ns)
-        keywords = root.find('./tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords', ns)
-        listWit = root.find('./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listWit', ns)
-        # date = root.find('./tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:data', ns)
-        graph = root.find('.//tei:graph', ns)
-
-        #This is useful for the url of the graphic element
-        facsimileLink = "https://github.com/OpenStemmata/database/blob/main/data/"
-        facsimileLinkBase = "https://github.com/OpenStemmata/database/blob/main/data/"
-
-
-
         for line in metadata:
             if re.match('^[\s]*publicationType', line):
                 cont = re.findall('"([^"]*)"', line)
@@ -339,23 +355,33 @@ if len(sys.argv) > 1:
                 nodeEl.attrib['type'] = 'witness'
         else:
             nodeEl.attrib['type'] = 'witness'
+        if 'note' in node[1]:
+            note = et.SubElement(noteGrp, 'note', attrib={'target': "#n_" + node[0]})
+            note.text = node[1]['note'].strip()
         in_degree = G.in_degree(node[0])
         out_degree = G.out_degree(node[0])
         nodeEl.attrib['inDegree'] = str(in_degree)
         nodeEl.attrib['outDegree'] = str(out_degree)
         
 
-                
+    edge_number = 0
     for edge in G.edges(data=True):
-        edgeEl = et.SubElement(graph, 'arc', attrib= {'from': "#n_" + edge[0], 
-            'to': "#n_" + edge[1],})
-        
+        edge_number += 1
+        edge_id = 'arc_' + str(edge_number)
+        edgeEl = et.SubElement(graph, 'arc', 
+        attrib= {'{http://www.w3.org/XML/1998/namespace}id': edge_id, 
+            'from': "#n_" + edge[0], 
+            'to': "#n_" + edge[1]}
+            )
         if 'type' in edge[2]:
             edgeEl.attrib["{http://openstemmata.github.io/odd.html}type"] = edge[2]['type']
         else:
             edgeEl.attrib['{http://openstemmata.github.io/odd.html}type'] = 'filiation' 
         if 'cert' in edge[2]:
             edgeEl.attrib["cert"] = edge[2]['cert']
+        if 'note' in edge[2]:
+            note = et.SubElement(noteGrp, 'note', attrib={'target': '#' + edge_id})
+            note.text = edge[2]['note'].strip()
         
 
 
