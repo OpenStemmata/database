@@ -7,7 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Anseÿs de Gascogne</title>
-         <author>Herbin, Jean-Charles; Triaud, Annie</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0001-9094-4475">Simon Gabay</persName></respStmt></titleStmt>
+         <author>Triaud, Annie</author><author>Herbin, Jean-Charles</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0001-9094-4475">Simon Gabay</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -24,7 +24,7 @@
          <sourceDesc>
             <bibl type="book">
                <title>Anseÿs de Gascogne</title>
-               <author>Herbin, Jean-Charles; Triaud, Annie</author><date>2018</date>
+               <author>Triaud, Annie</author><author>Herbin, Jean-Charles</author><date>2018</date>
                <pubPlace>Paris</pubPlace><series>Classiques français du Moyen Âge</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="184"/>
