@@ -98,7 +98,6 @@ wits:
       witDigit: ""
     - witSigla: "N1"
       witSignature: "Nürnberg, Germanisches Nationalmuseum Bibliothek, Hs. 4365a"
-      witSignature: "Würzburg, Universitätsbibl., Dt. Fragm. 2"
       witOrigDate: ""
       witOrigPlace: ""
       witNotes: "Fragment from same original as N2"
