@@ -231,7 +231,7 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="D" target="M">
-  <data key="d2">contamination</data>
+  <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
 </graph></graphml>
