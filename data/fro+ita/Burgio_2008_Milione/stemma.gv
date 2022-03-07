@@ -1,7 +1,4 @@
-# Place the cursor inside "graph" to get some refactoring options
-
 digraph {
-    # Greek letters/hypothetical links
     omega[color="grey", label="ω"]
     alpha[color="grey", label="α"]
     beta[color="grey", label="β"]
