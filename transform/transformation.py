@@ -171,17 +171,19 @@ if len(sys.argv) > 1:
                 graphLabel = et.SubElement(graph, 'label')
                 graphLabel.text = cont
             elif re.match('^[\s]*publicationAuthor', line):
-                cont = re.findall('"([^"]*)"', line)[0]
-                author_el1 = et.Element('author')
-                author_el1.text = cont
-                author_el2 = et.Element('author')
-                author_el2.text = cont
-                bibl.insert(0, author_el1)
-                titleStmt.insert(2, author_el2)
-                # el = et.SubElement(bibl, 'author')
-                # el.text = cont
-                # el2 = et.SubElement(titleStmt, 'author')
-                # el2.text = cont
+                cont = re.findall('"([^"]*)"', line)
+                if len(cont) > 0:
+                    cont = cont[0]
+                    author_el1 = et.Element('author')
+                    author_el1.text = cont
+                    author_el2 = et.Element('author')
+                    author_el2.text = cont
+                    bibl.insert(0, author_el1)
+                    titleStmt.insert(2, author_el2)
+                    # el = et.SubElement(bibl, 'author')
+                    # el.text = cont
+                    # el2 = et.SubElement(titleStmt, 'author')
+                    # el2.text = cont
             elif re.match('^[\s]*publicationPage', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = bibl.find('./tei:biblScope[@unit="page"]', ns)
