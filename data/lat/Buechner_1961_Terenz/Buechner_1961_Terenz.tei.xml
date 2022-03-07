@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/updateTransform/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/updateTransform/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
       <fileDesc>
@@ -22,7 +22,7 @@
             <note>C, P and F are illustrated, A has been corrected several times, most manuscripts can be sorted into group γ (C, P, F, λ, ν, π, η, ε) or group δ (D, G, L, p, V, α), the six comedies appear in different sequences in A, γ and δ, Probus commented several copies, some quotes were passed on through Cicero's and Varro's works, both read a worse textversion than us</note>
          </notesStmt>
          <sourceDesc>
-            <bibl type="chapter">
+            <bibl type="publicationPart">
                <title>Überlieferungsgeschichte der lateinischen Literatur des Altertums</title>
                <author>Büchner, Karl</author><date>1961</date>
                <pubPlace>Zürich</pubPlace><series>Geschichte der Textüberlieferung der antiken und mittelalterlichen Literatur</series>

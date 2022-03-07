@@ -19,7 +19,7 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note></note>
+            <note/>
          </notesStmt>
          <sourceDesc>
             <bibl>
@@ -31,8 +31,7 @@
                <biblScope unit="page" n=""/>
                <ptr type="digitised"/>
             </bibl>
-            <listWit><witness><idno></idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
-         </sourceDesc>
+            </sourceDesc>
       </fileDesc>
      <profileDesc>
         <creation>

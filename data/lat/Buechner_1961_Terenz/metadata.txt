@@ -1,4 +1,4 @@
-publicationType : "chapter"
+publicationType : "publicationPart"
 publicationTitle : "Überlieferungsgeschichte der lateinischen Literatur des Altertums"
 publicationDate : "1961"
 publicationPlace : "Zürich"

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/updateTransform/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/updateTransform/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
       <fileDesc>
@@ -22,7 +22,7 @@
             <note>important representants of the manuscripts that are dependent on M (Recentiores) are A (Paris, Bibliothèque nationale de France, grec 2403, end of 13c) and the edition of Maximos Planudes (in several manuscripts preserved, after 1300), both A and the Planudes-edition correct M several times, these correction were probably possible through the collation with x</note>
          </notesStmt>
          <sourceDesc>
-            <bibl type="chapter">
+            <bibl type="publicationPart">
                <title>Überlieferungsgeschichte der griechischen klassischen und hellenistischen Literatur</title>
                <author>Erbse, Hartmut</author><date>1961</date>
                <pubPlace>Zürich</pubPlace><series>Geschichte der Textüberlieferung der antiken und mittelalterlichen Literatur</series>

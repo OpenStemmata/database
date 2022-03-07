@@ -17,13 +17,3 @@ stemmaType : "reconstructed"
 contam : "yes"
 extraStemmContam : "no"
 rootType : "unspecified"
-note : ""
-wits:
-    - witSigla: ""
-      witSignature: ""
-      witOrigDate: ""
-      witOrigPlace: ""
-      witNotes: ""
-      witMsDesc: ""
-      witDigit: ""
-# Great, now copy and paste me in a metadata.txt file for your submission !

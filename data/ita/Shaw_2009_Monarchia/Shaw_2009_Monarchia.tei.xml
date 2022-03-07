@@ -1,71 +1,236 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<<<<<<< Updated upstream
 <?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
+=======
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/updateTransform/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/updateTransform/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:od="http://openstemmata.github.io/odd.html">
+   <teiHeader>
+>>>>>>> Stashed changes
       <fileDesc>
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">De monarchia</title>
-         <author>Shaw, Prue</author></titleStmt>
+            <author>Shaw, Prue</author>
+         </titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
                <ptr target="https://openstemmata.github.io/"/>
             </authority>
-            <date/><!-- File creation date? -->
+            <date/>
+            <!-- File creation date? -->
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note></note>
+            <note/>
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
                <title>Monarchia</title>
-               <author>Shaw, Prue</author><date>2009</date>
-               <pubPlace>Florence</pubPlace><series>5</series>
+               <author>Shaw, Prue</author>
+               <date>2009</date>
+               <pubPlace>Florence</pubPlace>
+               <series>5</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
                <biblScope unit="page" n=""/>
                <ptr type="digitised" target=""/>
             </bibl>
-            <listWit><witness><idno></idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
          </sourceDesc>
       </fileDesc>
-     <profileDesc>
-        <creation>
-           <title ref="http://viaf.org/1146708017800840112">De monarchia</title>
-           <persName role="author" ref="http://viaf.org/97105654">Dante</persName>
-           <origDate>1312</origDate>
-           <origPlace>Florence</origPlace>
-        </creation>
-        <textClass>
-           <keywords>
-              <term type="workGenre">Voyage</term>
-              <term type="stemmaType">reconstructed</term>
-              <term type="contam">no</term>
-              <term type="extraStemmContam">no</term>
-              <term type="rootType">unspecified</term>
-           </keywords>
-        </textClass>
-        <langUsage>
-           <language ident="ita"/>
-        </langUsage>
-     </profileDesc>
-     <revisionDesc>
-        <change/>
-     </revisionDesc>
-  </teiHeader>
-  <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/ita/Shaw_2009_Monarchia/stemma.png?raw=true"/>
-  </facsimile>
-  <text>
+      <profileDesc>
+         <creation>
+            <title ref="http://viaf.org/1146708017800840112">De monarchia</title>
+            <persName role="author" ref="http://viaf.org/97105654">Dante</persName>
+            <origDate>1312</origDate>
+            <origPlace>Florence</origPlace>
+         </creation>
+         <textClass>
+            <keywords>
+               <term type="workGenre">Voyage</term>
+               <term type="stemmaType">reconstructed</term>
+               <term type="contam">no</term>
+               <term type="extraStemmContam">no</term>
+               <term type="rootType">unspecified</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ita"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="https://github.com/OpenStemmata/database/blob/main/data/ita/Shaw_2009_Monarchia/stemma.png?raw=true"/>
+   </facsimile>
+   <text>
       <body>
-         <graph type="directed" order="38" size="38"><label></label><node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2"><label>α</label></node><node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="3"><label>β</label></node><node xml:id="n_A1" type="witness" inDegree="1" outDegree="0"><label>A¹</label></node><node xml:id="n_A2" type="witness" inDegree="1" outDegree="0"><label>A²</label></node><node xml:id="n_B1" type="hypothetical" inDegree="1" outDegree="2"><label>β1</label></node><node xml:id="n_B2" type="hypothetical" inDegree="1" outDegree="2"><label>β2</label></node><node xml:id="n_B3" type="hypothetical" inDegree="1" outDegree="3"><label>β3</label></node><node xml:id="n_B4" type="hypothetical" inDegree="1" outDegree="3"><label>β4</label></node><node xml:id="n_x1" type="hypothetical" inDegree="1" outDegree="2"><label>x1</label></node><node xml:id="n_x2" type="hypothetical" inDegree="1" outDegree="2"><label>x2</label></node><node xml:id="n_x3" type="hypothetical" inDegree="1" outDegree="2"><label>x3</label></node><node xml:id="n_x4" type="hypothetical" inDegree="1" outDegree="2"><label>x4</label></node><node xml:id="n_x5" type="hypothetical" inDegree="1" outDegree="2"><label>x5</label></node><node xml:id="n_x6" type="hypothetical" inDegree="1" outDegree="2"><label>x6</label></node><node xml:id="n_x7" type="hypothetical" inDegree="1" outDegree="2"><label>x7</label></node><node xml:id="n_Uetoile" type="witness" inDegree="1" outDegree="0"><label>U*</label></node><node xml:id="n_etoile" type="hypothetical" inDegree="1" outDegree="2"><label>*</label></node><node xml:id="n_autographe" type="witness" inDegree="0" outDegree="1"><label>autographe</label></node><node xml:id="n_Archetype" type="witness" inDegree="1" outDegree="3"><label>Archetype</label></node><node xml:id="n_K" type="witness" inDegree="1" outDegree="0"><label>K</label></node><node xml:id="n_T" type="witness" inDegree="1" outDegree="0"><label>T</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="1"><label>L</label></node><node xml:id="n_Q" type="witness" inDegree="1" outDegree="0"><label>Q</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><node xml:id="n_F" type="witness" inDegree="1" outDegree="0"><label>F</label></node><node xml:id="n_N" type="witness" inDegree="1" outDegree="0"><label>N</label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="1"><label>E</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><node xml:id="n_V" type="witness" inDegree="1" outDegree="0"><label>V</label></node><node xml:id="n_Ph" type="witness" inDegree="1" outDegree="0"><label>Ph</label></node><node xml:id="n_G" type="witness" inDegree="1" outDegree="0"><label>G</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="1"><label>D</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_M" type="witness" inDegree="2" outDegree="0"><label>M</label></node><node xml:id="n_S" type="witness" inDegree="1" outDegree="0"><label>S</label></node><node xml:id="n_H" type="witness" inDegree="1" outDegree="0"><label>H</label></node><node xml:id="n_Z" type="witness" inDegree="1" outDegree="0"><label>Z</label></node><arc xml:id="arc_1" from="#n_alpha" to="#n_T" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_alpha" to="#n_A1" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_beta" to="#n_B1" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_beta" to="#n_etoile" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_beta" to="#n_B4" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_B1" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_B1" to="#n_L" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_B2" to="#n_P" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_B2" to="#n_x1" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_B3" to="#n_x2" od:type="filiation" cert="unknown"/><arc xml:id="arc_11" from="#n_B3" to="#n_E" od:type="filiation" cert="unknown"/><arc xml:id="arc_12" from="#n_B3" to="#n_A2" od:type="filiation" cert="unknown"/><arc xml:id="arc_13" from="#n_B4" to="#n_x5" od:type="filiation" cert="unknown"/><arc xml:id="arc_14" from="#n_B4" to="#n_x7" od:type="filiation" cert="unknown"/><arc xml:id="arc_15" from="#n_B4" to="#n_Uetoile" od:type="filiation" cert="unknown"/><arc xml:id="arc_16" from="#n_x1" to="#n_F" od:type="filiation" cert="unknown"/><arc xml:id="arc_17" from="#n_x1" to="#n_N" od:type="filiation" cert="unknown"/><arc xml:id="arc_18" from="#n_x2" to="#n_x3" od:type="filiation" cert="unknown"/><arc xml:id="arc_19" from="#n_x2" to="#n_x4" od:type="filiation" cert="unknown"/><arc xml:id="arc_20" from="#n_x3" to="#n_V" od:type="filiation" cert="unknown"/><arc xml:id="arc_21" from="#n_x3" to="#n_Ph" od:type="filiation" cert="unknown"/><arc xml:id="arc_22" from="#n_x4" to="#n_G" od:type="filiation" cert="unknown"/><arc xml:id="arc_23" from="#n_x4" to="#n_D" od:type="filiation" cert="unknown"/><arc xml:id="arc_24" from="#n_x5" to="#n_C" od:type="filiation" cert="unknown"/><arc xml:id="arc_25" from="#n_x5" to="#n_x6" od:type="filiation" cert="unknown"/><arc xml:id="arc_26" from="#n_x6" to="#n_M" od:type="filiation" cert="unknown"/><arc xml:id="arc_27" from="#n_x6" to="#n_S" od:type="filiation" cert="unknown"/><arc xml:id="arc_28" from="#n_x7" to="#n_H" od:type="filiation" cert="unknown"/><arc xml:id="arc_29" from="#n_x7" to="#n_Z" od:type="filiation" cert="unknown"/><arc xml:id="arc_30" from="#n_etoile" to="#n_B2" od:type="filiation" cert="unknown"/><arc xml:id="arc_31" from="#n_etoile" to="#n_B3" od:type="filiation" cert="unknown"/><arc xml:id="arc_32" from="#n_autographe" to="#n_Archetype" od:type="filiation" cert="unknown"/><arc xml:id="arc_33" from="#n_Archetype" to="#n_K" od:type="filiation" cert="unknown"/><arc xml:id="arc_34" from="#n_Archetype" to="#n_alpha" od:type="filiation" cert="unknown"/><arc xml:id="arc_35" from="#n_Archetype" to="#n_beta" od:type="filiation" cert="unknown"/><arc xml:id="arc_36" from="#n_L" to="#n_Q" od:type="filiation" cert="unknown"/><arc xml:id="arc_37" from="#n_E" to="#n_R" od:type="filiation" cert="unknown"/><arc xml:id="arc_38" from="#n_D" to="#n_M" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="38" size="38">
+            <label></label>
+            <node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2">
+               <label>α</label>
+            </node>
+            <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="3">
+               <label>β</label>
+            </node>
+            <node xml:id="n_A1" type="witness" inDegree="1" outDegree="0">
+               <label>A¹</label>
+            </node>
+            <node xml:id="n_A2" type="witness" inDegree="1" outDegree="0">
+               <label>A²</label>
+            </node>
+            <node xml:id="n_B1" type="hypothetical" inDegree="1" outDegree="2">
+               <label>β1</label>
+            </node>
+            <node xml:id="n_B2" type="hypothetical" inDegree="1" outDegree="2">
+               <label>β2</label>
+            </node>
+            <node xml:id="n_B3" type="hypothetical" inDegree="1" outDegree="3">
+               <label>β3</label>
+            </node>
+            <node xml:id="n_B4" type="hypothetical" inDegree="1" outDegree="3">
+               <label>β4</label>
+            </node>
+            <node xml:id="n_x1" type="hypothetical" inDegree="1" outDegree="2">
+               <label>x1</label>
+            </node>
+            <node xml:id="n_x2" type="hypothetical" inDegree="1" outDegree="2">
+               <label>x2</label>
+            </node>
+            <node xml:id="n_x3" type="hypothetical" inDegree="1" outDegree="2">
+               <label>x3</label>
+            </node>
+            <node xml:id="n_x4" type="hypothetical" inDegree="1" outDegree="2">
+               <label>x4</label>
+            </node>
+            <node xml:id="n_x5" type="hypothetical" inDegree="1" outDegree="2">
+               <label>x5</label>
+            </node>
+            <node xml:id="n_x6" type="hypothetical" inDegree="1" outDegree="2">
+               <label>x6</label>
+            </node>
+            <node xml:id="n_x7" type="hypothetical" inDegree="1" outDegree="2">
+               <label>x7</label>
+            </node>
+            <node xml:id="n_Uetoile" type="witness" inDegree="1" outDegree="0">
+               <label>U*</label>
+            </node>
+            <node xml:id="n_etoile" type="hypothetical" inDegree="1" outDegree="2">
+               <label>*</label>
+            </node>
+            <node xml:id="n_autographe" type="witness" inDegree="0" outDegree="1">
+               <label>autographe</label>
+            </node>
+            <node xml:id="n_Archetype" type="witness" inDegree="1" outDegree="3">
+               <label>Archetype</label>
+            </node>
+            <node xml:id="n_K" type="witness" inDegree="1" outDegree="0">
+               <label>K</label>
+            </node>
+            <node xml:id="n_T" type="witness" inDegree="1" outDegree="0">
+               <label>T</label>
+            </node>
+            <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+               <label>B</label>
+            </node>
+            <node xml:id="n_L" type="witness" inDegree="1" outDegree="1">
+               <label>L</label>
+            </node>
+            <node xml:id="n_Q" type="witness" inDegree="1" outDegree="0">
+               <label>Q</label>
+            </node>
+            <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+               <label>P</label>
+            </node>
+            <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+               <label>F</label>
+            </node>
+            <node xml:id="n_N" type="witness" inDegree="1" outDegree="0">
+               <label>N</label>
+            </node>
+            <node xml:id="n_E" type="witness" inDegree="1" outDegree="1">
+               <label>E</label>
+            </node>
+            <node xml:id="n_R" type="witness" inDegree="1" outDegree="0">
+               <label>R</label>
+            </node>
+            <node xml:id="n_V" type="witness" inDegree="1" outDegree="0">
+               <label>V</label>
+            </node>
+            <node xml:id="n_Ph" type="witness" inDegree="1" outDegree="0">
+               <label>Ph</label>
+            </node>
+            <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+               <label>G</label>
+            </node>
+            <node xml:id="n_D" type="witness" inDegree="1" outDegree="1">
+               <label>D</label>
+            </node>
+            <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+               <label>C</label>
+            </node>
+            <node xml:id="n_M" type="witness" inDegree="2" outDegree="0">
+               <label>M</label>
+            </node>
+            <node xml:id="n_S" type="witness" inDegree="1" outDegree="0">
+               <label>S</label>
+            </node>
+            <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+               <label>H</label>
+            </node>
+            <node xml:id="n_Z" type="witness" inDegree="1" outDegree="0">
+               <label>Z</label>
+            </node>
+            <arc xml:id="arc_1" from="#n_alpha" to="#n_T" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_2" from="#n_alpha" to="#n_A1" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_3" from="#n_beta" to="#n_B1" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_4" from="#n_beta" to="#n_etoile" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_5" from="#n_beta" to="#n_B4" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_6" from="#n_B1" to="#n_B" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_7" from="#n_B1" to="#n_L" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_8" from="#n_B2" to="#n_P" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_9" from="#n_B2" to="#n_x1" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_10" from="#n_B3" to="#n_x2" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_11" from="#n_B3" to="#n_E" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_12" from="#n_B3" to="#n_A2" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_13" from="#n_B4" to="#n_x5" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_14" from="#n_B4" to="#n_x7" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_15" from="#n_B4" to="#n_Uetoile" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_16" from="#n_x1" to="#n_F" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_17" from="#n_x1" to="#n_N" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_18" from="#n_x2" to="#n_x3" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_19" from="#n_x2" to="#n_x4" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_20" from="#n_x3" to="#n_V" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_21" from="#n_x3" to="#n_Ph" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_22" from="#n_x4" to="#n_G" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_23" from="#n_x4" to="#n_D" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_24" from="#n_x5" to="#n_C" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_25" from="#n_x5" to="#n_x6" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_26" from="#n_x6" to="#n_M" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_27" from="#n_x6" to="#n_S" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_28" from="#n_x7" to="#n_H" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_29" from="#n_x7" to="#n_Z" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_30" from="#n_etoile" to="#n_B2" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_31" from="#n_etoile" to="#n_B3" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_32" from="#n_autographe" to="#n_Archetype" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_33" from="#n_Archetype" to="#n_K" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_34" from="#n_Archetype" to="#n_alpha" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_35" from="#n_Archetype" to="#n_beta" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_36" from="#n_L" to="#n_Q" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_37" from="#n_E" to="#n_R" od:type="filiation" cert="unknown"/>
+            <arc xml:id="arc_38" from="#n_D" to="#n_M" od:type="filiation" cert="unknown"/>
+         </graph>
       </body>
       <back>
-         </back>
-  </text>
+      </back>
+   </text>
 </TEI>

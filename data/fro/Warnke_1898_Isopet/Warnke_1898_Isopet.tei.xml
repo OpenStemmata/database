@@ -19,7 +19,7 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note>Le résultat  n’est pas bon…</note>
+            <note></note>
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
@@ -31,8 +31,7 @@
                <biblScope unit="page" n=""/>
                <ptr type="digitised" target=""/>
             </bibl>
-            <listWit><witness><idno></idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
-         </sourceDesc>
+            </sourceDesc>
       </fileDesc>
      <profileDesc>
         <creation>
