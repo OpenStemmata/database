@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Jaufré</title>
+         <author>Brunel, Clovis</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Quotation from Brunel: »Les deux manuscrits complets (A et B) n’offrent pas de fautes communes. Le texte est, dans A, plus long d'une vingtaine de vers. Aucune influence d'un manuscrit sur l'autre ne se révèle. Quant aux extraits et aux fragments, ils se groupent assez bien en deux branches, l'une de tradition languedocienne ou provençale, e et f qui s'apparente à A, l'autre, c et d, de tradition italienne, qui est solidaire de B, mais s'oppose à lui avec assez de netteté pour obliger à admettre une origine propre aux passages insérés dans les chansonniers.« The manuscripts g and h were not known at the time and are not part of the stemma.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="book">
+               <title>Jaufré: Roman Arthurien Du XIIIe siècle an vers provençaux.</title>
+               <author>Brunel, Clovis</author><date>1943</date>
+               <pubPlace>Paris</pubPlace><series></series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="1"/>
+               <biblScope unit="page" n="XXXI"/>
+               <ptr type="digitised" target="https://archive.org/details/JaufreTomeI/mode/2up"/>
+            </bibl>
+            <listWit><witness xml:id="w_A"><label type="siglum">A</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BNF</repository><idno> fr. 2164</idno></msIdentifier></msDesc><origDate>1267-1332</origDate><origPlace>France, around Nîmes</origPlace><note>F. 1-110 of the manuscript</note><ptr type="description" target="https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/2164.html#F1"/><ptr type="digitised" target="https://portail.biblissima.fr/ark:/43093/mdata465c9c54125b4c519c32f69cab095eff5fdbfb11"/></witness><witness xml:id="w_B"><label type="siglum">B</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BNF</repository><idno> fr. 12571</idno></msIdentifier></msDesc><origDate>1300-1320</origDate><origPlace>Northern Italy</origPlace><note>F. 1-31 of the manuscript</note><ptr type="description" target="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc43757w"/><ptr type="digitised" target="https://gallica.bnf.fr/ark:/12148/btv1b60009513"/></witness><witness xml:id="w_c"><label type="siglum">c</label><msDesc><msIdentifier><settlement>Roma</settlement><repository> Biblioteca Apostolica Vaticana</repository><idno> Vat. lat. 3206</idno></msIdentifier></msDesc><origDate>1380-1399</origDate><origPlace></origPlace><note>F. 84r-99v contain the fragment</note><ptr type="description" target="http://www.mss.vatlib.it/guii/console?service=present&amp;term=@5Vat.lat.3206_ms&amp;item=1&amp;add=0&amp;search=1&amp;filter=&amp;relation=3&amp;operator=&amp;attribute=3040"/><ptr type="digitised" target="https://digi.vatlib.it/view/MSS_Vat.lat.3206"/></witness><witness xml:id="w_d"><label type="siglum">d</label><msDesc><msIdentifier><settlement>New York</settlement><repository> Morgan Library</repository><idno> M.819</idno></msIdentifier></msDesc><origDate>1300-1399</origDate><origPlace>Venice, Italy</origPlace><note>F. 10ra-12va contain the fragment. Former known as Sir Thomas Phillipps, n° 8335</note><ptr type="description" target="http://corsair.themorgan.org/vwebv/holdingsInfo?bibId=147160"/><ptr type="digitised" target="http://ica.themorgan.org/manuscript/thumbs/147160"/></witness><witness xml:id="w_e"><label type="siglum">e</label><idno>Nîmes, Archives départementales du Gard, F (001) 083, pièce 3, notaire de Vallerauge</idno><origDate>1200-1299</origDate><origPlace>Nearby the Bas-Languedoc</origPlace><note>Fragment. Used to serve as a cover for a register of a notary from Valleraugue in 1523</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_f"><label type="siglum">f</label><idno>Nîmes, Archives départementales du Gard, F (001) 083, pièce 4, notaire de Bagnols-sur-Cèze</idno><origDate>1200-1299</origDate><origPlace>Around the Provence</origPlace><note>Fragment. Fragment. Used to serve as a cover for a register of a notary from Bagnols-sur-Cèze in 1523</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_g"><label type="siglum">g</label><msDesc><msIdentifier><settlement>Rodez</settlement><repository> Archives départementales de l'Aveyron</repository><idno> 50 J</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note>Not included in stemma as it was not known at the time</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_h"><label type="siglum">h</label><msDesc><msIdentifier><settlement>Barcelona</settlement><repository> Institut municipal d'història</repository><idno> B-109</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/174962815">Jaufré</title>
+           <persName role="author" ref="http://viaf.org/">Anonymous</persName>
+           <origDate>1170-1230</origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">arthurian verse romance</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">original</term>
+           <term type="drawnStemma">true</term><term type="sourceText">NA</term><term type="derivatives">NA</term></keywords>
+        </textClass>
+        <langUsage>
+           <language ident="pro"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/pro/Brunel_1943_Jaufre/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="10" size="9"><label></label><node xml:id="n_original" type="hypothetical" inDegree="0" outDegree="2"><label>Original (vers 1225)</label></node><node xml:id="n_Aef" type="hypothetical" inDegree="1" outDegree="3"><label></label></node><node xml:id="n_cd" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_Bcd" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_e" type="witness" inDegree="1" outDegree="0"><label>e</label></node><node xml:id="n_f" type="witness" inDegree="1" outDegree="0"><label>f</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_c" type="witness" inDegree="1" outDegree="0"><label>c</label></node><node xml:id="n_d" type="witness" inDegree="1" outDegree="0"><label>d</label></node><arc xml:id="arc_1" from="#n_original" to="#n_Aef" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_original" to="#n_Bcd" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_Aef" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_Aef" to="#n_e" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_Aef" to="#n_f" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_cd" to="#n_c" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_cd" to="#n_d" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_Bcd" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_Bcd" to="#n_cd" od:type="filiation" cert="unknown"/></graph>
+      </body>
+      <back>
+         </back>
+  </text>
+</TEI>
