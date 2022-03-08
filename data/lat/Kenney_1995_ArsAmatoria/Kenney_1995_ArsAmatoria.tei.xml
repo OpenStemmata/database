@@ -7,8 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Ars amatoria</title>
-            <author>E. J. Kenney</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+         <author>E. J. Kenney</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -25,16 +24,14 @@
          <sourceDesc>
             <bibl type="book">
                <title>P. Ovidi Nasonis Amores, Medicamina faciei femineae, Ars amatoria, Remedia amoris. Iteratis curis edidit E. J. Kenney</title>
-               <date>1995</date>
-               <pubPlace>Oxford</pubPlace>
-               <series>Oxford classical texts</series>
+               <author>E. J. Kenney</author><date>1995</date>
+               <pubPlace>Oxford</pubPlace><series>Oxford classical texts</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
-               <author>E. J. Kenney</author>
                <biblScope unit="page" n="vi"/>
                <ptr type="digitised" target=""/>
             </bibl>
-            <listWit><witness xml:id="R"><label type="siglum">R</label><idno>Parisinus Latinus 7311</idno><origDate>9c.</origDate><origPlace>France</origPlace></witness><witness xml:id="b"><label type="siglum">b</label><idno>Bambergensis M. V. 18</idno><origDate>10c.</origDate></witness><witness xml:id="O"><label type="siglum">O</label><idno>Oxoniensis Bodleianus Auct. F. 4. 32</idno><origDate>9c.</origDate><origPlace>Wallis</origPlace></witness><witness xml:id="Sa"><label type="siglum">Sa</label><idno>Sangallensis 821</idno><origDate>11c.</origDate></witness></listWit>
+            <listWit><witness xml:id="w_R"><label type="siglum">R</label><idno>Parisinus Latinus 7311</idno><origDate>9c.</origDate><origPlace>France</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_b"><label type="siglum">b</label><idno>Bambergensis M. V. 18</idno><origDate>10c.</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_O"><label type="siglum">O</label><idno>Oxoniensis Bodleianus Auct. F. 4. 32</idno><origDate>9c.</origDate><origPlace>Wallis</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Sa"><label type="siglum">Sa</label><idno>Sangallensis 821</idno><origDate>11c.</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>
@@ -66,7 +63,9 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="6" size="5"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="2"><label>α'</label></node><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="3"><label></label></node><node xml:id="n_b" type="witness" inDegree="1" outDegree="0"><label>b²</label></node><node xml:id="n_Sa" type="witness" inDegree="1" outDegree="0"><label>Sₐ</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><node xml:id="n_O" type="witness" inDegree="1" outDegree="0"><label>O</label></node><arc from="#n_archetyp" to="#n_1" od:type="filiation" cert="unknown"/><arc from="#n_archetyp" to="#n_O" od:type="filiation" cert="unknown"/><arc from="#n_1" to="#n_R" od:type="filiation" cert="unknown"/><arc from="#n_1" to="#n_b" od:type="filiation" cert="unknown"/><arc from="#n_1" to="#n_Sa" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="6" size="5"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="2"><label>α'</label></node><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="3"><label></label></node><node xml:id="n_b" type="witness" inDegree="1" outDegree="0"><label>b²</label></node><node xml:id="n_Sa" type="witness" inDegree="1" outDegree="0"><label>Sₐ</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><node xml:id="n_O" type="witness" inDegree="1" outDegree="0"><label>O</label></node><arc xml:id="arc_1" from="#n_archetyp" to="#n_1" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_archetyp" to="#n_O" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_1" to="#n_R" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_1" to="#n_b" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_1" to="#n_Sa" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         </back>
   </text>
 </TEI>

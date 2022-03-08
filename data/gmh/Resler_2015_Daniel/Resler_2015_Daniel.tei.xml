@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Daniel von dem blühenden Tal</title>
+         <author>Resler, Michael</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note></note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="book">
+               <title>Der Stricker: Daniel von dem blühenden Tal. 3., überarb. Aufl.</title>
+               <author>Resler, Michael</author><date>2015</date>
+               <pubPlace>Berlin/Boston</pubPlace><series>Altdeutsche Textbibliothek</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="92"/>
+               <biblScope unit="page" n="XII"/>
+               <ptr type="digitised" target="https://www.degruyter.com/document/doi/10.1515/9783110930566/html"/>
+            </bibl>
+            <listWit><witness xml:id="w_b"><label type="siglum">b</label><msDesc><msIdentifier><settlement>Krakau</settlement><repository> Bibl. Jagiellońska</repository><idno> Berol. mgq 1340</idno></msIdentifier></msDesc><origDate>1400-1425</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://jbc.bj.uj.edu.pl/dlibra/doccontent?id=182882"/></witness><witness xml:id="w_d"><label type="siglum">d</label><msDesc><msIdentifier><settlement>Dresden</settlement><repository> Landesbibl.</repository><idno> Mscr. M 56</idno></msIdentifier></msDesc><origDate>1489</origDate><origPlace>maybe Augsburg (Hoffmann)</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digital.slub-dresden.de/werkansicht/dlf/14345/1"/></witness><witness xml:id="w_h"><label type="siglum">h</label><msDesc><msIdentifier><settlement>Frankfurt a. M.</settlement><repository> Universitätsbibl.</repository><idno> Ms. germ. qu. 111</idno></msIdentifier></msDesc><origDate>1464</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://sammlungen.ub.uni-frankfurt.de/msma/urn/urn:nbn:de:hebis:30:2-14225"/></witness><witness xml:id="w_k"><label type="siglum">k</label><idno>Kopenhagen, Königl. Bibl., Cod. Thott. 423,2°</idno><origDate>1470-1499</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_m"><label type="siglum">m</label><msDesc><msIdentifier><settlement>München</settlement><repository> Staatsbibl.</repository><idno> Cgm 429 [verschollen]	</idno></msIdentifier></msDesc><origDate>1440-1460</origDate><origPlace>maybe Augsburg (Heinzle 1978)</origPlace><note>lost manuscript</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/305855213">Daniel von dem blühenden Tal</title>
+           <persName role="author" ref="http://viaf.org/24596675">Der Stricker</persName>
+           <origDate>1200-1250</origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">Romance</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">archetype</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="gmh"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Resler_2015_Daniel/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="9" size="8"><label></label><node xml:id="n_x" type="hypothetical" inDegree="0" outDegree="2"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="1"><label>y</label></node><node xml:id="n_starhb" type="hypothetical" inDegree="1" outDegree="2"><label>*hb</label></node><node xml:id="n_starkmd" type="hypothetical" inDegree="1" outDegree="2"><label>*kmd</label></node><node xml:id="n_h" type="witness" inDegree="1" outDegree="0"><label>h</label></node><node xml:id="n_b" type="witness" inDegree="1" outDegree="0"><label>b</label></node><node xml:id="n_k" type="witness" inDegree="1" outDegree="0"><label>k</label></node><node xml:id="n_m" type="witness" inDegree="1" outDegree="1"><label>m</label></node><node xml:id="n_d" type="witness" inDegree="1" outDegree="0"><label>d</label></node><arc xml:id="arc_1" from="#n_x" to="#n_starhb" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_x" to="#n_y" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_y" to="#n_starkmd" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_starhb" to="#n_h" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_starhb" to="#n_b" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_starkmd" to="#n_k" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_starkmd" to="#n_m" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_m" to="#n_d" od:type="filiation" cert="unknown"/></graph>
+      </body>
+      <back>
+         </back>
+  </text>
+</TEI>

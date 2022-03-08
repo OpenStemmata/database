@@ -7,8 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Remedia amoris</title>
-            <author>R. J. Tarrant</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt></titleStmt>
+         <author>R. J. Tarrant</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -25,16 +24,14 @@
          <sourceDesc>
             <bibl type="book">
                <title>P. Ovidi Nasonis Metamorphoses. Amores, Medicamina faciei femineae, Ars amatoria, Remedia amoris. Iteratis curis edidit E. J. Kenney</title>
-               <date>1995</date>
-               <pubPlace>Oxford</pubPlace>
-               <series>Oxford classical texts</series>
+               <author>R. J. Tarrant</author><date>1995</date>
+               <pubPlace>Oxford</pubPlace><series>Oxford classical texts</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n=""/>
-               <author>R. J. Tarrant</author>
                <biblScope unit="page" n="vi"/>
                <ptr type="digitised" target=""/>
             </bibl>
-            <listWit><witness xml:id="R"><label type="siglum">R</label><idno>Parisinus Latinus 7311</idno><origDate>9c.</origDate><origPlace>France</origPlace></witness><witness xml:id="P6"><label type="siglum">P6</label><idno>Parisinus Latinus 8069</idno><origDate>10/11c.</origDate></witness><witness xml:id="E"><label type="siglum">E</label><idno>Extonensis 150 (Bl. 6,5)</idno><origDate>11c.</origDate><origPlace>Barina</origPlace></witness><witness xml:id="K"><label type="siglum">K</label><idno>Parisinus Latinus 8460 (Puteanus)</idno><origDate>12c.</origDate></witness></listWit>
+            <listWit><witness xml:id="w_R"><label type="siglum">R</label><idno>Parisinus Latinus 7311</idno><origDate>9c.</origDate><origPlace>France</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_P6"><label type="siglum">P6</label><idno>Parisinus Latinus 8069</idno><origDate>10/11c.</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_E"><label type="siglum">E</label><idno>Extonensis 150 (Bl. 6,5)</idno><origDate>11c.</origDate><origPlace>Barina</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_K"><label type="siglum">K</label><idno>Parisinus Latinus 8460 (Puteanus)</idno><origDate>12c.</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>
@@ -66,7 +63,9 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="7" size="6"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="2"><label>α''</label></node><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_P6" type="witness" inDegree="1" outDegree="0"><label>P6²</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><node xml:id="n_K" type="witness" inDegree="1" outDegree="0"><label>K</label></node><arc from="#n_archetyp" to="#n_1" od:type="filiation" cert="unknown"/><arc from="#n_archetyp" to="#n_2" od:type="filiation" cert="unknown"/><arc from="#n_1" to="#n_R" od:type="filiation" cert="unknown"/><arc from="#n_1" to="#n_P6" od:type="filiation" cert="unknown"/><arc from="#n_2" to="#n_E" od:type="filiation" cert="unknown"/><arc from="#n_2" to="#n_K" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="7" size="6"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="2"><label>α''</label></node><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_P6" type="witness" inDegree="1" outDegree="0"><label>P6²</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><node xml:id="n_K" type="witness" inDegree="1" outDegree="0"><label>K</label></node><arc xml:id="arc_1" from="#n_archetyp" to="#n_1" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_archetyp" to="#n_2" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_1" to="#n_R" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_1" to="#n_P6" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_2" to="#n_E" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_2" to="#n_K" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         </back>
   </text>
 </TEI>

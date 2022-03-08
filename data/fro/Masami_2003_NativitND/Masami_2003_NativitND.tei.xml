@@ -7,8 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Nativité Nostre Dame</title>
-            <author>Masami, Okubo</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <author>Masami, Okubo</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -25,12 +24,10 @@
          <sourceDesc>
             <bibl type="publicationPart">
                <title>Autour de la Nativité Nostre Dame et de son attribution à Gautier de Coinci </title>
-               <date>2003</date>
-               <pubPlace>Paris</pubPlace>
-               <series>Romania</series>
+               <author>Masami, Okubo</author><date>2003</date>
+               <pubPlace>Paris</pubPlace><series>Romania</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="121"/>
-               <author>Masami, Okubo</author>
                <biblScope unit="page" n="348-381"/>
                <ptr type="digitised" target="https://doi.org/10.3406/roma.2003.1299"/>
             </bibl>
@@ -65,7 +62,9 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="6" size="5"><label>1</label><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x</label></node><node xml:id="n_X" type="hypothetical" inDegree="0" outDegree="3"><label>X</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_N" type="witness" inDegree="1" outDegree="0"><label>N</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><arc from="#n_x" to="#n_L" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_R" od:type="filiation" cert="unknown"/><arc from="#n_X" to="#n_D" od:type="filiation" cert="unknown"/><arc from="#n_X" to="#n_N" od:type="filiation" cert="unknown"/><arc from="#n_X" to="#n_x" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="6" size="5"><label>1</label><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x</label></node><node xml:id="n_X" type="hypothetical" inDegree="0" outDegree="3"><label>X</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_N" type="witness" inDegree="1" outDegree="0"><label>N</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><arc xml:id="arc_1" from="#n_x" to="#n_L" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_x" to="#n_R" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_X" to="#n_D" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_X" to="#n_N" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_X" to="#n_x" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         </back>
   </text>
 </TEI>

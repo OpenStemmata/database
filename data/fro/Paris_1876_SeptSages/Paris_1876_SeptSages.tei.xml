@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Sept Sages de Rome</title>
+         <author>Paris, Gaston</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Partial stemma, categorising the relations between some of the major versions, (and a few manuscripts). Maybe something more complete or up to date could be found in M. B. Speer, Le Roman des Sept Sages de Rome. A critical edition of the two verse redactions of a twelfth-century romance, Lexington (French Forum) 1989.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="book">
+               <title>Deux rédactions du roman des Sept Sages de Rome</title>
+               <author>Paris, Gaston</author><date>1876</date>
+               <pubPlace>Paris</pubPlace><series>SATF</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="5"/>
+               <biblScope unit="page" n="XXVI"/>
+               <ptr type="digitised" target=""/>
+            </bibl>
+            <listWit><witness xml:id="w_V"><label type="siglum">V</label><idno></idno><origDate></origDate><origPlace></origPlace><note>La rédaction en vers représentée par les textes de K, D et V</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_K"><label type="siglum">K</label><idno></idno><origDate></origDate><origPlace></origPlace><note>La version en vers publiée par M. de Keller</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_D"><label type="siglum">D</label><idno>BnF, fr. 5036</idno><origDate></origDate><origPlace></origPlace><note>Le ms. où le texte est dérimé</note><ptr type="description" target="https://www.arlima.net/mss/france/paris/bibliotheque_nationale_de_france/francais/5036.html#F42"/><ptr type="digitised" target=""/></witness><witness xml:id="w_C"><label type="siglum">C</label><msDesc><msIdentifier><settlement>Chartres</settlement><repository> Bibliothèque municipale</repository><idno> 620</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note>f. 19-26 (prose) et 27-44 (vers). Ms. détruit dans les bombardements de 1944.</note><ptr type="description" target="https://www.arlima.net/mss/france/chartres/bibliotheque_municipale/620.html#F19"/><ptr type="digitised" target=""/></witness><witness xml:id="w_L"><label type="siglum">L</label><idno></idno><origDate></origDate><origPlace></origPlace><note>a prose version represented in at least 6 mss</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_A"><label type="siglum">A</label><idno></idno><origDate></origDate><origPlace></origPlace><note>a prose version represented in at least 33 mss</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_A2"><label type="siglum">A2</label><idno></idno><origDate></origDate><origPlace></origPlace><note>second part of A, close to K</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_M"><label type="siglum">M</label><idno></idno><origDate></origDate><origPlace></origPlace><note>Neuf exempla remontant à la version A de la légende des Sept sages de Rome suivis de six exempla d'origines diverses (Arlima)</note><ptr type="description" target="https://www.arlima.net/qt/sept_sages_de_rome_en_francais.html#vem"/><ptr type="digitised" target=""/></witness></listWit>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/">Sept Sages de Rome</title>
+           <persName role="author" ref="http://viaf.org/"></persName>
+           <origDate></origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre"></term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">unspecified</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="fro"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Paris_1876_SeptSages/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="6" size="5"><label>1</label><node xml:id="n_V" type="hypothetical" inDegree="0" outDegree="2"><label>V</label></node><node xml:id="n_A" type="hypothetical" inDegree="2" outDegree="1"><label>A</label></node><node xml:id="n_A2" type="hypothetical" inDegree="1" outDegree="1"><label>A2</label></node><node xml:id="n_L" type="hypothetical" inDegree="0" outDegree="1"><label>L</label></node><node xml:id="n_M" type="hypothetical" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><arc xml:id="arc_1" from="#n_V" to="#n_A2" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_V" to="#n_D" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_A" to="#n_M" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_A2" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_L" to="#n_A" od:type="filiation" cert="unknown"/></graph>
+      </body>
+      <back>
+         </back>
+  </text>
+</TEI>

@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d4" for="edge" attr.name="note" attr.type="string"/>
+<key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="X">
+  <data key="d0">grey</data>
+</node>
+<node id="y">
+  <data key="d0">grey</data>
+</node>
+<node id="x">
+  <data key="d0">grey</data>
+</node>
+<node id="1">
+  <data key="d1"></data>
+  <data key="d0">grey</data>
+</node>
+<node id="Beroul">
+  <data key="d1">Béroul (vers 1180)</data>
+</node>
+<node id="B2">
+  <data key="d1">B2 continuateur de Béroul (vers 1209)</data>
+</node>
+<node id="Eilhart">
+  <data key="d1">Eilhart (1190-1200)</data>
+</node>
+<node id="Volksbuch">
+  <data key="d1">Volksbuch (vers 1350)</data>
+</node>
+<node id="tcheque">
+  <data key="d1">1re trad. tchèque (vers 1300)</data>
+</node>
+<node id="Ulrich">
+  <data key="d1">Ulrich de Türheim (1250)</data>
+</node>
+<node id="Freyberg">
+  <data key="d1">Henrich de Freyberg (vers 1300)</data>
+</node>
+<node id="tcheque2">
+  <data key="d1">2e trad. tchèque (vers 1300)</data>
+</node>
+<node id="Gottfried">
+  <data key="d1">Gottfried (début du XIIIe)</data>
+</node>
+<node id="Saga">
+  <data key="d1">Saga 1226</data>
+</node>
+<node id="Tristrem">
+  <data key="d1">Sir Tristrem (fin du XIIIe)</data>
+</node>
+<node id="Tavola">
+  <data key="d1">Tavola ritonda (vers 1300)</data>
+</node>
+<node id="Fd">
+  <data key="d1">Fd Folie Tristan du ms. Douce (fin du XIIe)</data>
+</node>
+<node id="Fb">
+  <data key="d1">Fb Folie Tristan du ms. de Berne (vers 1170)</data>
+</node>
+<node id="prose">
+  <data key="d1">Roman français en prose (1re rédaction vers 1230)</data>
+</node>
+<node id="Thomas"/>
+<edge source="X" target="y">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="X" target="Thomas">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="X" target="x">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="X" target="prose">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="y" target="Beroul">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="y" target="Eilhart">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x" target="Fd">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x" target="Fb">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="1" target="B2">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Beroul" target="B2">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+  <data key="d4"> This two line are not really contamination, but a vaguer type of influence
+</data>
+</edge>
+<edge source="Eilhart" target="Volksbuch">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Eilhart" target="tcheque">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Eilhart" target="Ulrich">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Eilhart" target="Freyberg">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Eilhart" target="Gottfried">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Ulrich" target="Freyberg">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Freyberg" target="tcheque2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gottfried" target="Ulrich">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gottfried" target="Freyberg">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="prose" target="Tavola">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Thomas" target="Gottfried">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Thomas" target="Saga">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Thomas" target="Tristrem">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Thomas" target="Tavola">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Thomas" target="Fd">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

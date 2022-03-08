@@ -1,0 +1,48 @@
+digraph {
+X[color="grey"];
+y[color="grey"];
+x[color="grey"];
+1[label="", color="grey"];
+Beroul[label="Béroul (vers 1180)"]
+B2[label="B2 continuateur de Béroul (vers 1209)"]
+Eilhart[label="Eilhart (1190-1200)"]
+Volksbuch[label="Volksbuch (vers 1350)"]
+tcheque[label="1re trad. tchèque (vers 1300)"]
+Ulrich[label="Ulrich de Türheim (1250)"]
+Freyberg[label="Henrich de Freyberg (vers 1300)"]
+tcheque2[label="2e trad. tchèque (vers 1300)"]
+Gottfried[label="Gottfried (début du XIIIe)"]
+Saga[label="Saga 1226"]
+Tristrem[label="Sir Tristrem (fin du XIIIe)"]
+Tavola[label="Tavola ritonda (vers 1300)"]
+Fd[label="Fd Folie Tristan du ms. Douce (fin du XIIe)"]
+Fb[label="Fb Folie Tristan du ms. de Berne (vers 1170)"]
+prose[label="Roman français en prose (1re rédaction vers 1230)"]
+
+X->y;
+y->Beroul
+Beroul->B2[style="dashed"] # This two line are not really contamination, but a vaguer type of influence
+1->B2[style="dashed"];
+y->Eilhart;
+Eilhart->Volksbuch;
+Eilhart->tcheque;
+Eilhart->Ulrich;
+Ulrich->Freyberg[style="dashed"];
+Freyberg->tcheque2;
+Eilhart->Freyberg;
+Eilhart->Gottfried[style="dashed"];
+Gottfried->Ulrich[style="dashed"];
+Gottfried->Freyberg[style="dashed"];
+X->Thomas;
+Thomas->Gottfried;
+Thomas->Saga;
+Thomas->Tristrem;
+Thomas->Tavola[style="dashed"];
+Thomas->Fd[style="dashed"];
+X->x;
+x->Fd;
+x->Fb;
+X->prose;
+prose->Tavola;
+
+}

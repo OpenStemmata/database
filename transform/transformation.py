@@ -3,6 +3,9 @@ import networkx as nx
 import sys 
 import re 
 from lxml import etree as et 
+from html import escape
+
+import superscript
 
 
 # Transforms files DOT and metadata to TEI and Graphml
@@ -14,7 +17,7 @@ from lxml import etree as et
 # Local:
 # for changed_file in $( find ~/Dokumente/OpenStemmata/database/data -name '*.*' ) ; do ~/Dokumente/OpenStemmata/venv/bin/python3 ~/Dokumente/OpenStemmata/database/transform/transformation.py $changed_file ; done
 
-attributes_regex = '(\w+)="([^"]*)",?\s*'
+attributes_regex = '(\w+)="?([^"]*)"?,?\s*'
 
 if len(sys.argv) > 1:
     changed_file = str(sys.argv[1])
@@ -43,10 +46,18 @@ if len(sys.argv) > 1:
         lines = dot.readlines()
         nodes = {}
         edges = []
-        for line in lines:
+        for fullline in lines:
+            comments = re.split('#', fullline)
+            if len(comments) > 1: 
+                comment = comments[1]
+                line = comments[0]
+            else:
+                comment = ''
+                line = fullline
             noAttrib = re.sub('\'.+?\'', '', line) 
             noAttrib = re.sub('".+?"', '', line)
             if "->" in noAttrib or "--" in noAttrib:
+                # If this is an edge
                 origin = re.split('->', noAttrib)[0].strip()
                 dest = re.split('->', noAttrib)[1].strip()
                 if '[' in dest:
@@ -67,15 +78,21 @@ if len(sys.argv) > 1:
                         elif attr[0] == 'color':
                             if attr[1] == 'red':
                                 edge_attr['cert'] = 'low'
-
+                if comment != '':
+                    edge_attr['note'] = comment
                 edges.append((origin,dest, edge_attr))
                 
-            elif '[' in noAttrib:
+            else:
+            # If this is a node
                 node = re.split('\[', noAttrib)[0].strip()
-                nodes[node] = {}
-                attributes = re.findall(attributes_regex, line)    
-                for attr in attributes:
-                    nodes[node][attr[0]] = attr[1]
+                if '[' in noAttrib:
+                    nodes[node] = {}
+                    attributes = re.findall(attributes_regex, line)    
+                    for attr in attributes:
+                        nodes[node][attr[0]] = attr[1]
+                if comment != '':
+                    nodes[node]['note'] = comment
+            
 
     nodes = [ (x,nodes[x]) for x in nodes ]
 
@@ -87,29 +104,34 @@ if len(sys.argv) > 1:
     nx.write_graphml(G, '/'.join(path) + '/' + 'stemma.graphml', encoding="utf-8")
 
 
-    tree = et.parse('./transform/template.tei.xml')
-    root = tree.getroot()
-
     ns = {'tei': 'http://www.tei-c.org/ns/1.0', 'od': 'http://openstemmata.github.io/odd.html' }
     et.register_namespace('tei', 'http://www.tei-c.org/ns/1.0')
     et.register_namespace('od', 'http://openstemmata.github.io/odd.html')
 
+    tree = et.parse('./transform/template.tei.xml')
+    root = tree.getroot()
+
+    # Useful TEI elements
+    titleStmt = root.find('.//tei:teiHeader/tei:fileDesc/tei:titleStmt', ns)
+    # respStmt = root.find('.//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt', ns)
+    bibl = root.find('.//tei:bibl', ns)
+    creation = root.find('./tei:teiHeader/tei:profileDesc/tei:creation', ns)
+    keywords = root.find('./tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords', ns)
+    listWit = root.find('./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listWit', ns)
+    # date = root.find('./tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:data', ns)
+    graph = root.find('.//tei:graph', ns)
+    back = root.find('./tei:text/tei:back', ns)
+    noteGrp = root.find('./tei:text/tei:back/tei:noteGrp', ns)
+
+    #This is useful for the url of the graphic element
+    facsimileLink = "https://github.com/OpenStemmata/database/blob/main/data/"
+    facsimileLinkBase = "https://github.com/OpenStemmata/database/blob/main/data/"
+
+    
+
     # TEIHEADER
     with codecs.open(txtFile, 'r', 'utf-8') as metadatafile:
         metadata = metadatafile.readlines()
-        titleStmt = root.find('.//tei:teiHeader/tei:fileDesc/tei:titleStmt', ns)
-        bibl = root.find('.//tei:bibl', ns)
-        creation = root.find('./tei:teiHeader/tei:profileDesc/tei:creation', ns)
-        keywords = root.find('./tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords', ns)
-        listWit = root.find('./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listWit', ns)
-        # date = root.find('./tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:data', ns)
-        graph = root.find('.//tei:graph', ns)
-
-        #This is useful for the url of the graphic element
-        facsimileLink = "https://github.com/OpenStemmata/database/blob/main/data/"
-
-
-
         for line in metadata:
             if re.match('^[\s]*publicationType', line):
                 cont = re.findall('"([^"]*)"', line)
@@ -132,8 +154,9 @@ if len(sys.argv) > 1:
                 cont = re.findall('"([^"]*)"', line)
                 if len(cont) > 0:
                     cont = cont[0]
-                    el = bibl.find('./tei:pubPlace', ns)
+                    el = et.Element('pubPlace')
                     el.text = cont
+                    bibl.insert(2, el)
             elif re.match('^[\s]*publicationSeries', line):
                 cont = re.findall('"([^"]*)"', line)
                 if len(cont) > 0:
@@ -148,12 +171,20 @@ if len(sys.argv) > 1:
                 cont = re.findall('"([^"]*)"', line)[0]
                 graphLabel = et.SubElement(graph, 'label')
                 graphLabel.text = cont
-            elif re.match('^[\s]*publicationAuthors', line):
-                cont = re.findall('"([^"]*)"', line)[0]
-                el = et.SubElement(bibl, 'author')
-                el.text = cont
-                el2 = et.SubElement(titleStmt, 'author')
-                el2.text = cont
+            elif re.match('^[\s-]*publicationAuthor', line):
+                cont = re.findall('"([^"]*)"', line)
+                if len(cont) > 0:
+                    cont = cont[0]
+                    author_el1 = et.Element('author')
+                    author_el1.text = cont
+                    author_el2 = et.Element('author')
+                    author_el2.text = cont
+                    bibl.insert(1, author_el1)
+                    titleStmt.insert(2, author_el2)
+                    # el = et.SubElement(bibl, 'author')
+                    # el.text = cont
+                    # el2 = et.SubElement(titleStmt, 'author')
+                    # el2.text = cont
             elif re.match('^[\s]*publicationPage', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = bibl.find('./tei:biblScope[@unit="page"]', ns)
@@ -213,6 +244,22 @@ if len(sys.argv) > 1:
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = keywords.find('./tei:term[@type="rootType"]', ns)
                 el.text = cont
+            elif re.match('^[\s]*drawnStemma', line):
+                cont = re.findall('"([^"]*)"', line)[0]
+                el = et.SubElement(keywords, '{http://www.tei-c.org/ns/1.0}term', attrib={'type': 'drawnStemma'})
+                el.text = cont
+            elif re.match('^[\s]*completeWis', line):
+                cont = re.findall('"([^"]*)"', line)[0]
+                el = et.SubElement(keywords, '{http://www.tei-c.org/ns/1.0}term', attrib={'type': 'completeWis'})
+                el.text = cont
+            elif re.match('^[\s]*sourceText', line):
+                cont = re.findall('"([^"]*)"', line)[0]
+                el = et.SubElement(keywords, '{http://www.tei-c.org/ns/1.0}term', attrib={'type': 'sourceText'})
+                el.text = cont
+            elif re.match('^[\s]*derivatives', line):
+                cont = re.findall('"([^"]*)"', line)[0]
+                el = et.SubElement(keywords, '{http://www.tei-c.org/ns/1.0}term', attrib={'type': 'derivatives'})
+                el.text = cont
             elif re.match('^[\s]*contributor[^O]', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 respStmt = et.SubElement(titleStmt, 'respStmt')
@@ -230,50 +277,57 @@ if len(sys.argv) > 1:
                 el.text = cont
             elif re.match('^[\s]+- witSigla', line):
                 cont = re.findall('"([^"]*)"', line)[0]
+                wit = et.SubElement(listWit, 'witness')
                 if cont != '':
-                    wit = et.SubElement(listWit, 'witness', attrib= {'{http://www.w3.org/XML/1998/namespace}id': cont})
-                    el = et.SubElement(wit, 'label', attrib= {'type': 'siglum'})
-                    el.text = cont 
+                    clean_id = 'w_' + superscript.get_normal(
+                                    cont.replace(' ', '_').replace("'", 'prime')
+                                    )
+                    wit.attrib['{http://www.w3.org/XML/1998/namespace}id'] = clean_id
+                    label = et.SubElement(wit, 'label', attrib= {'type': 'siglum'})
+                    label.text = cont 
             elif re.match('^[\s]+witSignature', line):
                 cont = re.findall('"([^"]*)"', line)[0]
-                if cont != '':
-                    split_cont = cont.split(',')
-                    if len(split_cont) != 3:
-                        el = et.SubElement(wit, 'idno')
-                        el.text = cont
-                    else:
-                        settlement = et.SubElement(wit, 'settlement')
-                        settlement.text = split_cont[0]
-                        repository = et.SubElement(wit, 'repository')
-                        repository.text = split_cont[1]
-                        idno = et.SubElement(wit, 'idno')
-                        idno.text = split_cont[2]
+                # if cont != '':
+                split_cont = cont.split(',')
+                if len(split_cont) != 3:
+                    el = et.SubElement(wit, 'idno')
+                    el.text = cont
+                else:
+                    msDesc = et.SubElement(wit, 'msDesc')
+                    msIdentif = et.SubElement(msDesc, 'msIdentifier')
+                    settlement = et.SubElement(msIdentif, 'settlement')
+                    settlement.text = split_cont[0]
+                    repository = et.SubElement(msIdentif, 'repository')
+                    repository.text = split_cont[1]
+                    idno = et.SubElement(msIdentif, 'idno')
+                    idno.text = split_cont[2]
             elif re.match('^[\s]+witOrigDate', line):
                 cont = re.findall('"([^"]*)"', line)[0]
-                if cont != '':
-                    el = et.SubElement(wit, 'origDate')
-                    el.text = cont
+                # if cont != '':
+                el = et.SubElement(wit, 'origDate')
+                el.text = cont
             elif re.match('^[\s]+witOrigPlace', line):
                 cont = re.findall('"([^"]*)"', line)[0]
-                if cont != '':
-                    el = et.SubElement(wit, 'origPlace')
-                    el.text = cont
+                # if cont != '':
+                el = et.SubElement(wit, 'origPlace')
+                el.text = cont
             elif re.match('^[\s]+witNotes', line):
                 cont = re.findall('"([^"]*)"', line)[0]
-                if cont != '':
-                    el = et.SubElement(wit, 'note')
-                    el.text = cont
+                # if cont != '':
+                el = et.SubElement(wit, 'note')
+                el.text = cont
             elif re.match('^[\s]+witMsDesc', line):
                 cont = re.findall('"([^"]*)"', line)[0]
-                if cont != '':
-                    et.SubElement(wit, 'ptr', attrib={'type': 'description', 'target': cont})
+                #if cont != '':
+                et.SubElement(wit, 'ptr', attrib={'type': 'description', 'target': cont})
             elif re.match('^[\s]+witDigit', line):
                 cont = re.findall('"([^"]*)"', line)[0]
-                if cont != '':
-                    et.SubElement(wit, 'ptr', attrib={'type': 'digitised', 'target': cont})
+                #if cont != '':
+                et.SubElement(wit, 'ptr', attrib={'type': 'digitised', 'target': cont})
         
-        graphic = root.find('./tei:facsimile/tei:graphic', ns)
-        graphic.attrib['url'] = facsimileLink + new_file_name + '/stemma.png?raw=true'
+        if facsimileLink != facsimileLinkBase:
+            graphic = root.find('./tei:facsimile/tei:graphic', ns)
+            graphic.attrib['url'] = facsimileLink + new_file_name + '/stemma.png?raw=true'
 
     if len(list(listWit)) == 0:
         # print("Zero")
@@ -287,7 +341,8 @@ if len(sys.argv) > 1:
     graph.attrib['size'] = str(len(G.edges))
 
     for node in G.nodes(data=True):
-        nodeEl = et.SubElement(graph, 'node', attrib={'{http://www.w3.org/XML/1998/namespace}id': "n_" + node[0]})
+        nodeEl = et.SubElement(graph, 'node',
+                attrib={'{http://www.w3.org/XML/1998/namespace}id': "n_" + node[0]})
         labelEl = et.SubElement(nodeEl, 'label')
         if 'label' in node[1]:
             label = node[1]['label']
@@ -305,27 +360,38 @@ if len(sys.argv) > 1:
                 nodeEl.attrib['type'] = 'witness'
         else:
             nodeEl.attrib['type'] = 'witness'
+        if 'note' in node[1]:
+            note = et.SubElement(noteGrp, 'note', attrib={'target': "#n_" + node[0]})
+            note.text = node[1]['note'].strip()
         in_degree = G.in_degree(node[0])
         out_degree = G.out_degree(node[0])
         nodeEl.attrib['inDegree'] = str(in_degree)
         nodeEl.attrib['outDegree'] = str(out_degree)
         
 
-                
+    edge_number = 0
     for edge in G.edges(data=True):
-        edgeEl = et.SubElement(graph, 'arc', attrib= {'from': "#n_" + edge[0], 
-            'to': "#n_" + edge[1],})
-        
+        edge_number += 1
+        edge_id = 'arc_' + str(edge_number)
+        edgeEl = et.SubElement(graph, 'arc', 
+        attrib= {'{http://www.w3.org/XML/1998/namespace}id': edge_id, 
+            'from': "#n_" + edge[0], 
+            'to': "#n_" + edge[1]}
+            )
         if 'type' in edge[2]:
             edgeEl.attrib["{http://openstemmata.github.io/odd.html}type"] = edge[2]['type']
         else:
             edgeEl.attrib['{http://openstemmata.github.io/odd.html}type'] = 'filiation' 
         if 'cert' in edge[2]:
             edgeEl.attrib["cert"] = edge[2]['cert']
+        if 'note' in edge[2]:
+            note = et.SubElement(noteGrp, 'note', attrib={'target': '#' + edge_id})
+            note.text = edge[2]['note'].strip()
         
 
 
-
+    if len(noteGrp) < 1:
+        back.remove(noteGrp)
 
     tree.write( '/'.join(path) + '/' + new_file_name + '.tei.xml', pretty_print=True, encoding="UTF-8", xml_declaration=True)
 

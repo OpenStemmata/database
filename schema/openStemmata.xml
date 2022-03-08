@@ -12,6 +12,10 @@
                     <name>Simon Gabay</name>
                     <idno type="ORCID" n="0000-0001-9094-4475"/>
                 </author>
+                <respStmt>
+                    <resp>Reviewed by</resp>
+                    <name xml:id="JBC">Jean-Baptiste Camps</name>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>
@@ -27,6 +31,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2022-03-01" who="#JBC">Adding <gi>elementSpec</gi></change>
             <change when="2020-01-08" who="#SG">Adding <gi>elementSpec</gi></change>
             <change when="2020-01-09" who="#SG">Adding <gi>classSpec</gi></change>
         </revisionDesc>
@@ -45,18 +50,18 @@
                 <schemaSpec ident="openStemmata" docLang="en" xml:lang="en" start="TEI">
                     <!-- TODO: redo the module in a positive way (@include) -->
                     <moduleRef key="core"
-                        include="author bibl biblScope date graphic label note ptr pubPlace resp respStmt series term title"/>
+                        include="author bibl biblScope date graphic label note noteGrp ptr pubPlace resp respStmt series term title"/>
                     <moduleRef key="tei" except=""/>
                     <moduleRef key="header"
                         include="authority availability change creation fileDesc idno keywords langUsage language licence notesStmt profileDesc publicationStmt revisionDesc sourceDesc teiHeader textClass titleStmt"/>
                     <moduleRef key="textstructure"
-                        include="TEI body text"/>
+                        include="TEI back body text"/>
                     <moduleRef key="transcr"
                         include="facsimile"/>
                     <moduleRef key="msdescription"
-                        include="origDate origPlace"/>
+                        include="origDate origPlace msDesc msIdentifier repository"/>
                     <moduleRef key="namesdates"
-                        include="persName orgName"/>
+                        include="persName orgName settlement"/>
                     
                     <!-- Graph -->
                     <moduleRef key="nets"
@@ -70,7 +75,7 @@
                     <elementSpec ident="TEI" mode="change">
                         <content>
                             <elementRef key="teiHeader"/>
-                            <elementRef key="facsimile"/>
+                            <elementRef key="facsimile" minOccurs="0" maxOccurs="1"/>
                             <elementRef key="text"/>
                         </content>
                     </elementSpec>
@@ -95,7 +100,7 @@
                     <elementSpec ident="titleStmt" mode="change">
                         <content>
                             <elementRef key="title" minOccurs="2" maxOccurs="2"/>
-                            <elementRef key="author" minOccurs="1" maxOccurs="1"/>
+                            <elementRef key="author" minOccurs="1" maxOccurs="unbounded"/>
                             <elementRef key="respStmt" minOccurs="1" maxOccurs="unbounded"/>
                         </content>
                     </elementSpec>
@@ -160,17 +165,7 @@
                         </attList>
                     </elementSpec>
                     
-                    <elementSpec ident="bibl" mode="change">
-                        <attList>
-                            <attDef ident="type" mode="change" usage="req">
-                                <valList type="closed" mode="add" >
-                                    <valItem ident="book"><desc>caracterises the bibliographic reference as a book, in the sense of a <gi>monogr</gi>.</desc></valItem>
-                                    <valItem ident="publicationPart"><desc>caracterises the bibliographic reference 
-                                        as a part of a larger publication, i.e. a chapter, an article, conference proceeding, etc., in the sense of an <gi>analytic</gi> element.</desc></valItem>
-                                </valList>
-                            </attDef>
-                        </attList>
-                    </elementSpec>
+                    
                     
                     <elementSpec ident="label" mode="change">
                         <attList>
@@ -210,20 +205,27 @@
                         </content> 
                     </elementSpec>
                     
-             
                     <elementSpec ident="bibl" mode="change">
                         <content> 
-                            <sequence preserveOrder="true"> 
+                            <sequence preserveOrder="false"> 
                                 <elementRef key="title"  minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="author" minOccurs="1" maxOccurs="unbounded"/>
                                 <elementRef key="date" minOccurs="1" maxOccurs="1"/> 
-                                <elementRef key="pubPlace" minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="pubPlace" minOccurs="1" maxOccurs="unbounded"/> 
                                 <elementRef key="series" minOccurs="1" maxOccurs="1"/> 
-                                <elementRef key="biblScope" minOccurs="1" maxOccurs="1"/> 
-                                <elementRef key="author" minOccurs="1" maxOccurs="1"/> 
-                                <elementRef key="biblScope" minOccurs="1" maxOccurs="1"/> 
+                                <elementRef key="biblScope" minOccurs="1" maxOccurs="2"/> 
                                 <elementRef key="ptr" minOccurs="1" maxOccurs="1"/> 
                             </sequence> 
-                        </content> 
+                        </content>
+                        <attList>
+                            <attDef ident="type" mode="change" usage="req">
+                                <valList type="closed" mode="add" >
+                                    <valItem ident="book"><desc>caracterises the bibliographic reference as a book, in the sense of a <gi>monogr</gi>.</desc></valItem>
+                                    <valItem ident="publicationPart"><desc>caracterises the bibliographic reference 
+                                        as a part of a larger publication, i.e. a chapter, an article, conference proceeding, etc., in the sense of an <gi>analytic</gi> element.</desc></valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
                     </elementSpec>
                     
                     <elementSpec ident="term" mode="change">
@@ -240,11 +242,15 @@
                         <attList>
                             <attDef ident="type" mode="change" usage="req">
                                 <valList type="closed" mode="add">
-                                    <valItem ident="workGenre"/>
-                                    <valItem ident="stemmaType"/>
-                                    <valItem ident="contam"/>
-                                    <valItem ident="extraStemmContam"/>
-                                    <valItem ident="rootType"/>
+                                    <valItem ident="workGenre"><desc>genre of the work (e.g., epic poetry, tragedy, etc.)</desc></valItem>
+                                    <valItem ident="stemmaType"><desc>type of tree (reconstructed or observed)</desc></valItem>
+                                    <valItem ident="drawnStemma"><desc>drawn vs. prose genealogy</desc></valItem>
+                                    <valItem ident="contam"><desc>contamination</desc></valItem>
+                                    <valItem ident="extraStemmContam"><desc>extra-stemmatic contamination</desc></valItem>
+                                    <valItem ident="rootType"><desc>type of root (original, archetype)</desc></valItem>
+                                    <valItem ident="completeWits"><desc>completion regarding witnesses</desc></valItem>
+                                    <valItem ident="sourceText"><desc>completion regarding source text(s)</desc></valItem>
+                                    <valItem ident="derivatives"><desc>completion regarding derivatives</desc></valItem>
                                 </valList>
                             </attDef>
                         </attList>
@@ -254,7 +260,10 @@
                         <content> 
                             <sequence preserveOrder="true"> 
                                 <elementRef key="label" minOccurs="1" maxOccurs="1"/> 
-                                <elementRef key="idno" minOccurs="1" maxOccurs="1"/> 
+                                <alternate minOccurs="1" maxOccurs="1">
+                                    <elementRef key="idno" minOccurs="1" maxOccurs="1"/>
+                                    <elementRef key="msDesc" minOccurs="1" maxOccurs="1"/>
+                                </alternate> 
                                 <elementRef key="origDate" minOccurs="1" maxOccurs="1"/> 
                                 <elementRef key="origPlace" minOccurs="1" maxOccurs="1"/> 
                                 <elementRef key="note" minOccurs="1" maxOccurs="1"/>
@@ -303,6 +312,12 @@
                     </elementSpec>
                     
                     <!-- The BODY -->
+                    
+                    <elementSpec ident="back" mode="change">
+                        <content>
+                            <elementRef key="noteGrp" minOccurs="0" maxOccurs="unbounded"/>
+                        </content>
+                    </elementSpec>
                     
                     <elementSpec ident="body" mode="change">
                         <content>

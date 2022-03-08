@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Tristan</title>
+         <author>Bédier, Joseph</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Stemma of all known versions of the Old French Tristan legend, from the lost archetypal poem, to the various translations. In addition to Bédier's reconstruction, shown here, Gertrude Schoepperle (Tristan and Isolt : a study of the sources of the romance, Frankfurt, 1913) postulates an Old French model older than the archetype, the Estoire, that she calls B, and is somewhat equivalent to Wendelin Foerster's Ur-Urtristan. Contrarily to Bédier, she does not take the existence of a limited duration of the love potion in Béroul and Eilhart as an argument for a common lost model, but makes it a feature of the original, modified by Thomas, which seems quite convincing. In that case, y could be removed. See also the account by J. Douglas Bruce in Modern Language note, 29-7 (1914), p. 213, https://www.jstor.org/stable/pdf/2916175.pdf. Other complements by Hofer, Stefan, « Streitfragen zur altfranzösischen Literatur », Zeitschrift für romanische Philologie, 65:4-6, 1949, p. 257-288. DOI: 10.1515/zrph.1949.65.4-6.257, and Varvaro, Alberto, « La teoria dell'archetipo tristaniano », Romania, 88, 1967, p. 13-58. DOI: 10.3406/roma.1967.2595.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="book">
+               <title>Le roman de Tristan par Thomas</title>
+               <author>Bédier, Joseph</author><date>1905</date>
+               <pubPlace>Paris</pubPlace><series>SATF</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n=""/>
+               <biblScope unit="page" n="309"/>
+               <ptr type="digitised" target="https://archive.org/details/leromandetristan02thomuoft/page/309"/>
+            </bibl>
+            <listWit><witness xml:id="w_X"><label type="siglum">X</label><idno></idno><origDate>1100-1150</origDate><origPlace></origPlace><note>Archetype of the Old French Tristan, sometimes called the Estoire</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_y"><label type="siglum">y</label><idno></idno><origDate></origDate><origPlace></origPlace><note>Béroul and Eilhart's model (epic version?)</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_x"><label type="siglum">x</label><idno></idno><origDate></origDate><origPlace></origPlace><note>Archetype of the Folie Tristan ?</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Béroul"><label type="siglum">Béroul</label><idno></idno><origDate>1180</origDate><origPlace></origPlace><note>Béroul, Tristan</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B2"><label type="siglum">B2</label><idno></idno><origDate>1209</origDate><origPlace></origPlace><note>Continuateur de Béroul</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Eilhart"><label type="siglum">Eilhart</label><idno></idno><origDate>1190-1200</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Volksbuch"><label type="siglum">Volksbuch</label><idno></idno><origDate>1350</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_tcheque1"><label type="siglum">tcheque1</label><idno>First Czech translation</idno><origDate>1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Ulrich"><label type="siglum">Ulrich</label><idno></idno><origDate>1250</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_HenrichFreyberg"><label type="siglum">HenrichFreyberg</label><idno></idno><origDate>1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_tcheque2"><label type="siglum">tcheque2</label><idno>Second Czech translation</idno><origDate>1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Gottfried"><label type="siglum">Gottfried</label><idno></idno><origDate>1200-1220</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_SirTristrem"><label type="siglum">SirTristrem</label><idno></idno><origDate>1280-1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Tavola"><label type="siglum">Tavola</label><idno>Tavola ritonda</idno><origDate>1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Fd"><label type="siglum">Fd</label><idno>Folie Tristan du ms. Douce</idno><origDate>1180-1200</origDate><origPlace></origPlace><note>Archetype of the Old French Tristan</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Fb"><label type="siglum">Fb</label><idno>Folie Tristan du ms. de Berne</idno><origDate>1170</origDate><origPlace></origPlace><note>Archetype of the Old French Tristan</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_frprose"><label type="siglum">frprose</label><idno>Roman français en prose</idno><origDate>1230</origDate><origPlace></origPlace><note>For the first redaction. Other redactions could be included.</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/179401650">Tristan</title>
+           <persName role="author" ref="http://viaf.org/"></persName>
+           <origDate></origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">roman arthurien en vers</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">yes</term>
+              <term type="extraStemmContam">yes</term>
+              <term type="rootType">archetype</term>
+           <term type="sourceText">included</term><term type="derivatives">included</term></keywords>
+        </textClass>
+        <langUsage>
+           <language ident="fro"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Bedier_1902_Tristan/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="20" size="25"><label>1</label><node xml:id="n_X" type="hypothetical" inDegree="0" outDegree="4"><label>X</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x</label></node><node xml:id="n_1" type="hypothetical" inDegree="0" outDegree="1"><label></label></node><node xml:id="n_Beroul" type="witness" inDegree="1" outDegree="1"><label>Béroul (vers 1180)</label></node><node xml:id="n_B2" type="witness" inDegree="2" outDegree="0"><label>B2 continuateur de Béroul (vers 1209)</label></node><node xml:id="n_Eilhart" type="witness" inDegree="1" outDegree="5"><label>Eilhart (1190-1200)</label></node><node xml:id="n_Volksbuch" type="witness" inDegree="1" outDegree="0"><label>Volksbuch (vers 1350)</label></node><node xml:id="n_tcheque" type="witness" inDegree="1" outDegree="0"><label>1re trad. tchèque (vers 1300)</label></node><node xml:id="n_Ulrich" type="witness" inDegree="2" outDegree="1"><label>Ulrich de Türheim (1250)</label></node><node xml:id="n_Freyberg" type="witness" inDegree="3" outDegree="1"><label>Henrich de Freyberg (vers 1300)</label></node><node xml:id="n_tcheque2" type="witness" inDegree="1" outDegree="0"><label>2e trad. tchèque (vers 1300)</label></node><node xml:id="n_Gottfried" type="witness" inDegree="2" outDegree="2"><label>Gottfried (début du XIIIe)</label></node><node xml:id="n_Saga" type="witness" inDegree="1" outDegree="0"><label>Saga 1226</label></node><node xml:id="n_Tristrem" type="witness" inDegree="1" outDegree="0"><label>Sir Tristrem (fin du XIIIe)</label></node><node xml:id="n_Tavola" type="witness" inDegree="2" outDegree="0"><label>Tavola ritonda (vers 1300)</label></node><node xml:id="n_Fd" type="witness" inDegree="2" outDegree="0"><label>Fd Folie Tristan du ms. Douce (fin du XIIe)</label></node><node xml:id="n_Fb" type="witness" inDegree="1" outDegree="0"><label>Fb Folie Tristan du ms. de Berne (vers 1170)</label></node><node xml:id="n_prose" type="witness" inDegree="1" outDegree="1"><label>Roman français en prose (1re rédaction vers 1230)</label></node><node xml:id="n_Thomas" type="witness" inDegree="1" outDegree="5"><label>Thomas</label></node><arc xml:id="arc_1" from="#n_X" to="#n_y" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_X" to="#n_Thomas" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_X" to="#n_x" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_X" to="#n_prose" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_y" to="#n_Beroul" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_y" to="#n_Eilhart" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_x" to="#n_Fd" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_x" to="#n_Fb" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_1" to="#n_B2" od:type="contamination" cert="unknown"/><arc xml:id="arc_10" from="#n_Beroul" to="#n_B2" od:type="contamination" cert="unknown"/><arc xml:id="arc_11" from="#n_Eilhart" to="#n_Volksbuch" od:type="filiation" cert="unknown"/><arc xml:id="arc_12" from="#n_Eilhart" to="#n_tcheque" od:type="filiation" cert="unknown"/><arc xml:id="arc_13" from="#n_Eilhart" to="#n_Ulrich" od:type="filiation" cert="unknown"/><arc xml:id="arc_14" from="#n_Eilhart" to="#n_Freyberg" od:type="filiation" cert="unknown"/><arc xml:id="arc_15" from="#n_Eilhart" to="#n_Gottfried" od:type="contamination" cert="unknown"/><arc xml:id="arc_16" from="#n_Ulrich" to="#n_Freyberg" od:type="contamination" cert="unknown"/><arc xml:id="arc_17" from="#n_Freyberg" to="#n_tcheque2" od:type="filiation" cert="unknown"/><arc xml:id="arc_18" from="#n_Gottfried" to="#n_Ulrich" od:type="contamination" cert="unknown"/><arc xml:id="arc_19" from="#n_Gottfried" to="#n_Freyberg" od:type="contamination" cert="unknown"/><arc xml:id="arc_20" from="#n_prose" to="#n_Tavola" od:type="filiation" cert="unknown"/><arc xml:id="arc_21" from="#n_Thomas" to="#n_Gottfried" od:type="filiation" cert="unknown"/><arc xml:id="arc_22" from="#n_Thomas" to="#n_Saga" od:type="filiation" cert="unknown"/><arc xml:id="arc_23" from="#n_Thomas" to="#n_Tristrem" od:type="filiation" cert="unknown"/><arc xml:id="arc_24" from="#n_Thomas" to="#n_Tavola" od:type="contamination" cert="unknown"/><arc xml:id="arc_25" from="#n_Thomas" to="#n_Fd" od:type="contamination" cert="unknown"/></graph>
+      </body>
+      <back>
+         <noteGrp>
+         <note target="#arc_10">This two line are not really contamination, but a vaguer type of influence</note></noteGrp>
+      </back>
+  </text>
+</TEI>

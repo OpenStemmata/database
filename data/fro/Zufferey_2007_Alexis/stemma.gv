@@ -4,6 +4,8 @@ digraph {
     omegaTrois [color="grey", label="ω₃"]
     EmpytOne [color="grey", label=""]
     EmpytTwo [color="grey", label=""]
+    P2 [label="P₂"]
+    M2 [label="M₂"]
 
     omegaUn -> omegaDeux;
     omegaUn -> a;
@@ -17,12 +19,12 @@ digraph {
     omegaTrois -> b;
     omegaTrois -> EmpytOne;
     omegaTrois -> i;
-    EmpytOne -> P₂;
+    EmpytOne -> P2;
     EmpytOne -> P;
     i -> S;
     i -> EmpytTwo;
     EmpytTwo -> M;
-    EmpytTwo -> M₂;
+    EmpytTwo -> M2;
 
     a -> i[style="dashed"];
     b -> L[style="dashed"];

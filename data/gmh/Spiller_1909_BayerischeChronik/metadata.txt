@@ -61,7 +61,7 @@ wits:
       witNotes: ""
       witMsDesc: ""
       witDigit: ""
-    - witSigla: W""
+    - witSigla: "W"
       witSignature: "München, Staatsbibl., Cgm 565"
       witOrigDate: "1480-1520"
       witOrigPlace: ""

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Floridan et Elvide</title>
+         <author>Clive, Peter H.</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Translation by Rasse de Brunhamel (Aisne), a likely member of the court of Louis de Luxembourg, count of Saint-Pol, of the Latin story by Nicolas de Clamanges (1365-1437). It is integrated in ancient editions after the _Petit Jean de Saintré_. The source text is not included, nor all editions, and so the stemma is partial. A more complete text of the edition by same editor is in Floridan et Elvide: a critical edition of the 15th century text, with an introduction by H. P. Clive, Oxford, Blackwell, 1959.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="publicationPart">
+               <title>Floridan et Elvide: a critical edition</title>
+               <author>Clive, Peter H.</author><date>1957</date>
+               <pubPlace>Oxford</pubPlace><series>Medium Ævum</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="26"/>
+               <biblScope unit="page" n="156"/>
+               <ptr type="digitised" target="https://doi.org/43626693 "/>
+            </bibl>
+            </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/1851159474211227661690">Floridan et Elvide</title>
+           <persName role="author" ref="http://viaf.org/2329263">Rasse de Brunhamel</persName>
+           <origDate>1420-1456</origDate>
+           <origPlace>North (Picardy?)</origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">Narrative (roman de chevalerie/chronique)</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">unspecified</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="frm"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/frm/Clive_1959_FloridanEtElvide/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="7" size="6"><label></label><node xml:id="n_BN10057" type="witness" inDegree="0" outDegree="1"><label>BN n.a. 10057</label></node><node xml:id="n_BN1506" type="witness" inDegree="1" outDegree="0"><label>BN fr. 1506</label></node><node xml:id="n_Revised" type="hypothetical" inDegree="1" outDegree="2"><label>Revised</label></node><node xml:id="n_BLNero" type="witness" inDegree="1" outDegree="0"><label>BM Cotton Nero D ix</label></node><node xml:id="n_RegLat" type="witness" inDegree="1" outDegree="1"><label>Vatican Reg. lat. 896</label></node><node xml:id="n_Genappe" type="hypothetical" inDegree="1" outDegree="2"><label>1459 Genappe MS.</label></node><node xml:id="n_Editions" type="witness" inDegree="1" outDegree="0"><label>Editions</label></node><arc xml:id="arc_1" from="#n_BN10057" to="#n_Revised" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_Revised" to="#n_BLNero" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_Revised" to="#n_RegLat" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_RegLat" to="#n_Genappe" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_Genappe" to="#n_BN1506" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_Genappe" to="#n_Editions" od:type="filiation" cert="unknown"/></graph>
+      </body>
+      <back>
+         </back>
+  </text>
+</TEI>

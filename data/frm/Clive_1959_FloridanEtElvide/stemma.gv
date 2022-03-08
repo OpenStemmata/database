@@ -1,0 +1,18 @@
+digraph {
+
+    BN10057[label="BN n.a. 10057"];
+    BN1506[label="BN fr. 1506"];
+    Revised[color="grey"];
+    BLNero[label="BM Cotton Nero D ix"];
+    RegLat[label="Vatican Reg. lat. 896"];
+    Genappe[label="1459 Genappe MS.", color="grey"];
+
+
+    BN10057->Revised;
+    Revised->BLNero;
+    Revised->RegLat;
+    RegLat->Genappe;
+    Genappe->BN1506;
+    Genappe->Editions;
+
+}

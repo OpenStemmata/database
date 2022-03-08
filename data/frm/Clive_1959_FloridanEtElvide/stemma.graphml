@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="color" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="BN10057">
+  <data key="d0">BN n.a. 10057</data>
+</node>
+<node id="BN1506">
+  <data key="d0">BN fr. 1506</data>
+</node>
+<node id="Revised">
+  <data key="d1">grey</data>
+</node>
+<node id="BLNero">
+  <data key="d0">BM Cotton Nero D ix</data>
+</node>
+<node id="RegLat">
+  <data key="d0">Vatican Reg. lat. 896</data>
+</node>
+<node id="Genappe">
+  <data key="d0">1459 Genappe MS.</data>
+  <data key="d1">grey</data>
+</node>
+<node id="Editions"/>
+<edge source="BN10057" target="Revised">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Revised" target="BLNero">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Revised" target="RegLat">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="RegLat" target="Genappe">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Genappe" target="BN1506">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Genappe" target="Editions">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

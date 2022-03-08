@@ -7,8 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Roman de Thebes</title>
-            <author>Constans, Léopold</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <author>Constans, Léopold</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -25,12 +24,10 @@
          <sourceDesc>
             <bibl type="book">
                <title>Le Roman de Thèbes, publié d’après tous les manuscrits</title>
-               <date>1890</date>
-               <pubPlace>Paris</pubPlace>
-               <series>SATF</series>
+               <author>Constans, Léopold</author><date>1890</date>
+               <pubPlace>Paris</pubPlace><series>SATF</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="30"/>
-               <author>Constans, Léopold</author>
                <biblScope unit="page" n="LXVI"/>
                <ptr type="digitised" target=""/>
             </bibl>
@@ -65,7 +62,9 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="17" size="17"><label>1</label><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="2"><label>O</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="3"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="1"><label>z</label></node><node xml:id="n_zprime" type="hypothetical" inDegree="1" outDegree="2"><label>z'</label></node><node xml:id="n_s" type="hypothetical" inDegree="1" outDegree="1"><label>s</label></node><node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="1"><label></label></node><node xml:id="n_yprime" type="hypothetical" inDegree="2" outDegree="1"><label>y'</label></node><node xml:id="n_p" type="hypothetical" inDegree="1" outDegree="1"><label>p</label></node><node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="1"><label>a</label></node><node xml:id="n_S" type="witness" inDegree="1" outDegree="0"><label>S</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><arc from="#n_1" to="#n_D" od:type="filiation" cert="unknown"/><arc from="#n_1" to="#n_yprime" od:type="filiation" cert="unknown"/><arc from="#n_O" to="#n_z" od:type="filiation" cert="unknown"/><arc from="#n_O" to="#n_1" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_2" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_C" od:type="filiation" cert="unknown"/><arc from="#n_x" to="#n_yprime" od:type="contamination" cert="unknown"/><arc from="#n_y" to="#n_p" od:type="filiation" cert="unknown"/><arc from="#n_y" to="#n_a" od:type="filiation" cert="unknown"/><arc from="#n_z" to="#n_zprime" od:type="filiation" cert="unknown"/><arc from="#n_zprime" to="#n_s" od:type="filiation" cert="unknown"/><arc from="#n_zprime" to="#n_x" od:type="filiation" cert="unknown"/><arc from="#n_s" to="#n_S" od:type="filiation" cert="unknown"/><arc from="#n_2" to="#n_B" od:type="filiation" cert="unknown"/><arc from="#n_yprime" to="#n_y" od:type="filiation" cert="unknown"/><arc from="#n_p" to="#n_P" od:type="filiation" cert="unknown"/><arc from="#n_a" to="#n_A" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="17" size="17"><label>1</label><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="2"><label>O</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="3"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="1"><label>z</label></node><node xml:id="n_zprime" type="hypothetical" inDegree="1" outDegree="2"><label>z'</label></node><node xml:id="n_s" type="hypothetical" inDegree="1" outDegree="1"><label>s</label></node><node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="1"><label></label></node><node xml:id="n_yprime" type="hypothetical" inDegree="2" outDegree="1"><label>y'</label></node><node xml:id="n_p" type="hypothetical" inDegree="1" outDegree="1"><label>p</label></node><node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="1"><label>a</label></node><node xml:id="n_S" type="witness" inDegree="1" outDegree="0"><label>S</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><arc xml:id="arc_1" from="#n_1" to="#n_D" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_1" to="#n_yprime" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_O" to="#n_z" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_O" to="#n_1" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_x" to="#n_2" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_x" to="#n_C" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_x" to="#n_yprime" od:type="contamination" cert="unknown"/><arc xml:id="arc_8" from="#n_y" to="#n_p" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_y" to="#n_a" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_z" to="#n_zprime" od:type="filiation" cert="unknown"/><arc xml:id="arc_11" from="#n_zprime" to="#n_s" od:type="filiation" cert="unknown"/><arc xml:id="arc_12" from="#n_zprime" to="#n_x" od:type="filiation" cert="unknown"/><arc xml:id="arc_13" from="#n_s" to="#n_S" od:type="filiation" cert="unknown"/><arc xml:id="arc_14" from="#n_2" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_15" from="#n_yprime" to="#n_y" od:type="filiation" cert="unknown"/><arc xml:id="arc_16" from="#n_p" to="#n_P" od:type="filiation" cert="unknown"/><arc xml:id="arc_17" from="#n_a" to="#n_A" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         </back>
   </text>
 </TEI>

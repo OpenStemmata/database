@@ -33,28 +33,45 @@ test_that("subsubfolders are named consistently (FirstEditorLastName_Date_TitleW
 
 test_that("All submissions are complete", {
   folders = Sys.glob("../../data/*/*")
-  correct_structure_min = sort(c("stemma.png", "stemma.gv", "metadata.txt"))
-  correct_structure_full = sort(c("stemma.png", "stemma.graphml", "stemma.gv", "metadata.txt"))
+  correct_structure_without_image = sort(c("stemma.graphml", "stemma.gv", "metadata.txt"))
   for(i in 1:length(folders)){
     file_name = c(stringr::str_split(folders[i], '/'))
     file_name_2 = paste(file_name[[1]][length(file_name[[1]])], '.tei.xml', sep = '')
-    correct_structure = sort(append(correct_structure_full, file_name_2 , after = length(correct_structure_full)))
+    correct_structure_min = sort(
+      append(correct_structure_without_image, file_name_2 , 
+             after = length(correct_structure_without_image)))
+    correct_structure_max = sort(c(correct_structure_min, "stemma.png"))
     expect_true(identical(sort(list.files(folders[i])),
-                correct_structure)
+                          correct_structure_max)
                 ||
                 identical(sort(list.files(folders[i])),
                 correct_structure_min),
                 info = paste("Error in folder",
                                   folders[i], 
-                                  " Each submission must contain only:", 
-                                  paste(correct_structure_min, collapse = " "), 
+                                  "Submission is missing at least:", 
+                                  paste(correct_structure_min[!correct_structure_min %in% list.files(folders[i])], collapse = " "), 
                                   collapse = " ")
     ) 
   }
 })
 
 
-
+test_that("All tei files are valid", {
+  folders = Sys.glob("../../data/*/*")
+  for(i in 1:length(folders)){
+    file_name = stringr::str_split(folders[i], '/')[[1]][length(stringr::str_split(folders[i], '/')[[1]])]
+    file_path = paste(folders[i], 
+                      paste(file_name, '.tei.xml', sep = ''),
+                      sep = '/')
+    validation = xml2::xml_validate(xml2::read_xml(file_path), xml2::read_xml("../../schema/openStemmata.xsd"))
+    expect_true(validation)
+    if(!validation){
+      for(j in 1:length(attributes(validation)$errors)){
+        warning(paste(file_path, attributes(validation)$errors[j]))
+      }
+    }
+  }
+})
 
 
 

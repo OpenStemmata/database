@@ -7,8 +7,7 @@
          <titleStmt>
             <title type="standard">Stemma of</title>
             <title type="variable">Opuscula</title>
-            <author>Erbse, Hartmut</author>
-         <respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+         <author>Erbse, Hartmut</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
          <publicationStmt>
             <authority>
                <orgName>Openstemmata</orgName>
@@ -23,18 +22,16 @@
             <note>The hypothetical node 'y' might be identical to Vat. gr. 1335 before correction, d represents a group of younger manuscripts</note>
          </notesStmt>
          <sourceDesc>
-            <bibl type="chapter">
+            <bibl type="publicationPart">
                <title>Überlieferungsgeschichte der griechischen klassischen und hellenistischen Literatur</title>
-               <date>1961</date>
-               <pubPlace>Zürich</pubPlace>
-               <series>Geschichte der Textüberlieferung der antiken und mittelalterlichen Literatur</series>
+               <author>Erbse, Hartmut</author><date>1961</date>
+               <pubPlace>Zürich</pubPlace><series>Geschichte der Textüberlieferung der antiken und mittelalterlichen Literatur</series>
                <!-- Numero de série -->
                <biblScope unit="volume" n="1"/>
-               <author>Erbse, Hartmut</author>
                <biblScope unit="page" n="269"/>
                <ptr type="digitised" target="http://opac.regesta-imperii.de/id/834709"/>
             </bibl>
-            <listWit><witness xml:id="Vind."><label type="siglum">Vind.</label><settlement>Wien</settlement><repository> Österreichische Nationalbibliothek</repository><idno> phil. gr. 037</idno><origDate>16c</origDate></witness><witness xml:id="Vat. 989"><label type="siglum">Vat. 989</label><settlement>Vaticano</settlement><repository> Biblioteca Apostolica Vaticana</repository><idno> Vat. gr. 0989</idno><ptr type="digitised" target="https://digi.vatlib.it/view/MSS_Vat.gr.989"/></witness></listWit>
+            <listWit><witness xml:id="w_Vind."><label type="siglum">Vind.</label><msDesc><msIdentifier><settlement>Wien</settlement><repository> Österreichische Nationalbibliothek</repository><idno> phil. gr. 037</idno></msIdentifier></msDesc><origDate>16c</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Vat._989"><label type="siglum">Vat. 989</label><msDesc><msIdentifier><settlement>Vaticano</settlement><repository> Biblioteca Apostolica Vaticana</repository><idno> Vat. gr. 0989</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digi.vatlib.it/view/MSS_Vat.gr.989"/></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>
@@ -66,7 +63,9 @@
   </facsimile>
   <text>
       <body>
-         <graph type="directed" order="5" size="4"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="2"><label>ω</label></node><node xml:id="n_Vind" type="witness" inDegree="1" outDegree="0"><label>Vind.</label></node><node xml:id="n_Vaticanus989" type="witness" inDegree="1" outDegree="0"><label>Vat. 989</label></node><node xml:id="n_hyparchetypy" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_groupd" type="hypothetical" inDegree="1" outDegree="0"><label>d</label></node><arc from="#n_archetyp" to="#n_Vind" od:type="filiation" cert="unknown"/><arc from="#n_archetyp" to="#n_hyparchetypy" od:type="filiation" cert="unknown"/><arc from="#n_hyparchetypy" to="#n_Vaticanus989" od:type="filiation" cert="unknown"/><arc from="#n_hyparchetypy" to="#n_groupd" od:type="filiation" cert="unknown"/></graph>
+         <graph type="directed" order="5" size="4"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="2"><label>ω</label></node><node xml:id="n_Vind" type="witness" inDegree="1" outDegree="0"><label>Vind.</label></node><node xml:id="n_Vaticanus989" type="witness" inDegree="1" outDegree="0"><label>Vat. 989</label></node><node xml:id="n_hyparchetypy" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_groupd" type="hypothetical" inDegree="1" outDegree="0"><label>d</label></node><arc xml:id="arc_1" from="#n_archetyp" to="#n_Vind" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_archetyp" to="#n_hyparchetypy" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_hyparchetypy" to="#n_Vaticanus989" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_hyparchetypy" to="#n_groupd" od:type="filiation" cert="unknown"/></graph>
       </body>
+      <back>
+         </back>
   </text>
 </TEI>

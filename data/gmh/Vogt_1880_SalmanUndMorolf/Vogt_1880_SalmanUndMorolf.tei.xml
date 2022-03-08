@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Salman und Morolf</title>
+         <author>Vogt, Friedrich</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note></note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="book">
+               <title>Salman und Morolf</title>
+               <author>Vogt, Friedrich</author><date>1880</date>
+               <pubPlace>Halle</pubPlace><series>Die deutschen Dichtungen von Salomon und Markolf</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="1"/>
+               <biblScope unit="page" n="XVII"/>
+               <ptr type="digitised" target="http://dbooks.bodleian.ox.ac.uk/books/PDFs/300167394.pdf"/>
+            </bibl>
+            <listWit><witness xml:id="w_E"><label type="siglum">E</label><msDesc><msIdentifier><settlement>Frankfurt a. M.</settlement><repository> Universitätsbibl.</repository><idno> Ms. germ. qu. 13</idno></msIdentifier></msDesc><origDate>1479</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://sammlungen.ub.uni-frankfurt.de/msma/urn/urn:nbn:de:hebis:30:2-14571"/></witness><witness xml:id="w_S"><label type="siglum">S</label><msDesc><msIdentifier><settlement>Stuttgart</settlement><repository> Landesbibl.</repository><idno> Cod. HB XIII 2</idno></msIdentifier></msDesc><origDate>1467-1469</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="http://digital.wlb-stuttgart.de/sammlungen/sammlungsliste/werksansicht/?no_cache=1&amp;tx_dlf%5Bid%5D=2518&amp;tx_dlf%5Bpage%5D=1"/></witness><witness xml:id="w_d"><label type="siglum">d</label><idno>Strassburg : Matthias Hupfuff, 1499</idno><origDate></origDate><origPlace></origPlace><note>printed edition</note><ptr type="description" target=""/><ptr type="digitised" target="https://mdz-nbn-resolving.de/bsb00031411"/></witness></listWit>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/290574100">Salman und Morolf</title>
+           <persName role="author" ref="http://viaf.org/"></persName>
+           <origDate>1150-1199</origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">Epic</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">original</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="gmh"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Vogt_1880_SalmanUndMorolf/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="5" size="4"><label></label><node xml:id="n_X" type="hypothetical" inDegree="0" outDegree="2"><label>X</label></node><node xml:id="n_Y" type="hypothetical" inDegree="1" outDegree="2"><label>Y</label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><node xml:id="n_d" type="witness" inDegree="1" outDegree="0"><label>d</label></node><node xml:id="n_S" type="witness" inDegree="1" outDegree="0"><label>S</label></node><arc xml:id="arc_1" from="#n_X" to="#n_Y" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_X" to="#n_E" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_Y" to="#n_d" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_Y" to="#n_S" od:type="filiation" cert="unknown"/></graph>
+      </body>
+      <back>
+         </back>
+  </text>
+</TEI>

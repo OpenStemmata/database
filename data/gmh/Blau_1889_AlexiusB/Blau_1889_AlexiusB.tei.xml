@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Alexius (Verslegende B)</title>
+         <author>Blau, Max Friedrich</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note></note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="publicationPart">
+               <title>Zur Alexiuslegende II</title>
+               <author>Blau, Max Friedrich</author><date>1889</date>
+               <pubPlace></pubPlace><series>Germania</series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n="34"/>
+               <biblScope unit="page" n="158"/>
+               <ptr type="digitised" target="https://de.wikisource.org/wiki/Datei:Germania_34_1889.pdf"/>
+            </bibl>
+            <listWit><witness xml:id="w_A"><label type="siglum">A</label><msDesc><msIdentifier><settlement>Annaberg-Buchholz (Erzgebirge)</settlement><repository> Kirchenbibl. St. Anna</repository><idno> Cod. 329</idno></msIdentifier></msDesc><origDate>1447</origDate><origPlace></origPlace><note>Old shelfmark: D 187</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_R"><label type="siglum">R</label><msDesc><msIdentifier><settlement>Königsberg</settlement><repository> Staats- und Universitätsbibl.</repository><idno> Hs. 900</idno></msIdentifier></msDesc><origDate>1300-1500</origDate><origPlace></origPlace><note>lost</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_V"><label type="siglum">V</label><msDesc><msIdentifier><settlement>Vienna</settlement><repository> Österr. Nationalbibl.</repository><idno> Cod. 3007</idno></msIdentifier></msDesc><origDate>1472</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/">Alexius (Verslegende B)</title>
+           <persName role="author" ref="http://viaf.org/"></persName>
+           <origDate>1250-1299</origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">hagiography</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">no</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">original</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="gmh"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Blau_1889_AlexiusB/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="6" size="5"><label>1</label><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1"><label>O (Original)</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x (verderbte gemeinsame Vorlage)</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_V" type="witness" inDegree="1" outDegree="0"><label>V</label></node><node xml:id="n_R" type="witness" inDegree="1" outDegree="0"><label>R</label></node><arc xml:id="arc_1" from="#n_O" to="#n_x" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_x" to="#n_y" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_x" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_y" to="#n_V" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_y" to="#n_R" od:type="filiation" cert="unknown"/></graph>
+      </body>
+      <back>
+         </back>
+  </text>
+</TEI>

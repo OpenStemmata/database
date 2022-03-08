@@ -191,7 +191,7 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="Gv" target="Ham">
-  <data key="d2">contamination</data>
+  <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="Ham" target="Laur">
@@ -211,11 +211,11 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="Pr" target="Laur">
-  <data key="d2">contamination</data>
+  <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="Pr" target="Fi">
-  <data key="d2">contamination</data>
+  <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="Ga" target="Lau">
@@ -239,7 +239,7 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="Vat" target="Pa">
-  <data key="d2">contamination</data>
+  <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="Vat" target="To">

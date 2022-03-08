@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable">Siege de Barbastre</title>
+         <author>Gundlach, Ad.</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>The status of P is difficult, particularly, one does not know where to anchor it exactly. I have anchored it according to the discussion in the main text, that gives common errors DP (sometimes DLP) as well as HP (sometimes BHP). On P: «P, welches zum Teil mit DL, zum Teil mit HB, un am Schlusse durchaus selbständig ist, besonders metrisch, sehr corumpiert; es lässt sich keiner der beiden Gruppen unbedingt zuzählen, ist vielmehr als Mischhandschrift anzusehen». In the text, he gives, common errors of DP; HP; DLP; BHP . Image of the stemma taken from A. Henry, Les Œuvres d’Adenet le Roi, II, Buevon de Conmarchis, 1953, Bruges, p. 19 (that includes updated sigla in parentheses). This stemma does not account for the fragment University of Chicago Library, Special Collections Research Center, ed. by McMillan (1942-1943, 10.3406/roma.1942.3528)</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="book">
+               <title>Das Handschriften-Verhältnis des Siege de Barbastre</title>
+               <author>Gundlach, Ad.</author><date>1883</date>
+               <pubPlace>Marbourg</pubPlace><series></series>
+               <!-- Numero de série -->
+               <biblScope unit="volume" n=""/>
+               <biblScope unit="page" n="33"/>
+               <ptr type="digitised" target="https://archive.org/details/HandschriftenVerhBarbastre/page/n38"/>
+            </bibl>
+            <listWit><witness xml:id="w_D"><label type="siglum">D</label><msDesc><msIdentifier><settlement>Londre</settlement><repository> BL</repository><idno> 20 D XI</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note>Perrier A</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_L"><label type="siglum">L</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 24369</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note>Perrier B</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_H"><label type="siglum">H</label><msDesc><msIdentifier><settlement>Londre</settlement><repository> BL</repository><idno> Harley 1321</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note>Perrier D</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B"><label type="siglum">B</label><msDesc><msIdentifier><settlement>Londre</settlement><repository> BL</repository><idno> Roy. 20 B XIX</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note>Perrier C</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_P"><label type="siglum">P</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 1448</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note>Perrier P</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_E"><label type="siglum">E</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> NAF 6298</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note>Perrier E</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title ref="http://viaf.org/186272943">Siege de Barbastre</title>
+           <persName role="author" ref="http://viaf.org/"></persName>
+           <origDate>1175-1220</origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+              <term type="workGenre">chanson de geste</term>
+              <term type="stemmaType">reconstructed</term>
+              <term type="contam">yes</term>
+              <term type="extraStemmContam">no</term>
+              <term type="rootType">archetype</term>
+           </keywords>
+        </textClass>
+        <langUsage>
+           <language ident="fro"/>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Gundlach_1883_SiegeBarbastre/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+      <body>
+         <graph type="directed" order="12" size="12"><label>1</label><node xml:id="n_x" type="hypothetical" inDegree="0" outDegree="1"><label>x</label></node><node xml:id="n_xprime" type="hypothetical" inDegree="1" outDegree="2"><label>x'</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="2"><label>z</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D (A)</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L (B)</label></node><node xml:id="n_H" type="witness" inDegree="1" outDegree="0"><label>H (D)</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="1"><label>B (C)</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A (Adenet)</label></node><node xml:id="n_P" type="witness" inDegree="2" outDegree="0"><label>P (P)</label></node><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><arc xml:id="arc_1" from="#n_x" to="#n_xprime" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_xprime" to="#n_y" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_xprime" to="#n_z" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_y" to="#n_1" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_y" to="#n_L" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_z" to="#n_2" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_z" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_B" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_1" to="#n_D" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_1" to="#n_P" od:type="contamination" cert="unknown"/><arc xml:id="arc_11" from="#n_2" to="#n_H" od:type="filiation" cert="unknown"/><arc xml:id="arc_12" from="#n_2" to="#n_P" od:type="contamination" cert="unknown"/></graph>
+      </body>
+      <back>
+         </back>
+  </text>
+</TEI>

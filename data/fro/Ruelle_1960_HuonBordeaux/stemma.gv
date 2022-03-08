@@ -1,0 +1,9 @@
+digraph {
+    O[color="grey"];
+    Mprime[label="M'", color="grey"];
+
+    O->Mprime;
+    Mprime->M;
+    Mprime->T;
+    O->P;
+}
