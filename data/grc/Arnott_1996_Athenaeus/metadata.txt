@@ -32,7 +32,7 @@ sourceText: "NA"
 derivatives: "selected"
 contributor : "Aurélien Berra"
 contributorORCID : "0000-0002-1695-8497"
-note : ""
+note: ""
 wits:
     - witSigla: ""
       witSignature: ""
