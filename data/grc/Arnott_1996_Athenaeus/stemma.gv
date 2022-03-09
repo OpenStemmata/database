@@ -4,9 +4,8 @@
 digraph {
 
     alpha -> A;
-    # alpha -> other_source; # no explicit statement from the editor on the relationship between the archetype alpha and this hypothetical source
     A -> epitome;
-    other_source -> epitome [style="dashed"]; # "and so it may be wiser to believe that [A] was the main but not the only source of Epit[ome]"
+    other_source -> epitome [style="dashed"]; # "and so it may be wiser to believe that [A] was the main but not the only source of Epit[ome]"; no explicit statement from the editor on the relationship between the archetype alpha and this hypothetical source
     epitome -> gamma;
     gamma -> delta;
     delta -> C;
