@@ -1,0 +1,17 @@
+# Athenaeus: Cobet 1845
+
+digraph {
+
+    omega -> A;
+    A -> epitome; # Epitome derived from A, no contamination
+    epitome -> 1;
+    1 -> C;
+    1 -> E;
+    epitome -> Eustathius_ms;
+
+    omega [color="grey", label="ω"];
+    epitome [color="grey", label="Epitome"];
+    Eustathius_ms [color="grey", label="Eustathius’s MS"]; # Eustathius’s manuscript source
+    1 [color="grey", label=""];
+
+}

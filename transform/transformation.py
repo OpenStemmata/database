@@ -47,52 +47,55 @@ if len(sys.argv) > 1:
         nodes = {}
         edges = []
         for fullline in lines:
-            comments = re.split('#', fullline)
-            if len(comments) > 1: 
-                comment = comments[1]
-                line = comments[0]
+            if re.match('\s*#', fullline):
+                continue
             else:
-                comment = ''
-                line = fullline
-            noAttrib = re.sub('\'.+?\'', '', line) 
-            noAttrib = re.sub('".+?"', '', line)
-            if "->" in noAttrib or "--" in noAttrib:
-                # If this is an edge
-                origin = re.split('->', noAttrib)[0].strip()
-                dest = re.split('->', noAttrib)[1].strip()
-                if '[' in dest:
-                    dest = re.split('\[', dest)[0].strip()
-                if ';' in dest:
-                    dest = re.split(';', dest)[0].strip()
-                if origin not in nodes:
-                    nodes[origin] = {}
-                if dest not in nodes:
-                    nodes[dest] = {}
-                edge_attr = {'type': 'filiation', 'cert': 'unknown'}
-                if '[' in noAttrib:
-                    attributes = re.findall(attributes_regex, line)    
-                    for attr in attributes:
-                        if attr[0] == 'style':
-                            if attr[1] == 'dashed':
-                                edge_attr['type'] = 'contamination'
-                        elif attr[0] == 'color':
-                            if attr[1] == 'red':
-                                edge_attr['cert'] = 'low'
-                if comment != '':
-                    edge_attr['note'] = comment
-                edges.append((origin,dest, edge_attr))
+                comments = re.split('#', fullline, maxsplit=1)
+                if len(comments) > 1: 
+                    comment = comments[1]
+                    line = comments[0]
+                else:
+                    comment = ''
+                    line = fullline
+                noAttrib = re.sub('\'.+?\'', '', line) 
+                noAttrib = re.sub('".+?"', '', line)
+                if "->" in noAttrib or "--" in noAttrib:
+                    # If this is an edge
+                    origin = re.split('->', noAttrib)[0].strip()
+                    dest = re.split('->', noAttrib)[1].strip()
+                    if '[' in dest:
+                        dest = re.split('\[', dest)[0].strip()
+                    if ';' in dest:
+                        dest = re.split(';', dest)[0].strip()
+                    if origin not in nodes:
+                        nodes[origin] = {}
+                    if dest not in nodes:
+                        nodes[dest] = {}
+                    edge_attr = {'type': 'filiation', 'cert': 'unknown'}
+                    if '[' in noAttrib:
+                        attributes = re.findall(attributes_regex, line)    
+                        for attr in attributes:
+                            if attr[0] == 'style':
+                                if attr[1] == 'dashed':
+                                    edge_attr['type'] = 'contamination'
+                            elif attr[0] == 'color':
+                                if attr[1] == 'red':
+                                    edge_attr['cert'] = 'low'
+                    if comment != '':
+                        edge_attr['note'] = comment
+                    edges.append((origin,dest, edge_attr))
+                    
+                else:
+                # If this is a node
+                    node = re.split('\[', noAttrib)[0].strip()
+                    if '[' in noAttrib:
+                        nodes[node] = {}
+                        attributes = re.findall(attributes_regex, line)    
+                        for attr in attributes:
+                            nodes[node][attr[0]] = attr[1]
+                    if comment != '':
+                        nodes[node]['note'] = comment
                 
-            else:
-            # If this is a node
-                node = re.split('\[', noAttrib)[0].strip()
-                if '[' in noAttrib:
-                    nodes[node] = {}
-                    attributes = re.findall(attributes_regex, line)    
-                    for attr in attributes:
-                        nodes[node][attr[0]] = attr[1]
-                if comment != '':
-                    nodes[node]['note'] = comment
-            
 
     nodes = [ (x,nodes[x]) for x in nodes ]
 
@@ -109,6 +112,7 @@ if len(sys.argv) > 1:
     et.register_namespace('od', 'http://openstemmata.github.io/odd.html')
 
     tree = et.parse('./transform/template.tei.xml')
+
     root = tree.getroot()
 
     # Useful TEI elements
@@ -127,7 +131,8 @@ if len(sys.argv) > 1:
     facsimileLink = "https://github.com/OpenStemmata/database/blob/main/data/"
     facsimileLinkBase = "https://github.com/OpenStemmata/database/blob/main/data/"
 
-    
+    # As default there are no wit elements
+    wit = None
 
     # TEIHEADER
     with codecs.open(txtFile, 'r', 'utf-8') as metadatafile:
@@ -277,8 +282,8 @@ if len(sys.argv) > 1:
                 el.text = cont
             elif re.match('^[\s]+- witSigla', line):
                 cont = re.findall('"([^"]*)"', line)[0]
-                wit = et.SubElement(listWit, 'witness')
                 if cont != '':
+                    wit = et.SubElement(listWit, 'witness')
                     clean_id = 'w_' + superscript.get_normal(
                                     cont.replace(' ', '_').replace("'", 'prime')
                                     )
@@ -288,42 +293,48 @@ if len(sys.argv) > 1:
             elif re.match('^[\s]+witSignature', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 # if cont != '':
-                split_cont = cont.split(',')
-                if len(split_cont) != 3:
-                    el = et.SubElement(wit, 'idno')
-                    el.text = cont
-                else:
-                    msDesc = et.SubElement(wit, 'msDesc')
-                    msIdentif = et.SubElement(msDesc, 'msIdentifier')
-                    settlement = et.SubElement(msIdentif, 'settlement')
-                    settlement.text = split_cont[0]
-                    repository = et.SubElement(msIdentif, 'repository')
-                    repository.text = split_cont[1]
-                    idno = et.SubElement(msIdentif, 'idno')
-                    idno.text = split_cont[2]
+                if wit is not None:
+                    split_cont = cont.split(',')
+                    if len(split_cont) != 3:
+                        el = et.SubElement(wit, 'idno')
+                        el.text = cont
+                    else:
+                        msDesc = et.SubElement(wit, 'msDesc')
+                        msIdentif = et.SubElement(msDesc, 'msIdentifier')
+                        settlement = et.SubElement(msIdentif, 'settlement')
+                        settlement.text = split_cont[0]
+                        repository = et.SubElement(msIdentif, 'repository')
+                        repository.text = split_cont[1]
+                        idno = et.SubElement(msIdentif, 'idno')
+                        idno.text = split_cont[2]
             elif re.match('^[\s]+witOrigDate', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 # if cont != '':
-                el = et.SubElement(wit, 'origDate')
-                el.text = cont
+                if wit is not None:
+                    el = et.SubElement(wit, 'origDate')
+                    el.text = cont
             elif re.match('^[\s]+witOrigPlace', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 # if cont != '':
-                el = et.SubElement(wit, 'origPlace')
-                el.text = cont
+                if wit is not None:
+                    el = et.SubElement(wit, 'origPlace')
+                    el.text = cont
             elif re.match('^[\s]+witNotes', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 # if cont != '':
-                el = et.SubElement(wit, 'note')
-                el.text = cont
+                if wit is not None:
+                    el = et.SubElement(wit, 'note')
+                    el.text = cont
             elif re.match('^[\s]+witMsDesc', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 #if cont != '':
-                et.SubElement(wit, 'ptr', attrib={'type': 'description', 'target': cont})
+                if wit is not None:
+                    et.SubElement(wit, 'ptr', attrib={'type': 'description', 'target': cont})
             elif re.match('^[\s]+witDigit', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 #if cont != '':
-                et.SubElement(wit, 'ptr', attrib={'type': 'digitised', 'target': cont})
+                if wit is not None:
+                    et.SubElement(wit, 'ptr', attrib={'type': 'digitised', 'target': cont})
         
         if facsimileLink != facsimileLinkBase:
             graphic = root.find('./tei:facsimile/tei:graphic', ns)

@@ -1,0 +1,22 @@
+# Athenaeus: Arnott 1996
+# Epitome derived from A, with contamination from another source
+
+digraph {
+
+    alpha -> A;
+    A -> epitome;
+    other_source -> epitome [style="dashed"]; # "and so it may be wiser to believe that [A] was the main but not the only source of Epit[ome]"; no explicit statement from the editor on the relationship between the archetype alpha and this hypothetical source
+    epitome -> gamma;
+    gamma -> delta;
+    delta -> C;
+    delta -> E;
+    gamma -> Eustathius_ms [color="grey"];
+
+    alpha [color="grey", label="α"];
+    other_source [color="grey", label=""];
+    epitome [color="grey", label="Epitome"];
+    Eustathius_ms [color="grey", label="Eustathius’s MS"]; # Eustathius’s manuscript source for the Epitome
+    gamma [color="grey", label="γ"];
+    delta [color="grey", label="δ"];
+
+}

@@ -8,6 +8,7 @@ jobs:
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2
+        # Removing the followiung just in case
         with: 
           ref: ${{ github.ref }}
           fetch-depth: 0
@@ -28,7 +29,16 @@ jobs:
               python ./transform/transformation.py ${changed_file} ; 
             fi
           done
-      - name: Commit
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with: 
-          commit_message: Auto-Generation TEI
+      #- name: Commit
+      #  uses: stefanzweifel/git-auto-commit-action@v4
+      #  with: 
+      #    commit_message: Auto-Generation TEI
+      #    push_options: --force
+      # Let's do it manually, shall we ?
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git commit -m "[Automatic] Auto-Generation TEI" || echo "Nothing to commit"
+          git push || echo "Nothing to push"

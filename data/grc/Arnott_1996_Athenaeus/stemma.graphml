@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="note" attr.type="string" for="edge" id="d5"/>
+<key attr.name="cert" attr.type="string" for="edge" id="d4"/>
+<key attr.name="type" attr.type="string" for="edge" id="d3"/>
+<key attr.name="note" attr.type="string" for="node" id="d2"/>
+<key attr.name="label" attr.type="string" for="node" id="d1"/>
+<key attr.name="color" attr.type="string" for="node" id="d0"/>
+<graph edgedefault="directed"><node id="alpha">
+  <data key="d0">grey</data>
+  <data key="d1">α</data>
+</node>
+<node id="A"/>
+<node id="epitome">
+  <data key="d0">grey</data>
+  <data key="d1">Epitome</data>
+</node>
+<node id="other_source">
+  <data key="d0">grey</data>
+  <data key="d1"></data>
+</node>
+<node id="gamma">
+  <data key="d0">grey</data>
+  <data key="d1">γ</data>
+</node>
+<node id="delta">
+  <data key="d0">grey</data>
+  <data key="d1">δ</data>
+</node>
+<node id="C"/>
+<node id="E"/>
+<node id="Eustathius_ms">
+  <data key="d0">grey</data>
+  <data key="d1">Eustathius’s MS</data>
+  <data key="d2"> Eustathius’s manuscript source for the Epitome&#13;
+</data>
+</node>
+<edge source="alpha" target="A">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="A" target="epitome">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="epitome" target="gamma">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="other_source" target="epitome">
+  <data key="d3">contamination</data>
+  <data key="d4">unknown</data>
+  <data key="d5"> "and so it may be wiser to believe that [A] was the main but not the only source of Epit[ome]"; no explicit statement from the editor on the relationship between the archetype alpha and this hypothetical source&#13;
+</data>
+</edge>
+<edge source="gamma" target="delta">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="gamma" target="Eustathius_ms">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="delta" target="C">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="delta" target="E">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+</graph></graphml>
