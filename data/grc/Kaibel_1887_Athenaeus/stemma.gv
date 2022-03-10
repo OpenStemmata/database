@@ -1,10 +1,9 @@
 # Athenaeus: Kaibel 1887
-# Epitome independent from A, no contamination
 
 digraph {
 
     omega -> A;
-    omega -> epitome;
+    omega -> epitome; # Epitome independent from A, no contamination
     epitome -> 1;
     1 -> C;
     1 -> E;

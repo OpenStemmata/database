@@ -1,10 +1,9 @@
 # Athenaeus: Cobet 1845
-# Epitome derived from A, no contamination
 
 digraph {
 
     omega -> A;
-    A -> epitome;
+    A -> epitome; # Epitome derived from A, no contamination
     epitome -> 1;
     1 -> C;
     1 -> E;
