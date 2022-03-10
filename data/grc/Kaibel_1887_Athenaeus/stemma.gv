@@ -1,7 +1,6 @@
 # Athenaeus: Kaibel 1887
 
 digraph {
-
     omega -> A;
     omega -> epitome; # Epitome independent from A, no contamination
     epitome -> 1;
