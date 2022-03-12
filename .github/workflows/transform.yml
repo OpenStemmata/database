@@ -1,6 +1,12 @@
 name: Transform
 
-on: [pull_request]
+on: 
+  push: 
+    branches:
+      - main
+    paths:
+      - 'data/**'
+  workflow_dispatch: #Allows for manual triggering
 
 jobs:
   build:
@@ -8,9 +14,9 @@ jobs:
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2
-        # Removing the followiung just in case
         with: 
           ref: ${{ github.ref }}
+          # token: ${{ secrets.UPT }}
           fetch-depth: 0
       - name: Set up Python 3.8
         uses: actions/setup-python@v2
@@ -22,23 +28,13 @@ jobs:
           pip install networkx lxml
       - name: Convert files
         run: |
-          files=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{github.event.pull_request.head.sha}})
-          for changed_file in $files; do
-            if [ "${changed_file: -9}" == "stemma.gv" ] || [ "${changed_file: -12}" == "metadata.txt" ] ; 
-              then echo "Converting ${changed_file}."
-              python ./transform/transformation.py ${changed_file} ; 
+          for file in ./data/*/*/* ; do
+            if [ "${file: -9}" == "stemma.gv" ] || [ "${file: -12}" == "metadata.txt" ] ; 
+              then echo "Converting ${file}."
+              python ./transform/transformation.py ${file} ; 
             fi
           done
-      #- name: Commit
-      #  uses: stefanzweifel/git-auto-commit-action@v4
-      #  with: 
-      #    commit_message: Auto-Generation TEI
-      #    push_options: --force
-      # Let's do it manually, shall we ?
-      - name: Commit files
-        run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add -A
-          git commit -m "[Automatic] Auto-Generation TEI" || echo "Nothing to commit"
-          git push || echo "Nothing to push"
+      # - name: Commit
+      #   uses: stefanzweifel/git-auto-commit-action@v4
+      #   with: 
+      #     commit_message: Auto-Generation TEI
