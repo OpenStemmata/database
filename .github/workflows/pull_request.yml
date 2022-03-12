@@ -20,8 +20,7 @@ jobs:
         pip install networkx lxml
     - name: Convert files
       run: |
-        files=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{github.event.pull_request.head.sha}})
-        for changed_file in $files; do
+        for changed_file in ./data/*/*/* ; do
           if [ "${changed_file: -9}" == "stemma.gv" ] || [ "${changed_file: -12}" == "metadata.txt" ] ; 
             then echo "Converting ${changed_file}."
             python ./transform/transformation.py ${changed_file} ; 
