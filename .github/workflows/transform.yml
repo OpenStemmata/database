@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'data/**'
+  workflow_dispatch: #Allows for manual triggering
 
 jobs:
   build:
