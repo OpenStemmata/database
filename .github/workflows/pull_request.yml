@@ -17,25 +17,22 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install networkx lxml
+        pip install networkx lxml 
+    - name: Test Folder Structure
+      run:  python ./tests/test_folder.py 
+    - name: Test DOT
+      run:  python ./tests/test_dot.py 
     - name: Convert files
       run: |
-        for changed_file in ./data/*/*/* ; do
-          if [ "${changed_file: -9}" == "stemma.gv" ] || [ "${changed_file: -12}" == "metadata.txt" ] ; 
-            then echo "Converting ${changed_file}."
-            python ./transform/transformation.py ${changed_file} ; 
+        for file in ./data/*/*/* ; do
+          if [ "${file: -9}" == "stemma.gv" ] || [ "${file: -12}" == "metadata.txt" ] ; 
+            then echo "Converting ${file}."
+            python ./transform/transformation.py ${file} ; 
           fi
         done
-    - uses: r-lib/actions/setup-r@v1
-      id: install-r  
-    - name: Install dependencies
-      run: install.packages(c("testthat", "stringr", "xml2")) #"sna" , "igraph", "DiagrammeR"))
-      shell: Rscript {0}
-    - run: Rscript tests/testthat.R
-    
-    #- uses: actions/checkout@master
-    #- name: Test
-    #  uses: skx/github-action-tester@master
-
+    - name: Test TEI
+      run:  python ./tests/test_tei.py 
+      
+   
 
 
