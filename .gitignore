@@ -1,3 +1,2 @@
 .Rhistory
-tests/__pychache__/*
-tests/__pychache__
+*pycache*
