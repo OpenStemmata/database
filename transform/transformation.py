@@ -17,7 +17,7 @@ import superscript
 # Local:
 # for changed_file in $( find ~/Dokumente/OpenStemmata/database/data -name '*.*' ) ; do ~/Dokumente/OpenStemmata/venv/bin/python3 ~/Dokumente/OpenStemmata/database/transform/transformation.py $changed_file ; done
 
-attributes_regex = '(\w+)="?([^"]*)"?,?\s*'
+attributes_regex = '(?:label|dir|color|style)\s?=\s?(?:none|dashed|grey|"[^"]+")'
 
 if len(sys.argv) > 1:
     changed_file = str(sys.argv[1])
@@ -74,16 +74,20 @@ if len(sys.argv) > 1:
                     edge_attr = {'type': 'filiation', 'cert': 'unknown'}
                     if '[' in noAttrib:
                         attributes = re.findall(attributes_regex, line)    
+                        # print(attributes)
                         for attr in attributes:
                             if attr[0] == 'style':
                                 if attr[1] == 'dashed':
                                     edge_attr['type'] = 'contamination'
                             elif attr[0] == 'color':
-                                if attr[1] == 'red':
+                                if attr[1] == 'grey':
                                     edge_attr['cert'] = 'low'
+                            elif attr[0] == 'dir':
+                                if attr[1] == 'none':
+                                    edge_attr['dir'] = 'none'
                     if comment != '':
                         edge_attr['note'] = comment
-                    edges.append((origin,dest, edge_attr))
+                    edges.append((origin, dest, edge_attr))
                     
                 else:
                 # If this is a node
@@ -91,6 +95,7 @@ if len(sys.argv) > 1:
                     if '[' in noAttrib:
                         nodes[node] = {}
                         attributes = re.findall(attributes_regex, line)    
+                        print(attributes)
                         for attr in attributes:
                             nodes[node][attr[0]] = attr[1]
                     if comment != '':
