@@ -74,7 +74,6 @@ if len(sys.argv) > 1:
                     edge_attr = {'type': 'filiation', 'cert': 'unknown'}
                     if '[' in noAttrib:
                         attributes = re.findall(attributes_regex, line)    
-                        # print(attributes)
                         for attr in attributes:
                             if attr[0] == 'style':
                                 if attr[1] == 'dashed':
@@ -95,7 +94,6 @@ if len(sys.argv) > 1:
                     if '[' in noAttrib:
                         nodes[node] = {}
                         attributes = re.findall(attributes_regex, line)    
-                        print(attributes)
                         for attr in attributes:
                             nodes[node][attr[0]] = attr[1]
                     if comment != '':
