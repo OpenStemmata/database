@@ -26,7 +26,7 @@ jobs:
       run: |
         for file in ./data/*/*/* ; do
           if [ "${file: -9}" == "stemma.gv" ] || [ "${file: -12}" == "metadata.txt" ] ; 
-            python ./transform/transformation.py ${file} ; 
+            then python ./transform/transformation.py ${file} ; 
           fi
         done
     - name: Test TEI
