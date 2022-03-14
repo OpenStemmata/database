@@ -3,7 +3,6 @@ import networkx as nx
 import sys 
 import re 
 from lxml import etree as et 
-from html import escape
 
 import superscript
 
@@ -12,15 +11,16 @@ import superscript
 # The file changed is in the variable: changed_file. The script checks if the file changed is DOT or txt and transforms both
 # It is applied automaticly with each push for the files changed
 # To perform for all files in bash: 
-# for changed_file in ./* ; do python ./transform/transformation.py $changed_file ; done
+# for changed_file in ./* ; do python ./tests/transformation.py $changed_file ; done
 # 
 # Local:
-# for changed_file in $( find ~/Dokumente/OpenStemmata/database/data -name '*.*' ) ; do ~/Dokumente/OpenStemmata/venv/bin/python3 ~/Dokumente/OpenStemmata/database/transform/transformation.py $changed_file ; done
+# for changed_file in $( find ~/Dokumente/OpenStemmata/database/data -name '*.*' ) ; do ~/Dokumente/OpenStemmata/venv/bin/python3 ~/Dokumente/OpenStemmata/database/tests/transformation.py $changed_file ; done
 
-attributes_regex = '(\w+)="?([^"]*)"?,?\s*'
+def tr(changed_file):
+    attributes_regex = '(?:label|dir|color|style)\s?=\s?(?:none|dashed|grey|"[^"]+")'
 
-if len(sys.argv) > 1:
-    changed_file = str(sys.argv[1])
+    # if len(sys.argv) > 1:
+    #    changed_file = str(sys.argv[1])
     
     dotFile = ''
     txtFile = ''
@@ -36,7 +36,8 @@ if len(sys.argv) > 1:
         dotFile = '/'.join(path) + '/stemma.gv'
     else:
         # sys.exit('Changed file is not .txt nor .gv')
-        sys.exit()
+        # sys.exit()
+        return
 
     
     print("Processing: ", changed_file)
@@ -79,11 +80,14 @@ if len(sys.argv) > 1:
                                 if attr[1] == 'dashed':
                                     edge_attr['type'] = 'contamination'
                             elif attr[0] == 'color':
-                                if attr[1] == 'red':
+                                if attr[1] == 'grey':
                                     edge_attr['cert'] = 'low'
+                            elif attr[0] == 'dir':
+                                if attr[1] == 'none':
+                                    edge_attr['dir'] = 'none'
                     if comment != '':
                         edge_attr['note'] = comment
-                    edges.append((origin,dest, edge_attr))
+                    edges.append((origin, dest, edge_attr))
                     
                 else:
                 # If this is a node
@@ -111,7 +115,7 @@ if len(sys.argv) > 1:
     et.register_namespace('tei', 'http://www.tei-c.org/ns/1.0')
     et.register_namespace('od', 'http://openstemmata.github.io/odd.html')
 
-    tree = et.parse('./transform/template.tei.xml')
+    tree = et.parse('./tests/template.tei.xml')
 
     root = tree.getroot()
 
@@ -407,4 +411,6 @@ if len(sys.argv) > 1:
     tree.write( '/'.join(path) + '/' + new_file_name + '.tei.xml', pretty_print=True, encoding="UTF-8", xml_declaration=True)
 
 
-        
+
+if __name__ == "__main__":
+    tr(str(sys.argv[1]))
