@@ -12,6 +12,7 @@ def test_folder():
 
     #FOLDER STRUCTURE
     print(f"{bcolors.HEADER}Testing folder structure...{bcolors.ENDC}")
+    
     print('\nCheck root folders and files...')
     valid_folder_structure =  [".git", ".gitignore", ".github", "data", "CITATION.cff", "examples", "example_graph.png", "LICENSE", "README.md", ".Rhistory",
                 "schema", "tests", "transform"]
@@ -28,7 +29,7 @@ def test_folder():
             print(f"{bcolors.WARNING}Root folder structure should not be modified (submissions go in database/LANG/EDITOR_TITLE_DATE{bcolors.ENDC}")
             continue
     if folder_error == 0:
-        print(f"{bcolors.OKBLUE}Folder Structure Correct{bcolors.ENDC}")
+        print(f"{bcolors.OKBLUE}Root Folder Structure Correct{bcolors.ENDC}")
 
     # ISO language codes
     print("\nChecking if data has correct subfolders named by ISO 639 language codes")
@@ -95,9 +96,10 @@ def test_folder():
 
 
     if exit_code > 0:
-        print(f"\n{bcolors.BOLD}{bcolors.FAIL}"+ str(exit_code) + f" total error(s) detected in folder structure!{bcolors.ENDC}")
+        print(f"{bcolors.BOLD}{bcolors.FAIL}"+ str(exit_code) + f" total error(s) detected in folder structure!{bcolors.ENDC}")
         return False
     else:
+        print(f"{bcolors.BOLD}{bcolors.OKBLUE}Submissions are complete{bcolors.ENDC}")
         print(f"\n{bcolors.BOLD}{bcolors.OKGREEN}Folder structure is correct{bcolors.ENDC}")
         return True
 

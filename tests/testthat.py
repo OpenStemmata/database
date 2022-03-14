@@ -11,6 +11,7 @@ structure = test_folder.test_folder()
 
 dot = test_dot.test_dot()
 
+print(f"{bcolors.HEADER}\nCreating virtual TEI files to evaluate correctness{bcolors.ENDC}")
 for file in glob.iglob('./data/*/*/*'):
     transformation.tr(file)
 

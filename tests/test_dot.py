@@ -19,7 +19,7 @@ def test_dot():
                     'label': set(['']),
                     'style': set(['"dashed"', 'dashed']), 
                     }
-    print("\nChecking DOT files are valid")
+    print(f"{bcolors.HEADER}\nChecking DOT files are valid{bcolors.ENDC}")
     for file in glob.iglob('./data/*/*/*.gv', recursive=True):
         try:
             with codecs.open(file, 'r', 'utf-8') as dot:
@@ -152,10 +152,10 @@ def test_dot():
             exit_code += 1
 
     if exit_code > 0:
-        print(f"\n{bcolors.BOLD}{bcolors.FAIL}"+ str(exit_code) + f" total error(s) in DOT files.{bcolors.ENDC}")
+        print(f"{bcolors.BOLD}{bcolors.FAIL}"+ str(exit_code) + f" total error(s) in DOT files.{bcolors.ENDC}")
         return False
     else:
-        print(f"\n{bcolors.BOLD}{bcolors.OKBLUE}All DOT files correct{bcolors.ENDC}")
+        print(f"{bcolors.BOLD}{bcolors.OKBLUE}All DOT files correct{bcolors.ENDC}")
         return True
 
 if __name__ == "__main__":

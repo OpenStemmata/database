@@ -7,7 +7,7 @@ from bcolors import bcolors
 def test_tei():
     exit_code = 0
 
-    print("\nChecking TEI files are valid")
+    print(f"{bcolors.HEADER}\nChecking TEI files are valid{bcolors.ENDC}")
     xmlschema_doc = et.parse('schema/openStemmata.xsd')
     xmlschema = et.XMLSchema(xmlschema_doc)
     for file in glob.iglob('./data/*/*/*.tei.xml', recursive=True):
