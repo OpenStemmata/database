@@ -26,7 +26,6 @@ jobs:
       run: |
         for file in ./data/*/*/* ; do
           if [ "${file: -9}" == "stemma.gv" ] || [ "${file: -12}" == "metadata.txt" ] ; 
-            then echo "Converting ${file}."
             python ./transform/transformation.py ${file} ; 
           fi
         done
