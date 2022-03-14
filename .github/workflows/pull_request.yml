@@ -18,20 +18,5 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install networkx lxml 
-    - name: Test Folder Structure
-      run:  python ./tests/test_folder.py 
-    - name: Test DOT
-      run:  python ./tests/test_dot.py 
-    - name: Convert files
-      run: |
-        for file in ./data/*/*/* ; do
-          if [ "${file: -9}" == "stemma.gv" ] || [ "${file: -12}" == "metadata.txt" ] ; 
-            then python ./transform/transformation.py ${file} ; 
-          fi
-        done
-    - name: Test TEI
-      run:  python ./tests/test_tei.py 
-      
-   
-
-
+    - name: Tests 
+      run:  python ./tests/testthat.py 

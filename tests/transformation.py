@@ -3,7 +3,6 @@ import networkx as nx
 import sys 
 import re 
 from lxml import etree as et 
-from html import escape
 
 import superscript
 
@@ -17,10 +16,11 @@ import superscript
 # Local:
 # for changed_file in $( find ~/Dokumente/OpenStemmata/database/data -name '*.*' ) ; do ~/Dokumente/OpenStemmata/venv/bin/python3 ~/Dokumente/OpenStemmata/database/transform/transformation.py $changed_file ; done
 
-attributes_regex = '(?:label|dir|color|style)\s?=\s?(?:none|dashed|grey|"[^"]+")'
+def tr(changed_file):
+    attributes_regex = '(?:label|dir|color|style)\s?=\s?(?:none|dashed|grey|"[^"]+")'
 
-if len(sys.argv) > 1:
-    changed_file = str(sys.argv[1])
+    # if len(sys.argv) > 1:
+    #    changed_file = str(sys.argv[1])
     
     dotFile = ''
     txtFile = ''
@@ -36,7 +36,8 @@ if len(sys.argv) > 1:
         dotFile = '/'.join(path) + '/stemma.gv'
     else:
         # sys.exit('Changed file is not .txt nor .gv')
-        sys.exit()
+        # sys.exit()
+        return
 
     
     print("Processing: ", changed_file)
@@ -410,4 +411,6 @@ if len(sys.argv) > 1:
     tree.write( '/'.join(path) + '/' + new_file_name + '.tei.xml', pretty_print=True, encoding="UTF-8", xml_declaration=True)
 
 
-        
+
+if __name__ == "__main__":
+    tr(str(sys.argv[1]))
