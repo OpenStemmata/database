@@ -11,10 +11,10 @@ import superscript
 # The file changed is in the variable: changed_file. The script checks if the file changed is DOT or txt and transforms both
 # It is applied automaticly with each push for the files changed
 # To perform for all files in bash: 
-# for changed_file in ./* ; do python ./transform/transformation.py $changed_file ; done
+# for changed_file in ./* ; do python ./tests/transformation.py $changed_file ; done
 # 
 # Local:
-# for changed_file in $( find ~/Dokumente/OpenStemmata/database/data -name '*.*' ) ; do ~/Dokumente/OpenStemmata/venv/bin/python3 ~/Dokumente/OpenStemmata/database/transform/transformation.py $changed_file ; done
+# for changed_file in $( find ~/Dokumente/OpenStemmata/database/data -name '*.*' ) ; do ~/Dokumente/OpenStemmata/venv/bin/python3 ~/Dokumente/OpenStemmata/database/tests/transformation.py $changed_file ; done
 
 def tr(changed_file):
     attributes_regex = '(?:label|dir|color|style)\s?=\s?(?:none|dashed|grey|"[^"]+")'
@@ -115,7 +115,7 @@ def tr(changed_file):
     et.register_namespace('tei', 'http://www.tei-c.org/ns/1.0')
     et.register_namespace('od', 'http://openstemmata.github.io/odd.html')
 
-    tree = et.parse('./transform/template.tei.xml')
+    tree = et.parse('./tests/template.tei.xml')
 
     root = tree.getroot()
 
