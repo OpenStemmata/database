@@ -55,9 +55,6 @@
   <data key="d0">ο</data>
   <data key="d1">grey</data>
 </node>
-<node id="t">
-  <data key="d1">grey</data>
-</node>
 <node id="theta">
   <data key="d0">θ</data>
   <data key="d1">grey</data>

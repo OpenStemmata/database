@@ -70,7 +70,7 @@
   </facsimile>
   <text>
     <body>
-      <graph type="directed" order="45" size="44">
+      <graph type="directed" order="44" size="44">
         <label>1?</label>
         <node xml:id="n_alpha1" type="hypothetical" inDegree="0" outDegree="1">
           <label>α1</label>
@@ -110,9 +110,6 @@
         </node>
         <node xml:id="n_omicron" type="hypothetical" inDegree="1" outDegree="3">
           <label>ο</label>
-        </node>
-        <node xml:id="n_t" type="hypothetical" inDegree="0" outDegree="0">
-          <label>t</label>
         </node>
         <node xml:id="n_theta" type="hypothetical" inDegree="1" outDegree="2">
           <label>θ</label>
