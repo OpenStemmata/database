@@ -31,7 +31,7 @@
 </edge>
 <edge source="archetyp" target="C">
   <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
+  <data key="d3">low</data>
 </edge>
 <edge source="archetyp" target="groupdelta">
   <data key="d2">filiation</data>

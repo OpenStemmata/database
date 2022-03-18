@@ -24,7 +24,6 @@
   <data key="d1"> </data>
 </node>
 <node id="SandV">
-  <data key="d1"></data>
   <data key="d0">grey</data>
 </node>
 <node id="A"/>

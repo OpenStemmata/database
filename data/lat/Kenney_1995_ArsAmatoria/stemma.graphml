@@ -9,7 +9,6 @@
 </node>
 <node id="1">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="b">
   <data key="d1">b²</data>

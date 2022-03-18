@@ -28,11 +28,9 @@
   <data key="d1">grey</data>
 </node>
 <node id="1">
-  <data key="d0"></data>
   <data key="d1">grey</data>
 </node>
 <node id="2">
-  <data key="d0"></data>
   <data key="d1">grey</data>
 </node>
 <node id="Lambda">
@@ -46,7 +44,6 @@
   <data key="d0">Ψ</data>
 </node>
 <node id="3">
-  <data key="d0"></data>
   <data key="d1">grey</data>
 </node>
 <node id="M"/>
@@ -63,7 +60,6 @@
 </node>
 <node id="T"/>
 <node id="4">
-  <data key="d0"></data>
   <data key="d1">grey</data>
 </node>
 <node id="A"/>

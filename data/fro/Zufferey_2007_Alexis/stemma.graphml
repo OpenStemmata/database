@@ -17,11 +17,9 @@
 </node>
 <node id="EmpytOne">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="EmpytTwo">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="P2">
   <data key="d1">P₂</data>

@@ -3,68 +3,101 @@
 <?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="standard">Stemma of</title>
-            <title type="variable">Moniage Guillaume</title>
-         <author>Cloetta, Wilhelm</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
-         <publicationStmt>
-            <authority>
-               <orgName>Openstemmata</orgName>
-               <ptr target="https://openstemmata.github.io/"/>
-            </authority>
-            <date/><!-- File creation date? -->
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
-            <note>MONIAGE 2. p. 193, figure un stemma partiel pour l’indication de la source du roman en prose (repris dans le stemma Moniage 2); p. 203, du Moniage I; stemma du Moniage 2, p. 241, version néerlandaise dans la famille x mais pas portée. Pas les autres versions étrangères, même si évoque les liens des versions étrangères et autres œuvres avec le Moniage.</note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl type="book">
-               <title>Les deux rédactions en vers du Moniage Guillaume, chansons de geste du XIIe siècle, publiées d’après tous les manuscrits connus</title>
-               <author>Cloetta, Wilhelm</author><date>1911</date>
-               <pubPlace>Paris</pubPlace><series>SATF</series>
-               <!-- Numero de série -->
-               <biblScope unit="volume" n="54"/>
-               <biblScope unit="page" n="203"/>
-               <ptr type="digitised" target=""/>
-            </bibl>
-            </sourceDesc>
-      </fileDesc>
-     <profileDesc>
-        <creation>
-           <title ref="http://viaf.org/184427604">Moniage Guillaume</title>
-           <persName role="author" ref="http://viaf.org/"></persName>
-           <origDate></origDate>
-           <origPlace></origPlace>
-        </creation>
-        <textClass>
-           <keywords>
-              <term type="workGenre">chanson de geste</term>
-              <term type="stemmaType">reconstructed</term>
-              <term type="contam">no</term>
-              <term type="extraStemmContam">no</term>
-              <term type="rootType">original</term>
-           </keywords>
-        </textClass>
-        <langUsage>
-           <language ident="fro"/>
-        </langUsage>
-     </profileDesc>
-     <revisionDesc>
-        <change/>
-     </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Moniage Guillaume</title>
+        <author>Cloetta, Wilhelm</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>MONIAGE 2. p. 193, figure un stemma partiel pour l’indication de la source du roman en prose (repris dans le stemma Moniage 2); p. 203, du Moniage I; stemma du Moniage 2, p. 241, version néerlandaise dans la famille x mais pas portée. Pas les autres versions étrangères, même si évoque les liens des versions étrangères et autres œuvres avec le Moniage.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Les deux rédactions en vers du Moniage Guillaume, chansons de geste du XIIe siècle, publiées d’après tous les manuscrits connus</title>
+          <author>Cloetta, Wilhelm</author>
+          <date>1911</date>
+          <pubPlace>Paris</pubPlace>
+          <series>SATF</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="54"/>
+          <biblScope unit="page" n="203"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/184427604">Moniage Guillaume</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate></origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">chanson de geste</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Cloetta_1911_Moniage1/stemma.png?raw=true"/>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Cloetta_1911_Moniage1/stemma.png?raw=true"/>
   </facsimile>
   <text>
-      <body>
-         <graph type="directed" order="6" size="5"><label>2</label><node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="1"><label>a</label></node><node xml:id="n_b" type="hypothetical" inDegree="1" outDegree="1"><label>b</label></node><node xml:id="n_o" type="hypothetical" inDegree="0" outDegree="1"><label>o</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><arc xml:id="arc_1" from="#n_a" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_b" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_o" to="#n_x" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_x" to="#n_a" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_x" to="#n_b" od:type="filiation" cert="unknown"/></graph>
-      </body>
-      <back>
+    <body>
+      <graph type="directed" order="6" size="5">
+        <label>2</label>
+        <node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="1">
+          <label>a</label>
+        </node>
+        <node xml:id="n_b" type="hypothetical" inDegree="1" outDegree="1">
+          <label>b</label>
+        </node>
+        <node xml:id="n_o" type="hypothetical" inDegree="0" outDegree="1">
+          <label>o</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_a" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_b" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_o" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_x" to="#n_a" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_x" to="#n_b" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
          </back>
   </text>
 </TEI>

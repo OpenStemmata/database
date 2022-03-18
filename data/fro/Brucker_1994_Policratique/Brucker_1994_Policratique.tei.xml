@@ -3,69 +3,164 @@
 <?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="standard">Stemma of</title>
-            <title type="variable">Policraticus (fro)</title>
-         <author>Brucker, Charles</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0001-9094-4475">Simon Gabays</persName></respStmt></titleStmt>
-         <publicationStmt>
-            <authority>
-               <orgName>Openstemmata</orgName>
-               <ptr target="https://openstemmata.github.io/"/>
-            </authority>
-            <date/><!-- File creation date? -->
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Policraticus (fro)</title>
+        <author>Brucker, Charles</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0001-9094-4475">Simon Gabays</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Le Policratique de Jean de Salisbury</title>
+          <author>Brucker, Charles</author>
+          <date>1994</date>
+          <pubPlace>Genève, Droz</pubPlace>
+          <series/>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n=""/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_N">
+            <label type="siglum">N</label>
+            <idno>BNF Fr. 24387</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
             <note></note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl type="book">
-               <title>Le Policratique de Jean de Salisbury</title>
-               <author>Brucker, Charles</author><date>1994</date>
-               <pubPlace>Genève, Droz</pubPlace><series/>
-               <!-- Numero de série -->
-               <biblScope unit="volume" n=""/>
-               <biblScope unit="page" n=""/>
-               <ptr type="digitised" target=""/>
-            </bibl>
-            <listWit><witness xml:id="w_N"><label type="siglum">N</label><idno>BNF Fr. 24387</idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Nprime"><label type="siglum">N'</label><idno>BNF Fr. 24387</idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_n"><label type="siglum">n</label><idno>BNF Fr. 6416</idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_A"><label type="siglum">A</label><idno>Arsenal 2692</idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_G"><label type="siglum">G</label><idno>Bibliothèque Sainte-Geneviève 1144</idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
-         </sourceDesc>
-      </fileDesc>
-     <profileDesc>
-        <creation>
-           <title ref="http://viaf.org/">Policraticus (fro)</title>
-           <persName role="author" ref="http://viaf.org/">Foulchat, Denis</persName>
-           <origDate>1372</origDate>
-           <origPlace>France (Paris?)</origPlace>
-        </creation>
-        <textClass>
-           <keywords>
-              <term type="workGenre">Encyclopédie</term>
-              <term type="stemmaType">reconstructed</term>
-              <term type="contam">no</term>
-              <term type="extraStemmContam">no</term>
-              <term type="rootType">original</term>
-           </keywords>
-        </textClass>
-        <langUsage>
-           <language ident="fro"/>
-        </langUsage>
-     </profileDesc>
-     <revisionDesc>
-        <change/>
-     </revisionDesc>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Nprime">
+            <label type="siglum">N'</label>
+            <idno>BNF Fr. 24387</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_n">
+            <label type="siglum">n</label>
+            <idno>BNF Fr. 6416</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <idno>Arsenal 2692</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <idno>Bibliothèque Sainte-Geneviève 1144</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Policraticus (fro)</title>
+        <persName role="author" ref="http://viaf.org/">Foulchat, Denis</persName>
+        <origDate>1372</origDate>
+        <origPlace>France (Paris?)</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">Encyclopédie</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Brucker_1994_Policratique/stemma.png?raw=true"/>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Brucker_1994_Policratique/stemma.png?raw=true"/>
   </facsimile>
   <text>
-      <body>
-         <graph type="directed" order="10" size="9"><label></label><node xml:id="n_zprime" type="hypothetical" inDegree="1" outDegree="2"><label>zprime</label></node><node xml:id="n_Nprime" type="witness" inDegree="1" outDegree="0"><label>N'</label></node><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1"><label>O</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="2"><label>z</label></node><node xml:id="n_N" type="witness" inDegree="1" outDegree="0"><label>N</label></node><node xml:id="n_n" type="witness" inDegree="1" outDegree="0"><label>n</label></node><node xml:id="n_G" type="witness" inDegree="1" outDegree="0"><label>G</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><arc xml:id="arc_1" from="#n_zprime" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_zprime" to="#n_Nprime" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_O" to="#n_x" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_x" to="#n_N" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_x" to="#n_y" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_y" to="#n_n" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_y" to="#n_z" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_z" to="#n_G" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_z" to="#n_zprime" od:type="filiation" cert="unknown"/></graph>
-      </body>
-      <back>
+    <body>
+      <graph type="directed" order="10" size="9">
+        <label></label>
+        <node xml:id="n_zprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>zprime</label>
+        </node>
+        <node xml:id="n_Nprime" type="witness" inDegree="1" outDegree="0">
+          <label>N'</label>
+        </node>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1">
+          <label>O</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>y</label>
+        </node>
+        <node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="2">
+          <label>z</label>
+        </node>
+        <node xml:id="n_N" type="witness" inDegree="1" outDegree="0">
+          <label>N</label>
+        </node>
+        <node xml:id="n_n" type="witness" inDegree="1" outDegree="0">
+          <label>n</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_zprime" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_zprime" to="#n_Nprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_O" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_x" to="#n_N" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_x" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_y" to="#n_n" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_y" to="#n_z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_z" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_z" to="#n_zprime" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
          </back>
   </text>
 </TEI>

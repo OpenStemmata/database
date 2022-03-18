@@ -3,69 +3,359 @@
 <?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="standard">Stemma of</title>
-            <title type="variable">Metamorphoses</title>
-         <author>R. J. Tarrant</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
-         <publicationStmt>
-            <authority>
-               <orgName>Openstemmata</orgName>
-               <ptr target="https://openstemmata.github.io/"/>
-            </authority>
-            <date/><!-- File creation date? -->
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
-            <note>2 main groups: group Δ (contains ε, τ1, υ, β, M, N, U, S, (R, W, Z)) and group Σ (contains E, ϕ, G, P, F, L, τ4-15)</note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl type="book">
-               <title>P. Ovidi Nasonis Metamorphoses. Recognovit brevique adnotatione critica instrvxit R. J. Tarrant</title>
-               <author>R. J. Tarrant</author><date>2004</date>
-               <pubPlace>Oxford</pubPlace><series>Oxford classical texts</series>
-               <!-- Numero de série -->
-               <biblScope unit="volume" n=""/>
-               <biblScope unit="page" n="xxvii"/>
-               <ptr type="digitised" target=""/>
-            </bibl>
-            <listWit><witness xml:id="w_ε"><label type="siglum">ε</label><idno>Londoniensis Bibl. Brit. Harleianus 2610</idno><origDate>10c</origDate><origPlace>Germany</origPlace><note>also kwown as H</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_τ"><label type="siglum">τ</label><idno>Monacensis clm 29208</idno><origDate>11c</origDate><origPlace>Monastery Tegernsee</origPlace><note>also known as T; appears twice: Book 1 and Book 4-15 in this codex have different textual traditions</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_υ"><label type="siglum">υ</label><idno>Vaticanus Urbinas lat 342</idno><origDate>c. 950</origDate><origPlace>France or Western Germany</origPlace><note>also known as Urb</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_β"><label type="siglum">β</label><idno>Londoniensis Bibl. Brit. Add. 11967</idno><origDate>10c.</origDate><origPlace>Italy</origPlace><note>also known as E</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_M"><label type="siglum">M</label><idno>Marcianus Florentinus 225</idno><origDate>11c.</origDate><origPlace>Italy</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_N"><label type="siglum">N</label><idno>Neapolitanus IV. F. 3</idno><origDate>11c. (G. Cavallo) or 12c (E. A. Loew)</origDate><origPlace>southern Italy</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_U"><label type="siglum">U</label><idno>Vaticanus Urbinas lat. 341</idno><origDate>11c.</origDate><origPlace>southern Italy</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_S"><label type="siglum">S</label><idno>Spirensis: lost, copy in Haunia(?): Bibl. Reg. Ny kgl. S. 56 2°</idno><origDate>11c.</origDate><origPlace>Germany</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_α"><label type="siglum">α</label><idno>Bernense 363</idno><origDate>9c.</origDate><origPlace></origPlace><note>also known as Bern</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_λ"><label type="siglum">λ</label><idno>Lipsiensis Rep. I.4°.74</idno><origDate>9c.</origDate><origPlace>France</origPlace><note>also known as Lips</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_π"><label type="siglum">π</label><idno>Parsinus latinus 12246</idno><origDate>9c.</origDate><origPlace></origPlace><note>also known as Par</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_E"><label type="siglum">E</label><idno>Vaticanus Pal. lat. 1669</idno><origDate>11c.</origDate><origPlace>France</origPlace><note>also known as P</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_G"><label type="siglum">G</label><idno>Sangallensis 866</idno><origDate>12c.</origDate><origPlace>Saint Gall</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_P"><label type="siglum">P</label><idno>Parisinus lat. 8001</idno><origDate>12c.</origDate><origPlace>France</origPlace><note>also known as B</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_F"><label type="siglum">F</label><idno>Marcianus Florentinus</idno><origDate>11c.</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_L"><label type="siglum">L</label><idno>Laurentianus 36.12</idno><origDate>11/12c.</origDate><origPlace>Germany</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
-         </sourceDesc>
-      </fileDesc>
-     <profileDesc>
-        <creation>
-           <title ref="http://viaf.org/9780198146667">Metamorphoses</title>
-           <persName role="author" ref="http://viaf.org/88342447">Publius Ovidius Naso</persName>
-           <origDate>8 AD</origDate>
-           <origPlace>Rome</origPlace>
-        </creation>
-        <textClass>
-           <keywords>
-              <term type="workGenre">Epic</term>
-              <term type="stemmaType">reconstructed</term>
-              <term type="contam">yes</term>
-              <term type="extraStemmContam">no</term>
-              <term type="rootType">archetype</term>
-           </keywords>
-        </textClass>
-        <langUsage>
-           <language ident="lat"/>
-        </langUsage>
-     </profileDesc>
-     <revisionDesc>
-        <change/>
-     </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Metamorphoses</title>
+        <author>R. J. Tarrant</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Lena Reich</persName>
+        </respStmt>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>2 main groups: group Δ (contains ε, τ1, υ, β, M, N, U, S, (R, W, Z)) and group Σ (contains E, ϕ, G, P, F, L, τ4-15)</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>P. Ovidi Nasonis Metamorphoses. Recognovit brevique adnotatione critica instrvxit R. J. Tarrant</title>
+          <author>R. J. Tarrant</author>
+          <date>2004</date>
+          <pubPlace>Oxford</pubPlace>
+          <series>Oxford classical texts</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="xxvii"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_ε">
+            <label type="siglum">ε</label>
+            <idno>Londoniensis Bibl. Brit. Harleianus 2610</idno>
+            <origDate>10c</origDate>
+            <origPlace>Germany</origPlace>
+            <note>also kwown as H</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_τ">
+            <label type="siglum">τ</label>
+            <idno>Monacensis clm 29208</idno>
+            <origDate>11c</origDate>
+            <origPlace>Monastery Tegernsee</origPlace>
+            <note>also known as T; appears twice: Book 1 and Book 4-15 in this codex have different textual traditions</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_υ">
+            <label type="siglum">υ</label>
+            <idno>Vaticanus Urbinas lat 342</idno>
+            <origDate>c. 950</origDate>
+            <origPlace>France or Western Germany</origPlace>
+            <note>also known as Urb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_β">
+            <label type="siglum">β</label>
+            <idno>Londoniensis Bibl. Brit. Add. 11967</idno>
+            <origDate>10c.</origDate>
+            <origPlace>Italy</origPlace>
+            <note>also known as E</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <idno>Marcianus Florentinus 225</idno>
+            <origDate>11c.</origDate>
+            <origPlace>Italy</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_N">
+            <label type="siglum">N</label>
+            <idno>Neapolitanus IV. F. 3</idno>
+            <origDate>11c. (G. Cavallo) or 12c (E. A. Loew)</origDate>
+            <origPlace>southern Italy</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_U">
+            <label type="siglum">U</label>
+            <idno>Vaticanus Urbinas lat. 341</idno>
+            <origDate>11c.</origDate>
+            <origPlace>southern Italy</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_S">
+            <label type="siglum">S</label>
+            <idno>Spirensis: lost, copy in Haunia(?): Bibl. Reg. Ny kgl. S. 56 2°</idno>
+            <origDate>11c.</origDate>
+            <origPlace>Germany</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_α">
+            <label type="siglum">α</label>
+            <idno>Bernense 363</idno>
+            <origDate>9c.</origDate>
+            <origPlace></origPlace>
+            <note>also known as Bern</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_λ">
+            <label type="siglum">λ</label>
+            <idno>Lipsiensis Rep. I.4°.74</idno>
+            <origDate>9c.</origDate>
+            <origPlace>France</origPlace>
+            <note>also known as Lips</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_π">
+            <label type="siglum">π</label>
+            <idno>Parsinus latinus 12246</idno>
+            <origDate>9c.</origDate>
+            <origPlace></origPlace>
+            <note>also known as Par</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <idno>Vaticanus Pal. lat. 1669</idno>
+            <origDate>11c.</origDate>
+            <origPlace>France</origPlace>
+            <note>also known as P</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <idno>Sangallensis 866</idno>
+            <origDate>12c.</origDate>
+            <origPlace>Saint Gall</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P">
+            <label type="siglum">P</label>
+            <idno>Parisinus lat. 8001</idno>
+            <origDate>12c.</origDate>
+            <origPlace>France</origPlace>
+            <note>also known as B</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F">
+            <label type="siglum">F</label>
+            <idno>Marcianus Florentinus</idno>
+            <origDate>11c.</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <idno>Laurentianus 36.12</idno>
+            <origDate>11/12c.</origDate>
+            <origPlace>Germany</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/9780198146667">Metamorphoses</title>
+        <persName role="author" ref="http://viaf.org/88342447">Publius Ovidius Naso</persName>
+        <origDate>8 AD</origDate>
+        <origPlace>Rome</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">Epic</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="lat"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/lat/Kenney_1995_Metamorphoses/stemma.png?raw=true"/>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/lat/Kenney_1995_Metamorphoses/stemma.png?raw=true"/>
   </facsimile>
   <text>
-      <body>
-         <graph type="directed" order="32" size="35"><label></label><node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="6"><label></label></node><node xml:id="n_delta" type="witness" inDegree="1" outDegree="2"><label> Δ</label></node><node xml:id="n_epsilon" type="witness" inDegree="1" outDegree="1"><label>ɛ</label></node><node xml:id="n_tau1" type="witness" inDegree="1" outDegree="0"><label>𝜏(1)</label></node><node xml:id="n_ypsilon" type="witness" inDegree="1" outDegree="0"><label>υ</label></node><node xml:id="n_beta" type="witness" inDegree="1" outDegree="0"><label>β</label></node><node xml:id="n_alpha" type="witness" inDegree="1" outDegree="0"><label>α</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="3"><label>(x)</label></node><node xml:id="n_lambda" type="witness" inDegree="1" outDegree="0"><label>λ</label></node><node xml:id="n_pi" type="witness" inDegree="2" outDegree="0"><label>π</label></node><node xml:id="n_sigma" type="witness" inDegree="1" outDegree="3"><label>Σ</label></node><node xml:id="n_phi" type="witness" inDegree="1" outDegree="0"><label>ϕ</label></node><node xml:id="n_tau" type="witness" inDegree="1" outDegree="0"><label>τ(4-15)</label></node><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_3" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_4" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_5" type="hypothetical" inDegree="2" outDegree="2"><label></label></node><node xml:id="n_6" type="hypothetical" inDegree="1" outDegree="3"><label></label></node><node xml:id="n_delta2" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_pisigma" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_preU" type="hypothetical" inDegree="2" outDegree="1"><label></label></node><node xml:id="n_GP" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_RSWZ" type="witness" inDegree="2" outDegree="0"><label>RSWZ</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_N" type="witness" inDegree="1" outDegree="0"><label>N</label></node><node xml:id="n_U" type="witness" inDegree="1" outDegree="0"><label>U</label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><node xml:id="n_G" type="witness" inDegree="1" outDegree="0"><label>G</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><node xml:id="n_F" type="witness" inDegree="1" outDegree="0"><label>F</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><arc xml:id="arc_1" from="#n_archetyp" to="#n_delta" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_archetyp" to="#n_alpha" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_archetyp" to="#n_x" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_archetyp" to="#n_lambda" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_archetyp" to="#n_pi" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_archetyp" to="#n_pisigma" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_delta" to="#n_epsilon" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_delta" to="#n_delta2" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_epsilon" to="#n_tau1" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_x" to="#n_preU" od:type="contamination" cert="unknown"/><arc xml:id="arc_11" from="#n_x" to="#n_RSWZ" od:type="contamination" cert="unknown"/><arc xml:id="arc_12" from="#n_x" to="#n_5" od:type="contamination" cert="unknown"/><arc xml:id="arc_13" from="#n_sigma" to="#n_5" od:type="filiation" cert="unknown"/><arc xml:id="arc_14" from="#n_sigma" to="#n_GP" od:type="filiation" cert="unknown"/><arc xml:id="arc_15" from="#n_sigma" to="#n_6" od:type="filiation" cert="unknown"/><arc xml:id="arc_16" from="#n_1" to="#n_2" od:type="filiation" cert="unknown"/><arc xml:id="arc_17" from="#n_1" to="#n_4" od:type="filiation" cert="unknown"/><arc xml:id="arc_18" from="#n_2" to="#n_3" od:type="filiation" cert="unknown"/><arc xml:id="arc_19" from="#n_2" to="#n_ypsilon" od:type="filiation" cert="unknown"/><arc xml:id="arc_20" from="#n_3" to="#n_beta" od:type="filiation" cert="unknown"/><arc xml:id="arc_21" from="#n_3" to="#n_M" od:type="filiation" cert="unknown"/><arc xml:id="arc_22" from="#n_4" to="#n_N" od:type="filiation" cert="unknown"/><arc xml:id="arc_23" from="#n_4" to="#n_preU" od:type="filiation" cert="unknown"/><arc xml:id="arc_24" from="#n_5" to="#n_E" od:type="filiation" cert="unknown"/><arc xml:id="arc_25" from="#n_5" to="#n_phi" od:type="filiation" cert="unknown"/><arc xml:id="arc_26" from="#n_6" to="#n_F" od:type="filiation" cert="unknown"/><arc xml:id="arc_27" from="#n_6" to="#n_tau" od:type="filiation" cert="unknown"/><arc xml:id="arc_28" from="#n_6" to="#n_L" od:type="filiation" cert="unknown"/><arc xml:id="arc_29" from="#n_delta2" to="#n_RSWZ" od:type="filiation" cert="unknown"/><arc xml:id="arc_30" from="#n_delta2" to="#n_1" od:type="filiation" cert="unknown"/><arc xml:id="arc_31" from="#n_pisigma" to="#n_pi" od:type="filiation" cert="unknown"/><arc xml:id="arc_32" from="#n_pisigma" to="#n_sigma" od:type="filiation" cert="unknown"/><arc xml:id="arc_33" from="#n_preU" to="#n_U" od:type="filiation" cert="unknown"/><arc xml:id="arc_34" from="#n_GP" to="#n_G" od:type="filiation" cert="unknown"/><arc xml:id="arc_35" from="#n_GP" to="#n_P" od:type="filiation" cert="unknown"/></graph>
-      </body>
-      <back>
+    <body>
+      <graph type="directed" order="32" size="35">
+        <label></label>
+        <node xml:id="n_archetyp" type="hypothetical" inDegree="0" outDegree="6">
+          <label>archetyp</label>
+        </node>
+        <node xml:id="n_delta" type="witness" inDegree="1" outDegree="2">
+          <label> Δ</label>
+        </node>
+        <node xml:id="n_epsilon" type="witness" inDegree="1" outDegree="1">
+          <label>ɛ</label>
+        </node>
+        <node xml:id="n_tau1" type="witness" inDegree="1" outDegree="0">
+          <label>𝜏(1)</label>
+        </node>
+        <node xml:id="n_ypsilon" type="witness" inDegree="1" outDegree="0">
+          <label>υ</label>
+        </node>
+        <node xml:id="n_beta" type="witness" inDegree="1" outDegree="0">
+          <label>β</label>
+        </node>
+        <node xml:id="n_alpha" type="witness" inDegree="1" outDegree="0">
+          <label>α</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="3">
+          <label>(x)</label>
+        </node>
+        <node xml:id="n_lambda" type="witness" inDegree="1" outDegree="0">
+          <label>λ</label>
+        </node>
+        <node xml:id="n_pi" type="witness" inDegree="2" outDegree="0">
+          <label>π</label>
+        </node>
+        <node xml:id="n_sigma" type="witness" inDegree="1" outDegree="3">
+          <label>Σ</label>
+        </node>
+        <node xml:id="n_phi" type="witness" inDegree="1" outDegree="0">
+          <label>ϕ</label>
+        </node>
+        <node xml:id="n_tau" type="witness" inDegree="1" outDegree="0">
+          <label>τ(4-15)</label>
+        </node>
+        <node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>1</label>
+        </node>
+        <node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>2</label>
+        </node>
+        <node xml:id="n_3" type="hypothetical" inDegree="1" outDegree="2">
+          <label>3</label>
+        </node>
+        <node xml:id="n_4" type="hypothetical" inDegree="1" outDegree="2">
+          <label>4</label>
+        </node>
+        <node xml:id="n_5" type="hypothetical" inDegree="2" outDegree="2">
+          <label>5</label>
+        </node>
+        <node xml:id="n_6" type="hypothetical" inDegree="1" outDegree="3">
+          <label>6</label>
+        </node>
+        <node xml:id="n_delta2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>delta2</label>
+        </node>
+        <node xml:id="n_pisigma" type="hypothetical" inDegree="1" outDegree="2">
+          <label>pisigma</label>
+        </node>
+        <node xml:id="n_preU" type="hypothetical" inDegree="2" outDegree="1">
+          <label>preU</label>
+        </node>
+        <node xml:id="n_GP" type="hypothetical" inDegree="1" outDegree="2">
+          <label>GP</label>
+        </node>
+        <node xml:id="n_RSWZ" type="witness" inDegree="2" outDegree="0">
+          <label>RSWZ</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_N" type="witness" inDegree="1" outDegree="0">
+          <label>N</label>
+        </node>
+        <node xml:id="n_U" type="witness" inDegree="1" outDegree="0">
+          <label>U</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+          <label>P</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_archetyp" to="#n_delta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_archetyp" to="#n_alpha" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_archetyp" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_archetyp" to="#n_lambda" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_archetyp" to="#n_pi" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_archetyp" to="#n_pisigma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_delta" to="#n_epsilon" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_delta" to="#n_delta2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_epsilon" to="#n_tau1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_x" to="#n_preU" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_x" to="#n_RSWZ" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_x" to="#n_5" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_sigma" to="#n_5" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_sigma" to="#n_GP" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_sigma" to="#n_6" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_1" to="#n_2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_1" to="#n_4" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_2" to="#n_3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_2" to="#n_ypsilon" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_3" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_3" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_22" from="#n_4" to="#n_N" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_23" from="#n_4" to="#n_preU" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_24" from="#n_5" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_25" from="#n_5" to="#n_phi" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_26" from="#n_6" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_27" from="#n_6" to="#n_tau" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_28" from="#n_6" to="#n_L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_29" from="#n_delta2" to="#n_RSWZ" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_30" from="#n_delta2" to="#n_1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_31" from="#n_pisigma" to="#n_pi" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_32" from="#n_pisigma" to="#n_sigma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_33" from="#n_preU" to="#n_U" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_34" from="#n_GP" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_35" from="#n_GP" to="#n_P" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
          </back>
   </text>
 </TEI>

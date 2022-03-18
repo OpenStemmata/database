@@ -3,68 +3,229 @@
 <?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="standard">Stemma of</title>
-            <title type="variable">Chansonniers des trouvères</title>
-         <author>Resconi, S.</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
-         <publicationStmt>
-            <authority>
-               <orgName>Openstemmata</orgName>
-               <ptr target="https://openstemmata.github.io/"/>
-            </authority>
-            <date/><!-- File creation date? -->
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
-            <note>Dans Eduard Schwan, Die altfranzösischen liederhandschriften, Berlin: Weidmann, 1886, plusieurs stemmata, sont tracés, un premier p. 171, sur les descendants de S2; un autre p. 222, sur ceux de S3; p.225-226, hl et hj; p. 229, t (ancêtre S2). Faute d’avoir pu trouver de stemma d’ensemble, j’utilise la forme mise à jour de l’article de S Resconi. Je désambiguïse deux lettres, suite à une coquille sur l’arbre (revoir Schwan). ON notera que le rattachement au sommet des trois groupes est complexe, et que S2 et S3 pourrait dépendre d'un intermédiaire commun et le stemma être bifide… Cf. par ex. Wallensköld sur Conon de Béthune.</note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl type="publicationPart">
-               <title>Le seriazioni nel processo di formazione dei canzonieri francesi: alcuni aspetti significativi.</title>
-               <author>Resconi, S.</author><date>2014</date>
-               <pubPlace></pubPlace><series>Carte romanze</series>
-               <!-- Numero de série -->
-               <biblScope unit="volume" n="2"/>
-               <biblScope unit="page" n="384"/>
-               <ptr type="digitised" target="https://air.unimi.it/retrieve/handle/2434/237918/319349/Resconi%202014%204250-15211-1-PB.pdf"/>
-            </bibl>
-            </sourceDesc>
-      </fileDesc>
-     <profileDesc>
-        <creation>
-           <title ref="http://viaf.org/">Chansonniers des trouvères</title>
-           <persName role="author" ref="http://viaf.org/"></persName>
-           <origDate></origDate>
-           <origPlace></origPlace>
-        </creation>
-        <textClass>
-           <keywords>
-              <term type="workGenre">lyrique</term>
-              <term type="stemmaType">reconstructed</term>
-              <term type="contam">yes</term>
-              <term type="extraStemmContam">no</term>
-              <term type="rootType">archetype</term>
-           </keywords>
-        </textClass>
-        <langUsage>
-           <language ident="fro"/>
-        </langUsage>
-     </profileDesc>
-     <revisionDesc>
-        <change/>
-     </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Chansonniers des trouvères</title>
+        <author>Resconi, S.</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Dans Eduard Schwan, Die altfranzösischen liederhandschriften, Berlin: Weidmann, 1886, plusieurs stemmata, sont tracés, un premier p. 171, sur les descendants de S2; un autre p. 222, sur ceux de S3; p.225-226, hl et hj; p. 229, t (ancêtre S2). Faute d’avoir pu trouver de stemma d’ensemble, j’utilise la forme mise à jour de l’article de S Resconi. Je désambiguïse deux lettres, suite à une coquille sur l’arbre (revoir Schwan). ON notera que le rattachement au sommet des trois groupes est complexe, et que S2 et S3 pourrait dépendre d'un intermédiaire commun et le stemma être bifide… Cf. par ex. Wallensköld sur Conon de Béthune.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>Le seriazioni nel processo di formazione dei canzonieri francesi: alcuni aspetti significativi.</title>
+          <author>Resconi, S.</author>
+          <date>2014</date>
+          <pubPlace></pubPlace>
+          <series>Carte romanze</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="2"/>
+          <biblScope unit="page" n="384"/>
+          <ptr type="digitised" target="https://air.unimi.it/retrieve/handle/2434/237918/319349/Resconi%202014%204250-15211-1-PB.pdf"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Chansonniers des trouvères</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate></origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">lyrique</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Resconi_2014_ChansonniersFr/stemma.png?raw=true"/>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Resconi_2014_ChansonniersFr/stemma.png?raw=true"/>
   </facsimile>
   <text>
-      <body>
-         <graph type="directed" order="38" size="37"><label></label><node xml:id="n_1" type="hypothetical" inDegree="0" outDegree="3"><label></label></node><node xml:id="n_alpha2" type="hypothetical" inDegree="1" outDegree="2"><label>α2</label></node><node xml:id="n_alpha3" type="hypothetical" inDegree="1" outDegree="2"><label>α3</label></node><node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2"><label>β</label></node><node xml:id="n_chi2" type="hypothetical" inDegree="1" outDegree="2"><label>χ2</label></node><node xml:id="n_kappa" type="hypothetical" inDegree="1" outDegree="2"><label>κ</label></node><node xml:id="n_ksi" type="hypothetical" inDegree="1" outDegree="2"><label>ξ</label></node><node xml:id="n_lambda" type="hypothetical" inDegree="1" outDegree="2"><label>λ</label></node><node xml:id="n_mu1" type="hypothetical" inDegree="1" outDegree="2"><label>μ1</label></node><node xml:id="n_nu" type="hypothetical" inDegree="1" outDegree="2"><label>ν</label></node><node xml:id="n_phi" type="hypothetical" inDegree="1" outDegree="2"><label>φ</label></node><node xml:id="n_phi2" type="hypothetical" inDegree="1" outDegree="2"><label>φ2</label></node><node xml:id="n_rho3" type="hypothetical" inDegree="1" outDegree="2"><label>ρ3</label></node><node xml:id="n_sI" type="hypothetical" inDegree="1" outDegree="2"><label>sI</label></node><node xml:id="n_sigma" type="hypothetical" inDegree="1" outDegree="2"><label>σ</label></node><node xml:id="n_sII" type="hypothetical" inDegree="1" outDegree="2"><label>sII</label></node><node xml:id="n_sIII" type="hypothetical" inDegree="1" outDegree="2"><label>sIII</label></node><node xml:id="n_upsilon" type="hypothetical" inDegree="1" outDegree="2"><label>υ</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_T" type="witness" inDegree="1" outDegree="0"><label>T</label></node><node xml:id="n_Z" type="witness" inDegree="1" outDegree="0"><label>Z</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_a" type="witness" inDegree="1" outDegree="0"><label>a</label></node><node xml:id="n_O" type="witness" inDegree="1" outDegree="0"><label>O</label></node><node xml:id="n_S" type="witness" inDegree="1" outDegree="0"><label>S</label></node><node xml:id="n_R3" type="witness" inDegree="1" outDegree="0"><label>R3</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_V" type="witness" inDegree="1" outDegree="0"><label>V</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><node xml:id="n_N" type="witness" inDegree="1" outDegree="0"><label>N</label></node><node xml:id="n_K" type="witness" inDegree="1" outDegree="0"><label>K</label></node><node xml:id="n_X" type="witness" inDegree="1" outDegree="0"><label>X</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><node xml:id="n_H" type="witness" inDegree="1" outDegree="0"><label>H</label></node><node xml:id="n_Za" type="witness" inDegree="1" outDegree="0"><label>Za</label></node><node xml:id="n_F" type="witness" inDegree="1" outDegree="0"><label>F</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_U" type="witness" inDegree="1" outDegree="0"><label>U</label></node><arc xml:id="arc_1" from="#n_1" to="#n_sI" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_1" to="#n_sII" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_1" to="#n_sIII" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_alpha2" to="#n_Z" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_alpha2" to="#n_alpha3" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_alpha3" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_alpha3" to="#n_a" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_beta" to="#n_R3" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_beta" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_chi2" to="#n_H" od:type="filiation" cert="unknown"/><arc xml:id="arc_11" from="#n_chi2" to="#n_Za" od:type="filiation" cert="unknown"/><arc xml:id="arc_12" from="#n_kappa" to="#n_K" od:type="filiation" cert="unknown"/><arc xml:id="arc_13" from="#n_kappa" to="#n_ksi" od:type="filiation" cert="unknown"/><arc xml:id="arc_14" from="#n_ksi" to="#n_X" od:type="filiation" cert="unknown"/><arc xml:id="arc_15" from="#n_ksi" to="#n_P" od:type="filiation" cert="unknown"/><arc xml:id="arc_16" from="#n_lambda" to="#n_L" od:type="filiation" cert="unknown"/><arc xml:id="arc_17" from="#n_lambda" to="#n_nu" od:type="filiation" cert="unknown"/><arc xml:id="arc_18" from="#n_mu1" to="#n_M" od:type="filiation" cert="unknown"/><arc xml:id="arc_19" from="#n_mu1" to="#n_T" od:type="filiation" cert="unknown"/><arc xml:id="arc_20" from="#n_nu" to="#n_N" od:type="filiation" cert="unknown"/><arc xml:id="arc_21" from="#n_nu" to="#n_kappa" od:type="filiation" cert="unknown"/><arc xml:id="arc_22" from="#n_phi" to="#n_V" od:type="filiation" cert="unknown"/><arc xml:id="arc_23" from="#n_phi" to="#n_lambda" od:type="filiation" cert="unknown"/><arc xml:id="arc_24" from="#n_phi2" to="#n_F" od:type="filiation" cert="unknown"/><arc xml:id="arc_25" from="#n_phi2" to="#n_upsilon" od:type="filiation" cert="unknown"/><arc xml:id="arc_26" from="#n_rho3" to="#n_sigma" od:type="filiation" cert="unknown"/><arc xml:id="arc_27" from="#n_rho3" to="#n_beta" od:type="filiation" cert="unknown"/><arc xml:id="arc_28" from="#n_sI" to="#n_mu1" od:type="filiation" cert="unknown"/><arc xml:id="arc_29" from="#n_sI" to="#n_alpha2" od:type="filiation" cert="unknown"/><arc xml:id="arc_30" from="#n_sigma" to="#n_O" od:type="filiation" cert="unknown"/><arc xml:id="arc_31" from="#n_sigma" to="#n_S" od:type="filiation" cert="unknown"/><arc xml:id="arc_32" from="#n_sII" to="#n_rho3" od:type="filiation" cert="unknown"/><arc xml:id="arc_33" from="#n_sII" to="#n_phi" od:type="filiation" cert="unknown"/><arc xml:id="arc_34" from="#n_sIII" to="#n_chi2" od:type="filiation" cert="unknown"/><arc xml:id="arc_35" from="#n_sIII" to="#n_phi2" od:type="filiation" cert="unknown"/><arc xml:id="arc_36" from="#n_upsilon" to="#n_C" od:type="filiation" cert="unknown"/><arc xml:id="arc_37" from="#n_upsilon" to="#n_U" od:type="filiation" cert="unknown"/></graph>
-      </body>
-      <back>
+    <body>
+      <graph type="directed" order="38" size="37">
+        <label></label>
+        <node xml:id="n_1" type="hypothetical" inDegree="0" outDegree="3">
+          <label>1</label>
+        </node>
+        <node xml:id="n_alpha2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>α2</label>
+        </node>
+        <node xml:id="n_alpha3" type="hypothetical" inDegree="1" outDegree="2">
+          <label>α3</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>β</label>
+        </node>
+        <node xml:id="n_chi2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>χ2</label>
+        </node>
+        <node xml:id="n_kappa" type="hypothetical" inDegree="1" outDegree="2">
+          <label>κ</label>
+        </node>
+        <node xml:id="n_ksi" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ξ</label>
+        </node>
+        <node xml:id="n_lambda" type="hypothetical" inDegree="1" outDegree="2">
+          <label>λ</label>
+        </node>
+        <node xml:id="n_mu1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>μ1</label>
+        </node>
+        <node xml:id="n_nu" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ν</label>
+        </node>
+        <node xml:id="n_phi" type="hypothetical" inDegree="1" outDegree="2">
+          <label>φ</label>
+        </node>
+        <node xml:id="n_phi2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>φ2</label>
+        </node>
+        <node xml:id="n_rho3" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ρ3</label>
+        </node>
+        <node xml:id="n_sI" type="hypothetical" inDegree="1" outDegree="2">
+          <label>sI</label>
+        </node>
+        <node xml:id="n_sigma" type="hypothetical" inDegree="1" outDegree="2">
+          <label>σ</label>
+        </node>
+        <node xml:id="n_sII" type="hypothetical" inDegree="1" outDegree="2">
+          <label>sII</label>
+        </node>
+        <node xml:id="n_sIII" type="hypothetical" inDegree="1" outDegree="2">
+          <label>sIII</label>
+        </node>
+        <node xml:id="n_upsilon" type="hypothetical" inDegree="1" outDegree="2">
+          <label>υ</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="0">
+          <label>T</label>
+        </node>
+        <node xml:id="n_Z" type="witness" inDegree="1" outDegree="0">
+          <label>Z</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_a" type="witness" inDegree="1" outDegree="0">
+          <label>a</label>
+        </node>
+        <node xml:id="n_O" type="witness" inDegree="1" outDegree="0">
+          <label>O</label>
+        </node>
+        <node xml:id="n_S" type="witness" inDegree="1" outDegree="0">
+          <label>S</label>
+        </node>
+        <node xml:id="n_R3" type="witness" inDegree="1" outDegree="0">
+          <label>R3</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_V" type="witness" inDegree="1" outDegree="0">
+          <label>V</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <node xml:id="n_N" type="witness" inDegree="1" outDegree="0">
+          <label>N</label>
+        </node>
+        <node xml:id="n_K" type="witness" inDegree="1" outDegree="0">
+          <label>K</label>
+        </node>
+        <node xml:id="n_X" type="witness" inDegree="1" outDegree="0">
+          <label>X</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+          <label>P</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <node xml:id="n_Za" type="witness" inDegree="1" outDegree="0">
+          <label>Za</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_U" type="witness" inDegree="1" outDegree="0">
+          <label>U</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_1" to="#n_sI" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_1" to="#n_sII" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_1" to="#n_sIII" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_alpha2" to="#n_Z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_alpha2" to="#n_alpha3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_alpha3" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_alpha3" to="#n_a" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_beta" to="#n_R3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_beta" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_chi2" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_chi2" to="#n_Za" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_kappa" to="#n_K" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_kappa" to="#n_ksi" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_ksi" to="#n_X" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_ksi" to="#n_P" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_lambda" to="#n_L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_lambda" to="#n_nu" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_mu1" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_mu1" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_nu" to="#n_N" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_nu" to="#n_kappa" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_22" from="#n_phi" to="#n_V" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_23" from="#n_phi" to="#n_lambda" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_24" from="#n_phi2" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_25" from="#n_phi2" to="#n_upsilon" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_26" from="#n_rho3" to="#n_sigma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_27" from="#n_rho3" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_28" from="#n_sI" to="#n_mu1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_29" from="#n_sI" to="#n_alpha2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_30" from="#n_sigma" to="#n_O" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_31" from="#n_sigma" to="#n_S" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_32" from="#n_sII" to="#n_rho3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_33" from="#n_sII" to="#n_phi" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_34" from="#n_sIII" to="#n_chi2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_35" from="#n_sIII" to="#n_phi2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_36" from="#n_upsilon" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_37" from="#n_upsilon" to="#n_U" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
          </back>
   </text>
 </TEI>

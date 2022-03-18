@@ -3,69 +3,1070 @@
 <?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="standard">Stemma of</title>
-            <title type="variable">L’Estoire del Saint Graal</title>
-         <author>Ponceau, Jean-Paul</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0001-9094-4475">Simon Gabay</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
-         <publicationStmt>
-            <authority>
-               <orgName>Openstemmata</orgName>
-               <ptr target="https://openstemmata.github.io/"/>
-            </authority>
-            <date/><!-- File creation date? -->
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
-            <note>The two printed editions, Impr. 1516 and Impr. 1523 contain the same redaction (one could add to the tree a potential descent from the first to the second), and five copies from each are known. Private manuscripts and the fragments are not shown on the stemmata, as well as mutilated or lacunary, abridged manuscripts and foreign translations. There are probably more manuscripts than the one listed there. Manuscripts are splitted in three groups: 14 for the short version, 13 for the long version, and 16 mix both versions. Ponceau gives 5 stemmata, the first for short version; the second for long version, part one; the third for long version, part two;  the fourth and fifth again for long version, part one and two, but this time including two mixed manuscripts that can be placed for a part of their text. This file is for the stemma of the short version.</note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl type="book">
-               <title>L’Estoire del Saint Graal</title>
-               <author>Ponceau, Jean-Paul</author><date>1997</date>
-               <pubPlace>Paris</pubPlace><series>Classiques français du Moyen Âge</series>
-               <!-- Numero de série -->
-               <biblScope unit="volume" n="120"/>
-               <biblScope unit="page" n="xxix"/>
-               <ptr type="digitised" target=""/>
-            </bibl>
-            <listWit><witness xml:id="w_Ams."><label type="siglum">Ams.</label><msDesc><msIdentifier><settlement>Amsterdam</settlement><repository> Bibl. PHil. Hermetica</repository><idno> sans cote</idno></msIdentifier></msDesc><origDate>1300-1320</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Berk."><label type="siglum">Berk.</label><msDesc><msIdentifier><settlement>Berkeley</settlement><repository> Univ. of California</repository><idno> 106</idno></msIdentifier></msDesc><origDate>1280-1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Bonn"><label type="siglum">Bonn</label><msDesc><msIdentifier><settlement>Bonn</settlement><repository> Bibl. universitaire</repository><idno> 506</idno></msIdentifier></msDesc><origDate>1286</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Brux."><label type="siglum">Brux.</label><msDesc><msIdentifier><settlement>Bruxelles</settlement><repository> Bibl. royale</repository><idno> 9246</idno></msIdentifier></msDesc><origDate>1480</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Camb."><label type="siglum">Camb.</label><msDesc><msIdentifier><settlement>Cambridge</settlement><repository> Univ. Library</repository><idno> Add. 7071</idno></msIdentifier></msDesc><origDate>1300-1320</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Chant."><label type="siglum">Chant.</label><msDesc><msIdentifier><settlement>Chantilly</settlement><repository> Musée Condé</repository><idno> 643</idno></msIdentifier></msDesc><origDate>1270</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Darm."><label type="siglum">Darm.</label><msDesc><msIdentifier><settlement>Darmstadt</settlement><repository> Hochschulbibliothek</repository><idno> 253</idno></msIdentifier></msDesc><origDate>1301-1400</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Mans"><label type="siglum">Mans</label><msDesc><msIdentifier><settlement>Le Mans</settlement><repository> Bibl. mun.</repository><idno> 354</idno></msIdentifier></msDesc><origDate>1250-1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Len."><label type="siglum">Len.</label><msDesc><msIdentifier><settlement>Léningrad</settlement><repository> Bibl. publique</repository><idno> fr.F.v.XV.5</idno></msIdentifier></msDesc><origDate>1300-1320</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Add.10292"><label type="siglum">Add.10292</label><msDesc><msIdentifier><settlement>London</settlement><repository> British Library</repository><idno> Add. 10292-10294</idno></msIdentifier></msDesc><origDate>1300-1320</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Add._32125"><label type="siglum">Add. 32125</label><msDesc><msIdentifier><settlement>London</settlement><repository> British Library</repository><idno> Add. 32125</idno></msIdentifier></msDesc><origDate>1180-1200</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_L.R.14"><label type="siglum">L.R.14</label><msDesc><msIdentifier><settlement>London</settlement><repository> British Library</repository><idno> Royal 14 E III</idno></msIdentifier></msDesc><origDate>1300-1320</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_L.R._19"><label type="siglum">L.R. 19</label><msDesc><msIdentifier><settlement>London</settlement><repository> British Library</repository><idno> Royal 19 C XII</idno></msIdentifier></msDesc><origDate>1300-1350</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_N.H."><label type="siglum">N.H.</label><msDesc><msIdentifier><settlement>New Haven</settlement><repository> Yale Univ. Library</repository><idno> 227</idno></msIdentifier></msDesc><origDate>1357</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_N.Y."><label type="siglum">N.Y.</label><msDesc><msIdentifier><settlement>New York</settlement><repository> Pierpont Morgan Library</repository><idno> 207</idno></msIdentifier></msDesc><origDate>1450</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Not."><label type="siglum">Not.</label><msDesc><msIdentifier><settlement>Nottingham</settlement><repository> Univ. of Not. Library</repository><idno> Mi Lm 7</idno></msIdentifier></msDesc><origDate>1201-1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_OX.178"><label type="siglum">OX.178</label><msDesc><msIdentifier><settlement>Oxford</settlement><repository> Bibl. Bodléienne</repository><idno> Douce 178</idno></msIdentifier></msDesc><origDate>1301-1400</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_OX.303"><label type="siglum">OX.303</label><msDesc><msIdentifier><settlement>Oxford</settlement><repository> Bibl. Bodléienne</repository><idno> Douce 303</idno></msIdentifier></msDesc><origDate>1201-1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Ars.2997"><label type="siglum">Ars.2997</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> Bibl. de l'Arsenal</repository><idno> 2997</idno></msIdentifier></msDesc><origDate>1201-1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Ars.3348"><label type="siglum">Ars.3348</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> Bibl. de l'Arsenal</repository><idno> 3348</idno></msIdentifier></msDesc><origDate>1301-1400</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Ars.3349"><label type="siglum">Ars.3349</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> Bibl. de l'Arsenal</repository><idno> 3349</idno></msIdentifier></msDesc><origDate>1467</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Ars.3479"><label type="siglum">Ars.3479</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> Bibl. de l'Arsenal</repository><idno> 3479-3480</idno></msIdentifier></msDesc><origDate>1400-1420</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B.N.95"><label type="siglum">B.N.95</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 95</idno></msIdentifier></msDesc><origDate>1280-1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B.N.96"><label type="siglum">B.N.96</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 96</idno></msIdentifier></msDesc><origDate>1401-1500</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B.N.98"><label type="siglum">B.N.98</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 98</idno></msIdentifier></msDesc><origDate>1401-1500</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B.N.105"><label type="siglum">B.N.105</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 105</idno></msIdentifier></msDesc><origDate>1301-1400</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B.N.110"><label type="siglum">B.N.110</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 110</idno></msIdentifier></msDesc><origDate>1280-1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B.N.113"><label type="siglum">B.N.113</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 113</idno></msIdentifier></msDesc><origDate>1480-1500</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B.N.117"><label type="siglum">B.N.117</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 117</idno></msIdentifier></msDesc><origDate>1380-1400</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B.N.344"><label type="siglum">B.N.344</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 344</idno></msIdentifier></msDesc><origDate>1240-1260</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B.N.747"><label type="siglum">B.N.747</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 747</idno></msIdentifier></msDesc><origDate>1201-1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B.N.749"><label type="siglum">B.N.749</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 749</idno></msIdentifier></msDesc><origDate>1280-1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B.N.769"><label type="siglum">B.N.769</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 769</idno></msIdentifier></msDesc><origDate>1301-1400</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B.N.770"><label type="siglum">B.N.770</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 770</idno></msIdentifier></msDesc><origDate>1240-1260</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B.N.1426"><label type="siglum">B.N.1426</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 1426</idno></msIdentifier></msDesc><origDate>1466</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B.N.2455"><label type="siglum">B.N.2455</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 2455</idno></msIdentifier></msDesc><origDate>1201-1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B.N.9123"><label type="siglum">B.N.9123</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 9123</idno></msIdentifier></msDesc><origDate>1280-1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B.N.12582"><label type="siglum">B.N.12582</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 12582</idno></msIdentifier></msDesc><origDate>1201-1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B.N.19162"><label type="siglum">B.N.19162</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 19162</idno></msIdentifier></msDesc><origDate>1280-1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B.N.24394"><label type="siglum">B.N.24394</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 24394</idno></msIdentifier></msDesc><origDate>1201-1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Ren."><label type="siglum">Ren.</label><msDesc><msIdentifier><settlement>Rennes</settlement><repository> Bibl. mun.</repository><idno> 255</idno></msIdentifier></msDesc><origDate>1201-1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Trs"><label type="siglum">Trs</label><idno>Tours, Bibl. mun. 951</idno><origDate>1280-1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Impr."><label type="siglum">Impr.</label><idno></idno><origDate></origDate><origPlace></origPlace><note>Éditions imprimées de 1516 et 1523</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Private1"><label type="siglum">Private1</label><idno>olim Phillipps 1407</idno><origDate>1401-1500</origDate><origPlace></origPlace><note>In private hands; in 1960, it was in the family J. Lebaudy at Versailles</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Private2"><label type="siglum">Private2</label><idno>olim New Castle, 937</idno><origDate>1401-1500</origDate><origPlace></origPlace><note>In 1997, it was on sale at H. Tenschert, Ramsen, Switzerland</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Fragm1"><label type="siglum">Fragm1</label><msDesc><msIdentifier><settlement>Amsterdam</settlement><repository> Bibl. Univ. I A 24q</repository><idno> fol. 1-2</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Fragm2"><label type="siglum">Fragm2</label><msDesc><msIdentifier><settlement>Grenoble</settlement><repository> BM</repository><idno> 526</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Fragm3"><label type="siglum">Fragm3</label><msDesc><msIdentifier><settlement>Léningrad</settlement><repository> Bibl. publ.</repository><idno> Fr.Q.v.XVI.1</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Fragm4"><label type="siglum">Fragm4</label><idno>Liège, Archives de l'État, Val St-Lambert, Reg. 366</idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Fragm5"><label type="siglum">Fragm5</label><msDesc><msIdentifier><settlement>Orléans</settlement><repository> BM</repository><idno> non coté</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Fragm6"><label type="siglum">Fragm6</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> Bibl. Mazarine</repository><idno> 2618</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Fragm7"><label type="siglum">Fragm7</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BN</repository><idno> fr. 106</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Fragm9"><label type="siglum">Fragm9</label><msDesc><msIdentifier><settlement>Bourg-en-Bresse</settlement><repository> BM</repository><idno> 55</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Fragm10"><label type="siglum">Fragm10</label><idno>BAV, Reg. lat. 1687</idno><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_RemanPart1a"><label type="siglum">RemanPart1a</label><msDesc><msIdentifier><settlement>Chantilly</settlement><repository> Musée Condé</repository><idno> 476</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_RemanPart1b"><label type="siglum">RemanPart1b</label><msDesc><msIdentifier><settlement>Genève</settlement><repository> Fondation Martin-Bodmer</repository><idno> cod. bodmer 147</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_RemanPart2"><label type="siglum">RemanPart2</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 1427</idno></msIdentifier></msDesc><origDate>1504</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Resume1a"><label type="siglum">Resume1a</label><msDesc><msIdentifier><settlement>New York</settlement><repository> Pierpont Morgan Library</repository><idno> M 38</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Resume1b"><label type="siglum">Resume1b</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> Bibl. arsenal</repository><idno> 3350</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_TradPort"><label type="siglum">TradPort</label><msDesc><msIdentifier><settlement>Lisbonne</settlement><repository> Arquivo Nacional de Torre do Tombo</repository><idno> 643</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note>Portuguese prose translation</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_TradEngl1"><label type="siglum">TradEngl1</label><msDesc><msIdentifier><settlement>Cambridge</settlement><repository> Corpus Christi College</repository><idno> 80</idno></msIdentifier></msDesc><origDate>1501-1600</origDate><origPlace></origPlace><note>English verse translation by H. Lonelich</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_TradEngl2"><label type="siglum">TradEngl2</label><idno>Oxford…</idno><origDate></origDate><origPlace></origPlace><note>Partial English verse translation, ed. WW Skeat, Joseph of Arimathie…in the Vernon ms. at Oxford, London, 1871.</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_TradEsp"><label type="siglum">TradEsp</label><msDesc><msIdentifier><settlement>Salamanque</settlement><repository> BU</repository><idno> II 794</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note>Partial spanish prose translation </note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
-         </sourceDesc>
-      </fileDesc>
-     <profileDesc>
-        <creation>
-           <title ref="http://viaf.org/179506093">L’Estoire del Saint Graal</title>
-           <persName role="author" ref="http://viaf.org/">Anonymous</persName>
-           <origDate>1220-1230</origDate>
-           <origPlace></origPlace>
-        </creation>
-        <textClass>
-           <keywords>
-              <term type="workGenre">roman</term>
-              <term type="stemmaType">reconstructed</term>
-              <term type="contam">no</term>
-              <term type="extraStemmContam">no</term>
-              <term type="rootType">unspecified</term>
-           </keywords>
-        </textClass>
-        <langUsage>
-           <language ident="fro"/>
-        </langUsage>
-     </profileDesc>
-     <revisionDesc>
-        <change/>
-     </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">L’Estoire del Saint Graal</title>
+        <author>Ponceau, Jean-Paul</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0001-9094-4475">Simon Gabay</persName>
+        </respStmt>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>The two printed editions, Impr. 1516 and Impr. 1523 contain the same redaction (one could add to the tree a potential descent from the first to the second), and five copies from each are known. Private manuscripts and the fragments are not shown on the stemmata, as well as mutilated or lacunary, abridged manuscripts and foreign translations. There are probably more manuscripts than the one listed there. Manuscripts are splitted in three groups: 14 for the short version, 13 for the long version, and 16 mix both versions. Ponceau gives 5 stemmata, the first for short version; the second for long version, part one; the third for long version, part two;  the fourth and fifth again for long version, part one and two, but this time including two mixed manuscripts that can be placed for a part of their text. This file is for the stemma of the short version.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>L’Estoire del Saint Graal</title>
+          <author>Ponceau, Jean-Paul</author>
+          <date>1997</date>
+          <pubPlace>Paris</pubPlace>
+          <series>Classiques français du Moyen Âge</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="120"/>
+          <biblScope unit="page" n="xxix"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_Ams.">
+            <label type="siglum">Ams.</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Amsterdam</settlement>
+                <repository> Bibl. PHil. Hermetica</repository>
+                <idno> sans cote</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1300-1320</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Berk.">
+            <label type="siglum">Berk.</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Berkeley</settlement>
+                <repository> Univ. of California</repository>
+                <idno> 106</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1280-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Bonn">
+            <label type="siglum">Bonn</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Bonn</settlement>
+                <repository> Bibl. universitaire</repository>
+                <idno> 506</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1286</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Brux.">
+            <label type="siglum">Brux.</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Bruxelles</settlement>
+                <repository> Bibl. royale</repository>
+                <idno> 9246</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1480</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Camb.">
+            <label type="siglum">Camb.</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Cambridge</settlement>
+                <repository> Univ. Library</repository>
+                <idno> Add. 7071</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1300-1320</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Chant.">
+            <label type="siglum">Chant.</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Chantilly</settlement>
+                <repository> Musée Condé</repository>
+                <idno> 643</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1270</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Darm.">
+            <label type="siglum">Darm.</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Darmstadt</settlement>
+                <repository> Hochschulbibliothek</repository>
+                <idno> 253</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1400</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Mans">
+            <label type="siglum">Mans</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Le Mans</settlement>
+                <repository> Bibl. mun.</repository>
+                <idno> 354</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1250-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Len.">
+            <label type="siglum">Len.</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Léningrad</settlement>
+                <repository> Bibl. publique</repository>
+                <idno> fr.F.v.XV.5</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1300-1320</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Add.10292">
+            <label type="siglum">Add.10292</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> British Library</repository>
+                <idno> Add. 10292-10294</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1300-1320</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Add._32125">
+            <label type="siglum">Add. 32125</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> British Library</repository>
+                <idno> Add. 32125</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1180-1200</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L.R.14">
+            <label type="siglum">L.R.14</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> British Library</repository>
+                <idno> Royal 14 E III</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1300-1320</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L.R._19">
+            <label type="siglum">L.R. 19</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> British Library</repository>
+                <idno> Royal 19 C XII</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1300-1350</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_N.H.">
+            <label type="siglum">N.H.</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>New Haven</settlement>
+                <repository> Yale Univ. Library</repository>
+                <idno> 227</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1357</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_N.Y.">
+            <label type="siglum">N.Y.</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>New York</settlement>
+                <repository> Pierpont Morgan Library</repository>
+                <idno> 207</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1450</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Not.">
+            <label type="siglum">Not.</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Nottingham</settlement>
+                <repository> Univ. of Not. Library</repository>
+                <idno> Mi Lm 7</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_OX.178">
+            <label type="siglum">OX.178</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Oxford</settlement>
+                <repository> Bibl. Bodléienne</repository>
+                <idno> Douce 178</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1400</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_OX.303">
+            <label type="siglum">OX.303</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Oxford</settlement>
+                <repository> Bibl. Bodléienne</repository>
+                <idno> Douce 303</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ars.2997">
+            <label type="siglum">Ars.2997</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibl. de l'Arsenal</repository>
+                <idno> 2997</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ars.3348">
+            <label type="siglum">Ars.3348</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibl. de l'Arsenal</repository>
+                <idno> 3348</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1400</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ars.3349">
+            <label type="siglum">Ars.3349</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibl. de l'Arsenal</repository>
+                <idno> 3349</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1467</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ars.3479">
+            <label type="siglum">Ars.3479</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibl. de l'Arsenal</repository>
+                <idno> 3479-3480</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1400-1420</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B.N.95">
+            <label type="siglum">B.N.95</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 95</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1280-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B.N.96">
+            <label type="siglum">B.N.96</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 96</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1401-1500</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B.N.98">
+            <label type="siglum">B.N.98</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 98</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1401-1500</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B.N.105">
+            <label type="siglum">B.N.105</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 105</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1400</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B.N.110">
+            <label type="siglum">B.N.110</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 110</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1280-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B.N.113">
+            <label type="siglum">B.N.113</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 113</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1480-1500</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B.N.117">
+            <label type="siglum">B.N.117</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 117</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1380-1400</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B.N.344">
+            <label type="siglum">B.N.344</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 344</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1240-1260</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B.N.747">
+            <label type="siglum">B.N.747</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 747</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B.N.749">
+            <label type="siglum">B.N.749</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 749</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1280-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B.N.769">
+            <label type="siglum">B.N.769</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 769</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1400</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B.N.770">
+            <label type="siglum">B.N.770</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 770</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1240-1260</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B.N.1426">
+            <label type="siglum">B.N.1426</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 1426</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1466</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B.N.2455">
+            <label type="siglum">B.N.2455</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 2455</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B.N.9123">
+            <label type="siglum">B.N.9123</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 9123</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1280-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B.N.12582">
+            <label type="siglum">B.N.12582</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 12582</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B.N.19162">
+            <label type="siglum">B.N.19162</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 19162</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1280-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B.N.24394">
+            <label type="siglum">B.N.24394</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 24394</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ren.">
+            <label type="siglum">Ren.</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Rennes</settlement>
+                <repository> Bibl. mun.</repository>
+                <idno> 255</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Trs">
+            <label type="siglum">Trs</label>
+            <idno>Tours, Bibl. mun. 951</idno>
+            <origDate>1280-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Impr.">
+            <label type="siglum">Impr.</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Éditions imprimées de 1516 et 1523</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Private1">
+            <label type="siglum">Private1</label>
+            <idno>olim Phillipps 1407</idno>
+            <origDate>1401-1500</origDate>
+            <origPlace></origPlace>
+            <note>In private hands; in 1960, it was in the family J. Lebaudy at Versailles</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Private2">
+            <label type="siglum">Private2</label>
+            <idno>olim New Castle, 937</idno>
+            <origDate>1401-1500</origDate>
+            <origPlace></origPlace>
+            <note>In 1997, it was on sale at H. Tenschert, Ramsen, Switzerland</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm1">
+            <label type="siglum">Fragm1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Amsterdam</settlement>
+                <repository> Bibl. Univ. I A 24q</repository>
+                <idno> fol. 1-2</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm2">
+            <label type="siglum">Fragm2</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Grenoble</settlement>
+                <repository> BM</repository>
+                <idno> 526</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm3">
+            <label type="siglum">Fragm3</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Léningrad</settlement>
+                <repository> Bibl. publ.</repository>
+                <idno> Fr.Q.v.XVI.1</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm4">
+            <label type="siglum">Fragm4</label>
+            <idno>Liège, Archives de l'État, Val St-Lambert, Reg. 366</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm5">
+            <label type="siglum">Fragm5</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Orléans</settlement>
+                <repository> BM</repository>
+                <idno> non coté</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm6">
+            <label type="siglum">Fragm6</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibl. Mazarine</repository>
+                <idno> 2618</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm7">
+            <label type="siglum">Fragm7</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BN</repository>
+                <idno> fr. 106</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm9">
+            <label type="siglum">Fragm9</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Bourg-en-Bresse</settlement>
+                <repository> BM</repository>
+                <idno> 55</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm10">
+            <label type="siglum">Fragm10</label>
+            <idno>BAV, Reg. lat. 1687</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_RemanPart1a">
+            <label type="siglum">RemanPart1a</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Chantilly</settlement>
+                <repository> Musée Condé</repository>
+                <idno> 476</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_RemanPart1b">
+            <label type="siglum">RemanPart1b</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Genève</settlement>
+                <repository> Fondation Martin-Bodmer</repository>
+                <idno> cod. bodmer 147</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_RemanPart2">
+            <label type="siglum">RemanPart2</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 1427</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1504</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Resume1a">
+            <label type="siglum">Resume1a</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>New York</settlement>
+                <repository> Pierpont Morgan Library</repository>
+                <idno> M 38</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Resume1b">
+            <label type="siglum">Resume1b</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibl. arsenal</repository>
+                <idno> 3350</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_TradPort">
+            <label type="siglum">TradPort</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Lisbonne</settlement>
+                <repository> Arquivo Nacional de Torre do Tombo</repository>
+                <idno> 643</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Portuguese prose translation</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_TradEngl1">
+            <label type="siglum">TradEngl1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Cambridge</settlement>
+                <repository> Corpus Christi College</repository>
+                <idno> 80</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1501-1600</origDate>
+            <origPlace></origPlace>
+            <note>English verse translation by H. Lonelich</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_TradEngl2">
+            <label type="siglum">TradEngl2</label>
+            <idno>Oxford…</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Partial English verse translation, ed. WW Skeat, Joseph of Arimathie…in the Vernon ms. at Oxford, London, 1871.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_TradEsp">
+            <label type="siglum">TradEsp</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Salamanque</settlement>
+                <repository> BU</repository>
+                <idno> II 794</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Partial spanish prose translation </note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/179506093">L’Estoire del Saint Graal</title>
+        <persName role="author" ref="http://viaf.org/">Anonymous</persName>
+        <origDate>1220-1230</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">roman</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Ponceau_1997a_SaintGraal/stemma.png?raw=true"/>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Ponceau_1997a_SaintGraal/stemma.png?raw=true"/>
   </facsimile>
   <text>
-      <body>
-         <graph type="directed" order="21" size="20"><label>1</label><node xml:id="n_alpha" type="hypothetical" inDegree="0" outDegree="2"><label>α</label></node><node xml:id="n_alpha1" type="hypothetical" inDegree="1" outDegree="1"><label>α1</label></node><node xml:id="n_alpha2" type="hypothetical" inDegree="1" outDegree="2"><label>α2</label></node><node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="6"><label>β</label></node><node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="4"><label>γ</label></node><node xml:id="n_empty1" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_empty2" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_LR19" type="witness" inDegree="1" outDegree="0"><label>LR19</label></node><node xml:id="n_BN747" type="witness" inDegree="1" outDegree="0"><label>BN747</label></node><node xml:id="n_NH" type="witness" inDegree="1" outDegree="0"><label>NH</label></node><node xml:id="n_Darm" type="witness" inDegree="1" outDegree="0"><label>Darm</label></node><node xml:id="n_BN95" type="witness" inDegree="1" outDegree="0"><label>BN95</label></node><node xml:id="n_Bonn" type="witness" inDegree="1" outDegree="0"><label>Bonn</label></node><node xml:id="n_OX303" type="witness" inDegree="1" outDegree="1"><label>OX303</label></node><node xml:id="n_BN1426" type="witness" inDegree="1" outDegree="0"><label>BN1426</label></node><node xml:id="n_BN19162" type="witness" inDegree="1" outDegree="0"><label>BN19162</label></node><node xml:id="n_BN24934" type="witness" inDegree="1" outDegree="0"><label>BN24934</label></node><node xml:id="n_Add10292" type="witness" inDegree="1" outDegree="0"><label>Add10292</label></node><node xml:id="n_BN749" type="witness" inDegree="1" outDegree="0"><label>BN749</label></node><node xml:id="n_BN96" type="witness" inDegree="1" outDegree="0"><label>BN96</label></node><node xml:id="n_BN110" type="witness" inDegree="1" outDegree="0"><label>BN110</label></node><arc xml:id="arc_1" from="#n_alpha" to="#n_alpha1" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_alpha" to="#n_alpha2" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_alpha1" to="#n_LR19" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_alpha2" to="#n_empty1" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_alpha2" to="#n_beta" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_beta" to="#n_Darm" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_beta" to="#n_BN95" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_beta" to="#n_Bonn" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_beta" to="#n_OX303" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_beta" to="#n_empty2" od:type="filiation" cert="unknown"/><arc xml:id="arc_11" from="#n_beta" to="#n_gamma" od:type="filiation" cert="unknown"/><arc xml:id="arc_12" from="#n_gamma" to="#n_Add10292" od:type="filiation" cert="unknown"/><arc xml:id="arc_13" from="#n_gamma" to="#n_BN749" od:type="filiation" cert="unknown"/><arc xml:id="arc_14" from="#n_gamma" to="#n_BN96" od:type="filiation" cert="unknown"/><arc xml:id="arc_15" from="#n_gamma" to="#n_BN110" od:type="filiation" cert="unknown"/><arc xml:id="arc_16" from="#n_empty1" to="#n_BN747" od:type="filiation" cert="unknown"/><arc xml:id="arc_17" from="#n_empty1" to="#n_NH" od:type="filiation" cert="unknown"/><arc xml:id="arc_18" from="#n_empty2" to="#n_BN19162" od:type="filiation" cert="unknown"/><arc xml:id="arc_19" from="#n_empty2" to="#n_BN24934" od:type="filiation" cert="unknown"/><arc xml:id="arc_20" from="#n_OX303" to="#n_BN1426" od:type="filiation" cert="unknown"/></graph>
-      </body>
-      <back>
+    <body>
+      <graph type="directed" order="21" size="20">
+        <label>1</label>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="0" outDegree="2">
+          <label>α</label>
+        </node>
+        <node xml:id="n_alpha1" type="hypothetical" inDegree="1" outDegree="1">
+          <label>α1</label>
+        </node>
+        <node xml:id="n_alpha2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>α2</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="6">
+          <label>β</label>
+        </node>
+        <node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="4">
+          <label>γ</label>
+        </node>
+        <node xml:id="n_empty1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>empty1</label>
+        </node>
+        <node xml:id="n_empty2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>empty2</label>
+        </node>
+        <node xml:id="n_LR19" type="witness" inDegree="1" outDegree="0">
+          <label>LR19</label>
+        </node>
+        <node xml:id="n_BN747" type="witness" inDegree="1" outDegree="0">
+          <label>BN747</label>
+        </node>
+        <node xml:id="n_NH" type="witness" inDegree="1" outDegree="0">
+          <label>NH</label>
+        </node>
+        <node xml:id="n_Darm" type="witness" inDegree="1" outDegree="0">
+          <label>Darm</label>
+        </node>
+        <node xml:id="n_BN95" type="witness" inDegree="1" outDegree="0">
+          <label>BN95</label>
+        </node>
+        <node xml:id="n_Bonn" type="witness" inDegree="1" outDegree="0">
+          <label>Bonn</label>
+        </node>
+        <node xml:id="n_OX303" type="witness" inDegree="1" outDegree="1">
+          <label>OX303</label>
+        </node>
+        <node xml:id="n_BN1426" type="witness" inDegree="1" outDegree="0">
+          <label>BN1426</label>
+        </node>
+        <node xml:id="n_BN19162" type="witness" inDegree="1" outDegree="0">
+          <label>BN19162</label>
+        </node>
+        <node xml:id="n_BN24934" type="witness" inDegree="1" outDegree="0">
+          <label>BN24934</label>
+        </node>
+        <node xml:id="n_Add10292" type="witness" inDegree="1" outDegree="0">
+          <label>Add10292</label>
+        </node>
+        <node xml:id="n_BN749" type="witness" inDegree="1" outDegree="0">
+          <label>BN749</label>
+        </node>
+        <node xml:id="n_BN96" type="witness" inDegree="1" outDegree="0">
+          <label>BN96</label>
+        </node>
+        <node xml:id="n_BN110" type="witness" inDegree="1" outDegree="0">
+          <label>BN110</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_alpha" to="#n_alpha1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_alpha" to="#n_alpha2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_alpha1" to="#n_LR19" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_alpha2" to="#n_empty1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_alpha2" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_beta" to="#n_Darm" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_beta" to="#n_BN95" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_beta" to="#n_Bonn" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_beta" to="#n_OX303" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_beta" to="#n_empty2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_beta" to="#n_gamma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_gamma" to="#n_Add10292" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_gamma" to="#n_BN749" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_gamma" to="#n_BN96" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_gamma" to="#n_BN110" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_empty1" to="#n_BN747" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_empty1" to="#n_NH" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_empty2" to="#n_BN19162" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_empty2" to="#n_BN24934" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_OX303" to="#n_BN1426" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
          </back>
   </text>
 </TEI>

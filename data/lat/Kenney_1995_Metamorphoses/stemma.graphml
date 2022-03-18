@@ -5,7 +5,6 @@
 <key id="d0" for="node" attr.name="color" attr.type="string"/>
 <graph edgedefault="directed"><node id="archetyp">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="delta">
   <data key="d1"> Δ</data>
@@ -46,43 +45,33 @@
 </node>
 <node id="1">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="2">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="3">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="4">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="5">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="6">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="delta2">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="pisigma">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="preU">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="GP">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="RSWZ"/>
 <node id="M"/>

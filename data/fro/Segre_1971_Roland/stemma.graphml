@@ -18,12 +18,10 @@
 </node>
 <node id="1">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="w"/>
 <node id="2">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="K"/>
 <node id="n"/>
@@ -49,19 +47,16 @@
 </node>
 <node id="3">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="P"/>
 <node id="F"/>
 <node id="4">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="L"/>
 <node id="l"/>
 <node id="5">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="T"/>
 <node id="B"/>

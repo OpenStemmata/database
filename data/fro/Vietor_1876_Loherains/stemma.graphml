@@ -123,7 +123,7 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="alpha" target="eta">
-  <data key="d2">filiation</data>
+  <data key="d2">contamination</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="beta" target="C">

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d5" for="edge" attr.name="note" attr.type="string"/>
+<key id="d4" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d3" for="edge" attr.name="type" attr.type="string"/>
+<key id="d2" for="node" attr.name="note" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="KM">
+  <data key="d0">grey</data>
+</node>
+<node id="x">
+  <data key="d1">x¹)</data>
+  <data key="d0">grey</data>
+  <data key="d2"> The footnote refers to the use of the symbol in the critical apparatus of the edition and has no meaning for the stemma.
+</data>
+</node>
+<node id="y">
+  <data key="d0">grey</data>
+</node>
+<node id="zh">
+  <data key="d1">z</data>
+  <data key="d0">grey</data>
+</node>
+<node id="A">
+  <data key="d0">grey</data>
+</node>
+<node id="B">
+  <data key="d0">grey</data>
+</node>
+<node id="C">
+  <data key="d0">grey</data>
+</node>
+<node id="D">
+  <data key="d0">grey</data>
+</node>
+<node id="Hpz">
+  <data key="d0">grey</data>
+</node>
+<node id="w"/>
+<node id="K"/>
+<node id="M"/>
+<node id="v"/>
+<node id="r"/>
+<node id="m"/>
+<node id="H"/>
+<node id="p"/>
+<node id="z"/>
+<node id="f"/>
+<node id="s"/>
+<node id="d"/>
+<edge source="KM" target="K">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="KM" target="M">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="x" target="y">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="x" target="zh">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="x" target="w">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="y" target="KM">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+  <data key="d5"> K and M are closer to each other than to v. This is not represented as a common node in the drawn stemma, but as considering them almost as the same manuscript close together. The abstract representation would include this node KM. See page II of the edition.
+</data>
+</edge>
+<edge source="y" target="v">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="zh" target="r">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="zh" target="m">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="A" target="x">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="A" target="B">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="B" target="Hpz">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="B" target="C">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="C" target="f">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="C" target="D">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="D" target="s">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="D" target="d">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="Hpz" target="H">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="Hpz" target="p">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="Hpz" target="z">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+</graph></graphml>

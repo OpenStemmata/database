@@ -8,7 +8,6 @@
 </node>
 <node id="1">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="x">
   <data key="d0">grey</data>
@@ -53,7 +52,7 @@
 </edge>
 <edge source="1" target="I">
   <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
+  <data key="d3">low</data>
 </edge>
 <edge source="x" target="H">
   <data key="d2">filiation</data>

@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d4" for="edge" attr.name="dir" attr.type="string"/>
+<key id="d3" for="edge" attr.name="cert" attr.type="string"/>
 <key id="d2" for="edge" attr.name="type" attr.type="string"/>
 <key id="d1" for="node" attr.name="label" attr.type="string"/>
 <key id="d0" for="node" attr.name="color" attr.type="string"/>
@@ -191,8 +192,9 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="Gv" target="Ham">
-  <data key="d2">filiation</data>
+  <data key="d2">contamination</data>
   <data key="d3">unknown</data>
+  <data key="d4">none</data>
 </edge>
 <edge source="Ham" target="Laur">
   <data key="d2">filiation</data>
@@ -211,12 +213,14 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="Pr" target="Laur">
-  <data key="d2">filiation</data>
+  <data key="d2">contamination</data>
   <data key="d3">unknown</data>
+  <data key="d4">none</data>
 </edge>
 <edge source="Pr" target="Fi">
-  <data key="d2">filiation</data>
+  <data key="d2">contamination</data>
   <data key="d3">unknown</data>
+  <data key="d4">none</data>
 </edge>
 <edge source="Ga" target="Lau">
   <data key="d2">filiation</data>
@@ -239,8 +243,9 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="Vat" target="Pa">
-  <data key="d2">filiation</data>
+  <data key="d2">contamination</data>
   <data key="d3">unknown</data>
+  <data key="d4">none</data>
 </edge>
 <edge source="Vat" target="To">
   <data key="d2">filiation</data>

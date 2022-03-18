@@ -3,69 +3,227 @@
 <?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="standard">Stemma of</title>
-            <title type="variable">Chanson de saint Alexis</title>
-         <author>Paris, Gaston and Pannier, Léopold</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
-         <publicationStmt>
-            <authority>
-               <orgName>Openstemmata</orgName>
-               <ptr target="https://openstemmata.github.io/"/>
-            </authority>
-            <date/><!-- File creation date? -->
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
-            <note>Deprecated stemma (see Zufferey’s for a more recent one)</note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl type="book">
-               <title>La vie de saint Alexis : poème du XIe siècle et renouvellements des XIIe, XIIIe, et XIVe siècles</title>
-               <author>Paris, Gaston and Pannier, Léopold</author><date>1872</date>
-               <pubPlace>Paris</pubPlace><series>Bibliothèque de l’École des hautes études. Sciences philologiques et historiques</series>
-               <!-- Numero de série -->
-               <biblScope unit="volume" n="7"/>
-               <biblScope unit="page" n="27"/>
-               <ptr type="digitised" target="https://gallica.bnf.fr/ark:/12148/bpt6k33044x/f43.item"/>
-            </bibl>
-            <listWit><witness xml:id="w_L"><label type="siglum">L</label><msDesc><msIdentifier><settlement>HILDESHEIM</settlement><repository>  Sankt Godohard Kirche</repository><idno>  Psautier de Saint-Alban</idno></msIdentifier></msDesc><origDate>1101-1200</origDate><origPlace>England (Saint-Albans)</origPlace><note>Famous manuscript, perhaps from the 1130's, one of the very rare french ms. for the first half of the XIIth century</note><ptr type="description" target="http://jonas.irht.cnrs.fr/manuscrit/24358"/><ptr type="digitised" target="https://www.abdn.ac.uk/stalbanspsalter/english/translation/trans058.shtml"/></witness><witness xml:id="w_A"><label type="siglum">A</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> NAF 4503 (olim Ashburnham place)</idno></msIdentifier></msDesc><origDate>1130-1170</origDate><origPlace>England</origPlace><note></note><ptr type="description" target="http://jonas.irht.cnrs.fr/manuscrit/48105"/><ptr type="digitised" target=""/></witness><witness xml:id="w_P"><label type="siglum">P</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 19525 (olim Saint-Germain 1856)</idno></msIdentifier></msDesc><origDate>1280-1300</origDate><origPlace>England</origPlace><note></note><ptr type="description" target="http://jonas.irht.cnrs.fr/manuscrit/45875"/><ptr type="digitised" target=""/></witness><witness xml:id="w_S"><label type="siglum">S</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 12471 (olim Suppl. fr. 532)</idno></msIdentifier></msDesc><origDate></origDate><origPlace>France</origPlace><note>rédaction i, premier témoin</note><ptr type="description" target="http://jonas.irht.cnrs.fr/manuscrit/45789"/><ptr type="digitised" target=""/></witness><witness xml:id="w_M"><label type="siglum">M</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BnF</repository><idno> fr. 1533</idno></msIdentifier></msDesc><origDate>1284</origDate><origPlace></origPlace><note>rédaction i, deuxième témoin</note><ptr type="description" target="http://jonas.irht.cnrs.fr/manuscrit/45620"/><ptr type="digitised" target=""/></witness><witness xml:id="w_Q"><label type="siglum">Q</label><idno></idno><origDate></origDate><origPlace></origPlace><note>Rédaction en quatrain monorimes conservée par six manuscrits</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
-         </sourceDesc>
-      </fileDesc>
-     <profileDesc>
-        <creation>
-           <title ref="http://viaf.org/180769076">Chanson de saint Alexis</title>
-           <persName role="author" ref="http://viaf.org/"></persName>
-           <origDate>1030-1070</origDate>
-           <origPlace>Normandy ?</origPlace>
-        </creation>
-        <textClass>
-           <keywords>
-              <term type="workGenre">chanson de saint</term>
-              <term type="stemmaType">reconstructed</term>
-              <term type="contam">no</term>
-              <term type="extraStemmContam">no</term>
-              <term type="rootType">original</term>
-           </keywords>
-        </textClass>
-        <langUsage>
-           <language ident="fro"/>
-        </langUsage>
-     </profileDesc>
-     <revisionDesc>
-        <change/>
-     </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Chanson de saint Alexis</title>
+        <author>Paris, Gaston and Pannier, Léopold</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Deprecated stemma (see Zufferey’s for a more recent one)</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>La vie de saint Alexis : poème du XIe siècle et renouvellements des XIIe, XIIIe, et XIVe siècles</title>
+          <author>Paris, Gaston and Pannier, Léopold</author>
+          <date>1872</date>
+          <pubPlace>Paris</pubPlace>
+          <series>Bibliothèque de l’École des hautes études. Sciences philologiques et historiques</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="7"/>
+          <biblScope unit="page" n="27"/>
+          <ptr type="digitised" target="https://gallica.bnf.fr/ark:/12148/bpt6k33044x/f43.item"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>HILDESHEIM</settlement>
+                <repository>  Sankt Godohard Kirche</repository>
+                <idno>  Psautier de Saint-Alban</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1101-1200</origDate>
+            <origPlace>England (Saint-Albans)</origPlace>
+            <note>Famous manuscript, perhaps from the 1130's, one of the very rare french ms. for the first half of the XIIth century</note>
+            <ptr type="description" target="http://jonas.irht.cnrs.fr/manuscrit/24358"/>
+            <ptr type="digitised" target="https://www.abdn.ac.uk/stalbanspsalter/english/translation/trans058.shtml"/>
+          </witness>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> NAF 4503 (olim Ashburnham place)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1130-1170</origDate>
+            <origPlace>England</origPlace>
+            <note></note>
+            <ptr type="description" target="http://jonas.irht.cnrs.fr/manuscrit/48105"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P">
+            <label type="siglum">P</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 19525 (olim Saint-Germain 1856)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1280-1300</origDate>
+            <origPlace>England</origPlace>
+            <note></note>
+            <ptr type="description" target="http://jonas.irht.cnrs.fr/manuscrit/45875"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_S">
+            <label type="siglum">S</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 12471 (olim Suppl. fr. 532)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace>France</origPlace>
+            <note>rédaction i, premier témoin</note>
+            <ptr type="description" target="http://jonas.irht.cnrs.fr/manuscrit/45789"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 1533</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1284</origDate>
+            <origPlace></origPlace>
+            <note>rédaction i, deuxième témoin</note>
+            <ptr type="description" target="http://jonas.irht.cnrs.fr/manuscrit/45620"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Q">
+            <label type="siglum">Q</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Rédaction en quatrain monorimes conservée par six manuscrits</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/180769076">Chanson de saint Alexis</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1030-1070</origDate>
+        <origPlace>Normandy ?</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">chanson de saint</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Paris_1872_Alexis/stemma.png?raw=true"/>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Paris_1872_Alexis/stemma.png?raw=true"/>
   </facsimile>
   <text>
-      <body>
-         <graph type="directed" order="16" size="15"><label>1</label><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1"><label>O</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x</label></node><node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="2"><label>a</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><node xml:id="n_Astar" type="hypothetical" inDegree="1" outDegree="1"><label>A*</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_b" type="hypothetical" inDegree="1" outDegree="2"><label>b</label></node><node xml:id="n_Pstar" type="hypothetical" inDegree="1" outDegree="1"><label>P*</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><node xml:id="n_z1" type="hypothetical" inDegree="1" outDegree="1"><label>z1</label></node><node xml:id="n_i" type="hypothetical" inDegree="1" outDegree="2"><label>i</label></node><node xml:id="n_Sstar" type="hypothetical" inDegree="1" outDegree="1"><label>S*</label></node><node xml:id="n_S" type="witness" inDegree="1" outDegree="0"><label>S</label></node><node xml:id="n_Mstar" type="hypothetical" inDegree="1" outDegree="1"><label>M*</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="1"><label>M</label></node><node xml:id="n_Q" type="witness" inDegree="1" outDegree="0"><label>Q</label></node><arc xml:id="arc_1" from="#n_O" to="#n_x" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_x" to="#n_a" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_x" to="#n_b" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_a" to="#n_L" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_a" to="#n_Astar" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_Astar" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_b" to="#n_Pstar" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_b" to="#n_z1" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_Pstar" to="#n_P" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_z1" to="#n_i" od:type="filiation" cert="unknown"/><arc xml:id="arc_11" from="#n_i" to="#n_Sstar" od:type="filiation" cert="unknown"/><arc xml:id="arc_12" from="#n_i" to="#n_Mstar" od:type="filiation" cert="unknown"/><arc xml:id="arc_13" from="#n_Sstar" to="#n_S" od:type="filiation" cert="unknown"/><arc xml:id="arc_14" from="#n_Mstar" to="#n_M" od:type="filiation" cert="unknown"/><arc xml:id="arc_15" from="#n_M" to="#n_Q" od:type="filiation" cert="unknown"/></graph>
-      </body>
-      <back>
+    <body>
+      <graph type="directed" order="16" size="15">
+        <label>1</label>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1">
+          <label>O</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="2">
+          <label>a</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <node xml:id="n_Astar" type="hypothetical" inDegree="1" outDegree="1">
+          <label>A*</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_b" type="hypothetical" inDegree="1" outDegree="2">
+          <label>b</label>
+        </node>
+        <node xml:id="n_Pstar" type="hypothetical" inDegree="1" outDegree="1">
+          <label>P*</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+          <label>P</label>
+        </node>
+        <node xml:id="n_z1" type="hypothetical" inDegree="1" outDegree="1">
+          <label>z1</label>
+        </node>
+        <node xml:id="n_i" type="hypothetical" inDegree="1" outDegree="2">
+          <label>i</label>
+        </node>
+        <node xml:id="n_Sstar" type="hypothetical" inDegree="1" outDegree="1">
+          <label>S*</label>
+        </node>
+        <node xml:id="n_S" type="witness" inDegree="1" outDegree="0">
+          <label>S</label>
+        </node>
+        <node xml:id="n_Mstar" type="hypothetical" inDegree="1" outDegree="1">
+          <label>M*</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="1">
+          <label>M</label>
+        </node>
+        <node xml:id="n_Q" type="witness" inDegree="1" outDegree="0">
+          <label>Q</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_O" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_x" to="#n_a" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_x" to="#n_b" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_a" to="#n_L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_a" to="#n_Astar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_Astar" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_b" to="#n_Pstar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_b" to="#n_z1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_Pstar" to="#n_P" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_z1" to="#n_i" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_i" to="#n_Sstar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_i" to="#n_Mstar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_Sstar" to="#n_S" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_Mstar" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_M" to="#n_Q" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
          </back>
   </text>
 </TEI>

@@ -3,68 +3,169 @@
 <?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="standard">Stemma of</title>
-            <title type="variable">Chansons</title>
-         <author> Wallensköld, Axel</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
-         <publicationStmt>
-            <authority>
-               <orgName>Openstemmata</orgName>
-               <ptr target="https://openstemmata.github.io/"/>
-            </authority>
-            <date/><!-- File creation date? -->
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
-            <note>Two stemmata are drawn, for the two main groups. Group I is Schwan S1, Group II is Schwan S2+S3 (bringing it  from 3 to 2 main branches, even though their relations are not shown here, and the rule of admitting a leçon common to two subgroups of II contradicts it). The tradition is contaminated, even if it is not shown, especially C O P U.</note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl type="book">
-               <title> Les chansons de Conon de Béthune</title>
-               <author> Wallensköld, Axel</author><date>1891</date>
-               <pubPlace>Paris</pubPlace><series>CFMA</series>
-               <!-- Numero de série -->
-               <biblScope unit="volume" n="24"/>
-               <biblScope unit="page" n="xx"/>
-               <ptr type="digitised" target="https://gallica.bnf.fr/ark:/12148/bpt6k977f/f22"/>
-            </bibl>
-            </sourceDesc>
-      </fileDesc>
-     <profileDesc>
-        <creation>
-           <title ref="http://viaf.org/">Chansons</title>
-           <persName role="author" ref="http://viaf.org/31225362">Conon de Béthune</persName>
-           <origDate>1180-1220</origDate>
-           <origPlace>Artois</origPlace>
-        </creation>
-        <textClass>
-           <keywords>
-              <term type="workGenre">lyrique</term>
-              <term type="stemmaType">reconstructed</term>
-              <term type="contam">yes</term>
-              <term type="extraStemmContam">no</term>
-              <term type="rootType">archetype</term>
-           </keywords>
-        </textClass>
-        <langUsage>
-           <language ident="fro"/>
-        </langUsage>
-     </profileDesc>
-     <revisionDesc>
-        <change/>
-     </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Chansons</title>
+        <author> Wallensköld, Axel</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Two stemmata are drawn, for the two main groups. Group I is Schwan S1, Group II is Schwan S2+S3 (bringing it  from 3 to 2 main branches, even though their relations are not shown here, and the rule of admitting a leçon common to two subgroups of II contradicts it). The tradition is contaminated, even if it is not shown, especially C O P U.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title> Les chansons de Conon de Béthune</title>
+          <author> Wallensköld, Axel</author>
+          <date>1891</date>
+          <pubPlace>Paris</pubPlace>
+          <series>CFMA</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="24"/>
+          <biblScope unit="page" n="xx"/>
+          <ptr type="digitised" target="https://gallica.bnf.fr/ark:/12148/bpt6k977f/f22"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Chansons</title>
+        <persName role="author" ref="http://viaf.org/31225362">Conon de Béthune</persName>
+        <origDate>1180-1220</origDate>
+        <origPlace>Artois</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">lyrique</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Wallensköld_1891_CononBethune-Chansons2/stemma.png?raw=true"/>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Wallensköld_1891_CononBethune-Chansons2/stemma.png?raw=true"/>
   </facsimile>
   <text>
-      <body>
-         <graph type="directed" order="23" size="22"><label>1</label><node xml:id="n_II" type="hypothetical" inDegree="0" outDegree="2"><label>II</label></node><node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_3" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_4" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_5" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_6" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_7" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_8" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_9" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_10" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_H" type="witness" inDegree="1" outDegree="0"><label>H</label></node><node xml:id="n_y" type="witness" inDegree="1" outDegree="0"><label>y</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_U" type="witness" inDegree="1" outDegree="0"><label>U</label></node><node xml:id="n_I" type="witness" inDegree="1" outDegree="0"><label>I</label></node><node xml:id="n_O" type="witness" inDegree="1" outDegree="0"><label>O</label></node><node xml:id="n_x" type="witness" inDegree="1" outDegree="0"><label>x</label></node><node xml:id="n_V" type="witness" inDegree="1" outDegree="0"><label>V</label></node><node xml:id="n_N" type="witness" inDegree="1" outDegree="0"><label>N</label></node><node xml:id="n_K" type="witness" inDegree="1" outDegree="0"><label>K</label></node><node xml:id="n_X" type="witness" inDegree="1" outDegree="0"><label>X</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><arc xml:id="arc_1" from="#n_II" to="#n_1" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_II" to="#n_2" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_1" to="#n_H" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_1" to="#n_y" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_2" to="#n_3" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_2" to="#n_5" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_3" to="#n_C" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_3" to="#n_4" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_4" to="#n_U" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_4" to="#n_I" od:type="filiation" cert="unknown"/><arc xml:id="arc_11" from="#n_5" to="#n_O" od:type="filiation" cert="unknown"/><arc xml:id="arc_12" from="#n_5" to="#n_6" od:type="filiation" cert="unknown"/><arc xml:id="arc_13" from="#n_6" to="#n_7" od:type="filiation" cert="unknown"/><arc xml:id="arc_14" from="#n_6" to="#n_8" od:type="filiation" cert="unknown"/><arc xml:id="arc_15" from="#n_7" to="#n_x" od:type="filiation" cert="unknown"/><arc xml:id="arc_16" from="#n_7" to="#n_V" od:type="filiation" cert="unknown"/><arc xml:id="arc_17" from="#n_8" to="#n_N" od:type="filiation" cert="unknown"/><arc xml:id="arc_18" from="#n_8" to="#n_9" od:type="filiation" cert="unknown"/><arc xml:id="arc_19" from="#n_9" to="#n_K" od:type="filiation" cert="unknown"/><arc xml:id="arc_20" from="#n_9" to="#n_10" od:type="filiation" cert="unknown"/><arc xml:id="arc_21" from="#n_10" to="#n_X" od:type="filiation" cert="unknown"/><arc xml:id="arc_22" from="#n_10" to="#n_P" od:type="filiation" cert="unknown"/></graph>
-      </body>
-      <back>
+    <body>
+      <graph type="directed" order="23" size="22">
+        <label>1</label>
+        <node xml:id="n_II" type="hypothetical" inDegree="0" outDegree="2">
+          <label>II</label>
+        </node>
+        <node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>1</label>
+        </node>
+        <node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>2</label>
+        </node>
+        <node xml:id="n_3" type="hypothetical" inDegree="1" outDegree="2">
+          <label>3</label>
+        </node>
+        <node xml:id="n_4" type="hypothetical" inDegree="1" outDegree="2">
+          <label>4</label>
+        </node>
+        <node xml:id="n_5" type="hypothetical" inDegree="1" outDegree="2">
+          <label>5</label>
+        </node>
+        <node xml:id="n_6" type="hypothetical" inDegree="1" outDegree="2">
+          <label>6</label>
+        </node>
+        <node xml:id="n_7" type="hypothetical" inDegree="1" outDegree="2">
+          <label>7</label>
+        </node>
+        <node xml:id="n_8" type="hypothetical" inDegree="1" outDegree="2">
+          <label>8</label>
+        </node>
+        <node xml:id="n_9" type="hypothetical" inDegree="1" outDegree="2">
+          <label>9</label>
+        </node>
+        <node xml:id="n_10" type="hypothetical" inDegree="1" outDegree="2">
+          <label>10</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <node xml:id="n_y" type="witness" inDegree="1" outDegree="0">
+          <label>y</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_U" type="witness" inDegree="1" outDegree="0">
+          <label>U</label>
+        </node>
+        <node xml:id="n_I" type="witness" inDegree="1" outDegree="0">
+          <label>I</label>
+        </node>
+        <node xml:id="n_O" type="witness" inDegree="1" outDegree="0">
+          <label>O</label>
+        </node>
+        <node xml:id="n_x" type="witness" inDegree="1" outDegree="0">
+          <label>x</label>
+        </node>
+        <node xml:id="n_V" type="witness" inDegree="1" outDegree="0">
+          <label>V</label>
+        </node>
+        <node xml:id="n_N" type="witness" inDegree="1" outDegree="0">
+          <label>N</label>
+        </node>
+        <node xml:id="n_K" type="witness" inDegree="1" outDegree="0">
+          <label>K</label>
+        </node>
+        <node xml:id="n_X" type="witness" inDegree="1" outDegree="0">
+          <label>X</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+          <label>P</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_II" to="#n_1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_II" to="#n_2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_1" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_1" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_2" to="#n_3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_2" to="#n_5" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_3" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_3" to="#n_4" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_4" to="#n_U" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_4" to="#n_I" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_5" to="#n_O" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_5" to="#n_6" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_6" to="#n_7" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_6" to="#n_8" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_7" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_7" to="#n_V" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_8" to="#n_N" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_8" to="#n_9" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_9" to="#n_K" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_9" to="#n_10" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_10" to="#n_X" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_22" from="#n_10" to="#n_P" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
          </back>
   </text>
 </TEI>

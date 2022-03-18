@@ -3,69 +3,168 @@
 <?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="standard">Stemma of</title>
-            <title type="variable">Mort Artu (Post-Vulgate)</title>
-         <author>Bogdanow, Fanni</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
-         <publicationStmt>
-            <authority>
-               <orgName>Openstemmata</orgName>
-               <ptr target="https://openstemmata.github.io/"/>
-            </authority>
-            <date/><!-- File creation date? -->
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
-            <note>Two stemmata are given, according to two sets of conflicting variant locations, p. 292, but indicating that the first should be retained, and then a stemma, p. 415, of the descendants of X1 (i.e. the Tristanian Quest). These first two can be merged into a single file. On the other hand, p. 445, stemma of the post-Vulgate Artu Death, which stands alone.  The Spanish and Portuguese version have several manuscripts, that could be included in the tree.</note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl type="book">
-               <title>La Version Post-Vulgate de la Queste del Saint Graal et de la Mort Artu</title>
-               <author>Bogdanow, Fanni</author><date>1991</date>
-               <pubPlace>Paris</pubPlace><series>SATF</series>
-               <!-- Numero de série -->
-               <biblScope unit="volume" n="101"/>
-               <biblScope unit="page" n="445"/>
-               <ptr type="digitised" target=""/>
-            </bibl>
-            <listWit><witness xml:id="w_N1"><label type="siglum">N1</label><idno>BnF, fr. 340</idno><origDate>1395-1405</origDate><origPlace>Workshop of the Duc de Berry</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B"><label type="siglum">B</label><idno>Bodmer 105</idno><origDate>1440-1485</origDate><origPlace></origPlace><note>Probably made for Guyot le Peley de Troyes (d. 1485)</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_D"><label type="siglum">D</label><idno>Demanda do Santo Graal</idno><origDate></origDate><origPlace>Portugual</origPlace><note>Version portugaise</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_De"><label type="siglum">De</label><idno>Demanda del Sancto Grial</idno><origDate></origDate><origPlace></origPlace><note>Version espagnole</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_S4"><label type="siglum">S4</label><idno>Bologne, Archivio di Stato, busta 1, fragm. fr. 7bis</idno><origDate>1340-1360</origDate><origPlace></origPlace><note>Probably from the same ms. as fragm. S2 and S3.</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
-         </sourceDesc>
-      </fileDesc>
-     <profileDesc>
-        <creation>
-           <title ref="http://viaf.org/183477960">Mort Artu (Post-Vulgate)</title>
-           <persName role="author" ref="http://viaf.org/"></persName>
-           <origDate>1230-1240</origDate>
-           <origPlace></origPlace>
-        </creation>
-        <textClass>
-           <keywords>
-              <term type="workGenre">roman arthurien en prose</term>
-              <term type="stemmaType">reconstructed</term>
-              <term type="contam">no</term>
-              <term type="extraStemmContam">no</term>
-              <term type="rootType">original</term>
-           </keywords>
-        </textClass>
-        <langUsage>
-           <language ident="fro"/>
-        </langUsage>
-     </profileDesc>
-     <revisionDesc>
-        <change/>
-     </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Mort Artu (Post-Vulgate)</title>
+        <author>Bogdanow, Fanni</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Two stemmata are given, according to two sets of conflicting variant locations, p. 292, but indicating that the first should be retained, and then a stemma, p. 415, of the descendants of X1 (i.e. the Tristanian Quest). These first two can be merged into a single file. On the other hand, p. 445, stemma of the post-Vulgate Artu Death, which stands alone.  The Spanish and Portuguese version have several manuscripts, that could be included in the tree.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>La Version Post-Vulgate de la Queste del Saint Graal et de la Mort Artu</title>
+          <author>Bogdanow, Fanni</author>
+          <date>1991</date>
+          <pubPlace>Paris</pubPlace>
+          <series>SATF</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="101"/>
+          <biblScope unit="page" n="445"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_N1">
+            <label type="siglum">N1</label>
+            <idno>BnF, fr. 340</idno>
+            <origDate>1395-1405</origDate>
+            <origPlace>Workshop of the Duc de Berry</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <idno>Bodmer 105</idno>
+            <origDate>1440-1485</origDate>
+            <origPlace></origPlace>
+            <note>Probably made for Guyot le Peley de Troyes (d. 1485)</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <idno>Demanda do Santo Graal</idno>
+            <origDate></origDate>
+            <origPlace>Portugual</origPlace>
+            <note>Version portugaise</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_De">
+            <label type="siglum">De</label>
+            <idno>Demanda del Sancto Grial</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Version espagnole</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_S4">
+            <label type="siglum">S4</label>
+            <idno>Bologne, Archivio di Stato, busta 1, fragm. fr. 7bis</idno>
+            <origDate>1340-1360</origDate>
+            <origPlace></origPlace>
+            <note>Probably from the same ms. as fragm. S2 and S3.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/183477960">Mort Artu (Post-Vulgate)</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1230-1240</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">roman arthurien en prose</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Bogdanow_1991_MortArtuPV/stemma.png?raw=true"/>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Bogdanow_1991_MortArtuPV/stemma.png?raw=true"/>
   </facsimile>
   <text>
-      <body>
-         <graph type="directed" order="11" size="10"><label>2</label><node xml:id="n_Omega" type="hypothetical" inDegree="0" outDegree="4"><label>Mort Artu P-V</label></node><node xml:id="n_f1" type="hypothetical" inDegree="1" outDegree="1"><label>f1</label></node><node xml:id="n_f" type="hypothetical" inDegree="1" outDegree="1"><label>f (source française des versions ibériques)</label></node><node xml:id="n_dx" type="hypothetical" inDegree="1" outDegree="2"><label>dx (première traduction ibérique)</label></node><node xml:id="n_b" type="hypothetical" inDegree="1" outDegree="1"><label>b</label></node><node xml:id="n_n" type="hypothetical" inDegree="1" outDegree="1"><label>n</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_De" type="witness" inDegree="1" outDegree="0"><label>De</label></node><node xml:id="n_S4" type="witness" inDegree="1" outDegree="0"><label>S4</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_N1" type="witness" inDegree="1" outDegree="0"><label>N1</label></node><arc xml:id="arc_1" from="#n_Omega" to="#n_f1" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_Omega" to="#n_S4" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_Omega" to="#n_b" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_Omega" to="#n_n" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_f1" to="#n_f" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_f" to="#n_dx" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_dx" to="#n_D" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_dx" to="#n_De" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_b" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_n" to="#n_N1" od:type="filiation" cert="unknown"/></graph>
-      </body>
-      <back>
+    <body>
+      <graph type="directed" order="11" size="10">
+        <label>2</label>
+        <node xml:id="n_Omega" type="hypothetical" inDegree="0" outDegree="4">
+          <label>Mort Artu P-V</label>
+        </node>
+        <node xml:id="n_f1" type="hypothetical" inDegree="1" outDegree="1">
+          <label>f1</label>
+        </node>
+        <node xml:id="n_f" type="hypothetical" inDegree="1" outDegree="1">
+          <label>f (source française des versions ibériques)</label>
+        </node>
+        <node xml:id="n_dx" type="hypothetical" inDegree="1" outDegree="2">
+          <label>dx (première traduction ibérique)</label>
+        </node>
+        <node xml:id="n_b" type="hypothetical" inDegree="1" outDegree="1">
+          <label>b</label>
+        </node>
+        <node xml:id="n_n" type="hypothetical" inDegree="1" outDegree="1">
+          <label>n</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
+          <label>D</label>
+        </node>
+        <node xml:id="n_De" type="witness" inDegree="1" outDegree="0">
+          <label>De</label>
+        </node>
+        <node xml:id="n_S4" type="witness" inDegree="1" outDegree="0">
+          <label>S4</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_N1" type="witness" inDegree="1" outDegree="0">
+          <label>N1</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_Omega" to="#n_f1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_Omega" to="#n_S4" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_Omega" to="#n_b" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_Omega" to="#n_n" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_f1" to="#n_f" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_f" to="#n_dx" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_dx" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_dx" to="#n_De" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_b" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_n" to="#n_N1" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
          </back>
   </text>
 </TEI>

@@ -3,68 +3,181 @@
 <?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="standard">Stemma of</title>
-            <title type="variable">Fierabras</title>
-         <author>Le Person, Marc</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
-         <publicationStmt>
-            <authority>
-               <orgName>Openstemmata</orgName>
-               <ptr target="https://openstemmata.github.io/"/>
-            </authority>
-            <date/><!-- File creation date? -->
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
-            <note>Stemma de Menhert (1938), réactualisé par Le Person. Note que «le groupe alpha est à nuancer car le ms. T est aussi très proche de E». Veut-il dire qu'il y a une contamination?</note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl type="book">
-               <title>Fierabras: Chanson de geste du XIIe siècle</title>
-               <author>Le Person, Marc</author><date>2003</date>
-               <pubPlace>Paris</pubPlace><series>CFMA</series>
-               <!-- Numero de série -->
-               <biblScope unit="volume" n="142"/>
-               <biblScope unit="page" n="81"/>
-               <ptr type="digitised" target=""/>
-            </bibl>
-            </sourceDesc>
-      </fileDesc>
-     <profileDesc>
-        <creation>
-           <title ref="http://viaf.org/193010408">Fierabras</title>
-           <persName role="author" ref="http://viaf.org/"></persName>
-           <origDate>1167-1200</origDate>
-           <origPlace></origPlace>
-        </creation>
-        <textClass>
-           <keywords>
-              <term type="workGenre">chanson de geste</term>
-              <term type="stemmaType">reconstructed</term>
-              <term type="contam">?</term>
-              <term type="extraStemmContam">no</term>
-              <term type="rootType">original?</term>
-           </keywords>
-        </textClass>
-        <langUsage>
-           <language ident="fro"/>
-        </langUsage>
-     </profileDesc>
-     <revisionDesc>
-        <change/>
-     </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Fierabras</title>
+        <author>Le Person, Marc</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Stemma de Menhert (1938), réactualisé par Le Person. Note que «le groupe alpha est à nuancer car le ms. T est aussi très proche de E». Veut-il dire qu'il y a une contamination?</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Fierabras: Chanson de geste du XIIe siècle</title>
+          <author>Le Person, Marc</author>
+          <date>2003</date>
+          <pubPlace>Paris</pubPlace>
+          <series>CFMA</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="142"/>
+          <biblScope unit="page" n="81"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/193010408">Fierabras</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1167-1200</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">chanson de geste</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">?</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original?</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/LePerson_2003_Fierabras/stemma.png?raw=true"/>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/LePerson_2003_Fierabras/stemma.png?raw=true"/>
   </facsimile>
   <text>
-      <body>
-         <graph type="directed" order="26" size="25"><label>1</label><node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2"><label>α</label></node><node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2"><label>β</label></node><node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="2"><label>δ</label></node><node xml:id="n_deltaprime" type="hypothetical" inDegree="1" outDegree="2"><label>δ'</label></node><node xml:id="n_epsilon" type="hypothetical" inDegree="1" outDegree="2"><label>ε</label></node><node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="3"><label>γ</label></node><node xml:id="n_gammaprime" type="hypothetical" inDegree="1" outDegree="2"><label>γ'</label></node><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="2"><label>O</label></node><node xml:id="n_X" type="hypothetical" inDegree="1" outDegree="2"><label>X</label></node><node xml:id="n_Xprime" type="hypothetical" inDegree="1" outDegree="2"><label></label></node><node xml:id="n_Y" type="hypothetical" inDegree="1" outDegree="2"><label>Y</label></node><node xml:id="n_zeta" type="hypothetical" inDegree="1" outDegree="2"><label>ζ</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_T" type="witness" inDegree="1" outDegree="0"><label>T</label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_S" type="witness" inDegree="1" outDegree="0"><label>S</label></node><node xml:id="n_V2" type="witness" inDegree="1" outDegree="0"><label>V2</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><node xml:id="n_N" type="witness" inDegree="1" outDegree="0"><label>N</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_V1" type="witness" inDegree="1" outDegree="0"><label>V1</label></node><node xml:id="n_Mo" type="witness" inDegree="1" outDegree="0"><label>Mo</label></node><node xml:id="n_H" type="witness" inDegree="1" outDegree="0"><label>H</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><arc xml:id="arc_1" from="#n_alpha" to="#n_D" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_alpha" to="#n_T" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_beta" to="#n_E" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_beta" to="#n_M" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_delta" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_delta" to="#n_deltaprime" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_deltaprime" to="#n_V1" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_deltaprime" to="#n_Mo" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_epsilon" to="#n_zeta" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_epsilon" to="#n_P" od:type="filiation" cert="unknown"/><arc xml:id="arc_11" from="#n_gamma" to="#n_S" od:type="filiation" cert="unknown"/><arc xml:id="arc_12" from="#n_gamma" to="#n_V2" od:type="filiation" cert="unknown"/><arc xml:id="arc_13" from="#n_gamma" to="#n_gammaprime" od:type="filiation" cert="unknown"/><arc xml:id="arc_14" from="#n_gammaprime" to="#n_L" od:type="filiation" cert="unknown"/><arc xml:id="arc_15" from="#n_gammaprime" to="#n_N" od:type="filiation" cert="unknown"/><arc xml:id="arc_16" from="#n_O" to="#n_X" od:type="filiation" cert="unknown"/><arc xml:id="arc_17" from="#n_O" to="#n_Y" od:type="filiation" cert="unknown"/><arc xml:id="arc_18" from="#n_X" to="#n_Xprime" od:type="filiation" cert="unknown"/><arc xml:id="arc_19" from="#n_X" to="#n_gamma" od:type="filiation" cert="unknown"/><arc xml:id="arc_20" from="#n_Xprime" to="#n_alpha" od:type="filiation" cert="unknown"/><arc xml:id="arc_21" from="#n_Xprime" to="#n_beta" od:type="filiation" cert="unknown"/><arc xml:id="arc_22" from="#n_Y" to="#n_delta" od:type="filiation" cert="unknown"/><arc xml:id="arc_23" from="#n_Y" to="#n_epsilon" od:type="filiation" cert="unknown"/><arc xml:id="arc_24" from="#n_zeta" to="#n_H" od:type="filiation" cert="unknown"/><arc xml:id="arc_25" from="#n_zeta" to="#n_B" od:type="filiation" cert="unknown"/></graph>
-      </body>
-      <back>
+    <body>
+      <graph type="directed" order="26" size="25">
+        <label>1</label>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2">
+          <label>α</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>β</label>
+        </node>
+        <node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>δ</label>
+        </node>
+        <node xml:id="n_deltaprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>δ'</label>
+        </node>
+        <node xml:id="n_epsilon" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ε</label>
+        </node>
+        <node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="3">
+          <label>γ</label>
+        </node>
+        <node xml:id="n_gammaprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>γ'</label>
+        </node>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="2">
+          <label>O</label>
+        </node>
+        <node xml:id="n_X" type="hypothetical" inDegree="1" outDegree="2">
+          <label>X</label>
+        </node>
+        <node xml:id="n_Xprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Xprime</label>
+        </node>
+        <node xml:id="n_Y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Y</label>
+        </node>
+        <node xml:id="n_zeta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ζ</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
+          <label>D</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="0">
+          <label>T</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_S" type="witness" inDegree="1" outDegree="0">
+          <label>S</label>
+        </node>
+        <node xml:id="n_V2" type="witness" inDegree="1" outDegree="0">
+          <label>V2</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <node xml:id="n_N" type="witness" inDegree="1" outDegree="0">
+          <label>N</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_V1" type="witness" inDegree="1" outDegree="0">
+          <label>V1</label>
+        </node>
+        <node xml:id="n_Mo" type="witness" inDegree="1" outDegree="0">
+          <label>Mo</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+          <label>P</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_alpha" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_alpha" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_beta" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_beta" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_delta" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_delta" to="#n_deltaprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_deltaprime" to="#n_V1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_deltaprime" to="#n_Mo" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_epsilon" to="#n_zeta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_epsilon" to="#n_P" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_gamma" to="#n_S" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_gamma" to="#n_V2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_gamma" to="#n_gammaprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_gammaprime" to="#n_L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_gammaprime" to="#n_N" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_O" to="#n_X" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_O" to="#n_Y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_X" to="#n_Xprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_X" to="#n_gamma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_Xprime" to="#n_alpha" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_Xprime" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_22" from="#n_Y" to="#n_delta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_23" from="#n_Y" to="#n_epsilon" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_24" from="#n_zeta" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_25" from="#n_zeta" to="#n_B" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
          </back>
   </text>
 </TEI>

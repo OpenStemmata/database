@@ -3,69 +3,135 @@
 <?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="standard">Stemma of</title>
-            <title type="variable">König Rother</title>
-         <author>Kuhnt, Joachim</author><author>Frings, Theodor</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
-         <publicationStmt>
-            <authority>
-               <orgName>Openstemmata</orgName>
-               <ptr target="https://openstemmata.github.io/"/>
-            </authority>
-            <date/><!-- File creation date? -->
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
-            <note>the tradition consists of one manuscript (H) and four fragments (B, E, M, A). only H and M, which are closest to each other, are represented within the stemma. for the relation between the other fragments, see p. 195f.</note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl type="book">
-               <title>König Rother</title>
-               <author>Kuhnt, Joachim</author><author>Frings, Theodor</author><date>1922</date>
-               <pubPlace>Bonn/Leipzig</pubPlace><series>Rheinische Beiträge und Hülfsbücher zur germanischen Philologie und Volkskunde</series>
-               <!-- Numero de série -->
-               <biblScope unit="volume" n="3"/>
-               <biblScope unit="page" n="196"/>
-               <ptr type="digitised" target="https://archive.org/details/KoenigRotherHrsgVonTheodorFrings/page/n7/mode/2up"/>
-            </bibl>
-            <listWit><witness xml:id="w_H"><label type="siglum">H</label><msDesc><msIdentifier><settlement>Heidelberg</settlement><repository> Universitätsbibl.</repository><idno> Cpg 390</idno></msIdentifier></msDesc><origDate>1200-1225</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digi.ub.uni-heidelberg.de/diglit/cpg390"/></witness><witness xml:id="w_M"><label type="siglum">M</label><msDesc><msIdentifier><settlement>München</settlement><repository> Staatsbibl.</repository><idno> Cgm 5249/1</idno></msIdentifier></msDesc><origDate>1190-1210</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
-         </sourceDesc>
-      </fileDesc>
-     <profileDesc>
-        <creation>
-           <title ref="http://viaf.org/175381378">König Rother</title>
-           <persName role="author" ref="http://viaf.org/"></persName>
-           <origDate>1140-1199</origDate>
-           <origPlace>nearby Regensburg</origPlace>
-        </creation>
-        <textClass>
-           <keywords>
-              <term type="workGenre">epic</term>
-              <term type="stemmaType">reconstructed</term>
-              <term type="contam">no</term>
-              <term type="extraStemmContam">no</term>
-              <term type="rootType">original</term>
-           </keywords>
-        </textClass>
-        <langUsage>
-           <language ident="gmh"/>
-        </langUsage>
-     </profileDesc>
-     <revisionDesc>
-        <change/>
-     </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">König Rother</title>
+        <author>Kuhnt, Joachim</author>
+        <author>Frings, Theodor</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Lena Reich</persName>
+        </respStmt>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>the tradition consists of one manuscript (H) and four fragments (B, E, M, A). only H and M, which are closest to each other, are represented within the stemma. for the relation between the other fragments, see p. 195f.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>König Rother</title>
+          <author>Kuhnt, Joachim</author>
+          <author>Frings, Theodor</author>
+          <date>1922</date>
+          <pubPlace>Bonn/Leipzig</pubPlace>
+          <series>Rheinische Beiträge und Hülfsbücher zur germanischen Philologie und Volkskunde</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="3"/>
+          <biblScope unit="page" n="196"/>
+          <ptr type="digitised" target="https://archive.org/details/KoenigRotherHrsgVonTheodorFrings/page/n7/mode/2up"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_H">
+            <label type="siglum">H</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Heidelberg</settlement>
+                <repository> Universitätsbibl.</repository>
+                <idno> Cpg 390</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1200-1225</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="https://digi.ub.uni-heidelberg.de/diglit/cpg390"/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> Cgm 5249/1</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1190-1210</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/175381378">König Rother</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1140-1199</origDate>
+        <origPlace>nearby Regensburg</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">epic</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gmh"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/FringsKuhnt_1922_KoenigRother/stemma.png?raw=true"/>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/FringsKuhnt_1922_KoenigRother/stemma.png?raw=true"/>
   </facsimile>
   <text>
-      <body>
-         <graph type="directed" order="5" size="4"><label></label><node xml:id="n_Original" type="hypothetical" inDegree="0" outDegree="1"><label>Original (um 1130-1140 an der niederdeutschen Grenze entstanden)</label></node><node xml:id="n_Umarbeitung" type="hypothetical" inDegree="1" outDegree="2"><label>Umarbeitung (in Baiern?) anscheinend von einem Nieder- oder Mitteldeutschen verfaßt</label></node><node xml:id="n_VorlageH" type="hypothetical" inDegree="1" outDegree="1"><label>Vorlage von H</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_H" type="witness" inDegree="1" outDegree="0"><label>H</label></node><arc xml:id="arc_1" from="#n_Original" to="#n_Umarbeitung" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_Umarbeitung" to="#n_VorlageH" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_Umarbeitung" to="#n_M" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_VorlageH" to="#n_H" od:type="filiation" cert="unknown"/></graph>
-      </body>
-      <back>
+    <body>
+      <graph type="directed" order="5" size="4">
+        <label></label>
+        <node xml:id="n_Original" type="hypothetical" inDegree="0" outDegree="1">
+          <label>Original (um 1130-1140 an der niederdeutschen Grenze entstanden)</label>
+        </node>
+        <node xml:id="n_Umarbeitung" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Umarbeitung (in Baiern?) anscheinend von einem Nieder- oder Mitteldeutschen verfaßt</label>
+        </node>
+        <node xml:id="n_VorlageH" type="hypothetical" inDegree="1" outDegree="1">
+          <label>Vorlage von H</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_Original" to="#n_Umarbeitung" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_Umarbeitung" to="#n_VorlageH" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_Umarbeitung" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_VorlageH" to="#n_H" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
          </back>
   </text>
 </TEI>

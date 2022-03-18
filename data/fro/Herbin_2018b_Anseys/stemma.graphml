@@ -26,7 +26,6 @@
 <node id="S"/>
 <node id="2">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="N"/>
 <edge source="O" target="x">

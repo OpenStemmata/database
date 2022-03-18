@@ -1,50 +1,48 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
 <key id="d2" for="edge" attr.name="type" attr.type="string"/>
-<key id="d1" for="node" attr.name="color" attr.type="string"/>
-<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
 <graph edgedefault="directed"><node id="original">
-  <data key="d0"></data>
-  <data key="d1">grey</data>
+  <data key="d0">grey</data>
 </node>
 <node id="1">
-  <data key="d0"></data>
-  <data key="d1">grey</data>
+  <data key="d0">grey</data>
 </node>
 <node id="alpha">
-  <data key="d0">α</data>
-  <data key="d1">grey</data>
+  <data key="d1">α</data>
+  <data key="d0">grey</data>
 </node>
 <node id="alphaprime">
-  <data key="d0">α'</data>
-  <data key="d1">grey</data>
+  <data key="d1">α'</data>
+  <data key="d0">grey</data>
 </node>
 <node id="alpha2">
-  <data key="d0">α2</data>
-  <data key="d1">grey</data>
+  <data key="d1">α2</data>
+  <data key="d0">grey</data>
 </node>
 <node id="beta">
-  <data key="d0">β</data>
-  <data key="d1">grey</data>
+  <data key="d1">β</data>
+  <data key="d0">grey</data>
 </node>
 <node id="betaprime">
-  <data key="d0">β'</data>
-  <data key="d1">grey</data>
+  <data key="d1">β'</data>
+  <data key="d0">grey</data>
 </node>
 <node id="beta2">
-  <data key="d0">β2</data>
-  <data key="d1">grey</data>
+  <data key="d1">β2</data>
+  <data key="d0">grey</data>
 </node>
 <node id="beta3">
-  <data key="d0">β3</data>
-  <data key="d1">grey</data>
+  <data key="d1">β3</data>
+  <data key="d0">grey</data>
 </node>
 <node id="beta4">
-  <data key="d0">β4</data>
-  <data key="d1">grey</data>
+  <data key="d1">β4</data>
+  <data key="d0">grey</data>
 </node>
 <node id="x">
-  <data key="d1">grey</data>
+  <data key="d0">grey</data>
 </node>
 <node id="H"/>
 <node id="M"/>
@@ -58,14 +56,14 @@
 <node id="R"/>
 <edge source="original" target="x">
   <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
+  <data key="d3">low</data>
 </edge>
 <edge source="original" target="1">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="1" target="P">
-  <data key="d2">filiation</data>
+  <data key="d2">contamination</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="alpha" target="H">
@@ -89,11 +87,11 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="alphaprime" target="beta2">
-  <data key="d2">filiation</data>
+  <data key="d2">contamination</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="alpha2" target="M">
-  <data key="d2">filiation</data>
+  <data key="d2">contamination</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="alpha2" target="F">
@@ -105,7 +103,7 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="beta" target="Y">
-  <data key="d2">filiation</data>
+  <data key="d2">contamination</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="beta" target="beta4">

@@ -74,7 +74,7 @@
 </edge>
 <edge source="a" target="M">
   <data key="d1">filiation</data>
-  <data key="d2">unknown</data>
+  <data key="d2">low</data>
 </edge>
 <edge source="x" target="E">
   <data key="d1">filiation</data>
@@ -102,6 +102,6 @@
 </edge>
 <edge source="z" target="L">
   <data key="d1">filiation</data>
-  <data key="d2">unknown</data>
+  <data key="d2">low</data>
 </edge>
 </graph></graphml>
