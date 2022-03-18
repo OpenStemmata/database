@@ -1,0 +1,40 @@
+digraph {
+
+KM [label="", color="grey"]
+x [label="x¹)", color="grey"] # The footnote refers to the use of the symbol in the critical apparatus of the edition and has no meaning for the stemma.
+y [color="grey"]
+w 
+zh [label="z", color="grey"]
+A [color="grey"]
+B [color="grey"]
+C [color="grey"]
+D [color="grey"]
+Hpz [label="", color="grey"]
+
+
+A -> x
+x -> y
+x -> zh
+x -> w
+y -> KM # K and M are closer to each other than to v. This is not represented as a common node in the drawn stemma, but as considering them almost as the same manuscript close together. The abstract representation would include this node KM. See page II of the edition.
+KM -> K
+KM -> M
+y -> v
+A -> B
+
+zh -> r 
+zh -> m
+
+B -> Hpz
+Hpz -> H
+Hpz -> p 
+Hpz -> z
+
+B -> C 
+C -> f 
+C -> D 
+
+D -> s 
+D -> d 
+
+}
