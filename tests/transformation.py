@@ -17,7 +17,7 @@ import superscript
 # for changed_file in $( find ~/Dokumente/OpenStemmata/database/data -name '*.*' ) ; do ~/Dokumente/OpenStemmata/venv/bin/python3 ~/Dokumente/OpenStemmata/database/tests/transformation.py $changed_file ; done
 
 def tr(changed_file):
-    attributes_regex = '(?:label|dir|color|style)\s?=\s?(?:none|dashed|grey|"[^"]+")'
+    attributes_regex = '(label|dir|color|style)\s?=\s?(none|dashed|grey|"[^"]+")'
 
     # if len(sys.argv) > 1:
     #    changed_file = str(sys.argv[1])
@@ -40,7 +40,7 @@ def tr(changed_file):
         return
 
     
-    print("Processing: ", changed_file)
+    # print("Processing: ", changed_file)
     
 
     with codecs.open(dotFile, 'r', 'utf-8') as dot:
@@ -76,14 +76,15 @@ def tr(changed_file):
                     if '[' in noAttrib:
                         attributes = re.findall(attributes_regex, line)    
                         for attr in attributes:
+                            val = attr[1].replace('"','')
                             if attr[0] == 'style':
-                                if attr[1] == 'dashed':
+                                if val == 'dashed':
                                     edge_attr['type'] = 'contamination'
                             elif attr[0] == 'color':
-                                if attr[1] == 'grey':
+                                if val == 'grey':
                                     edge_attr['cert'] = 'low'
                             elif attr[0] == 'dir':
-                                if attr[1] == 'none':
+                                if val == 'none':
                                     edge_attr['dir'] = 'none'
                     if comment != '':
                         edge_attr['note'] = comment
@@ -96,7 +97,8 @@ def tr(changed_file):
                         nodes[node] = {}
                         attributes = re.findall(attributes_regex, line)    
                         for attr in attributes:
-                            nodes[node][attr[0]] = attr[1]
+                            val = attr[1].replace('"', '')
+                            nodes[node][attr[0]] = val
                     if comment != '':
                         nodes[node]['note'] = comment
                 
@@ -407,6 +409,8 @@ def tr(changed_file):
 
     if len(noteGrp) < 1:
         back.remove(noteGrp)
+
+    et.indent(tree)
 
     tree.write( '/'.join(path) + '/' + new_file_name + '.tei.xml', pretty_print=True, encoding="UTF-8", xml_declaration=True)
 
