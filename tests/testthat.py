@@ -12,8 +12,13 @@ structure = test_folder.test_folder()
 dot = test_dot.test_dot()
 
 print(f"{bcolors.HEADER}\nCreating virtual TEI files to evaluate correctness{bcolors.ENDC}")
+
 for file in glob.iglob('./data/*/*/*'):
-    transformation.tr(file)
+    try:
+        transformation.tr(file)
+    except Exception as e:
+        print(f"{bcolors.FAIL}Could not transform " + file)
+        print(e)
 
 tei = test_tei.test_tei()
 
