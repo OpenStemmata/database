@@ -3,69 +3,138 @@
 <?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="standard">Stemma of</title>
-            <title type="variable">Conte de la Charrette</title>
-         <author>Combes, Annie</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0001-9094-4475">Simon Gabay</persName></respStmt></titleStmt>
-         <publicationStmt>
-            <authority>
-               <orgName>Openstemmata</orgName>
-               <ptr target="https://openstemmata.github.io/"/>
-            </authority>
-            <date/><!-- File creation date? -->
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
-            <note>Doubts about date/location</note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl type="book">
-               <title>Le Conte de la Charrette dans le Lancelot en prose: une version divergente de la vulgate</title>
-               <author>Combes, Annie</author><date>2009</date>
-               <pubPlace>Paris</pubPlace><series>Classiques français du Moyen âge</series>
-               <!-- Numero de série -->
-               <biblScope unit="volume" n="158"/>
-               <biblScope unit="page" n="63"/>
-               <ptr type="digitised" target=""/>
-            </bibl>
-            <listWit><witness xml:id="w_Ab"><label type="siglum">Ab</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BNF</repository><idno> Fr. 122</idno></msIdentifier></msDesc><origDate>1345</origDate><origPlace>Paris</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Ac"><label type="siglum">Ac</label><idno>Paris, Arsenal 3480</idno><origDate>1400</origDate><origPlace>Paris</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Aa"><label type="siglum">Aa</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> BNF</repository><idno> Fr. 119</idno></msIdentifier></msDesc><origDate>1400</origDate><origPlace>Paris</origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
-         </sourceDesc>
-      </fileDesc>
-     <profileDesc>
-        <creation>
-           <title ref="http://viaf.org/">Conte de la Charrette</title>
-           <persName role="author" ref="http://viaf.org/"></persName>
-           <origDate>1215-1235</origDate>
-           <origPlace></origPlace>
-        </creation>
-        <textClass>
-           <keywords>
-              <term type="workGenre">Conte</term>
-              <term type="stemmaType">reconstructed</term>
-              <term type="contam">no</term>
-              <term type="extraStemmContam">no</term>
-              <term type="rootType">original</term>
-           </keywords>
-        </textClass>
-        <langUsage>
-           <language ident="fro"/>
-        </langUsage>
-     </profileDesc>
-     <revisionDesc>
-        <change/>
-     </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Conte de la Charrette</title>
+        <author>Combes, Annie</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0001-9094-4475">Simon Gabay</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Doubts about date/location</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Le Conte de la Charrette dans le Lancelot en prose: une version divergente de la vulgate</title>
+          <author>Combes, Annie</author>
+          <date>2009</date>
+          <pubPlace>Paris</pubPlace>
+          <series>Classiques français du Moyen âge</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="158"/>
+          <biblScope unit="page" n="63"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_Ab">
+            <label type="siglum">Ab</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BNF</repository>
+                <idno> Fr. 122</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1345</origDate>
+            <origPlace>Paris</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ac">
+            <label type="siglum">Ac</label>
+            <idno>Paris, Arsenal 3480</idno>
+            <origDate>1400</origDate>
+            <origPlace>Paris</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Aa">
+            <label type="siglum">Aa</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BNF</repository>
+                <idno> Fr. 119</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1400</origDate>
+            <origPlace>Paris</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Conte de la Charrette</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1215-1235</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">Conte</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Combes_2009_Conte/stemma.png?raw=true"/>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Combes_2009_Conte/stemma.png?raw=true"/>
   </facsimile>
   <text>
-      <body>
-         <graph type="directed" order="5" size="4"><label>1</label><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1"><label>O</label></node><node xml:id="n_O1" type="hypothetical" inDegree="1" outDegree="2"><label>O1</label></node><node xml:id="n_Ab" type="witness" inDegree="1" outDegree="0"><label>Ab</label></node><node xml:id="n_Ac" type="witness" inDegree="1" outDegree="1"><label>Ac</label></node><node xml:id="n_Aa" type="witness" inDegree="1" outDegree="0"><label>Aa</label></node><arc xml:id="arc_1" from="#n_O" to="#n_O1" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_O1" to="#n_Ab" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_O1" to="#n_Ac" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_Ac" to="#n_Aa" od:type="filiation" cert="unknown"/></graph>
-      </body>
-      <back>
+    <body>
+      <graph type="directed" order="5" size="4">
+        <label>1</label>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1">
+          <label>O</label>
+        </node>
+        <node xml:id="n_O1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>O1</label>
+        </node>
+        <node xml:id="n_Ab" type="witness" inDegree="1" outDegree="0">
+          <label>Ab</label>
+        </node>
+        <node xml:id="n_Ac" type="witness" inDegree="1" outDegree="1">
+          <label>Ac</label>
+        </node>
+        <node xml:id="n_Aa" type="witness" inDegree="1" outDegree="0">
+          <label>Aa</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_O" to="#n_O1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_O1" to="#n_Ab" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_O1" to="#n_Ac" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_Ac" to="#n_Aa" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
          </back>
   </text>
 </TEI>

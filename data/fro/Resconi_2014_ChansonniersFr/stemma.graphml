@@ -1,76 +1,75 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
 <key id="d2" for="edge" attr.name="type" attr.type="string"/>
-<key id="d1" for="node" attr.name="color" attr.type="string"/>
-<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
 <graph edgedefault="directed"><node id="1">
-  <data key="d0"></data>
-  <data key="d1">grey</data>
+  <data key="d0">grey</data>
 </node>
 <node id="alpha2">
-  <data key="d0">α2</data>
-  <data key="d1">grey</data>
+  <data key="d1">α2</data>
+  <data key="d0">grey</data>
 </node>
 <node id="alpha3">
-  <data key="d0">α3</data>
-  <data key="d1">grey</data>
+  <data key="d1">α3</data>
+  <data key="d0">grey</data>
 </node>
 <node id="beta">
-  <data key="d0">β</data>
-  <data key="d1">grey</data>
+  <data key="d1">β</data>
+  <data key="d0">grey</data>
 </node>
 <node id="chi2">
-  <data key="d0">χ2</data>
-  <data key="d1">grey</data>
+  <data key="d1">χ2</data>
+  <data key="d0">grey</data>
 </node>
 <node id="kappa">
-  <data key="d0">κ</data>
-  <data key="d1">grey</data>
+  <data key="d1">κ</data>
+  <data key="d0">grey</data>
 </node>
 <node id="ksi">
-  <data key="d0">ξ</data>
-  <data key="d1">grey</data>
+  <data key="d1">ξ</data>
+  <data key="d0">grey</data>
 </node>
 <node id="lambda">
-  <data key="d0">λ</data>
-  <data key="d1">grey</data>
+  <data key="d1">λ</data>
+  <data key="d0">grey</data>
 </node>
 <node id="mu1">
-  <data key="d0">μ1</data>
-  <data key="d1">grey</data>
+  <data key="d1">μ1</data>
+  <data key="d0">grey</data>
 </node>
 <node id="nu">
-  <data key="d0">ν</data>
-  <data key="d1">grey</data>
+  <data key="d1">ν</data>
+  <data key="d0">grey</data>
 </node>
 <node id="phi">
-  <data key="d0">φ</data>
-  <data key="d1">grey</data>
+  <data key="d1">φ</data>
+  <data key="d0">grey</data>
 </node>
 <node id="phi2">
-  <data key="d0">φ2</data>
-  <data key="d1">grey</data>
+  <data key="d1">φ2</data>
+  <data key="d0">grey</data>
 </node>
 <node id="rho3">
-  <data key="d0">ρ3</data>
-  <data key="d1">grey</data>
+  <data key="d1">ρ3</data>
+  <data key="d0">grey</data>
 </node>
 <node id="sI">
-  <data key="d1">grey</data>
+  <data key="d0">grey</data>
 </node>
 <node id="sigma">
-  <data key="d0">σ</data>
-  <data key="d1">grey</data>
+  <data key="d1">σ</data>
+  <data key="d0">grey</data>
 </node>
 <node id="sII">
-  <data key="d1">grey</data>
+  <data key="d0">grey</data>
 </node>
 <node id="sIII">
-  <data key="d1">grey</data>
+  <data key="d0">grey</data>
 </node>
 <node id="upsilon">
-  <data key="d0">υ</data>
-  <data key="d1">grey</data>
+  <data key="d1">υ</data>
+  <data key="d0">grey</data>
 </node>
 <node id="M"/>
 <node id="T"/>

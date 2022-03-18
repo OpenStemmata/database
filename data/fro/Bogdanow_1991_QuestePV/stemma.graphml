@@ -47,7 +47,7 @@
 </edge>
 <edge source="m" target="S5">
   <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
+  <data key="d3">low</data>
 </edge>
 <edge source="n" target="O">
   <data key="d2">filiation</data>
@@ -67,11 +67,11 @@
 </edge>
 <edge source="Omega" target="S2">
   <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
+  <data key="d3">low</data>
 </edge>
 <edge source="Omega" target="S3">
   <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
+  <data key="d3">low</data>
 </edge>
 <edge source="X" target="X1">
   <data key="d2">filiation</data>

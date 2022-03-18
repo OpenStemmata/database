@@ -32,7 +32,7 @@
 </edge>
 <edge source="y" target="starkmd">
   <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
+  <data key="d3">low</data>
 </edge>
 <edge source="starhb" target="h">
   <data key="d2">filiation</data>
@@ -40,7 +40,7 @@
 </edge>
 <edge source="starhb" target="b">
   <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
+  <data key="d3">low</data>
 </edge>
 <edge source="starkmd" target="k">
   <data key="d2">filiation</data>

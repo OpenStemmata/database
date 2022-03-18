@@ -35,7 +35,7 @@
 </edge>
 <edge source="O" target="Oprime">
   <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
+  <data key="d3">low</data>
 </edge>
 <edge source="Oprime" target="x">
   <data key="d2">filiation</data>

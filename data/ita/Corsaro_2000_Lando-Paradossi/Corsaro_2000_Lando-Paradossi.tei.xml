@@ -3,69 +3,222 @@
 <?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="standard">Stemma of</title>
-            <title type="variable">Paradossi, cioè sentenze fuori del comun parere</title>
-         <author>Corsaro, Antonio</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
-         <publicationStmt>
-            <authority>
-               <orgName>Openstemmata</orgName>
-               <ptr target="https://openstemmata.github.io/"/>
-            </authority>
-            <date/><!-- File creation date? -->
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
-            <note>Stemma encoded not from the edition, but from Trovato (2004), Sugli stemmi bipartiti</note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl type="book">
-               <title>Paradossi, cioè sentenze fuori del comun parere</title>
-               <author>Corsaro, Antonio</author><date>2000</date>
-               <pubPlace>Roma</pubPlace><series></series>
-               <!-- Numero de série -->
-               <biblScope unit="volume" n=""/>
-               <biblScope unit="page" n=""/>
-               <ptr type="digitised" target=""/>
-            </bibl>
-            <listWit><witness xml:id="w_L"><label type="siglum">L</label><idno></idno><origDate>1543</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Vlx"><label type="siglum">Vlx</label><idno></idno><origDate>1544</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_V2"><label type="siglum">V2</label><idno></idno><origDate>1544</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_B"><label type="siglum">B</label><idno></idno><origDate>1594</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_V1"><label type="siglum">V1</label><idno></idno><origDate>1602</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_V3"><label type="siglum">V3</label><idno></idno><origDate>1544</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_V4"><label type="siglum">V4</label><idno></idno><origDate>1545</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_V5"><label type="siglum">V5</label><idno></idno><origDate>1545</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Vly"><label type="siglum">Vly</label><idno></idno><origDate>1544</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_L2"><label type="siglum">L2</label><idno></idno><origDate>1550</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_V6"><label type="siglum">V6</label><idno></idno><origDate>1563</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
-         </sourceDesc>
-      </fileDesc>
-     <profileDesc>
-        <creation>
-           <title ref="http://viaf.org/2226159764104208170001">Paradossi, cioè sentenze fuori del comun parere</title>
-           <persName role="author" ref="http://viaf.org/19762672">Lando, Ortensio</persName>
-           <origDate>1543?</origDate>
-           <origPlace></origPlace>
-        </creation>
-        <textClass>
-           <keywords>
-              <term type="workGenre"></term>
-              <term type="stemmaType">observed</term>
-              <term type="contam">no</term>
-              <term type="extraStemmContam">no</term>
-              <term type="rootType">original</term>
-           </keywords>
-        </textClass>
-        <langUsage>
-           <language ident="ita"/>
-        </langUsage>
-     </profileDesc>
-     <revisionDesc>
-        <change/>
-     </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Paradossi, cioè sentenze fuori del comun parere</title>
+        <author>Corsaro, Antonio</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Stemma encoded not from the edition, but from Trovato (2004), Sugli stemmi bipartiti</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Paradossi, cioè sentenze fuori del comun parere</title>
+          <author>Corsaro, Antonio</author>
+          <date>2000</date>
+          <pubPlace>Roma</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n=""/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <idno></idno>
+            <origDate>1543</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Vlx">
+            <label type="siglum">Vlx</label>
+            <idno></idno>
+            <origDate>1544</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_V2">
+            <label type="siglum">V2</label>
+            <idno></idno>
+            <origDate>1544</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <idno></idno>
+            <origDate>1594</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_V1">
+            <label type="siglum">V1</label>
+            <idno></idno>
+            <origDate>1602</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_V3">
+            <label type="siglum">V3</label>
+            <idno></idno>
+            <origDate>1544</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_V4">
+            <label type="siglum">V4</label>
+            <idno></idno>
+            <origDate>1545</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_V5">
+            <label type="siglum">V5</label>
+            <idno></idno>
+            <origDate>1545</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Vly">
+            <label type="siglum">Vly</label>
+            <idno></idno>
+            <origDate>1544</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L2">
+            <label type="siglum">L2</label>
+            <idno></idno>
+            <origDate>1550</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_V6">
+            <label type="siglum">V6</label>
+            <idno></idno>
+            <origDate>1563</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/2226159764104208170001">Paradossi, cioè sentenze fuori del comun parere</title>
+        <persName role="author" ref="http://viaf.org/19762672">Lando, Ortensio</persName>
+        <origDate>1543?</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre"></term>
+          <term type="stemmaType">observed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="ita"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/ita/Corsaro_2000_Lando-Paradossi/stemma.png?raw=true"/>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/ita/Corsaro_2000_Lando-Paradossi/stemma.png?raw=true"/>
   </facsimile>
   <text>
-      <body>
-         <graph type="directed" order="11" size="10"><label></label><node xml:id="n_L" type="witness" inDegree="0" outDegree="3"><label>L</label></node><node xml:id="n_V1x" type="witness" inDegree="1" outDegree="1"><label>V1x</label></node><node xml:id="n_V2" type="witness" inDegree="1" outDegree="2"><label>V2</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="1"><label>B</label></node><node xml:id="n_V1" type="witness" inDegree="1" outDegree="0"><label>V1</label></node><node xml:id="n_V3" type="witness" inDegree="1" outDegree="1"><label>V3</label></node><node xml:id="n_V4" type="witness" inDegree="1" outDegree="1"><label>V4</label></node><node xml:id="n_V5" type="witness" inDegree="1" outDegree="0"><label>V5</label></node><node xml:id="n_Vly" type="witness" inDegree="1" outDegree="0"><label>Vly</label></node><node xml:id="n_L2" type="witness" inDegree="1" outDegree="1"><label>L2</label></node><node xml:id="n_V6" type="witness" inDegree="1" outDegree="0"><label>V6</label></node><arc xml:id="arc_1" from="#n_L" to="#n_V1x" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_L" to="#n_Vly" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_L" to="#n_L2" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_V1x" to="#n_V2" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_V2" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_V2" to="#n_V3" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_B" to="#n_V1" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_V3" to="#n_V4" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_V4" to="#n_V5" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_L2" to="#n_V6" od:type="filiation" cert="unknown"/></graph>
-      </body>
-      <back>
+    <body>
+      <graph type="directed" order="11" size="10">
+        <label></label>
+        <node xml:id="n_L" type="witness" inDegree="0" outDegree="3">
+          <label>L</label>
+        </node>
+        <node xml:id="n_V1x" type="witness" inDegree="1" outDegree="1">
+          <label>V1x</label>
+        </node>
+        <node xml:id="n_V2" type="witness" inDegree="1" outDegree="2">
+          <label>V2</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="1">
+          <label>B</label>
+        </node>
+        <node xml:id="n_V1" type="witness" inDegree="1" outDegree="0">
+          <label>V1</label>
+        </node>
+        <node xml:id="n_V3" type="witness" inDegree="1" outDegree="1">
+          <label>V3</label>
+        </node>
+        <node xml:id="n_V4" type="witness" inDegree="1" outDegree="1">
+          <label>V4</label>
+        </node>
+        <node xml:id="n_V5" type="witness" inDegree="1" outDegree="0">
+          <label>V5</label>
+        </node>
+        <node xml:id="n_Vly" type="witness" inDegree="1" outDegree="0">
+          <label>Vly</label>
+        </node>
+        <node xml:id="n_L2" type="witness" inDegree="1" outDegree="1">
+          <label>L2</label>
+        </node>
+        <node xml:id="n_V6" type="witness" inDegree="1" outDegree="0">
+          <label>V6</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_L" to="#n_V1x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_L" to="#n_Vly" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_L" to="#n_L2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_V1x" to="#n_V2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_V2" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_V2" to="#n_V3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_B" to="#n_V1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_V3" to="#n_V4" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_V4" to="#n_V5" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_L2" to="#n_V6" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
          </back>
   </text>
 </TEI>

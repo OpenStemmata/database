@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d5" for="edge" attr.name="note" attr.type="string"/>
+<key id="d4" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d3" for="edge" attr.name="type" attr.type="string"/>
+<key id="d2" for="node" attr.name="note" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="omega">
+  <data key="d0">grey</data>
+  <data key="d1">ω</data>
+</node>
+<node id="A"/>
+<node id="epitome">
+  <data key="d0">grey</data>
+  <data key="d1">Epitome</data>
+</node>
+<node id="1">
+  <data key="d0">grey</data>
+</node>
+<node id="C"/>
+<node id="E"/>
+<node id="Eustathius_ms">
+  <data key="d0">grey</data>
+  <data key="d1">Eustathius’s MS</data>
+  <data key="d2"> Eustathius’s manuscript source for the Epitome
+</data>
+</node>
+<edge source="omega" target="A">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="omega" target="epitome">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+  <data key="d5"> Epitome independent from A, no contamination
+</data>
+</edge>
+<edge source="epitome" target="1">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="epitome" target="Eustathius_ms">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="1" target="C">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="1" target="E">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+</graph></graphml>

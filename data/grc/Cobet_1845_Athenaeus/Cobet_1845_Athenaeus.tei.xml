@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Les Deipnosophistes</title>
+        <author>Cobet, Carel Gabriel</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0002-1695-8497">Aurélien Berra</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>Epistula ad Gaisfordium de edendo Athenaeo (in Bertrand Hemmerdinger, L’art d’éditer Athénée, Bollettino dei Classici, 10, 1989, p. 106‑117)</title>
+          <author>Cobet, Carel Gabriel</author>
+          <date>1845</date>
+          <pubPlace></pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n=""/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/187657475">Les Deipnosophistes</title>
+        <persName role="author" ref="http://viaf.org/54186610">Athénée</persName>
+        <origDate>200?</origDate>
+        <origPlace>Rome?</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">compilation, sympotic literature</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">false</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">selected</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="grc"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/grc/Cobet_1845_Athenaeus/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="7" size="6">
+        <label></label>
+        <node xml:id="n_omega" type="hypothetical" inDegree="0" outDegree="1">
+          <label>ω</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="1">
+          <label>A</label>
+        </node>
+        <node xml:id="n_epitome" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Epitome</label>
+        </node>
+        <node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>1</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_Eustathius_ms" type="hypothetical" inDegree="1" outDegree="0">
+          <label>Eustathius’s MS</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_omega" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_A" to="#n_epitome" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_epitome" to="#n_1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_epitome" to="#n_Eustathius_ms" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_1" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_1" to="#n_E" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+      <noteGrp>
+        <note target="#n_Eustathius_ms">Eustathius’s manuscript source</note>
+        <note target="#arc_2">Epitome derived from A, no contamination</note>
+      </noteGrp>
+    </back>
+  </text>
+</TEI>

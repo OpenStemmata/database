@@ -1,91 +1,90 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
 <key id="d2" for="edge" attr.name="type" attr.type="string"/>
-<key id="d1" for="node" attr.name="color" attr.type="string"/>
-<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
 <graph edgedefault="directed"><node id="1">
-  <data key="d0"></data>
-  <data key="d1">grey</data>
+  <data key="d0">grey</data>
 </node>
 <node id="beta">
-  <data key="d0">β</data>
-  <data key="d1">grey</data>
+  <data key="d1">β</data>
+  <data key="d0">grey</data>
 </node>
 <node id="betaEtoile">
-  <data key="d0">β*</data>
-  <data key="d1">grey</data>
+  <data key="d1">β*</data>
+  <data key="d0">grey</data>
 </node>
 <node id="betax">
-  <data key="d0">βx</data>
-  <data key="d1">grey</data>
+  <data key="d1">βx</data>
+  <data key="d0">grey</data>
 </node>
 <node id="betay">
-  <data key="d0">βy</data>
-  <data key="d1">grey</data>
+  <data key="d1">βy</data>
+  <data key="d0">grey</data>
 </node>
 <node id="delta">
-  <data key="d0">δ</data>
-  <data key="d1">grey</data>
+  <data key="d1">δ</data>
+  <data key="d0">grey</data>
 </node>
 <node id="delta1">
-  <data key="d0">δ1</data>
-  <data key="d1">grey</data>
+  <data key="d1">δ1</data>
+  <data key="d0">grey</data>
 </node>
 <node id="delta2">
-  <data key="d0">δ2</data>
-  <data key="d1">grey</data>
+  <data key="d1">δ2</data>
+  <data key="d0">grey</data>
 </node>
 <node id="delta1x">
-  <data key="d0">δ1x</data>
-  <data key="d1">grey</data>
+  <data key="d1">δ1x</data>
+  <data key="d0">grey</data>
 </node>
 <node id="delta1y">
-  <data key="d0">δ1y</data>
-  <data key="d1">grey</data>
+  <data key="d1">δ1y</data>
+  <data key="d0">grey</data>
 </node>
 <node id="delta3">
-  <data key="d0">δ3</data>
-  <data key="d1">grey</data>
+  <data key="d1">δ3</data>
+  <data key="d0">grey</data>
 </node>
 <node id="epsilon">
-  <data key="d0">ε</data>
-  <data key="d1">grey</data>
+  <data key="d1">ε</data>
+  <data key="d0">grey</data>
 </node>
 <node id="epsilon1">
-  <data key="d0">ε1</data>
-  <data key="d1">grey</data>
+  <data key="d1">ε1</data>
+  <data key="d0">grey</data>
 </node>
 <node id="epsilon2">
-  <data key="d0">ε2</data>
-  <data key="d1">grey</data>
+  <data key="d1">ε2</data>
+  <data key="d0">grey</data>
 </node>
 <node id="epsilon3">
-  <data key="d0">ε3</data>
-  <data key="d1">grey</data>
+  <data key="d1">ε3</data>
+  <data key="d0">grey</data>
 </node>
 <node id="gamma">
-  <data key="d0">γ</data>
-  <data key="d1">grey</data>
+  <data key="d1">γ</data>
+  <data key="d0">grey</data>
 </node>
 <node id="gamma1">
-  <data key="d0">γ1</data>
-  <data key="d1">grey</data>
+  <data key="d1">γ1</data>
+  <data key="d0">grey</data>
 </node>
 <node id="omega">
-  <data key="d0">ω=β0</data>
-  <data key="d1">grey</data>
+  <data key="d1">ω=β0</data>
+  <data key="d0">grey</data>
 </node>
 <node id="356">
-  <data key="d0">357</data>
+  <data key="d1">357</data>
 </node>
 <node id="357">
-  <data key="d0">357*</data>
+  <data key="d1">357*</data>
 </node>
 <node id="358">
-  <data key="d0">361-362</data>
+  <data key="d1">361-362</data>
 </node>
 <node id="A2Etoile">
-  <data key="d0">A2*</data>
+  <data key="d1">A2*</data>
 </node>
 <node id="350"/>
 <node id="Pr"/>

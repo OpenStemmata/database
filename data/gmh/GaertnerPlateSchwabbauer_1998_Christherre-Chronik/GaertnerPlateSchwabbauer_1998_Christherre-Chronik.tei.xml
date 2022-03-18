@@ -3,69 +3,293 @@
 <?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="standard">Stemma of</title>
-            <title type="variable">Christherre-Chronik</title>
-         <author>Schwabbauer, Monika</author><author>Plate, Ralf</author><author>Gärtner, Kurt</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
-         <publicationStmt>
-            <authority>
-               <orgName>Openstemmata</orgName>
-               <ptr target="https://openstemmata.github.io/"/>
-            </authority>
-            <date/><!-- File creation date? -->
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
-            <note>author unknown, probably written by a clergyman in the service of Heinrich III</note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl type="book">
-               <title>Die Christherre-Chronik V. 7161-12450 der in den 'Deutschen Texten des Mittelalters' erscheinenden Ausgabe nach der Göttinger Handschrift Cod. 2° Philol. 188/10 (olim Gotha, Membr. I 88)</title>
-               <author>Schwabbauer, Monika</author><author>Plate, Ralf</author><author>Gärtner, Kurt</author><date>1998</date>
-               <pubPlace>Trier</pubPlace><series></series>
-               <!-- Numero de série -->
-               <biblScope unit="volume" n=""/>
-               <biblScope unit="page" n="XIII"/>
-               <ptr type="digitised" target="http://dtm.bbaw.de/bilder/christherrechronik-teilausgabe.pdf"/>
-            </bibl>
-            <listWit><witness xml:id="w_G"><label type="siglum">G</label><msDesc><msIdentifier><settlement>Göttingen</settlement><repository> Staats- und Universitätsbibl.</repository><idno> 2° Cod. Ms. philol. 188/10</idno></msIdentifier></msDesc><origDate>1315-1350</origDate><origPlace></origPlace><note>enthält die ‘Christherre-Chronik’ vollständig bis V.24331</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Ny"><label type="siglum">Ny</label><idno>New York, Public Libr., Spencer Collection, Ms. 38</idno><origDate>1402</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digitalcollections.nypl.org/collections/weltchronik#/?tab=about"/></witness><witness xml:id="w_M1"><label type="siglum">M1</label><msDesc><msIdentifier><settlement>München</settlement><repository> Staatsbibl.</repository><idno> Cgm 4</idno></msIdentifier></msDesc><origDate>1370-1380</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="http://daten.digitale-sammlungen.de/bsb00088321/image_1"/></witness><witness xml:id="w_K"><label type="siglum">K</label><msDesc><msIdentifier><settlement>Thorn / Toruń</settlement><repository> Universitätsbibl.</repository><idno> Rps 144/IV</idno></msIdentifier></msDesc><origDate>1350-1399</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_M2"><label type="siglum">M2</label><msDesc><msIdentifier><settlement>München</settlement><repository> Staatsbibl.</repository><idno> Cgm 5</idno></msIdentifier></msDesc><origDate>1370-1375</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="http://daten.digitale-sammlungen.de/bsb00082486/image_1"/></witness><witness xml:id="w_W"><label type="siglum">W</label><msDesc><msIdentifier><settlement>Wien</settlement><repository> Österr. Nationalbibl.</repository><idno> Cod. 2809</idno></msIdentifier></msDesc><origDate>1400-1420</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_P"><label type="siglum">P</label><msDesc><msIdentifier><settlement>Paris</settlement><repository> Bibl. Nationale</repository><idno> Ms. allem. 114</idno></msIdentifier></msDesc><origDate>1300-1325</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://gallica.bnf.fr/ark:/12148/btv1b10037696p"/></witness><witness xml:id="w_H"><label type="siglum">H</label><msDesc><msIdentifier><settlement>Heidelberg</settlement><repository> Universitätsbibl.</repository><idno> Cpg 321</idno></msIdentifier></msDesc><origDate>1400-1450</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digi.ub.uni-heidelberg.de/diglit/cpg321"/></witness><witness xml:id="w_L"><label type="siglum">L</label><msDesc><msIdentifier><settlement>Leipzig</settlement><repository> Universitätsbibl.</repository><idno> Ms. 791</idno></msIdentifier></msDesc><origDate>1325-1350</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="http://www.manuscripta-mediaevalia.de/?xdbdtdn!%22obj%2031564241%22&amp;dmode=doc#|4"/></witness></listWit>
-         </sourceDesc>
-      </fileDesc>
-     <profileDesc>
-        <creation>
-           <title ref="http://viaf.org/204611809">Christherre-Chronik</title>
-           <persName role="author" ref="http://viaf.org/"></persName>
-           <origDate>1247-1288</origDate>
-           <origPlace>Thüringen</origPlace>
-        </creation>
-        <textClass>
-           <keywords>
-              <term type="workGenre">historic</term>
-              <term type="stemmaType">reconstructed</term>
-              <term type="contam">yes</term>
-              <term type="extraStemmContam">no</term>
-              <term type="rootType">original</term>
-           </keywords>
-        </textClass>
-        <langUsage>
-           <language ident="gmh"/>
-        </langUsage>
-     </profileDesc>
-     <revisionDesc>
-        <change/>
-     </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Christherre-Chronik</title>
+        <author>Schwabbauer, Monika</author>
+        <author>Plate, Ralf</author>
+        <author>Gärtner, Kurt</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Lena Reich</persName>
+        </respStmt>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>author unknown, probably written by a clergyman in the service of Heinrich III</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Die Christherre-Chronik V. 7161-12450 der in den 'Deutschen Texten des Mittelalters' erscheinenden Ausgabe nach der Göttinger Handschrift Cod. 2° Philol. 188/10 (olim Gotha, Membr. I 88)</title>
+          <author>Schwabbauer, Monika</author>
+          <author>Plate, Ralf</author>
+          <author>Gärtner, Kurt</author>
+          <date>1998</date>
+          <pubPlace>Trier</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="XIII"/>
+          <ptr type="digitised" target="http://dtm.bbaw.de/bilder/christherrechronik-teilausgabe.pdf"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Göttingen</settlement>
+                <repository> Staats- und Universitätsbibl.</repository>
+                <idno> 2° Cod. Ms. philol. 188/10</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1315-1350</origDate>
+            <origPlace></origPlace>
+            <note>enthält die ‘Christherre-Chronik’ vollständig bis V.24331</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ny">
+            <label type="siglum">Ny</label>
+            <idno>New York, Public Libr., Spencer Collection, Ms. 38</idno>
+            <origDate>1402</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="https://digitalcollections.nypl.org/collections/weltchronik#/?tab=about"/>
+          </witness>
+          <witness xml:id="w_M1">
+            <label type="siglum">M1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> Cgm 4</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1370-1380</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="http://daten.digitale-sammlungen.de/bsb00088321/image_1"/>
+          </witness>
+          <witness xml:id="w_K">
+            <label type="siglum">K</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Thorn / Toruń</settlement>
+                <repository> Universitätsbibl.</repository>
+                <idno> Rps 144/IV</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1350-1399</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M2">
+            <label type="siglum">M2</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> Cgm 5</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1370-1375</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="http://daten.digitale-sammlungen.de/bsb00082486/image_1"/>
+          </witness>
+          <witness xml:id="w_W">
+            <label type="siglum">W</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wien</settlement>
+                <repository> Österr. Nationalbibl.</repository>
+                <idno> Cod. 2809</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1400-1420</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P">
+            <label type="siglum">P</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibl. Nationale</repository>
+                <idno> Ms. allem. 114</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1300-1325</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="https://gallica.bnf.fr/ark:/12148/btv1b10037696p"/>
+          </witness>
+          <witness xml:id="w_H">
+            <label type="siglum">H</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Heidelberg</settlement>
+                <repository> Universitätsbibl.</repository>
+                <idno> Cpg 321</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1400-1450</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="https://digi.ub.uni-heidelberg.de/diglit/cpg321"/>
+          </witness>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Leipzig</settlement>
+                <repository> Universitätsbibl.</repository>
+                <idno> Ms. 791</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1325-1350</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="http://www.manuscripta-mediaevalia.de/?xdbdtdn!%22obj%2031564241%22&amp;dmode=doc#|4"/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/204611809">Christherre-Chronik</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1247-1288</origDate>
+        <origPlace>Thüringen</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">historic</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gmh"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/GaertnerPlateSchwabbauer_1998_Christherre-Chronik/stemma.png?raw=true"/>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/GaertnerPlateSchwabbauer_1998_Christherre-Chronik/stemma.png?raw=true"/>
   </facsimile>
   <text>
-      <body>
-         <graph type="directed" order="19" size="19"><label></label><node xml:id="n_A" type="hypothetical" inDegree="0" outDegree="2"><label>A</label></node><node xml:id="n_X" type="hypothetical" inDegree="1" outDegree="2"><label>X</label></node><node xml:id="n_Y" type="hypothetical" inDegree="1" outDegree="3"><label>Y</label></node><node xml:id="n_ZZxZy" type="hypothetical" inDegree="2" outDegree="2"><label>Z Zx/Zy</label></node><node xml:id="n_Gstar" type="hypothetical" inDegree="1" outDegree="3"><label>*G</label></node><node xml:id="n_Nystar" type="hypothetical" inDegree="1" outDegree="1"><label>*Ny</label></node><node xml:id="n_WM2star" type="hypothetical" inDegree="1" outDegree="2"><label>*WM2</label></node><node xml:id="n_M2star" type="hypothetical" inDegree="1" outDegree="1"><label>*M2</label></node><node xml:id="n_Y1" type="hypothetical" inDegree="1" outDegree="2"><label>Y1</label></node><node xml:id="n_Y2" type="hypothetical" inDegree="1" outDegree="1"><label>Y2</label></node><node xml:id="n_G" type="witness" inDegree="1" outDegree="0"><label>G</label></node><node xml:id="n_M1" type="witness" inDegree="1" outDegree="0"><label>M1</label></node><node xml:id="n_Ny" type="witness" inDegree="1" outDegree="0"><label>Ny</label></node><node xml:id="n_K" type="witness" inDegree="1" outDegree="0"><label>K</label></node><node xml:id="n_W" type="witness" inDegree="1" outDegree="0"><label>W</label></node><node xml:id="n_M2" type="witness" inDegree="1" outDegree="0"><label>M2</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="0"><label>P</label></node><node xml:id="n_H" type="witness" inDegree="1" outDegree="0"><label>H</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><arc xml:id="arc_1" from="#n_A" to="#n_X" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_A" to="#n_Y" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_X" to="#n_ZZxZy" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_X" to="#n_Gstar" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_Y" to="#n_ZZxZy" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_Y" to="#n_Y1" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_Y" to="#n_Y2" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_ZZxZy" to="#n_K" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_ZZxZy" to="#n_WM2star" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_Gstar" to="#n_G" od:type="filiation" cert="unknown"/><arc xml:id="arc_11" from="#n_Gstar" to="#n_Nystar" od:type="filiation" cert="unknown"/><arc xml:id="arc_12" from="#n_Gstar" to="#n_M1" od:type="filiation" cert="unknown"/><arc xml:id="arc_13" from="#n_Nystar" to="#n_Ny" od:type="filiation" cert="unknown"/><arc xml:id="arc_14" from="#n_WM2star" to="#n_W" od:type="filiation" cert="unknown"/><arc xml:id="arc_15" from="#n_WM2star" to="#n_M2star" od:type="filiation" cert="unknown"/><arc xml:id="arc_16" from="#n_M2star" to="#n_M2" od:type="filiation" cert="unknown"/><arc xml:id="arc_17" from="#n_Y1" to="#n_P" od:type="filiation" cert="unknown"/><arc xml:id="arc_18" from="#n_Y1" to="#n_H" od:type="filiation" cert="unknown"/><arc xml:id="arc_19" from="#n_Y2" to="#n_L" od:type="filiation" cert="unknown"/></graph>
-      </body>
-      <back>
+    <body>
+      <graph type="directed" order="19" size="19">
+        <label></label>
+        <node xml:id="n_A" type="hypothetical" inDegree="0" outDegree="2">
+          <label>A</label>
+        </node>
+        <node xml:id="n_X" type="hypothetical" inDegree="1" outDegree="2">
+          <label>X</label>
+        </node>
+        <node xml:id="n_Y" type="hypothetical" inDegree="1" outDegree="3">
+          <label>Y</label>
+        </node>
+        <node xml:id="n_ZZxZy" type="hypothetical" inDegree="2" outDegree="2">
+          <label>Z Zx/Zy</label>
+        </node>
+        <node xml:id="n_Gstar" type="hypothetical" inDegree="1" outDegree="3">
+          <label>*G</label>
+        </node>
+        <node xml:id="n_Nystar" type="hypothetical" inDegree="1" outDegree="1">
+          <label>*Ny</label>
+        </node>
+        <node xml:id="n_WM2star" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*WM2</label>
+        </node>
+        <node xml:id="n_M2star" type="hypothetical" inDegree="1" outDegree="1">
+          <label>*M2</label>
+        </node>
+        <node xml:id="n_Y1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Y1</label>
+        </node>
+        <node xml:id="n_Y2" type="hypothetical" inDegree="1" outDegree="1">
+          <label>Y2</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <node xml:id="n_M1" type="witness" inDegree="1" outDegree="0">
+          <label>M1</label>
+        </node>
+        <node xml:id="n_Ny" type="witness" inDegree="1" outDegree="0">
+          <label>Ny</label>
+        </node>
+        <node xml:id="n_K" type="witness" inDegree="1" outDegree="0">
+          <label>K</label>
+        </node>
+        <node xml:id="n_W" type="witness" inDegree="1" outDegree="0">
+          <label>W</label>
+        </node>
+        <node xml:id="n_M2" type="witness" inDegree="1" outDegree="0">
+          <label>M2</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+          <label>P</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_A" to="#n_X" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_A" to="#n_Y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_X" to="#n_ZZxZy" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_X" to="#n_Gstar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_Y" to="#n_ZZxZy" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_Y" to="#n_Y1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_Y" to="#n_Y2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_ZZxZy" to="#n_K" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_ZZxZy" to="#n_WM2star" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_Gstar" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_Gstar" to="#n_Nystar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_Gstar" to="#n_M1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_Nystar" to="#n_Ny" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_WM2star" to="#n_W" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_WM2star" to="#n_M2star" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_M2star" to="#n_M2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_Y1" to="#n_P" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_Y1" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_Y2" to="#n_L" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
          </back>
   </text>
 </TEI>

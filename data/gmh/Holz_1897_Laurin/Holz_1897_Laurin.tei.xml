@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Laurin</title>
+        <author>Holz, Georg</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0002-2202-6354">Gustavo Fernandez Riva</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>It includes all manuscripts known at the time, but not all manuscripts currently known.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Laurin und der kleine Rosengarten</title>
+          <author>Holz, Georg</author>
+          <date>1897</date>
+          <pubPlace>Halle a.S.</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="VIII"/>
+          <ptr type="digitised" target="https://archive.org/details/laurinundderkle01holzgoog"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Kopenhagen</settlement>
+                <repository> Arnamagnæanske Institut</repository>
+                <idno> Cod. AM 32.2°</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Current sigla: L1</note>
+            <ptr type="description" target="https://handschriftencensus.de/5279"/>
+            <ptr type="digitised" target="https://handrit.is/en/manuscript/view/da/AM02-032"/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Munich</settlement>
+                <repository> Archiv des Historischen Vereins im Stadtarchiv</repository>
+                <idno> Cahier I von 4° Nr. 6</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1399</origDate>
+            <origPlace>Bayern</origPlace>
+            <note>Current sigla: L2. Missing</note>
+            <ptr type="description" target="https://handschriftencensus.de/3001"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_v">
+            <label type="siglum">v</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vienna</settlement>
+                <repository> Hofbibliothek</repository>
+                <idno> Cod. Q 4793</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Current sigla: L17</note>
+            <ptr type="description" target="https://handschriftencensus.de/2336"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_p">
+            <label type="siglum">p</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Pommersfelden</settlement>
+                <repository> Gräfl. Schönbornsche Schlossbibl.</repository>
+                <idno> Cod. 54 (2798)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Current sigla: L3</note>
+            <ptr type="description" target="https://handschriftencensus.de/4153"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_m">
+            <label type="siglum">m</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> Cgm 811</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Current sigla: L8</note>
+            <ptr type="description" target="https://handschriftencensus.de/4579"/>
+            <ptr type="digitised" target="https://daten.digitale-sammlungen.de/~db/0010/bsb00103129/images"/>
+          </witness>
+          <witness xml:id="w_H">
+            <label type="siglum">H</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Berlin</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> mgo 287 I</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Current sigla: L8</note>
+            <ptr type="description" target="https://handschriftencensus.de/2846"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_z">
+            <label type="siglum">z</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Zeitz</settlement>
+                <repository> Stiftsbibl.</repository>
+                <idno> 8° DHB Ms. chart. 83</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Current sigla: L13</note>
+            <ptr type="description" target="https://handschriftencensus.de/3985"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_f">
+            <label type="siglum">f</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Frankfurt</settlement>
+                <repository> Universitätsbibl.</repository>
+                <idno> Ms. germ. qu. 2</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Current sigla: L5</note>
+            <ptr type="description" target="https://handschriftencensus.de/3208"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_s">
+            <label type="siglum">s</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Straßburg</settlement>
+                <repository> Seminarbibl.</repository>
+                <idno> Heldenbuch</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>lost. Current sigla: L12</note>
+            <ptr type="description" target="https://handschriftencensus.de/5808"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_d">
+            <label type="siglum">d</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Printed</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Laurin</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate></origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">Epic</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">excluded</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gmh"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Holz_1897_Laurin/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="21" size="20">
+        <label>2</label>
+        <node xml:id="n_KM" type="hypothetical" inDegree="1" outDegree="2">
+          <label>KM</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="3">
+          <label>x¹)</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>y</label>
+        </node>
+        <node xml:id="n_zh" type="hypothetical" inDegree="1" outDegree="2">
+          <label>z</label>
+        </node>
+        <node xml:id="n_A" type="hypothetical" inDegree="0" outDegree="2">
+          <label>A</label>
+        </node>
+        <node xml:id="n_B" type="hypothetical" inDegree="1" outDegree="2">
+          <label>B</label>
+        </node>
+        <node xml:id="n_C" type="hypothetical" inDegree="1" outDegree="2">
+          <label>C</label>
+        </node>
+        <node xml:id="n_D" type="hypothetical" inDegree="1" outDegree="2">
+          <label>D</label>
+        </node>
+        <node xml:id="n_Hpz" type="hypothetical" inDegree="1" outDegree="3">
+          <label>Hpz</label>
+        </node>
+        <node xml:id="n_w" type="witness" inDegree="1" outDegree="0">
+          <label>w</label>
+        </node>
+        <node xml:id="n_K" type="witness" inDegree="1" outDegree="0">
+          <label>K</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_v" type="witness" inDegree="1" outDegree="0">
+          <label>v</label>
+        </node>
+        <node xml:id="n_r" type="witness" inDegree="1" outDegree="0">
+          <label>r</label>
+        </node>
+        <node xml:id="n_m" type="witness" inDegree="1" outDegree="0">
+          <label>m</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <node xml:id="n_p" type="witness" inDegree="1" outDegree="0">
+          <label>p</label>
+        </node>
+        <node xml:id="n_z" type="witness" inDegree="1" outDegree="0">
+          <label>z</label>
+        </node>
+        <node xml:id="n_f" type="witness" inDegree="1" outDegree="0">
+          <label>f</label>
+        </node>
+        <node xml:id="n_s" type="witness" inDegree="1" outDegree="0">
+          <label>s</label>
+        </node>
+        <node xml:id="n_d" type="witness" inDegree="1" outDegree="0">
+          <label>d</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_KM" to="#n_K" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_KM" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_x" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_x" to="#n_zh" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_x" to="#n_w" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_y" to="#n_KM" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_y" to="#n_v" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_zh" to="#n_r" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_zh" to="#n_m" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_A" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_A" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_B" to="#n_Hpz" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_B" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_C" to="#n_f" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_C" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_D" to="#n_s" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_D" to="#n_d" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_Hpz" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_Hpz" to="#n_p" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_Hpz" to="#n_z" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+      <noteGrp>
+        <note target="#n_x">The footnote refers to the use of the symbol in the critical apparatus of the edition and has no meaning for the stemma.</note>
+        <note target="#arc_6">K and M are closer to each other than to v. This is not represented as a common node in the drawn stemma, but as considering them almost as the same manuscript close together. The abstract representation would include this node KM. See page II of the edition.</note>
+      </noteGrp>
+    </back>
+  </text>
+</TEI>

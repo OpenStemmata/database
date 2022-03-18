@@ -3,69 +3,342 @@
 <?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="standard">Stemma of</title>
-            <title type="variable">De amore deutsch</title>
-         <author>Karnein, Alfred</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
-         <publicationStmt>
-            <authority>
-               <orgName>Openstemmata</orgName>
-               <ptr target="https://openstemmata.github.io/"/>
-            </authority>
-            <date/><!-- File creation date? -->
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">De amore deutsch</title>
+        <author>Karnein, Alfred</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Lena Reich</persName>
+        </respStmt>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>De Amore deutsch. Der Tractatus des Andreas Capellanus in der Übersetzung Johann Hartliebs</title>
+          <author>Karnein, Alfred</author>
+          <date>1970</date>
+          <pubPlace>München</pubPlace>
+          <series>Münchener Texte und Untersuchungen zur deutschen Literatur des Mittelalters</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="28"/>
+          <biblScope unit="page" n="55"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Erlangen</settlement>
+                <repository> Universitätsbibl.</repository>
+                <idno> Ms. B 25</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1400-1499</origDate>
+            <origPlace></origPlace>
             <note></note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl type="book">
-               <title>De Amore deutsch. Der Tractatus des Andreas Capellanus in der Übersetzung Johann Hartliebs</title>
-               <author>Karnein, Alfred</author><date>1970</date>
-               <pubPlace>München</pubPlace><series>Münchener Texte und Untersuchungen zur deutschen Literatur des Mittelalters</series>
-               <!-- Numero de série -->
-               <biblScope unit="volume" n="28"/>
-               <biblScope unit="page" n="55"/>
-               <ptr type="digitised" target=""/>
-            </bibl>
-            <listWit><witness xml:id="w_E"><label type="siglum">E</label><msDesc><msIdentifier><settlement>Erlangen</settlement><repository> Universitätsbibl.</repository><idno> Ms. B 25</idno></msIdentifier></msDesc><origDate>1400-1499</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_G"><label type="siglum">G</label><msDesc><msIdentifier><settlement>Graz</settlement><repository> Landesarchiv</repository><idno> Hs. 22</idno></msIdentifier></msDesc><origDate>1400-1499</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_W"><label type="siglum">W</label><msDesc><msIdentifier><settlement>Wien</settlement><repository> Österr. Nationalbibl.</repository><idno> Cod. 3053</idno></msIdentifier></msDesc><origDate>1450-1499</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_L"><label type="siglum">L</label><msDesc><msIdentifier><settlement>London</settlement><repository> British Libr.</repository><idno> MS Add. 24315</idno></msIdentifier></msDesc><origDate></origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_M1"><label type="siglum">M₁</label><msDesc><msIdentifier><settlement>München</settlement><repository> Staatsbibl.</repository><idno> Cgm 241</idno></msIdentifier></msDesc><origDate>1450-1499</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_M2"><label type="siglum">M₂</label><msDesc><msIdentifier><settlement>München</settlement><repository> Staatsbibl.</repository><idno> Cgm 251</idno></msIdentifier></msDesc><origDate>1450-1499</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_M3"><label type="siglum">M₃</label><msDesc><msIdentifier><settlement>München</settlement><repository> Staatsbibl.</repository><idno> Cgm 236</idno></msIdentifier></msDesc><origDate>1450-1499</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_M4"><label type="siglum">M₄</label><idno>München, Universitätsbibl., 2° Cod. ms. 291, hinterer Spiegel</idno><origDate>1450-1499</origDate><origPlace></origPlace><note>fragment</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_I1"><label type="siglum">I₁</label><idno></idno><origDate></origDate><origPlace></origPlace><note>incunable-print</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_I2"><label type="siglum">I₂</label><idno></idno><origDate></origDate><origPlace></origPlace><note>incunable-print</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_I3"><label type="siglum">I₃</label><idno></idno><origDate></origDate><origPlace></origPlace><note>incunable-print</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_D1"><label type="siglum">D₁</label><msDesc><msIdentifier><settlement>Karlsruhe</settlement><repository> Landesbibl.</repository><idno> Cod. Donaueschingen 151</idno></msIdentifier></msDesc><origDate>1440-1460</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digital.blb-karlsruhe.de/blbhs/content/titleinfo/588580"/></witness><witness xml:id="w_D2"><label type="siglum">D₂</label><msDesc><msIdentifier><settlement>Karlsruhe</settlement><repository> Landesbibl.</repository><idno> Cod. Donaueschingen 152</idno></msIdentifier></msDesc><origDate>1400-1499</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digital.blb-karlsruhe.de/urn/urn:nbn:de:bsz:31-28781"/></witness></listWit>
-         </sourceDesc>
-      </fileDesc>
-     <profileDesc>
-        <creation>
-           <title ref="http://viaf.org/">De amore deutsch</title>
-           <persName role="author" ref="http://viaf.org/20147071">Johannes Hartlieb</persName>
-           <origDate>1440</origDate>
-           <origPlace>Wien</origPlace>
-        </creation>
-        <textClass>
-           <keywords>
-              <term type="workGenre"></term>
-              <term type="stemmaType">reconstructed</term>
-              <term type="contam">no</term>
-              <term type="extraStemmContam">no</term>
-              <term type="rootType">original</term>
-           </keywords>
-        </textClass>
-        <langUsage>
-           <language ident="gmh"/>
-        </langUsage>
-     </profileDesc>
-     <revisionDesc>
-        <change/>
-     </revisionDesc>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Graz</settlement>
+                <repository> Landesarchiv</repository>
+                <idno> Hs. 22</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1400-1499</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_W">
+            <label type="siglum">W</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wien</settlement>
+                <repository> Österr. Nationalbibl.</repository>
+                <idno> Cod. 3053</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1450-1499</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> British Libr.</repository>
+                <idno> MS Add. 24315</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M1">
+            <label type="siglum">M₁</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> Cgm 241</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1450-1499</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M2">
+            <label type="siglum">M₂</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> Cgm 251</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1450-1499</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M3">
+            <label type="siglum">M₃</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> Cgm 236</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1450-1499</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M4">
+            <label type="siglum">M₄</label>
+            <idno>München, Universitätsbibl., 2° Cod. ms. 291, hinterer Spiegel</idno>
+            <origDate>1450-1499</origDate>
+            <origPlace></origPlace>
+            <note>fragment</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_I1">
+            <label type="siglum">I₁</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>incunable-print</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_I2">
+            <label type="siglum">I₂</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>incunable-print</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_I3">
+            <label type="siglum">I₃</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>incunable-print</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_D1">
+            <label type="siglum">D₁</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Karlsruhe</settlement>
+                <repository> Landesbibl.</repository>
+                <idno> Cod. Donaueschingen 151</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1440-1460</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="https://digital.blb-karlsruhe.de/blbhs/content/titleinfo/588580"/>
+          </witness>
+          <witness xml:id="w_D2">
+            <label type="siglum">D₂</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Karlsruhe</settlement>
+                <repository> Landesbibl.</repository>
+                <idno> Cod. Donaueschingen 152</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1400-1499</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="https://digital.blb-karlsruhe.de/urn/urn:nbn:de:bsz:31-28781"/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">De amore deutsch</title>
+        <persName role="author" ref="http://viaf.org/20147071">Johannes Hartlieb</persName>
+        <origDate>1440</origDate>
+        <origPlace>Wien</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre"></term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gmh"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Karnein_1970_DeAmoreDeutsch/stemma.png?raw=true"/>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Karnein_1970_DeAmoreDeutsch/stemma.png?raw=true"/>
   </facsimile>
   <text>
-      <body>
-         <graph type="directed" order="22" size="21"><label></label><node xml:id="n_Hartlieb" type="hypothetical" inDegree="0" outDegree="1"><label>Hartlieb</label></node><node xml:id="n_Archetypus" type="hypothetical" inDegree="1" outDegree="3"><label>Archetypus</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="1"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_y1" type="hypothetical" inDegree="1" outDegree="3"><label>y1</label></node><node xml:id="n_y2" type="hypothetical" inDegree="1" outDegree="2"><label>y2</label></node><node xml:id="n_y21" type="hypothetical" inDegree="1" outDegree="3"><label>y2.1</label></node><node xml:id="n_y22" type="hypothetical" inDegree="1" outDegree="2"><label>y2.2</label></node><node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="1"><label>z</label></node><node xml:id="n_M4" type="witness" inDegree="1" outDegree="0"><label>M4(?)</label></node><node xml:id="n_D1" type="witness" inDegree="1" outDegree="0"><label>D1</label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="1"><label>E</label></node><node xml:id="n_G" type="witness" inDegree="1" outDegree="0"><label>G</label></node><node xml:id="n_M2" type="witness" inDegree="1" outDegree="0"><label>M2</label></node><node xml:id="n_M1" type="witness" inDegree="1" outDegree="0"><label>M1</label></node><node xml:id="n_W" type="witness" inDegree="1" outDegree="0"><label>W</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><node xml:id="n_D2" type="witness" inDegree="1" outDegree="0"><label>D2</label></node><node xml:id="n_I1" type="witness" inDegree="1" outDegree="2"><label>I1</label></node><node xml:id="n_I2" type="witness" inDegree="1" outDegree="0"><label>I2</label></node><node xml:id="n_I3" type="witness" inDegree="1" outDegree="0"><label>I3</label></node><node xml:id="n_M3" type="witness" inDegree="1" outDegree="0"><label>M3</label></node><arc xml:id="arc_1" from="#n_Hartlieb" to="#n_Archetypus" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_Archetypus" to="#n_x" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_Archetypus" to="#n_y" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_Archetypus" to="#n_z" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_x" to="#n_D1" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_y" to="#n_y1" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_y" to="#n_y2" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_y1" to="#n_E" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_y1" to="#n_M4" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_y1" to="#n_G" od:type="filiation" cert="unknown"/><arc xml:id="arc_11" from="#n_y2" to="#n_y21" od:type="filiation" cert="unknown"/><arc xml:id="arc_12" from="#n_y2" to="#n_y22" od:type="filiation" cert="unknown"/><arc xml:id="arc_13" from="#n_y21" to="#n_M1" od:type="filiation" cert="unknown"/><arc xml:id="arc_14" from="#n_y21" to="#n_W" od:type="filiation" cert="unknown"/><arc xml:id="arc_15" from="#n_y21" to="#n_L" od:type="filiation" cert="unknown"/><arc xml:id="arc_16" from="#n_y22" to="#n_D2" od:type="filiation" cert="unknown"/><arc xml:id="arc_17" from="#n_y22" to="#n_I1" od:type="filiation" cert="unknown"/><arc xml:id="arc_18" from="#n_z" to="#n_M3" od:type="filiation" cert="unknown"/><arc xml:id="arc_19" from="#n_E" to="#n_M2" od:type="filiation" cert="unknown"/><arc xml:id="arc_20" from="#n_I1" to="#n_I2" od:type="filiation" cert="unknown"/><arc xml:id="arc_21" from="#n_I1" to="#n_I3" od:type="filiation" cert="unknown"/></graph>
-      </body>
-      <back>
+    <body>
+      <graph type="directed" order="22" size="21">
+        <label></label>
+        <node xml:id="n_Hartlieb" type="hypothetical" inDegree="0" outDegree="1">
+          <label>Hartlieb</label>
+        </node>
+        <node xml:id="n_Archetypus" type="hypothetical" inDegree="1" outDegree="3">
+          <label>Archetypus</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="1">
+          <label>x</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>y</label>
+        </node>
+        <node xml:id="n_y1" type="hypothetical" inDegree="1" outDegree="3">
+          <label>y1</label>
+        </node>
+        <node xml:id="n_y2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>y2</label>
+        </node>
+        <node xml:id="n_y21" type="hypothetical" inDegree="1" outDegree="3">
+          <label>y2.1</label>
+        </node>
+        <node xml:id="n_y22" type="hypothetical" inDegree="1" outDegree="2">
+          <label>y2.2</label>
+        </node>
+        <node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="1">
+          <label>z</label>
+        </node>
+        <node xml:id="n_M4" type="witness" inDegree="1" outDegree="0">
+          <label>M4(?)</label>
+        </node>
+        <node xml:id="n_D1" type="witness" inDegree="1" outDegree="0">
+          <label>D1</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="1">
+          <label>E</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <node xml:id="n_M2" type="witness" inDegree="1" outDegree="0">
+          <label>M2</label>
+        </node>
+        <node xml:id="n_M1" type="witness" inDegree="1" outDegree="0">
+          <label>M1</label>
+        </node>
+        <node xml:id="n_W" type="witness" inDegree="1" outDegree="0">
+          <label>W</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <node xml:id="n_D2" type="witness" inDegree="1" outDegree="0">
+          <label>D2</label>
+        </node>
+        <node xml:id="n_I1" type="witness" inDegree="1" outDegree="2">
+          <label>I1</label>
+        </node>
+        <node xml:id="n_I2" type="witness" inDegree="1" outDegree="0">
+          <label>I2</label>
+        </node>
+        <node xml:id="n_I3" type="witness" inDegree="1" outDegree="0">
+          <label>I3</label>
+        </node>
+        <node xml:id="n_M3" type="witness" inDegree="1" outDegree="0">
+          <label>M3</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_Hartlieb" to="#n_Archetypus" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_Archetypus" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_Archetypus" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_Archetypus" to="#n_z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_x" to="#n_D1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_y" to="#n_y1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_y" to="#n_y2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_y1" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_y1" to="#n_M4" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_y1" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_y2" to="#n_y21" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_y2" to="#n_y22" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_y21" to="#n_M1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_y21" to="#n_W" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_y21" to="#n_L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_y22" to="#n_D2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_y22" to="#n_I1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_z" to="#n_M3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_E" to="#n_M2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_I1" to="#n_I2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_I1" to="#n_I3" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
          </back>
   </text>
 </TEI>

@@ -23,14 +23,12 @@
 </node>
 <node id="1">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="q1slashq">
   <data key="d1">q1/q</data>
 </node>
 <node id="2">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="f1slashf">
   <data key="d1">f1/1</data>
@@ -85,11 +83,9 @@
 </node>
 <node id="4">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="5">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="starOP">
   <data key="d0">grey</data>
@@ -101,19 +97,15 @@
 </node>
 <node id="6">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="preH">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="preM">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="pret">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="a"/>
 <node id="M"/>

@@ -3,68 +3,117 @@
 <?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="standard">Stemma of</title>
-            <title type="variable">Guibert d'Andrenas</title>
-         <author>Melander, J.</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName></respStmt></titleStmt>
-         <publicationStmt>
-            <authority>
-               <orgName>Openstemmata</orgName>
-               <ptr target="https://openstemmata.github.io/"/>
-            </authority>
-            <date/><!-- File creation date? -->
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
-            <note></note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl type="book">
-               <title>Guibert d'Andrenas, chanson de geste, publiée pour la première fois</title>
-               <author>Melander, J.</author><date>1922</date>
-               <pubPlace>Paris</pubPlace><series>Champion</series>
-               <!-- Numero de série -->
-               <biblScope unit="volume" n=""/>
-               <biblScope unit="page" n="XXXIII"/>
-               <ptr type="digitised" target="https://archive.org/details/guibertdandrenas00melauoft/page/xxxiii/"/>
-            </bibl>
-            </sourceDesc>
-      </fileDesc>
-     <profileDesc>
-        <creation>
-           <title ref="http://viaf.org/196008746">Guibert d'Andrenas</title>
-           <persName role="author" ref="http://viaf.org/"></persName>
-           <origDate>1200-1225</origDate>
-           <origPlace></origPlace>
-        </creation>
-        <textClass>
-           <keywords>
-              <term type="workGenre">chanson de geste</term>
-              <term type="stemmaType">reconstructed</term>
-              <term type="contam">no</term>
-              <term type="extraStemmContam">no</term>
-              <term type="rootType">archetype</term>
-           </keywords>
-        </textClass>
-        <langUsage>
-           <language ident="fro"/>
-        </langUsage>
-     </profileDesc>
-     <revisionDesc>
-        <change/>
-     </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Guibert d'Andrenas</title>
+        <author>Melander, J.</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Guibert d'Andrenas, chanson de geste, publiée pour la première fois</title>
+          <author>Melander, J.</author>
+          <date>1922</date>
+          <pubPlace>Paris</pubPlace>
+          <series>Champion</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="XXXIII"/>
+          <ptr type="digitised" target="https://archive.org/details/guibertdandrenas00melauoft/page/xxxiii/"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/196008746">Guibert d'Andrenas</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1200-1225</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">chanson de geste</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Melander_1922_GuibAndr/stemma.png?raw=true"/>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Melander_1922_GuibAndr/stemma.png?raw=true"/>
   </facsimile>
   <text>
-      <body>
-         <graph type="directed" order="10" size="9"><label>1</label><node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="2"><label>a</label></node><node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1"><label>O</label></node><node xml:id="n_Oprime" type="hypothetical" inDegree="1" outDegree="2"><label>O'</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><arc xml:id="arc_1" from="#n_a" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_a" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_O" to="#n_Oprime" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_Oprime" to="#n_x" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_Oprime" to="#n_y" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_x" to="#n_a" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_x" to="#n_C" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_y" to="#n_D" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_y" to="#n_E" od:type="filiation" cert="unknown"/></graph>
-      </body>
-      <back>
+    <body>
+      <graph type="directed" order="10" size="9">
+        <label>1</label>
+        <node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="2">
+          <label>a</label>
+        </node>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1">
+          <label>O</label>
+        </node>
+        <node xml:id="n_Oprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>O'</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>y</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
+          <label>D</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_a" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_a" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_O" to="#n_Oprime" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_4" from="#n_Oprime" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_Oprime" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_x" to="#n_a" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_x" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_y" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_y" to="#n_E" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
          </back>
   </text>
 </TEI>

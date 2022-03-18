@@ -35,11 +35,9 @@
   <data key="d1">grey</data>
 </node>
 <node id="1">
-  <data key="d0"></data>
   <data key="d1">grey</data>
 </node>
 <node id="2">
-  <data key="d0"></data>
   <data key="d1">grey</data>
 </node>
 <node id="Uetal">
@@ -89,11 +87,11 @@
 </edge>
 <edge source="gamma" target="2">
   <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
+  <data key="d3">low</data>
 </edge>
 <edge source="delta" target="2">
   <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
+  <data key="d3">low</data>
 </edge>
 <edge source="delta" target="V">
   <data key="d2">filiation</data>
@@ -113,7 +111,7 @@
 </edge>
 <edge source="epsilon" target="W">
   <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
+  <data key="d3">low</data>
 </edge>
 <edge source="epsilon" target="Uetal">
   <data key="d2">filiation</data>
@@ -133,7 +131,7 @@
 </edge>
 <edge source="2" target="X3">
   <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
+  <data key="d3">low</data>
 </edge>
 <edge source="Ketal" target="S1etal">
   <data key="d2">filiation</data>
@@ -141,7 +139,7 @@
 </edge>
 <edge source="A" target="W">
   <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
+  <data key="d3">low</data>
 </edge>
 <edge source="X1" target="X2">
   <data key="d2">filiation</data>

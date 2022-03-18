@@ -35,11 +35,9 @@
   <data key="d1">P (P)</data>
 </node>
 <node id="1">
-  <data key="d1"></data>
   <data key="d0">grey</data>
 </node>
 <node id="2">
-  <data key="d1"></data>
   <data key="d0">grey</data>
 </node>
 <edge source="x" target="xprime">

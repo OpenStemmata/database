@@ -55,9 +55,6 @@
   <data key="d0">ο</data>
   <data key="d1">grey</data>
 </node>
-<node id="t">
-  <data key="d1">grey</data>
-</node>
 <node id="theta">
   <data key="d0">θ</data>
   <data key="d1">grey</data>
@@ -123,7 +120,7 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="alpha" target="eta">
-  <data key="d2">filiation</data>
+  <data key="d2">contamination</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="beta" target="C">

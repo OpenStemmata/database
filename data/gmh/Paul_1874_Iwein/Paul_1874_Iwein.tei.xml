@@ -3,68 +3,137 @@
 <?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="standard">Stemma of</title>
-            <title type="variable">Iwein</title>
-         <author>Paul, Hermann</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
-         <publicationStmt>
-            <authority>
-               <orgName>Openstemmata</orgName>
-               <ptr target="https://openstemmata.github.io/"/>
-            </authority>
-            <date/><!-- File creation date? -->
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
-            <note>Stemma for the second part of the text</note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl type="publicationPart">
-               <title>Über das gegenseitige Verhältnis der Handschriften von Hartmanns Iwein</title>
-               <author>Paul, Hermann</author><date>1874</date>
-               <pubPlace></pubPlace><series>Beiträge zur Geschichte der deutschen Sprache und Literatur</series>
-               <!-- Numero de série -->
-               <biblScope unit="volume" n="1"/>
-               <biblScope unit="page" n="336"/>
-               <ptr type="digitised" target="https://www.degruyter.com/view/journals/bgsl/1/Jahresband/article-p288.xml"/>
-            </bibl>
-            </sourceDesc>
-      </fileDesc>
-     <profileDesc>
-        <creation>
-           <title ref="http://viaf.org/3145910983027061536">Iwein</title>
-           <persName role="author" ref="http://viaf.org/54167250">Hartmann von Aue</persName>
-           <origDate>1203?</origDate>
-           <origPlace>Suabia</origPlace>
-        </creation>
-        <textClass>
-           <keywords>
-              <term type="workGenre">Arthurian Romance</term>
-              <term type="stemmaType">reconstructed</term>
-              <term type="contam">no</term>
-              <term type="extraStemmContam">no</term>
-              <term type="rootType">archetype</term>
-           </keywords>
-        </textClass>
-        <langUsage>
-           <language ident="gmh"/>
-        </langUsage>
-     </profileDesc>
-     <revisionDesc>
-        <change/>
-     </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Iwein</title>
+        <author>Paul, Hermann</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Stemma for the second part of the text</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>Über das gegenseitige Verhältnis der Handschriften von Hartmanns Iwein</title>
+          <author>Paul, Hermann</author>
+          <date>1874</date>
+          <pubPlace></pubPlace>
+          <series>Beiträge zur Geschichte der deutschen Sprache und Literatur</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="1"/>
+          <biblScope unit="page" n="336"/>
+          <ptr type="digitised" target="https://www.degruyter.com/view/journals/bgsl/1/Jahresband/article-p288.xml"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/3145910983027061536">Iwein</title>
+        <persName role="author" ref="http://viaf.org/54167250">Hartmann von Aue</persName>
+        <origDate>1203?</origDate>
+        <origPlace>Suabia</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">Arthurian Romance</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gmh"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Paul_1874_Iwein/stemma.png?raw=true"/>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Paul_1874_Iwein/stemma.png?raw=true"/>
   </facsimile>
   <text>
-      <body>
-         <graph type="directed" order="15" size="14"><label>1</label><node xml:id="n_alpha" type="hypothetical" inDegree="0" outDegree="2"><label>α</label></node><node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="4"><label>β</label></node><node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="2"><label>γ</label></node><node xml:id="n_epsilon" type="hypothetical" inDegree="1" outDegree="2"><label>ε</label></node><node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="2"><label>δ</label></node><node xml:id="n_c" type="witness" inDegree="1" outDegree="0"><label>c</label></node><node xml:id="n_f" type="witness" inDegree="1" outDegree="0"><label>f</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><node xml:id="n_zeta" type="hypothetical" inDegree="1" outDegree="2"><label>ζ</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_d" type="witness" inDegree="1" outDegree="0"><label>d</label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><node xml:id="n_a" type="witness" inDegree="1" outDegree="0"><label>a</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_b" type="witness" inDegree="1" outDegree="0"><label>b</label></node><arc xml:id="arc_1" from="#n_alpha" to="#n_beta" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_alpha" to="#n_gamma" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_beta" to="#n_epsilon" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_beta" to="#n_delta" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_beta" to="#n_c" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_beta" to="#n_f" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_gamma" to="#n_D" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_gamma" to="#n_zeta" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_epsilon" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_epsilon" to="#n_d" od:type="filiation" cert="unknown"/><arc xml:id="arc_11" from="#n_delta" to="#n_E" od:type="filiation" cert="unknown"/><arc xml:id="arc_12" from="#n_delta" to="#n_a" od:type="filiation" cert="unknown"/><arc xml:id="arc_13" from="#n_zeta" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_14" from="#n_zeta" to="#n_b" od:type="filiation" cert="unknown"/></graph>
-      </body>
-      <back>
+    <body>
+      <graph type="directed" order="15" size="14">
+        <label>1</label>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="0" outDegree="2">
+          <label>α</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="4">
+          <label>β</label>
+        </node>
+        <node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="2">
+          <label>γ</label>
+        </node>
+        <node xml:id="n_epsilon" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ε</label>
+        </node>
+        <node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>δ</label>
+        </node>
+        <node xml:id="n_c" type="witness" inDegree="1" outDegree="0">
+          <label>c</label>
+        </node>
+        <node xml:id="n_f" type="witness" inDegree="1" outDegree="0">
+          <label>f</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
+          <label>D</label>
+        </node>
+        <node xml:id="n_zeta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ζ</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_d" type="witness" inDegree="1" outDegree="0">
+          <label>d</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_a" type="witness" inDegree="1" outDegree="0">
+          <label>a</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_b" type="witness" inDegree="1" outDegree="0">
+          <label>b</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_alpha" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_alpha" to="#n_gamma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_beta" to="#n_epsilon" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_beta" to="#n_delta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_beta" to="#n_c" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_beta" to="#n_f" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_gamma" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_gamma" to="#n_zeta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_epsilon" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_epsilon" to="#n_d" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_delta" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_delta" to="#n_a" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_zeta" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_zeta" to="#n_b" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
          </back>
   </text>
 </TEI>

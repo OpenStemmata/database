@@ -55,7 +55,7 @@
 <node id="A2"/>
 <node id="A4"/>
 <edge source="a" target="d">
-  <data key="d2">filiation</data>
+  <data key="d2">contamination</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="a" target="A3">
@@ -119,7 +119,7 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="xprime" target="e">
-  <data key="d2">filiation</data>
+  <data key="d2">contamination</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="xprime" target="b">

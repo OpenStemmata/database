@@ -5,7 +5,6 @@
 <key id="d0" for="node" attr.name="color" attr.type="string"/>
 <graph edgedefault="directed"><node id="omega">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="alpha">
   <data key="d0">grey</data>
@@ -25,23 +24,18 @@
 </node>
 <node id="1">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="2">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="3">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="4">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="5">
   <data key="d0">grey</data>
-  <data key="d1"></data>
 </node>
 <node id="Ren"/>
 <node id="Camb"/>

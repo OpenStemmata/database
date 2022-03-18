@@ -12,7 +12,6 @@ lambda[label="λ", color="grey"];
 mu[label="μ", color="grey"];
 nu[label="ν", color="grey"];
 omicron[label="ο", color="grey"];
-t[color="grey"];
 theta[label="θ", color="grey"];
 iota[label="ι", color="grey"];
 zeta[label="ζ", color="grey"];

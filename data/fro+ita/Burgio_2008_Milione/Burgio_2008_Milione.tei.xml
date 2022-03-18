@@ -3,69 +3,225 @@
 <?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="standard">Stemma of</title>
-            <title type="variable">Devisement du monde</title>
-         <author>Burgio, Eugenio; Eusebi, Mario</author><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="0000-0001-9094-4475">Simon Gabay</persName></respStmt></titleStmt>
-         <publicationStmt>
-            <authority>
-               <orgName>Openstemmata</orgName>
-               <ptr target="https://openstemmata.github.io/"/>
-            </authority>
-            <date/><!-- File creation date? -->
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
-            <note>Many versions in many languages. There can be one sigla for many manuscripts, such as Fr (17 mss in 4 families)</note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl type="book">
-               <title>Per  una  nuova  edizione  del Milione</title>
-               <author>Burgio, Eugenio; Eusebi, Mario</author><date>2008</date>
-               <pubPlace>Roma</pubPlace><series></series>
-               <!-- Numero de série -->
-               <biblScope unit="volume" n=""/>
-               <biblScope unit="page" n=""/>
-               <ptr type="digitised" target=""/>
-            </bibl>
-            <listWit><witness xml:id="w_Fr"><label type="siglum">Fr</label><idno></idno><origDate></origDate><origPlace></origPlace><note>French version</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_K"><label type="siglum">K</label><idno></idno><origDate></origDate><origPlace></origPlace><note>Catalan version</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_TA"><label type="siglum">TA</label><idno></idno><origDate></origDate><origPlace></origPlace><note>Tuscan version</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_VA"><label type="siglum">VA</label><idno></idno><origDate></origDate><origPlace></origPlace><note>Venitian version</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_VB"><label type="siglum">VB</label><idno></idno><origDate></origDate><origPlace></origPlace><note>Venitian version</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_Z"><label type="siglum">Z</label><idno></idno><origDate></origDate><origPlace></origPlace><note>Latin version</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_L"><label type="siglum">L</label><idno></idno><origDate></origDate><origPlace></origPlace><note>Latin (short) version</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
-         </sourceDesc>
-      </fileDesc>
-     <profileDesc>
-        <creation>
-           <title ref="http://viaf.org/184276963">Devisement du monde</title>
-           <persName role="author" ref="http://viaf.org/173430120">Marco Polo</persName>
-           <origDate>1298</origDate>
-           <origPlace>Venice (Veneto, Italy)</origPlace>
-        </creation>
-        <textClass>
-           <keywords>
-              <term type="workGenre">Voyage</term>
-              <term type="stemmaType">reconstructed</term>
-              <term type="contam">yes</term>
-              <term type="extraStemmContam">no</term>
-              <term type="rootType">original</term>
-           </keywords>
-        </textClass>
-        <langUsage>
-           <language ident="fro"/>
-        </langUsage>
-     </profileDesc>
-     <revisionDesc>
-        <change/>
-     </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Devisement du monde</title>
+        <author>Burgio, Eugenio; Eusebi, Mario</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0001-9094-4475">Simon Gabay</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Many versions in many languages. There can be one sigla for many manuscripts, such as Fr (17 mss in 4 families)</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Per  una  nuova  edizione  del Milione</title>
+          <author>Burgio, Eugenio; Eusebi, Mario</author>
+          <date>2008</date>
+          <pubPlace>Roma</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n=""/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_Fr">
+            <label type="siglum">Fr</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>French version</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_K">
+            <label type="siglum">K</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Catalan version</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_TA">
+            <label type="siglum">TA</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Tuscan version</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_VA">
+            <label type="siglum">VA</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Venitian version</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_VB">
+            <label type="siglum">VB</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Venitian version</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Z">
+            <label type="siglum">Z</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Latin version</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Latin (short) version</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/184276963">Devisement du monde</title>
+        <persName role="author" ref="http://viaf.org/173430120">Marco Polo</persName>
+        <origDate>1298</origDate>
+        <origPlace>Venice (Veneto, Italy)</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">Voyage</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Burgio_2008_Milione/stemma.png?raw=true"/>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Burgio_2008_Milione/stemma.png?raw=true"/>
   </facsimile>
   <text>
-      <body>
-         <graph type="directed" order="20" size="22"><label></label><node xml:id="n_omega" type="hypothetical" inDegree="0" outDegree="2"><label>ω</label></node><node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2"><label>α</label></node><node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="1"><label>β</label></node><node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="2"><label>δ</label></node><node xml:id="n_deltaUn" type="hypothetical" inDegree="1" outDegree="1"><label>δ¹</label></node><node xml:id="n_deltaDeux" type="hypothetical" inDegree="1" outDegree="2"><label>δ²</label></node><node xml:id="n_deltaTrois" type="hypothetical" inDegree="1" outDegree="3"><label>δ³</label></node><node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="1"><label>γ</label></node><node xml:id="n_epsilon" type="hypothetical" inDegree="1" outDegree="3"><label>ε</label></node><node xml:id="n_Fr" type="hypothetical" inDegree="1" outDegree="1"><label>Fr</label></node><node xml:id="n_Z" type="hypothetical" inDegree="1" outDegree="0"><label>Z</label></node><node xml:id="n_TA" type="hypothetical" inDegree="1" outDegree="0"><label>TA</label></node><node xml:id="n_VA" type="hypothetical" inDegree="1" outDegree="1"><label>VA</label></node><node xml:id="n_VB" type="hypothetical" inDegree="2" outDegree="1"><label>VB</label></node><node xml:id="n_l" type="hypothetical" inDegree="1" outDegree="1"><label>l</label></node><node xml:id="n_L" type="hypothetical" inDegree="1" outDegree="0"><label>L</label></node><node xml:id="n_V" type="witness" inDegree="1" outDegree="0"><label>V</label></node><node xml:id="n_F" type="witness" inDegree="1" outDegree="0"><label>F</label></node><node xml:id="n_P" type="witness" inDegree="1" outDegree="1"><label>P</label></node><node xml:id="n_R" type="witness" inDegree="3" outDegree="0"><label>R</label></node><arc xml:id="arc_1" from="#n_omega" to="#n_alpha" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_omega" to="#n_beta" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_alpha" to="#n_gamma" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_alpha" to="#n_delta" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_beta" to="#n_epsilon" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_delta" to="#n_Fr" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_delta" to="#n_deltaUn" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_deltaUn" to="#n_deltaTrois" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_deltaDeux" to="#n_l" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_deltaDeux" to="#n_F" od:type="filiation" cert="unknown"/><arc xml:id="arc_11" from="#n_deltaTrois" to="#n_TA" od:type="filiation" cert="unknown"/><arc xml:id="arc_12" from="#n_deltaTrois" to="#n_VA" od:type="filiation" cert="unknown"/><arc xml:id="arc_13" from="#n_deltaTrois" to="#n_VB" od:type="filiation" cert="unknown"/><arc xml:id="arc_14" from="#n_gamma" to="#n_V" od:type="filiation" cert="unknown"/><arc xml:id="arc_15" from="#n_epsilon" to="#n_Z" od:type="filiation" cert="unknown"/><arc xml:id="arc_16" from="#n_epsilon" to="#n_VB" od:type="filiation" cert="unknown"/><arc xml:id="arc_17" from="#n_epsilon" to="#n_R" od:type="filiation" cert="unknown"/><arc xml:id="arc_18" from="#n_Fr" to="#n_deltaDeux" od:type="filiation" cert="unknown"/><arc xml:id="arc_19" from="#n_VA" to="#n_P" od:type="filiation" cert="unknown"/><arc xml:id="arc_20" from="#n_VB" to="#n_R" od:type="filiation" cert="unknown"/><arc xml:id="arc_21" from="#n_l" to="#n_L" od:type="filiation" cert="unknown"/><arc xml:id="arc_22" from="#n_P" to="#n_R" od:type="filiation" cert="unknown"/></graph>
-      </body>
-      <back>
+    <body>
+      <graph type="directed" order="20" size="22">
+        <label></label>
+        <node xml:id="n_omega" type="hypothetical" inDegree="0" outDegree="2">
+          <label>ω</label>
+        </node>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2">
+          <label>α</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="1">
+          <label>β</label>
+        </node>
+        <node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>δ</label>
+        </node>
+        <node xml:id="n_deltaUn" type="hypothetical" inDegree="1" outDegree="1">
+          <label>δ¹</label>
+        </node>
+        <node xml:id="n_deltaDeux" type="hypothetical" inDegree="1" outDegree="2">
+          <label>δ²</label>
+        </node>
+        <node xml:id="n_deltaTrois" type="hypothetical" inDegree="1" outDegree="3">
+          <label>δ³</label>
+        </node>
+        <node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="1">
+          <label>γ</label>
+        </node>
+        <node xml:id="n_epsilon" type="hypothetical" inDegree="1" outDegree="3">
+          <label>ε</label>
+        </node>
+        <node xml:id="n_Fr" type="hypothetical" inDegree="1" outDegree="1">
+          <label>Fr</label>
+        </node>
+        <node xml:id="n_Z" type="hypothetical" inDegree="1" outDegree="0">
+          <label>Z</label>
+        </node>
+        <node xml:id="n_TA" type="hypothetical" inDegree="1" outDegree="0">
+          <label>TA</label>
+        </node>
+        <node xml:id="n_VA" type="hypothetical" inDegree="1" outDegree="1">
+          <label>VA</label>
+        </node>
+        <node xml:id="n_VB" type="hypothetical" inDegree="2" outDegree="1">
+          <label>VB</label>
+        </node>
+        <node xml:id="n_l" type="hypothetical" inDegree="1" outDegree="1">
+          <label>l</label>
+        </node>
+        <node xml:id="n_L" type="hypothetical" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <node xml:id="n_V" type="witness" inDegree="1" outDegree="0">
+          <label>V</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="1">
+          <label>P</label>
+        </node>
+        <node xml:id="n_R" type="witness" inDegree="3" outDegree="0">
+          <label>R</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_omega" to="#n_alpha" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_omega" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_alpha" to="#n_gamma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_alpha" to="#n_delta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_beta" to="#n_epsilon" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_delta" to="#n_Fr" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_delta" to="#n_deltaUn" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_deltaUn" to="#n_deltaTrois" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_deltaDeux" to="#n_l" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_deltaDeux" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_deltaTrois" to="#n_TA" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_deltaTrois" to="#n_VA" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_deltaTrois" to="#n_VB" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_gamma" to="#n_V" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_epsilon" to="#n_Z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_epsilon" to="#n_VB" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_epsilon" to="#n_R" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_Fr" to="#n_deltaDeux" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_VA" to="#n_P" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_VB" to="#n_R" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_l" to="#n_L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_22" from="#n_P" to="#n_R" od:type="contamination" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
          </back>
   </text>
 </TEI>

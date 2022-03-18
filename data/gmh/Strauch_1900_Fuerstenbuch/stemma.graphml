@@ -78,7 +78,7 @@
 </edge>
 <edge source="Vorlage34" target="lostmanuscript9">
   <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
+  <data key="d3">low</data>
 </edge>
 <edge source="Vorlage234" target="2">
   <data key="d2">filiation</data>

@@ -78,11 +78,11 @@
 </edge>
 <edge source="betax" target="Mar">
   <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
+  <data key="d3">low</data>
 </edge>
 <edge source="betax" target="betax1">
   <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
+  <data key="d3">low</data>
 </edge>
 <edge source="betax1" target="350">
   <data key="d2">filiation</data>
@@ -158,7 +158,7 @@
 </edge>
 <edge source="omega" target="betax">
   <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
+  <data key="d3">low</data>
 </edge>
 <edge source="omega" target="betay">
   <data key="d2">filiation</data>

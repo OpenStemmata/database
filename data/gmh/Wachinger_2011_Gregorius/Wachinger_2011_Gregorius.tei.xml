@@ -3,69 +3,314 @@
 <?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="standard">Stemma of</title>
-            <title type="variable">Gregorius</title>
-         <author>Paul, Hermann/Wachinger, Burghart</author><respStmt><resp>contributed to OpenStemmata by</resp><persName>Lena Reich</persName></respStmt><respStmt><resp>contributed to OpenStemmata by</resp><persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName></respStmt></titleStmt>
-         <publicationStmt>
-            <authority>
-               <orgName>Openstemmata</orgName>
-               <ptr target="https://openstemmata.github.io/"/>
-            </authority>
-            <date/><!-- File creation date? -->
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
-            </availability>
-         </publicationStmt>
-         <notesStmt>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Gregorius</title>
+        <author>Paul, Hermann/Wachinger, Burghart</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Lena Reich</persName>
+        </respStmt>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Hartmann von Aue: Gregorius. 16., unveränd. Aufl.</title>
+          <author>Paul, Hermann/Wachinger, Burghart</author>
+          <date>2011</date>
+          <pubPlace>Berlin/New York</pubPlace>
+          <series>Altdeutsche Textbibliothek</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="2"/>
+          <biblScope unit="page" n="XIX"/>
+          <ptr type="digitised" target="https://www.degruyter.com/document/isbn/9783110258431/html"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Rom (Vatikanstadt)</settlement>
+                <repository> Bibl. Apostolica Vaticana</repository>
+                <idno> Cod. Regin. lat. 1354</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1225-1250</origDate>
+            <origPlace></origPlace>
             <note></note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl type="book">
-               <title>Hartmann von Aue: Gregorius. 16., unveränd. Aufl.</title>
-               <author>Paul, Hermann/Wachinger, Burghart</author><date>2011</date>
-               <pubPlace>Berlin/New York</pubPlace><series>Altdeutsche Textbibliothek</series>
-               <!-- Numero de série -->
-               <biblScope unit="volume" n="2"/>
-               <biblScope unit="page" n="XIX"/>
-               <ptr type="digitised" target="https://www.degruyter.com/document/isbn/9783110258431/html"/>
-            </bibl>
-            <listWit><witness xml:id="w_A"><label type="siglum">A</label><msDesc><msIdentifier><settlement>Rom (Vatikanstadt)</settlement><repository> Bibl. Apostolica Vaticana</repository><idno> Cod. Regin. lat. 1354</idno></msIdentifier></msDesc><origDate>1225-1250</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digi.vatlib.it/view/MSS_Reg.lat.1354"/></witness><witness xml:id="w_B"><label type="siglum">B</label><msDesc><msIdentifier><settlement>Straßburg</settlement><repository> Stadtbibl.</repository><idno> Cod. A 100</idno></msIdentifier></msDesc><origDate>1300-1399</origDate><origPlace></origPlace><note>probably burnt</note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_C"><label type="siglum">C</label><msDesc><msIdentifier><settlement>Privatbesitz</settlement><repository> Sigurd Freiherr von Ow-Wachendorf</repository><idno> Starzach (bei Rottenburg am Neckar)</idno></msIdentifier></msDesc><origDate>1280-1320</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_E"><label type="siglum">E</label><msDesc><msIdentifier><settlement>Wien</settlement><repository> Österr. Nationalbibl.</repository><idno> Cod. 2881	</idno></msIdentifier></msDesc><origDate>1480-1520</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_G"><label type="siglum">G</label><msDesc><msIdentifier><settlement>Cologny-Genf</settlement><repository> Bibl. Bodmeriana</repository><idno> Cod. Bodm. 62</idno></msIdentifier></msDesc><origDate>1350-1399</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://digi.vatlib.it/view/MSS_Reg.lat.1354"/></witness><witness xml:id="w_H"><label type="siglum">H</label><msDesc><msIdentifier><settlement>Köln</settlement><repository> Hist. Archiv der Stadt</repository><idno> Best. 7020 (W*) 312</idno></msIdentifier></msDesc><origDate>1300-1399</origDate><origPlace></origPlace><note>fragment</note><ptr type="description" target=""/><ptr type="digitised" target="http://historischesarchivkoeln.de:8080/actaproweb/archive.xhtml?id=Vz++++++90003345PPLS#Vz______90003345PPLS"/></witness><witness xml:id="w_J"><label type="siglum">J</label><msDesc><msIdentifier><settlement>Berlin</settlement><repository> Staatsbibl.</repository><idno> mgq 979</idno></msIdentifier></msDesc><origDate>1400-1499</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_K"><label type="siglum">K</label><msDesc><msIdentifier><settlement>Konstanz</settlement><repository> Stadtarchiv</repository><idno> Hs. A I 1</idno></msIdentifier></msDesc><origDate>1400-1450</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness><witness xml:id="w_L"><label type="siglum">L</label><msDesc><msIdentifier><settlement>Krakau</settlement><repository> Bibl. Jagiellońska</repository><idno> Berol. mgq 1532</idno></msIdentifier></msDesc><origDate>1275-1300</origDate><origPlace></origPlace><note></note><ptr type="description" target=""/><ptr type="digitised" target="https://jbc.bj.uj.edu.pl/dlibra/doccontent?id=194959"/></witness><witness xml:id="w_M"><label type="siglum">M</label><msDesc><msIdentifier><settlement>Waidhofen an der Thaya</settlement><repository> Stadtarchiv</repository><idno> Inv.-Nr. 7/21</idno></msIdentifier></msDesc><origDate>1300-1325</origDate><origPlace></origPlace><note>fragment</note><ptr type="description" target=""/><ptr type="digitised" target="https://manuscripta.at/hs_detail.php?ID=1634"/></witness><witness xml:id="w_Arnold"><label type="siglum">Arnold</label><idno></idno><origDate>1210-1213</origDate><origPlace></origPlace><note>latin paraphrase </note><ptr type="description" target=""/><ptr type="digitised" target=""/></witness></listWit>
-         </sourceDesc>
-      </fileDesc>
-     <profileDesc>
-        <creation>
-           <title ref="http://viaf.org/208085901">Gregorius</title>
-           <persName role="author" ref="http://viaf.org/54167250">Hartmann von Aue</persName>
-           <origDate>1186-1190</origDate>
-           <origPlace></origPlace>
-        </creation>
-        <textClass>
-           <keywords>
-              <term type="workGenre">legendary epic</term>
-              <term type="stemmaType">reconstructed</term>
-              <term type="contam">no</term>
-              <term type="extraStemmContam">no</term>
-              <term type="rootType">archetype</term>
-           </keywords>
-        </textClass>
-        <langUsage>
-           <language ident="gmh"/>
-        </langUsage>
-     </profileDesc>
-     <revisionDesc>
-        <change/>
-     </revisionDesc>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="https://digi.vatlib.it/view/MSS_Reg.lat.1354"/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Straßburg</settlement>
+                <repository> Stadtbibl.</repository>
+                <idno> Cod. A 100</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1300-1399</origDate>
+            <origPlace></origPlace>
+            <note>probably burnt</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Privatbesitz</settlement>
+                <repository> Sigurd Freiherr von Ow-Wachendorf</repository>
+                <idno> Starzach (bei Rottenburg am Neckar)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1280-1320</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wien</settlement>
+                <repository> Österr. Nationalbibl.</repository>
+                <idno> Cod. 2881	</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1480-1520</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Cologny-Genf</settlement>
+                <repository> Bibl. Bodmeriana</repository>
+                <idno> Cod. Bodm. 62</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1350-1399</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="https://digi.vatlib.it/view/MSS_Reg.lat.1354"/>
+          </witness>
+          <witness xml:id="w_H">
+            <label type="siglum">H</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Köln</settlement>
+                <repository> Hist. Archiv der Stadt</repository>
+                <idno> Best. 7020 (W*) 312</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1300-1399</origDate>
+            <origPlace></origPlace>
+            <note>fragment</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="http://historischesarchivkoeln.de:8080/actaproweb/archive.xhtml?id=Vz++++++90003345PPLS#Vz______90003345PPLS"/>
+          </witness>
+          <witness xml:id="w_J">
+            <label type="siglum">J</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Berlin</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> mgq 979</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1400-1499</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_K">
+            <label type="siglum">K</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Konstanz</settlement>
+                <repository> Stadtarchiv</repository>
+                <idno> Hs. A I 1</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1400-1450</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Krakau</settlement>
+                <repository> Bibl. Jagiellońska</repository>
+                <idno> Berol. mgq 1532</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1275-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="https://jbc.bj.uj.edu.pl/dlibra/doccontent?id=194959"/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Waidhofen an der Thaya</settlement>
+                <repository> Stadtarchiv</repository>
+                <idno> Inv.-Nr. 7/21</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1300-1325</origDate>
+            <origPlace></origPlace>
+            <note>fragment</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="https://manuscripta.at/hs_detail.php?ID=1634"/>
+          </witness>
+          <witness xml:id="w_Arnold">
+            <label type="siglum">Arnold</label>
+            <idno></idno>
+            <origDate>1210-1213</origDate>
+            <origPlace></origPlace>
+            <note>latin paraphrase </note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/208085901">Gregorius</title>
+        <persName role="author" ref="http://viaf.org/54167250">Hartmann von Aue</persName>
+        <origDate>1186-1190</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">legendary epic</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gmh"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
   </teiHeader>
   <facsimile>
-   <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Wachinger_2011_Gregorius/stemma.png?raw=true"/>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Wachinger_2011_Gregorius/stemma.png?raw=true"/>
   </facsimile>
   <text>
-      <body>
-         <graph type="directed" order="18" size="17"><label></label><node xml:id="n_Archetyp" type="hypothetical" inDegree="0" outDegree="3"><label>Archetyp</label></node><node xml:id="n_I" type="hypothetical" inDegree="1" outDegree="2"><label>I</label></node><node xml:id="n_II" type="hypothetical" inDegree="1" outDegree="2"><label>II</label></node><node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="3"><label>a</label></node><node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2"><label>x</label></node><node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2"><label>y</label></node><node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="3"><label>z</label></node><node xml:id="n_Arnold" type="hypothetical" inDegree="1" outDegree="0"><label>Arnold</label></node><node xml:id="n_A" type="witness" inDegree="1" outDegree="0"><label>A</label></node><node xml:id="n_H" type="witness" inDegree="1" outDegree="0"><label>H</label></node><node xml:id="n_M" type="witness" inDegree="1" outDegree="0"><label>M</label></node><node xml:id="n_J" type="witness" inDegree="1" outDegree="0"><label>J</label></node><node xml:id="n_G" type="witness" inDegree="1" outDegree="0"><label>G</label></node><node xml:id="n_E" type="witness" inDegree="1" outDegree="0"><label>E</label></node><node xml:id="n_K" type="witness" inDegree="1" outDegree="0"><label>K</label></node><node xml:id="n_B" type="witness" inDegree="1" outDegree="0"><label>B</label></node><node xml:id="n_C" type="witness" inDegree="1" outDegree="0"><label>C</label></node><node xml:id="n_L" type="witness" inDegree="1" outDegree="0"><label>L</label></node><arc xml:id="arc_1" from="#n_Archetyp" to="#n_I" od:type="filiation" cert="unknown"/><arc xml:id="arc_2" from="#n_Archetyp" to="#n_Arnold" od:type="filiation" cert="unknown"/><arc xml:id="arc_3" from="#n_Archetyp" to="#n_II" od:type="filiation" cert="unknown"/><arc xml:id="arc_4" from="#n_I" to="#n_a" od:type="filiation" cert="unknown"/><arc xml:id="arc_5" from="#n_I" to="#n_J" od:type="filiation" cert="unknown"/><arc xml:id="arc_6" from="#n_II" to="#n_G" od:type="filiation" cert="unknown"/><arc xml:id="arc_7" from="#n_II" to="#n_x" od:type="filiation" cert="unknown"/><arc xml:id="arc_8" from="#n_a" to="#n_A" od:type="filiation" cert="unknown"/><arc xml:id="arc_9" from="#n_a" to="#n_H" od:type="filiation" cert="unknown"/><arc xml:id="arc_10" from="#n_a" to="#n_M" od:type="filiation" cert="unknown"/><arc xml:id="arc_11" from="#n_x" to="#n_E" od:type="filiation" cert="unknown"/><arc xml:id="arc_12" from="#n_x" to="#n_y" od:type="filiation" cert="unknown"/><arc xml:id="arc_13" from="#n_y" to="#n_K" od:type="filiation" cert="unknown"/><arc xml:id="arc_14" from="#n_y" to="#n_z" od:type="filiation" cert="unknown"/><arc xml:id="arc_15" from="#n_z" to="#n_B" od:type="filiation" cert="unknown"/><arc xml:id="arc_16" from="#n_z" to="#n_C" od:type="filiation" cert="unknown"/><arc xml:id="arc_17" from="#n_z" to="#n_L" od:type="filiation" cert="unknown"/></graph>
-      </body>
-      <back>
+    <body>
+      <graph type="directed" order="18" size="17">
+        <label></label>
+        <node xml:id="n_Archetyp" type="hypothetical" inDegree="0" outDegree="3">
+          <label>Archetyp</label>
+        </node>
+        <node xml:id="n_I" type="hypothetical" inDegree="1" outDegree="2">
+          <label>I</label>
+        </node>
+        <node xml:id="n_II" type="hypothetical" inDegree="1" outDegree="2">
+          <label>II</label>
+        </node>
+        <node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="3">
+          <label>a</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>y</label>
+        </node>
+        <node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="3">
+          <label>z</label>
+        </node>
+        <node xml:id="n_Arnold" type="hypothetical" inDegree="1" outDegree="0">
+          <label>Arnold</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_J" type="witness" inDegree="1" outDegree="0">
+          <label>J</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_K" type="witness" inDegree="1" outDegree="0">
+          <label>K</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_Archetyp" to="#n_I" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_Archetyp" to="#n_Arnold" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_Archetyp" to="#n_II" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_I" to="#n_a" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_I" to="#n_J" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_II" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_II" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_a" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_a" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_a" to="#n_M" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_11" from="#n_x" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_x" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_y" to="#n_K" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_y" to="#n_z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_z" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_z" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_z" to="#n_L" od:type="filiation" cert="low"/>
+      </graph>
+    </body>
+    <back>
          </back>
   </text>
 </TEI>
