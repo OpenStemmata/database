@@ -3,7 +3,7 @@ digraph {
 KM [label="", color="grey"]
 x [label="x¹)", color="grey"] # The footnote refers to the use of the symbol in the critical apparatus of the edition and has no meaning for the stemma.
 y [color="grey"]
-w [color="grey"]
+w 
 zh [label="z", color="grey"]
 A [color="grey"]
 B [color="grey"]
