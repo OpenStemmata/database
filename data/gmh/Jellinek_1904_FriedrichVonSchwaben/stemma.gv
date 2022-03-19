@@ -5,9 +5,10 @@ digraph {
     Y1 [label="(*Y¹)", color="grey"] # There is no explanation of why this group is represented in parenthesis.
     IbSD [label="", color="grey"]
 
-    I [label="Iᵃ+Iᵇ"] # Represents the two nodes Iᵃ and Iᵇ of the drawn stemma, which correspond to only one manuscript, I, written by two different scribes.
+    Ia [label="Iᵃ"] # First part of the manuscript I by scribe a
+    Ib [label="Iᵇ"] # Second part of the manuscript I by scribe b
 
-    X -> I
+    X -> Ia
     X -> Z
 
     Z -> W
@@ -16,7 +17,7 @@ digraph {
     Y -> IbSD
     Y -> Y1
 
-    IbSD -> I
+    IbSD -> Ib
     IbSD -> S 
     IbSD -> D 
 
