@@ -11,13 +11,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2
-        with: 
-          ref: ${{ github.ref }}
-          # token: ${{ secrets.UPT }}
-          fetch-depth: 0
+        # with: 
+        #   ref: ${{ github.ref }}
+        #   token: ${{ secrets.UPT }}
+        #   fetch-depth: 0
       - name: Set up Python 3.8
         uses: actions/setup-python@v2
         with:
