@@ -1,0 +1,26 @@
+digraph {
+    X [label="*X", color="grey"]
+    Z [label="*Z", color="grey"]
+    Y [label="*Y", color="grey"]
+    Y1 [label="(*Y¹)", color="grey"] # There is no explanation of why this group is represented in parenthesis.
+    IbSD [label="", color="grey"]
+
+    Ia [label="Iᵃ"] # First part of the manuscript I by scribe a
+    Ib [label="Iᵇ"] # Second part of the manuscript I by scribe b
+
+    X -> Ia
+    X -> Z
+
+    Z -> W
+    Z -> Y
+
+    Y -> IbSD
+    Y -> Y1
+
+    IbSD -> Ib
+    IbSD -> S 
+    IbSD -> D 
+
+    Y1 -> M
+    Y1 -> H
+}
