@@ -1,0 +1,25 @@
+digraph {
+    X [label="*X", color="grey"]
+    Z [label="*Z", color="grey"]
+    Y [label="*Y", color="grey"]
+    Y1 [label="(*Y¹)", color="grey"] # There is no explanation of why this group is represented in parenthesis.
+    IbSD [label="", color="grey"]
+
+    I [label="Iᵃ+Iᵇ"] # Represents the two nodes Iᵃ and Iᵇ of the drawn stemma, which correspond to only one manuscript, I, written by two different scribes.
+
+    X -> I
+    X -> Z
+
+    Z -> W
+    Z -> Y
+
+    Y -> IbSD
+    Y -> Y1
+
+    IbSD -> I
+    IbSD -> S 
+    IbSD -> D 
+
+    Y1 -> M
+    Y1 -> H
+}
