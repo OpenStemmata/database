@@ -28,7 +28,7 @@ note : "I and II are groups and not further described in the stemma"
 wits:
     - witSigla: "H"
       witSignature: "Heidelberg, Universitätsbibl., Cpg 141"
-      witOrigDate: ""1350-1375
+      witOrigDate: "1350-1375"
       witOrigPlace: ""
       witNotes: ""
       witMsDesc: ""

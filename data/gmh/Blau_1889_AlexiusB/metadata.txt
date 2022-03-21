@@ -25,7 +25,7 @@ contributorORCID : ""
 contributor : "Gustavo Fernández Riva"
 contributorORCID : "https://orcid.org/0000-0002-2202-6354"
 note : ""
-wit
+wits:
     - witSigla: "A"
       witSignature: "Annaberg-Buchholz (Erzgebirge), Kirchenbibl. St. Anna, Cod. 329"
       witOrigDate: "1447"
