@@ -79,7 +79,7 @@ wits:
       witOrigPlace: ""
       witNotes: ""
       witMsDesc: ""
-      witDigit: "8 represents a lost manuscript from Mainz, some fragments of this manuscript like "a" (Freiburg i. Br., Universitätsbibl., Hs. 447) remained"
+      witDigit: "8 represents a lost manuscript from Mainz, some fragments of this manuscript like 'a' (Freiburg i. Br., Universitätsbibl., Hs. 447) remained"
     - witSigla: "9"
       witSignature: "Wien, Österr. Nationalbibl., Cod. 13006"
       witOrigDate: "c. 1200"
