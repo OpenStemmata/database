@@ -17,7 +17,7 @@ def test_metadata():
                     assert re.match('^(?:[\s-]*\w+\s?:(?:\s?"[^"]*")?\s*|\s*|#.+)$', line) != None
         except Exception as e:
             exit_code += 1
-            print(f"{bcolors.FAIL}Something is wrong in file"+ file+f", line: "+ index +"{bcolors.ENDC}")
+            print(f"{bcolors.FAIL}Something is wrong in file"+ file+f", line: "+ str(index) +"{bcolors.ENDC}")
             print(e)
 
     if exit_code < 1:
