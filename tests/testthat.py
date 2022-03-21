@@ -28,7 +28,7 @@ for file in glob.iglob('./data/*/*/*'):
 tei = test_tei.test_tei()
 
 
-if (structure == False or dot == False or tei ==False or conversion == False):
+if (structure == False or dot == False or tei ==False or conversion == False or metadata==False):
     print(f"\n{bcolors.BOLD}{bcolors.FAIL}There are errors in your submission. Please correct.{bcolors.ENDC}")
     sys.exit(1)
 else:
