@@ -21,8 +21,10 @@ def test_metadata():
             print(e)
 
     if exit_code < 1:
+        print(f"{bcolors.OKBLUE}Metadata files correct{bcolors.ENDC}")
         return True
     else:
+        print(f"{bcolors.FAIL}There are errors in your metadata.txt{bcolors.ENDC}")
         return False
 
 if __name__ == "__main__":
