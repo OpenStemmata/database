@@ -12,14 +12,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.TOKEN_PUSH }}
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2
-        # with: 
-        #   ref: ${{ github.ref }}
-        #   token: ${{ secrets.UPT }}
-        #   fetch-depth: 0
+        with: 
+          ref: ${{ github.ref }}
+          token: ${{ secrets.TOKEN_PUSH }}
+          fetch-depth: 0
       - name: Set up Python 3.8
         uses: actions/setup-python@v2
         with:
@@ -35,14 +35,14 @@ jobs:
               then python ./tests/transformation.py ${file} ; 
             fi
           done
-      - name: Commit files
-        run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add .
-          git commit -m "[Automatic] Auto-Generation TEI" || echo "Nothing to commit"
-          git push || echo "Nothing to push"
-      # - name: Commit
-      #   uses: stefanzweifel/git-auto-commit-action@v4
-      #   with: 
-      #     commit_message: Auto-Generation TEI
+      #- name: Commit files
+      #  run: |
+      #    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      #    git config --local user.name "github-actions[bot]"
+      #    git add .
+      #    git commit -m "[Automatic] Auto-Generation TEI" || echo "Nothing to commit"
+      #    git push || echo "Nothing to push"
+      - name: Commit
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with: 
+          commit_message: Auto-Generation TEI
