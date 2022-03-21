@@ -13,17 +13,19 @@ dot = test_dot.test_dot()
 
 print(f"{bcolors.HEADER}\nCreating virtual TEI files to evaluate correctness{bcolors.ENDC}")
 
+conversion = True
 for file in glob.iglob('./data/*/*/*'):
     try:
         transformation.tr(file)
     except Exception as e:
+        conversion = False
         print(f"{bcolors.FAIL}Could not transform " + file)
         print(e)
 
 tei = test_tei.test_tei()
 
 
-if (structure == False or dot == False or tei ==False ):
+if (structure == False or dot == False or tei ==False or conversion == False):
     print(f"\n{bcolors.BOLD}{bcolors.FAIL}There are errors in your submission. Please correct.{bcolors.ENDC}")
     sys.exit(1)
 else:
