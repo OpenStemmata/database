@@ -6,7 +6,7 @@
     <fileDesc>
       <titleStmt>
         <title type="standard">Stemma of</title>
-        <title type="variable"/>
+        <title type="variable">Theogonia</title>
         <author>Erbse, Hartmut</author>
         <respStmt>
           <resp>contributed to OpenStemmata by</resp>
@@ -139,7 +139,7 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <title ref="http://viaf.org/269732238"/>
+        <title ref="http://viaf.org/269732238">Theogonia</title>
         <persName role="author" ref="http://viaf.org/122220717">Hesiod</persName>
         <origDate>799-600</origDate>
         <origPlace></origPlace>

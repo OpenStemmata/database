@@ -33,9 +33,9 @@
           <author>Jardin, Jean-Pierre </author>
           <date>2013</date>
           <pubPlace>Paris</pubPlace>
-          <series/>
+          <series>Sources</series>
           <!-- Numero de série -->
-          <biblScope unit="volume" n=""/>
+          <biblScope unit="volume" n="4"/>
           <biblScope unit="page" n=""/>
           <ptr type="digitised" target=""/>
         </bibl>

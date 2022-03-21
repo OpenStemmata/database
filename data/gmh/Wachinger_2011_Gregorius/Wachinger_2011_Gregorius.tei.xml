@@ -199,7 +199,7 @@
             <idno></idno>
             <origDate>1210-1213</origDate>
             <origPlace></origPlace>
-            <note>latin paraphrase </note>
+            <note>latin paraphrase «Gesta Gregorii peccatoris» from Arnold von Lübeck, included in Paderborn, Erzbischöfl. Akad. Bibl., Pᵃ 54 (stolen in 1981) and in a fragment (lost in 19th century)</note>
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>
@@ -220,6 +220,8 @@
           <term type="contam">no</term>
           <term type="extraStemmContam">no</term>
           <term type="rootType">archetype</term>
+          <term type="sourceText">excluded</term>
+          <term type="derivatives">selected</term>
         </keywords>
       </textClass>
       <langUsage>

@@ -33,9 +33,9 @@
           <author>Brucker, Charles</author>
           <date>1994</date>
           <pubPlace>Genève, Droz</pubPlace>
-          <series/>
+          <series>Publications romanes et frannçaises</series>
           <!-- Numero de série -->
-          <biblScope unit="volume" n=""/>
+          <biblScope unit="volume" n="209"/>
           <biblScope unit="page" n=""/>
           <ptr type="digitised" target=""/>
         </bibl>

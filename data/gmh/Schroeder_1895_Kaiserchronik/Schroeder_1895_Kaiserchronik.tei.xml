@@ -51,7 +51,7 @@
             </msDesc>
             <origDate>1175-1200</origDate>
             <origPlace>Augustiner-Chorherrenstift Vorau</origPlace>
-            <note>the writer (Wolfcangus) ist mentioned</note>
+            <note>the writer (Wolfcangus) is mentioned</note>
             <ptr type="description" target=""/>
             <ptr type="digitised" target="https://digi.ub.uni-heidelberg.de/diglit/stav_ms276"/>
           </witness>
@@ -144,9 +144,9 @@
             <idno></idno>
             <origDate></origDate>
             <origPlace></origPlace>
-            <note></note>
+            <note>8 represents a lost manuscript from Mainz, some fragments of this manuscript like 'a' (Freiburg i. Br., Universitätsbibl., Hs. 447) remained</note>
             <ptr type="description" target=""/>
-            <ptr type="digitised" target="8 represents a lost manuscript from Mainz, some fragments of this manuscript like "/>
+            <ptr type="digitised" target=""/>
           </witness>
           <witness xml:id="w_9">
             <label type="siglum">9</label>

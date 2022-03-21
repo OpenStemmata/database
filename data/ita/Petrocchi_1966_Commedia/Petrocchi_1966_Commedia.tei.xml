@@ -33,7 +33,7 @@
           <author>Petrocchi, Giorgio</author>
           <date>1966</date>
           <pubPlace>Milan</pubPlace>
-          <series/>
+          <series></series>
           <!-- Numero de série -->
           <biblScope unit="volume" n=""/>
           <biblScope unit="page" n=""/>
@@ -43,7 +43,7 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <title>Divina commedia</title>
+        <title ref="http://viaf.org/181860567">Divina commedia</title>
         <persName role="author" ref="http://viaf.org/97105654">Dante</persName>
         <origDate>1300-1320</origDate>
         <origPlace>Florence</origPlace>

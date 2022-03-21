@@ -33,9 +33,9 @@
           <author>García López, Jorge</author>
           <date>2015</date>
           <pubPlace></pubPlace>
-          <series/>
+          <series>Atalaya</series>
           <!-- Numero de série -->
-          <biblScope unit="volume" n=""/>
+          <biblScope unit="volume" n="15"/>
           <biblScope unit="page" n=""/>
           <ptr type="digitised" target="https://doi.org/10.4000/atalaya.1531"/>
         </bibl>

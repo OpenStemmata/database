@@ -33,9 +33,9 @@
           <author>Shaw, Prue</author>
           <date>2009</date>
           <pubPlace>Florence</pubPlace>
-          <series>5</series>
+          <series>Le opere di Dante Alighieri. Edizione nazionale a cura della Società dantesca italiana</series>
           <!-- Numero de série -->
-          <biblScope unit="volume" n=""/>
+          <biblScope unit="volume" n="5"/>
           <biblScope unit="page" n=""/>
           <ptr type="digitised" target=""/>
         </bibl>
