@@ -161,7 +161,7 @@ def tr(changed_file):
                     cont = cont[0]
                     el = bibl.find('./tei:date', ns)
                     el.text = cont
-            elif re.match('^[\s]*publicationPlace', line):
+            elif re.match('^[\s-]*publicationPlace[^s]', line):
                 cont = re.findall('"([^"]*)"', line)
                 if len(cont) > 0:
                     cont = cont[0]
@@ -182,7 +182,7 @@ def tr(changed_file):
                 cont = re.findall('"([^"]*)"', line)[0]
                 graphLabel = et.SubElement(graph, 'label')
                 graphLabel.text = cont
-            elif re.match('^[\s-]*publicationAuthor', line):
+            elif re.match('^\s*publicationAuthors\s?:\s?"', line) or re.match('^[\s-]*publicationAuthor\s?:\s?"', line):
                 cont = re.findall('"([^"]*)"', line)
                 if len(cont) > 0:
                     cont = cont[0]
@@ -222,7 +222,7 @@ def tr(changed_file):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = creation.find('./tei:origPlace', ns)
                 el.text = cont
-            elif re.match('^[\s]*workAuthor[^V]', line):
+            elif re.match('^[\s-]*workAuthor[^Vs]', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = creation.find('./tei:persName[@role="author"]', ns)
                 el.text = cont
@@ -271,7 +271,7 @@ def tr(changed_file):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = et.SubElement(keywords, '{http://www.tei-c.org/ns/1.0}term', attrib={'type': 'derivatives'})
                 el.text = cont
-            elif re.match('^[\s]*contributor[^O]', line):
+            elif re.match('^[\s-]*contributor[^Os]', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 respStmt = et.SubElement(titleStmt, 'respStmt')
                 resp = et.SubElement(respStmt, 'resp')
