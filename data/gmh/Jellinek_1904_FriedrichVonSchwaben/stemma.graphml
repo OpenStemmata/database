@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d4" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d3" for="edge" attr.name="type" attr.type="string"/>
+<key id="d2" for="node" attr.name="note" attr.type="string"/>
+<key id="d1" for="node" attr.name="color" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="X">
+  <data key="d0">*X</data>
+  <data key="d1">grey</data>
+</node>
+<node id="Z">
+  <data key="d0">*Z</data>
+  <data key="d1">grey</data>
+</node>
+<node id="Y">
+  <data key="d0">*Y</data>
+  <data key="d1">grey</data>
+</node>
+<node id="Y1">
+  <data key="d0">(*Y¹)</data>
+  <data key="d1">grey</data>
+  <data key="d2"> There is no explanation of why this group is represented in parenthesis.
+</data>
+</node>
+<node id="IbSD">
+  <data key="d1">grey</data>
+</node>
+<node id="Ia">
+  <data key="d0">Iᵃ</data>
+  <data key="d2"> First part of the manuscript I by scribe a
+</data>
+</node>
+<node id="Ib">
+  <data key="d0">Iᵇ</data>
+  <data key="d2"> Second part of the manuscript I by scribe b
+</data>
+</node>
+<node id="W"/>
+<node id="S"/>
+<node id="D"/>
+<node id="M"/>
+<node id="H"/>
+<edge source="X" target="Ia">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="X" target="Z">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="Z" target="W">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="Z" target="Y">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="Y" target="IbSD">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="Y" target="Y1">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="Y1" target="M">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="Y1" target="H">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="IbSD" target="Ib">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="IbSD" target="S">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="IbSD" target="D">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+</graph></graphml>

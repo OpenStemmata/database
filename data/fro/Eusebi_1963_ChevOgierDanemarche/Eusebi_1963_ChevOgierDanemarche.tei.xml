@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Chevalerie d’Ogier de Danemarche</title>
+        <author>Eusebi, Mario</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>All known witnesses except the fragment Saint-Étienne, Médiathèque Marc-Ferro, MS 5,  olim D3 502</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>La chevalerie d’Ogier de Danemarche, canzone di gesta</title>
+          <author>Eusebi, Mario</author>
+          <date>1963</date>
+          <pubPlace>Milano</pubPlace>
+          <series>Testi e documenti di letteratura moderna</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="6"/>
+          <biblScope unit="page" n=""/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Durham</settlement>
+                <repository> University Library</repository>
+                <idno> Cosin V. II. 17</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1280-1300</origDate>
+            <origPlace>Picard</origPlace>
+            <note>2 scribes; localisation from DEAF</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement> Montpellier</settlement>
+                <repository> Bibliothèque interuniversitaire</repository>
+                <idno> Section médecine H 247</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1300-1350</origDate>
+            <origPlace>Picard</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P">
+            <label type="siglum">P</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> français 1583</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1400-1500</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> français 24403</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1280-1300</origDate>
+            <origPlace>Picard</origPlace>
+            <note>localisation from DEAF</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_S">
+            <label type="siglum">S</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Saint-Germain-en-Laye</settlement>
+                <repository> Médiathèque Marc-Ferro</repository>
+                <idno> 5 (D3 502)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1300-1400</origDate>
+            <origPlace></origPlace>
+            <note>14th century fragment not included in the stemma</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Tours</settlement>
+                <repository> Bibliothèque municipale</repository>
+                <idno> 938</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1300-1350</origDate>
+            <origPlace>Italy (with North-Eastern traits)</origPlace>
+            <note>cf. DEAF</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/189404871">Chevalerie d’Ogier de Danemarche</title>
+        <persName role="author" ref="http://viaf.org/188921350">Raimbert de Paris</persName>
+        <origDate>1192-1200</origDate>
+        <origPlace>Paris</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">chanson de geste</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Eusebi_1963_ChevOgierDanemarche/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="9" size="8">
+        <label></label>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="2">
+          <label>O</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>y</label>
+        </node>
+        <node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="2">
+          <label>z</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
+          <label>D</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+          <label>P</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_O" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_O" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_x" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_x" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_y" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_y" to="#n_z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_z" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_z" to="#n_P" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

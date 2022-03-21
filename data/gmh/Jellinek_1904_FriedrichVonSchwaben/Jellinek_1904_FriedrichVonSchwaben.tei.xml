@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Friedrich von Schwaben</title>
+        <author>Jellinek, Max</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0002-2202-6354">Gustavo Fernandez Riva</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>This stemma is attributed in the edition to the work of Ludwig Voss: Überlieferung und Verfasserschaft des mhd. Bitterromans Friedrich von Schwaben, Münsterer Dissertation 1895. Iᵃ and Iᵇ are two parts of the same manuscript, I, written by two different scribes.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Friedrich von Schwaben: aus der Stuttgarter Handschrift </title>
+          <author>Jellinek, Max</author>
+          <date>1904</date>
+          <pubPlace>Berlin</pubPlace>
+          <series>Deutsche Texte des Mittelalters</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="1"/>
+          <biblScope unit="page" n="XVIII"/>
+          <ptr type="digitised" target="https://doi.org/10.11588/diglit.2058"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_W">
+            <label type="siglum">W</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wolfenbüttel</settlement>
+                <repository> Herzogliche Bibliothek</repository>
+                <idno> 69 10 ms. aug.</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_I">
+            <label type="siglum">I</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wien</settlement>
+                <repository> Hofbibliothek</repository>
+                <idno> 2984</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Two different scribes, identified in the stemma as Ia and Ib.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Staatsbibliothek</repository>
+                <idno> Cgm. 5237</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_S">
+            <label type="siglum">S</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Stuttgart</settlement>
+                <repository> Landesbibl.</repository>
+                <idno> Cod. HB XIII 3</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Karlsruhe</settlement>
+                <repository> Landesbibl.</repository>
+                <idno> Cod. Donaueschingen 109</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_H">
+            <label type="siglum">H</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Heidelberg</settlement>
+                <repository> Universitätsbibliothek</repository>
+                <idno> Cpg. 345</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Friedrich von Schwaben</title>
+        <persName role="author" ref="http://viaf.org/">Anonymous</persName>
+        <origDate>1315-1463</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre"></term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gmh"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Jellinek_1904_FriedrichVonSchwaben/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="12" size="11">
+        <label>1</label>
+        <node xml:id="n_X" type="hypothetical" inDegree="0" outDegree="2">
+          <label>*X</label>
+        </node>
+        <node xml:id="n_Z" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*Z</label>
+        </node>
+        <node xml:id="n_Y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*Y</label>
+        </node>
+        <node xml:id="n_Y1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>(*Y¹)</label>
+        </node>
+        <node xml:id="n_IbSD" type="hypothetical" inDegree="1" outDegree="3">
+          <label>IbSD</label>
+        </node>
+        <node xml:id="n_Ia" type="witness" inDegree="1" outDegree="0">
+          <label>Iᵃ</label>
+        </node>
+        <node xml:id="n_Ib" type="witness" inDegree="1" outDegree="0">
+          <label>Iᵇ</label>
+        </node>
+        <node xml:id="n_W" type="witness" inDegree="1" outDegree="0">
+          <label>W</label>
+        </node>
+        <node xml:id="n_S" type="witness" inDegree="1" outDegree="0">
+          <label>S</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
+          <label>D</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_X" to="#n_Ia" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_X" to="#n_Z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_Z" to="#n_W" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_Z" to="#n_Y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_Y" to="#n_IbSD" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_Y" to="#n_Y1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_Y1" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_Y1" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_IbSD" to="#n_Ib" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_IbSD" to="#n_S" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_IbSD" to="#n_D" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+      <noteGrp>
+        <note target="#n_Y1">There is no explanation of why this group is represented in parenthesis.</note>
+        <note target="#n_Ia">First part of the manuscript I by scribe a</note>
+        <note target="#n_Ib">Second part of the manuscript I by scribe b</note>
+      </noteGrp>
+    </back>
+  </text>
+</TEI>
