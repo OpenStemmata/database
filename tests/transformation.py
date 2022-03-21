@@ -182,7 +182,7 @@ def tr(changed_file):
                 cont = re.findall('"([^"]*)"', line)[0]
                 graphLabel = et.SubElement(graph, 'label')
                 graphLabel.text = cont
-            elif re.match('^\s*publicationAuthors\s?:\s?"', line) or re.match('^[\s-]*publicationAuthor\s?:\s?"'):
+            elif re.match('^\s*publicationAuthors\s?:\s?"', line) or re.match('^[\s-]*publicationAuthor\s?:\s?"', line):
                 cont = re.findall('"([^"]*)"', line)
                 if len(cont) > 0:
                     cont = cont[0]
