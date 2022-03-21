@@ -3,6 +3,7 @@ import glob
 import test_dot 
 import test_tei
 import test_folder
+import test_metadata 
 import transformation
 
 from bcolors import bcolors
@@ -10,6 +11,8 @@ from bcolors import bcolors
 structure = test_folder.test_folder()
 
 dot = test_dot.test_dot()
+
+metadata = test_metadata.test_metadata()
 
 print(f"{bcolors.HEADER}\nCreating virtual TEI files to evaluate correctness{bcolors.ENDC}")
 
