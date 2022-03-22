@@ -1,4 +1,4 @@
-publicationType : "article"
+publicationType : "publicationPart"
 publicationTitle : "Bruchstücke einer neuen Fassung des Eckenliedes (A)"
 publicationDate : "1926"
 publicationPlace : "Munich"
