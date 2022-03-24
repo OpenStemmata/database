@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d4" for="edge" attr.name="note" attr.type="string"/>
+<key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="O">
+  <data key="d0">grey</data>
+</node>
+<node id="Bstar">
+  <data key="d0">grey</data>
+  <data key="d1">*B</data>
+</node>
+<node id="LAdas">
+  <data key="d0">grey</data>
+  <data key="d1">*LAdas</data>
+</node>
+<node id="Adas">
+  <data key="d0">grey</data>
+  <data key="d1">*Adas</data>
+</node>
+<node id="Lstar">
+  <data key="d0">grey</data>
+  <data key="d1">*L</data>
+</node>
+<node id="Ad">
+  <data key="d0">grey</data>
+  <data key="d1">*Ad</data>
+</node>
+<node id="asstar">
+  <data key="d0">grey</data>
+  <data key="d1">*as</data>
+</node>
+<node id="Astar">
+  <data key="d0">grey</data>
+  <data key="d1">*A</data>
+</node>
+<node id="dstar">
+  <data key="d0">grey</data>
+  <data key="d1">*d</data>
+</node>
+<node id="B"/>
+<node id="L"/>
+<node id="A"/>
+<node id="d"/>
+<node id="a"/>
+<node id="s"/>
+<edge source="O" target="Bstar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="O" target="LAdas">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Bstar" target="B">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="LAdas" target="Lstar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="LAdas" target="Adas">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Adas" target="Ad">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Adas" target="asstar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Lstar" target="L">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Ad" target="Astar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Ad" target="dstar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="asstar" target="a">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+  <data key="d4"> a and s are two different printed versions derived from the same lost source 
+</data>
+</edge>
+<edge source="asstar" target="s">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+  <data key="d4"> a and s are two different printed versions derived from the same lost source 
+</data>
+</edge>
+<edge source="Astar" target="A">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="dstar" target="d">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

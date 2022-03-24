@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Eckenlied</title>
+        <author>Carl von Kraus</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0002-2202-6354">Gustavo Fernandez Riva</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Not all currently known manuscripts were available at the time.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>Bruchstücke einer neuen Fassung des Eckenliedes (A)</title>
+          <author>Carl von Kraus</author>
+          <date>1926</date>
+          <pubPlace>Munich</pubPlace>
+          <series>Abhandlungen der Bayerischen Akademie der Wissenschaften</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="32"/>
+          <biblScope unit="page" n="58"/>
+          <ptr type="digitised" target="https://doi.org/10.1515/9783486752427"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> Clm 4660</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Manuscript of the Carmina Burana</note>
+            <ptr type="description" target="https://handschriftencensus.de/1671"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Karlsruhe</settlement>
+                <repository> Badische Landesbibliothek</repository>
+                <idno> Cod. Donaueschingen 74</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/1849"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Ansbach</settlement>
+                <repository> Archiv des Evang.-Luth. Dekanats</repository>
+                <idno> n/a</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Lost</note>
+            <ptr type="description" target="https://handschriftencensus.de/1716"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_d">
+            <label type="siglum">d</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Dresden</settlement>
+                <repository> Landesbibl.</repository>
+                <idno> Mscr. M 201</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>aka. Dresdner Heldenbuch</note>
+            <ptr type="description" target="https://handschriftencensus.de/6805"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_a">
+            <label type="siglum">a</label>
+            <idno>Augsburg Hans Schaur 1491</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Printed</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_s">
+            <label type="siglum">s</label>
+            <idno>Strassbourg Christian Müller 1559</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Printed</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/214231781">Eckenlied</title>
+        <persName role="author" ref="http://viaf.org/">Anonymous</persName>
+        <origDate>1200-1250</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">epic, dietrichsepik</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">excluded</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gmh"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Kraus_1926_Eckenlied/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="15" size="14">
+        <label></label>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="2">
+          <label>O</label>
+        </node>
+        <node xml:id="n_Bstar" type="hypothetical" inDegree="1" outDegree="1">
+          <label>*B</label>
+        </node>
+        <node xml:id="n_LAdas" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*LAdas</label>
+        </node>
+        <node xml:id="n_Adas" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*Adas</label>
+        </node>
+        <node xml:id="n_Lstar" type="hypothetical" inDegree="1" outDegree="1">
+          <label>*L</label>
+        </node>
+        <node xml:id="n_Ad" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*Ad</label>
+        </node>
+        <node xml:id="n_asstar" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*as</label>
+        </node>
+        <node xml:id="n_Astar" type="hypothetical" inDegree="1" outDegree="1">
+          <label>*A</label>
+        </node>
+        <node xml:id="n_dstar" type="hypothetical" inDegree="1" outDegree="1">
+          <label>*d</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_d" type="witness" inDegree="1" outDegree="0">
+          <label>d</label>
+        </node>
+        <node xml:id="n_a" type="witness" inDegree="1" outDegree="0">
+          <label>a</label>
+        </node>
+        <node xml:id="n_s" type="witness" inDegree="1" outDegree="0">
+          <label>s</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_O" to="#n_Bstar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_O" to="#n_LAdas" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_Bstar" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_LAdas" to="#n_Lstar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_LAdas" to="#n_Adas" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_Adas" to="#n_Ad" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_Adas" to="#n_asstar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_Lstar" to="#n_L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_Ad" to="#n_Astar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_Ad" to="#n_dstar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_asstar" to="#n_a" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_asstar" to="#n_s" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_Astar" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_dstar" to="#n_d" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+      <noteGrp>
+        <note target="#arc_11">a and s are two different printed versions derived from the same lost source</note>
+        <note target="#arc_12">a and s are two different printed versions derived from the same lost source</note>
+      </noteGrp>
+    </back>
+  </text>
+</TEI>
