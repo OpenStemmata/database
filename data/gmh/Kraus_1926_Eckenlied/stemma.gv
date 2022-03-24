@@ -1,0 +1,30 @@
+# Eckenlied by Carl von Kraus
+
+digraph {
+
+    O [color="grey"] 
+    Bstar [color="grey", label="*B"] 
+    LAdas [color="grey", label="*LAdas"] 
+    Adas [color="grey", label="*Adas"] 
+    Lstar [color="grey", label="*L"]
+    Ad [color="grey", label="*Ad"]    
+    asstar [color="grey", label="*as"] 
+    Astar [color="grey", label="*A"] 
+    dstar [color="grey", label="*d"] 
+
+    O -> Bstar
+    O -> LAdas
+    Bstar -> B  
+    LAdas -> Lstar
+    LAdas -> Adas 
+    Lstar -> L 
+    Adas -> Ad 
+    Adas -> asstar 
+    Ad -> Astar 
+    Ad -> dstar 
+    Astar -> A 
+    dstar -> d 
+    asstar -> a # a and s are two different printed versions derived from the same lost source 
+    asstar -> s # a and s are two different printed versions derived from the same lost source 
+
+}
