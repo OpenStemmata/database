@@ -13,7 +13,7 @@ publicationLink : ""
 workTitle : "Liber Minor De Coitu"
 workViaf : "317131114"
 workOrigDate : "1090-1250"
-workOrigPlace : ""
+workOrigPlace : "Campania (Salerno)"
 workAuthors:
     - workAuthor: "Anonymous"
       workAuthorViaf: ""
