@@ -1,0 +1,24 @@
+digraph {
+
+    Chrétien -> X;
+    Chrétien -> Y; 
+
+    X -> alpha; 
+    alpha [label="α"]
+    X -> betabeta;
+    betabeta [label="ββ"]
+
+    Y -> gamma ; 
+    gamma [label="γ"]
+
+    betabeta -> beta;
+    beta [label="β"]
+
+    alpha -> beta [dir=none, style="dashed"];
+
+    betabeta -> gamma [dir=none, style="dashed"];
+
+    gamma -> Aa ; 
+    gamma -> Ac ; 
+
+}
