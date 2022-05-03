@@ -1,0 +1,10 @@
+digraph {
+
+    X -> D;
+    X -> Xprime ;
+    Xprime [label="X'"]
+    Xprime -> A
+    Xprime -> B
+    D -> C
+
+}
