@@ -1,5 +1,4 @@
 digraph {
-
 O -> x; 
 O -> y;
 
@@ -24,11 +23,10 @@ xprimeprime -> B;
 xprimeprime -> C;
 
 B -> Vér [style="dashed"];
-C ->Vér [style="dashed"];
+C -> Vér [style="dashed"];
 
 Vér -> Len1; 
 Len1 -> Len2; 
 Len2 -> Serg;
 Serg -> Arn;
-
 }
