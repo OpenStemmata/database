@@ -25,7 +25,7 @@ contam : "no"
 extraStemmContam : "yes"
 rootType : "archetype"
 completeWits : "included"
-sourceText : "included"
+sourceText : "selected"
 derivatives : "excluded"
 contributors:
     - contributor: "Benedetta Salvati"
