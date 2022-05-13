@@ -1,4 +1,4 @@
-publicationType : "article"
+publicationType : "publicationPart"
 publicationTitle : "“Le Conte de la Charrette”: version dérimée du “Chevalier de la Charrette” de Chrétien de Troyes"
 publicationDate : "2004"
 publicationPlaces:
