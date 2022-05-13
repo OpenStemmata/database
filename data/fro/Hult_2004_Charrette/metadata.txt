@@ -30,7 +30,7 @@ derivatives : "excluded"
 contributors:
     - contributor: "Benedetta Salvati"
       contributorORCID: ""
-note : ""
+note : " Following G. Hutchings:1974, α, β, and ββ are the three main versions of the *Conte de la Charrette *(vulgate), derived from a common dérimage of Chrétien's *Lancelot* (X), meant to be included, or not (?), in the cyclic version of the *Lancelot*. A second dérimage (Y) of the octosyllabic *Lancelot*, destined to be included in the *Lancelot en prose*, is the ancestor of the sub-archetype γ, from which the surviving manuscripts of our text derive, and whose existence is postulated to strengthen the link/reliance between the *Charrette* and the prose romance. No more details are given about the apographs of the versions derived from X. The contamination goes from γ to ββ (the first one copied). As for the X tradition, the relationship between the three versions is not clear. It is probable that β combined the other two versions."
 wits:
     - witSigla: "Ac"
       witSignature: "Paris, BnF, Arsenal, 3480"
