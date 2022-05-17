@@ -1,11 +1,10 @@
 digraph {
-    Xprime [label="X'"]
+    X[color="grey"];
+    Xprime[color="grey", label="X'"];
     X -> Xprime;
     X -> D ;
     Xprime -> A;
     Xprime -> B;
     D -> C;
 
-    X[color="grey"]
-    Xprime[color="grey"]
 }
