@@ -1,5 +1,12 @@
 digraph {
 
+O[color="grey"];
+y[color="grey"];
+x[color="grey"];
+z[color="grey"];
+r[color="grey"];
+p[color="grey"];
+
  O -> y; 
  O -> x; 
  O -> z;
@@ -16,4 +23,4 @@ digraph {
 
  r -> A;
 
-}
+} 
