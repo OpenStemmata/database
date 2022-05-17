@@ -1,4 +1,6 @@
 digraph {
+    X[color="grey"];
+    Xprime[color="grey"];
 
     X -> D;
     X -> Xprime ;
@@ -7,4 +9,4 @@ digraph {
     Xprime -> B
     D -> C
 
-}
+} 
