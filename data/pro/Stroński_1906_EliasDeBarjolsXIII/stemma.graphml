@@ -3,9 +3,9 @@
 <key id="d2" for="edge" attr.name="type" attr.type="string"/>
 <key id="d1" for="node" attr.name="label" attr.type="string"/>
 <key id="d0" for="node" attr.name="color" attr.type="string"/>
-<graph edgedefault="directed"><node id="archetype">
+<graph edgedefault="directed"><node id="racine">
   <data key="d0">grey</data>
-  <data key="d1"> </data>
+  <data key="d1"></data>
 </node>
 <node id="x">
   <data key="d0">grey</data>
@@ -13,48 +13,23 @@
 <node id="y">
   <data key="d0">grey</data>
 </node>
-<node id="z">
-  <data key="d0">grey</data>
+<node id="aprime">
+  <data key="d1">a'</data>
 </node>
-<node id="L"/>
-<node id="C"/>
-<node id="R"/>
-<node id="G"/>
-<node id="K"/>
-<node id="d"/>
-<edge source="archetype" target="x">
+<node id="E"/>
+<edge source="racine" target="x">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
-<edge source="archetype" target="y">
+<edge source="racine" target="y">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
-<edge source="archetype" target="z">
+<edge source="x" target="E">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
-<edge source="x" target="L">
-  <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
-</edge>
-<edge source="y" target="C">
-  <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
-</edge>
-<edge source="y" target="R">
-  <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
-</edge>
-<edge source="z" target="G">
-  <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
-</edge>
-<edge source="z" target="K">
-  <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
-</edge>
-<edge source="K" target="d">
+<edge source="y" target="aprime">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
