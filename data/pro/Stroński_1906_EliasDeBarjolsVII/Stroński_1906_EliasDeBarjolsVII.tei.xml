@@ -19,7 +19,7 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note>There are several contaminations within the stemma: x and z contaminate G, z and presumably x contaminate a and c contaminates E</note>
+            <note>There are several contaminations within the stemma: x and z contaminate G, z and presumably x contaminate a and c contaminates E. Here as well the placement of d is curious and ambiguous.</note>
          </notesStmt>
          <sourceDesc>
             <bibl type="book">
@@ -32,7 +32,7 @@
                <biblScope unit="page" n="63"/>
                <ptr type="digitised" target=""/>
             <author>Stroński, Stanisław</author></bibl>
-            <listWit><witness xml:id="D"><label type="siglum">D</label></witness><witness xml:id="I"><label type="siglum">I</label></witness><witness xml:id="K"><label type="siglum">K</label></witness><witness xml:id="G"><label type="siglum">G</label></witness><witness xml:id="a"><label type="siglum">a</label></witness><witness xml:id="H²"><label type="siglum">H²</label></witness><witness xml:id="C"><label type="siglum">C</label></witness><witness xml:id="E"><label type="siglum">E</label></witness><witness xml:id="f"><label type="siglum">f</label></witness><witness xml:id="H³"><label type="siglum">H³</label></witness><witness xml:id="S"><label type="siglum">S</label></witness></listWit>
+            <listWit><witness xml:id="D"><label type="siglum">D</label></witness><witness xml:id="d"><label type="siglum">d</label></witness><witness xml:id="I"><label type="siglum">I</label></witness><witness xml:id="K"><label type="siglum">K</label></witness><witness xml:id="G"><label type="siglum">G</label></witness><witness xml:id="a"><label type="siglum">a</label></witness><witness xml:id="H²"><label type="siglum">H²</label></witness><witness xml:id="C"><label type="siglum">C</label></witness><witness xml:id="E"><label type="siglum">E</label></witness><witness xml:id="f"><label type="siglum">f</label></witness><witness xml:id="H³"><label type="siglum">H³</label></witness><witness xml:id="S"><label type="siglum">S</label></witness></listWit>
          </sourceDesc>
       </fileDesc>
      <profileDesc>

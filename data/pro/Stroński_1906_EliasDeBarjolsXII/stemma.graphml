@@ -16,9 +16,6 @@
 <node id="z">
   <data key="d0">grey</data>
 </node>
-<node id="Calpha">
-  <data key="d1">C (α)</data>
-</node>
 <node id="a">
   <data key="d0">grey</data>
 </node>
@@ -26,6 +23,10 @@
   <data key="d0">grey</data>
   <data key="d1"> </data>
 </node>
+<node id="alpha">
+  <data key="d1">α</data>
+</node>
+<node id="C"/>
 <node id="E"/>
 <node id="f"/>
 <node id="R"/>
@@ -46,7 +47,7 @@
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
-<edge source="x" target="Calpha">
+<edge source="x" target="C">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
@@ -87,6 +88,10 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="PS" target="S">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="C" target="alpha">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
