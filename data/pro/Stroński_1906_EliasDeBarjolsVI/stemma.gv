@@ -3,7 +3,6 @@ archetype [color="grey", label=" "] ;
 x [color="grey"] ;
 y [color="grey"] ;
 z [color="grey"] ;
-Kd [label="K (d)"] ;
 archetype -> x ;
 archetype -> y ;
 archetype -> z ;
@@ -11,6 +10,7 @@ x -> L ;
 y -> C ;
 y -> R ;
 z -> G ;
-z -> Kd ;
+z -> K ;
+K->d;
 }
 

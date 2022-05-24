@@ -3,13 +3,14 @@ archetype [color="grey", label=" "] ;
 x [color="grey"] ;
 y [color="grey"] ;
 z [color="grey"] ;
-Calpha [label="C (α)"] ;
 a [color="grey"] ;
 PS [color="grey", label=" "] ;
+alpha[label="α"]
 archetype -> x ;
 archetype -> z ;
 archetype -> y ;
-x -> Calpha ;
+x -> C ;
+C->alpha;
 x -> E ;
 x -> f ;
 z -> R ;
