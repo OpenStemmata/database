@@ -2,8 +2,8 @@ digraph {
 
     x[color="grey"];
 
-    x -> A;
-    x -> B;
-    x -> E
+    x -> A[dir=none];
+    x -> B[dir=none];
+    x -> E[dir=none]
 
 }
