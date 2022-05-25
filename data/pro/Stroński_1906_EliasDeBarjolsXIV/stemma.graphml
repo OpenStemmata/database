@@ -16,6 +16,9 @@
 <node id="z">
   <data key="d0">grey</data>
 </node>
+<node id="c">
+  <data key="d0">grey</data>
+</node>
 <node id="R2">
   <data key="d1">R²</data>
 </node>
@@ -42,7 +45,7 @@
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
-<edge source="x" target="C">
+<edge source="x" target="c">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
@@ -62,16 +65,20 @@
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
+<edge source="c" target="C">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="c" target="R3">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
 <edge source="1" target="E">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="1" target="R2">
   <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
-</edge>
-<edge source="C" target="R3">
-  <data key="d2">contamination</data>
   <data key="d3">unknown</data>
 </edge>
 <edge source="a" target="1">
