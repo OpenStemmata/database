@@ -12,15 +12,15 @@ digraph {
     7[color="grey", label=""];
     8[color="grey", label=""];
 
-    M1[label="M¹"];    
-    Mz1[label="Mz¹"];
-    Mz2[label="Mz²"];
-    Ld1[label="Ld¹"];
-    Ld2[label="Ld²"];
-    D1[label="D¹"];
-    D2[label="D²"];
-    M2[label="M²"];
-    H3[label="H³"];
+    M1[label="Mᴵ"];    
+    Mz1[label="Mzᴵ"];
+    Mz2[label="Mzᴵᴵ"];
+    Ld1[label="Ldᴵ"];
+    Ld2[label="Ldᴵᴵ"];
+    D1[label="Dᴵ"];
+    D2[label="Dᴵᴵ"];
+    M2[label="Mᴵᴵ"];
+    H3[label="Hᴵᴵᴵ"];
 
     o->y;
     y->1;

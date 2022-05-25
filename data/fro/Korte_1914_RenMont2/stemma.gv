@@ -9,10 +9,10 @@ digraph {
     4[color="grey", label=""];
     5[color="grey", label=""];
     6[color="grey", label=""];
-    P1[label="P¹"]
-    M1[label="M¹"]
-    P2[label="P²"]
-    M2[label="M²"]
+    P1[label="Pᴵ"]
+    M1[label="Mᴵ"]
+    P2[label="Pᴵᴵ"]
+    M2[label="Mᴵᴵ"]
 
     o->y;
     y->1;
