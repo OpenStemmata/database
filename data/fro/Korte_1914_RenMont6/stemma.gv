@@ -12,6 +12,16 @@ digraph {
     7[color="grey", label=""];
     8[color="grey", label=""];
 
+    M1[label="M¹"];    
+    Mz1[label="Mz¹"];
+    Mz2[label="Mz²"];
+    Ld1[label="Ld¹"];
+    Ld2[label="Ld²"];
+    D1[label="D¹"];
+    D2[label="D²"];
+    M2[label="M²"];
+    H3[label="H³"];
+
     o->y;
     y->1;
     1->L;

@@ -15,7 +15,15 @@ digraph {
     10[color="grey", label=""];
     11[color="grey", label=""];
     P[label="*P"];
-    M1[label="*M1"];
+    M1[label="*M¹"];
+    M2[label="M²"];
+    B1[label="B¹"];
+    B2[label="B²"];
+    L1[label="L¹"];
+    L2[label="L²"];
+    Mz1[label="Mz¹"];
+    Mz2[label="Mz²"];
+    H1[label="H¹"];
 
     o->y;
     y->1;

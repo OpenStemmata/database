@@ -9,6 +9,8 @@ digraph {
     4[color="grey", label=""];
     5[color="grey", label=""];
     6[color="grey", label=""];
+    C1[label="C¹"]
+    C2[label="C²"]
 
     o->y;
     y->1;

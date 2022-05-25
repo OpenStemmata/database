@@ -11,6 +11,14 @@ digraph {
     6[color="grey", label=""];
     7[color="grey", label=""];
     8[color="grey", label=""];
+    H3[label="H³"];
+    V1[label="V¹"];
+    V2[label="V²"];
+    V3[label="V³"];
+    L1[label="L¹"];
+    L2[label="L²"];
+    Ld1[label="Ld¹"];
+    Ld2[label="Ld²"];
 
     o->y;
     y->1;
