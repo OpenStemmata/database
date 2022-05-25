@@ -12,7 +12,7 @@ publicationPage : "LVIII"
 publicationLink : ""
 workTitle : "Ponthus et Sidoine"
 workViaf : ""
-workOrigDate : "at the end of the 14th or the beginning of the 15th c."
+workOrigDate : "1380-1420"
 workOrigPlace : "Bretagne?"
 workAuthors:
     - workAuthor: "Anonymous"
