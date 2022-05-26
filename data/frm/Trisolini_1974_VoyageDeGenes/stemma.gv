@@ -1,0 +1,9 @@
+digraph {
+
+    x[color="grey"];
+
+    x -> A[dir=none];
+    x -> B[dir=none];
+    x -> E[dir=none]
+
+}
