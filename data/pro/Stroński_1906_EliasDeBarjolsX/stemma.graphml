@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="archetype">
+  <data key="d0">grey</data>
+  <data key="d1"> </data>
+</node>
+<node id="x">
+  <data key="d0">grey</data>
+</node>
+<node id="y">
+  <data key="d0">grey</data>
+</node>
+<node id="astroke">
+  <data key="d1">a'</data>
+</node>
+<node id="KIDH">
+  <data key="d0">grey</data>
+  <data key="d1"> </data>
+</node>
+<node id="KID">
+  <data key="d0">grey</data>
+  <data key="d1"> </data>
+</node>
+<node id="KI">
+  <data key="d0">grey</data>
+  <data key="d1"> </data>
+</node>
+<node id="H"/>
+<node id="D"/>
+<node id="K"/>
+<node id="I"/>
+<node id="C"/>
+<node id="R"/>
+<edge source="archetype" target="x">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="archetype" target="y">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x" target="astroke">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x" target="KIDH">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="y" target="astroke">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="y" target="C">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="y" target="R">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="KIDH" target="H">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="KIDH" target="KID">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="KID" target="D">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="KID" target="KI">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="KI" target="K">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="KI" target="I">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>
