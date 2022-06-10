@@ -62,8 +62,8 @@
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>
-          <witness xml:id="w_Dª">
-            <label type="siglum">Dª</label>
+          <witness xml:id="w_Da">
+            <label type="siglum">Dᵃ</label>
             <idno></idno>
             <origDate></origDate>
             <origPlace></origPlace>
@@ -196,7 +196,7 @@
           <label>H²</label>
         </node>
         <node xml:id="n_Da" type="witness" inDegree="1" outDegree="0">
-          <label>Dª</label>
+          <label>Dᵃ</label>
         </node>
         <node xml:id="n_IK" type="hypothetical" inDegree="1" outDegree="2">
           <label></label>

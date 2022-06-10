@@ -40,7 +40,7 @@ wits:
       witNotes: ""
       witMsDesc: ""
       witDigit: ""
-    - witSigla: "Dª"
+    - witSigla: "Dᵃ"
       witSignature: ""
       witOrigDate: ""
       witOrigPlace: ""

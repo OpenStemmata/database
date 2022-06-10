@@ -8,7 +8,7 @@ astroke [label="a'"] ;
 b [color="grey"] ;
 beta [color="grey", label="β"] ;
 H2 [label="H²"] ;
-Da [label="Dª"] ;
+Da [label="Dᵃ"] ;
 IK [color="grey", label=" "] ;
 archetype -> x ;
 archetype -> z ;
