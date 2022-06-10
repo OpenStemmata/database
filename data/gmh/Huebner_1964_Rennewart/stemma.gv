@@ -1,0 +1,44 @@
+digraph {
+    Original -> Archetypus
+    Original[color="grey"]
+    Archetypus[color="grey"]
+
+    Archetypus -> LinieAlpha
+    LinieAlpha[label="α"]
+    
+    LinieAlpha -> V
+    V -> M
+    LinieAlpha -> Z[style=dashed]
+    LinieAlpha -> Gamma 
+    Gamma[label="γ"]
+    Gamma -> Ypsilon
+    Ypsilon[label="Y"]
+    Gamma -> B 
+
+    Archetypus -> LinieBeta
+    LinieBeta[label="β"]
+    LinieBeta -> Epsilon
+    Epsilon[label="ε"]
+    Epsilon -> D
+    D -> H 
+    Epsilon -> N 
+    LinieBeta -> Delta
+    Delta[label="δ"]
+    Delta -> QO
+    QO[label="", color="grey"]
+    QO -> Q
+    QO -> O 
+    Delta -> GIJKLSTUWZb
+    GIJKLSTUWZb -> Z[style=dashed]
+    Delta -> Eta
+    Eta[label="η"]
+    Eta -> Phi
+    Phi[label="φ"]
+    Phi -> 2
+    Phi -> 1 
+    Eta -> p 
+
+    Archetypus -> LinieGamma
+    LinieGamma[label="ACEFRXZaZcZdZw"]
+
+}
