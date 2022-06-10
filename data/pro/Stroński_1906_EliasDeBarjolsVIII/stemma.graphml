@@ -1,43 +1,42 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
 <key id="d2" for="edge" attr.name="type" attr.type="string"/>
-<key id="d1" for="node" attr.name="color" attr.type="string"/>
-<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
 <graph edgedefault="directed"><node id="archetype">
-  <data key="d0"></data>
-  <data key="d1">grey</data>
+  <data key="d0">grey</data>
 </node>
 <node id="x">
-  <data key="d1">grey</data>
+  <data key="d0">grey</data>
 </node>
 <node id="y">
-  <data key="d1">grey</data>
+  <data key="d0">grey</data>
 </node>
 <node id="z">
-  <data key="d1">grey</data>
+  <data key="d0">grey</data>
 </node>
 <node id="a">
-  <data key="d1">grey</data>
+  <data key="d0">grey</data>
 </node>
 <node id="astroke">
-  <data key="d0">a'</data>
+  <data key="d1">a'</data>
 </node>
 <node id="b">
-  <data key="d1">grey</data>
+  <data key="d0">grey</data>
 </node>
 <node id="beta">
-  <data key="d1">grey</data>
-  <data key="d0">β</data>
+  <data key="d0">grey</data>
+  <data key="d1">β</data>
 </node>
 <node id="H2">
-  <data key="d0">H²</data>
+  <data key="d1">H²</data>
 </node>
 <node id="Da">
-  <data key="d0">Dª</data>
+  <data key="d1">Dª</data>
 </node>
 <node id="IK">
-  <data key="d1">grey</data>
-  <data key="d0"> </data>
+  <data key="d0">grey</data>
+  <data key="d1"> </data>
 </node>
 <node id="I"/>
 <node id="K"/>

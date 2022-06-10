@@ -69,7 +69,7 @@
 </edge>
 <edge source="x" target="a">
   <data key="d2">contamination</data>
-  <data key="d3">unknown</data>
+  <data key="d3">low</data>
 </edge>
 <edge source="y" target="G">
   <data key="d2">filiation</data>

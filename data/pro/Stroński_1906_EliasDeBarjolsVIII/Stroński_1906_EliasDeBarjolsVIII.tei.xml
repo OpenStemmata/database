@@ -6,7 +6,7 @@
     <fileDesc>
       <titleStmt>
         <title type="standard">Stemma of</title>
-        <title type="variable">Pos vei que nul pro no.m te…</title>
+        <title type="variable">Car compri vostras beutatz…</title>
         <author>Stroński, Stanisław</author>
         <respStmt>
           <resp>contributed to OpenStemmata by</resp>
@@ -29,7 +29,7 @@
         </availability>
       </publicationStmt>
       <notesStmt>
-        <note>y contaminates a'</note>
+        <note></note>
       </notesStmt>
       <sourceDesc>
         <bibl type="book">
@@ -40,19 +40,10 @@
           <series>Bibliothèque méridionale</series>
           <!-- Numero de série -->
           <biblScope unit="volume" n="10"/>
-          <biblScope unit="page" n="89"/>
+          <biblScope unit="page" n="79"/>
           <ptr type="digitised" target=""/>
         </bibl>
         <listWit>
-          <witness xml:id="w_K">
-            <label type="siglum">K</label>
-            <idno></idno>
-            <origDate></origDate>
-            <origPlace></origPlace>
-            <note></note>
-            <ptr type="description" target=""/>
-            <ptr type="digitised" target=""/>
-          </witness>
           <witness xml:id="w_I">
             <label type="siglum">I</label>
             <idno></idno>
@@ -62,8 +53,8 @@
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>
-          <witness xml:id="w_D">
-            <label type="siglum">D</label>
+          <witness xml:id="w_K">
+            <label type="siglum">K</label>
             <idno></idno>
             <origDate></origDate>
             <origPlace></origPlace>
@@ -71,8 +62,26 @@
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>
-          <witness xml:id="w_H">
-            <label type="siglum">H</label>
+          <witness xml:id="w_Dª">
+            <label type="siglum">Dª</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_H2">
+            <label type="siglum">H²</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Q">
+            <label type="siglum">Q</label>
             <idno></idno>
             <origDate></origDate>
             <origPlace></origPlace>
@@ -89,8 +98,8 @@
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>
-          <witness xml:id="w_C">
-            <label type="siglum">C</label>
+          <witness xml:id="w_R">
+            <label type="siglum">R</label>
             <idno></idno>
             <origDate></origDate>
             <origPlace></origPlace>
@@ -98,8 +107,26 @@
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>
-          <witness xml:id="w_R">
-            <label type="siglum">R</label>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_f">
+            <label type="siglum">f</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
             <idno></idno>
             <origDate></origDate>
             <origPlace></origPlace>
@@ -112,16 +139,16 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <title ref="http://viaf.org/">Pos vei que nul pro no.m te…</title>
+        <title ref="http://viaf.org/">Car compri vostras beutatz…</title>
         <persName role="author" ref="http://viaf.org/231763501">Elias de Barjols</persName>
-        <origDate>1220</origDate>
-        <origPlace></origPlace>
+        <origDate>1217-1220</origDate>
+        <origPlace>Provence</origPlace>
       </creation>
       <textClass>
         <keywords>
           <term type="workGenre">lyric poetry</term>
           <term type="stemmaType">reconstructed</term>
-          <term type="contam">yes</term>
+          <term type="contam">no</term>
           <term type="extraStemmContam">no</term>
           <term type="rootType">archetype</term>
         </keywords>
@@ -135,64 +162,83 @@
     </revisionDesc>
   </teiHeader>
   <facsimile>
-    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/pro/Stroński_1906_EliasDeBarjolsX/stemma.png?raw=true"/>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/pro/Stroński_1906_EliasDeBarjolsVIII/stemma.png?raw=true"/>
   </facsimile>
   <text>
     <body>
-      <graph type="directed" order="13" size="13">
+      <graph type="directed" order="18" size="17">
         <label></label>
-        <node xml:id="n_archetype" type="hypothetical" inDegree="0" outDegree="2">
-          <label></label>
+        <node xml:id="n_archetype" type="hypothetical" inDegree="0" outDegree="3">
+          <label>archetype</label>
         </node>
         <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
           <label>x</label>
         </node>
-        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="3">
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2">
           <label>y</label>
         </node>
-        <node xml:id="n_astroke" type="witness" inDegree="2" outDegree="0">
+        <node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="2">
+          <label>z</label>
+        </node>
+        <node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="2">
+          <label>a</label>
+        </node>
+        <node xml:id="n_astroke" type="witness" inDegree="1" outDegree="0">
           <label>a'</label>
         </node>
-        <node xml:id="n_KIDH" type="hypothetical" inDegree="1" outDegree="2">
+        <node xml:id="n_b" type="hypothetical" inDegree="1" outDegree="2">
+          <label>b</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>β</label>
+        </node>
+        <node xml:id="n_H2" type="witness" inDegree="1" outDegree="0">
+          <label>H²</label>
+        </node>
+        <node xml:id="n_Da" type="witness" inDegree="1" outDegree="0">
+          <label>Dª</label>
+        </node>
+        <node xml:id="n_IK" type="hypothetical" inDegree="1" outDegree="2">
           <label></label>
-        </node>
-        <node xml:id="n_KID" type="hypothetical" inDegree="1" outDegree="2">
-          <label></label>
-        </node>
-        <node xml:id="n_KI" type="hypothetical" inDegree="1" outDegree="2">
-          <label></label>
-        </node>
-        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
-          <label>H</label>
-        </node>
-        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
-          <label>D</label>
-        </node>
-        <node xml:id="n_K" type="witness" inDegree="1" outDegree="0">
-          <label>K</label>
         </node>
         <node xml:id="n_I" type="witness" inDegree="1" outDegree="0">
           <label>I</label>
         </node>
-        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
-          <label>C</label>
+        <node xml:id="n_K" type="witness" inDegree="1" outDegree="0">
+          <label>K</label>
+        </node>
+        <node xml:id="n_Q" type="witness" inDegree="1" outDegree="0">
+          <label>Q</label>
         </node>
         <node xml:id="n_R" type="witness" inDegree="1" outDegree="0">
           <label>R</label>
         </node>
+        <node xml:id="n_f" type="witness" inDegree="1" outDegree="0">
+          <label>f</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
         <arc xml:id="arc_1" from="#n_archetype" to="#n_x" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_2" from="#n_archetype" to="#n_y" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_3" from="#n_x" to="#n_astroke" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_4" from="#n_x" to="#n_KIDH" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_5" from="#n_y" to="#n_astroke" od:type="contamination" cert="unknown"/>
-        <arc xml:id="arc_6" from="#n_y" to="#n_C" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_7" from="#n_y" to="#n_R" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_8" from="#n_KIDH" to="#n_H" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_9" from="#n_KIDH" to="#n_KID" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_10" from="#n_KID" to="#n_D" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_11" from="#n_KID" to="#n_KI" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_12" from="#n_KI" to="#n_K" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_13" from="#n_KI" to="#n_I" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_archetype" to="#n_z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_archetype" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_x" to="#n_a" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_x" to="#n_H2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_y" to="#n_R" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_y" to="#n_b" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_z" to="#n_Q" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_z" to="#n_astroke" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_a" to="#n_IK" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_a" to="#n_Da" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_b" to="#n_f" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_b" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_beta" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_beta" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_IK" to="#n_I" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_IK" to="#n_K" od:type="filiation" cert="unknown"/>
       </graph>
     </body>
     <back>
