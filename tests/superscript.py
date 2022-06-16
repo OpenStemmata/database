@@ -1,8 +1,8 @@
 # normal = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+-=()"
 # super_s = "ᴬᴮᶜᴰᴱᶠᴳᴴᴵᴶᴷᴸᴹᴺᴼᴾQᴿˢᵀᵁⱽᵂˣʸᶻᵃᵇᶜᵈᵉᶠᵍʰᶦʲᵏˡᵐⁿᵒᵖ۹ʳˢᵗᵘᵛʷˣʸᶻ⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁼⁽⁾"
-normal = "0123456789"
-super_s = "⁰¹²³⁴⁵⁶⁷⁸⁹"
-sub_s = "₀₁₂₃₄₅₆₇₈₉"
+normal = "0123456789ae"
+super_s = "⁰¹²³⁴⁵⁶⁷⁸⁹ᵃᵉ"
+sub_s = "₀₁₂₃₄₅₆₇₈₉ₐₑ"
 
 def get_super(x):
     res = x.maketrans(''.join(normal), ''.join(super_s))

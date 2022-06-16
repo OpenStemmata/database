@@ -104,7 +104,7 @@ def tr(changed_file):
                 
 
     nodes = [ (x,nodes[x]) for x in nodes ]
-
+    
     G = nx.DiGraph()
     # print(edges)
     G.add_nodes_from(nodes)
