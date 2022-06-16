@@ -1,4 +1,6 @@
 digraph {
+original[label="", color="grey"]; 
+original->arch
 arch[label="", color="grey"]
 
 arch -> arch2
