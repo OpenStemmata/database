@@ -1,0 +1,18 @@
+digraph{
+  X [color="grey"]
+  ALNP [color="grey", label="*ALNP"]
+  Astar [color="grey", label="*A"]
+  
+  FGSTUVw [color="grey", label="*FGSTUVw"]
+  FG [color="grey", label="*FG"]
+  Neid [color="grey", label="*Neid."]
+  
+  X -> ALNP
+  ALNP -> Astar # oral transmission
+  Astar -> A
+  
+  
+  X -> FGSTUVw
+  Neid -> V
+  FG -> V [style="dashed"]
+}
