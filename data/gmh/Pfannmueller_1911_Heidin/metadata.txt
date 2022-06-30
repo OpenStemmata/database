@@ -12,7 +12,7 @@ publicationPage : "66"
 publicationLink : "https://digi.ub.uni-heidelberg.de/diglit/Pfannmueller1911"
 workTitle : "Die Heidin"
 workViaf : "209921109"
-workOrigDate : "1250-1300"
+workOrigDate : "1250-1300" 
 workOrigPlace : ""
 workAuthors:
     - workAuthor: "Anonymous"

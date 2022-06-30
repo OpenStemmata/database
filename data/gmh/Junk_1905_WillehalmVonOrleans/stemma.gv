@@ -1,0 +1,67 @@
+digraph {
+original[label="", color="grey"]; 
+original->arch
+arch[label="", color="grey"]
+
+arch -> arch2
+
+arch2[label="", color="grey"]
+
+arch2 -> arch21
+arch21[label="", color="grey"]
+ 
+arch21 -> arch22 
+
+p1che -> p1 
+p1che -> che
+che[label="", color="grey"]
+che -> c 
+che -> he
+
+arch22[label="", color="grey"]
+arch22 -> M 
+
+arch21 -> nCOd
+nCOd[label="", color="grey"]
+nCOd -> n
+nCOd -> COd 
+COd[label="", color="grey"]
+COd -> CO
+CO[label="CÖ"]
+COd -> d
+
+arch22 -> p1che 
+p1che[label="", color="grey"]
+ 
+arch2 -> p2HB
+p2HB[label="", color="grey"]
+p2HB -> p2
+p2HB -> HB 
+
+HB[label="", color="grey"]
+HB -> B 
+HB -> H 
+
+
+arch -> arch1
+
+arch1[label="", color="grey"]
+arch1 -> DWOg
+arch1 -> sh
+
+DWOg[label="", color="grey"]
+DWOg -> D
+DWOg -> WOg
+
+WOg[label="", color="grey"]
+WOg -> W 
+WOg -> Og
+
+Og[label="", color="grey"]
+Og -> O 
+Og -> g
+
+sh[label="", color="grey"]
+sh -> s
+sh -> h
+}

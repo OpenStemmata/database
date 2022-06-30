@@ -4,12 +4,9 @@ digraph {
     hg [label="*hg", color="grey"]
     gstar [label="*g", color="grey"]
 
-    Ox -> X
-    X -> W
-    X -> Pstar
-    Pstar -> prep 
-    prep -> p  
+
     Pstar -> Oy # Shown dashed in the source, but it is not contamination. Oy is an extensive rewriting of *P, which creates a new version of the history. This kind of relationship is displayed with a dashed line, but does not correspond to any special category in the data model of Open Stemmata.
+
     Oy -> y
     y -> wstar
     wstar -> w
@@ -22,6 +19,7 @@ digraph {
 
     Pstar -> hb [style="dashed"]
     prep -> wa [style="dashed"]
+
     wstar -> wa # *w can be considered as the main source for wa and prep as a secondary influence.
     wa -> gstar [style="dashed"]
 
@@ -32,5 +30,4 @@ digraph {
     Oy [label="Oʸ", color="grey"]
     y [color="grey"]
     wstar [label="*w", color="grey"]
-    
 }
