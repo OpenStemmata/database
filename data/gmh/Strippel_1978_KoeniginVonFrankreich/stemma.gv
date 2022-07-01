@@ -1,4 +1,4 @@
-digraph{
+digraph {
   X [color="grey"]
   ALNP [color="grey", label="*ALNP"]
   Astar [color="grey", label="*A"]
