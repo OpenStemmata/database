@@ -7,7 +7,7 @@ publicationSeries : "Deutsche Texte des Mittelalters"
 publicationNum: "69"
 publicationStemmaNum: "1"
 publicationAuthors:
-    - publicationAuthor: "Theodor Frings [Hrsg.]"
+    - publicationAuthor: "Frings, Theodor"
 publicationPage : "XXXVI"
 publicationLink : ""
 workTitle : "Morant und Galie"
