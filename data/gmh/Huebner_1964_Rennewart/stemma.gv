@@ -4,41 +4,62 @@ digraph {
     Archetypus[color="grey"]
 
     Archetypus -> LinieAlpha
-    LinieAlpha[label="α"]
+    LinieAlpha[label="α", color="grey"]
     
     LinieAlpha -> V
     V -> M
     LinieAlpha -> Z[style=dashed]
     LinieAlpha -> Gamma 
-    Gamma[label="γ"]
+    Gamma[label="γ", color="grey"]
     Gamma -> Ypsilon
     Ypsilon[label="Y"]
     Gamma -> B 
 
     Archetypus -> LinieBeta
-    LinieBeta[label="β"]
+    LinieBeta[label="β", color="grey"]
     LinieBeta -> Epsilon
-    Epsilon[label="ε"]
+    Epsilon[label="ε", color="grey"]
     Epsilon -> D
     D -> H 
     Epsilon -> N 
     LinieBeta -> Delta
-    Delta[label="δ"]
+    Delta[label="δ", color="grey"]
     Delta -> QO
     QO[label="", color="grey"]
     QO -> Q
     QO -> O 
     Delta -> GIJKLSTUWZb
+    GIJKLSTUWZb[label="", color="grey"]
     GIJKLSTUWZb -> Z[style=dashed]
+    GIJKLSTUWZb -> G 
+    GIJKLSTUWZb -> I
+    GIJKLSTUWZb -> J
+    GIJKLSTUWZb -> K # im Stemma.png großgeschrieben, warum? Bei Hübner nachsehen!
+    GIJKLSTUWZb -> L 
+    GIJKLSTUWZb -> S
+    GIJKLSTUWZb -> T
+    GIJKLSTUWZb -> U
+    GIJKLSTUWZb -> W
+    GIJKLSTUWZb -> Zb 
     Delta -> Eta
-    Eta[label="η"]
+    Eta[label="η", color="grey"]
     Eta -> Phi
-    Phi[label="φ"]
+    Phi[label="φ", color="grey"]
     Phi -> 2
     Phi -> 1 
     Eta -> p 
 
     Archetypus -> LinieGamma
-    LinieGamma[label="ACEFRXZaZcZdZw"]
+    LinieGamma[label="", color=grey]
+    LinieGamma -> A 
+    LinieGamma -> C 
+    LinieGamma -> E 
+    LinieGamma -> F
+    LinieGamma -> R
+    LinieGamma -> X
+    LinieGamma -> Za
+    LinieGamma -> Zc 
+    LinieGamma -> Zd 
+    LinieGamma -> Zw 
 
 }
