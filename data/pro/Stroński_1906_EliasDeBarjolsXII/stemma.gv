@@ -1,0 +1,26 @@
+digraph {
+archetype [color="grey", label=" "] ;
+x [color="grey"] ;
+y [color="grey"] ;
+z [color="grey"] ;
+a [color="grey"] ;
+PS [color="grey", label=" "] ;
+alpha[label="α"]
+archetype -> x ;
+archetype -> z ;
+archetype -> y ;
+x -> C ;
+C->alpha;
+x -> E ;
+x -> f ;
+z -> R ;
+z -> M ;
+y -> D ;
+y -> a ;
+a -> H ;
+a -> PS ;
+PS -> P ;
+PS -> S ;
+}
+
+

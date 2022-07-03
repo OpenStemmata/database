@@ -1,0 +1,25 @@
+digraph {
+
+x [color="grey"];
+a[label="P1, P2, P3, P4", color="grey"];
+x-> a;
+a -> P1; 
+a -> P2; 
+a -> P3; 
+a -> P4; 
+
+x-> x1;
+x1[label="x¹", color="grey"];
+x1 -> G; 
+x1 -> P5;
+
+x -> x2;
+x2[label="x²", color="grey"];
+x2 -> CF; 
+x2 -> PR;
+x2 -> A; 
+x2 -> L2; 
+
+x -> C1;
+
+}

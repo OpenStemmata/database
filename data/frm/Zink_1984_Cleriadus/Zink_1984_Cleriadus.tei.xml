@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Cleriadus et Meliadice</title>
+        <author>Gaston Zink</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Benedetta Salvati</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Cleriadus et Meliadice: Roman en prose du XVe siècle</title>
+          <author>Gaston Zink</author>
+          <date>1984</date>
+          <pubPlace>Genève</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="xxv"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <idno>Tours, Bibliothèque Municipale 952</idno>
+            <origDate>1467-1483</origDate>
+            <origPlace>Marmoutier</origPlace>
+            <note>ms. réalisé à l'abbaye de Marmoutier</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Bruxelles</settlement>
+                <repository> Bibliothèque Royale</repository>
+                <idno> IV 1002</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1460 (avant)</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <idno>Chantilly, Musée Condé 650</idno>
+            <origDate>1640 (avant)</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Londres</settlement>
+                <repository> British Library</repository>
+                <idno> B.M. Roy 20 C II</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace>Picardie</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P1">
+            <label type="siglum">P1</label>
+            <idno>Paris, Bibliothèque Nationale fr. 1439</idno>
+            <origDate>1463-1470</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P2">
+            <label type="siglum">P2</label>
+            <idno>Paris, Bibliothèque Nationale fr. 1440</idno>
+            <origDate>1464-1475</origDate>
+            <origPlace>France</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P3">
+            <label type="siglum">P3</label>
+            <idno>Paris, Bibliothèque Nationale fr. 1494-1495</idno>
+            <origDate>1463-1466</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_T">
+            <label type="siglum">T</label>
+            <idno>Turin, Biblioteca Nazionale Universitaria 1628 L. II. 2</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_V">
+            <label type="siglum">V</label>
+            <idno>Vienne, Osterreichischen Nationalbibliothek 3427</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Vér">
+            <label type="siglum">Vér</label>
+            <idno>printed edition…</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Len1">
+            <label type="siglum">Len1</label>
+            <idno>printed edition…</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Len2">
+            <label type="siglum">Len2</label>
+            <idno>printed edition…</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Serg">
+            <label type="siglum">Serg</label>
+            <idno>printed edition…</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Arn">
+            <label type="siglum">Arn</label>
+            <idno>printed edition…</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Cleriadus et Meliadice</title>
+        <persName role="author" ref="http://viaf.org/">Anonyme</persName>
+        <origDate>1440 ca.</origDate>
+        <origPlace>Bourgogne </origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">roman en prose</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="frm"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/frm/Zink_1984_Cleriadus/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="19" size="20">
+        <label>4</label>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="2">
+          <label>O</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="4">
+          <label>x</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="3">
+          <label>y</label>
+        </node>
+        <node xml:id="n_xprimeprime" type="witness" inDegree="1" outDegree="2">
+          <label>x''</label>
+        </node>
+        <node xml:id="n_xprime" type="witness" inDegree="1" outDegree="2">
+          <label>x'</label>
+        </node>
+        <node xml:id="n_P3" type="witness" inDegree="1" outDegree="0">
+          <label>P3</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="2" outDegree="0">
+          <label>T</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_V" type="witness" inDegree="1" outDegree="1">
+          <label>V</label>
+        </node>
+        <node xml:id="n_P1" type="witness" inDegree="1" outDegree="0">
+          <label>P1</label>
+        </node>
+        <node xml:id="n_P2" type="witness" inDegree="1" outDegree="0">
+          <label>P2</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="1">
+          <label>B</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="1">
+          <label>C</label>
+        </node>
+        <node xml:id="n_Vér" type="witness" inDegree="2" outDegree="1">
+          <label>Vér</label>
+        </node>
+        <node xml:id="n_Len1" type="witness" inDegree="1" outDegree="1">
+          <label>Len1</label>
+        </node>
+        <node xml:id="n_Len2" type="witness" inDegree="1" outDegree="1">
+          <label>Len2</label>
+        </node>
+        <node xml:id="n_Serg" type="witness" inDegree="1" outDegree="1">
+          <label>Serg</label>
+        </node>
+        <node xml:id="n_Arn" type="witness" inDegree="1" outDegree="0">
+          <label>Arn</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_O" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_O" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_x" to="#n_T" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_x" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_x" to="#n_V" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_x" to="#n_xprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_y" to="#n_P3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_y" to="#n_L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_y" to="#n_T" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_xprimeprime" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_xprimeprime" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_xprime" to="#n_P1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_xprime" to="#n_P2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_V" to="#n_xprimeprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_B" to="#n_Vér" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_C" to="#n_Vér" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_Vér" to="#n_Len1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_Len1" to="#n_Len2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_Len2" to="#n_Serg" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_Serg" to="#n_Arn" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>
