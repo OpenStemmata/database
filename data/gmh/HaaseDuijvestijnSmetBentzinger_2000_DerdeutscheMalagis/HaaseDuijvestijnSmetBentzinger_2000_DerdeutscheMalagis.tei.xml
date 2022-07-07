@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Malagis</title>
+        <author>Bentzinger, Rudolf</author>
+        <author>de Smet, Gilbert A. R.</author>
+        <author>Duijvestijn, Bob W. Th.</author>
+        <author>Haase, Annegret</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Johannes Barnsteiner</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Quotation from the source: »Eine ganze Reihe von Indizien spricht dafür, dass die jüngere Hs. B eine direkte Abschrift der älteren Hs. A ist« (p. XIX)</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Der deutsche Malagis nach den Heidelberger Handschriften CPG 340 und CPG 315</title>
+          <author>Bentzinger, Rudolf</author>
+          <author>de Smet, Gilbert A. R.</author>
+          <author>Duijvestijn, Bob W. Th.</author>
+          <author>Haase, Annegret</author>
+          <date>2000</date>
+          <pubPlace>Berlin</pubPlace>
+          <series>Deutsche Texte des Mittelalters</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="82"/>
+          <biblScope unit="page" n=""/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Heidelberg</settlement>
+                <repository> Universitätsbibliothek</repository>
+                <idno> Cpg 315</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>ca. 1480</origDate>
+            <origPlace>Rottenburg (?)</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/4905"/>
+            <ptr type="digitised" target="https://doi.org/10.11588/diglit.1856"/>
+          </witness>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Heidelberg</settlement>
+                <repository> Universitätsbibliothek</repository>
+                <idno> Cpg 340</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>ca. 1465</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/4917"/>
+            <ptr type="digitised" target="https://doi.org/10.11588/diglit.150"/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/189731020">Malagis</title>
+        <persName role="author" ref="http://viaf.org/">Anonymous</persName>
+        <origDate></origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre"></term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">false</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gmh"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/HaaseDuijvestijnSmetBentzinger_2000_DerdeutscheMalagis/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="3" size="2">
+        <label>0</label>
+        <node xml:id="n_Archetype" type="hypothetical" inDegree="0" outDegree="1">
+          <label>Archetype</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="1">
+          <label>A</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_Archetype" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_A" to="#n_B" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>
