@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="original">
+  <data key="d0">grey</data>
+</node>
+<node id="arch">
+  <data key="d0">grey</data>
+</node>
+<node id="arch2">
+  <data key="d0">grey</data>
+</node>
+<node id="arch21">
+  <data key="d0">grey</data>
+</node>
+<node id="arch22">
+  <data key="d0">grey</data>
+</node>
+<node id="p1che">
+  <data key="d0">grey</data>
+</node>
+<node id="p1"/>
+<node id="che">
+  <data key="d0">grey</data>
+</node>
+<node id="c"/>
+<node id="he"/>
+<node id="M"/>
+<node id="nCOd">
+  <data key="d0">grey</data>
+</node>
+<node id="n"/>
+<node id="COd">
+  <data key="d0">grey</data>
+</node>
+<node id="CO">
+  <data key="d1">CÖ</data>
+</node>
+<node id="d"/>
+<node id="p2HB">
+  <data key="d0">grey</data>
+</node>
+<node id="p2"/>
+<node id="HB">
+  <data key="d0">grey</data>
+</node>
+<node id="B"/>
+<node id="H"/>
+<node id="arch1">
+  <data key="d0">grey</data>
+</node>
+<node id="DWOg">
+  <data key="d0">grey</data>
+</node>
+<node id="sh">
+  <data key="d0">grey</data>
+</node>
+<node id="D"/>
+<node id="WOg">
+  <data key="d0">grey</data>
+</node>
+<node id="W"/>
+<node id="Og">
+  <data key="d0">grey</data>
+</node>
+<node id="O"/>
+<node id="g"/>
+<node id="s"/>
+<node id="h"/>
+<edge source="original" target="arch">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="arch" target="arch2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="arch" target="arch1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="arch2" target="arch21">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="arch2" target="p2HB">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="arch21" target="arch22">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="arch21" target="nCOd">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="arch22" target="M">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="arch22" target="p1che">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="p1che" target="p1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="p1che" target="che">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="che" target="c">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="che" target="he">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="nCOd" target="n">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="nCOd" target="COd">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="COd" target="CO">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="COd" target="d">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="p2HB" target="p2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="p2HB" target="HB">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="HB" target="B">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="HB" target="H">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="arch1" target="DWOg">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="arch1" target="sh">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="DWOg" target="D">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="DWOg" target="WOg">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="sh" target="s">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="sh" target="h">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="WOg" target="W">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="WOg" target="Og">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Og" target="O">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Og" target="g">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

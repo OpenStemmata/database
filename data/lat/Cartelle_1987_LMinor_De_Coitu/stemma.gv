@@ -1,0 +1,37 @@
+# Place the cursor inside "graph" to get some refactoring options
+
+digraph {
+
+    # To refactor nodes, place the cursor left to a node name
+    X -> 1;
+    # Branche FHA
+    1 -> F;
+    1 -> 2;
+    2 -> H;
+    2 -> A;
+    # CSLEG
+    X -> 3;
+    3 -> 4;
+    4 -> C[color="grey"];
+    4 -> S;
+    4 -> L;
+    X -> 5;
+    5 -> E;
+    5 -> G;
+
+
+
+    # Hover over color names to get a color picker
+    #b -> e [style="dashed"]
+    #b -> c [dir=none, style="dashed"]; # for the exception where an undirected link is existant.
+
+    # Grey color is used for hypothetical nodes; labels can be redefined if needed
+    X [color="grey"];
+    1 [color="grey", label=""]; 
+    2 [color="grey", label=""]; 
+    3 [color="grey", label=""]; 
+    4 [color="grey", label=""]; 
+    5 [color="grey", label=""]; 
+    C[label="C(?)", color="grey"];
+
+}

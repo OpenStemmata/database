@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Die Heidin</title>
+        <author>Pfannmüller, Ludwig</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>This stemma includes two versions of the text. The archetypes are identified as X and Y.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Die vier Redaktionen der Heidin</title>
+          <author>Pfannmüller, Ludwig</author>
+          <date>1911</date>
+          <pubPlace>Berlin</pubPlace>
+          <series>Palaestra</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="108"/>
+          <biblScope unit="page" n="66"/>
+          <ptr type="digitised" target="https://digi.ub.uni-heidelberg.de/diglit/Pfannmueller1911"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/209921109">Die Heidin</title>
+        <persName role="author" ref="http://viaf.org/">Anonymous</persName>
+        <origDate>1250-1300</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">epic; courtly</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gmh"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Pfannmueller_1911_Heidin/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="17" size="19">
+        <label>4</label>
+        <node xml:id="n_Ox" type="hypothetical" inDegree="0" outDegree="1">
+          <label>Oˣ</label>
+        </node>
+        <node xml:id="n_X" type="hypothetical" inDegree="1" outDegree="2">
+          <label>X</label>
+        </node>
+        <node xml:id="n_W" type="witness" inDegree="1" outDegree="0">
+          <label>W</label>
+        </node>
+        <node xml:id="n_Pstar" type="hypothetical" inDegree="1" outDegree="3">
+          <label>*p</label>
+        </node>
+        <node xml:id="n_prep" type="hypothetical" inDegree="1" outDegree="2">
+          <label>prep</label>
+        </node>
+        <node xml:id="n_p" type="witness" inDegree="1" outDegree="0">
+          <label>p</label>
+        </node>
+        <node xml:id="n_Oy" type="hypothetical" inDegree="1" outDegree="1">
+          <label>Oʸ</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>y</label>
+        </node>
+        <node xml:id="n_wstar" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*w</label>
+        </node>
+        <node xml:id="n_w" type="witness" inDegree="1" outDegree="0">
+          <label>w</label>
+        </node>
+        <node xml:id="n_hb" type="hypothetical" inDegree="2" outDegree="2">
+          <label>*hb</label>
+        </node>
+        <node xml:id="n_hg" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*hg</label>
+        </node>
+        <node xml:id="n_gstar" type="hypothetical" inDegree="2" outDegree="1">
+          <label>*g</label>
+        </node>
+        <node xml:id="n_g" type="witness" inDegree="1" outDegree="0">
+          <label>g</label>
+        </node>
+        <node xml:id="n_h" type="witness" inDegree="1" outDegree="0">
+          <label>h</label>
+        </node>
+        <node xml:id="n_b" type="witness" inDegree="1" outDegree="0">
+          <label>b</label>
+        </node>
+        <node xml:id="n_wa" type="hypothetical" inDegree="2" outDegree="1">
+          <label>wᵃ</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_Ox" to="#n_X" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_X" to="#n_W" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_X" to="#n_Pstar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_Pstar" to="#n_prep" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_Pstar" to="#n_Oy" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_Pstar" to="#n_hb" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_prep" to="#n_p" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_prep" to="#n_wa" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_Oy" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_y" to="#n_wstar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_y" to="#n_hb" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_wstar" to="#n_w" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_wstar" to="#n_wa" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_hb" to="#n_hg" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_hb" to="#n_b" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_hg" to="#n_gstar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_hg" to="#n_h" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_gstar" to="#n_g" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_wa" to="#n_gstar" od:type="contamination" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

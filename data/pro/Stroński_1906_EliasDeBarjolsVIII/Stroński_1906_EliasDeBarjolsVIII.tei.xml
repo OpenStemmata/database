@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Car compri vostras beutatz…</title>
+        <author>Stroński, Stanisław</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Lena Reich</persName>
+        </respStmt>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Le troubadour Elias de Barjols edition critique</title>
+          <author>Stroński, Stanisław</author>
+          <date>1906</date>
+          <pubPlace>Toulouse</pubPlace>
+          <series>Bibliothèque méridionale</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="10"/>
+          <biblScope unit="page" n="79"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_I">
+            <label type="siglum">I</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_K">
+            <label type="siglum">K</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Da">
+            <label type="siglum">Dᵃ</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_H2">
+            <label type="siglum">H²</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Q">
+            <label type="siglum">Q</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_aprime">
+            <label type="siglum">a'</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_R">
+            <label type="siglum">R</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_f">
+            <label type="siglum">f</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Car compri vostras beutatz…</title>
+        <persName role="author" ref="http://viaf.org/231763501">Elias de Barjols</persName>
+        <origDate>1217-1220</origDate>
+        <origPlace>Provence</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">lyric poetry</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="pro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/pro/Stroński_1906_EliasDeBarjolsVIII/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="18" size="17">
+        <label></label>
+        <node xml:id="n_archetype" type="hypothetical" inDegree="0" outDegree="3">
+          <label>archetype</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>y</label>
+        </node>
+        <node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="2">
+          <label>z</label>
+        </node>
+        <node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="2">
+          <label>a</label>
+        </node>
+        <node xml:id="n_astroke" type="witness" inDegree="1" outDegree="0">
+          <label>a'</label>
+        </node>
+        <node xml:id="n_b" type="hypothetical" inDegree="1" outDegree="2">
+          <label>b</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>β</label>
+        </node>
+        <node xml:id="n_H2" type="witness" inDegree="1" outDegree="0">
+          <label>H²</label>
+        </node>
+        <node xml:id="n_Da" type="witness" inDegree="1" outDegree="0">
+          <label>Dᵃ</label>
+        </node>
+        <node xml:id="n_IK" type="hypothetical" inDegree="1" outDegree="2">
+          <label></label>
+        </node>
+        <node xml:id="n_I" type="witness" inDegree="1" outDegree="0">
+          <label>I</label>
+        </node>
+        <node xml:id="n_K" type="witness" inDegree="1" outDegree="0">
+          <label>K</label>
+        </node>
+        <node xml:id="n_Q" type="witness" inDegree="1" outDegree="0">
+          <label>Q</label>
+        </node>
+        <node xml:id="n_R" type="witness" inDegree="1" outDegree="0">
+          <label>R</label>
+        </node>
+        <node xml:id="n_f" type="witness" inDegree="1" outDegree="0">
+          <label>f</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_archetype" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_archetype" to="#n_z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_archetype" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_x" to="#n_a" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_x" to="#n_H2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_y" to="#n_R" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_y" to="#n_b" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_z" to="#n_Q" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_z" to="#n_astroke" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_a" to="#n_IK" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_a" to="#n_Da" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_b" to="#n_f" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_b" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_beta" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_beta" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_IK" to="#n_I" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_IK" to="#n_K" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

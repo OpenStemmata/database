@@ -1,0 +1,40 @@
+digraph {
+
+O[color="grey"];
+x[color="grey"];
+y[color="grey"];
+xprimeprime [label="x''", color="grey"];
+xprime [label="x'", color="grey"];
+
+O -> x; 
+O -> y;
+
+y -> P3;
+y -> L;
+
+y -> T [style="dashed"];
+x -> T [style="dashed"];
+
+x -> A; 
+x -> V; 
+x -> xprime;
+xprime [label="x'"]
+
+xprime -> P1;
+xprime -> P2;
+
+V -> xprimeprime;
+xprimeprime [label="x''"]
+
+xprimeprime -> B; 
+xprimeprime -> C;
+
+B -> Vér [style="dashed"];
+C ->Vér [style="dashed"];
+
+Vér -> Len1; 
+Len1 -> Len2; 
+Len2 -> Serg;
+Serg -> Arn;
+
+}
