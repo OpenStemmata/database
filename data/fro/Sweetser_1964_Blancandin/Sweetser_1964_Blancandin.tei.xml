@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Blancandin et l’Orgueilleuse d'Amour</title>
+        <author>Franklin P. Sweetser</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Benedetta Salvati</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Blancandin et l’Orgueilleuse d'Amour: Roman d'aventure du XIIIe siècle</title>
+          <author>Franklin P. Sweetser</author>
+          <date>1964</date>
+          <pubPlace>Genève</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="27"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale</repository>
+                <idno> fr. 19152</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1300-1320</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Turin</settlement>
+                <repository> Bibliothèque de l’Université</repository>
+                <idno> L. V. 44</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1200-1300</origDate>
+            <origPlace>Champagne</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> bibliothèque Nationale</repository>
+                <idno> fr. 375</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1280-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F">
+            <label type="siglum">F</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Archives nationales A B XIX 1734</repository>
+                <idno> dossier Nièvre</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1280-1300</origDate>
+            <origPlace></origPlace>
+            <note>Fragmentaire (en tout 264 vv.)</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P">
+            <label type="siglum">P</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Philadelphie</settlement>
+                <repository> Bibliothèque de l’Université de Pensylvanie</repository>
+                <idno> French MS 22</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1280-1320</origDate>
+            <origPlace></origPlace>
+            <note>Fragmentaire (en tout 400 vv.)</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Blancandin et l’Orgueilleuse d'Amour</title>
+        <persName role="author" ref="http://viaf.org/">Anonyme</persName>
+        <origDate>1200-1235</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">roman d’aventures</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Sweetser_1964_Blancandin/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="11" size="10">
+        <label>1</label>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="3">
+          <label>O</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="1">
+          <label>y</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="1">
+          <label>z</label>
+        </node>
+        <node xml:id="n_r" type="hypothetical" inDegree="1" outDegree="1">
+          <label>r</label>
+        </node>
+        <node xml:id="n_p" type="hypothetical" inDegree="1" outDegree="2">
+          <label>p</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+          <label>P</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_O" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_O" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_O" to="#n_z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_y" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_x" to="#n_r" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_x" to="#n_p" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_z" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_r" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_p" to="#n_P" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_p" to="#n_B" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

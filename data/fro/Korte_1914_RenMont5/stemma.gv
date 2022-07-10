@@ -1,0 +1,49 @@
+digraph {
+
+    o[color="grey"];
+    x[color="grey"];
+    y[color="grey"];
+    1[color="grey", label=""];
+    2[color="grey", label=""];
+    3[color="grey", label=""];
+    4[color="grey", label=""];
+    5[color="grey", label=""];
+    6[color="grey", label=""];
+    7[color="grey", label=""];
+    8[color="grey", label=""];
+    H3[label="Hᴵᴵᴵ"];
+    V1[label="Vᴵ"];
+    V2[label="Vᴵᴵ"];
+    V3[label="Vᴵᴵᴵ"];
+    L1[label="Lᴵ"];
+    L2[label="Lᴵᴵ"];
+    Ld1[label="Ldᴵ"];
+    Ld2[label="Ldᴵᴵ"];
+
+    o->y;
+    y->1;
+    1->H3;
+    1->B;
+    y->2;
+    2->L2;
+    2->Mz;
+    y->V2;
+    y->Ld2;
+    y->3;
+    3->P;
+    3->4;
+    4->C;
+    4->D;
+    o->x;
+    x->5;
+    5->Ld1;
+    5->A;
+    x->6;
+    6->7;
+    7->M;
+    7->V3;
+    6->8;
+    8->L1;
+    8->V1;
+    
+}

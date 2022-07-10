@@ -1,0 +1,59 @@
+digraph {
+
+    o[color="grey"];
+    x[color="grey"];
+    y[color="grey"];
+    1[color="grey", label=""];
+    2[color="grey", label=""];
+    3[color="grey", label=""];
+    4[color="grey", label=""];
+    5[color="grey", label=""];
+    6[color="grey", label=""];
+    7[color="grey", label=""];
+    8[color="grey", label=""];
+    9[color="grey", label=""];
+    10[color="grey", label=""];
+    11[color="grey", label=""];
+    P[label="*P"];
+    M1[label="*Mᴵ"];
+    M2[label="Mᴵᴵ"];
+    B1[label="Bᴵ"];
+    B2[label="Bᴵᴵ"];
+    L1[label="Lᴵ"];
+    L2[label="Lᴵᴵ"];
+    Mz1[label="Mzᴵ"];
+    Mz2[label="Mzᴵᴵ"];
+    H1[label="Hᴵ"];
+
+    o->y;
+    y->1;
+    1->2;
+    2->3;
+    3->G;
+    3->B2;
+    2->4;
+    4->L1;
+    4->Mz2;
+    1->P;
+    1->M1;
+    y->5;
+    5->C;
+    5->D;
+    o->x;
+    x->6;
+    6->B1;
+    6->7;
+    7->H1;
+    7->8;
+    8->Ld;
+    8->A;
+    x->9;
+    9->M2;
+    9->10;
+    10->11;
+    11->Mz1;
+    11->L2;
+    10->V;
+    
+}
+
