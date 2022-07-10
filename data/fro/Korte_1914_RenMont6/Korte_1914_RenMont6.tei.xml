@@ -1,0 +1,446 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Renaut de Montauban</title>
+        <author>Korte, Erich</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>There is a total of six stemmata, for the complex tradition of this song, who is partly rimed and partly assonanced; the first stemma is global for 'Teil I' (v. 1988-5129), while the second is more particularly for 1988-4444/4481 and the third one for v.4445/4482 to 5129; the following are for the assonanced parts ('Teil II - III.Mich), fourth one is for Teil II, v. 5130-6594, fifth for Teil III-Mich., v. 6595-8000, and sixth for last section of this third part, v. 9100-12587. Several manuscripts were unknown to Korte, and siglum were needlessly and uselessly (according to DEAF)  modified by J. Thomas after his time. Other stemmata available, by Jeanroy, A., « Un manuscrit fragmentaire de Renaut de Montauban. Essai de classification de six manuscrits du poème », Revue des langues romanes, 51, 1908, p. 240-262, https://gallica.bnf.fr/ark:/12148/bpt6k19875f/f249; Castets, La chanson des quatre fils Aymon d’après le manuscrit La Vallière avec introduction, description des manuscrits, notes au textes et principales variantes, appendice où sont complétés l'examen et la comparaison des manuscrits et des diverses rédactions par Ferdinand Castets, Montpellier, Coulet (Publications de la Société pour l'étude des langues romanes, 23), 1909, ; perhaps even in more recent editions. Also probably by Thomas.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Zum Handschriftenverhältnis der chanson de Renaut de Montauban</title>
+          <author>Korte, Erich</author>
+          <date>1914</date>
+          <pubPlace>Greifswald</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="47"/>
+          <ptr type="digitised" target="https://archive.org/details/KorteZumHandschriftenverhaltnis/page/n47"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> français 24387</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1280-1300</origDate>
+            <origPlace>Picard traits</origPlace>
+            <note>Olim La Vallière 39</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> français 775</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1290-1310</origDate>
+            <origPlace>Picard</origPlace>
+            <note>Current siglum: C</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> français 766</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1290-1310</origDate>
+            <origPlace>Picard?</origPlace>
+            <note>Current siglum: N</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Arsenal</repository>
+                <idno> 2990</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1390-1410</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P">
+            <label type="siglum">P</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Cambridge</settlement>
+                <repository> Peterhouse</repository>
+                <idno> 2.0.5</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1280-1300</origDate>
+            <origPlace>Picard</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Montpellier</settlement>
+                <repository> Bibliothèque interuniversitaire</repository>
+                <idno> Section médecine 247</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1350-1400</origDate>
+            <origPlace>Picard</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_V">
+            <label type="siglum">V</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Venezia</settlement>
+                <repository> Biblioteca Marciana</repository>
+                <idno> fr. XVI</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1390-1400</origDate>
+            <origPlace>Italy</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Mz">
+            <label type="siglum">Mz</label>
+            <idno>Metz</idno>
+            <origDate>1200-1300</origDate>
+            <origPlace></origPlace>
+            <note>Current siglum: Z. Destroyed in the war.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Metz-fragment">
+            <label type="siglum">Metz-fragment</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Metz</settlement>
+                <repository> Archives municipales</repository>
+                <idno> II 129 no 1</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1240-1260</origDate>
+            <origPlace>Wallon</origPlace>
+            <note>Current siglum: Me. «Unauffindbar» in 1914. Rediscovered by Jean-Charles Herbin in 2012: J.-Ch. Herbin, “Renaut de Montauban. Fragments des Archives municipales de Metz (Me)”, MÂ 118 (2012) 301-328. Close to ms. L (pic. end of 13th century).</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Oxford</settlement>
+                <repository> Bodleian library</repository>
+                <idno> Douce 121 (21695)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1225-1250</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ld">
+            <label type="siglum">Ld</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Oxford</settlement>
+                <repository> Bodleian Library</repository>
+                <idno> Laud Misc. 637 (1592)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1333</origDate>
+            <origPlace></origPlace>
+            <note>Current siglum: O.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_H">
+            <label type="siglum">H</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Oxford</settlement>
+                <repository> Bodleian Library</repository>
+                <idno> Hatton 59</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1200-1250</origDate>
+            <origPlace></origPlace>
+            <note>Incomplete</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <idno>Toulouse, fragment</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>edited by Jeanroy (1908).</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Brunswick">
+            <label type="siglum">Brunswick</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Brunswick</settlement>
+                <repository> Bowdoin College Library</repository>
+                <idno> M194 .R463 folio Vault</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1320-1340</origDate>
+            <origPlace></origPlace>
+            <note>Not used here. Found in an uncunabula binding. Has belonged to Charles Livingston.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_R_new_system">
+            <label type="siglum">R new system</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> français 764</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1435-1445</origDate>
+            <origPlace></origPlace>
+            <note>Current siglum: R. Unknown to Korte.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B_new_system">
+            <label type="siglum">B new system</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> British Library</repository>
+                <idno> Royal  16 G. II</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Current siglum: B. Unknown to Korte.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Maz_new_system">
+            <label type="siglum">Maz new system</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Mazarine</repository>
+                <idno> 4314</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1200-1300</origDate>
+            <origPlace></origPlace>
+            <note>Current siglum: Maz. Unknown to Korte. 2 fragm. of the same leaf. Muriel Ott, « Un nouveau fragment de Renaut de Montauban », Uns clers ait dit que chanson en ferait. Mélanges de langue, d'histoire et de littérature offerts à Jean-Charles Herbin, éd. Marie-Geneviève Grossel, Jean-Pierre Martin, Ludovic Nys, Muriel Ott et François Suard, Valenciennes, Presses universitaires de Valenciennes (Textes en contexte, 6), 2019, p. 609-628.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Toulouse">
+            <label type="siglum">Toulouse</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Toulouse</settlement>
+                <repository> Bibliothèque municipale</repository>
+                <idno> fragm. ms. 157</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1200-1300</origDate>
+            <origPlace></origPlace>
+            <note>In Res. B XVI 81. Found by Herbin, Jean-Claude et Gauthier Grüber, « Fragments inconnus de Renaut de Montauban », La bibliothèque des Dominicains de Toulouse, éd. Émilie Nadal et Magali Vène, Toulouse, Presses universitaires du Midi, 2020, p. 51-57.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/266294826">Renaut de Montauban</title>
+        <persName role="author" ref="http://viaf.org/">Anonymous</persName>
+        <origDate>1180-1200</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">chanson de geste</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">excluded</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Korte_1914_RenMont6/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="26" size="25">
+        <label>6</label>
+        <node xml:id="n_o" type="hypothetical" inDegree="0" outDegree="2">
+          <label>o</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="3">
+          <label>y</label>
+        </node>
+        <node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>1</label>
+        </node>
+        <node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>2</label>
+        </node>
+        <node xml:id="n_3" type="hypothetical" inDegree="1" outDegree="2">
+          <label>3</label>
+        </node>
+        <node xml:id="n_4" type="hypothetical" inDegree="1" outDegree="2">
+          <label>4</label>
+        </node>
+        <node xml:id="n_5" type="hypothetical" inDegree="1" outDegree="2">
+          <label>5</label>
+        </node>
+        <node xml:id="n_6" type="hypothetical" inDegree="1" outDegree="2">
+          <label>6</label>
+        </node>
+        <node xml:id="n_7" type="hypothetical" inDegree="1" outDegree="4">
+          <label>7</label>
+        </node>
+        <node xml:id="n_8" type="hypothetical" inDegree="1" outDegree="2">
+          <label>8</label>
+        </node>
+        <node xml:id="n_M1" type="witness" inDegree="1" outDegree="0">
+          <label>Mᴵ</label>
+        </node>
+        <node xml:id="n_Mz1" type="witness" inDegree="1" outDegree="0">
+          <label>Mzᴵ</label>
+        </node>
+        <node xml:id="n_Mz2" type="witness" inDegree="1" outDegree="0">
+          <label>Mzᴵᴵ</label>
+        </node>
+        <node xml:id="n_Ld1" type="witness" inDegree="1" outDegree="0">
+          <label>Ldᴵ</label>
+        </node>
+        <node xml:id="n_Ld2" type="witness" inDegree="1" outDegree="0">
+          <label>Ldᴵᴵ</label>
+        </node>
+        <node xml:id="n_D1" type="witness" inDegree="1" outDegree="0">
+          <label>Dᴵ</label>
+        </node>
+        <node xml:id="n_D2" type="witness" inDegree="1" outDegree="0">
+          <label>Dᴵᴵ</label>
+        </node>
+        <node xml:id="n_M2" type="witness" inDegree="1" outDegree="0">
+          <label>Mᴵᴵ</label>
+        </node>
+        <node xml:id="n_H3" type="witness" inDegree="1" outDegree="0">
+          <label>Hᴵᴵᴵ</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+          <label>P</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_V" type="witness" inDegree="1" outDegree="0">
+          <label>V</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_o" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_o" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_x" to="#n_5" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_x" to="#n_7" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_y" to="#n_1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_y" to="#n_2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_y" to="#n_3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_1" to="#n_L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_1" to="#n_Mz1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_2" to="#n_Ld1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_2" to="#n_D2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_3" to="#n_P" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_3" to="#n_4" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_4" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_4" to="#n_D1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_5" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_5" to="#n_6" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_6" to="#n_M2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_6" to="#n_H3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_7" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_7" to="#n_Ld2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_22" from="#n_7" to="#n_8" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_23" from="#n_7" to="#n_Mz2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_24" from="#n_8" to="#n_M1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_25" from="#n_8" to="#n_V" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

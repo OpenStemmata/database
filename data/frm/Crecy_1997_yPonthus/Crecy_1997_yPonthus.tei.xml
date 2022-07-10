@@ -1,0 +1,446 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Ponthus et Sidoine</title>
+        <author>Marie-Claude de Crécy</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Benedetta Salvati</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Le roman de Ponthus et Sidoine. Édition critique de Marie-Claude de Crécy</title>
+          <author>Marie-Claude de Crécy</author>
+          <date>1997</date>
+          <pubPlace>Genève</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="LVIX"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <idno>Gand, Bibl. de la Ville et de l’Université 352</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P5">
+            <label type="siglum">P5</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BN</repository>
+                <idno> nouv. acq. fr. 24398</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P1">
+            <label type="siglum">P1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BN</repository>
+                <idno> nouv. acq. fr. 11676</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P2">
+            <label type="siglum">P2</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BN</repository>
+                <idno> fr. 1486</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P3">
+            <label type="siglum">P3</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BN</repository>
+                <idno> fr. 5031</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P4">
+            <label type="siglum">P4</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BN</repository>
+                <idno> nouv. acq. fr. 10169</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_CF">
+            <label type="siglum">CF</label>
+            <idno>Clermont-Ferrand, Bibl. mun. 356</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_PR">
+            <label type="siglum">PR</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BN</repository>
+                <idno> Rothschild 1499 I.3.1</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <idno>Aberystwyth, National Library of Wales 5035</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L2">
+            <label type="siglum">L2</label>
+            <idno>Londres, British Library, Harley, 4854</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C1">
+            <label type="siglum">C1</label>
+            <idno>Cambridge, University Library Ff.3.31</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <idno>Besançon, Bibl. mun. 587</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C2">
+            <label type="siglum">C2</label>
+            <idno>Cambridge, University Library Hh.3.16</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L1">
+            <label type="siglum">L1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Londres</settlement>
+                <repository> British Library</repository>
+                <idno> Royal 15.E.VI</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P9">
+            <label type="siglum">P9</label>
+            <idno>Paris, Bibl. de l’Arsenal 3001</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P6">
+            <label type="siglum">P6</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BN</repository>
+                <idno> fr. 15219</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P7">
+            <label type="siglum">P7</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BN</repository>
+                <idno> fr. 12579</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P10">
+            <label type="siglum">P10</label>
+            <idno>Paris, Bibl. de l’Arsenal 3149</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Escorial</settlement>
+                <repository> Real biblioteca del Escorial</repository>
+                <idno> X.III.2</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P8">
+            <label type="siglum">P8</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BN</repository>
+                <idno> nouv. acq. fr. 6639</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_S">
+            <label type="siglum">S</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Sion</settlement>
+                <repository> Bibl. cantonale du Valais</repository>
+                <idno> Supersaxo 97bis</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Turin_1649">
+            <label type="siglum">Turin 1649</label>
+            <idno>Turin, Biblioteca Nazionale 1649 (L.III.7) XIV</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>no sigla provided</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Turin_1668">
+            <label type="siglum">Turin 1668</label>
+            <idno>Turin, Biblioteca Nazionale 1668 (L.IV.5)</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>no sigla provided</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Paris_5237">
+            <label type="siglum">Paris 5237</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BN</repository>
+                <idno> nouv. acq. fr. 5237</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>no sigla provided</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ly">
+            <label type="siglum">Ly</label>
+            <idno>Lyon, Bibl. mun. 769</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P11">
+            <label type="siglum">P11</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BN</repository>
+                <idno> fr. 1487</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Ponthus et Sidoine</title>
+        <persName role="author" ref="http://viaf.org/">Anonymous</persName>
+        <origDate>1380-1420</origDate>
+        <origPlace>Bretagne?</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">roman  en prose</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">excluded</term>
+          <term type="derivatives">excluded</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="frm"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/frm/Crecy_1997_yPonthus/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="11" size="10">
+        <label>2</label>
+        <node xml:id="n_y" type="hypothetical" inDegree="0" outDegree="2">
+          <label>y</label>
+        </node>
+        <node xml:id="n_y1" type="hypothetical" inDegree="1" outDegree="4">
+          <label>y1</label>
+        </node>
+        <node xml:id="n_y2" type="hypothetical" inDegree="1" outDegree="4">
+          <label>y2</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_C2" type="witness" inDegree="1" outDegree="0">
+          <label>C2</label>
+        </node>
+        <node xml:id="n_L1" type="witness" inDegree="1" outDegree="0">
+          <label>L1</label>
+        </node>
+        <node xml:id="n_P9" type="witness" inDegree="1" outDegree="0">
+          <label>P9</label>
+        </node>
+        <node xml:id="n_P6" type="witness" inDegree="1" outDegree="0">
+          <label>P6</label>
+        </node>
+        <node xml:id="n_P7" type="witness" inDegree="1" outDegree="0">
+          <label>P7</label>
+        </node>
+        <node xml:id="n_P10" type="witness" inDegree="1" outDegree="0">
+          <label>P10</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_y" to="#n_y1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_y" to="#n_y2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_y1" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_y1" to="#n_C2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_y1" to="#n_L1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_y1" to="#n_P9" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_y2" to="#n_P6" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_y2" to="#n_P7" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_y2" to="#n_P10" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_y2" to="#n_E" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

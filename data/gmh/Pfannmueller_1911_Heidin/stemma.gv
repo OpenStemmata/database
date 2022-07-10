@@ -1,0 +1,34 @@
+digraph {
+    Ox -> X
+    X -> W
+    X -> Pstar
+    Pstar -> prep 
+    prep -> p  
+    Pstar -> Oy [style="dashed"]
+    Oy -> y
+    y -> wstar
+    wstar -> w
+    y -> hb
+    hb -> hg
+    hg -> gstar
+    gstar -> g
+    hg -> h 
+    hb -> b
+
+    Pstar -> hb [style="dashed"]
+    prep -> wa [style="dashed"]
+    wstar -> wa [style="dashed"]
+    wa -> gstar [style="dashed"]
+
+    Ox [label="Oˣ", color="grey"]
+    X [label="X", color="grey"]
+    Pstar [label="*p", color="grey"]
+    prep [label="", color="grey"]
+    Oy [label="Oʸ", color="grey"]
+    y [color="grey"]
+    wstar [label="*w", color="grey"]
+    wa [label="wᵃ", color="grey"]
+    hb [label="*hb", color="grey"]
+    hg [label="*hg", color="grey"]
+    gstar [label="*g", color="grey"]
+}
