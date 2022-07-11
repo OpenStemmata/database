@@ -75,6 +75,18 @@
     <body>
       <graph type="directed" order="17" size="19">
         <label>4</label>
+        <node xml:id="n_wa" type="hypothetical" inDegree="2" outDegree="1">
+          <label>wᵃ</label>
+        </node>
+        <node xml:id="n_hb" type="hypothetical" inDegree="2" outDegree="2">
+          <label>*hb</label>
+        </node>
+        <node xml:id="n_hg" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*hg</label>
+        </node>
+        <node xml:id="n_gstar" type="hypothetical" inDegree="2" outDegree="1">
+          <label>*g</label>
+        </node>
         <node xml:id="n_Ox" type="hypothetical" inDegree="0" outDegree="1">
           <label>Oˣ</label>
         </node>
@@ -105,15 +117,6 @@
         <node xml:id="n_w" type="witness" inDegree="1" outDegree="0">
           <label>w</label>
         </node>
-        <node xml:id="n_hb" type="hypothetical" inDegree="2" outDegree="2">
-          <label>*hb</label>
-        </node>
-        <node xml:id="n_hg" type="hypothetical" inDegree="1" outDegree="2">
-          <label>*hg</label>
-        </node>
-        <node xml:id="n_gstar" type="hypothetical" inDegree="2" outDegree="1">
-          <label>*g</label>
-        </node>
         <node xml:id="n_g" type="witness" inDegree="1" outDegree="0">
           <label>g</label>
         </node>
@@ -123,31 +126,32 @@
         <node xml:id="n_b" type="witness" inDegree="1" outDegree="0">
           <label>b</label>
         </node>
-        <node xml:id="n_wa" type="hypothetical" inDegree="2" outDegree="1">
-          <label>wᵃ</label>
-        </node>
-        <arc xml:id="arc_1" from="#n_Ox" to="#n_X" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_2" from="#n_X" to="#n_W" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_3" from="#n_X" to="#n_Pstar" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_4" from="#n_Pstar" to="#n_prep" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_5" from="#n_Pstar" to="#n_Oy" od:type="contamination" cert="unknown"/>
-        <arc xml:id="arc_6" from="#n_Pstar" to="#n_hb" od:type="contamination" cert="unknown"/>
-        <arc xml:id="arc_7" from="#n_prep" to="#n_p" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_8" from="#n_prep" to="#n_wa" od:type="contamination" cert="unknown"/>
-        <arc xml:id="arc_9" from="#n_Oy" to="#n_y" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_10" from="#n_y" to="#n_wstar" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_11" from="#n_y" to="#n_hb" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_12" from="#n_wstar" to="#n_w" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_13" from="#n_wstar" to="#n_wa" od:type="contamination" cert="unknown"/>
-        <arc xml:id="arc_14" from="#n_hb" to="#n_hg" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_15" from="#n_hb" to="#n_b" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_16" from="#n_hg" to="#n_gstar" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_17" from="#n_hg" to="#n_h" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_18" from="#n_gstar" to="#n_g" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_19" from="#n_wa" to="#n_gstar" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_1" from="#n_wa" to="#n_gstar" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_hb" to="#n_hg" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_hb" to="#n_b" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_hg" to="#n_gstar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_hg" to="#n_h" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_gstar" to="#n_g" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_Ox" to="#n_X" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_X" to="#n_W" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_X" to="#n_Pstar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_Pstar" to="#n_prep" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_Pstar" to="#n_Oy" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_Pstar" to="#n_hb" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_prep" to="#n_p" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_prep" to="#n_wa" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_Oy" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_y" to="#n_wstar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_y" to="#n_hb" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_wstar" to="#n_w" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_wstar" to="#n_wa" od:type="filiation" cert="unknown"/>
       </graph>
     </body>
     <back>
-         </back>
+      <noteGrp>
+        <note target="#arc_11">Shown dashed in the source, but it is not contamination. Oy is an extensive rewriting of *P, which creates a new version of the history. This kind of relationship is displayed with a dashed line, but does not correspond to any special category in the data model of Open Stemmata.</note>
+        <note target="#arc_19">*w can be considered as the main source for wa and prep as a secondary influence.</note>
+      </noteGrp>
+    </back>
   </text>
 </TEI>

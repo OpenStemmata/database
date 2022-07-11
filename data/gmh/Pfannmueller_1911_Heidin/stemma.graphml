@@ -1,9 +1,26 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d4" for="edge" attr.name="note" attr.type="string"/>
+<key id="d3" for="edge" attr.name="cert" attr.type="string"/>
 <key id="d2" for="edge" attr.name="type" attr.type="string"/>
 <key id="d1" for="node" attr.name="color" attr.type="string"/>
 <key id="d0" for="node" attr.name="label" attr.type="string"/>
-<graph edgedefault="directed"><node id="Ox">
+<graph edgedefault="directed"><node id="wa">
+  <data key="d0">wᵃ</data>
+  <data key="d1">grey</data>
+</node>
+<node id="hb">
+  <data key="d0">*hb</data>
+  <data key="d1">grey</data>
+</node>
+<node id="hg">
+  <data key="d0">*hg</data>
+  <data key="d1">grey</data>
+</node>
+<node id="gstar">
+  <data key="d0">*g</data>
+  <data key="d1">grey</data>
+</node>
+<node id="Ox">
   <data key="d0">Oˣ</data>
   <data key="d1">grey</data>
 </node>
@@ -32,25 +49,33 @@
   <data key="d1">grey</data>
 </node>
 <node id="w"/>
-<node id="hb">
-  <data key="d0">*hb</data>
-  <data key="d1">grey</data>
-</node>
-<node id="hg">
-  <data key="d0">*hg</data>
-  <data key="d1">grey</data>
-</node>
-<node id="gstar">
-  <data key="d0">*g</data>
-  <data key="d1">grey</data>
-</node>
 <node id="g"/>
 <node id="h"/>
 <node id="b"/>
-<node id="wa">
-  <data key="d0">wᵃ</data>
-  <data key="d1">grey</data>
-</node>
+<edge source="wa" target="gstar">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="hb" target="hg">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="hb" target="b">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="hg" target="gstar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="hg" target="h">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="gstar" target="g">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
 <edge source="Ox" target="X">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
@@ -68,8 +93,10 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="Pstar" target="Oy">
-  <data key="d2">contamination</data>
+  <data key="d2">filiation</data>
   <data key="d3">unknown</data>
+  <data key="d4"> Shown dashed in the source, but it is not contamination. Oy is an extensive rewriting of *P, which creates a new version of the history. This kind of relationship is displayed with a dashed line, but does not correspond to any special category in the data model of Open Stemmata.
+</data>
 </edge>
 <edge source="Pstar" target="hb">
   <data key="d2">contamination</data>
@@ -100,31 +127,9 @@
   <data key="d3">unknown</data>
 </edge>
 <edge source="wstar" target="wa">
-  <data key="d2">contamination</data>
-  <data key="d3">unknown</data>
-</edge>
-<edge source="hb" target="hg">
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
-</edge>
-<edge source="hb" target="b">
-  <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
-</edge>
-<edge source="hg" target="gstar">
-  <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
-</edge>
-<edge source="hg" target="h">
-  <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
-</edge>
-<edge source="gstar" target="g">
-  <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
-</edge>
-<edge source="wa" target="gstar">
-  <data key="d2">contamination</data>
-  <data key="d3">unknown</data>
+  <data key="d4"> *w can be considered as the main source for wa and prep as a secondary influence.
+</data>
 </edge>
 </graph></graphml>
