@@ -27,6 +27,11 @@ digraph {
   BCO -> O # oral transmission
 
   DE[label="*DE", color="grey"]
+  BCODE->DE
+  DE->D;
+  DE->E;
+
+  
 
   HIK[label="*HIK", color="grey"]
   X -> HIK
