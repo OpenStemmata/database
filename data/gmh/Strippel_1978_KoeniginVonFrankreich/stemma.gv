@@ -1,0 +1,67 @@
+digraph {
+  X [color="grey"]
+  ALNP [color="grey", label="*ALNP"]
+  Astar [color="grey", label="*A"]
+  
+
+  
+  X -> ALNP
+  ALNP -> Astar # oral transmission
+  Astar -> A
+  LNP[label="*LNP", color="grey"]
+  ALNP -> LNP
+  LN[label="*LN", color="grey"]
+  LNP -> LN
+  LN -> L
+  LN -> N 
+  LNP -> P
+
+  BCODE[label="*BCODE", color="grey"]
+  X -> BCODE
+  BCO[label="*BCO", color="grey"]
+  BCODE -> BCO 
+  BC[label="*BC", color="grey"]
+  BCO -> BC
+  BC -> B
+  BC -> C
+  BCO -> O # oral transmission
+
+  DE[label="*DE", color="grey"]
+  BCODE->DE
+  DE->D;
+  DE->E;
+
+  
+
+  HIK[label="*HIK", color="grey"]
+  X -> HIK
+  HI[label="*HI", color="grey"]
+  HIK -> HI
+  HI -> H
+  HI -> I
+  HIK -> K    
+
+  FGSTUVw [color="grey", label="*FGSTUVw"]
+  X -> FGSTUVw
+  FG [color="grey", label="*FG"]
+  FGSTUVw -> FG
+  FG -> F #oral transmission
+  FG -> G
+  STUVw[label="*STUVw", color="grey"]
+  FGSTUVw -> STUVw
+  STUVw -> S
+  TUVw[label="*TUVw", color="grey"]
+  STUVw -> TUVw
+  TUVw -> T
+  UV[label="*UV", color="grey"]
+  TUVw -> UV
+  TUVw -> w
+  U1[label="*U", color="grey"]
+  UV -> U1 #oral transmission
+  U1 -> U
+  Neid[color="grey", label="*Neid."]
+  UV -> Neid
+  Neid -> V
+  FG -> V [style="dashed"]
+   
+}
