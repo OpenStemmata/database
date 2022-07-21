@@ -28,7 +28,7 @@
         </availability>
       </publicationStmt>
       <notesStmt>
-        <note>Quotation from the source: »Eine ganze Reihe von Indizien spricht dafür, dass die jüngere Hs. B eine direkte Abschrift der älteren Hs. A ist« (p. XIX)</note>
+        <note>Quotation from the source: »Eine ganze Reihe von Indizien spricht dafür, dass die jüngere Hs. B eine direkte Abschrift der älteren Hs. A ist« (p. XIX). Malagis is an adaptation of Maugis d'Aigremont made from the Middle Dutch version, Madelgijs (Arlima).</note>
       </notesStmt>
       <sourceDesc>
         <bibl type="book">
@@ -88,7 +88,7 @@
       </creation>
       <textClass>
         <keywords>
-          <term type="workGenre"></term>
+          <term type="workGenre">Chivalric romance</term>
           <term type="stemmaType">reconstructed</term>
           <term type="contam">no</term>
           <term type="extraStemmContam">no</term>
