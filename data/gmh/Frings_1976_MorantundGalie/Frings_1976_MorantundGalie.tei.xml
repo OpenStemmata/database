@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Morant und Galie</title>
+        <author>Frings, Theodor</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Johannes Barnsteiner</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Morant und Galie</title>
+          <author>Frings, Theodor</author>
+          <date>1976</date>
+          <pubPlace>Berlin</pubPlace>
+          <series>Deutsche Texte des Mittelalters</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="69"/>
+          <biblScope unit="page" n="XXXVI"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Cologne</settlement>
+                <repository> Historisches Archiv der Stadt</repository>
+                <idno> Best. 7020 (W*) 3</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1410-1420</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/5211"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Kraków</settlement>
+                <repository> Bibl. Jagiellońska</repository>
+                <idno> Berol. mgq 666</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1400-1425</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/1863"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/220423428">Morant und Galie</title>
+        <persName role="author" ref="http://viaf.org/">Anonymous</persName>
+        <origDate></origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">epic</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gmh"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Frings_1976_MorantundGalie/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="6" size="5">
+        <label>1</label>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1">
+          <label>O*</label>
+        </node>
+        <node xml:id="n_X" type="hypothetical" inDegree="1" outDegree="2">
+          <label>X*</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_Y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Y*</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_O" to="#n_X" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_X" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_X" to="#n_Y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_Y" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_Y" to="#n_C" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

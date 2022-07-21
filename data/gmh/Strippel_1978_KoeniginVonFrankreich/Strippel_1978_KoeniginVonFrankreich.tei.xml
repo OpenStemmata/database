@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Königin von Frankreich</title>
+        <author>Strippel, Jutta</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0002-2202-6354">Gustavo Fernández Riva</persName>
+        </respStmt>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Johannes Barnsteiner</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Schondochs Königin von Frankreich. Untersuchungen zur handschriftlichen Überlieferung und kritischer Text.</title>
+          <author>Strippel, Jutta</author>
+          <date>1978</date>
+          <pubPlace>Göppingen</pubPlace>
+          <series>Göppinger Arbeiten zur Germanistik</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="252"/>
+          <biblScope unit="page" n="149"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Königin von Frankreich</title>
+        <persName role="author" ref="http://viaf.org/247026621">Schondoch</persName>
+        <origDate>1380-1410</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">epic</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gmh"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Strippel_1978_KoeniginVonFrankreich/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="37" size="37">
+        <label></label>
+        <node xml:id="n_X" type="hypothetical" inDegree="0" outDegree="4">
+          <label>X</label>
+        </node>
+        <node xml:id="n_ALNP" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*ALNP</label>
+        </node>
+        <node xml:id="n_Astar" type="hypothetical" inDegree="1" outDegree="1">
+          <label>*A</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_LNP" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*LNP</label>
+        </node>
+        <node xml:id="n_LN" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*LN</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <node xml:id="n_N" type="witness" inDegree="1" outDegree="0">
+          <label>N</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+          <label>P</label>
+        </node>
+        <node xml:id="n_BCODE" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*BCODE</label>
+        </node>
+        <node xml:id="n_BCO" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*BCO</label>
+        </node>
+        <node xml:id="n_BC" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*BC</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_O" type="witness" inDegree="1" outDegree="0">
+          <label>O</label>
+        </node>
+        <node xml:id="n_DE" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*DE</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
+          <label>D</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_HIK" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*HIK</label>
+        </node>
+        <node xml:id="n_HI" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*HI</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <node xml:id="n_I" type="witness" inDegree="1" outDegree="0">
+          <label>I</label>
+        </node>
+        <node xml:id="n_K" type="witness" inDegree="1" outDegree="0">
+          <label>K</label>
+        </node>
+        <node xml:id="n_FGSTUVw" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*FGSTUVw</label>
+        </node>
+        <node xml:id="n_FG" type="hypothetical" inDegree="1" outDegree="3">
+          <label>*FG</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <node xml:id="n_STUVw" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*STUVw</label>
+        </node>
+        <node xml:id="n_S" type="witness" inDegree="1" outDegree="0">
+          <label>S</label>
+        </node>
+        <node xml:id="n_TUVw" type="hypothetical" inDegree="1" outDegree="3">
+          <label>*TUVw</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="0">
+          <label>T</label>
+        </node>
+        <node xml:id="n_UV" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*UV</label>
+        </node>
+        <node xml:id="n_w" type="witness" inDegree="1" outDegree="0">
+          <label>w</label>
+        </node>
+        <node xml:id="n_U1" type="hypothetical" inDegree="1" outDegree="1">
+          <label>*U</label>
+        </node>
+        <node xml:id="n_U" type="witness" inDegree="1" outDegree="0">
+          <label>U</label>
+        </node>
+        <node xml:id="n_Neid" type="hypothetical" inDegree="1" outDegree="1">
+          <label>*Neid.</label>
+        </node>
+        <node xml:id="n_V" type="witness" inDegree="2" outDegree="0">
+          <label>V</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_X" to="#n_ALNP" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_X" to="#n_BCODE" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_X" to="#n_HIK" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_X" to="#n_FGSTUVw" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_ALNP" to="#n_Astar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_ALNP" to="#n_LNP" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_Astar" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_LNP" to="#n_LN" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_LNP" to="#n_P" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_LN" to="#n_L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_LN" to="#n_N" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_BCODE" to="#n_BCO" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_BCODE" to="#n_DE" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_BCO" to="#n_BC" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_BCO" to="#n_O" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_BC" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_BC" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_DE" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_DE" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_HIK" to="#n_HI" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_HIK" to="#n_K" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_22" from="#n_HI" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_23" from="#n_HI" to="#n_I" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_24" from="#n_FGSTUVw" to="#n_FG" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_25" from="#n_FGSTUVw" to="#n_STUVw" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_26" from="#n_FG" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_27" from="#n_FG" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_28" from="#n_FG" to="#n_V" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_29" from="#n_STUVw" to="#n_S" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_30" from="#n_STUVw" to="#n_TUVw" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_31" from="#n_TUVw" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_32" from="#n_TUVw" to="#n_UV" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_33" from="#n_TUVw" to="#n_w" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_34" from="#n_UV" to="#n_U1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_35" from="#n_UV" to="#n_Neid" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_36" from="#n_U1" to="#n_U" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_37" from="#n_Neid" to="#n_V" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+      <noteGrp>
+        <note target="#arc_5">oral transmission</note>
+        <note target="#arc_15">oral transmission</note>
+        <note target="#arc_26">oral transmission</note>
+        <note target="#arc_34">oral transmission</note>
+      </noteGrp>
+    </back>
+  </text>
+</TEI>
