@@ -409,6 +409,20 @@ def tr(changed_file):
 
     if len(noteGrp) < 1:
         back.remove(noteGrp)
+    
+    
+    # msFrag for fragements scattered with multiple shelfmarks
+    witnesses = root.findall(".//witness", ns)
+    for witness in witnesses:
+        msDescs = witness.findall('./msDesc')
+        if len(msDescs) > 1:
+            new_MsDesc = et.Element("msDesc")
+            witness.insert(1, new_MsDesc)
+            for msDescr in msDescs:
+                frag = et.Element('msFrag')
+                new_MsDesc.append(frag)
+                frag.append(msDescr.find('./msIdentifier'))
+                witness.remove(msDescr)
 
     et.indent(tree)
 
