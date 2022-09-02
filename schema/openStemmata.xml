@@ -59,7 +59,7 @@
                     <moduleRef key="transcr"
                         include="facsimile"/>
                     <moduleRef key="msdescription"
-                        include="origDate origPlace msDesc msIdentifier repository"/>
+                        include="origDate origPlace msDesc msFrag msIdentifier repository"/>
                     <moduleRef key="namesdates"
                         include="persName orgName settlement"/>
                     
