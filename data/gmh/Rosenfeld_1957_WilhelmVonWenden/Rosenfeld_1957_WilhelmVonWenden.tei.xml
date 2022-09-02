@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Wilhelm von Wenden</title>
+        <author>Rosenfeld, Hans-Friedrich</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0002-2202-6354">Gustavo Fernández Riva</persName>
+        </respStmt>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Johannes Barnsteiner</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Wilhelm von Wenden</title>
+          <author>Rosenfeld, Hans-Friedrich</author>
+          <date>1957</date>
+          <pubPlace>Berlin</pubPlace>
+          <series>Deutsche Texte des Mittelalters</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="49"/>
+          <biblScope unit="page" n=""/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Dessau</settlement>
+                <repository> Landesbücherei</repository>
+                <idno> Hs. Georg. 224 4°</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1422</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/3697"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F">
+            <label type="siglum">F</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Frankfurt a. M.</settlement>
+                <repository> Universitätsbibl.</repository>
+                <idno> Ms. germ. qu. 2</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>um 1370/80</origDate>
+            <origPlace></origPlace>
+            <note>Bl. 4ra + 23ra: Mit anderer Tinte und Duktus Anfang ’Wilhelm von Wenden'</note>
+            <ptr type="description" target="https://handschriftencensus.de/3208"/>
+            <ptr type="digitised" target="https://nbn-resolving.org/urn:nbn:de:hebis:30:2-14235"/>
+          </witness>
+          <witness xml:id="w_H">
+            <label type="siglum">H</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Hannover</settlement>
+                <repository> Landesbibl.</repository>
+                <idno> Ms. IV 488</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>um1435</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/4881"/>
+            <ptr type="digitised" target="http://digitale-sammlungen.gwlb.de/resolve?id=1728568730"/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/201882490">Wilhelm von Wenden</title>
+        <persName role="author" ref="http://viaf.org/22189713">Ulrich von Etzenbach</persName>
+        <origDate></origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">epic</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">false</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gmh"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Rosenfeld_1957_WilhelmVonWenden/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="5" size="4">
+        <label></label>
+        <node xml:id="n_Archetype" type="hypothetical" inDegree="0" outDegree="2">
+          <label>Archetype</label>
+        </node>
+        <node xml:id="n_HD" type="hypothetical" inDegree="1" outDegree="2">
+          <label>HD</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
+          <label>D</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_Archetype" to="#n_HD" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_Archetype" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_HD" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_HD" to="#n_D" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+      <noteGrp>
+        <note target="#arc_1">"so gehörte die Hs. F aller Wahrscheinlichkeit nach einem andern Zweige an als D und H" (Rosenfeld, S. XXIII)</note>
+        <note target="#arc_2">"so gehörte die Hs. F aller Wahrscheinlichkeit nach einem andern Zweige an als D und H" (Rosenfeld, S. XXIII)</note>
+        <note target="#arc_3">bei Rosenfeld (S. XXI) als Kriegsverlust bezeichnet, Handschriftenzensus "vorhanden"</note>
+      </noteGrp>
+    </back>
+  </text>
+</TEI>
