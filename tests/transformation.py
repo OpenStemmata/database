@@ -414,15 +414,32 @@ def tr(changed_file):
     # msFrag for fragements scattered with multiple shelfmarks
     witnesses = root.findall(".//witness", ns)
     for witness in witnesses:
-        msDescs = witness.findall('./msDesc')
+        msDescs = witness.findall('./msDesc') + witness.findall('./idno')
         if len(msDescs) > 1:
             new_MsDesc = et.Element("msDesc")
-            witness.insert(1, new_MsDesc)
+            witness.insert(2, new_MsDesc)
+            counter = 0
             for msDescr in msDescs:
+                if counter < 1:
+                    # The first identifier goes to the root of the msDesc
+                    counter += 1
+                    if msDescr.find('./msIdentifier') is not None:
+                        new_MsDesc.insert(1, msDescr.find('./msIdentifier'))
+                        witness.remove(msDescr)
+                    else:
+                        new_MsDesc.insert(1, msDescr)
+                    continue
+
                 frag = et.Element('msFrag')
                 new_MsDesc.append(frag)
-                frag.append(msDescr.find('./msIdentifier'))
-                witness.remove(msDescr)
+                if msDescr.find('./msIdentifier') is not None:
+                    frag.append(msDescr.find('./msIdentifier'))
+                    witness.remove(msDescr)
+                else:
+                    idno_msIdentifier = et.SubElement(frag, 'msIdentifier')
+                    idno_placeholder_repository = et.SubElement(idno_msIdentifier, 'repository')
+                    idno_msIdentifier.append(msDescr)
+                    # witness.remove(msDescr)
 
     et.indent(tree)
 
