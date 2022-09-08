@@ -149,7 +149,7 @@ wits:
       witOrigDate: "1st. quarter 14th century"
       witOrigPlace: ""
       witNotes: "fragmented"
-      witMsDesc: ""https://handschriftencensus.de/23753
+      witMsDesc: "https://handschriftencensus.de/23753"
       witDigit: "https://daten.digitale-sammlungen.de/bsb00070299/image_1"
     - witSigla: "Fragm. 13"
       witSignature: "Dresden, Bibl. des Gymnasiums zum Heiligen Kreuz, ohne Sign. (1)"
