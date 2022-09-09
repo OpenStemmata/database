@@ -1,0 +1,10 @@
+digraph {
+O [color="grey"];
+O -> x ;
+x [color="grey"];
+x -> G; 
+x -> a;
+a [color="grey"];
+a -> B; 
+a -> S; 
+}
