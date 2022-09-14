@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Fierabras (Jean Bagnyon)</title>
+        <author>Hans-Erich Keller</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Benedetta Salvati</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>L’Histoire de Charlemagne: parfois dite Roman de Fierabras</title>
+          <author>Hans-Erich Keller</author>
+          <date>1992</date>
+          <pubPlace>Genève</pubPlace>
+          <series>Droz</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="xxxvii"/>
+          <ptr type="digitised" target="https://books.google.fr/books?id=tX8tNfTK8-8C&amp;pg=PP1&amp;lpg=PP1&amp;dq=ehan+Bagnyon,+L%27histoire+de+Charlemagne+(parfois+dite+%22Roman+de+Fierabras%22),+publi%C3%A9e+par+Hans-Erich+Keller,+Gen%C3%A8ve,+Droz&amp;source=bl&amp;ots=CCDBnNov1H&amp;sig=ACfU3U1FyycmwlvwP1rmlaOOdfEl8t37Lg&amp;hl=it&amp;sa=X&amp;ved=2ahUKEwjgnZjP7Yf6AhXF8IUKHbKQBmUQ6AF6BAgUEAM#v=onepage&amp;q=ehan%20Bagnyon%2C%20L’histoire%20de%20Charlemagne%20(parfois%20dite%20%22Roman%20de%20Fierabras%22)%2C%20publi%C3%A9e%20par%20Hans-Erich%20Keller%2C%20Gen%C3%A8ve%2C%20Droz&amp;f=false"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Genève</settlement>
+                <repository> Bibliothèque Publique et Universitaire</repository>
+                <idno> fr. 188</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1470-1478</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Cologny-Genève</settlement>
+                <repository> Bibliothèque Bodmeriana</repository>
+                <idno> fr. 15</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>15th c.</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_S">
+            <label type="siglum">S</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Genève</settlement>
+                <repository> Bibliothèque Publique et Universitaire</repository>
+                <idno> Hf. 350 Rés.</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>28 november 1478</origDate>
+            <origPlace></origPlace>
+            <note>printed book</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Fierabras (Jean Bagnyon)</title>
+        <persName role="author" ref="http://viaf.org/">Jean Bagnyon</persName>
+        <origDate>1470-1478</origDate>
+        <origPlace>Lausanne</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">mise en prose</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">excluded</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="frm"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/frm/Keller_1992_FierabrasJeanBagnyon/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="6" size="5">
+        <label></label>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1">
+          <label>O</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="2">
+          <label>a</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_S" type="witness" inDegree="1" outDegree="0">
+          <label>S</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_O" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_x" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_x" to="#n_a" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_a" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_a" to="#n_S" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>
