@@ -20,7 +20,7 @@ workOrigPlace : ""
 workAuthors:
     - workAuthor: "Anonymous"
       workAuthorViaf: ""
-workGenre : ""
+workGenre : "Chivalric romance"
 workLangCode : "gmh"
 stemmaType : "reconstructed"
 drawnStemma : "false"
@@ -33,7 +33,7 @@ derivatives : "NA"
 contributors:
     - contributor: "Johannes Barnsteiner"
       contributorORCID: ""
-note : "Quotation from the source: »Eine ganze Reihe von Indizien spricht dafür, dass die jüngere Hs. B eine direkte Abschrift der älteren Hs. A ist« (p. XIX)"
+note : "Quotation from the source: »Eine ganze Reihe von Indizien spricht dafür, dass die jüngere Hs. B eine direkte Abschrift der älteren Hs. A ist« (p. XIX). Malagis is an adaptation of Maugis d'Aigremont made from the Middle Dutch version, Madelgijs (Arlima)."
 wits:
     - witSigla: "B"
       witSignature: "Heidelberg, Universitätsbibliothek, Cpg 315"

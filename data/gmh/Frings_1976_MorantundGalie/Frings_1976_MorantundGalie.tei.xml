@@ -6,11 +6,8 @@
     <fileDesc>
       <titleStmt>
         <title type="standard">Stemma of</title>
-        <title type="variable">Malagis</title>
-        <author>Bentzinger, Rudolf</author>
-        <author>de Smet, Gilbert A. R.</author>
-        <author>Duijvestijn, Bob W. Th.</author>
-        <author>Haase, Annegret</author>
+        <title type="variable">Morant und Galie</title>
+        <author>Frings, Theodor</author>
         <respStmt>
           <resp>contributed to OpenStemmata by</resp>
           <persName>Johannes Barnsteiner</persName>
@@ -28,72 +25,69 @@
         </availability>
       </publicationStmt>
       <notesStmt>
-        <note>Quotation from the source: »Eine ganze Reihe von Indizien spricht dafür, dass die jüngere Hs. B eine direkte Abschrift der älteren Hs. A ist« (p. XIX). Malagis is an adaptation of Maugis d'Aigremont made from the Middle Dutch version, Madelgijs (Arlima).</note>
+        <note></note>
       </notesStmt>
       <sourceDesc>
         <bibl type="book">
-          <title>Der deutsche Malagis nach den Heidelberger Handschriften CPG 340 und CPG 315</title>
-          <author>Bentzinger, Rudolf</author>
-          <author>de Smet, Gilbert A. R.</author>
-          <author>Duijvestijn, Bob W. Th.</author>
-          <author>Haase, Annegret</author>
-          <date>2000</date>
+          <title>Morant und Galie</title>
+          <author>Frings, Theodor</author>
+          <date>1976</date>
           <pubPlace>Berlin</pubPlace>
           <series>Deutsche Texte des Mittelalters</series>
           <!-- Numero de série -->
-          <biblScope unit="volume" n="82"/>
-          <biblScope unit="page" n=""/>
+          <biblScope unit="volume" n="69"/>
+          <biblScope unit="page" n="XXXVI"/>
           <ptr type="digitised" target=""/>
         </bibl>
         <listWit>
-          <witness xml:id="w_B">
-            <label type="siglum">B</label>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
             <msDesc>
               <msIdentifier>
-                <settlement>Heidelberg</settlement>
-                <repository> Universitätsbibliothek</repository>
-                <idno> Cpg 315</idno>
+                <settlement>Cologne</settlement>
+                <repository> Historisches Archiv der Stadt</repository>
+                <idno> Best. 7020 (W*) 3</idno>
               </msIdentifier>
             </msDesc>
-            <origDate>ca. 1480</origDate>
-            <origPlace>Rottenburg (?)</origPlace>
-            <note></note>
-            <ptr type="description" target="https://handschriftencensus.de/4905"/>
-            <ptr type="digitised" target="https://doi.org/10.11588/diglit.1856"/>
-          </witness>
-          <witness xml:id="w_A">
-            <label type="siglum">A</label>
-            <msDesc>
-              <msIdentifier>
-                <settlement>Heidelberg</settlement>
-                <repository> Universitätsbibliothek</repository>
-                <idno> Cpg 340</idno>
-              </msIdentifier>
-            </msDesc>
-            <origDate>ca. 1465</origDate>
+            <origDate>1410-1420</origDate>
             <origPlace></origPlace>
             <note></note>
-            <ptr type="description" target="https://handschriftencensus.de/4917"/>
-            <ptr type="digitised" target="https://doi.org/10.11588/diglit.150"/>
+            <ptr type="description" target="https://handschriftencensus.de/5211"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Kraków</settlement>
+                <repository> Bibl. Jagiellońska</repository>
+                <idno> Berol. mgq 666</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1400-1425</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/1863"/>
+            <ptr type="digitised" target=""/>
           </witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
-        <title ref="http://viaf.org/189731020">Malagis</title>
+        <title ref="http://viaf.org/220423428">Morant und Galie</title>
         <persName role="author" ref="http://viaf.org/">Anonymous</persName>
         <origDate></origDate>
         <origPlace></origPlace>
       </creation>
       <textClass>
         <keywords>
-          <term type="workGenre">Chivalric romance</term>
+          <term type="workGenre">epic</term>
           <term type="stemmaType">reconstructed</term>
           <term type="contam">no</term>
           <term type="extraStemmContam">no</term>
           <term type="rootType">unspecified</term>
-          <term type="drawnStemma">false</term>
+          <term type="drawnStemma">true</term>
           <term type="sourceText">NA</term>
           <term type="derivatives">NA</term>
         </keywords>
@@ -107,23 +101,35 @@
     </revisionDesc>
   </teiHeader>
   <facsimile>
-    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/HaaseDuijvestijnSmetBentzinger_2000_DerdeutscheMalagis/stemma.png?raw=true"/>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Frings_1976_MorantundGalie/stemma.png?raw=true"/>
   </facsimile>
   <text>
     <body>
-      <graph type="directed" order="3" size="2">
-        <label>0</label>
-        <node xml:id="n_Archetype" type="hypothetical" inDegree="0" outDegree="1">
-          <label>Archetype</label>
+      <graph type="directed" order="6" size="5">
+        <label>1</label>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1">
+          <label>O*</label>
         </node>
-        <node xml:id="n_A" type="witness" inDegree="1" outDegree="1">
+        <node xml:id="n_X" type="hypothetical" inDegree="1" outDegree="2">
+          <label>X*</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_Y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Y*</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
           <label>A</label>
         </node>
-        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
-          <label>B</label>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
         </node>
-        <arc xml:id="arc_1" from="#n_Archetype" to="#n_A" od:type="filiation" cert="unknown"/>
-        <arc xml:id="arc_2" from="#n_A" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_1" from="#n_O" to="#n_X" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_X" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_X" to="#n_Y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_Y" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_Y" to="#n_C" od:type="filiation" cert="unknown"/>
       </graph>
     </body>
     <back>

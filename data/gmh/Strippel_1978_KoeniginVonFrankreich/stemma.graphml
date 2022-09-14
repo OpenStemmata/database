@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d4" for="edge" attr.name="note" attr.type="string"/>
+<key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="X">
+  <data key="d0">grey</data>
+</node>
+<node id="ALNP">
+  <data key="d0">grey</data>
+  <data key="d1">*ALNP</data>
+</node>
+<node id="Astar">
+  <data key="d0">grey</data>
+  <data key="d1">*A</data>
+</node>
+<node id="A"/>
+<node id="LNP">
+  <data key="d1">*LNP</data>
+  <data key="d0">grey</data>
+</node>
+<node id="LN">
+  <data key="d1">*LN</data>
+  <data key="d0">grey</data>
+</node>
+<node id="L"/>
+<node id="N"/>
+<node id="P"/>
+<node id="BCODE">
+  <data key="d1">*BCODE</data>
+  <data key="d0">grey</data>
+</node>
+<node id="BCO">
+  <data key="d1">*BCO</data>
+  <data key="d0">grey</data>
+</node>
+<node id="BC">
+  <data key="d1">*BC</data>
+  <data key="d0">grey</data>
+</node>
+<node id="B"/>
+<node id="C"/>
+<node id="O"/>
+<node id="DE">
+  <data key="d1">*DE</data>
+  <data key="d0">grey</data>
+</node>
+<node id="D"/>
+<node id="E"/>
+<node id="HIK">
+  <data key="d1">*HIK</data>
+  <data key="d0">grey</data>
+</node>
+<node id="HI">
+  <data key="d1">*HI</data>
+  <data key="d0">grey</data>
+</node>
+<node id="H"/>
+<node id="I"/>
+<node id="K"/>
+<node id="FGSTUVw">
+  <data key="d0">grey</data>
+  <data key="d1">*FGSTUVw</data>
+</node>
+<node id="FG">
+  <data key="d0">grey</data>
+  <data key="d1">*FG</data>
+</node>
+<node id="F"/>
+<node id="G"/>
+<node id="STUVw">
+  <data key="d1">*STUVw</data>
+  <data key="d0">grey</data>
+</node>
+<node id="S"/>
+<node id="TUVw">
+  <data key="d1">*TUVw</data>
+  <data key="d0">grey</data>
+</node>
+<node id="T"/>
+<node id="UV">
+  <data key="d1">*UV</data>
+  <data key="d0">grey</data>
+</node>
+<node id="w"/>
+<node id="U1">
+  <data key="d1">*U</data>
+  <data key="d0">grey</data>
+</node>
+<node id="U"/>
+<node id="Neid">
+  <data key="d0">grey</data>
+  <data key="d1">*Neid.</data>
+</node>
+<node id="V"/>
+<edge source="X" target="ALNP">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="X" target="BCODE">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="X" target="HIK">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="X" target="FGSTUVw">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="ALNP" target="Astar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+  <data key="d4"> oral transmission
+</data>
+</edge>
+<edge source="ALNP" target="LNP">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Astar" target="A">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="LNP" target="LN">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="LNP" target="P">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="LN" target="L">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="LN" target="N">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="BCODE" target="BCO">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="BCODE" target="DE">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="BCO" target="BC">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="BCO" target="O">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+  <data key="d4"> oral transmission
+</data>
+</edge>
+<edge source="BC" target="B">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="BC" target="C">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="DE" target="D">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="DE" target="E">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="HIK" target="HI">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="HIK" target="K">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="HI" target="H">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="HI" target="I">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="FGSTUVw" target="FG">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="FGSTUVw" target="STUVw">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="FG" target="F">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+  <data key="d4">oral transmission
+</data>
+</edge>
+<edge source="FG" target="G">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="FG" target="V">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="STUVw" target="S">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="STUVw" target="TUVw">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="TUVw" target="T">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="TUVw" target="UV">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="TUVw" target="w">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="UV" target="U1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+  <data key="d4">oral transmission
+</data>
+</edge>
+<edge source="UV" target="Neid">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="U1" target="U">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Neid" target="V">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>
