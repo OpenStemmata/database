@@ -36,7 +36,7 @@ note : ""
 wits:
     - witSigla: "Gr"
       witSignature: "Privatbesitz"
-      witOrigDate: ""von um 1200 bis etwa in die erste Hälfte des 14. Jh." Klein [1988]"
+      witOrigDate: "1200-1350"
       witOrigPlace: ""
       witNotes: "lost"
       witMsDesc: "https://handschriftencensus.de/1099"
