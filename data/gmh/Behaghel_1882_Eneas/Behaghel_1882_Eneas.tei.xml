@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Eneide</title>
+        <author>Behaghel, Otto</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName>
+        </respStmt>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Johannes Barnsteiner</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Heinrich von Veldeke: Eneide</title>
+          <author>Behaghel, Otto</author>
+          <date>1882</date>
+          <pubPlace>Heilbronn</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="XXXVI"/>
+          <ptr type="digitised" target="https://katalog.ub.uni-heidelberg.de/titel/1192007"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Berlin</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> mgf 282</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1220-1230</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/1062"/>
+            <ptr type="digitised" target="http://resolver.staatsbibliothek-berlin.de/SBB0001AE7F00000000"/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Cologny-Genf</settlement>
+                <repository> Bibl. Bodmeriana</repository>
+                <idno> Cod. Bodm. 83</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1250-1275</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/2814"/>
+            <ptr type="digitised" target="https://www.e-codices.unifr.ch/de/list/one/fmb/cb-0083"/>
+          </witness>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Gotha</settlement>
+                <repository> Forschungsbibl. der Universität Erfurt</repository>
+                <idno> Cod. Chart. A 584</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1470-1475</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/3907"/>
+            <ptr type="digitised" target="https://nbn-resolving.org/urn:nbn:de:urmel-2d31590b-af3e-4125-b023-27fed81923ed1"/>
+          </witness>
+          <witness xml:id="w_H">
+            <label type="siglum">H</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Heidelberg</settlement>
+                <repository> Universitätsbibl.</repository>
+                <idno> Cpg 368</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1275-1300</origDate>
+            <origPlace>Würzburg</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/2296"/>
+            <ptr type="digitised" target="https://doi.org/10.11588/diglit.172"/>
+          </witness>
+          <witness xml:id="w_h">
+            <label type="siglum">h</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Heidelberg</settlement>
+                <repository> Universitätsbibl.</repository>
+                <idno> Cpg 403</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1419</origDate>
+            <origPlace>Straßburg</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/4943"/>
+            <ptr type="digitised" target="https://doi.org/10.11588/diglit.2215"/>
+          </witness>
+          <witness xml:id="w_P">
+            <label type="siglum">P</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Krakau</settlement>
+                <repository> Bibl. Jagiellońska</repository>
+                <idno> Berol. mgq 1303 Nr. 3</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1250-1260</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/1198"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Wa">
+            <label type="siglum">Wa</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Marburg</settlement>
+                <repository> Staatsarchiv</repository>
+                <idno> Best. 147 Hr 1 Nr. 12</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1300-1320</origDate>
+            <origPlace></origPlace>
+            <note>lost</note>
+            <ptr type="description" target="https://handschriftencensus.de/1198"/>
+            <ptr type="digitised" target="http://marburger-repertorien.de/abbildungen/1867a_HS_MR_StA_Best147_Hr1_Nr12_001.jpg"/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> Cgm 57</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1300-1350</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/2250"/>
+            <ptr type="digitised" target="https://mdz-nbn-resolving.de/bsb00095927 https://daten.digitale-sammlungen.de/bsb00074632/image_1"/>
+          </witness>
+          <witness xml:id="w_Me">
+            <label type="siglum">Me</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> Cgm 5199</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1215-1240</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/1197"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_R">
+            <label type="siglum">R</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> Cgm 5249/19</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1200</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/1196"/>
+            <ptr type="digitised" target="http://marburger-repertorien.de/abbildungen/mr13/pic0303_1v.jpg"/>
+          </witness>
+          <witness xml:id="w_w">
+            <label type="siglum">w</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wien</settlement>
+                <repository> Österr. Nationalbibl.</repository>
+                <idno> Cod. 2861</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1474</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/6529"/>
+            <ptr type="digitised" target="http://data.onb.ac.at/rec/AC13959914 https://manuscripta.at/kataloge/AT/CMDA/imgpdf/CMDA_3/410.pdf"/>
+          </witness>
+          <witness xml:id="w_Wo">
+            <label type="siglum">Wo</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wolfenbüttel</settlement>
+                <repository> Herzog August Bibl.</repository>
+                <idno> Cod. 404.9 (4) Novi</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1200</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/1200"/>
+            <ptr type="digitised" target="http://diglib.hab.de/mss/404-9-novi-4/start.htm"/>
+          </witness>
+          <witness xml:id="w_Ham">
+            <label type="siglum">Ham</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Switzerland</settlement>
+                <repository> Privatbesitz</repository>
+                <idno> s.n.</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1225-1250</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/1079"/>
+            <ptr type="digitised" target="http://www.zfda.de/images/pic_prguen_xiii2_r.jpg"/>
+          </witness>
+          <witness xml:id="w_Gr">
+            <label type="siglum">Gr</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Unknown</settlement>
+                <repository> Privatbesitz</repository>
+                <idno> s.n.</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1200-1350</origDate>
+            <origPlace></origPlace>
+            <note>lost</note>
+            <ptr type="description" target="https://handschriftencensus.de/1099"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/197068613">Eneide</title>
+        <persName role="author" ref="http://viaf.org/72188703">Heinrich von Veldeke</persName>
+        <origDate>1187-1189</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre"></term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gmh"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Behaghel_1882_Eneas/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="21" size="20">
+        <label></label>
+        <node xml:id="n_Archetype" type="hypothetical" inDegree="0" outDegree="1">
+          <label>O</label>
+        </node>
+        <node xml:id="n_O1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>O1</label>
+        </node>
+        <node xml:id="n_X" type="hypothetical" inDegree="1" outDegree="3">
+          <label>X</label>
+        </node>
+        <node xml:id="n_Y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Y</label>
+        </node>
+        <node xml:id="n_Wo" type="witness" inDegree="1" outDegree="0">
+          <label>(Wo)</label>
+        </node>
+        <node xml:id="n_X1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>X1</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <node xml:id="n_R" type="witness" inDegree="1" outDegree="0">
+          <label>R</label>
+        </node>
+        <node xml:id="n_X2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>X2</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+          <label>P</label>
+        </node>
+        <node xml:id="n_Z" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Z</label>
+        </node>
+        <node xml:id="n_w" type="witness" inDegree="1" outDegree="0">
+          <label>w</label>
+        </node>
+        <node xml:id="n_Z1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Z1</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_Z2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Z2</label>
+        </node>
+        <node xml:id="n_Me" type="witness" inDegree="1" outDegree="0">
+          <label>Me</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_h" type="witness" inDegree="1" outDegree="0">
+          <label>h</label>
+        </node>
+        <node xml:id="n_Y1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Y1</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_Archetype" to="#n_O1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_O1" to="#n_X" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_O1" to="#n_Y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_X" to="#n_Wo" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_5" from="#n_X" to="#n_X1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_X" to="#n_X2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_Y" to="#n_h" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_Y" to="#n_Y1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_X1" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_X1" to="#n_R" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_X2" to="#n_P" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_X2" to="#n_Z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_Z" to="#n_w" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_Z" to="#n_Z1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_Z1" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_Z1" to="#n_Z2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_Z2" to="#n_Me" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_Z2" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_Y1" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_Y1" to="#n_H" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+      <noteGrp>
+        <note target="#n_Wo">The parenthesis indicates uncertainty in the placing of this manuscript within the stemma.</note>
+        <note target="#arc_4">The uncertainty is expressed in the printed stemma by the parenthesis around Wo. This is a one page fragment.</note>
+      </noteGrp>
+    </back>
+  </text>
+</TEI>

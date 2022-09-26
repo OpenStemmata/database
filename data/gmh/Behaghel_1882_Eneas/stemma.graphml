@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d5" for="edge" attr.name="note" attr.type="string"/>
+<key id="d4" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d3" for="edge" attr.name="type" attr.type="string"/>
+<key id="d2" for="node" attr.name="note" attr.type="string"/>
+<key id="d1" for="node" attr.name="color" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="Archetype">
+  <data key="d0">O</data>
+  <data key="d1">grey</data>
+</node>
+<node id="O1">
+  <data key="d0">O1</data>
+  <data key="d1">grey</data>
+</node>
+<node id="X">
+  <data key="d0">X</data>
+  <data key="d1">grey</data>
+</node>
+<node id="Y">
+  <data key="d0">Y</data>
+  <data key="d1">grey</data>
+</node>
+<node id="Wo">
+  <data key="d0">(Wo)</data>
+  <data key="d2"> The parenthesis indicates uncertainty in the placing of this manuscript within the stemma.&#13;
+</data>
+</node>
+<node id="X1">
+  <data key="d0">X1</data>
+  <data key="d1">grey</data>
+</node>
+<node id="G"/>
+<node id="R"/>
+<node id="X2">
+  <data key="d0">X2</data>
+  <data key="d1">grey</data>
+</node>
+<node id="P"/>
+<node id="Z">
+  <data key="d0">Z</data>
+  <data key="d1">grey</data>
+</node>
+<node id="w"/>
+<node id="Z1">
+  <data key="d0">Z1</data>
+  <data key="d1">grey</data>
+</node>
+<node id="B"/>
+<node id="Z2">
+  <data key="d0">Z2</data>
+  <data key="d1">grey</data>
+</node>
+<node id="Me"/>
+<node id="M"/>
+<node id="h"/>
+<node id="Y1">
+  <data key="d0">Y1</data>
+  <data key="d1">grey</data>
+</node>
+<node id="E"/>
+<node id="H"/>
+<edge source="Archetype" target="O1">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="O1" target="X">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="O1" target="Y">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="X" target="Wo">
+  <data key="d3">filiation</data>
+  <data key="d4">low</data>
+  <data key="d5"> The uncertainty is expressed in the printed stemma by the parenthesis around Wo. This is a one page fragment.&#13;
+</data>
+</edge>
+<edge source="X" target="X1">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="X" target="X2">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="Y" target="h">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="Y" target="Y1">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="X1" target="G">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="X1" target="R">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="X2" target="P">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="X2" target="Z">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="Z" target="w">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="Z" target="Z1">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="Z1" target="B">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="Z1" target="Z2">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="Z2" target="Me">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="Z2" target="M">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="Y1" target="E">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="Y1" target="H">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+</graph></graphml>
