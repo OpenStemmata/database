@@ -30,7 +30,7 @@ derivatives : "NA"
 contributors:
     - contributor: "Benedetta Salvati"
       contributorORCID: ""
-note : ""
+note : "a, b, c and d are witnesses of the original rhymed version, not of this mise en prose."
 wits:
     - witSigla: "B"
       witSignature: "Bruxelles, KBR, 9631"
