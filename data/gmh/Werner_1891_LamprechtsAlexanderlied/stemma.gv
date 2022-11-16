@@ -1,0 +1,14 @@
+digraph {
+
+Archetype [label="A", color="grey"]
+V1 [label="V¹", color="grey"]
+M [label="*M"] # Asterik indicates that the witness is lost, but there are modern transcriptions.
+Archetype -> V1
+Archetype -> M
+
+V1 -> V
+B1 [label="B¹", color="grey"]
+V1 -> B1
+B1 -> B 
+
+}
