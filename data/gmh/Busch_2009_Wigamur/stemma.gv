@@ -1,0 +1,15 @@
+# Place the cursor inside "graph" to get some refactoring options
+
+digraph {
+
+Archetype [label="x", color="grey"]
+y [label="y", color="grey"]
+
+Archetype -> M
+Archetype -> y
+
+y1 [label="y1", color="grey"]
+y -> y1
+y -> S
+y1 -> W
+}
