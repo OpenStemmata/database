@@ -18,7 +18,7 @@ workAuthors:
     - workAuthor: "Anonymous"
       workAuthorViaf: ""
 workGenre : "Islendingasaga"
-workLangCode : "xxx"
+workLangCode : "non"
 stemmaType : "reconstructed"
 drawnStemma : "true"
 contam : "no"

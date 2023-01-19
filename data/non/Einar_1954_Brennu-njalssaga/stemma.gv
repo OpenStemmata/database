@@ -1,4 +1,4 @@
-digraph njala {
+digraph {
 
     Astar -> Xstar
     Astar -> Vstar
@@ -16,7 +16,6 @@ digraph njala {
     Zstar -> Sv2
 
     Xstar -> x1star
-    // Xstar -> K2R2R4O3
     Xstar -> K2 [color="grey"]
     Xstar -> R2 [color="grey"]
     Xstar -> R4 [color="grey"]
@@ -25,7 +24,7 @@ digraph njala {
     x1star -> x2star
     x1star -> x3star
     
-    // x2star -> gamma_et_al
+
     x2star -> gamma [color="grey"]
     x2star -> delta [color="grey"]
     x2star -> epsilon [color="grey"]
@@ -34,7 +33,6 @@ digraph njala {
     x2star -> Sv1 [color="grey"]
     x2star -> Ga1 [color="grey"]
     
-    // x3star -> R1_et_al
     x3star -> R1 [color="grey"]
     x3star -> R3 [color="grey"]
     x3star -> K1 [color="grey"]
@@ -54,13 +52,11 @@ digraph njala {
     x2star[color="grey", label="*x₂"]
     x3star[color="grey", label="*x₃"]
 
-    // K2R2R4O3[label="K2, R2, R4, O3"]
     K2[label="K2"]
     R2[label="R2"]
     R4[label="R4"]
     O3[label="O3"]
 
-    // gamma_et_al [label="γ, δ, ε, ζ, S2, Sv1, Ga1"]
     gamma [label="γ"]
     delta [label="δ"]
     epsilon [label="ε"]
@@ -69,15 +65,12 @@ digraph njala {
     Sv1   [label="Sv1"]
     Ga1   [label="Ga1"]
     
-    // R1_et_al [label="R1, R3, K1, Bb1, Bb3, O1 (O2)"]
     R1  [label="R1"]
     R3  [label="R3"]
     K1  [label="K1"]
     Bb1 [label="Bb1"]
     Bb3 [label="Bb3"]
     O1  [label="O1"]
-    // O2bis [label="(O2)"]
-    // This parenthesized O2 marks contamination
 
 }
 
