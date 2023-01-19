@@ -1,4 +1,4 @@
-digraph njala {
+digraph {
 
     Astar -> Xstar
     Astar -> Vstar
