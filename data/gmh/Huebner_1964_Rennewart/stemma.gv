@@ -1,0 +1,65 @@
+digraph {
+    Original -> Archetypus
+    Original[color="grey"]
+    Archetypus[color="grey"]
+
+    Archetypus -> Alpha
+    Alpha[label="α", color="grey"]
+    
+    Alpha -> V
+    V -> M
+    Alpha -> Z[style=dashed]
+    Alpha -> Gamma 
+    Gamma[label="γ", color="grey"]
+    Gamma -> Ypsilon
+    Ypsilon[label="Y"]
+    Gamma -> B 
+
+    Archetypus -> LinieBeta
+    LinieBeta[label="β", color="grey"]
+    LinieBeta -> Epsilon
+    Epsilon[label="ε", color="grey"]
+    Epsilon -> D
+    D -> H 
+    Epsilon -> N 
+    LinieBeta -> Delta
+    Delta[label="δ", color="grey"]
+    Delta -> QO
+    QO[label="", color="grey"]
+    QO -> Q
+    QO -> O 
+    Delta -> GIJKLSTUWZb
+    GIJKLSTUWZb[label="", color="grey"]
+    GIJKLSTUWZb -> Z
+    GIJKLSTUWZb -> G 
+    GIJKLSTUWZb -> I
+    GIJKLSTUWZb -> J
+    GIJKLSTUWZb -> K 
+    GIJKLSTUWZb -> L 
+    GIJKLSTUWZb -> S
+    GIJKLSTUWZb -> T
+    GIJKLSTUWZb -> U
+    GIJKLSTUWZb -> W
+    GIJKLSTUWZb -> Zb 
+    Delta -> Eta
+    Eta[label="η", color="grey"]
+    Eta -> Theta
+    Theta[label="θ", color="grey"]
+    Theta -> 2
+    Theta -> 1 
+    Eta -> p 
+
+    Archetypus -> Gamma2
+    Gamma2[label="", color=grey]
+    Gamma2 -> A 
+    Gamma2 -> C 
+    Gamma2 -> E 
+    Gamma2 -> F
+    Gamma2 -> R
+    Gamma2 -> X
+    Gamma2 -> Za
+    Gamma2 -> Zc 
+    Gamma2 -> Zd 
+    Gamma2 -> Zw 
+
+}
