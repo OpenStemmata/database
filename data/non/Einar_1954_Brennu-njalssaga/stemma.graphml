@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="Astar">
+  <data key="d0">grey</data>
+  <data key="d1">*A</data>
+</node>
+<node id="Xstar">
+  <data key="d0">grey</data>
+  <data key="d1">*X</data>
+</node>
+<node id="Vstar">
+  <data key="d0">grey</data>
+  <data key="d1">*V</data>
+</node>
+<node id="Ystar">
+  <data key="d0">grey</data>
+  <data key="d1">*Y</data>
+</node>
+<node id="Zstar">
+  <data key="d0">grey</data>
+  <data key="d1">*Z</data>
+</node>
+<node id="M"/>
+<node id="y1star">
+  <data key="d0">grey</data>
+  <data key="d1">*y₁</data>
+</node>
+<node id="Ga2"/>
+<node id="O2"/>
+<node id="Bb2"/>
+<node id="Gr"/>
+<node id="S1"/>
+<node id="Sv2"/>
+<node id="x1star">
+  <data key="d0">grey</data>
+  <data key="d1">*x₁</data>
+</node>
+<node id="// Xstar"/>
+<node id="K2R2R4O3"/>
+<node id="K2">
+  <data key="d1">K2</data>
+</node>
+<node id="R2">
+  <data key="d1">R2</data>
+</node>
+<node id="R4">
+  <data key="d1">R4</data>
+</node>
+<node id="O3">
+  <data key="d1">O3</data>
+</node>
+<node id="x2star">
+  <data key="d0">grey</data>
+  <data key="d1">*x₂</data>
+</node>
+<node id="x3star">
+  <data key="d0">grey</data>
+  <data key="d1">*x₃</data>
+</node>
+<node id="// x2star"/>
+<node id="gamma_et_al"/>
+<node id="gamma">
+  <data key="d1">γ</data>
+</node>
+<node id="delta">
+  <data key="d1">δ</data>
+</node>
+<node id="epsilon">
+  <data key="d1">ε</data>
+</node>
+<node id="zeta">
+  <data key="d1">ζ</data>
+</node>
+<node id="S2">
+  <data key="d1">S2</data>
+</node>
+<node id="Sv1">
+  <data key="d1">Sv1</data>
+</node>
+<node id="Ga1">
+  <data key="d1">Ga1</data>
+</node>
+<node id="// x3star"/>
+<node id="R1_et_al"/>
+<node id="R1">
+  <data key="d1">R1</data>
+</node>
+<node id="R3">
+  <data key="d1">R3</data>
+</node>
+<node id="K1">
+  <data key="d1">K1</data>
+</node>
+<node id="Bb1">
+  <data key="d1">Bb1</data>
+</node>
+<node id="Bb3">
+  <data key="d1">Bb3</data>
+</node>
+<node id="O1">
+  <data key="d1">O1</data>
+</node>
+<node id="// K2R2R4O3">
+  <data key="d1">K2, R2, R4, O3</data>
+</node>
+<node id="// gamma_et_al">
+  <data key="d1">γ, δ, ε, ζ, S2, Sv1, Ga1</data>
+</node>
+<node id="// R1_et_al">
+  <data key="d1">R1, R3, K1, Bb1, Bb3, O1 (O2)</data>
+</node>
+<node id="// O2bis">
+  <data key="d1">(O2)</data>
+</node>
+<edge source="Astar" target="Xstar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Astar" target="Vstar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Xstar" target="x1star">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Xstar" target="K2">
+  <data key="d2">filiation</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="Xstar" target="R2">
+  <data key="d2">filiation</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="Xstar" target="R4">
+  <data key="d2">filiation</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="Xstar" target="O3">
+  <data key="d2">filiation</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="Vstar" target="Ystar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Vstar" target="Zstar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Ystar" target="M">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Ystar" target="y1star">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Ystar" target="Ga2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Zstar" target="Gr">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Zstar" target="S1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Zstar" target="Sv2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="y1star" target="O2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="y1star" target="Bb2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x1star" target="x2star">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x1star" target="x3star">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="// Xstar" target="K2R2R4O3">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x2star" target="gamma">
+  <data key="d2">filiation</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="x2star" target="delta">
+  <data key="d2">filiation</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="x2star" target="epsilon">
+  <data key="d2">filiation</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="x2star" target="zeta">
+  <data key="d2">filiation</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="x2star" target="S2">
+  <data key="d2">filiation</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="x2star" target="Sv1">
+  <data key="d2">filiation</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="x2star" target="Ga1">
+  <data key="d2">filiation</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="x3star" target="R1">
+  <data key="d2">filiation</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="x3star" target="R3">
+  <data key="d2">filiation</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="x3star" target="K1">
+  <data key="d2">filiation</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="x3star" target="Bb1">
+  <data key="d2">filiation</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="x3star" target="Bb3">
+  <data key="d2">filiation</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="x3star" target="O1">
+  <data key="d2">filiation</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="x3star" target="O2">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="// x2star" target="gamma_et_al">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="// x3star" target="R1_et_al">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>
