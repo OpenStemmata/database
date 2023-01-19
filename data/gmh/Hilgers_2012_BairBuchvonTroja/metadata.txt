@@ -19,7 +19,7 @@ workOrigPlace : ""
 workAuthors:
     - workAuthor: ""
       workAuthorViaf: ""
-workGenre : ""
+workGenre : "epic"
 workLangCode : "gmh"
 stemmaType : "reconstructed"
 drawnStemma : "true"
