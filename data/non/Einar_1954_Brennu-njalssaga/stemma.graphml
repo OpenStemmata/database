@@ -38,8 +38,6 @@
   <data key="d0">grey</data>
   <data key="d1">*x₁</data>
 </node>
-<node id="// Xstar"/>
-<node id="K2R2R4O3"/>
 <node id="K2">
   <data key="d1">K2</data>
 </node>
@@ -60,8 +58,6 @@
   <data key="d0">grey</data>
   <data key="d1">*x₃</data>
 </node>
-<node id="// x2star"/>
-<node id="gamma_et_al"/>
 <node id="gamma">
   <data key="d1">γ</data>
 </node>
@@ -83,8 +79,6 @@
 <node id="Ga1">
   <data key="d1">Ga1</data>
 </node>
-<node id="// x3star"/>
-<node id="R1_et_al"/>
 <node id="R1">
   <data key="d1">R1</data>
 </node>
@@ -102,18 +96,6 @@
 </node>
 <node id="O1">
   <data key="d1">O1</data>
-</node>
-<node id="// K2R2R4O3">
-  <data key="d1">K2, R2, R4, O3</data>
-</node>
-<node id="// gamma_et_al">
-  <data key="d1">γ, δ, ε, ζ, S2, Sv1, Ga1</data>
-</node>
-<node id="// R1_et_al">
-  <data key="d1">R1, R3, K1, Bb1, Bb3, O1 (O2)</data>
-</node>
-<node id="// O2bis">
-  <data key="d1">(O2)</data>
 </node>
 <edge source="Astar" target="Xstar">
   <data key="d2">filiation</data>
@@ -191,10 +173,6 @@
   <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
-<edge source="// Xstar" target="K2R2R4O3">
-  <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
-</edge>
 <edge source="x2star" target="gamma">
   <data key="d2">filiation</data>
   <data key="d3">low</data>
@@ -249,14 +227,6 @@
 </edge>
 <edge source="x3star" target="O2">
   <data key="d2">contamination</data>
-  <data key="d3">unknown</data>
-</edge>
-<edge source="// x2star" target="gamma_et_al">
-  <data key="d2">filiation</data>
-  <data key="d3">unknown</data>
-</edge>
-<edge source="// x3star" target="R1_et_al">
-  <data key="d2">filiation</data>
   <data key="d3">unknown</data>
 </edge>
 </graph></graphml>
