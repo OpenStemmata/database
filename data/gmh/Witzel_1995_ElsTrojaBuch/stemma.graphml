@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="Archetype">
+  <data key="d0">grey</data>
+</node>
+<node id="X1">
+  <data key="d1">X1</data>
+  <data key="d0">grey</data>
+</node>
+<node id="Y1">
+  <data key="d1">Y1</data>
+  <data key="d0">grey</data>
+</node>
+<node id="B4"/>
+<node id="X2">
+  <data key="d1">X2</data>
+  <data key="d0">grey</data>
+</node>
+<node id="B1"/>
+<node id="X3">
+  <data key="d1">X3</data>
+  <data key="d0">grey</data>
+</node>
+<node id="S1"/>
+<node id="S3"/>
+<node id="W1"/>
+<node id="Y2">
+  <data key="d1">Y2</data>
+  <data key="d0">grey</data>
+</node>
+<node id="S2"/>
+<node id="Y3">
+  <data key="d1">Y3</data>
+  <data key="d0">grey</data>
+</node>
+<node id="Y4">
+  <data key="d1">Y4</data>
+  <data key="d0">grey</data>
+</node>
+<node id="Gi1N1">
+  <data key="d1">Gi1,N1</data>
+  <data key="d0">grey</data>
+</node>
+<node id="Gi1"/>
+<node id="N1"/>
+<node id="B3"/>
+<node id="Y5">
+  <data key="d1">Y5</data>
+  <data key="d0">grey</data>
+</node>
+<node id="B2"/>
+<node id="B5"/>
+<node id="Y6">
+  <data key="d1">Y6</data>
+  <data key="d0">grey</data>
+</node>
+<node id="A1"/>
+<node id="Go1"/>
+<node id="M1"/>
+<node id="M2"/>
+<edge source="Archetype" target="X1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Archetype" target="Y1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="X1" target="B4">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="X1" target="X2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y1" target="W1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y1" target="Y2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="X2" target="B1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="X2" target="X3">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="X3" target="S1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="X3" target="S3">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y2" target="S2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y2" target="Y3">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y3" target="Y4">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y3" target="Y5">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y3" target="Y6">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y4" target="Gi1N1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y4" target="B3">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gi1N1" target="Gi1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gi1N1" target="N1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y5" target="B2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y5" target="B5">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y6" target="A1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y6" target="Go1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y6" target="M1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y6" target="M2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>
