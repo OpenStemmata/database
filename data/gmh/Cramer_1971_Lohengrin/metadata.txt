@@ -17,7 +17,7 @@ workOrigPlace : ""
 workAuthors:
     - workAuthor: ""
       workAuthorViaf: ""
-workGenre : ""
+workGenre : "epic, arthurian"
 workLangCode : "gmh"
 stemmaType : "reconstructed"
 drawnStemma : "true"
