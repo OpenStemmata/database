@@ -1,5 +1,16 @@
 digraph {
 
+    x[color="grey"];
+    a[color="grey"]; 
+    b[color = "grey"];
+    c[label = "C(E)"];
+    d[label="A²"];
+    e[label = "A¹"];
+    f[label = "A³"];
+    g[label="A⁴"];
+    h[label="B¹"];
+    i[label="B²"];    
+
     O -> x;
     O-> c;
     O -> D;
@@ -11,16 +22,5 @@ digraph {
     a -> e;
     a -> f;
     a -> g;
-
-    x[color="grey"];
-    a[color="grey"]; 
-    b[color = "grey"];
-    c[label = "C(E)"];
-    d[label="A²"];
-    e[label = "A¹"];
-    f [label = "A³"];
-    g [label="A⁴"];
-    h [label="B¹"]
-    i [label="B²"]
 
 }
