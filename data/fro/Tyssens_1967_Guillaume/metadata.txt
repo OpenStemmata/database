@@ -1,6 +1,3 @@
-Txt
-
-
 publicationType : "book"
 publicationTitle : "La geste de Guillaume d’Orange dans les manuscrits cycliques"
 publicationDate : "1967"
