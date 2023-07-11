@@ -1,7 +1,5 @@
-# Place the cursor inside "graph" to get some refactoring options
 digraph {
 
-    # To refactor nodes, place the cursor left to a node name
     O -> x;
     O-> c;
     O -> D;
@@ -14,13 +12,12 @@ digraph {
     a -> f;
     a -> g;
 
-    # Grey color is used for hypothetical nodes; labels can be redefined if needed
-    x [color="grey"];
-    a [color="grey"]; 
-    b [color = "grey"];
-    c [label = "C(E)"];
-    d [label="A²"];
-    e [label = "A¹"];
+    x[color="grey"];
+    a[color="grey"]; 
+    b[color = "grey"];
+    c[label = "C(E)"];
+    d[label="A²"];
+    e[label = "A¹"];
     f [label = "A³"];
     g [label="A⁴"];
     h [label="B¹"]
