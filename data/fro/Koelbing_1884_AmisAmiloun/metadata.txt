@@ -53,7 +53,7 @@ wits:
       witNotes: "(Date according to Arlima)"
       witMsDesc: ""
       witDigit: ""
-    - witSigla: ""
+    - witSigla: "NA"
       witSignature: "London, British Library, Cotton, Vitellius D. III, n° 5"
       witOrigDate: "1251-1300"
       witOrigPlace: ""
