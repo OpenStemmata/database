@@ -57,6 +57,6 @@ wits:
       witSignature: "London, British Library, Cotton, Vitellius D. III, n° 5"
       witOrigDate: "1251-1300"
       witOrigPlace: ""
-      witNotes: ""Manuscrit presqu’entièrement détruit dans l'incendie de 1731" (Arlima)"
+      witNotes: "«Manuscrit presqu’entièrement détruit dans l'incendie de 1731» (Arlima)"
       witMsDesc: ""
       witDigit: ""
