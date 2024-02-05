@@ -64,7 +64,7 @@ wits:
       witSignature: "Princeton, University Library, Department of Rare Books and Special Collections, Garrett, 125"
       witOrigDate: ""
       witOrigPlace: ""
-      witNotes: "Not known/used by Stengel"
+      witNotes: "Not known by Stengel. According to Hendrickson, its editor, it is close to P"
       witMsDesc: ""
       witDigit: ""
     - witSigla: "n"
