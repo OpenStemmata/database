@@ -30,7 +30,7 @@ derivatives : "included"
 contributors:
     - contributor: "Jean-Baptiste Camps"
       contributorORCID: "0000-0003-0385-7037"
-note : "Stemma of the versions of the legend of Florent and Octavien. It only includes works, not witnesses, and start with the hypothetical source text (a lost song of the 12th century). The link between the Italian versions and source text is said to be unclear. There could also be a Castillian version (cf. Moissan), not included here."
+note : "Stemma of the versions of the legend of Florent and Octavien. It only includes works, not witnesses, and start with the hypothetical source text (a lost song of the 12th century). The link between the Italian versions and source text is said to be unclear. There could also be a Castillian version (cf. Moissan), not included here. The level of certainty of this tree is very low, and it is not argumented for in the article."
 wits:
     - witSigla: "O"
       witSignature: "Lost chanson de geste"
