@@ -1,4 +1,4 @@
-publicationType : "article"
+publicationType : "publicationPart"
 publicationTitle : "Bruchstück der Chanson de Garin de Monglane"
 publicationDate : "1882"
 publicationPlaces:
