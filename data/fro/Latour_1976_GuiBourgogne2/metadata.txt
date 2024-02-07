@@ -1,5 +1,5 @@
 publicationType : "book"
-publicationTitle : ""Gui de Bourgogne", chanson de geste. Édition critique, thèse pour le diplôme d’archiviste paléographe"
+publicationTitle : "Gui de Bourgogne, chanson de geste. Édition critique, thèse pour le diplôme d’archiviste paléographe"
 publicationDate : "1976"
 publicationPlaces:
     - publicationPlace: "Paris"

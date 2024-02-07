@@ -1,5 +1,5 @@
 publicationType : "book"
-publicationTitle : "Untersuchungen über das Handschriftenverhältnis und textkritische Bearbeitung des assonierenden Teiles der "Chanson de Gaydon""
+publicationTitle : "Untersuchungen über das Handschriftenverhältnis und textkritische Bearbeitung des assonierenden Teiles der Chanson de Gaydon"
 publicationDate : "1907"
 publicationPlaces:
     - publicationPlace: "Greifswald"
