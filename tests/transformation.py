@@ -356,6 +356,9 @@ def tr(changed_file):
     graph.attrib['type'] = 'directed'
     graph.attrib['order'] = str(len(G.nodes))
     graph.attrib['size'] = str(len(G.edges))
+    if (len(graph) == 0): # If there is no PublicationStemmaNum in the metadata file and no label for the graph was created
+      graphLabel = et.SubElement(graph, 'label')
+      graphLabel.text = "stemma"
 
     for node in G.nodes(data=True):
         nodeEl = et.SubElement(graph, 'node',

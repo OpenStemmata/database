@@ -2,7 +2,7 @@ digraph {
 
 O[color="grey"];
 
-O->I[color="gray"];
+O->I[color="grey"];
 O->F;
 O->S;
 S->A1;
