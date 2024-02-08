@@ -1,0 +1,11 @@
+digraph {
+
+1[color="grey", label=""];
+2[color="grey", label=""];
+
+1->A;
+1->2;
+2->B;
+2->C;
+
+}

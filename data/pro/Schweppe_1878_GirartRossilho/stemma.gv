@@ -1,0 +1,26 @@
+digraph {
+
+x1[color="grey", label="x¹"];
+x[color="grey"];
+l1[color="grey", label="l¹"];
+l[color="grey"];
+y[color="grey"];
+o[color="grey"];
+y[color="grey"];
+lostpi[color="grey", label="π"]
+p[color="grey"];
+fragmpi[label="Π"]
+
+x1->x;
+x->l1;
+l1->l;
+l->L;
+x->y;
+y->o;
+o->O;
+y->lostpi;
+lostpi->fragmpi;
+x1->p;
+p->P;
+
+}

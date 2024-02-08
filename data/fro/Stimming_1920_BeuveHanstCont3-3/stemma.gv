@@ -1,0 +1,18 @@
+digraph {
+
+x[color="grey"];
+y[color="grey"];
+z[color="grey"];
+v[color="grey"];
+P1[label="P¹"]
+
+x->T;
+x->y;
+y->z;
+z->C;
+z->M;
+y->v;
+v->P1;
+v->V;
+
+}
