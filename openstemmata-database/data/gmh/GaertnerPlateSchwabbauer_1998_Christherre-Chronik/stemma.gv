@@ -1,0 +1,32 @@
+digraph {
+A [color="grey"] ;
+X [color="grey"] ;
+Y [color="grey"] ;
+ZZxZy [color="grey", label="Z Zx/Zy"] ;
+Gstar [color="grey", label="*G"] ;
+Nystar [color="grey", label="*Ny"] ;
+WM2star [color="grey", label="*WM2"] ;
+M2star [color="grey", label="*M2"] ;
+Y1 [color="grey"] ;
+Y2 [color="grey"] ;
+A -> X ;
+A -> Y ;
+X -> ZZxZy ;
+Y -> ZZxZy ;
+X -> Gstar ;
+Gstar -> G ;
+Gstar -> Nystar ;
+Gstar -> M1 ;
+Nystar -> Ny ;
+ZZxZy -> K ;
+ZZxZy -> WM2star ;
+WM2star -> W ;
+WM2star -> M2star ;
+M2star -> M2 ;
+Y -> Y1 ;
+Y -> Y2 ;
+Y1 -> P ;
+Y1 -> H ;
+Y2 -> L ;
+}
+

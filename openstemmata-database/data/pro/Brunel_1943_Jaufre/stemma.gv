@@ -1,0 +1,17 @@
+digraph {
+original [color="grey", label="Original (vers 1225)"] ;
+Aef [color="grey", label=" "] ;
+cd [color="grey", label=" "] ;
+Bcd [color="grey", label=" "] ;
+original -> Aef ;
+original -> Bcd ;
+Aef -> A ;
+Aef -> e ;
+Aef -> f ;
+Bcd -> B ;
+Bcd -> cd ;
+cd -> c ;
+cd -> d ;
+}
+
+

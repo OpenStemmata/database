@@ -1,0 +1,55 @@
+digraph {
+
+Archetype [label="", color="grey"]
+X1 [label="X1", color="grey"]
+Y1 [label="Y1", color="grey"]
+Archetype -> X1
+Archetype -> Y1
+
+X1 -> B4
+
+X2 [label="X2", color="grey"]
+X1 -> X2
+
+X2 -> B1
+
+X3 [label="X3", color="grey"]
+X2 -> X3
+
+X3 -> S1
+X3 -> S3 
+
+Y1 -> W1
+
+Y2 [label="Y2", color="grey"]
+Y1 -> Y2
+
+Y2 -> S2
+
+Y3 [label="Y3", color="grey"]
+Y2 -> Y3 
+
+Y4 [label="Y4", color="grey"]
+Y3 -> Y4
+
+Gi1N1 [label="Gi1,N1", color="grey"]
+Y4 -> Gi1N1
+Gi1N1 -> Gi1
+Gi1N1 -> N1
+
+Y4 -> B3
+
+Y5 [label="Y5", color="grey"]
+Y3 -> Y5
+
+Y5 -> B2 
+Y5 -> B5
+
+Y6 [label="Y6", color="grey"]
+Y3 -> Y6
+
+Y6 -> A1
+Y6 -> Go1
+Y6 -> M1
+Y6 -> M2 
+}

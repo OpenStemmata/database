@@ -1,0 +1,25 @@
+digraph {
+archetype [color="grey", label=" "] ;
+x [color="grey"] ;
+y [color="grey"] ;
+astroke [label="a'"] ;
+KIDH [color="grey", label=" "] ;
+KID [color="grey", label=" "] ;
+KI [color="grey", label=" "] ;
+archetype -> x ;
+archetype -> y ;
+x -> astroke ;
+x -> KIDH ;
+KIDH -> H ;
+KIDH -> KID ;
+KID -> D ;
+KID -> KI ;
+KI -> K ;
+KI -> I ;
+y -> astroke [style="dashed"] ;
+y -> C ;
+y -> R ;
+}
+
+
+

@@ -1,0 +1,19 @@
+digraph {
+Cstar [color="grey", label="C*"] ;
+Cstar1 [color="grey", label="C₁*"] ;
+Cstar2 [color="grey", label="C₂*"] ;
+Rastar [color="grey", label="Ra*"] ;
+DbSNstar [color="grey", label="DbS(N)* bis 268,1"] ;
+Cstar -> Cstar1 ;
+Cstar -> Cstar2 ;
+Cstar1 -> C ;
+Cstar1 -> E ;
+Cstar1 -> Rastar ;
+Cstar1 -> F ;
+Rastar -> R ;
+Rastar -> a ;
+Cstar2 -> DbSNstar ;
+Cstar2 -> U ;
+Cstar2 -> k ;
+}
+

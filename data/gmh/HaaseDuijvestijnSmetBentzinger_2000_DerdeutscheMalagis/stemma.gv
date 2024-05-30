@@ -1,5 +1,0 @@
-digraph {
-  Archetype[label="", color="grey"]
-  Archetype -> A 
-  A -> B
-}
