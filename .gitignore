@@ -1,2 +1,4 @@
 .Rhistory
 *pycache*
+dist/
+OpenStemmata_database.egg-info
