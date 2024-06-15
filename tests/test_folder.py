@@ -6,14 +6,14 @@ import sys
 import re 
 import csv
 import codecs
-from typing import Union
+from typing import Union, List
 
 import pytest
 
 from bcolors import bcolors
 
 
-def check_directory(path_to_check: Union[str, pathlib.Path], valid_structure: list[str]):
+def check_directory(path_to_check: Union[str, pathlib.Path], valid_structure: List[str]):
     exit_code = 0
     folder_error = 0
     for el in os.listdir(path_to_check):
