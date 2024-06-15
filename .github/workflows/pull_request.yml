@@ -16,7 +16,7 @@ jobs:
         python-version: 3.8
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install networkx lxml 
+        python -m pip install --upgrade pip pytest
+        pip install -e .
     - name: Tests 
-      run:  python ./tests/testthat.py 
+      run:  pytest
