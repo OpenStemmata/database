@@ -48,26 +48,26 @@ def tr(changed_file):
         nodes = {}
         edges = []
         for fullline in lines:
-            if re.match('\s*#', fullline):
+            if re.match(r'\s*#', fullline):
                 continue
             else:
-                comments = re.split('#', fullline, maxsplit=1)
+                comments = re.split(r'#', fullline, maxsplit=1)
                 if len(comments) > 1: 
                     comment = comments[1]
                     line = comments[0]
                 else:
                     comment = ''
                     line = fullline
-                noAttrib = re.sub('\'.+?\'', '', line) 
-                noAttrib = re.sub('".+?"', '', line)
+                noAttrib = re.sub(r'\'.+?\'', '', line)
+                noAttrib = re.sub(r'".+?"', '', line)
                 if "->" in noAttrib or "--" in noAttrib:
                     # If this is an edge
-                    origin = re.split('->', noAttrib)[0].strip()
-                    dest = re.split('->', noAttrib)[1].strip()
+                    origin = re.split(r'->', noAttrib)[0].strip()
+                    dest = re.split(r'->', noAttrib)[1].strip()
                     if '[' in dest:
-                        dest = re.split('\[', dest)[0].strip()
+                        dest = re.split(r'\[', dest)[0].strip()
                     if ';' in dest:
-                        dest = re.split(';', dest)[0].strip()
+                        dest = re.split(r';', dest)[0].strip()
                     if origin not in nodes:
                         nodes[origin] = {}
                     if dest not in nodes:
@@ -76,7 +76,7 @@ def tr(changed_file):
                     if '[' in noAttrib:
                         attributes = re.findall(attributes_regex, line)    
                         for attr in attributes:
-                            val = attr[1].replace('"','')
+                            val = attr[1].replace('"', '')
                             if attr[0] == 'style':
                                 if val == 'dashed':
                                     edge_attr['type'] = 'contamination'
@@ -92,7 +92,7 @@ def tr(changed_file):
                     
                 else:
                 # If this is a node
-                    node = re.split('\[', noAttrib)[0].strip()
+                    node = re.split(r'\[', noAttrib)[0].strip()
                     if '[' in noAttrib:
                         nodes[node] = {}
                         attributes = re.findall(attributes_regex, line)    
@@ -101,7 +101,6 @@ def tr(changed_file):
                             nodes[node][attr[0]] = val
                     if comment != '':
                         nodes[node]['note'] = comment
-                
 
     nodes = [ (x,nodes[x]) for x in nodes ]
     
@@ -144,45 +143,45 @@ def tr(changed_file):
     with codecs.open(txtFile, 'r', 'utf-8') as metadatafile:
         metadata = metadatafile.readlines()
         for line in metadata:
-            if re.match('^[\s]*publicationType', line):
+            if re.match(r'^[\s]*publicationType', line):
                 cont = re.findall('"([^"]*)"', line)
                 if len(cont) > 0:
                     cont = cont[0]
                     bibl.attrib['type'] = cont
-            elif re.match('^[\s]*publicationTitle', line):
+            elif re.match(r'^[\s]*publicationTitle', line):
                 cont = re.findall('"([^"]*)"', line)
                 if len(cont) > 0:
                     cont = cont[0]
                     el = bibl.find('./tei:title', ns)
                     el.text = cont
-            elif re.match('^[\s]*publicationDate', line):
+            elif re.match(r'^[\s]*publicationDate', line):
                 cont = re.findall('"([^"]*)"', line)
                 if len(cont) > 0:
                     cont = cont[0]
                     el = bibl.find('./tei:date', ns)
                     el.text = cont
-            elif re.match('^[\s-]*publicationPlace[^s]', line):
+            elif re.match(r'^[\s-]*publicationPlace[^s]', line):
                 cont = re.findall('"([^"]*)"', line)
                 if len(cont) > 0:
                     cont = cont[0]
                     el = et.Element('pubPlace')
                     el.text = cont
                     bibl.insert(2, el)
-            elif re.match('^[\s]*publicationSeries', line):
+            elif re.match(r'^[\s]*publicationSeries', line):
                 cont = re.findall('"([^"]*)"', line)
                 if len(cont) > 0:
                     cont = cont[0]
                     el = bibl.find('./tei:series', ns)
                     el.text = cont
-            elif re.match('^[\s]*publicationNum', line):
+            elif re.match(r'^[\s]*publicationNum', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = bibl.find('./tei:biblScope[@unit="volume"]', ns)
                 el.attrib['n'] = cont
-            elif re.match('^[\s]*publicationStemmaNum', line):
+            elif re.match(r'^[\s]*publicationStemmaNum', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 graphLabel = et.SubElement(graph, 'label')
                 graphLabel.text = cont
-            elif re.match('^\s*publicationAuthors\s?:\s?"', line) or re.match('^[\s-]*publicationAuthor\s?:\s?"', line):
+            elif re.match(r'^\s*publicationAuthors\s?:\s?"', line) or re.match(r'^[\s-]*publicationAuthor\s?:\s?"', line):
                 cont = re.findall('"([^"]*)"', line)
                 if len(cont) > 0:
                     cont = cont[0]
@@ -196,97 +195,97 @@ def tr(changed_file):
                     # el.text = cont
                     # el2 = et.SubElement(titleStmt, 'author')
                     # el2.text = cont
-            elif re.match('^[\s]*publicationPage', line):
+            elif re.match(r'^[\s]*publicationPage', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = bibl.find('./tei:biblScope[@unit="page"]', ns)
                 el.attrib['n'] = cont
-            elif re.match('^[\s]*publicationLink', line):
+            elif re.match(r'^[\s]*publicationLink', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = bibl.find('./tei:ptr[@type="digitised"]', ns)
                 el.attrib['target'] = cont
-            elif re.match('^[\s]*workTitle', line):
+            elif re.match(r'^[\s]*workTitle', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = creation.find('./tei:title', ns)
                 el.text = cont
                 el2 = titleStmt.find('./tei:title[@type="variable"]', ns)
                 el2.text = cont
-            elif re.match('^[\s]*workViaf', line):
+            elif re.match(r'^[\s]*workViaf', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = creation.find('./tei:title', ns)
                 el.attrib['ref'] = 'http://viaf.org/' + cont
-            elif re.match('^[\s]*workOrigDate', line):
+            elif re.match(r'^[\s]*workOrigDate', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = creation.find('./tei:origDate', ns)
                 el.text = cont
-            elif re.match('^[\s]*workOrigPlace', line):
+            elif re.match(r'^[\s]*workOrigPlace', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = creation.find('./tei:origPlace', ns)
                 el.text = cont
-            elif re.match('^[\s-]*workAuthor[^Vs]', line):
+            elif re.match(r'^[\s-]*workAuthor[^Vs]', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = creation.find('./tei:persName[@role="author"]', ns)
                 el.text = cont
-            elif re.match('^[\s]*workAuthorViaf', line):
+            elif re.match(r'^[\s]*workAuthorViaf', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = creation.find('./tei:persName[@role="author"]', ns)
                 el.attrib['ref'] = 'http://viaf.org/' + cont
-            elif re.match('^[\s]*workGenre', line):
+            elif re.match(r'^[\s]*workGenre', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = keywords.find('./tei:term[@type="workGenre"]', ns)
                 el.text = cont
-            elif re.match('^[\s]*workLangCode', line):
+            elif re.match(r'^[\s]*workLangCode', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = root.find('./tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language', ns)
                 el.attrib['ident'] = cont
                 facsimileLink += cont + "/"
-            elif re.match('^[\s]*stemmaType', line):
+            elif re.match(r'^[\s]*stemmaType', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = keywords.find('./tei:term[@type="stemmaType"]', ns)
                 el.text = cont
-            elif re.match('^[\s]*contam', line):
+            elif re.match(r'^[\s]*contam', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = keywords.find('./tei:term[@type="contam"]', ns)
                 el.text = cont
-            elif re.match('^[\s]*extraStemmContam', line):
+            elif re.match(r'^[\s]*extraStemmContam', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = keywords.find('./tei:term[@type="extraStemmContam"]', ns)
                 el.text = cont
-            elif re.match('^[\s]*rootType', line):
+            elif re.match(r'^[\s]*rootType', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = keywords.find('./tei:term[@type="rootType"]', ns)
                 el.text = cont
-            elif re.match('^[\s]*drawnStemma', line):
+            elif re.match(r'^[\s]*drawnStemma', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = et.SubElement(keywords, '{http://www.tei-c.org/ns/1.0}term', attrib={'type': 'drawnStemma'})
                 el.text = cont
-            elif re.match('^[\s]*completeWis', line):
+            elif re.match(r'^[\s]*completeWis', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = et.SubElement(keywords, '{http://www.tei-c.org/ns/1.0}term', attrib={'type': 'completeWis'})
                 el.text = cont
-            elif re.match('^[\s]*sourceText', line):
+            elif re.match(r'^[\s]*sourceText', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = et.SubElement(keywords, '{http://www.tei-c.org/ns/1.0}term', attrib={'type': 'sourceText'})
                 el.text = cont
-            elif re.match('^[\s]*derivatives', line):
+            elif re.match(r'^[\s]*derivatives', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = et.SubElement(keywords, '{http://www.tei-c.org/ns/1.0}term', attrib={'type': 'derivatives'})
                 el.text = cont
-            elif re.match('^[\s-]*contributor[^Os]', line):
+            elif re.match(r'^[\s-]*contributor[^Os]', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 respStmt = et.SubElement(titleStmt, 'respStmt')
                 resp = et.SubElement(respStmt, 'resp')
                 resp.text = "contributed to OpenStemmata by"
                 el = et.SubElement(respStmt, 'persName')
                 el.text = cont
-            elif re.match('^[\s]*contributorORCID', line):
+            elif re.match(r'^[\s]*contributorORCID', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 if len(cont) > 5:
                     el.attrib['ref'] = cont
-            elif re.match('^[\s]*note', line):
+            elif re.match(r'^[\s]*note', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = root.find('./tei:teiHeader/tei:fileDesc/tei:notesStmt/tei:note', ns)
                 el.text = cont
-            elif re.match('^[\s]+- witSigla', line):
+            elif re.match(r'^[\s]+- witSigla', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 if cont != '':
                     wit = et.SubElement(listWit, 'witness')
@@ -296,7 +295,7 @@ def tr(changed_file):
                     wit.attrib['{http://www.w3.org/XML/1998/namespace}id'] = clean_id
                     label = et.SubElement(wit, 'label', attrib= {'type': 'siglum'})
                     label.text = cont 
-            elif re.match('^[\s]+witSignature', line):
+            elif re.match(r'^[\s]+witSignature', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 # if cont != '':
                 if wit is not None:
@@ -313,30 +312,30 @@ def tr(changed_file):
                         repository.text = split_cont[1]
                         idno = et.SubElement(msIdentif, 'idno')
                         idno.text = split_cont[2]
-            elif re.match('^[\s]+witOrigDate', line):
+            elif re.match(r'^[\s]+witOrigDate', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 # if cont != '':
                 if wit is not None:
                     el = et.SubElement(wit, 'origDate')
                     el.text = cont
-            elif re.match('^[\s]+witOrigPlace', line):
+            elif re.match(r'^[\s]+witOrigPlace', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 # if cont != '':
                 if wit is not None:
                     el = et.SubElement(wit, 'origPlace')
                     el.text = cont
-            elif re.match('^[\s]+witNotes', line):
+            elif re.match(r'^[\s]+witNotes', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 # if cont != '':
                 if wit is not None:
                     el = et.SubElement(wit, 'note')
                     el.text = cont
-            elif re.match('^[\s]+witMsDesc', line):
+            elif re.match(r'^[\s]+witMsDesc', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 #if cont != '':
                 if wit is not None:
                     et.SubElement(wit, 'ptr', attrib={'type': 'description', 'target': cont})
-            elif re.match('^[\s]+witDigit', line):
+            elif re.match(r'^[\s]+witDigit', line):
                 cont = re.findall('"([^"]*)"', line)[0]
                 #if cont != '':
                 if wit is not None:
@@ -404,13 +403,10 @@ def tr(changed_file):
         if 'note' in edge[2]:
             note = et.SubElement(noteGrp, 'note', attrib={'target': '#' + edge_id})
             note.text = edge[2]['note'].strip()
-        
-
 
     if len(noteGrp) < 1:
         back.remove(noteGrp)
-    
-    
+
     # msFrag for fragements scattered with multiple shelfmarks
     witnesses = root.findall(".//witness", ns)
     for witness in witnesses:
@@ -443,8 +439,7 @@ def tr(changed_file):
 
     et.indent(tree)
 
-    tree.write( '/'.join(path) + '/' + new_file_name + '.tei.xml', pretty_print=True, encoding="UTF-8", xml_declaration=True)
-
+    tree.write('/'.join(path) + '/' + new_file_name + '.tei.xml', pretty_print=True, encoding="UTF-8", xml_declaration=True)
 
 
 if __name__ == "__main__":
