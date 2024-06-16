@@ -3,7 +3,7 @@ import glob
 import sys
 from lxml import etree as et 
 
-from openstemmata_database import PACK_DIR
+from openstemmata import PACK_DIR
 from bcolors import bcolors
 
 

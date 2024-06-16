@@ -7,7 +7,7 @@ import test_folder
 import test_metadata 
 import transformation
 
-from openstemmata_database import PACK_DIR
+from openstemmata import PACK_DIR
 from bcolors import bcolors
 
 structure = test_folder.test_folder()

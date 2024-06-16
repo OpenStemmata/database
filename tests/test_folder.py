@@ -23,7 +23,7 @@ def check_directory(path_to_check: Union[str, pathlib.Path], valid_structure: Li
                 folder_error = 1
                 raise RuntimeError('')
         except:
-            print(f"{bcolors.FAIL}Error caused by directory <"+el+f">.{bcolors.ENDC}")
+            print(f"{bcolors.FAIL}Error caused by directory <{el}>.{bcolors.ENDC}")
             print(f"{bcolors.WARNING}Root folder structure should not be modified (submissions go in database/LANG/EDITOR_TITLE_DATE{bcolors.ENDC}")
             continue
     if folder_error == 0:
@@ -46,7 +46,7 @@ def test_folder():
     check_directory(main_folder_path, valid_folder_structure_for_main_directory)
 
     # src directory
-    src_path = os.path.join(main_folder_path, "src", "openstemmata_database")
+    src_path = os.path.join(main_folder_path, "src", "openstemmata")
     valid_folder_structure_for_src_structure = [
         os.path.join(src_path, "data"),
         os.path.join(src_path, "examples"),
@@ -63,7 +63,7 @@ def test_folder():
     print("\nChecking if data has correct subfolders named by ISO 639 language codes")
     iso_error = 0
     with codecs.open(os.path.join(tests_path, 'testthat', 'iso-639-3_20200515.tab'), 'r', 'utf-8') as isos:
-        language_codes = list(csv.reader(isos, delimiter = "\t"))
+        language_codes = list(csv.reader(isos, delimiter="\t"))
         language_codes = [x[0] for x in language_codes]
         for folder in os.listdir(os.path.join(src_path, 'data')):
             for part in folder.split('+'):
@@ -73,7 +73,7 @@ def test_folder():
                         iso_error = 1
                         raise RuntimeError('')                
                 except:
-                    print(f"{bcolors.FAIL}Error caused by directory <"+folder+f">.{bcolors.ENDC}")
+                    print(f"{bcolors.FAIL}Error caused by directory <{folder}>.{bcolors.ENDC}")
                     print(f"{bcolors.WARNING}folder names should be ISO 639 language codes (with optional + symbol for language hybrids{bcolors.ENDC}")  
                     continue
     if iso_error == 0:
@@ -91,7 +91,7 @@ def test_folder():
                 exit_code += 1
                 raise RuntimeError('')
         except:
-            print(f"{bcolors.FAIL}Error caused by directory <"+folder+f">.{bcolors.ENDC}")
+            print(f"{bcolors.FAIL}Error caused by directory <{folder}>.{bcolors.ENDC}")
             print(f"{bcolors.WARNING}The subfolders should be named according to the structure: FirstEditorLastName_Date_TitleWord{bcolors.ENDC}")  
             continue
     if folder_name_error == 0:
@@ -107,7 +107,7 @@ def test_folder():
             folder_base = os.path.basename(folder)
             maximal_structure += [folder_base + '.tei.xml']
             actual_structure = []
-            for file in glob.glob(folder+'/*'):
+            for file in glob.glob(os.path.join(folder, '*')):
                 file_base = os.path.basename(file)
                 actual_structure.append(file_base)
             if not set(minimal_structure).issubset(actual_structure):
@@ -118,7 +118,7 @@ def test_folder():
                 exit_code += 1
                 raise RuntimeError(f"The name of the file(s) <{' '.join(error_file)}> is not allowed")
         except Exception as e:
-            print(f"{bcolors.FAIL}Error caused by <"+folder+f">.{bcolors.ENDC}")
+            print(f"{bcolors.FAIL}Error caused by <{folder}>.{bcolors.ENDC}")
             print(f"{bcolors.WARNING}"+str(e)+f"{bcolors.ENDC}")
             continue
 
