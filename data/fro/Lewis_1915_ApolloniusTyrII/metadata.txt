@@ -30,7 +30,7 @@ derivatives : "excluded"
 contributors:
     - contributor: "Jean-Baptiste Camps"
       contributorORCID: "0000-0003-0385-7037"
-note : "Contains only four witnesses (Chantilly, Bibliothèque et Archives du Château, 497 is perhaps unknown to the editor; and he mentions Wien, Österreichische Nationalbibliothek, 3428, but does not include it in the stemma). This is because W, another text, uses a font close to A and Ch for significant extracts: Ich behandle W an dieser Stelle, weil der Verfasser zu seiner freien Version einen ziemlich grossen Teil eines Textes der Übersetzung	 aabgeschrieben hat. Es zeigen sich ubrigens mit wenigen Ausnahmen dieselben Züge, die wir in A und Ch kennen gelernt haben."
+note : "Contains only four witnesses (Chantilly, Bibliothèque et Archives du Château, 497 is perhaps unknown to the editor; and he mentions Wien, Österreichische Nationalbibliothek, 3428, but does not include it in the stemma). This is because W, another text, uses a font close to A and Ch for significant extracts: Ich behandle W an dieser Stelle, weil der Verfasser zu seiner freien Version einen ziemlich grossen Teil eines Textes der Übersetzung	 aabgeschrieben hat. Es zeigen sich ubrigens mit wenigen Ausnahmen dieselben Züge, die wir in A und Ch kennen gelernt haben. Indeed, W contains the Version en prose 5. In the same publication, p. 233 contains two potential stemmata of versions for the relationships between the Bruxels redaction, and the Italian and German ones."
 wits:
     - witSigla: "A"
       witSignature: "Arsenal, 2991"
