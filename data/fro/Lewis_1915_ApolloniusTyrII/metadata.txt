@@ -67,7 +67,7 @@ wits:
       witNotes: ""
       witMsDesc: ""
       witDigit: ""
-    - witSigla: ""
+    - witSigla: "[omitted]"
       witSignature: "Chantilly, Bibliothèque et Archives du Château, 497"
       witOrigDate: ""
       witOrigPlace: ""
