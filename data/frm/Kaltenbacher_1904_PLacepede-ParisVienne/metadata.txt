@@ -89,7 +89,7 @@ wits:
       witMsDesc: ""
       witDigit: ""
     - witSigla: "Sp"
-      witSignature: ""Ausgabe von Burgos""
+      witSignature: "Ausgabe von Burgos"
       witOrigDate: "1524"
       witOrigPlace: "Burgos"
       witNotes: "ed. Burgos, Alonso de Melgar, 1524"
