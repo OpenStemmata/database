@@ -64,7 +64,7 @@ wits:
       witSignature: "Paris, BnF, fr. 1479"
       witOrigDate: "16 January 1459"
       witOrigPlace: ""
-      witNotes: "Written by "Guilem le moign""
+      witNotes: "Written by Guilem le moign"
       witMsDesc: ""
       witDigit: ""
     - witSigla: "E"
