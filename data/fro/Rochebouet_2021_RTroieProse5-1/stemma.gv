@@ -47,7 +47,7 @@ x9->x12;
 x12->B;
 x12->D;
 x8->O;
-R->P1[style="dashed", dir=none];
+R->P1[style="dashed"];
 
 }
 
