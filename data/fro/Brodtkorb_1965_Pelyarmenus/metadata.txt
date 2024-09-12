@@ -1,5 +1,5 @@
 publicationType : "book"
-publicationTitle : " "Le roman de Pelyarmenus": A Preliminary study and partial edition of an unpublished thirteenth-century prose romance, Ph. D. dissertation, Yale University"
+publicationTitle : "Le roman de Pelyarmenus: A Preliminary study and partial edition of an unpublished thirteenth-century prose romance, Ph. D. dissertation, Yale University"
 publicationDate : "1965"
 publicationPlaces:
     - publicationPlace: "New Haven"
