@@ -1,0 +1,18 @@
+digraph {
+
+alpha[label="α", color="grey"];
+beta[label="β", color="grey"];
+gamma[label="γ", color="grey"];
+delta[label="δ", color="grey"];
+
+alpha->R;
+alpha->beta;
+beta->B;
+beta->gamma;
+gamma->X;
+gamma->delta;
+delta->V;
+delta->G;
+
+}
+
