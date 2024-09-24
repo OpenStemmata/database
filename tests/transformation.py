@@ -291,7 +291,7 @@ def tr(changed_file):
                 if cont != '':
                     wit = et.SubElement(listWit, 'witness')
                     clean_id = 'w_' + superscript.get_normal(
-                                    cont.replace(' ', '_').replace("'", 'prime')
+                                    cont.replace(' ', '_').replace("'", 'prime').replace("(", '').replace(")", '')
                                     )
                     wit.attrib['{http://www.w3.org/XML/1998/namespace}id'] = clean_id
                     label = et.SubElement(wit, 'label', attrib= {'type': 'siglum'})
