@@ -1,0 +1,17 @@
+digraph {
+
+X[color="grey"];
+X1[color="grey"];
+X2[color="grey"];
+Y[color="grey"];
+
+X->X1;
+X1->X2;
+X2->C;
+X1->Y;
+Y->O;
+Y->H;
+Y->F1;
+Y->F2;
+
+}
