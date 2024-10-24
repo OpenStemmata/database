@@ -1,0 +1,16 @@
+digraph {
+L [label="L", color="grey"]
+Z [label="Z", color="grey"]
+L -> Z
+Z -> M
+
+X [label="X", color="grey"]
+L -> X
+X -> Cf
+
+Y [label="Y[=+ AB]", color="grey"]
+X -> Y
+
+Y -> A
+Y -> B
+}

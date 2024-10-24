@@ -1,0 +1,27 @@
+digraph {
+Archetyp[color="grey"] ;
+I [color="grey"] ;
+II [color="grey"] ;
+a [color="grey"] ;
+x [color="grey"] ;
+y [color="grey"] ;
+z [color="grey"] ;
+Arnold [color="grey"] ;
+Archetyp -> I ;
+Archetyp -> Arnold ;
+Archetyp -> II ;
+I -> a ;
+a -> A ;
+a -> H ;
+a -> M [color="grey"];
+I -> J ;
+II -> G ;
+II -> x ;
+x -> E ;
+x -> y ;
+y -> K ;
+y -> z ;
+z -> B ;
+z -> C ;
+z -> L [color="grey"] ;
+}

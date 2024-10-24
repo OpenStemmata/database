@@ -1,0 +1,9 @@
+digraph {
+    original[color="grey", label="O"];
+    x[color="grey"];
+
+    original->x;
+    x->C;
+    x->R;
+
+} 

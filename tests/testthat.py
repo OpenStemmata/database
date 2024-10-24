@@ -1,11 +1,13 @@
-import sys
 import glob
-import test_dot 
+import os
+import sys
+import test_dot
 import test_tei
 import test_folder
 import test_metadata 
 import transformation
 
+from openstemmata import PACK_DIR
 from bcolors import bcolors
 
 structure = test_folder.test_folder()
@@ -17,7 +19,7 @@ metadata = test_metadata.test_metadata()
 print(f"{bcolors.HEADER}\nCreating virtual TEI files to evaluate correctness{bcolors.ENDC}")
 
 conversion = True
-for file in glob.iglob('./data/*/*/*'):
+for file in glob.iglob(os.path.join('data', '*', '*', '*')):
     try:
         transformation.tr(file)
     except Exception as e:
@@ -28,7 +30,7 @@ for file in glob.iglob('./data/*/*/*'):
 tei = test_tei.test_tei()
 
 
-if (structure == False or dot == False or tei ==False or conversion == False or metadata==False):
+if structure == False or dot == False or tei ==False or conversion == False or metadata==False:
     print(f"\n{bcolors.BOLD}{bcolors.FAIL}There are errors in your submission. Please correct.{bcolors.ENDC}")
     sys.exit(1)
 else:
