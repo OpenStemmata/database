@@ -28,6 +28,6 @@ x->B;
 B->B1;
 B->B2;
 
-A->d1[style="dashed", dir="none", color="grey"];
+A->d1[style="dashed", dir=none, color="grey"];
 
 }
