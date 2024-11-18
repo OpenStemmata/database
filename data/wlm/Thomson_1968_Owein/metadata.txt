@@ -25,11 +25,11 @@ contam : "no"
 extraStemmContam : "no"
 rootType : "unspecified"
 completeWits : "included"
-sourceText : "NA"
+sourceText : "excluded"
 derivatives : "NA"
 contributors:
     - contributor: "Gustavo Campedelli"
-      contributorORCID: ""
+      contributorORCID: "0009-0005-8729-9715"
 note : ""
 wits:
     - witSigla: "W"

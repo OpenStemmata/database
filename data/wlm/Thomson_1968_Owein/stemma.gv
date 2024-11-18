@@ -1,5 +1,5 @@
 digraph {
-    omega[label="Ω", color="grey"];
+    omega[label="", color="grey"];
     omega ->W;
     omega ->R;
 }
