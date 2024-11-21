@@ -17,7 +17,7 @@ workOrigPlace : ""
 workAuthors:
     - workAuthor: "Girart d’Amiens"
       workAuthorViaf: ""
-workGenre : "roman en vers"
+workGenre : "roman d'aventure en vers"
 workLangCode : "fro"
 stemmaType : "reconstructed"
 drawnStemma : "true"

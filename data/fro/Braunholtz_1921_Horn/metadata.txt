@@ -17,7 +17,7 @@ workOrigPlace : "Angleterre"
 workAuthors:
     - workAuthor: "Thomas"
       workAuthorViaf: ""
-workGenre : "Roman"
+workGenre : "roman de la matière d'Angleterre en vers"
 workLangCode : "fro"
 stemmaType : "reconstructed"
 drawnStemma : "true"

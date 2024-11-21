@@ -17,7 +17,7 @@ workOrigPlace : "Picardie"
 workAuthors:
     - workAuthor: "Raoul de Houdenc"
       workAuthorViaf: ""
-workGenre : "Roman"
+workGenre : "roman arthurien en vers"
 workLangCode : "fro"
 stemmaType : "reconstructed"
 drawnStemma : "true"

@@ -17,7 +17,7 @@ workOrigPlace : "Italy"
 workAuthors:
     - workAuthor: "Benoît de Sainte Maure"
       workAuthorViaf: ""
-workGenre : "roman en prose"
+workGenre : "roman antique en prose"
 workLangCode : "fro"
 stemmaType : "reconstructed"
 drawnStemma : "true"
