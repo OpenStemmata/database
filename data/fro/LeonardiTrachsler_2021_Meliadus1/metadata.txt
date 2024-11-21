@@ -49,7 +49,7 @@ wits:
       witNotes: "prima unità codicologica di questo ms. composito e che corrisponde al bifoglio iniziale."
       witMsDesc: ""
       witDigit: ""
-      - witSigla: "350²"
+    - witSigla: "350²"
       witSignature: "Paris, BnF, fr. 350"
       witOrigDate: "1280-1420"
       witOrigPlace: "Arras and Italy"
