@@ -1,0 +1,28 @@
+digraph {
+
+    # To refactor nodes, place the cursor left to a node name
+    w -> g;
+    g -> alpha;
+    g -> beta;
+    beta -> theta;
+    beta -> M [style="dashed"];
+    theta -> kappa;
+    kappa -> B;
+    kappa -> W;
+    alpha -> gamma;
+    alpha -> D;
+    D -> E;
+    gamma -> delta;
+    gamma -> zeta;
+    delta -> A;
+    delta -> epsilon;
+    epsilon -> M;
+    epsilon -> F;
+    zeta -> J;
+    zeta -> eta;
+    eta -> kappa;
+    eta -> R;
+    R -> L;
+
+}
+
