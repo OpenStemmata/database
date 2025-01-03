@@ -5,6 +5,9 @@ b[color="grey"];
 bprime[color="grey", label="b'"];
 g[color="grey"];
 bsecond[color="grey", label="b''"];
+F2[label="F²"];
+Ch2[label="Ch²"];
+N1[label="N¹"];
 
 X->a;
 a->F2;
