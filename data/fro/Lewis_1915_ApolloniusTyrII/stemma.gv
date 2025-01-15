@@ -7,6 +7,7 @@ y[color="grey"];
 p[color="grey"];
 a[color="grey"];
 b[color="grey"];
+o1[label="o¹"];
 
 O->o1;
 o1->x;
