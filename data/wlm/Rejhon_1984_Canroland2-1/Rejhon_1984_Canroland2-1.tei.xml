@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Cân Rolant</title>
+        <author>Rejhon, Annalee C. </author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0009-0005-8729-9715">Gustavo Campedelli</persName>
+        </respStmt>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>This stemma is the one for the beginning section of Can Roland, first variant. Indeed, one part of the witnesses inherited their beginning section from the same Old French source that was used for the rest of the text (w), namely witnesses AFJ DE M; the others inherited it from a second Old French source (c), namely witnesses BW RL. This first variant concerns the descendants of w</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Cân Rolant: The Medieval Welsh Version of the Song of Roland</title>
+          <author>Rejhon, Annalee C. </author>
+          <date>1983</date>
+          <pubPlace>Los Angeles</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="57"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <idno>Peniarth 8a (formely known as Hengwrt 463)</idno>
+            <origDate>13th to 14th century</origDate>
+            <origPlace>Wales</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F">
+            <label type="siglum">F</label>
+            <idno>Peniarth 7 (formely known as Hengwrt 3)</idno>
+            <origDate>1300 to 1425</origDate>
+            <origPlace>Wales</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_J">
+            <label type="siglum">J</label>
+            <idno>Peniarth 8b</idno>
+            <origDate>13th to 14th century</origDate>
+            <origPlace>Wales</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <idno>Peniarth 10 (formely known as Hengwrt 46)</idno>
+            <origDate>Mid 14th century to 16th century</origDate>
+            <origPlace>Wales</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <idno>Peniarth 183 (formely known as Hengwrt 355)</idno>
+            <origDate>1582 to 1586</origDate>
+            <origPlace>Wales</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <idno>Cwrtmawr 2</idno>
+            <origDate>1543</origDate>
+            <origPlace>Wales</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Cân Rolant</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>From the 12th to the 13th century</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">Charlemagne Romance</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">yes</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">excluded</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="wlm"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/wlm/Rejhon_1984_Canroland2-1/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="15" size="14">
+        <label>3</label>
+        <node xml:id="n_w" type="hypothetical" inDegree="0" outDegree="1">
+          <label>w</label>
+        </node>
+        <node xml:id="n_g" type="hypothetical" inDegree="1" outDegree="2">
+          <label>g</label>
+        </node>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2">
+          <label>α</label>
+        </node>
+        <node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="2">
+          <label>γ</label>
+        </node>
+        <node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>δ</label>
+        </node>
+        <node xml:id="n_zeta" type="hypothetical" inDegree="1" outDegree="1">
+          <label>ζ</label>
+        </node>
+        <node xml:id="n_theta" type="hypothetical" inDegree="1" outDegree="0">
+          <label>θ</label>
+        </node>
+        <node xml:id="n_epsilon" type="hypothetical" inDegree="1" outDegree="1">
+          <label>ε</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>β</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="1">
+          <label>D</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_J" type="witness" inDegree="1" outDegree="0">
+          <label>J</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_w" to="#n_g" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_g" to="#n_alpha" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_g" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_alpha" to="#n_gamma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_alpha" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_gamma" to="#n_delta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_gamma" to="#n_zeta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_delta" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_delta" to="#n_epsilon" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_zeta" to="#n_J" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_epsilon" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_beta" to="#n_theta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_beta" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_D" to="#n_E" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>
