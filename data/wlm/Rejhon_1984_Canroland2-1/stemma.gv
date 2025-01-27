@@ -5,35 +5,25 @@ digraph {
     gamma[color="grey", label="γ"];
     delta[color="grey", label="δ"];
     zeta[color="grey", label="ζ"];
-    eta[color="grey", label="η"];
     theta[color="grey", label="θ"];
-    kappa[color="grey", label="κ"];
     epsilon[color="grey", label="ε"];
     beta[color="grey", label="β"];
-    # To refactor nodes, place the cursor left to a node name
+
     w -> g;
     g -> alpha;
     g -> beta;
     beta -> theta;
     beta -> M;
     alpha -> gamma;
-    alpha -> D
+    alpha -> D;
+    D -> E;
     gamma -> delta;
     gamma -> zeta;
     zeta -> J;
     delta -> A;
     delta -> epsilon;
     epsilon -> F;
-    c -> eta;
-    eta -> kappa;
-    kappa -> B;
-    kappa -> W;
-    eta -> R;
-    R -> L;
-    D -> E;
     
-
-
 
 }
 
