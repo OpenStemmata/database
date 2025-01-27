@@ -5,7 +5,7 @@ publicationPlaces:
     - publicationPlace: "Los Angeles"
 publicationSeries : ""
 publicationNum: ""
-publicationStemmaNum: "1"
+publicationStemmaNum: "2"
 publicationAuthors:
     - publicationAuthor: "Rejhon, Annalee C. "
 publicationPage : "50"
@@ -30,7 +30,9 @@ derivatives : "NA"
 contributors:
     - contributor: "Gustavo Campedelli"
       contributorORCID: "0009-0005-8729-9715"
-note : "The folder containing this file is the second of two containing the stemma from Can Roland. The second folder contains the stemma pertaining to the beginning section of the work."
+    - contributor: "Jean-Baptiste Camps"
+      contributorORCID: "0000-0003-0385-7037"
+note : "The folder containing this file is the second variant of the stemma for Middle and Ending sections of Can Roland. This variants concerns specifically the part from VI, 5 to XXIII,2 and CIII, 4 to CVII, that were missing in θ, ancestor of κ (BW's model), and for which κ was completed from another source, namely η, a collateral of R"
 wits:
 
     - witSigla: "J"
