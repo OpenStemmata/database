@@ -39,7 +39,7 @@ wits:
       witMsDesc: ""
       witDigit: ""
     - witSigla: "D"
-      witSignature: "BnF, fr. 5036"
+      witSignature: "Paris, BnF, fr. 5036"
       witOrigDate: ""
       witOrigPlace: ""
       witNotes: "Le ms. où le texte est dérimé"

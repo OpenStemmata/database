@@ -33,7 +33,7 @@ contributors:
 note : "Stemma for the four different parts are included. Some contain also manuscripts of the third continental version, that apparently joins the second at places. Here, part 3, version of the stemma including also C."
 wits:
     - witSigla: "P"
-      witSignature: "BnF, fr. 12548"
+      witSignature: "Paris, BnF, fr. 12548"
       witOrigDate: "1280-1290"
       witOrigPlace: ""
       witNotes: "Date from Arlima"
@@ -47,7 +47,7 @@ wits:
       witMsDesc: ""
       witDigit: ""
     - witSigla: "R"
-      witSignature: "BAV, Reg. lat. 1632"
+      witSignature: "Rome, BAV, Reg. lat. 1632"
       witOrigDate: "1301-1350"
       witOrigPlace: ""
       witNotes: "Date from Arlima"

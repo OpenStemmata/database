@@ -43,7 +43,7 @@ wits:
       witMsDesc: "https://handschriftencensus.de/3001"
       witDigit: ""
     - witSigla: "v"
-      witSignature: "Vienna, Hofbibliothek, Cod. Q 4793"
+      witSignature: "Wien, Hofbibliothek, Cod. Q 4793"
       witOrigDate: ""
       witOrigPlace: ""
       witNotes: "Current sigla: L17"
