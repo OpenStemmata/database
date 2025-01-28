@@ -61,7 +61,7 @@ wits:
       witMsDesc: ""
       witDigit: ""
     - witSigla: "O"
-      witSignature: "Osaka, Otemae Univ. Libr. 1"
+      witSignature: "Osaka, Otemae Univ. Libr., OUL 1"
       witOrigDate: "1441-1460"
       witOrigPlace: "France"
       witNotes: ""
