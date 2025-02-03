@@ -2,6 +2,15 @@
 
 This repository contains an open source collection of historical text genealogies, in forms of tree-like graphs (stemma) for a variety of languages.
 
+_Current number of stemmata for main represented languages_
+
+![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Ffro?type=dir&style=flat&label=fro)
+![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fgmh?type=dir&style=flat&label=gmh)
+![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fgrc?type=dir&style=flat&label=grc)
+![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fpro?type=dir&style=flat&label=pro)
+
+
+
 ## Contributing
 
 Find more information on the [**project website**](https://openstemmata.github.io/).
