@@ -1,6 +1,5 @@
 digraph {
 
-    # To refactor nodes, place the cursor left to a node name
     X -> AOprime;
     X -> CEWprime;
     X -> Xprime;
@@ -12,15 +11,16 @@ digraph {
     EOprime -> E 
     FWprime -> Wprime
     FWprime -> OFprime
-    Wprime -> W
-    Wprime -> G
+    Wprime -> Wsecond;
+    Wsecond -> W
+    Wsecond -> G
     OFprime -> O
     OFprime -> DFprime
     DFprime -> ZFprime
     DFprime -> D
     ZFprime -> Z
     ZFprime -> F
-   
+
     Xprime -> BWprime
     BWprime -> EWprime
     BWprime -> BFprime
@@ -43,25 +43,24 @@ digraph {
     BDprime -> D [style="dashed"]
 
 
-# Grey color is used for hypothetical nodes; labels can be redefined if needed
     X [color="grey"];
-    AOprime [color="grey", label="AO*"]; 
-    CEWprime [color="grey", label="CEW*"];
-    Xprime[color="grey", label="X*"];
-    AOprime[color="grey", label="AO*"]
-    AGprime[color="grey", label="AG*"]
-    EWprime[color="grey", label="EW*"]
-    EOprime[color="grey", label="EO*"]
-    FWprime[color="grey", label="FW*"]
+    AOprime [color="grey", label="AO*"];
+    CEWprime [color="grey", label=""];
+    Xprime[color="grey", label=""];
+    AOprime[color="grey", label=""]
+    AGprime[color="grey", label=""]
+    EWprime[color="grey", label=""]
+    EOprime[color="grey", label=""]
+    FWprime[color="grey", label=""]
     Wprime[color="grey", label="W*"]
-    OFprime[color="grey", label="OF*"]
-    DFprime[color="grey", label="DF*"]
-    ZFprime[color="grey", label="ZF*"]
-    BWprime[color="grey", label="BW*"]
-    BFprime[color="grey", label="BF*"]
-    BOprime[color="grey", label="BO*"]
-    BGprime[color="grey", label="BG*"]
-    BDprime[color="grey", label="BD*"]
-
+    Wsecond[color="grey", label=""]
+    OFprime[color="grey", label=""]
+    DFprime[color="grey", label=""]
+    ZFprime[color="grey", label=""]
+    BWprime[color="grey", label=""]
+    BFprime[color="grey", label=""]
+    BOprime[color="grey", label=""]
+    BGprime[color="grey", label=""]
+    BDprime[color="grey", label=""]
 
 }
