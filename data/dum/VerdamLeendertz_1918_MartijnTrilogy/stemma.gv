@@ -1,0 +1,66 @@
+digraph {
+
+    X -> AOprime;
+    X -> CEWprime;
+    X -> Xprime;
+    AOprime -> AGprime;
+    AGprime -> A
+    CEWprime -> C
+    EWprime -> EOprime
+    EWprime -> FWprime
+    EOprime -> E 
+    FWprime -> Wprime
+    FWprime -> OFprime
+    Wprime -> Wsecond;
+    Wsecond -> W
+    Wsecond -> G
+    OFprime -> O
+    OFprime -> DFprime
+    DFprime -> ZFprime
+    DFprime -> D
+    ZFprime -> Z
+    ZFprime -> F
+
+    Xprime -> BWprime
+    BWprime -> EWprime
+    BWprime -> BFprime
+    BFprime -> BOprime
+    BOprime -> BGprime
+    BGprime -> BDprime
+    BDprime -> B
+
+    #contamination
+    AOprime -> O [style="dashed"]
+    CEWprime -> EWprime[color="grey", style="dashed"]
+    Xprime -> D [style="dashed"] 
+    AGprime -> G [style="dashed"]    
+    EOprime -> O [color="grey", style="dashed"]
+    Wprime -> O [style="dashed"]
+    DFprime -> G [style="dashed"]
+    BOprime -> O [color="grey", style="dashed"]
+    BGprime -> G [style="dashed"]
+    BFprime -> F [style="dashed"]
+    BDprime -> D [style="dashed"]
+
+
+    X [color="grey"];
+    AOprime [color="grey", label="AO*"];
+    CEWprime [color="grey", label=""];
+    Xprime[color="grey", label=""];
+    AOprime[color="grey", label=""]
+    AGprime[color="grey", label=""]
+    EWprime[color="grey", label=""]
+    EOprime[color="grey", label=""]
+    FWprime[color="grey", label=""]
+    Wprime[color="grey", label="W*"]
+    Wsecond[color="grey", label=""]
+    OFprime[color="grey", label=""]
+    DFprime[color="grey", label=""]
+    ZFprime[color="grey", label=""]
+    BWprime[color="grey", label=""]
+    BFprime[color="grey", label=""]
+    BOprime[color="grey", label=""]
+    BGprime[color="grey", label=""]
+    BDprime[color="grey", label=""]
+
+}
