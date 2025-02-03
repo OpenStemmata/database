@@ -2,14 +2,27 @@
 
 This repository contains an open source collection of historical text genealogies, in forms of tree-like graphs (stemma) for a variety of languages.
 
-_Current number of stemmata for main represented languages_
+## Current number of stemmata 
+
+_🏆 most represented languages_
 
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Ffro?type=dir&style=flat&label=fro)
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fgmh?type=dir&style=flat&label=gmh)
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fgrc?type=dir&style=flat&label=grc)
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fpro?type=dir&style=flat&label=pro)
 
+_🥈 less represented languages_
 
+![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Ffrm?type=dir&style=flat&label=frm)
+![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fwlm?type=dir&style=flat&label=wlm)
+![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fita?type=dir&style=flat&label=ita)
+![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Flat?type=dir&style=flat&label=lat)
+
+_🌱 lonely trees_
+
+![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fosp?type=dir&style=flat&label=osp)
+![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fnon?type=dir&style=flat&label=non)
+![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fdum?type=dir&style=flat&label=dum)
 
 ## Contributing
 
