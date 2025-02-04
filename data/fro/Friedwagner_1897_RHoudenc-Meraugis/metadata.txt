@@ -4,7 +4,7 @@ publicationDate : "1897"
 publicationPlaces:
     - publicationPlace: "Halle"
 publicationSeries : ""
-publicationNum: "-2"
+publicationNum: ""
 publicationStemmaNum: ""
 publicationAuthors:
     - publicationAuthor: "Friedwagner, Mathias"
@@ -30,7 +30,7 @@ derivatives : "NA"
 contributors:
     - contributor: "Jean-Baptiste Camps"
       contributorORCID: "0000-0003-0385-7037"
-note : "This stemma looks very exotic (witness as archetype, multiple contaminations inside families; lots of direct descent; semantically ambiguous placement of J…) and is probably very unreliable too. The editor adds that, if one were to reject that M is the archetype, it would occupy the position of z. Many witnesses, including fragment discovered later, are not included"
+note : ""
 wits:
     - witSigla: "B"
       witSignature: "Berlin, Staatsbibliothek und Preussischer Kulturbesitz, Gall. qu. 48"
