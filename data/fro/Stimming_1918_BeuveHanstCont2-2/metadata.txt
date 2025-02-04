@@ -5,6 +5,7 @@ publicationPlaces:
     - publicationPlace: "Halle"
 publicationSeries : ""
 publicationNum: ""
+publicationStemmaNum: ""
 publicationAuthors:
     - publicationAuthor: "Stimming, Albert"
 publicationPage : ""
@@ -29,7 +30,7 @@ derivatives : "excluded"
 contributors:
     - contributor: "Jean-Baptiste Camps"
       contributorORCID: "0000-0003-0385-7037"
-note : "Stemma for the four different parts are included. Some contain also manuscripts of the third continental version, that apparently joins the second at places. Here, part 2."
+note : "Stemma for the four different parts are included. Some contain also manuscripts of the third continental version, that apparently joins the second at places. Here, part 2, which is only described in text and not drawn."
 wits:
     - witSigla: "P"
       witSignature: "Paris, BnF, fr. 12548"
