@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Gaydon</title>
+        <author>Karsch, Bruno</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Stemma not drawn, but the author writes: Diese ganze Stelle erweist sich also durch die häufigen Unklarheiten und Verschleierungen des Sinnes und durch einen gemeinsamen Fehler von BC als stark beweiskräftig für die Annahme einer gemeinsamen Vorlage von B und C</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Untersuchungen über das Handschriftenverhältnis und textkritische Bearbeitung des assonierenden Teiles der Chanson de Gaydon</title>
+          <author>Karsch, Bruno</author>
+          <date>1907</date>
+          <pubPlace>Greifswald</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="XVI"/>
+          <ptr type="digitised" target="https://archive.org/details/UntersuchungenGaydonKarsch/page/n17/"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bnf</repository>
+                <idno> fr. 860</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1251-1300</origDate>
+            <origPlace></origPlace>
+            <note>(Date according to Arlima)</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bnf</repository>
+                <idno> fr. 15102</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1300</origDate>
+            <origPlace></origPlace>
+            <note>(Date according to Arlima)</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bnf</repository>
+                <idno> fr. 1475</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1501-1600</origDate>
+            <origPlace></origPlace>
+            <note>(Date according to Arlima)</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Gaydon</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1218-1240</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">chanson de geste</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">false</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Karsch_1907_Gaydon/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="5" size="4">
+        <label></label>
+        <node xml:id="n_1" type="hypothetical" inDegree="0" outDegree="2">
+          <label>1</label>
+        </node>
+        <node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>2</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_1" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_1" to="#n_2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_2" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_2" to="#n_C" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

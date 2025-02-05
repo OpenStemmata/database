@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Enfances Guillaume</title>
+        <author>Tyssens, Madeleine</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>The witnesses included are mostly complete with the exception of the fragment Aberystwyth, National Library of Wales, 5043E. The details about the structure of the descendants of A are given independently p. 356 in the text; p. 367 for B1 and B2; for C and C2, p. 377. Three stemmata are drawn, but the author then states that the argument to link C and D are weak, so the third one is retained here.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>La Geste de Guillaume d’Orange dans les manuscrits cycliques</title>
+          <author>Tyssens, Madeleine</author>
+          <date>1967</date>
+          <pubPlace>Paris</pubPlace>
+          <series>Bibliothèque de la Faculté de philosophie et lettres de l’Université de Liège</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="178"/>
+          <biblScope unit="page" n="72"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A1">
+            <label type="siglum">A1</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 774</idno>
+            <origDate>1251-1300</origDate>
+            <origPlace>Île-de-France</origPlace>
+            <note>Same workshop as A2 and A4</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A2">
+            <label type="siglum">A2</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 1449</idno>
+            <origDate>1251-1300</origDate>
+            <origPlace>Île-de-France</origPlace>
+            <note>Same workshop as A1 and A4</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A3">
+            <label type="siglum">A3</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 368</idno>
+            <origDate>1301-1313</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A4">
+            <label type="siglum">A4</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Milano</settlement>
+                <repository> Biblioteca Trivulziana</repository>
+                <idno> 1025</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1251-1300</origDate>
+            <origPlace>Île-de-France</origPlace>
+            <note>Same workshop as A1 and A2</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B1">
+            <label type="siglum">B1</label>
+            <idno>London, British Library, Royal, 20. D. XI</idno>
+            <origDate>1301-1350</origDate>
+            <origPlace>France</origPlace>
+            <note>Same workshop as B2</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B2">
+            <label type="siglum">B2</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 24369-24370</idno>
+            <origDate>1301-1320</origDate>
+            <origPlace>France</origPlace>
+            <note>Same workshop as B1</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 1448</idno>
+            <origDate>1241-1260</origDate>
+            <origPlace>Lorraine</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Boulogne-sur-Mer</settlement>
+                <repository> Bibliothèque municipale</repository>
+                <idno> 192</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1295</origDate>
+            <origPlace>Picardy or Paris</origPlace>
+            <note>Copy finished on 16/04/1295</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Enfances Guillaume</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1181-1220</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">chanson de geste</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Tyssens_1967_EnfGuillaume/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="13" size="12">
+        <label></label>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="3">
+          <label>O</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_A" type="hypothetical" inDegree="1" outDegree="2">
+          <label>A</label>
+        </node>
+        <node xml:id="n_Aprime" type="hypothetical" inDegree="1" outDegree="3">
+          <label>A'</label>
+        </node>
+        <node xml:id="n_B" type="hypothetical" inDegree="1" outDegree="2">
+          <label>B</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
+          <label>D</label>
+        </node>
+        <node xml:id="n_A3" type="witness" inDegree="1" outDegree="0">
+          <label>A3</label>
+        </node>
+        <node xml:id="n_A1" type="witness" inDegree="1" outDegree="0">
+          <label>A1</label>
+        </node>
+        <node xml:id="n_A2" type="witness" inDegree="1" outDegree="0">
+          <label>A2</label>
+        </node>
+        <node xml:id="n_A4" type="witness" inDegree="1" outDegree="0">
+          <label>A4</label>
+        </node>
+        <node xml:id="n_B1" type="witness" inDegree="1" outDegree="0">
+          <label>B1</label>
+        </node>
+        <node xml:id="n_B2" type="witness" inDegree="1" outDegree="0">
+          <label>B2</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_O" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_O" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_O" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_x" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_x" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_A" to="#n_A3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_A" to="#n_Aprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_Aprime" to="#n_A1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_Aprime" to="#n_A2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_Aprime" to="#n_A4" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_B" to="#n_B1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_B" to="#n_B2" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

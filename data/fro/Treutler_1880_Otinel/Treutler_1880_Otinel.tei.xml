@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Otinel</title>
+        <author>Treutler, H.</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Dating and localising of French witnesses updated according to J.B. Camps, La Chanson d’Otinel. Édition complète du corpus manuscrit et prolégomènes à l'édition critique, thèse de doctorat, Université de Paris-Sorbonne, 2016. Some witnesses unknown at the time were not included, such as the French fragment (M) or the English Filingham version, as well as the Middle Welsh version</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>Die Otinelsage im Mittelalter</title>
+          <author>Treutler, H.</author>
+          <date>1880</date>
+          <pubPlace>Leipzig</pubPlace>
+          <series>Englische studien</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="5"/>
+          <biblScope unit="page" n="146"/>
+          <ptr type="digitised" target="https://archive.org/details/englischestudien05leipuoft/page/146"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_a_frz.">
+            <label type="siglum">a (frz.)</label>
+            <idno>Vaticano, Biblioteca Apostolica Vaticana, Reginensi latini, 1616</idno>
+            <origDate>1317</origDate>
+            <origPlace>Bretagne (Saint-Brieuc)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_b_frz.">
+            <label type="siglum">b (frz.)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Cologny (Genève)</settlement>
+                <repository> Fondation Martin Bodmer</repository>
+                <idno> 168</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1267-1300</origDate>
+            <origPlace>England (maybe East-Anglia or Yorkshire)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A_K.-S.">
+            <label type="siglum">A (K.-S.)</label>
+            <idno></idno>
+            <origDate>1351-1400</origDate>
+            <origPlace></origPlace>
+            <note>Karlamagnus Saga, version compiled between 1200 and 1250</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_a_K.-S.">
+            <label type="siglum">a (K.-S.)</label>
+            <idno></idno>
+            <origDate>1401-1450</origDate>
+            <origPlace></origPlace>
+            <note>Karlamagnus Saga, version compiled between 1200 and 1250</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B_K.-S.">
+            <label type="siglum">B (K.-S.)</label>
+            <idno></idno>
+            <origDate>1601-1700</origDate>
+            <origPlace></origPlace>
+            <note>Karlamagnus Saga, version compiled around 1300</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_b_K.-S.">
+            <label type="siglum">b (K.-S.)</label>
+            <idno></idno>
+            <origDate>1601-1700</origDate>
+            <origPlace></origPlace>
+            <note>Karlamagnus Saga, version compiled around 1300</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_K.-K._dän.">
+            <label type="siglum">K.-K. (dän.)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Stockholm</settlement>
+                <repository> Kungliga Bibliotek</repository>
+                <idno> ???</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1480</origDate>
+            <origPlace>Borglum-Kloster (Jutland)</origPlace>
+            <note>Danish Karl Magnus krønike. Date and place of the oldest manuscrit</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_K.-K._isld.">
+            <label type="siglum">K.-K. (isld.)</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Otuel rímur, apparently placed on the stemma without having been consulted or edited</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Otvald">
+            <label type="siglum">Otvald</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Faroese version</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Otuel_engl.">
+            <label type="siglum">Otuel engl.</label>
+            <idno>National Library of Scotland, Adv. Ms. 19.2.1</idno>
+            <origDate>1331-1340</origDate>
+            <origPlace>England</origPlace>
+            <note>English Auchinleck version</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Otinel</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1180-1220</origDate>
+        <origPlace>Lorraine?</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">chanson de geste</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">included</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Treutler_1880_Otinel/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="17" size="16">
+        <label></label>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="2">
+          <label>O</label>
+        </node>
+        <node xml:id="n_v" type="hypothetical" inDegree="1" outDegree="2">
+          <label>v</label>
+        </node>
+        <node xml:id="n_zFr" type="hypothetical" inDegree="1" outDegree="2">
+          <label>z (frz.)</label>
+        </node>
+        <node xml:id="n_aFr" type="witness" inDegree="1" outDegree="0">
+          <label>a (frz.)</label>
+        </node>
+        <node xml:id="n_bFr" type="witness" inDegree="1" outDegree="0">
+          <label>b (frz.)</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="1">
+          <label>y</label>
+        </node>
+        <node xml:id="n_otEng" type="witness" inDegree="1" outDegree="0">
+          <label>Otuel engl.</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x (nordisch)</label>
+        </node>
+        <node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="3">
+          <label>2</label>
+        </node>
+        <node xml:id="n_AKS" type="witness" inDegree="1" outDegree="1">
+          <label>A (K.-S.)</label>
+        </node>
+        <node xml:id="n_kkDan" type="witness" inDegree="1" outDegree="1">
+          <label>K.-K. (dän.)</label>
+        </node>
+        <node xml:id="n_kkIsl" type="witness" inDegree="1" outDegree="0">
+          <label>K.-K. (isld.)</label>
+        </node>
+        <node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>1</label>
+        </node>
+        <node xml:id="n_BKS" type="witness" inDegree="1" outDegree="0">
+          <label>B (K.-S.)</label>
+        </node>
+        <node xml:id="n_bKS" type="witness" inDegree="1" outDegree="0">
+          <label>b (K.-S.)</label>
+        </node>
+        <node xml:id="n_Otvald" type="witness" inDegree="1" outDegree="0">
+          <label>Otvald</label>
+        </node>
+        <node xml:id="n_aKS" type="witness" inDegree="1" outDegree="0">
+          <label>aKS</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_O" to="#n_v" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_O" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_v" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_v" to="#n_zFr" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_zFr" to="#n_bFr" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_zFr" to="#n_aFr" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_y" to="#n_otEng" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_x" to="#n_2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_x" to="#n_1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_2" to="#n_AKS" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_2" to="#n_Otvald" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_2" to="#n_aKS" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_AKS" to="#n_kkDan" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_kkDan" to="#n_kkIsl" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_1" to="#n_BKS" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_1" to="#n_bKS" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

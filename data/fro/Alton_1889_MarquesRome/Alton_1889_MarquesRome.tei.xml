@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Marques de Rome</title>
+        <author>Alton, Johann</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>This stemma looks very exotic (witness as archetype, multiple contaminations inside families; lots of direct descent; semantically ambiguous placement of J…) and is probably very unreliable too. The editor adds that, if one were to reject that M is the archetype, it would occupy the position of z. Many witnesses, including fragments discovered later, are not included</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Le roman de Marques de Rome</title>
+          <author>Alton, Johann</author>
+          <date>1889</date>
+          <pubPlace>Tübingen</pubPlace>
+          <series>Bibliothek des Litterarischen Vereins in Stuttgart</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="187"/>
+          <biblScope unit="page" n="XLV"/>
+          <ptr type="digitised" target="https://archive.org/details/leromandemarque00altogoog/page/n52/"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_P">
+            <label type="siglum">P</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 1421</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1251-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_N">
+            <label type="siglum">N</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 19166</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1320</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_V">
+            <label type="siglum">V</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 22548</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 93</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1466</origDate>
+            <origPlace></origPlace>
+            <note>Copiste: Micheau Gonnot our Jacques d’Armagnac, duc de Nemours (1433-1477) - Arlima</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_J">
+            <label type="siglum">J</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 1444</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 24431</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1320</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Arras</settlement>
+                <repository> BM</repository>
+                <idno> 657</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1478</origDate>
+            <origPlace>Amiens ?</origPlace>
+            <note>Copiste: Jean d’Amiens le petit</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Arsenal</repository>
+                <idno> 3152</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1300</origDate>
+            <origPlace>Picardie</origPlace>
+            <note>Olim 246</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Q">
+            <label type="siglum">Q</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Arsenal</repository>
+                <idno> 3355</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1400</origDate>
+            <origPlace>Olim 247</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Lyon</settlement>
+                <repository> BM</repository>
+                <idno> 772</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Marques de Rome</title>
+        <persName role="author" ref="http://viaf.org/">Thomas</persName>
+        <origDate>1201-1300</origDate>
+        <origPlace>Angleterre</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">roman antique en prose</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">excluded</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Alton_1889_MarquesRome/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="14" size="15">
+        <label></label>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>y</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="2">
+          <label>z</label>
+        </node>
+        <node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>1</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="0" outDegree="2">
+          <label>M</label>
+        </node>
+        <node xml:id="n_Q" type="witness" inDegree="1" outDegree="1">
+          <label>Q</label>
+        </node>
+        <node xml:id="n_V" type="witness" inDegree="1" outDegree="1">
+          <label>V</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="2" outDegree="0">
+          <label>G</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="1">
+          <label>P</label>
+        </node>
+        <node xml:id="n_N" type="witness" inDegree="1" outDegree="0">
+          <label>N</label>
+        </node>
+        <node xml:id="n_J" type="witness" inDegree="1" outDegree="0">
+          <label>J</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="1">
+          <label>L</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="2" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="1">
+          <label>A</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_y" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_y" to="#n_P" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_x" to="#n_Q" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_x" to="#n_V" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_z" to="#n_J" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_z" to="#n_1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_1" to="#n_L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_1" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_M" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_M" to="#n_z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_Q" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_V" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_P" to="#n_N" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_L" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_A" to="#n_C" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

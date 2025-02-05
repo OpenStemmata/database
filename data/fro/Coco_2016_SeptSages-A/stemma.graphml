@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="color" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="O">
+  <data key="d0">Originale/Archetipo</data>
+  <data key="d1">grey</data>
+</node>
+<node id="alpha">
+  <data key="d0">α</data>
+  <data key="d1">grey</data>
+</node>
+<node id="beta">
+  <data key="d0">β</data>
+  <data key="d1">grey</data>
+</node>
+<node id="a">
+  <data key="d1">grey</data>
+</node>
+<node id="a1">
+  <data key="d0">a/1</data>
+  <data key="d1">grey</data>
+</node>
+<node id="a2">
+  <data key="d0">a/2</data>
+  <data key="d1">grey</data>
+</node>
+<node id="a2a">
+  <data key="d0">a/2/a</data>
+  <data key="d1">grey</data>
+</node>
+<node id="b">
+  <data key="d1">grey</data>
+</node>
+<node id="b1">
+  <data key="d0">b/1</data>
+  <data key="d1">grey</data>
+</node>
+<node id="b1a">
+  <data key="d0">b/1/a</data>
+  <data key="d1">grey</data>
+</node>
+<node id="b1a1">
+  <data key="d0">b/1/a/1</data>
+  <data key="d1">grey</data>
+</node>
+<node id="b2">
+  <data key="d0">b/2</data>
+  <data key="d1">grey</data>
+</node>
+<node id="b2a">
+  <data key="d0">b/2/a</data>
+  <data key="d1">grey</data>
+</node>
+<node id="b2b">
+  <data key="d0">b/2/b</data>
+  <data key="d1">grey</data>
+</node>
+<node id="b2b1">
+  <data key="d0">b/2/b/1</data>
+  <data key="d1">grey</data>
+</node>
+<node id="b2b1a">
+  <data key="d0">b/2/b/1/a</data>
+  <data key="d1">grey</data>
+</node>
+<node id="b2b2">
+  <data key="d0">b/2/b/2</data>
+  <data key="d1">grey</data>
+</node>
+<node id="FITZ"/>
+<node id="ARS3152"/>
+<node id="B9433"/>
+<node id="F5586"/>
+<node id="NA12791"/>
+<node id="F25545"/>
+<node id="F22548"/>
+<node id="F93"/>
+<node id="OXF"/>
+<node id="ARS"/>
+<node id="F95"/>
+<node id="GG6"/>
+<node id="HAR"/>
+<node id="B10171"/>
+<node id="ETH"/>
+<node id="NA13522"/>
+<node id="F2137"/>
+<node id="GG1"/>
+<node id="F1421"/>
+<node id="BE"/>
+<node id="ASH"/>
+<node id="FRIB"/>
+<node id="M"/>
+<node id="NA1263"/>
+<edge source="O" target="alpha">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="O" target="beta">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="alpha" target="FITZ">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="alpha" target="ARS3152">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="beta" target="a">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="beta" target="b">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="a" target="a1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="a" target="NA12791">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="a" target="a2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="a1" target="B9433">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="a1" target="F5586">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="a2" target="F25545">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="a2" target="a2a">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="a2a" target="F22548">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="a2a" target="F93">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b" target="b1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b" target="B10171">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b" target="b2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b1" target="OXF">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b1" target="b1a">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b1" target="HAR">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b1a" target="ARS">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b1a" target="b1a1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b1a1" target="F95">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b1a1" target="GG6">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b2" target="b2a">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b2" target="b2b">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b2a" target="ETH">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b2a" target="NA13522">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b2b" target="F2137">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b2b" target="b2b1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b2b" target="b2b2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b2b1" target="GG1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b2b1" target="b2b1a">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b2b1a" target="F1421">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b2b1a" target="BE">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b2b1a" target="ASH">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b2b1a" target="FRIB">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b2b2" target="M">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="b2b2" target="NA1263">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

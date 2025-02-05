@@ -60,7 +60,13 @@
           </witness>
           <witness xml:id="w_D">
             <label type="siglum">D</label>
-            <idno>BnF, fr. 5036</idno>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 5036</idno>
+              </msIdentifier>
+            </msDesc>
             <origDate></origDate>
             <origPlace></origPlace>
             <note>Le ms. où le texte est dérimé</note>
@@ -130,7 +136,7 @@
       </creation>
       <textClass>
         <keywords>
-          <term type="workGenre"></term>
+          <term type="workGenre">roman antique</term>
           <term type="stemmaType">reconstructed</term>
           <term type="contam">no</term>
           <term type="extraStemmContam">no</term>

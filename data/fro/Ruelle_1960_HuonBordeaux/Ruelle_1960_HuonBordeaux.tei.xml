@@ -51,7 +51,13 @@
           </witness>
           <witness xml:id="w_P">
             <label type="siglum">P</label>
-            <idno>BnF, fr. 22555</idno>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 22555</idno>
+              </msIdentifier>
+            </msDesc>
             <origDate>1401-1500</origDate>
             <origPlace>Lorraine</origPlace>
             <note></note>

@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Tristan en prose</title>
+        <author>Blanchard, Joël</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>This stemma includes the seven manuscripts that give the detailed account of Tristan’s captivity. These are the manuscripts of the early version V.I. It clearly is a very small subset of all the mss of the Tristan in prose (it does not include the witnesses of the Vulgate version V. II nor of the late medieval rewritings of the 14th and 15th centuries), but is supposed to be complete in regard to this (probably interpolated) episode. Dates of witnesses are taken from the edition, and not necessarily consistent with Arlima</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Le roman de Tristan en prose: les deux captivités de Tristan</title>
+          <author>Blanchard, Joël</author>
+          <date>1976</date>
+          <pubPlace>Paris</pubPlace>
+          <series>Bibliothèque française et romane, Série B: éditions critiques de textes</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="15"/>
+          <biblScope unit="page" n="37"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_T">
+            <label type="siglum">T</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 772</idno>
+            <origDate>1267-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F2">
+            <label type="siglum">F2</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 757</idno>
+            <origDate>1301-1320</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_H">
+            <label type="siglum">H</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 97</idno>
+            <origDate>1401-1500</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 100-101</idno>
+            <origDate>1381-1400</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_N1">
+            <label type="siglum">N1</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 340</idno>
+            <origDate>1401-1500</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 349</idno>
+            <origDate>1401-1500</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ch2">
+            <label type="siglum">Ch2</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Chantilly</settlement>
+                <repository> Bibliothèque et Archives du Château</repository>
+                <idno> 648</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1401-1450</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Tristan en prose</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1230-1250</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">roman arthurien en prose</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">excluded</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Blanchard_1976_TristanProseV1/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="13" size="14">
+        <label></label>
+        <node xml:id="n_X" type="hypothetical" inDegree="0" outDegree="2">
+          <label>X</label>
+        </node>
+        <node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="2">
+          <label>a</label>
+        </node>
+        <node xml:id="n_b" type="hypothetical" inDegree="1" outDegree="2">
+          <label>b</label>
+        </node>
+        <node xml:id="n_bprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>b'</label>
+        </node>
+        <node xml:id="n_g" type="hypothetical" inDegree="3" outDegree="2">
+          <label>g</label>
+        </node>
+        <node xml:id="n_bsecond" type="hypothetical" inDegree="1" outDegree="2">
+          <label>b''</label>
+        </node>
+        <node xml:id="n_F2" type="witness" inDegree="1" outDegree="0">
+          <label>F²</label>
+        </node>
+        <node xml:id="n_Ch2" type="witness" inDegree="1" outDegree="0">
+          <label>Ch²</label>
+        </node>
+        <node xml:id="n_N1" type="witness" inDegree="1" outDegree="0">
+          <label>N¹</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="1">
+          <label>T</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="1">
+          <label>C</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_X" to="#n_a" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_X" to="#n_b" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_a" to="#n_F2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_a" to="#n_g" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_b" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_b" to="#n_bprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_bprime" to="#n_g" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_bprime" to="#n_bsecond" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_g" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_g" to="#n_Ch2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_bsecond" to="#n_L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_bsecond" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_T" to="#n_g" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_C" to="#n_N1" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

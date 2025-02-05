@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Beuve de Hantone, version continentale 2</title>
+        <author>Stimming, Albert</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Stemma for the four different parts are included. Some contain also manuscripts of the third continental version, that apparently joins the second at places. Here, part 4, version of the stemma including also T.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Der festländische Bueve de Hantone, Fassung II, nach allen Handschriften mit Einleitung, Anmerkungen und Glossar zum ersten Male herausgegeben</title>
+          <author>Stimming, Albert</author>
+          <date>1918</date>
+          <pubPlace>Halle</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="16"/>
+          <ptr type="digitised" target="https://archive.org/details/BueveDeHantoneFassung2B2/page/n23"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_P">
+            <label type="siglum">P</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 12548</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1280-1290</origDate>
+            <origPlace></origPlace>
+            <note>Date from Arlima</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_W">
+            <label type="siglum">W</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wien</settlement>
+                <repository> Österreichische Nationalbibliothek</repository>
+                <idno> 3429</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1470-1480</origDate>
+            <origPlace></origPlace>
+            <note>Date from Arlima</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_R">
+            <label type="siglum">R</label>
+            <idno>BAV, Reg. lat. 1632</idno>
+            <origDate>1301-1350</origDate>
+            <origPlace></origPlace>
+            <note>Date from Arlima</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Carpentras</settlement>
+                <repository> Bibliothèque Inguimbertine</repository>
+                <idno> 401</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1230-1600</origDate>
+            <origPlace>Picardy</origPlace>
+            <note>Date from Arlima</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_T">
+            <label type="siglum">T</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Torino</settlement>
+                <repository> BNU</repository>
+                <idno> L.II.14</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1311</origDate>
+            <origPlace>North</origPlace>
+            <note>Date from Arlima</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Beuve de Hantone, version continentale 2</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1190-1230</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">chanson de geste</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">excluded</term>
+          <term type="derivatives">excluded</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Stimming_1918_BeuveHanstCont2-4/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="9" size="8">
+        <label>4</label>
+        <node xml:id="n_z" type="hypothetical" inDegree="0" outDegree="2">
+          <label>z</label>
+        </node>
+        <node xml:id="n_r" type="hypothetical" inDegree="1" outDegree="2">
+          <label>r</label>
+        </node>
+        <node xml:id="n_t" type="hypothetical" inDegree="1" outDegree="1">
+          <label>t</label>
+        </node>
+        <node xml:id="n_p" type="hypothetical" inDegree="1" outDegree="1">
+          <label>p</label>
+        </node>
+        <node xml:id="n_s" type="hypothetical" inDegree="1" outDegree="2">
+          <label>s</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="0">
+          <label>T</label>
+        </node>
+        <node xml:id="n_R" type="witness" inDegree="1" outDegree="0">
+          <label>R</label>
+        </node>
+        <node xml:id="n_W" type="witness" inDegree="1" outDegree="0">
+          <label>W</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+          <label>P</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_z" to="#n_r" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_z" to="#n_p" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_r" to="#n_t" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_r" to="#n_s" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_t" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_p" to="#n_P" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_s" to="#n_R" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_s" to="#n_W" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Chanson de Jérusalem</title>
+        <author>Thorpe, Nigel R.</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Though it is not shown on the drawn stemma, the archetype O omits a laisse absent from all witnesses, except A. The most likely scenario, according to the editor, is an error in the archetype. This would mean that A obtained it from another source, and as such means the presence of extra-archetypal contamination.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>La chanson de Jérusalem</title>
+          <author>Thorpe, Nigel R.</author>
+          <date>1992</date>
+          <pubPlace>University, Alabama</pubPlace>
+          <series>The Old French Crusade Cycle</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="6"/>
+          <biblScope unit="page" n="19"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <idno> Paris, Bibliothèque nationale de France, français, 12558</idno>
+            <origDate>1241-1260</origDate>
+            <origPlace>North-Eastern France</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <idno> Paris, Bibliothèque nationale de France, français, 786</idno>
+            <origDate>1271-1280</origDate>
+            <origPlace>Tournai</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <idno> Paris, Bibliothèque nationale de France, français, 795</idno>
+            <origDate>1281-1300</origDate>
+            <origPlace>Central Picardy</origPlace>
+            <note>Three scribes</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <idno> Paris, Bibliothèque nationale de France, français, 1621</idno>
+            <origDate>1241-1260</origDate>
+            <origPlace>North-Eastern France or Central Picardy</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <idno> Paris, Bibliothèque nationale de France, français, 12569</idno>
+            <origDate>1271-1280</origDate>
+            <origPlace>Central Picardy</origPlace>
+            <note>single scribe</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F">
+            <label type="siglum">F</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Bern</settlement>
+                <repository> Burgerbibliothek</repository>
+                <idno> 320</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1271-1280</origDate>
+            <origPlace>North-Eastern France</origPlace>
+            <note>single scribe</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <idno>Paris, Bibliothèque nationale de France, Arsenal, 3139</idno>
+            <origDate>1268</origDate>
+            <origPlace>North-Eastern Picardy</origPlace>
+            <note>single scribe</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_H">
+            <label type="siglum">H</label>
+            <idno>London, British Library, Royal, 15. E. VI</idno>
+            <origDate>1445</origDate>
+            <origPlace>England</origPlace>
+            <note>Presented by John Talbot, first earl of Shrewsbury, to Margaret of Anjou, probably for her wedding to Henry VI in 1445</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_I">
+            <label type="siglum">I</label>
+            <idno>London, British Library, Additional, 36615</idno>
+            <origDate>1381-1320</origDate>
+            <origPlace>North-Eastern France or Normandy</origPlace>
+            <note>four scribes</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_N">
+            <label type="siglum">N</label>
+            <idno>Oxford, Bodleian Library, Douce, 381 + Stafford, Staffordshire Record Office, D.641/1/2/84</idno>
+            <origDate>1241-1260</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_T">
+            <label type="siglum">T</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Torino</settlement>
+                <repository> Biblioteca Nazionale Universitaria</repository>
+                <idno> L. III. 25</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1300</origDate>
+            <origPlace>North-Eastern France</origPlace>
+            <note>single scribe</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Chanson de Jérusalem</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1176-1200</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">chanson de geste</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">yes</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">excluded</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Thorpe_1992_Jerusalem/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="19" size="20">
+        <label>1</label>
+        <node xml:id="n_original" type="hypothetical" inDegree="0" outDegree="2">
+          <label>original</label>
+        </node>
+        <node xml:id="n_0" type="hypothetical" inDegree="1" outDegree="1">
+          <label>0</label>
+        </node>
+        <node xml:id="n_O" type="hypothetical" inDegree="1" outDegree="2">
+          <label>O</label>
+        </node>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="3">
+          <label>α</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="3">
+          <label>β</label>
+        </node>
+        <node xml:id="n_betaprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>β'</label>
+        </node>
+        <node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>1</label>
+        </node>
+        <node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>2</label>
+        </node>
+        <node xml:id="n_3" type="hypothetical" inDegree="1" outDegree="3">
+          <label>3</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="2" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="2" outDegree="0">
+          <label>T</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
+          <label>D</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <node xml:id="n_I" type="witness" inDegree="1" outDegree="0">
+          <label>I</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_original" to="#n_0" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_original" to="#n_O" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_0" to="#n_A" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_O" to="#n_alpha" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_O" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_alpha" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_alpha" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_alpha" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_beta" to="#n_T" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_beta" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_beta" to="#n_betaprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_betaprime" to="#n_1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_betaprime" to="#n_2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_1" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_1" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_2" to="#n_3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_2" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_3" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_3" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_3" to="#n_I" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

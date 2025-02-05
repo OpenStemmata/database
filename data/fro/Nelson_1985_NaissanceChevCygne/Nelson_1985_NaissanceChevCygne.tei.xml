@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">La Naissance du Chevalier au cygne</title>
+        <author>Nelson, Jan A.</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Dates and origin of witnesses are given following the edition. x, y and z, stand for the first, second and third revisions. E1 is the Elioxe version, Bt the Beatrix, and E1-Bt the composite version. This stemma, that surimposes the tradition of the Naissance on that of the Chevalier au cygne proper, is not always completely clear. Only what is relevant to the Naissance has been transcribed here. It cannot be fully transcribed without collating it to the stemma of the ChevCygne, and even then, the transcriber has had to make editorial decisions to clarify the missing indication about _y_ origin, and to reduce the tree to that of the Naissance witnesses.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Le Chevalier au Cygne and La Fin d’Elias</title>
+          <author>Nelson, Jan A.</author>
+          <date>1985</date>
+          <pubPlace>University, Alabama</pubPlace>
+          <series>The Old French Crusade Cycle</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="7"/>
+          <biblScope unit="page" n="xliii"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement> Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> français 12558</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1251-1300</origDate>
+            <origPlace>North-Eastern France</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement> Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> français 786</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1271-1280</origDate>
+            <origPlace>Tournai</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement> Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> français 795</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1300</origDate>
+            <origPlace>Central Picardy</origPlace>
+            <note>Three scribes</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement> Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> français 1621</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1241-1260</origDate>
+            <origPlace>North-Eastern France</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement> Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> français 12569</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1271-1280</origDate>
+            <origPlace>Central Picardy</origPlace>
+            <note>single scribe</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> Arsenal 3139</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1268</origDate>
+            <origPlace>North-Eastern Picardy</origPlace>
+            <note>single scribe</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_H">
+            <label type="siglum">H</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> British Library</repository>
+                <idno> Royal 15. E. VI</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1445</origDate>
+            <origPlace>England</origPlace>
+            <note>Presented by John Talbot, first earl of Shrewsbury, to Margaret of Anjou, probably for her wedding to Henry VI in 1445</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_I">
+            <label type="siglum">I</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> British Library</repository>
+                <idno> Additional 36615</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1381-1320</origDate>
+            <origPlace>North-Eastern France</origPlace>
+            <note>several scribes</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_T">
+            <label type="siglum">T</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Torino</settlement>
+                <repository> Biblioteca Nazionale Universitaria</repository>
+                <idno> L. III. 25</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1300</origDate>
+            <origPlace>North-Eastern France</origPlace>
+            <note>single scribe</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">La Naissance du Chevalier au cygne</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1170-1218</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">chanson de geste</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Nelson_1985_NaissanceChevCygne/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="18" size="18">
+        <label>2</label>
+        <node xml:id="n_ChCy" type="hypothetical" inDegree="0" outDegree="1">
+          <label>ChCy</label>
+        </node>
+        <node xml:id="n_E1" type="hypothetical" inDegree="1" outDegree="3">
+          <label>E1</label>
+        </node>
+        <node xml:id="n_Bt" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Bt</label>
+        </node>
+        <node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="3">
+          <label>1</label>
+        </node>
+        <node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>2</label>
+        </node>
+        <node xml:id="n_E1Bt" type="hypothetical" inDegree="2" outDegree="2">
+          <label>E1-Bt</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>y</label>
+        </node>
+        <node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="1">
+          <label>z</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
+          <label>D</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="0">
+          <label>T</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <node xml:id="n_I" type="witness" inDegree="1" outDegree="0">
+          <label>I</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_ChCy" to="#n_E1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_E1" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_E1" to="#n_Bt" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_4" from="#n_E1" to="#n_E1Bt" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_Bt" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_Bt" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_1" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_1" to="#n_y" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_9" from="#n_1" to="#n_2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_2" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_2" to="#n_E1Bt" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_E1Bt" to="#n_z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_E1Bt" to="#n_I" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_x" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_x" to="#n_1" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_16" from="#n_y" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_y" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_z" to="#n_G" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>
