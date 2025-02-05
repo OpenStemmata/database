@@ -1,0 +1,36 @@
+digraph {
+O[color="grey"];
+alpha[color="grey", label="α"];
+beta[color="grey", label="β"];
+1[color="grey", label=""];
+p[color="grey"];
+r[color="grey"];
+v[color="grey"];
+w[color="grey"];
+z[color="grey"];
+H2[label="H²"];
+
+O->alpha;
+alpha->F;
+alpha->H;
+O->beta;
+beta->1;
+1->B;
+1->p;
+p->E;
+p->M;
+beta->r;
+r->T;
+r->L;
+beta->v;
+v->C;
+v->A;
+v->I;
+beta->w;
+w->G;
+w->K;
+beta->z;
+z->D;
+z->H2;
+
+}

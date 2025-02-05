@@ -17,7 +17,7 @@ workOrigPlace : ""
 workAuthors:
     - workAuthor: "Anonyme"
       workAuthorViaf: ""
-workGenre : "roman d’aventures"
+workGenre : "roman d'aventures en vers"
 workLangCode : "fro"
 stemmaType : "reconstructed"
 drawnStemma : "true"

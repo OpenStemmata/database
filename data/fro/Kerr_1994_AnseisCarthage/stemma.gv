@@ -7,8 +7,8 @@ digraph {
 5[label="", color="grey"];
 6[label="", color="grey"];
 7[label="", color="grey"];
-D1[label="D1\n vv.1-4128"]
-D2[label="D2\n vv.4153-10740"]
+D1[label="D\n vv.1-4128"]
+D2[label="D\n vv.4153-10740"]
 
 
 1->2;

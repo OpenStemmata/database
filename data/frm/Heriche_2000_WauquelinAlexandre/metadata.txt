@@ -17,7 +17,7 @@ workOrigPlace : "Hainaut"
 workAuthors:
     - workAuthor: "Jean de Wauquelin"
       workAuthorViaf: "79114061"
-workGenre : "roman en prose"
+workGenre : "roman antique en prose"
 workLangCode : "frm"
 stemmaType : "reconstructed"
 drawnStemma : "true"

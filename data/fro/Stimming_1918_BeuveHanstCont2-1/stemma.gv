@@ -1,0 +1,14 @@
+digraph {
+
+x[color="grey"];
+y[color="grey"];
+z[color="grey"];
+
+x->y;
+y->T;
+y->C;
+x->z;
+z->P;
+z->W;
+
+}

@@ -1,0 +1,24 @@
+digraph {
+O[color="grey"];
+o1[color="grey"];
+x[color="grey"];
+c[color="grey"];
+y[color="grey"];
+p[color="grey"];
+a[color="grey"];
+b[color="grey"];
+o1[label="o¹"];
+
+O->o1;
+o1->x;
+x->c;
+c->Ch;
+o1->y;
+y->p;
+p->P;
+y->a;
+a->A;
+a->b;
+b->B;
+
+}

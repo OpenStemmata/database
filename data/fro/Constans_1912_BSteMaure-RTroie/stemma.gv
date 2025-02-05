@@ -1,0 +1,89 @@
+digraph {
+O[color="grey"];
+alpha[label="α", color="grey"];
+v[color="grey"];
+1[label="", color="grey"];
+4[label="", color="grey"];
+5[label="", color="grey"];
+x[color="grey"];
+n[color="grey"];
+2[label="", color="grey"]
+beta[label="β", color="grey"];
+y[color="grey"];
+3[label="", color="grey"];
+6[label="", color="grey"];
+7[label="", color="grey"];
+8[label="", color="grey"];
+9[label="", color="grey"];
+z[color="grey"];
+10[label="", color="grey"];
+11[label="", color="grey"];
+12[label="", color="grey"];
+13[label="", color="grey"];
+k[color="grey"];
+
+O->alpha;
+alpha->v;
+v->B1;
+v->A2[color="grey"];
+A2->1[color="grey"]
+1->4;
+4->R;
+4->S;
+1->A[color="grey"];
+1->5;
+5->V1;
+5->V2;
+v->M2;
+alpha->x;
+x->n;
+n->2[color="grey"];
+2->F;
+2->N;
+N->L1[color="grey"];
+L1->B3;
+L1->N1;
+L1->N2;
+L1->P1;
+L1->P2;
+x->y[style="dashed", dir=none];
+x->z[style="dashed", dir=none];
+O->beta;
+beta->y;
+y->3[color="grey"];
+3->6;
+6->D;
+6->M1;
+3->7;
+7->J;
+7->P;
+7->8[color="grey"];
+8->B2;
+8->B4;
+8->S3;
+3->9;
+9->E;
+9->H;
+beta->z;
+z->10[color="grey"];
+10->11;
+11->A1;
+11->L2;
+10->12;
+12->C;
+12->W;
+12->C1;
+10->13;
+13->B;
+13->I;
+13->S1[color="grey"];
+10->k;
+k->K;
+K->S2[color="grey"];
+k->M3;
+k->M;
+
+
+
+
+}

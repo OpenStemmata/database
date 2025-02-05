@@ -1,0 +1,34 @@
+digraph {
+
+original[color="grey", label=""];
+0[color="grey", label=""];
+O[color="grey"];
+alpha[color="grey", label="α"];
+beta[color="grey", label="β"];
+betaprime[color="grey", label="β'"];
+1[color="grey", label=""];
+2[color="grey", label=""];
+3[color="grey", label=""];
+
+original->0;
+0->A[style="dashed"];
+original->O;
+O->alpha;
+alpha->A;
+alpha->T;
+alpha->C;
+O->beta;
+beta->T[style="dashed"];
+beta->D;
+beta->betaprime;
+betaprime->1;
+1->E;
+1->G;
+betaprime->2;
+2->3;
+3->B;
+3->H;
+3->I;
+2->F;
+
+}
