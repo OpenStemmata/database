@@ -30,7 +30,7 @@ derivatives : "excluded"
 contributors:
     - contributor: "Jean-Baptiste Camps"
       contributorORCID: "0000-0003-0385-7037"
-note : "The witnesses included are mostly complete with the exception of the fragments and the Oxford manuscript. The details about the structure of the descendants of A are given independently p. 356 in the text; p. 367 for B1 and B2; for C and C2, p. 377. For this text, two stemmata are offered, presented as undecidable. O, the archetype, is supposed to be an already rewritten version, and not the original of the song. It is stated to be the same stemma as for the first part of the Moniage Rainouart (p. 280). C is described as having two sources, for the second part, _v_, for the second part a source older than _v_, but close to the one that _v_ used for its rewriting."
+note : "The witnesses included are mostly complete with the exception of the fragments and the Oxford manuscript. The details about the structure of the descendants of A are given independently p. 356 in the text; p. 367 for B1 and B2; for C and C2, p. 377. For this text, two stemmata are offered, presented as undecidable. O, the archetype, is supposed to be an already rewritten version, and not the original of the song. It is stated to be the same stemma as for the first part of the Moniage Rainouart (p. 280). C is described as having two sources: for the second part, _v_; for the first part a source older than _v_, but close to the one that _v_ used for its rewriting."
 wits:
     - witSigla: "A1"
       witSignature: "Paris, Bibliothèque nationale de France, français, 774"

@@ -30,7 +30,7 @@ derivatives : "excluded"
 contributors:
     - contributor: "Jean-Baptiste Camps"
       contributorORCID: "0000-0003-0385-7037"
-note : "The details about the structure of the descendants of A are given independently p. 356 in the text; p. 367 for B1 and B2; for C and C2, p. 377."
+note : "The details about the structure of the descendants of A are given independently p. 356 in the text; p. 367 for B1 and B2; for C and C2, p. 377. Four stemma are suggested on this page, then the fourth one is retained (and is encoded here)."
 wits:
     - witSigla: "A1"
       witSignature: "Paris, Bibliothèque nationale de France, français, 774"

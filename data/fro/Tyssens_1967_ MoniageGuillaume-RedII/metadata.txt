@@ -10,7 +10,7 @@ publicationAuthors:
     - publicationAuthor: "Tyssens, Madeleine"
 publicationPage : "323"
 publicationLink : ""
-workTitle : "Moniage Guillaume"
+workTitle : "Moniage Guillaume (redaction 2)"
 workViaf : ""
 workOrigDate : "1180"
 workOrigPlace : "Southern Picardy"
