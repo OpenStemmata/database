@@ -1,0 +1,21 @@
+digraph {
+
+
+    Q -> A;
+    A -> a1;
+    A -> A1;
+    A -> C;
+    C -> Dr;
+
+
+
+
+
+
+   A [color="grey"];
+   a1 [color="grey"];
+
+
+
+
+}
