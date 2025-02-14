@@ -1,0 +1,37 @@
+# Place the cursor inside "graph" to get some refactoring options
+
+digraph {
+
+    
+    omega1 -> gamma;
+    gamma -> B [minlen=2] ;
+    gamma ->P;
+    omega1 -> chi;
+    chi ->A;
+    chi -> alpha;
+    omega2 -> kappa;
+    kappa -> Bea;
+    omega2->xi;
+    xi -> R;
+    R -> U;
+    U -> N;
+    alpha -> R [style="dashed"];
+    kappa -> P;
+
+
+
+    omega1 [color="grey", label="ω1"];
+    omega2[color="grey", label="ω2"]; 
+    gamma[color="grey",label="γ"];
+    chi[color="grey", label="χ"];
+    alpha [color="grey", label="α"];
+    B[label="B"];
+    P[label="P"];
+    A[label="A"];
+    kappa[label="κ",color="grey"];
+    xi[color="grey", label="ξ"];
+    Bea[label="Bea"];
+    R[label="R"];
+    U[label="U"];
+    N[label="N"];
+}
