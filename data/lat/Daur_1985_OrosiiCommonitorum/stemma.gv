@@ -1,0 +1,20 @@
+digraph {
+ omega-> alpha
+ omega-> beta
+ alpha-> A
+ alpha -> L[minlen=3]
+ beta-> C [minlen=4,style="dashed"]
+ beta-> E [minlen=4]
+ beta-> B [minlen=4]
+
+omega[label="ω", color=grey];
+alpha[label="α", color=grey];
+beta[label="β", color=grey];
+A[label="A"];
+L[label="L"];
+C[label="C"];
+E[label="E"];
+B[label="B"];
+graph [style=invis, splines=true];
+}
+

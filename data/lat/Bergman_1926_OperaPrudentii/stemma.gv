@@ -1,0 +1,49 @@
+
+
+digraph {
+    alpha->x2alpha; 
+    alpha ->alphabeta;
+    x2alpha ->A;
+    x2alpha ->Y[minlen=2]
+    Y ->C[minlen=3];
+    Y ->D[minlen=3];
+    Y ->beta;
+    beta ->x2beta;
+    beta ->betaalpha;
+    x2beta ->M;
+    x2beta ->O[minlen=3];
+    x2beta ->S;
+    x2beta ->U;
+    betaalpha->P[minlen=3];
+    betaalpha->E[minlen=2];
+    alphabeta ->B;
+    alphabeta ->delta[minlen=3];
+    delta ->betaalpha;
+    delta ->N[minlen=4];
+    delta ->V[minlen=3];
+    
+    
+    alpha [color="grey", label="α"];
+    x2alpha[color="grey",label="αα"]; 
+    alphabeta[color="grey",label="αϐ"];
+    Y[color="grey",label="Y"];
+    A[color="grey",label="A"];
+    B[color="grey",label="B"];
+    delta[color="grey",label="δ"];
+    beta[color="grey",label="ϐ"];
+    x2beta[color="grey",label="ϐϐ"];
+    betaalpha[color="grey",label="ϐα"];
+    C[label="C"];
+    D[label="D"];
+    M[label="M"];
+    O[label="O"];
+    S[label="S"];
+    U[label="U"];
+    P[label="P"];
+    N[label="N"];
+    V[label="V"];
+
+graph [style=invis, splines=true];
+}
+
+
