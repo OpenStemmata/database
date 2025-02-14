@@ -1,0 +1,94 @@
+digraph{
+
+omega-> alpha[minlen=1.5]
+omega -> gamma[minlen=1]
+omega-> beta[minlen=1.7]
+alpha -> 1[minlen=4]
+1-> F[weight=1000]
+1-> H[minlen=2]
+gamma -> L 
+gamma-> 2[minlen=4]
+2 -> U[minlen=4.5]
+2 -> 3
+3-> G[minlen=4.5]
+3 -> 4
+4-> 5
+5 -> C[weight=9000]
+5-> Z
+5-> P
+beta-> 6[minlen=5]
+6-> D
+6 -> G [style=dashed,constraint=false]
+G-> J
+beta -> 7[minlen=4]
+7 -> R[minlen=4]
+P -> R[dir=none, constraint=false]
+7-> 8[minlen=2]
+8-> Q[minlen=3]
+8-> Mprime
+7-> B
+beta->9[minlen=4]
+9->10
+10 ->11
+11->Aprime
+11-> I[minlen=2]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+omega[label = "ω", color="grey"]
+alpha[label = "α", color="grey"]
+gamma[label = "γ", color="grey"]
+beta[label = "β", color="grey"]
+F[label = "F"]
+H[label = "H"]
+U[label = "U"]
+G[label = "G"]
+J[label = "J"]
+C[label = "C"]
+Z[label = "Z"]
+P[label = "P"]
+R[label = "R"]
+D[label = "D"]
+B[label = "B"]
+Aprime[label = "A'"]
+Mprime[label = "M'"]
+I[label = "I"]
+1[label = "", color="grey"]
+2[label = "", color="grey"]
+3[label = "", color="grey"]
+4[label = "", color="grey"]
+5[label = "", color="grey"]
+6[label = "", color="grey"]
+7[label = "", color="grey"]
+8[label = "", color="grey"]
+9[label = "", color="grey"]
+10[label = "", color="grey"]
+11[label = "", color="grey"]
+graph [style=invis, splines=true];
+
+}
+
+
+
