@@ -1,0 +1,16 @@
+digraph {
+
+    # To refactor nodes, place the cursor left to a node name
+    omega -> H;
+    omega -> m;
+    omega -> K;
+    omega -> B;
+    omega -> U;
+    omega -> W;
+    omega -> D;
+    omega -> R;
+    K -> H [style="dashed"];
+    K -> m [style="dashed"];
+
+
+}

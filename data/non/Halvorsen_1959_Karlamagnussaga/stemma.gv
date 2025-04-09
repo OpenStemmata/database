@@ -1,0 +1,21 @@
+digraph {
+
+    # To refactor nodes, place the cursor left to a node name
+    Pseudo_Turpin -> Speculum_Historiale;
+    Aspremont -> Speculum_Historiale;
+    Pseudo_Turpin -> A;
+    Pseudo_Turpin -> a;
+    Aspremont -> A;
+    Aspremont -> a:
+    Speculum_Historiale -> Tveggja_Postola_Saga;
+    A -> Tveggja_Postola_Saga;
+    a -> Tveggja_Postola_Saga;
+    Tveggja_Postola_Saga -> B;
+    Tveggja_Postola_Saga -> b;
+    Speculum_Historiale -> B [style="dashed"];
+    Speculum_Historiale -> b [style="dashed"];
+    A -> B;
+    A -> b;
+
+
+}

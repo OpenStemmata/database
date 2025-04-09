@@ -1,0 +1,36 @@
+digraph {
+
+    Saga -> First_adaptation;
+    First_adaptation -> x;
+    First_adaptation -> Second_adaptation;
+    Second_adaptation -> w; 
+    w -> A;
+    w -> y;
+    y -> C;
+    y-> B;
+    x -> B;
+    C -> z;
+    z -> E1;
+    z -> D2;
+    B -> D1;
+    B -> E2;
+    B -> AM_152_fol; 
+    AM_152_fol -> beta;
+    B -> b;
+    D1 -> D;
+    D2 -> D;
+    E1 -> E;
+    E2 -> E;
+
+
+    x [color="grey"];
+    w [color="grey"];
+    y [color="grey"];
+    z [color="grey"];
+    E1 [color="grey"];
+    D2 [color="grey"];
+    D1 [color="grey"];
+    E2 [color="grey"];
+
+
+}

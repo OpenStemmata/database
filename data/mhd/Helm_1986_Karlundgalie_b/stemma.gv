@@ -1,0 +1,6 @@
+digraph {
+
+    # To refactor nodes, place the cursor left to a node name
+    Karlmeinet_Kompilation-> A;
+
+}
