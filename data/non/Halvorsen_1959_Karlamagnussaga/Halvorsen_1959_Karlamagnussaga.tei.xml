@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Karlamagnús Saga</title>
+        <author>E. F. Halvorsen</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0009-0005-8729-9715">Gustavo C. Campedelli</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Small stemma containing the sources for four manuscritpts of the Karlamagnús Saga.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>The Norse Version of the Chanson de Roland</title>
+          <author>E. F. Halvorsen</author>
+          <date>1959</date>
+          <pubPlace>Copenhagen</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="42"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <idno>AM 180c</idno>
+            <origDate>1390-1410</origDate>
+            <origPlace>Iceland</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handrit.is/manuscript/view/en/AM02-0180-c/0#mode/2up"/>
+            <ptr type="digitised" target="https://handrit.is/manuscript/view/en/AM02-0180-c/0?iabr=on#mode/2up"/>
+          </witness>
+          <witness xml:id="w_a">
+            <label type="siglum">a</label>
+            <idno>AM 180a</idno>
+            <origDate>1450-1499</origDate>
+            <origPlace>Iceland</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handrit.is/manuscript/view/en/AM02-0180-a/0#mode/2up"/>
+            <ptr type="digitised" target="https://handrit.is/manuscript/view/en/AM02-0180-a/0?iabr=on#mode/2up"/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <idno>AM 180d</idno>
+            <origDate>1690-1710</origDate>
+            <origPlace>Iceland</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handrit.is/manuscript/view/en/AM02-0180-d"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_b">
+            <label type="siglum">b</label>
+            <idno>AM 531</idno>
+            <origDate>1600-1699</origDate>
+            <origPlace>Iceland</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handrit.is/manuscript/view/da/AM04-0531/0#mode/2up"/>
+            <ptr type="digitised" target="https://handrit.is/manuscript/view/da/AM04-0531/0?iabr=on#mode/2up"/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Karlamagnús Saga</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1201-1300</origDate>
+        <origPlace>Norway</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">riddarasaga</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">yes</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">included</term>
+          <term type="derivatives">included</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="non"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/non/Halvorsen_1959_Karlamagnussaga/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="10" size="12">
+        <label>1</label>
+        <node xml:id="n_Pseudo_Turpin" type="hypothetical" inDegree="0" outDegree="2">
+          <label>Pseudo-Turpin</label>
+        </node>
+        <node xml:id="n_Speculum_Historiale" type="hypothetical" inDegree="2" outDegree="2">
+          <label>Speculum historiale</label>
+        </node>
+        <node xml:id="n_Aspremont" type="hypothetical" inDegree="0" outDegree="2">
+          <label>Aspremont</label>
+        </node>
+        <node xml:id="n_Kms_Aa" type="hypothetical" inDegree="2" outDegree="3">
+          <label>Kms Aa</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_a" type="witness" inDegree="1" outDegree="0">
+          <label>a</label>
+        </node>
+        <node xml:id="n_Tveggja_Postola_Saga" type="hypothetical" inDegree="2" outDegree="1">
+          <label>Tveggja Postola Saga</label>
+        </node>
+        <node xml:id="n_Kms_Bb" type="hypothetical" inDegree="2" outDegree="2">
+          <label>Kms Bb</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_b" type="witness" inDegree="1" outDegree="0">
+          <label>b</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_Pseudo_Turpin" to="#n_Speculum_Historiale" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_Pseudo_Turpin" to="#n_Kms_Aa" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_Speculum_Historiale" to="#n_Tveggja_Postola_Saga" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_Speculum_Historiale" to="#n_Kms_Bb" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_Aspremont" to="#n_Speculum_Historiale" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_Aspremont" to="#n_Kms_Aa" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_Kms_Aa" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_Kms_Aa" to="#n_a" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_Kms_Aa" to="#n_Tveggja_Postola_Saga" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_Tveggja_Postola_Saga" to="#n_Kms_Bb" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_Kms_Bb" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_Kms_Bb" to="#n_b" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>
