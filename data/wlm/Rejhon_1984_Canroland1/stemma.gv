@@ -10,7 +10,6 @@ digraph {
     kappa[color="grey", label="κ"];
     epsilon[color="grey", label="ε"];
     beta[color="grey", label="β"];
-    # To refactor nodes, place the cursor left to a node name
     w -> g;
     g -> alpha;
     g -> beta;
