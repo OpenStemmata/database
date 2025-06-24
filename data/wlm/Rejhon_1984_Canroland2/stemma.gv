@@ -1,0 +1,42 @@
+digraph {
+    1[color="grey", label=""];
+    w[color="grey"];
+    g[color="grey"];
+    alpha[color="grey", label="α"];
+    gamma[color="grey", label="γ"];
+    delta[color="grey", label="δ"];
+    zeta[color="grey", label="ζ"];
+    c[color="grey"];
+    eta[color="grey", label="η"];
+    theta[color="grey", label="θ"];
+    kappa[color="grey", label="κ"];
+    epsilon[color="grey", label="ε"];
+    beta[color="grey", label="β"];
+    1->w[color="grey"];
+    w -> g;
+    g -> alpha;
+    g -> beta;
+    beta -> theta;
+    beta -> M;
+    alpha -> gamma;
+    alpha -> D
+    gamma -> delta;
+    gamma -> zeta;
+    zeta -> J;
+    delta -> A;
+    delta -> epsilon;
+    epsilon -> F;
+    1->c[color="grey"];
+    c -> eta;
+    eta -> kappa;
+    kappa -> B;
+    kappa -> W;
+    eta -> R;
+    R -> L;
+    D -> E;
+    
+
+
+
+}
+
