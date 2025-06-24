@@ -29,7 +29,7 @@ digraph {
 
     Saga[color="grey"];
     First_adaptation[color="grey", label="erste umarbeitung"];
-    Second_adaptation[color="grey"; label="zweite umarbeitung"];
+    Second_adaptation[color="grey", label="zweite umarbeitung"];
 
     x [color="grey"];
     w [color="grey"];
