@@ -36,7 +36,7 @@ wits:
       witSignature: "Not provided"
       witOrigDate: "ca. 1300-1350"
       witOrigPlace: ""
-      witNotes: "A compilation made of 5 different poems by an anonimous Rhine-lander compilator, its first part made of an original Karl und Galie, the second part of a "MG", the fourth part of Karl and Elegast, the fifth part of the Rolandslied with the Ospinel poem, and its sixt part of a Weltendegedicht, a poem about the end of the world."
+      witNotes: "A compilation made of 5 different poems by an anonimous Rhine-lander compilator, its first part made of an original Karl und Galie, the second part of a MG, the fourth part of Karl and Elegast, the fifth part of the Rolandslied with the Ospinel poem, and its sixth part of a Weltendegedicht, a poem about the end of the world."
       witMsDesc: ""
       witDigit: ""
     - witSigla: "A"

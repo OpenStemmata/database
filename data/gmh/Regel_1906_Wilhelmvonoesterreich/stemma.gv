@@ -1,6 +1,7 @@
 digraph {
+    omega[label="ω", color="grey"];
 
-    # To refactor nodes, place the cursor left to a node name
+
     omega -> H;
     omega -> S;
     omega -> Hb;
