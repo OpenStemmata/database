@@ -69,7 +69,7 @@ wits:
       witMsDesc: ""
       witDigit: "http://dlib.gnm.de/item/Hs42567"
     - witSigla: "k"
-      witSignature: "Vienna, Österr. Nationalbibl., Cod. 15478"
+      witSignature: "Wien, Österr. Nationalbibl., Cod. 15478"
       witOrigDate: "1480-1490"
       witOrigPlace: ""
       witNotes: ""

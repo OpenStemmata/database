@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Paris et Vienne</title>
+        <author>Kaltenbacher, Robert</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Paris, Bibliothèque nationale de France, nouvelles acquisitions françaises, 10169 is missing (probably unknown at the time). Only a selection of the many derivatives (such as the Armenian, the Yiddish, Aljamia, Swedish, Flemish, etc.) is included. Not all the witnesses of the included derivatives are included.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Der altfranzösische Roman Paris et Vienne</title>
+          <author>Kaltenbacher, Robert</author>
+          <date>1904</date>
+          <pubPlace>Elangen</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="41"/>
+          <ptr type="digitised" target="https://archive.org/details/deraltfranzosischeromanparis/page/41"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_F">
+            <label type="siglum">F</label>
+            <idno>Carpentras, Bibliothèque Inguimbertine, papiers de Peiresc, n° 23</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Arsenal</repository>
+                <idno> 3000</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1443-1500</origDate>
+            <origPlace>Provence (Château d’Orgon)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 1480</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>29 November 1452</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 1464</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1443-1500</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 1479</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>16 January 1459</origDate>
+            <origPlace></origPlace>
+            <note>Written by Guilem le moign</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Bruxelles</settlement>
+                <repository> KBR</repository>
+                <idno> 9632-9633</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1443-1500</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_S">
+            <label type="siglum">S</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 20044</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1443-1500</origDate>
+            <origPlace></origPlace>
+            <note>Version abrégée du roman de Paris et Vienne (Arlima)</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ca">
+            <label type="siglum">Ca</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Firenze</settlement>
+                <repository> Biblioteca Riccardiana</repository>
+                <idno> 2919</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Witness of the italian version, «tradotto dal Franzese in Toscano da Carlo di Piero del Nero» in 1476 in Firenze</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Sp">
+            <label type="siglum">Sp</label>
+            <idno>Ausgabe von Burgos</idno>
+            <origDate>1524</origDate>
+            <origPlace>Burgos</origPlace>
+            <note>ed. Burgos, Alonso de Melgar, 1524</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Pa">
+            <label type="siglum">Pa</label>
+            <idno>Bearbeitung des Pastore Poeta</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_An">
+            <label type="siglum">An</label>
+            <idno>Ausgabe von Antwerpen</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Probably Antwerpen, Gerhard Leuu, 1488,  die Historie van den vromen riddere parijs… or any other of the Antwerp prints (in English, in French…)</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Paris et Vienne</title>
+        <persName role="author" ref="http://viaf.org/">Pierre de La Cépède</persName>
+        <origDate>1432</origDate>
+        <origPlace>Marseille?</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">roman en prose</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">selected</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="frm"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/frm/Kaltenbacher_1904_PLacepede-ParisVienne/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="23" size="23">
+        <label></label>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="3">
+          <label>O</label>
+        </node>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2">
+          <label>α</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="1">
+          <label>β</label>
+        </node>
+        <node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="2">
+          <label>γ</label>
+        </node>
+        <node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>δ</label>
+        </node>
+        <node xml:id="n_epsilon" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ε</label>
+        </node>
+        <node xml:id="n_zeta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ζ</label>
+        </node>
+        <node xml:id="n_eta" type="hypothetical" inDegree="2" outDegree="1">
+          <label>η</label>
+        </node>
+        <node xml:id="n_theta" type="hypothetical" inDegree="1" outDegree="4">
+          <label>θ</label>
+        </node>
+        <node xml:id="n_iota" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ι</label>
+        </node>
+        <node xml:id="n_lambda" type="hypothetical" inDegree="1" outDegree="1">
+          <label>λ</label>
+        </node>
+        <node xml:id="n_chi" type="hypothetical" inDegree="1" outDegree="1">
+          <label>χ</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
+          <label>D</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_Pa" type="witness" inDegree="1" outDegree="0">
+          <label>Pa</label>
+        </node>
+        <node xml:id="n_Ca" type="witness" inDegree="1" outDegree="0">
+          <label>Ca</label>
+        </node>
+        <node xml:id="n_S" type="witness" inDegree="1" outDegree="0">
+          <label>S</label>
+        </node>
+        <node xml:id="n_An" type="witness" inDegree="1" outDegree="0">
+          <label>An</label>
+        </node>
+        <node xml:id="n_Sp" type="witness" inDegree="1" outDegree="0">
+          <label>Sp</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_O" to="#n_alpha" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_O" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_O" to="#n_delta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_alpha" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_alpha" to="#n_gamma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_beta" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_gamma" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_gamma" to="#n_eta" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_delta" to="#n_epsilon" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_delta" to="#n_zeta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_epsilon" to="#n_eta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_epsilon" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_zeta" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_zeta" to="#n_theta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_eta" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_theta" to="#n_Pa" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_theta" to="#n_iota" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_theta" to="#n_chi" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_theta" to="#n_Sp" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_iota" to="#n_Ca" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_iota" to="#n_lambda" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_22" from="#n_lambda" to="#n_S" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_23" from="#n_chi" to="#n_An" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

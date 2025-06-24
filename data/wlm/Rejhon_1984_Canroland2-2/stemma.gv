@@ -1,0 +1,15 @@
+digraph {
+
+    c[color="grey"];
+    eta[color="grey", label="η"];
+    kappa[color="grey", label="κ"];
+    
+    c -> eta;
+    eta -> kappa;
+    kappa -> B;
+    kappa -> W;
+    eta -> R;
+    R -> L;    
+    
+}
+

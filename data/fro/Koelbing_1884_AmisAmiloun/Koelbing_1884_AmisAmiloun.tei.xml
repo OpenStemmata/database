@@ -66,23 +66,19 @@
           </witness>
           <witness xml:id="w_L">
             <label type="siglum">L</label>
-            <msDesc>
-              <idno>London, British Library, Royal, 12. C. XII, f. 69ra-76rb</idno>
-              <msFrag>
-                <msIdentifier>
-                  <repository/>
-                  <idno>London, British Library, Cotton, Vitellius D. III, n° 5</idno>
-                </msIdentifier>
-              </msFrag>
-            </msDesc>
+            <idno>London, British Library, Royal 12. C. XII, f. 69ra-76rb</idno>
             <origDate>1320-1340</origDate>
             <origPlace></origPlace>
             <note>(Date according to Arlima)</note>
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_NA">
+            <label type="siglum">NA</label>
+            <idno>London, British Library, Cotton Vitellius D. III, n° 5</idno>
             <origDate>1251-1300</origDate>
             <origPlace></origPlace>
-            <note></note>
+            <note>Manuscrit presqu’entièrement détruit dans l'incendie de 1731 (Arlima)</note>
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>

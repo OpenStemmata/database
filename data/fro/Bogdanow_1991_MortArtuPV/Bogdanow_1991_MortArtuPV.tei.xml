@@ -42,7 +42,13 @@
         <listWit>
           <witness xml:id="w_N1">
             <label type="siglum">N1</label>
-            <idno>BnF, fr. 340</idno>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 340</idno>
+              </msIdentifier>
+            </msDesc>
             <origDate>1395-1405</origDate>
             <origPlace>Workshop of the Duc de Berry</origPlace>
             <note></note>

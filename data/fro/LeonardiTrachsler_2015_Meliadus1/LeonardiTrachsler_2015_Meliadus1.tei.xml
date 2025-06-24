@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Meliadus</title>
+        <author>Trachsler, Richard</author>
+        <author>Leonardi, Lino</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>This is the stemma for the Roman de Meliadus, sharing a good part of the mss with the Roman de Guiron le Courtois. Concerning the 350, the authors write «l’état textuel de α est témoigné aussi par 350, seul manuscrit ancien réalisé en France (même s’il contient certaines insertions italiennes). Mais la nature composite de ce manuscrit est confirmée par des indices de contamination (visibles lors des passages d’une main à l’autre, mais aussi au sein de sections copiées par une même main) entre une source α et une source β, c’est-à-dire entre la première famille et la seconde, qui réunit les autres manuscrits, tous cycliques, français et tardifs».</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>L’édition critique des romans en prose : le cas de Guiron le Courtois</title>
+          <author>Trachsler, Richard</author>
+          <author>Leonardi, Lino</author>
+          <date>2015</date>
+          <pubPlace></pubPlace>
+          <series>Manuel de la philologie de l’édition</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="61"/>
+          <ptr type="digitised" target="https://doi.org/10.1515/9783110302608-005"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_338">
+            <label type="siglum">338</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 338</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1380-1420</origDate>
+            <origPlace>France</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_340">
+            <label type="siglum">340</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 340</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1401-1425</origDate>
+            <origPlace>France (Paris?)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_350">
+            <label type="siglum">350</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 350</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1280-1420</origDate>
+            <origPlace>Arras and Italy</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_355">
+            <label type="siglum">355</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 355</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1401-1500</origDate>
+            <origPlace>France</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_356">
+            <label type="siglum">356</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 356</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1440-1460</origDate>
+            <origPlace>Paris</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_359-360">
+            <label type="siglum">359-360</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 359-360</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1475-1500</origDate>
+            <origPlace>Flanders</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_5243">
+            <label type="siglum">5243</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> NAF 5243</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1450-1500</origDate>
+            <origPlace>Milan</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A1">
+            <label type="siglum">A1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibl. de l'Arsenal</repository>
+                <idno> 3325</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1250-1300</origDate>
+            <origPlace>Northern Italy (Genova ?)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A2">
+            <label type="siglum">A2</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibl. de l'Arsenal</repository>
+                <idno> 3477-3478</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1401-1420</origDate>
+            <origPlace>France or Savoy</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Cologny-Genève</settlement>
+                <repository> Fondation Martin Bodmer</repository>
+                <idno> 96</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1401-1420</origDate>
+            <origPlace>France</origPlace>
+            <note>C1 indique la rédaction particulière pour Lath. 79–90</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F">
+            <label type="siglum">F</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Firenze</settlement>
+                <repository> Biblioteca della Fondazione Ezio Franceschini</repository>
+                <idno> 2</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1401-1450</origDate>
+            <origPlace>Northern Italy</origPlace>
+            <note>(olim Ferrell 5 collection privée, prêté à la Parker Library, Corpus Christi College, Cambridge)</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fi">
+            <label type="siglum">Fi</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Firenze</settlement>
+                <repository> Biblioteca Medicea Laurenziana</repository>
+                <idno> Ash. 123</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1280-1300</origDate>
+            <origPlace>Western Italy</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L1">
+            <label type="siglum">L1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> British Library</repository>
+                <idno> Add. 12228</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1340-1360</origDate>
+            <origPlace>Italy</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L3">
+            <label type="siglum">L3</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> British Library</repository>
+                <idno> Add. 36673</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1401-1600</origDate>
+            <origPlace>France</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_T">
+            <label type="siglum">T</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Torino</settlement>
+                <repository> Biblioteca Nazionale e Universitaria</repository>
+                <idno> 1622</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1401-1500</origDate>
+            <origPlace>France</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_V2">
+            <label type="siglum">V2</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Venezia</settlement>
+                <repository> Biblioteca Nazionale Marciana</repository>
+                <idno> fr. XV</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1340-1360</origDate>
+            <origPlace>Italy</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Gp">
+            <label type="siglum">Gp</label>
+            <idno>Meliadus de Leonnoys</idno>
+            <origDate>1528</origDate>
+            <origPlace>Paris</origPlace>
+            <note>ed. Galliot du Pré, 1528</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Jan">
+            <label type="siglum">Jan</label>
+            <idno>Meliadus de Leonnoys</idno>
+            <origDate>1532</origDate>
+            <origPlace>Paris</origPlace>
+            <note>ed. Paris, Denys Janot, 1532</note>
+            <ptr type="description" target="Reprod. of 1528 ed."/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/184682658">Meliadus</title>
+        <persName role="author" ref="http://viaf.org/288838602">Rusticien de Pise</persName>
+        <origDate>1230-1235</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">roman arthurien en prose</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/LeonardiTrachsler_2015_Meliadus1/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="29" size="29">
+        <label>2</label>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2">
+          <label>α</label>
+        </node>
+        <node xml:id="n_alpha1" type="hypothetical" inDegree="1" outDegree="3">
+          <label>α1</label>
+        </node>
+        <node xml:id="n_alpha2" type="hypothetical" inDegree="1" outDegree="4">
+          <label>[α2]</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>β</label>
+        </node>
+        <node xml:id="n_betaZero" type="hypothetical" inDegree="1" outDegree="2">
+          <label>β⁰</label>
+        </node>
+        <node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="2">
+          <label>γ</label>
+        </node>
+        <node xml:id="n_gamma1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>γ¹</label>
+        </node>
+        <node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>δ</label>
+        </node>
+        <node xml:id="n_delta1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>δ¹</label>
+        </node>
+        <node xml:id="n_delta2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>δ²</label>
+        </node>
+        <node xml:id="n_delta3" type="hypothetical" inDegree="1" outDegree="2">
+          <label>δ³</label>
+        </node>
+        <node xml:id="n_delta4" type="hypothetical" inDegree="1" outDegree="2">
+          <label>δ⁴</label>
+        </node>
+        <node xml:id="n_omega" type="hypothetical" inDegree="0" outDegree="2">
+          <label>ω</label>
+        </node>
+        <node xml:id="n_356" type="witness" inDegree="1" outDegree="0">
+          <label>356-357</label>
+        </node>
+        <node xml:id="n_358" type="witness" inDegree="1" outDegree="0">
+          <label>358-363</label>
+        </node>
+        <node xml:id="n_A1" type="witness" inDegree="1" outDegree="0">
+          <label>A1</label>
+        </node>
+        <node xml:id="n_Fe" type="witness" inDegree="1" outDegree="0">
+          <label>Fe</label>
+        </node>
+        <node xml:id="n_V2" type="witness" inDegree="1" outDegree="0">
+          <label>V2</label>
+        </node>
+        <node xml:id="n_5243" type="witness" inDegree="1" outDegree="0">
+          <label>5243</label>
+        </node>
+        <node xml:id="n_Fi" type="witness" inDegree="1" outDegree="0">
+          <label>Fi</label>
+        </node>
+        <node xml:id="n_L1" type="witness" inDegree="1" outDegree="0">
+          <label>L1</label>
+        </node>
+        <node xml:id="n_350" type="witness" inDegree="2" outDegree="0">
+          <label>350</label>
+        </node>
+        <node xml:id="n_338" type="witness" inDegree="1" outDegree="0">
+          <label>338</label>
+        </node>
+        <node xml:id="n_A2" type="witness" inDegree="1" outDegree="0">
+          <label>A2</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="0">
+          <label>T</label>
+        </node>
+        <node xml:id="n_L3" type="witness" inDegree="1" outDegree="0">
+          <label>L3</label>
+        </node>
+        <node xml:id="n_355" type="witness" inDegree="1" outDegree="0">
+          <label>355</label>
+        </node>
+        <node xml:id="n_Gp" type="witness" inDegree="1" outDegree="0">
+          <label>Gp</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_alpha" to="#n_alpha1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_alpha" to="#n_alpha2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_alpha1" to="#n_A1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_alpha1" to="#n_Fe" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_alpha1" to="#n_V2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_alpha2" to="#n_5243" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_7" from="#n_alpha2" to="#n_Fi" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_8" from="#n_alpha2" to="#n_L1" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_9" from="#n_alpha2" to="#n_350" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_10" from="#n_beta" to="#n_gamma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_beta" to="#n_delta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_betaZero" to="#n_350" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_betaZero" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_gamma" to="#n_338" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_gamma" to="#n_gamma1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_gamma1" to="#n_356" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_gamma1" to="#n_A2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_delta" to="#n_358" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_delta" to="#n_delta1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_delta1" to="#n_delta2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_delta1" to="#n_delta3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_22" from="#n_delta2" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_23" from="#n_delta2" to="#n_delta4" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_24" from="#n_delta3" to="#n_355" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_25" from="#n_delta3" to="#n_Gp" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_26" from="#n_delta4" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_27" from="#n_delta4" to="#n_L3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_28" from="#n_omega" to="#n_alpha" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_29" from="#n_omega" to="#n_betaZero" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

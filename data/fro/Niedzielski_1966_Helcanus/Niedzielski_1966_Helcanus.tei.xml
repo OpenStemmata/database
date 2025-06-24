@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Helcanus</title>
+        <author>Niedzielski, Henri</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Continuation of the 7 sages possibly by the same author as Cassiodorus. The witnesses tend to not separate the texts. As for Helcanus, two families, one Picard (alpha, composed of BH) the other one francienne/parisian (delta, composed of GVX) are easy to establish, but the relationship between them are harder. The editor offers three stemmata, but retains the second one as most likely. The Turin witness (Torino, BNU, L. III. 8) is not included. Details on the witnesses updated using Arlima.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Le Roman de Helcanus, édition critique d’un texte en prose du XIIIe siècle</title>
+          <author>Niedzielski, Henri</author>
+          <date>1966</date>
+          <pubPlace>Genève</pubPlace>
+          <series>Textes littéraires français</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="121"/>
+          <biblScope unit="page" n="LXII"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Bruxelles</settlement>
+                <repository> KBR</repository>
+                <idno> 9245</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1350</origDate>
+            <origPlace>Northern France / Picardy</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> français 93</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1466</origDate>
+            <origPlace></origPlace>
+            <note>Scribe: Micheau Gonnot, priest</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_H">
+            <label type="siglum">H</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Bruxelles</settlement>
+                <repository> KBR</repository>
+                <idno> 9401</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1320</origDate>
+            <origPlace>Picardy</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_V">
+            <label type="siglum">V</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> français 22548-22550</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1320</origDate>
+            <origPlace>Île-de-France?</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_X1">
+            <label type="siglum">X1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> français 17000</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1341-1360</origDate>
+            <origPlace>Paris</origPlace>
+            <note>First volume of X (formerly Saint Germain 120)</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_X2">
+            <label type="siglum">X2</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> British Library</repository>
+                <idno> Harley 4903 f. 1r-16r </idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1341-1360</origDate>
+            <origPlace>Paris</origPlace>
+            <note>Second volume of X</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Helcanus</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1270-1289</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">roman antique en prose</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Niedzielski_1966_Helcanus/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="9" size="8">
+        <label>2</label>
+        <node xml:id="n_Beta" type="hypothetical" inDegree="0" outDegree="2">
+          <label>Β</label>
+        </node>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2">
+          <label>α</label>
+        </node>
+        <node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="1">
+          <label>δ</label>
+        </node>
+        <node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="2">
+          <label>γ</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <node xml:id="n_X" type="witness" inDegree="1" outDegree="0">
+          <label>X</label>
+        </node>
+        <node xml:id="n_V" type="witness" inDegree="1" outDegree="1">
+          <label>V</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_Beta" to="#n_alpha" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_Beta" to="#n_delta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_alpha" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_alpha" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_delta" to="#n_gamma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_gamma" to="#n_X" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_gamma" to="#n_V" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_V" to="#n_G" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Le Lai de l’Ombre</title>
+        <author>Trovato, Paolo</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>La tradizione manoscritta del Lai de l’ombre. Riflessioni sulle tecniche d’edizione primonovecentesche</title>
+          <author>Trovato, Paolo</author>
+          <date>2013</date>
+          <pubPlace></pubPlace>
+          <series>Romania</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="131"/>
+          <biblScope unit="page" n="377"/>
+          <ptr type="digitised" target="https://www.persee.fr/doc/roma_0035-8029_2013_num_131_523_7418#roma_0035-8029_2013_num_131_523_T3_0338_0000"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 837</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1278-1300</origDate>
+            <origPlace>Île-de-France</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 1593</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1251-1300</origDate>
+            <origPlace>Île-de-France ?</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 12603</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1320</origDate>
+            <origPlace>Picardie</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 19152</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1320</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> NAF 1104</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1300</origDate>
+            <origPlace>Île-de-France</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F">
+            <label type="siglum">F</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 14971</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1400</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 1553</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1285-1290</origDate>
+            <origPlace>Picardie</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Le Lai de l’Ombre</title>
+        <persName role="author" ref="http://viaf.org/">Jean Renart</persName>
+        <origDate>1201-1220</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">Lai</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">yes</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Trovato_2013_LaiOmbre/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="14" size="14">
+        <label>4</label>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="2">
+          <label>O</label>
+        </node>
+        <node xml:id="n_Archetipo" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Archetipo</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_q" type="hypothetical" inDegree="1" outDegree="2">
+          <label>q</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>y</label>
+        </node>
+        <node xml:id="n_z" type="hypothetical" inDegree="2" outDegree="3">
+          <label>z</label>
+        </node>
+        <node xml:id="n_r" type="hypothetical" inDegree="1" outDegree="1">
+          <label>r</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
+          <label>D</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_O" to="#n_Archetipo" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_O" to="#n_r" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_Archetipo" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_Archetipo" to="#n_q" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_x" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_x" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_q" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_q" to="#n_z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_y" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_y" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_z" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_z" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_z" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_r" to="#n_z" od:type="contamination" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

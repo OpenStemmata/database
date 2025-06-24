@@ -1,0 +1,25 @@
+digraph {
+O[color="grey", label=""];
+Archetipo[color="grey"];
+x[color="grey"];
+q[color="grey"];
+y[color="grey"];
+z[color="grey"];
+r[color="grey"];
+
+O->Archetipo;
+Archetipo->x;
+x->A;
+x->B;
+Archetipo->q;
+q->y;
+y->C;
+y->G;
+q->z;
+z->D;
+z->E;
+z->F;
+O->r;
+r->z[style="dashed"];
+
+}

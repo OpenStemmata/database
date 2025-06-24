@@ -1,0 +1,45 @@
+digraph {
+
+1[color="grey", label=""];
+2[color="grey", label=""];
+3[color="grey", label=""];
+4[color="grey", label=""];
+5[color="grey", label=""];
+x[color="grey"];
+6[color="grey", label=""];
+y[color="grey"];
+7[color="grey", label=""];
+8[color="grey", label=""];
+z[color="grey"];
+
+1->2;
+2->3;
+3->A;
+3->4;
+4->F;
+4->C;
+2->S;
+
+1->5;
+5->H;
+5->T;
+5->B;
+
+1->x;
+x->D;
+x->6;
+6->4[style="dashed"];
+6->y;
+y->B[style="dashed"];
+y->E[style="dashed"];
+y->z[style="dashed"];
+
+6->7;
+7->T[style="dashed"];
+7->8;
+8->z;
+z->E;
+z->G;
+8->I;
+
+}

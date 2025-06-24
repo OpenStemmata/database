@@ -41,7 +41,7 @@ wits:
       witMsDesc: ""
       witDigit: ""
     - witSigla: "V"
-      witSignature: "Vienna, Österr. Nationalbibl., Cod. 3007"
+      witSignature: "Wien, Österr. Nationalbibl., Cod. 3007"
       witOrigDate: "1472"
       witOrigPlace: ""
       witNotes: ""

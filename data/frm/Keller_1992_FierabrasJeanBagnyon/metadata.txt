@@ -17,7 +17,7 @@ workOrigPlace : "Lausanne"
 workAuthors:
     - workAuthor: "Jean Bagnyon"
       workAuthorViaf: ""
-workGenre : "mise en prose"
+workGenre : "roman de chevalerie en prose"
 workLangCode : "frm"
 stemmaType : "reconstructed"
 drawnStemma : "true"

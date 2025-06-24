@@ -1,0 +1,27 @@
+digraph {
+X[color="grey"];
+a[color="grey"];
+b[color="grey"];
+bprime[color="grey", label="b'"];
+g[color="grey"];
+bsecond[color="grey", label="b''"];
+F2[label="F²"];
+Ch2[label="Ch²"];
+N1[label="N¹"];
+
+X->a;
+a->F2;
+a->g[style="dashed"];
+X->b;
+b->T;
+T->g[style="dashed"];
+b->bprime;
+bprime->g;
+g->H;
+g->Ch2;
+bprime->bsecond;
+bsecond->L;
+bsecond->C;
+C->N1;
+
+}

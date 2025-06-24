@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="color" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="x1">
+  <data key="d0">x</data>
+  <data key="d1">grey</data>
+</node>
+<node id="x2">
+  <data key="d0">x</data>
+  <data key="d1">grey</data>
+</node>
+<node id="x3">
+  <data key="d0">x</data>
+  <data key="d1">grey</data>
+</node>
+<node id="xHac3">
+  <data key="d0">x (Hac³)</data>
+  <data key="d1">grey</data>
+</node>
+<node id="xHac1">
+  <data key="d0">x (Hac¹)</data>
+  <data key="d1">grey</data>
+</node>
+<node id="x4">
+  <data key="d0">x</data>
+  <data key="d1">grey</data>
+</node>
+<node id="x5">
+  <data key="d0">x</data>
+  <data key="d1">grey</data>
+</node>
+<node id="x6">
+  <data key="d0">x</data>
+  <data key="d1">grey</data>
+</node>
+<node id="x7">
+  <data key="d0">x</data>
+  <data key="d1">grey</data>
+</node>
+<node id="x8">
+  <data key="d0">x</data>
+  <data key="d1">grey</data>
+</node>
+<node id="x9">
+  <data key="d0">x</data>
+  <data key="d1">grey</data>
+</node>
+<node id="x10">
+  <data key="d0">x</data>
+  <data key="d1">grey</data>
+</node>
+<node id="x11">
+  <data key="d0">x</data>
+  <data key="d1">grey</data>
+</node>
+<node id="x12">
+  <data key="d0">x</data>
+  <data key="d1">grey</data>
+</node>
+<node id="P1">
+  <data key="d0">P¹</data>
+</node>
+<node id="P2">
+  <data key="d0">P²</data>
+</node>
+<node id="P3">
+  <data key="d0">P³</data>
+</node>
+<node id="P4">
+  <data key="d0">P⁴</data>
+</node>
+<node id="P5">
+  <data key="d0">P⁵</data>
+</node>
+<node id="P6">
+  <data key="d0">P⁶</data>
+</node>
+<node id="R"/>
+<node id="A"/>
+<node id="Pa"/>
+<node id="Pb"/>
+<node id="S"/>
+<node id="G"/>
+<node id="W"/>
+<node id="C"/>
+<node id="B"/>
+<node id="D"/>
+<node id="O"/>
+<edge source="x1" target="R">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x1" target="x2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x2" target="x3">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x2" target="P1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x2" target="x4">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x3" target="xHac3">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x3" target="xHac1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="xHac3" target="A">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="xHac3" target="P2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="xHac3" target="P6">
+  <data key="d2">filiation</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="xHac1" target="Pa">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="xHac1" target="Pb">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x4" target="S">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x4" target="x5">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x5" target="x6">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x5" target="x7">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x6" target="G">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x6" target="W">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x7" target="C">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x7" target="x8">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x8" target="x9">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x8" target="O">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x9" target="x10">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x9" target="x12">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x10" target="P3">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x10" target="x11">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x11" target="P4">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x11" target="P5">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x12" target="B">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x12" target="D">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="R" target="P1">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="R" target="x4">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

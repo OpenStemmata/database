@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Wilhelm von Österreich</title>
+        <author>Regel, Ernst</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0009-0005-8729-9715">Gustavo C. Campedelli</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Only a small stemma of the H family of manuscripts is provided. They are unrelated to the main manuscript used for the edition (Gotha Manuscript), but share the similarity of having been modified to accomodate the copyist’s predilection for the House of Habsburg.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Wilhelm von Österreich aus der Gothaer Handschrift</title>
+          <author>Regel, Ernst</author>
+          <date>1906</date>
+          <pubPlace>Hamburg</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="VIII-IX"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_H">
+            <label type="siglum">H</label>
+            <idno>Pal. Germ. 145</idno>
+            <origDate>15th century</origDate>
+            <origPlace>Augsburg</origPlace>
+            <note></note>
+            <ptr type="description" target="https://iiif.biblissima.fr/collections/manifest/7e266cf477cb3fec46b5a091fe8ed3ac801639d0"/>
+            <ptr type="digitised" target="https://digi.ub.uni-heidelberg.de/diglit/cpg145"/>
+          </witness>
+          <witness xml:id="w_S">
+            <label type="siglum">S</label>
+            <idno>Cod. HB XIII 4</idno>
+            <origDate>1472-1474</origDate>
+            <origPlace>High Germany, Austria or Switzerland</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/5915"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Hb">
+            <label type="siglum">Hb</label>
+            <idno>Ms. germ. qu. 5</idno>
+            <origDate>Ca. 1440</origDate>
+            <origPlace>Alsace?</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/4743"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Wilhelm von Österreich</title>
+        <persName role="author" ref="http://viaf.org/">Johanns von Würzburg</persName>
+        <origDate>1314</origDate>
+        <origPlace>Würzburg?</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">Minne- and Aventiureroman</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">false</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">included</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gmh"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Regel_1906_Wilhelmvonoesterreich/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="4" size="4">
+        <label>1</label>
+        <node xml:id="n_omega" type="hypothetical" inDegree="0" outDegree="3">
+          <label>ω</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="1">
+          <label>H</label>
+        </node>
+        <node xml:id="n_S" type="witness" inDegree="1" outDegree="0">
+          <label>S</label>
+        </node>
+        <node xml:id="n_Hb" type="witness" inDegree="2" outDegree="0">
+          <label>Hb</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_omega" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_omega" to="#n_S" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_omega" to="#n_Hb" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_H" to="#n_Hb" od:type="contamination" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Martijn Trilogy</title>
+        <author>Leendertz, P.</author>
+        <author>Verdam, J.</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0002-9444-9065">Sofie Moors</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Jacob van Maerlant’s Strophische gedichten. Nieuwe bewerking der uitgave van Franck en Verdam</title>
+          <author>Leendertz, P.</author>
+          <author>Verdam, J.</author>
+          <date>1918</date>
+          <pubPlace>Leiden</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="xxxv"/>
+          <ptr type="digitised" target="https://www.delpher.nl/nl/boeken/view?coll=boeken&amp;identifier=MMUBL07:000000319:00041"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Stuttgart</settlement>
+                <repository> Württemberg State Library</repository>
+                <idno> Cod. Poet. et phil. 2º 22</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1400-1425</origDate>
+            <origPlace>Flanders</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="https://digital.wlb-stuttgart.de/index.php?id=6&amp;tx_dlf%5Bid%5D=14451&amp;tx_dlf%5Bpage%5D=227"/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Groningen</settlement>
+                <repository> University Library</repository>
+                <idno> hs 405</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1325-1347</origDate>
+            <origPlace>Brabant/Gelre</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="https://facsimile.ub.rug.nl/digital/collection/manuscripts/id/3332"/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <idno>Heidelberg, University Library, hs 200 (olim: hs. 362a, 83)</idno>
+            <origDate>1375-1400</origDate>
+            <origPlace>Flanders</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="https://digi.ub.uni-heidelberg.de/diglit/heidhs200/0001/image,info"/>
+          </witness>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Ghent</settlement>
+                <repository> University Library</repository>
+                <idno> hs 1374</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1375-1400</origDate>
+            <origPlace>Hainaut (Herne)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="https://lib.ugent.be/viewer/archive.ugent.be%3A293E7132-AABB-11E7-8DE6-2C4519B1B84C?c=&amp;m=&amp;s=&amp;cv=&amp;xywh=-668%2C-151%2C3454%2C2956#?xywh=-2038%2C-148%2C6193%2C2956"/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>The Hague</settlement>
+                <repository> National Library of the Netherlands</repository>
+                <idno> 76 E 6</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1450-1500</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F">
+            <label type="siglum">F</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>The Hague</settlement>
+                <repository> National Library of the Netherlands</repository>
+                <idno> 73 F 19</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1475</origDate>
+            <origPlace>Brabant</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Z">
+            <label type="siglum">Z</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Ghent</settlement>
+                <repository> Royal Academy of Dutch Language and Literature</repository>
+                <idno> (kantl): 6</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1450</origDate>
+            <origPlace>Brabant</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="https://www.fragmentarium.ms/overview/F-lllu"/>
+          </witness>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>The Hague</settlement>
+                <repository> National Library of the Netherlands</repository>
+                <idno> 150 F 40</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1496</origDate>
+            <origPlace>Antwerp</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="https://books.google.be/books?id=n2RXCGiiqusC&amp;printsec=frontcover&amp;hl=nl&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false"/>
+          </witness>
+          <witness xml:id="w_O">
+            <label type="siglum">O</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Oxford</settlement>
+                <repository> Bodleian Library Canonici Miscellanei</repository>
+                <idno> 278</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1480</origDate>
+            <origPlace>Flanders</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_W">
+            <label type="siglum">W</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vienna</settlement>
+                <repository> Austrian National Library</repository>
+                <idno> Cod. 13708</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1493-1494</origDate>
+            <origPlace>Hainaut (Herne)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_8500569&amp;order=1&amp;view=SINGLE"/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Martijn Trilogy</title>
+        <persName role="author" ref="http://viaf.org/56624842">Jacob van Maerlant</persName>
+        <origDate>ca. 1270-1300</origDate>
+        <origPlace>Low Countries</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">poem</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">excluded</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="dum"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/dum/VerdamLeendertz_1918_MartijnTrilogy/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="28" size="38">
+        <label>2</label>
+        <node xml:id="n_X" type="hypothetical" inDegree="0" outDegree="3">
+          <label>X</label>
+        </node>
+        <node xml:id="n_AOprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>AOprime</label>
+        </node>
+        <node xml:id="n_CEWprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>CEWprime</label>
+        </node>
+        <node xml:id="n_Xprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Xprime</label>
+        </node>
+        <node xml:id="n_AGprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>AGprime</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_EWprime" type="hypothetical" inDegree="2" outDegree="2">
+          <label>EWprime</label>
+        </node>
+        <node xml:id="n_EOprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>EOprime</label>
+        </node>
+        <node xml:id="n_FWprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>FWprime</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_Wprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>W*</label>
+        </node>
+        <node xml:id="n_OFprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>OFprime</label>
+        </node>
+        <node xml:id="n_Wsecond" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Wsecond</label>
+        </node>
+        <node xml:id="n_W" type="witness" inDegree="1" outDegree="0">
+          <label>W</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="4" outDegree="0">
+          <label>G</label>
+        </node>
+        <node xml:id="n_O" type="witness" inDegree="5" outDegree="0">
+          <label>O</label>
+        </node>
+        <node xml:id="n_DFprime" type="hypothetical" inDegree="1" outDegree="3">
+          <label>DFprime</label>
+        </node>
+        <node xml:id="n_ZFprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ZFprime</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="3" outDegree="0">
+          <label>D</label>
+        </node>
+        <node xml:id="n_Z" type="witness" inDegree="1" outDegree="0">
+          <label>Z</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="2" outDegree="0">
+          <label>F</label>
+        </node>
+        <node xml:id="n_BWprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>BWprime</label>
+        </node>
+        <node xml:id="n_BFprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>BFprime</label>
+        </node>
+        <node xml:id="n_BOprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>BOprime</label>
+        </node>
+        <node xml:id="n_BGprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>BGprime</label>
+        </node>
+        <node xml:id="n_BDprime" type="hypothetical" inDegree="1" outDegree="2">
+          <label>BDprime</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_X" to="#n_AOprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_X" to="#n_CEWprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_X" to="#n_Xprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_AOprime" to="#n_AGprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_AOprime" to="#n_O" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_CEWprime" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_CEWprime" to="#n_EWprime" od:type="contamination" cert="low"/>
+        <arc xml:id="arc_8" from="#n_Xprime" to="#n_BWprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_Xprime" to="#n_D" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_AGprime" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_AGprime" to="#n_G" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_EWprime" to="#n_EOprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_EWprime" to="#n_FWprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_EOprime" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_EOprime" to="#n_O" od:type="contamination" cert="low"/>
+        <arc xml:id="arc_16" from="#n_FWprime" to="#n_Wprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_FWprime" to="#n_OFprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_Wprime" to="#n_Wsecond" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_Wprime" to="#n_O" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_OFprime" to="#n_O" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_OFprime" to="#n_DFprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_22" from="#n_Wsecond" to="#n_W" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_23" from="#n_Wsecond" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_24" from="#n_DFprime" to="#n_ZFprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_25" from="#n_DFprime" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_26" from="#n_DFprime" to="#n_G" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_27" from="#n_ZFprime" to="#n_Z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_28" from="#n_ZFprime" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_29" from="#n_BWprime" to="#n_EWprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_30" from="#n_BWprime" to="#n_BFprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_31" from="#n_BFprime" to="#n_BOprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_32" from="#n_BFprime" to="#n_F" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_33" from="#n_BOprime" to="#n_BGprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_34" from="#n_BOprime" to="#n_O" od:type="contamination" cert="low"/>
+        <arc xml:id="arc_35" from="#n_BGprime" to="#n_BDprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_36" from="#n_BGprime" to="#n_G" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_37" from="#n_BDprime" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_38" from="#n_BDprime" to="#n_D" od:type="contamination" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

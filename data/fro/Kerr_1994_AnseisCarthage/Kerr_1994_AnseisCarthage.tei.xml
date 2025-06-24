@@ -25,7 +25,7 @@
         </availability>
       </publicationStmt>
       <notesStmt>
-        <note>Stemma encoded not directly from Kerr, but from the reproduction in ulien Florent. Anseïs de Carthage - Édition critique du manuscrit BnF fr. 793. Littératures. Université de Lille, 2022, tel-04021030</note>
+        <note>Stemma encoded not directly from Kerr, but from the reproduction in Julien Florent. Anseïs de Carthage - Édition critique du manuscrit BnF fr. 793. Littératures. Université de Lille, 2022, tel-04021030</note>
       </notesStmt>
       <sourceDesc>
         <bibl type="book">
@@ -42,7 +42,13 @@
         <listWit>
           <witness xml:id="w_C">
             <label type="siglum">C</label>
-            <idno>BnF fr. 1598</idno>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 1598</idno>
+              </msIdentifier>
+            </msDesc>
             <origDate>1201-1300</origDate>
             <origPlace></origPlace>
             <note>franco-italien, éd. par Floriana Ceresato</note>
@@ -64,8 +70,8 @@
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>
-          <witness xml:id="w_E_(ou_e?)">
-            <label type="siglum">E (ou e?)</label>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
             <msDesc>
               <msIdentifier>
                 <settlement>Durham</settlement>
@@ -75,13 +81,19 @@
             </msDesc>
             <origDate>1281-1300</origDate>
             <origPlace></origPlace>
-            <note></note>
+            <note>E or e?</note>
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>
           <witness xml:id="w_A">
             <label type="siglum">A</label>
-            <idno>BnF fr. 793</idno>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 793</idno>
+              </msIdentifier>
+            </msDesc>
             <origDate>1276-1300</origDate>
             <origPlace></origPlace>
             <note></note>
@@ -90,7 +102,13 @@
           </witness>
           <witness xml:id="w_B">
             <label type="siglum">B</label>
-            <idno>BnF fr. 12548</idno>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 12548</idno>
+              </msIdentifier>
+            </msDesc>
             <origDate>1281-1290</origDate>
             <origPlace></origPlace>
             <note></note>
@@ -138,19 +156,31 @@
           </witness>
           <witness xml:id="w_t">
             <label type="siglum">t</label>
-            <idno>BnF fr. 368</idno>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 368</idno>
+              </msIdentifier>
+            </msDesc>
             <origDate>1301-1350</origDate>
             <origPlace></origPlace>
             <note>not in the stemma</note>
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>
-          <witness xml:id="w_u_or_U?">
-            <label type="siglum">u or U?</label>
-            <idno>BnF NAF 5094</idno>
+          <witness xml:id="w_u">
+            <label type="siglum">u</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> NAF 5094</idno>
+              </msIdentifier>
+            </msDesc>
             <origDate>1201-1400</origDate>
             <origPlace></origPlace>
-            <note>In the stemma?</note>
+            <note>or U ? In the stemma?</note>
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>
@@ -240,10 +270,10 @@
           <label>7</label>
         </node>
         <node xml:id="n_D1" type="witness" inDegree="1" outDegree="0">
-          <label>D1\n vv.1-4128</label>
+          <label>D\n vv.1-4128</label>
         </node>
         <node xml:id="n_D2" type="witness" inDegree="1" outDegree="0">
-          <label>D2\n vv.4153-10740</label>
+          <label>D\n vv.4153-10740</label>
         </node>
         <node xml:id="n_U" type="witness" inDegree="1" outDegree="0">
           <label>U</label>

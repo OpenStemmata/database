@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="color" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="Karlmeinet_Kompilation">
+  <data key="d0">Karlmeinet-Kompilation\n1. Hälfte des 14. Jh.</data>
+  <data key="d1">grey</data>
+</node>
+<node id="A">
+  <data key="d0">Überlieferte Hs. A.\nder Kompilation\n1470-1480</data>
+</node>
+<edge source="Karlmeinet_Kompilation" target="A">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

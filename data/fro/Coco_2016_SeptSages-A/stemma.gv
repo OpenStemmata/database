@@ -1,0 +1,63 @@
+digraph {
+
+O[label="Originale/Archetipo", color="grey"];
+alpha[label="α", color="grey"];
+beta[label="β", color="grey"];
+a[color="grey"];
+a1[label="a/1", color="grey"];
+a2[label="a/2", color="grey"];
+a2a[label="a/2/a", color="grey"];
+b[color="grey"];
+b1[label="b/1", color="grey"];
+b1a[label="b/1/a", color="grey"];
+b1a1[label="b/1/a/1", color="grey"];
+b2[label="b/2", color="grey"];
+b2a[label="b/2/a", color="grey"];
+b2b[label="b/2/b", color="grey"];
+b2b1[label="b/2/b/1", color="grey"];
+b2b1a[label="b/2/b/1/a", color="grey"];
+b2b2[label="b/2/b/2", color="grey"];
+
+O->alpha;
+alpha->FITZ;
+alpha->ARS3152;
+O->beta;
+beta->a;
+a->a1;
+a1->B9433;
+a1->F5586;
+a->NA12791;
+a->a2;
+a2->F25545;
+a2->a2a;
+a2a->F22548;
+a2a->F93;
+beta->b;
+b->b1;
+b1->OXF;
+b1->b1a;
+b1a->ARS;
+b1a->b1a1;
+b1a1->F95;
+b1a1->GG6;
+b1->HAR;
+b->B10171;
+b->b2;
+b2->b2a;
+b2a->ETH;
+b2a->NA13522;
+b2->b2b;
+b2b->F2137;
+b2b->b2b1;
+b2b1->GG1;
+b2b1->b2b1a;
+b2b1a->F1421;
+b2b1a->BE;
+b2b1a->ASH;
+b2b1a->FRIB;
+b2b->b2b2;
+b2b2->M;
+b2b2->NA1263;
+
+}
+

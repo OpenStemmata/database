@@ -1,0 +1,41 @@
+digraph {
+
+O[color="grey"];
+alpha[label="α", color="grey"];
+beta[label="β", color="grey"];
+gamma[label="γ", color="grey"];
+delta[label="δ", color="grey"];
+epsilon[label="ε", color="grey"];
+zeta[label="ζ", color="grey"];
+eta[label="η", color="grey"];
+theta[label="θ", color="grey"];
+iota[label="ι", color="grey"];
+lambda[label="λ", color="grey"];
+chi[label="χ", color="grey"];
+
+O->alpha;
+alpha->beta;
+beta->B;
+alpha->gamma;
+gamma->A;
+gamma->eta[style="dashed"];
+O->F;
+O->delta;
+delta->epsilon;
+epsilon->eta;
+eta->D;
+epsilon->C;
+delta->zeta;
+zeta->E;
+zeta->theta;
+theta->Pa;
+theta->iota;
+iota->Ca;
+iota->lambda;
+lambda->S;
+theta->chi;
+chi->An;
+theta->Sp;
+
+}
+

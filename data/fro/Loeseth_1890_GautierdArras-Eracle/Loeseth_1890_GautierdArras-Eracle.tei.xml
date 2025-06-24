@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Eracle</title>
+        <author>Löseth, E.</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Œuvres de Gautier d’Arras, tome 1, Eracle</title>
+          <author>Löseth, E.</author>
+          <date>1890</date>
+          <pubPlace>Paris</pubPlace>
+          <series>Bibliothèque française du Moyen Âge</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="6"/>
+          <biblScope unit="page" n="n.p."/>
+          <ptr type="digitised" target="https://archive.org/details/oeuvrespublies01gautuoft/page/n9"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 1444</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 24430</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_T">
+            <label type="siglum">T</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Torino</settlement>
+                <repository> BNU</repository>
+                <idno> L.I.13</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <idno>Otte, Eraclius (High German translation)</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>This witnesse, called (E) in the stemma, is a medieval translation</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Eracle</title>
+        <persName role="author" ref="http://viaf.org/">Gautier d’Arras</persName>
+        <origDate>1150-1154</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">roman antique en vers</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">included</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Loeseth_1890_GautierdArras-Eracle/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="12" size="11">
+        <label></label>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1">
+          <label>O</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>y</label>
+        </node>
+        <node xml:id="n_d" type="hypothetical" inDegree="1" outDegree="1">
+          <label>d</label>
+        </node>
+        <node xml:id="n_f" type="hypothetical" inDegree="1" outDegree="1">
+          <label>f</label>
+        </node>
+        <node xml:id="n_g" type="hypothetical" inDegree="1" outDegree="1">
+          <label>g</label>
+        </node>
+        <node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="2">
+          <label>z</label>
+        </node>
+        <node xml:id="n_h" type="hypothetical" inDegree="1" outDegree="1">
+          <label>h</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>(E)</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="0">
+          <label>T</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_O" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_x" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_x" to="#n_z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_y" to="#n_d" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_y" to="#n_f" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_d" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_f" to="#n_g" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_g" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_z" to="#n_h" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_z" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_h" to="#n_B" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

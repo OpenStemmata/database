@@ -17,7 +17,7 @@ workOrigPlace : ""
 workAuthors:
     - workAuthor: ""
       workAuthorViaf: ""
-workGenre : "roman en prose"
+workGenre : "roman arthurien en prose"
 workLangCode : "fro"
 stemmaType : "reconstructed"
 drawnStemma : "true"

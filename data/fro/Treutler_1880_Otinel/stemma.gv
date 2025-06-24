@@ -1,0 +1,37 @@
+digraph {
+O[color="grey"];
+v[color="grey"];
+zFr[color="grey", label="z (frz.)"];
+aFr[label="a (frz.)"];
+bFr[label="b (frz.)"];
+y[color="grey"];
+otEng[label="Otuel engl."]
+x[color="grey", label="x (nordisch)"];
+2[color="grey", label=""];
+AKS[label="A (K.-S.)"];
+kkDan[label="K.-K. (dän.)"];
+kkIsl[label="K.-K. (isld.)"];
+1[color="grey", label=""];
+BKS[label="B (K.-S.)"];
+bKS[label="b (K.-S.)"];
+
+
+O->v;
+v->y;
+y->otEng;
+v->zFr;
+zFr->bFr;
+zFr->aFr
+O->x;
+x->2;
+2->AKS;
+AKS->kkDan;
+kkDan->kkIsl;
+2->Otvald;
+2->aKS;
+x->1;
+1->BKS;
+1->bKS;
+
+
+}

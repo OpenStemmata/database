@@ -1,0 +1,24 @@
+digraph {
+O[color="grey"];
+O1[color="grey", label="O¹"];  
+alpha[label="α", color="grey"];
+beta[label="β", color="grey"];
+x[color="grey"];
+x1[color="grey", label="x¹"];
+y[color="grey"];
+
+
+O->O1;
+O1->alpha;
+alpha->V;
+O1->beta;
+beta->x;
+x->B;
+x->x1;
+x1->M;
+x1->T;
+beta->y;
+y->W;
+
+}
+

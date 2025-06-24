@@ -1,0 +1,51 @@
+digraph {
+
+    Saga -> First_adaptation;
+    First_adaptation -> x;
+    First_adaptation -> Second_adaptation;
+    Second_adaptation -> w; 
+    w -> A;
+    w -> y;
+    w -> x[style="dashed"];
+    y -> C;
+    y-> B;
+    x -> B;
+    x->C[color="grey"];
+    C -> z;
+    z -> E1;
+    z -> D2;
+    B -> D1;
+    B -> E2;
+    B -> AM_152_fol; 
+    AM_152_fol -> beta;
+    B -> b;
+    D1 -> D;
+    D2 -> D;
+    D->D_ms;
+    E1 -> E;
+    E2 -> E;
+    E->E_ms;
+
+
+    Saga[color="grey"];
+    First_adaptation[color="grey", label="erste umarbeitung"];
+    Second_adaptation[color="grey", label="zweite umarbeitung"];
+
+    x [color="grey"];
+    w [color="grey"];
+    y [color="grey"];
+    z [color="grey", label="z\n(ohne Qnundar þáttr)"];
+    E1 [color="grey"];
+    D2 [color="grey"];
+    D1 [color="grey"];
+    D[color="grey", label="=redaktion D"];
+    D_ms[label="handschrift D"];
+    E2 [color="grey"];
+    E[color="grey", label="=redaktion E"];
+    E_ms[label="handschrift E."];
+    B[label="B\n(mit randbemerkungen aus y)"];
+    AM_152_fol[label="152"];
+    beta[label="β"];
+
+
+}

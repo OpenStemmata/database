@@ -1,0 +1,34 @@
+digraph {
+
+O[color="grey"];
+O1[color="grey"];
+O2[color="grey"];
+X[color="grey"];
+x[color="grey"];
+
+A[color="grey"];
+Aprime[color="grey", label="A'"];
+B[color="grey"];
+
+
+O->O1;
+O1->C;
+O->O2;
+O2->D;
+O2->X;
+X->E;
+X->x;
+
+x->A;
+A->A3;
+A->Aprime;
+Aprime->A1;
+Aprime->A2;
+Aprime->A4;
+x->B;
+B->B1;
+B->B2;
+
+A->D[style="dashed"];
+
+}

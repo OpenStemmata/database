@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="Pseudo_Turpin">
+  <data key="d0">grey</data>
+  <data key="d1">Pseudo-Turpin</data>
+</node>
+<node id="Speculum_Historiale">
+  <data key="d0">grey</data>
+  <data key="d1">Speculum historiale</data>
+</node>
+<node id="Aspremont">
+  <data key="d0">grey</data>
+</node>
+<node id="Kms_Aa">
+  <data key="d0">grey</data>
+  <data key="d1">Kms Aa</data>
+</node>
+<node id="A"/>
+<node id="a"/>
+<node id="Tveggja_Postola_Saga">
+  <data key="d0">grey</data>
+  <data key="d1">Tveggja Postola Saga</data>
+</node>
+<node id="Kms_Bb">
+  <data key="d0">grey</data>
+  <data key="d1">Kms Bb</data>
+</node>
+<node id="B"/>
+<node id="b"/>
+<edge source="Pseudo_Turpin" target="Speculum_Historiale">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Pseudo_Turpin" target="Kms_Aa">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Speculum_Historiale" target="Tveggja_Postola_Saga">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Speculum_Historiale" target="Kms_Bb">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Aspremont" target="Speculum_Historiale">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Aspremont" target="Kms_Aa">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Kms_Aa" target="A">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Kms_Aa" target="a">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Kms_Aa" target="Tveggja_Postola_Saga">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Tveggja_Postola_Saga" target="Kms_Bb">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Kms_Bb" target="B">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Kms_Bb" target="b">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

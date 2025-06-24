@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Gyðinga saga</title>
+        <author>Wolf, Kirsten</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0009-0005-8729-9715">Gustavo C. Campedelli</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Historiographical account of Jewish history which follows largely what is related in the Old Norse Alexanders saga. This stemma is for the abridged version</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Gyðinga saga</title>
+          <author>Wolf, Kirsten</author>
+          <date>1995</date>
+          <pubPlace>Reykjavík</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="1"/>
+          <biblScope unit="page" n="lxxv"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <idno>AM 226 fol.</idno>
+            <origDate>1350-1499</origDate>
+            <origPlace>Helgafellklaustur, Iceland</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handrit.is/manuscript/view/en/AM02-0226/0#mode/2up"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <idno>AM 655 4to XXV</idno>
+            <origDate>1290-1310</origDate>
+            <origPlace>Iceland</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handrit.is/manuscript/view/en/AM04-0655-XXV"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_a">
+            <label type="siglum">a</label>
+            <idno>AM 225 fol.</idno>
+            <origDate>1390-1410</origDate>
+            <origPlace>Iceland</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handrit.is/manuscript/view/da/AM02-0225/0#mode/2up"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <idno>AM 238 fol. XVII</idno>
+            <origDate>1300-1325</origDate>
+            <origPlace>Iceland</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handrit.is/manuscript/view/en/AM02-0238-XVII"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <idno>AM 229 fol. IV.</idno>
+            <origDate>1300-1710</origDate>
+            <origPlace>Iceland</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handrit.is/manuscript/view/da/AM02-0229/0#mode/2up"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <idno>DKNVSB 41 8vo</idno>
+            <origDate>1671</origDate>
+            <origPlace>Gíslabaer</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F">
+            <label type="siglum">F</label>
+            <idno>Lbs. 714 8vo</idno>
+            <origDate>late 18th century</origDate>
+            <origPlace>Strandasýsla, Iceland</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <idno>Lbs 4270 4to</idno>
+            <origDate>1791</origDate>
+            <origPlace>Mjóaból, Iceland</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Gyðinga saga</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate></origDate>
+        <origPlace>Norway?</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">Saga</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="non"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/non/Wolf_1995_Gydingasaga/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="8" size="7">
+        <label>1</label>
+        <node xml:id="n_x" type="hypothetical" inDegree="0" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>y</label>
+        </node>
+        <node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="3">
+          <label>z</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
+          <label>D</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_x" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_x" to="#n_z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_y" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_y" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_z" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_z" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_z" to="#n_G" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

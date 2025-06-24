@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Meraugis de Portlesguez</title>
+        <author>Friedwagner, Mathias</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Raoul von Houdenc, Sämtliche Werke nach allen bekannten Handschriften herausgegeben von Dr. Mathias Friedwagner. Erster Band: Meraugis von Portlesguez, altfranzösischer Abenteuerroman von Raoul von Houdenc zum ersten Mal nach allen Handschriften herausgegeben von Dr Mathias Friedwagner</title>
+          <author>Friedwagner, Mathias</author>
+          <date>1897</date>
+          <pubPlace>Halle</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="xxx"/>
+          <ptr type="digitised" target="https://archive.org/details/raoulvonhoudenc00friegoog/page/n35"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Berlin</settlement>
+                <repository> Staatsbibliothek und Preussischer Kulturbesitz</repository>
+                <idno> Gall. qu. 48</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1300</origDate>
+            <origPlace>Nord de la France ou Angleterre</origPlace>
+            <note>Arlima is more specific in the datation but has it in Northern France, while the editor describes it as Anglo-Norman</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> NAF 5386</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>Picardie</origDate>
+            <origPlace>1281-1300</origPlace>
+            <note>Fragments discovered at the AD du Gard, Draguignan (Arlima), and published by Paul Meyer, Romania 19, 459-462</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_T">
+            <label type="siglum">T</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Torino</settlement>
+                <repository> BNU</repository>
+                <idno> L. IV. 33</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1380-1420</origDate>
+            <origPlace>Picardie</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_V">
+            <label type="siglum">V</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vaticano</settlement>
+                <repository> BAV</repository>
+                <idno> Reg. lat. 1725</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1320</origDate>
+            <origPlace>Picardie</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_W">
+            <label type="siglum">W</label>
+            <idno>Wien, Österreichische Nationalbibliothek 2599</idno>
+            <origDate>1281-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Meraugis de Portlesguez</title>
+        <persName role="author" ref="http://viaf.org/">Raoul de Houdenc</persName>
+        <origDate>1225-1235</origDate>
+        <origPlace>Picardie</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">roman arthurien en vers</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Friedwagner_1897_RHoudenc-Meraugis/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="12" size="11">
+        <label></label>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="1">
+          <label>O</label>
+        </node>
+        <node xml:id="n_O1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>O¹</label>
+        </node>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="1">
+          <label>α</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>β</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_x1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x¹</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="1">
+          <label>y</label>
+        </node>
+        <node xml:id="n_V" type="witness" inDegree="1" outDegree="0">
+          <label>V</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="0">
+          <label>T</label>
+        </node>
+        <node xml:id="n_W" type="witness" inDegree="1" outDegree="0">
+          <label>W</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_O" to="#n_O1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_O1" to="#n_alpha" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_O1" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_alpha" to="#n_V" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_beta" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_beta" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_x" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_x" to="#n_x1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_x1" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_x1" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_y" to="#n_W" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

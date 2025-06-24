@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Horn</title>
+        <author>Braunholtz, E. G. W.</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>The stemma include all witnesses, except for the F2 fragment, that contains a part that survives only in O. In the text, it is indicated that F2 is not derived from O, nor the opposite, and that both go back to the faulty archetype of the tradition.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>Cambridge Fragments of the Anglo-Norman Roman de Horn</title>
+          <author>Braunholtz, E. G. W.</author>
+          <date>1921</date>
+          <pubPlace>Cambridge</pubPlace>
+          <series>The Modern Language Review</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="16"/>
+          <biblScope unit="page" n="24"/>
+          <ptr type="digitised" target="https://www.jstor.org/stable/3714574"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Cambridge</settlement>
+                <repository> University Library</repository>
+                <idno> Ff.6.17</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F1">
+            <label type="siglum">F1</label>
+            <idno>Cambridge, University Library, Additional, 4407 (1)</idno>
+            <origDate>1281-1300</origDate>
+            <origPlace></origPlace>
+            <note>fragment</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F2">
+            <label type="siglum">F2</label>
+            <idno>Cambridge, University Library, Additional, 4470</idno>
+            <origDate>1301-1320</origDate>
+            <origPlace></origPlace>
+            <note>fragment</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_H">
+            <label type="siglum">H</label>
+            <idno>London, British Library, Harley, 527</idno>
+            <origDate>1201-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_O">
+            <label type="siglum">O</label>
+            <idno>Oxford, Bodleian Library, Douce, 132</idno>
+            <origDate>1201-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Horn</title>
+        <persName role="author" ref="http://viaf.org/">Thomas</persName>
+        <origDate>1171-1180</origDate>
+        <origPlace>Angleterre</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">roman de la matière d'Angleterre en vers</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">excluded</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Braunholtz_1921_Horn/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="8" size="7">
+        <label></label>
+        <node xml:id="n_X" type="hypothetical" inDegree="0" outDegree="1">
+          <label>X</label>
+        </node>
+        <node xml:id="n_X1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>X1</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>y</label>
+        </node>
+        <node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="2">
+          <label>z</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_O" type="witness" inDegree="1" outDegree="0">
+          <label>O</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <node xml:id="n_F1" type="witness" inDegree="1" outDegree="0">
+          <label>F1</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_X" to="#n_X1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_X1" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_X1" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_y" to="#n_O" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_y" to="#n_z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_z" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_z" to="#n_F1" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

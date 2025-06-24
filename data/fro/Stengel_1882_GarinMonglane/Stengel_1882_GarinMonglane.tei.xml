@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Garin de Monglane</title>
+        <author>Stengel, Edmund</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>Bruchstück der Chanson de Garin de Monglane</title>
+          <author>Stengel, Edmund</author>
+          <date>1882</date>
+          <pubPlace></pubPlace>
+          <series>Zeitschrift für romanische Philologie</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="6"/>
+          <biblScope unit="page" n="404"/>
+          <ptr type="digitised" target="https://doi.org/10.1515/zrph.1882.6.1-4.386"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> British Library</repository>
+                <idno> Royal 20. D. XI</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1350</origDate>
+            <origPlace></origPlace>
+            <note>L for Stengel; known as B1 in the tradition of Guillaume d’Orange</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_R">
+            <label type="siglum">R</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Rome</settlement>
+                <repository> BAV</repository>
+                <idno> Reg. lat. 1517</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1324</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P">
+            <label type="siglum">P</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 24403</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1300</origDate>
+            <origPlace></origPlace>
+            <note>Date from Arlima</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_T">
+            <label type="siglum">T</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Trier</settlement>
+                <repository> Stadtbibliothek</repository>
+                <idno> Französische Fragmente sans cote</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1350</origDate>
+            <origPlace></origPlace>
+            <note>L for Stengel; known as B1 in the tradition of Guillaume d’Orange</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_g">
+            <label type="siglum">g</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Princeton</settlement>
+                <repository> University Library</repository>
+                <idno> Department of Rare Books and Special Collections Garrett 125</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Not known by Stengel. According to Hendrickson, its editor, it is close to P</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_n">
+            <label type="siglum">n</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Archives nationales de France</repository>
+                <idno> AB XIX 1733-1734</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Not known/used by Stengel</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_N">
+            <label type="siglum">N</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 1460</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Not known/used by Stengel. Second redaction.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Garin de Monglane</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1201-1300</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">chanson de geste</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Stengel_1882_GarinMonglane/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="7" size="6">
+        <label>1</label>
+        <node xml:id="n_1" type="hypothetical" inDegree="0" outDegree="2">
+          <label>1</label>
+        </node>
+        <node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>2</label>
+        </node>
+        <node xml:id="n_3" type="hypothetical" inDegree="1" outDegree="2">
+          <label>3</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="0">
+          <label>T</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+          <label>P</label>
+        </node>
+        <node xml:id="n_R" type="witness" inDegree="1" outDegree="0">
+          <label>R</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_1" to="#n_L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_1" to="#n_2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_2" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_2" to="#n_3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_3" to="#n_P" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_3" to="#n_R" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

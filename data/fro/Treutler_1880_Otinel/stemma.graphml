@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="O">
+  <data key="d0">grey</data>
+</node>
+<node id="v">
+  <data key="d0">grey</data>
+</node>
+<node id="zFr">
+  <data key="d0">grey</data>
+  <data key="d1">z (frz.)</data>
+</node>
+<node id="aFr">
+  <data key="d1">a (frz.)</data>
+</node>
+<node id="bFr">
+  <data key="d1">b (frz.)</data>
+</node>
+<node id="y">
+  <data key="d0">grey</data>
+</node>
+<node id="otEng">
+  <data key="d1">Otuel engl.</data>
+</node>
+<node id="x">
+  <data key="d0">grey</data>
+  <data key="d1">x (nordisch)</data>
+</node>
+<node id="2">
+  <data key="d0">grey</data>
+</node>
+<node id="AKS">
+  <data key="d1">A (K.-S.)</data>
+</node>
+<node id="kkDan">
+  <data key="d1">K.-K. (dän.)</data>
+</node>
+<node id="kkIsl">
+  <data key="d1">K.-K. (isld.)</data>
+</node>
+<node id="1">
+  <data key="d0">grey</data>
+</node>
+<node id="BKS">
+  <data key="d1">B (K.-S.)</data>
+</node>
+<node id="bKS">
+  <data key="d1">b (K.-S.)</data>
+</node>
+<node id="Otvald"/>
+<node id="aKS"/>
+<edge source="O" target="v">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="O" target="x">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="v" target="y">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="v" target="zFr">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="zFr" target="bFr">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="zFr" target="aFr">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="y" target="otEng">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x" target="2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x" target="1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="2" target="AKS">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="2" target="Otvald">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="2" target="aKS">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="AKS" target="kkDan">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="kkDan" target="kkIsl">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="1" target="BKS">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="1" target="bKS">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

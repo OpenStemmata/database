@@ -32,7 +32,7 @@ wits:
       witMsDesc: ""
       witDigit: ""
     - witSigla: "P"
-      witSignature: "BnF, fr. 22555"
+      witSignature: "Paris, BnF, fr. 22555"
       witOrigDate: "1401-1500"
       witOrigPlace: "Lorraine"
       witNotes: ""
