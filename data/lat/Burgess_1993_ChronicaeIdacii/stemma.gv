@@ -1,0 +1,69 @@
+digraph {
+
+   autograph -> alpha;
+   alpha-> beta;
+   beta-> gamma;
+   gamma->H;
+   gamma->IP[minlen=2];
+   H->O[minlen=4];
+   O->Hb;
+   O->Ha;
+   O->Hc;
+   Ha->Ht[minlen=3];
+   Ha->Hn[minlen=3];
+   O->Hs[minlen=4];
+   A->Hm[minlen=2];
+   beta->delta;
+   delta->deltaprime[minlen=2];
+   deltaprime->B[minlen=2];
+   B->C;
+   B->Bprime[minlen=2];
+   B->epsilon;
+   Bprime->T[minlen=2];
+   epsilon->S[minlen=3];
+   deltaprime->Fpar[minlen=2];
+   Fpar->F[minlen=1];
+   Fpar->phi[minlen=1];
+   phi->Fdeux[minlen=3];
+   phi->cF[minlen=3];
+   deltaprime->mu;
+   mu->M[weight=9000];
+   alpha->kappa;
+   kappa->G;
+   H->A[minlen=2];
+   Ha->Hs;
+   epsilon->T;
+    
+    autograph [label="autograph", color=grey];
+    alpha [label="α", color=grey];
+    beta [label="β", color=grey];
+    kappa [label="κ", color=grey];
+    gamma [label="γ", color=grey];
+    delta [label="δ", color=grey];
+    deltaprime [label="δ'", color=grey];
+    mu [label="μ", color=grey];
+    G [label="G"];
+    H [label="(H)"];
+    IP [label="IP"];
+    M [label="M"];
+    A [label="(A)"];
+    Hm [label="Hm"];
+    O [label="(O)"];
+    Hb [label="Hb"];
+    Ha [label="(Ha)"];
+    Hs [label="(Hs)"];
+    Hc [label="Hc"];
+    B [label="B"];
+    C [label="C"];
+    Bprime [label="B'"];
+    T [label="T"];
+    S [label="S"];
+    epsilon [label="ε", color=grey];
+    F [label="F"];
+    Fpar[label="(F)"];
+    cF [label="cF"];
+    phi [label="φ", color=grey];
+     Fdeux [label="F2"];
+    
+   
+}
