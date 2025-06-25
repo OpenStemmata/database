@@ -1,0 +1,1055 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Rennewart</title>
+        <author>Hübner, Alfred</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0002-2202-6354">Gustavo Fernandez Riva</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Ulrich von Türheim, Rennewart aus der berliner und heidelberger Handschrift</title>
+          <author>Hübner, Alfred</author>
+          <date>1964</date>
+          <pubPlace>Berlin; Zürich</pubPlace>
+          <series>Deutsche Texte des Mittelalters</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="39"/>
+          <biblScope unit="page" n="XLVI"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_Fragm._2">
+            <label type="siglum">Fragm. 2</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Bad Kreuznach</settlement>
+                <repository> Stadtarchiv</repository>
+                <idno> HsF 1</idno>
+              </msIdentifier>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Berlin</settlement>
+                  <repository> Staatsbibl.</repository>
+                  <idno> mgf 757 Bl. 8</idno>
+                </msIdentifier>
+              </msFrag>
+            </msDesc>
+            <origDate>Begin 14th century </origDate>
+            <origPlace></origPlace>
+            <note>fragmented, Fragm. 2[a] Bad Kreuznach, Fragm. 2[b] Berlin</note>
+            <ptr type="description" target="https://handschriftencensus.de/1777"/>
+            <ptr type="digitised" target="http://marburger-repertorien.de/abbildungen/mr14/pic2063a_2v1r.jpg http://marburger-repertorien.de/abbildungen/mr14/pic2063a_1v2r.jpg"/>
+          </witness>
+          <witness xml:id="w_Fragm._3">
+            <label type="siglum">Fragm. 3</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Bamberg</settlement>
+                <repository> Hist. Verein im Stadtarchiv</repository>
+                <idno> Rep. III (Akten) Nr. 1179</idno>
+              </msIdentifier>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Bamberg</settlement>
+                  <repository> Staatsarchiv</repository>
+                  <idno> Rep. A 246 Nr. 8</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Berlin</settlement>
+                  <repository> Staatsbibl.</repository>
+                  <idno> mgf 746</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Berlin</settlement>
+                  <repository> Staatsbibl.</repository>
+                  <idno> Hdschr. 269</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>München</settlement>
+                  <repository> Staatsbibl.</repository>
+                  <idno> Cgm 193/V</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Pommersfelden</settlement>
+                  <repository> Gräfl. Schönbornsche Schlossbibl.</repository>
+                  <idno> ohne Sign.</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Würzburg</settlement>
+                  <repository> Universitätsbibl.</repository>
+                  <idno> M. p. misc. f. 34</idno>
+                </msIdentifier>
+              </msFrag>
+            </msDesc>
+            <origDate>c.1st. quarter 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented, Fragm. 3[a] Bamberg Hist. Verein im Stadtarchiv, Fragm.3[b] Bamberg Staatsarchiv, Fragm. 3[e] Berlin mfg 746, Fragm. 3[g] Berlin Hdschr. 269, Fragm. 3[i] München, Fragm. 3[k] Pommersfelden, Fragm. 3[m] Würzburg</note>
+            <ptr type="description" target="https://handschriftencensus.de/1131"/>
+            <ptr type="digitised" target="http://resolver.staatsbibliothek-berlin.de/SBB0000138300000000 http://resolver.staatsbibliothek-berlin.de/SBB0000138600000000 https://daten.digitale-sammlungen.de/bsb00047861/image_1"/>
+          </witness>
+          <witness xml:id="w_Fragm._18">
+            <label type="siglum">Fragm. 18</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Basel</settlement>
+                <repository> Universitätsbibl.</repository>
+                <idno> Cod. N I 1 97</idno>
+              </msIdentifier>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Berlin</settlement>
+                  <repository> Staatsbibl.</repository>
+                  <idno> mgf 923 Nr. 29</idno>
+                </msIdentifier>
+              </msFrag>
+            </msDesc>
+            <origDate>1st haf 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented, Fragm. 18[a] Basel, Fragm. 18[b] Berlin</note>
+            <ptr type="description" target="https://handschriftencensus.de/1791"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm._17">
+            <label type="siglum">Fragm. 17</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Basel</settlement>
+                <repository> Universitätsbibl.</repository>
+                <idno> Cod. N I 1 127a</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>End 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented</note>
+            <ptr type="description" target="https://handschriftencensus.de/1795"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm._1">
+            <label type="siglum">Fragm. 1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Berlin</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> Fragm. 342</idno>
+              </msIdentifier>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Berlin</settlement>
+                  <repository> Staatsbibl.</repository>
+                  <idno> mgf 923 Nr. 30</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Koblenz</settlement>
+                  <repository> Landeshauptarchiv</repository>
+                  <idno> Best. 701 Nr. 759 14a</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <repository/>
+                  <idno>Privatbesitz, Wilhelm Wilmanns</idno>
+                </msIdentifier>
+              </msFrag>
+            </msDesc>
+            <origDate>c.1300</origDate>
+            <origPlace></origPlace>
+            <note>fragmented, Fragm. 1[a] Berlin Staatsbibliothek Fragm. 342, Fragm. 1[c] Berlin Staatsbibliothek mgf 923 Nr. 30, Fragm. 1[f] Koblenz, Fragm. 1[g] Privatbesitz Wilmanns [verschollen]</note>
+            <ptr type="description" target="https://handschriftencensus.de/1132"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm._4">
+            <label type="siglum">Fragm. 4</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Berlin</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> mgq 1730</idno>
+              </msIdentifier>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Kempten</settlement>
+                  <repository> Evang. Kirchengemeinde St. Mang</repository>
+                  <idno> ohne Sign. (2)</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>München</settlement>
+                  <repository> Staatsbibl.</repository>
+                  <idno> Cgm 193/VI</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Straßburg</settlement>
+                  <repository> National- und Universitätsbibl.</repository>
+                  <idno> ms. 2718</idno>
+                </msIdentifier>
+              </msFrag>
+            </msDesc>
+            <origDate>1st haf 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented, Fragm. 4[b] Berlin, Fragm. 4[d] Kempten, Fragm. 4[f] München, Fragm. 4[g] Straßburg</note>
+            <ptr type="description" target="https://handschriftencensus.de/1786"/>
+            <ptr type="digitised" target="https://daten.digitale-sammlungen.de/bsb00088394/image_1"/>
+          </witness>
+          <witness xml:id="w_Fragm._20">
+            <label type="siglum">Fragm. 20</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Berlin</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> mgf 757</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>Begin 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented, Fragm. 20[a] Bl. 9-10, Fragm. 20[b] Bl. 18-19</note>
+            <ptr type="description" target="https://handschriftencensus.de/1792"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm._7">
+            <label type="siglum">Fragm. 7</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>	Berlin</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> mgf 923 Nr. 28</idno>
+              </msIdentifier>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Soest</settlement>
+                  <repository> Stadtbibl.</repository>
+                  <idno> Fragm. 159</idno>
+                </msIdentifier>
+              </msFrag>
+            </msDesc>
+            <origDate>Begin 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented, Fragm. 7[a] Berlin, Fragm. 7[b] Soest</note>
+            <ptr type="description" target="https://handschriftencensus.de/1799"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm._8">
+            <label type="siglum">Fragm. 8</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> Cgm 5249/7</idno>
+              </msIdentifier>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Salzburg</settlement>
+                  <repository> Stiftsbibl. St. Peter</repository>
+                  <idno> Cod. a XII 25 Fragm. 41</idno>
+                </msIdentifier>
+              </msFrag>
+            </msDesc>
+            <origDate>2nd haf 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented, Fragm. 8[c] München Cgm 5249/7e, Fragm. 8[d] München Cgm 5249/7f, Fragm. 8[e] München Cgm 5249/7g, Fragm. 8[f] Salzburg</note>
+            <ptr type="description" target="https://handschriftencensus.de/1785"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Berlin</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> mgf 1063</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>Berlin, Staatsbibl., mgf 1063</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/2657"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm._22">
+            <label type="siglum">Fragm. 22</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Berlin</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> mgq 1251.1</idno>
+              </msIdentifier>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Berlin</settlement>
+                  <repository> Staatsbibl.</repository>
+                  <idno> mgq 1251.2</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <repository/>
+                  <idno>Nürnberg, Germanisches Nationalmuseum, Bibliothek, Hs. 6328a</idno>
+                </msIdentifier>
+              </msFrag>
+            </msDesc>
+            <origDate>1st haf 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented, Fragm. 22[a] Berlin mgq 1251,1, Fragm. 22[b] Berlin mqg 1251,2, Fragm.22[c] Nürnberg</note>
+            <ptr type="description" target="https://handschriftencensus.de/1794"/>
+            <ptr type="digitised" target="http://dlib.gnm.de/item/Hs6328a"/>
+          </witness>
+          <witness xml:id="w_Fragm._23">
+            <label type="siglum">Fragm. 23</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Berlin</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> mgq 1251 3</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>Begin 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented</note>
+            <ptr type="description" target="https://handschriftencensus.de/1780"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm._21">
+            <label type="siglum">Fragm. 21</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Berlin</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> mgq 1729</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>	3.2.1321</origDate>
+            <origPlace></origPlace>
+            <note>fragmented</note>
+            <ptr type="description" target="https://handschriftencensus.de/1793"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Cologny-Genf</settlement>
+                <repository> Bibl. Bodmeriana</repository>
+                <idno> Cod. Bodm. 170</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>2nd third 15th century</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/4655"/>
+            <ptr type="digitised" target="https://www.e-codices.unifr.ch/de/list/one/fmb/cb-0170"/>
+          </witness>
+          <witness xml:id="w_Fragm._31">
+            <label type="siglum">Fragm. 31</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Dillingen</settlement>
+                <repository> Studienbibl.</repository>
+                <idno> Druck CD 109.12.3</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1st. quarter 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented</note>
+            <ptr type="description" target="https://handschriftencensus.de/23753"/>
+            <ptr type="digitised" target="https://daten.digitale-sammlungen.de/bsb00070299/image_1"/>
+          </witness>
+          <witness xml:id="w_Fragm._13">
+            <label type="siglum">Fragm. 13</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Dresden</settlement>
+                <repository> Bibl. des Gymnasiums zum Heiligen Kreuz</repository>
+                <idno> ohne Sign. (1)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1st haf 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented, probably burned</note>
+            <ptr type="description" target="https://handschriftencensus.de/1789"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm._9">
+            <label type="siglum">Fragm. 9</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Dresden</settlement>
+                <repository> Landesbibl.</repository>
+                <idno> Mscr. M 66b</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>14th century oder 2nd haf 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented</note>
+            <ptr type="description" target="https://handschriftencensus.de/1787"/>
+            <ptr type="digitised" target="http://digital.slub-dresden.de/id27687451X"/>
+          </witness>
+          <witness xml:id="w_Fragm._26">
+            <label type="siglum">Fragm. 26</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Düsseldorf</settlement>
+                <repository> Universitäts- und Landesbibl.</repository>
+                <idno> Ms. fragm. K 3: F 85</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>Begin 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented</note>
+            <ptr type="description" target="https://handschriftencensus.de/1778"/>
+            <ptr type="digitised" target="https://www.ulb.hhu.de/sammlungen/historische-sammlungen-und-bibliotheken/inventar-der-handschriftenfragmente?content=4&amp;sigId=2898"/>
+          </witness>
+          <witness xml:id="w_Fragm._28">
+            <label type="siglum">Fragm. 28</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Frauenfeld</settlement>
+                <repository> Staatsarchiv</repository>
+                <idno> Hs.-Fragm. 18</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1st haf 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented</note>
+            <ptr type="description" target="https://handschriftencensus.de/1775"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm._12">
+            <label type="siglum">Fragm. 12</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Graz</settlement>
+                <repository> Landesarchiv</repository>
+                <idno> Fragm. Germ. 4</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>Begin 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented</note>
+            <ptr type="description" target="https://handschriftencensus.de/1788"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm._16">
+            <label type="siglum">Fragm. 16</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Graz</settlement>
+                <repository> Universitätsbibl.</repository>
+                <idno> Ms. 1703 Nr. 134</idno>
+              </msIdentifier>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Mainz</settlement>
+                  <repository> Stadtbibl.</repository>
+                  <idno> Hs. frag. 16</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>München</settlement>
+                  <repository> Staatsbibl.</repository>
+                  <idno> Cgm 5249/7</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Nürnberg</settlement>
+                  <repository> Germanisches Nationalmuseum Bibliothek</repository>
+                  <idno> Hs. 42574</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Weimar</settlement>
+                  <repository> Herzogin Anna Amalia Bibl.</repository>
+                  <idno> ohne Sign. [verschollen]</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <repository> Österr. Nationalbibl.</repository>
+                  <idno> Cod. Ser. nova 3872</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <repository> Österr. Nationalbibl.</repository>
+                  <idno> Cod. Ser. nova 3874</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <repository/>
+                  <idno>Privatsammlung, Eis, Heidelberg, Hs. 50</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <repository/>
+                  <idno>Los Angeles, University of California, Charles E. Young Research Libr., Rouse L 17</idno>
+                </msIdentifier>
+              </msFrag>
+            </msDesc>
+            <origDate>1st. quarter oder Drittel 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented, Fragm. 16[a] Graz, Fragm. 16[b] Mainz, Fragm. 16[c] München, Fragm. 16[d] Nürnberg, Fragm. 16[e] Weimar, Fragm. 16[f] Wien Cod. Ser. nova 3872, Fragm. 16[g] Wien Cod. Ser. nova 1874, Fragm. 16[h] Privatsammlung, Fragm. 16[i] Los Angeles</note>
+            <ptr type="description" target="https://handschriftencensus.de/1781"/>
+            <ptr type="digitised" target="http://marburger-repertorien.de/abbildungen/mr14/pic2067mainz_r.jpg http://marburger-repertorien.de/abbildungen/mr14/pic2067mainz_v.jpg http://dlib.gnm.de/item/Hs42574 https://web.archive.org/web/20120317055727/https://unitproj.library.ucla.edu/special/rouse/germany1.htm"/>
+          </witness>
+          <witness xml:id="w_H">
+            <label type="siglum">H</label>
+            <idno></idno>
+            <origDate>2nd. quarter 14th century</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/2684"/>
+            <ptr type="digitised" target="https://doi.org/10.11588/diglit.205"/>
+          </witness>
+          <witness xml:id="w_Fragm._30">
+            <label type="siglum">Fragm. 30</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Jena</settlement>
+                <repository> Universitäts- und Landesbibl.</repository>
+                <idno> Ms. G.B. f. 32 (5)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1st haf 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented</note>
+            <ptr type="description" target="https://handschriftencensus.de/2347"/>
+            <ptr type="digitised" target="http://marburger-repertorien.de/abbildungen/mr14/pic2960_r.jpg http://marburger-repertorien.de/abbildungen/mr14/pic2960_v.jpg"/>
+          </witness>
+          <witness xml:id="w_Ka">
+            <label type="siglum">Ka</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Kassel</settlement>
+                <repository> Universitätsbibl. / LMB</repository>
+                <idno> 2° Ms. poet. et roman. 1</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1334</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/7509"/>
+            <ptr type="digitised" target="https://orka.bibliothek.uni-kassel.de/viewer/image/1300457892891/1/"/>
+          </witness>
+          <witness xml:id="w_Fragm._11">
+            <label type="siglum">Fragm. 11</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Kassel</settlement>
+                <repository> Universitätsbibl. / LMB</repository>
+                <idno> 8° Ms. poet. et roman. 12</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1st haf 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented</note>
+            <ptr type="description" target="https://handschriftencensus.de/1784"/>
+            <ptr type="digitised" target="https://orka.bibliothek.uni-kassel.de/viewer/image/1336390363419/1/"/>
+          </witness>
+          <witness xml:id="w_Fragm._15">
+            <label type="siglum">Fragm. 15</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Klosterneuburg</settlement>
+                <repository> Stiftsbibl.</repository>
+                <idno> ohne Sign. (1)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>End 13th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented, verschollen</note>
+            <ptr type="description" target="https://handschriftencensus.de/1130"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Köln</settlement>
+                <repository> Hist. Archiv der Stadt</repository>
+                <idno> Best. 7010 (W) 355</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>c.1460-1467</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/5227"/>
+            <ptr type="digitised" target="http://historischesarchivkoeln.de:8080/actaproweb/archive.xhtml?id=Vz++++++90003326PPLS#Vz______90003326PPLS"/>
+          </witness>
+          <witness xml:id="w_O">
+            <label type="siglum">O</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> Cgm 42</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>2nd. quarter 14th century</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/5103"/>
+            <ptr type="digitised" target="https://daten.digitale-sammlungen.de/bsb00094940/image_1"/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> Cgm 231</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>End 15th century</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/5990"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm._29">
+            <label type="siglum">Fragm. 29</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> Cgm 5249/7k</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>3th. quarter 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented</note>
+            <ptr type="description" target="https://handschriftencensus.de/1774"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fram._27">
+            <label type="siglum">Fram. 27</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Næstved (Dänemark)</settlement>
+                <repository> Gavno Godskontor</repository>
+                <idno> ohne Sign.</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>c.1300</origDate>
+            <origPlace></origPlace>
+            <note>fragmented</note>
+            <ptr type="description" target="https://handschriftencensus.de/1776"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm.5">
+            <label type="siglum">Fragm.5</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Neunkirch (Kanton Schaffhausen)</settlement>
+                <repository> Gemeindearchiv</repository>
+                <idno> Urk. I.A.22</idno>
+              </msIdentifier>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Schaffhausen</settlement>
+                  <repository> Stadtbibl.</repository>
+                  <idno> Cod. Gen. 107</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Zürich</settlement>
+                  <repository> Zentralbibl.</repository>
+                  <idno> Ms. Z XIV 30.9</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Privatbesitz</settlement>
+                  <repository> Hans Wilhelm Harder</repository>
+                  <idno> Schaffhausen</idno>
+                </msIdentifier>
+              </msFrag>
+            </msDesc>
+            <origDate>1st haf 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented, Fragm. 5[a] Neinkirch (Kanton Schffhausen), Fram. 5[b] Schaffhausen, Fragm. 5[c] Zürich, Fragm. 5[d] Privatbesitz [verschollen]</note>
+            <ptr type="description" target="https://handschriftencensus.de/1782"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm._10">
+            <label type="siglum">Fragm. 10</label>
+            <idno>Nürnberg, Germanisches Nationalmuseum, Bibliothek, Hs. 7216</idno>
+            <origDate>End 13th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented</note>
+            <ptr type="description" target="https://handschriftencensus.de/1129"/>
+            <ptr type="digitised" target="http://dlib.gnm.de/item/Hs7216"/>
+          </witness>
+          <witness xml:id="w_Fragm._25">
+            <label type="siglum">Fragm. 25</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Prag</settlement>
+                <repository> Seminar für Historische Hilfswissenschaften an der Karls-Universität</repository>
+                <idno> ohne Sign.</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>c.1300</origDate>
+            <origPlace></origPlace>
+            <note>fragmented</note>
+            <ptr type="description" target="https://handschriftencensus.de/1668"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm._6">
+            <label type="siglum">Fragm. 6</label>
+            <idno>Regensburg, Stadtarchiv, Bibl. des Hist. Vereins, Ms. Misc. 62</idno>
+            <origDate>Begin 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented</note>
+            <ptr type="description" target="https://handschriftencensus.de/1783"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_V">
+            <label type="siglum">V</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wien</settlement>
+                <repository> Österr. Nationalbibl.</repository>
+                <idno> Cod. 2670</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1320</origDate>
+            <origPlace>Wien oder Wiener Neustadt (?)</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/6489"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm._19">
+            <label type="siglum">Fragm. 19</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wien</settlement>
+                <repository> Österr. Nationalbibl.</repository>
+                <idno> Cod. 3035</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>c.1480</origDate>
+            <origPlace>Gebiet von Konstanz</origPlace>
+            <note>fragmented</note>
+            <ptr type="description" target="https://handschriftencensus.de/6571"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_W">
+            <label type="siglum">W</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wien</settlement>
+                <repository> Österr. Nationalbibl.</repository>
+                <idno> Cod. Ser. nova 2643</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1387</origDate>
+            <origPlace>Prag</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/2330"/>
+            <ptr type="digitised" target="https://manuscripta.at/?ID=4699"/>
+          </witness>
+          <witness xml:id="w_Wo">
+            <label type="siglum">Wo</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wolfenbüttel</settlement>
+                <repository> Herzog August Bibl.</repository>
+                <idno> Cod. 30.12 Aug. 2°</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>2nd haf 14th century </origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/6676"/>
+            <ptr type="digitised" target="http://diglib.hab.de/?db=mss&amp;list=ms&amp;id=30-12-aug-2f"/>
+          </witness>
+          <witness xml:id="w_Fragm._24">
+            <label type="siglum">Fragm. 24</label>
+            <idno>Privatsammlung, Eis, Heidelberg, Hs. 4</idno>
+            <origDate>1st haf 14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented</note>
+            <ptr type="description" target="https://handschriftencensus.de/1779"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Fragm._14">
+            <label type="siglum">Fragm. 14</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Privatbesitz</settlement>
+                <repository> Franz Ludwig Mittler</repository>
+                <idno> Kassel</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>14th century</origDate>
+            <origPlace></origPlace>
+            <note>fragmented, verschollen</note>
+            <ptr type="description" target="https://handschriftencensus.de/1790"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/214982316">Rennewart</title>
+        <persName role="author" ref="http://viaf.org/">Anonymous</persName>
+        <origDate>1240-1260</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">epic; chanson de geste</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gmh"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Huebner_1964_Rennewart/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="45" size="45">
+        <label>1</label>
+        <node xml:id="n_Original" type="hypothetical" inDegree="0" outDegree="1">
+          <label>Original</label>
+        </node>
+        <node xml:id="n_Archetypus" type="hypothetical" inDegree="1" outDegree="3">
+          <label>Archetypus</label>
+        </node>
+        <node xml:id="n_Alpha" type="hypothetical" inDegree="1" outDegree="3">
+          <label>α</label>
+        </node>
+        <node xml:id="n_V" type="witness" inDegree="1" outDegree="1">
+          <label>V</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_Z" type="witness" inDegree="2" outDegree="0">
+          <label>Z</label>
+        </node>
+        <node xml:id="n_Gamma" type="hypothetical" inDegree="1" outDegree="2">
+          <label>γ</label>
+        </node>
+        <node xml:id="n_Ypsilon" type="witness" inDegree="1" outDegree="0">
+          <label>Y</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_LinieBeta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>β</label>
+        </node>
+        <node xml:id="n_Epsilon" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ε</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="1">
+          <label>D</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <node xml:id="n_N" type="witness" inDegree="1" outDegree="0">
+          <label>N</label>
+        </node>
+        <node xml:id="n_Delta" type="hypothetical" inDegree="1" outDegree="3">
+          <label>δ</label>
+        </node>
+        <node xml:id="n_QO" type="hypothetical" inDegree="1" outDegree="2">
+          <label>QO</label>
+        </node>
+        <node xml:id="n_Q" type="witness" inDegree="1" outDegree="0">
+          <label>Q</label>
+        </node>
+        <node xml:id="n_O" type="witness" inDegree="1" outDegree="0">
+          <label>O</label>
+        </node>
+        <node xml:id="n_GIJKLSTUWZb" type="hypothetical" inDegree="1" outDegree="11">
+          <label>GIJKLSTUWZb</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <node xml:id="n_I" type="witness" inDegree="1" outDegree="0">
+          <label>I</label>
+        </node>
+        <node xml:id="n_J" type="witness" inDegree="1" outDegree="0">
+          <label>J</label>
+        </node>
+        <node xml:id="n_K" type="witness" inDegree="1" outDegree="0">
+          <label>K</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <node xml:id="n_S" type="witness" inDegree="1" outDegree="0">
+          <label>S</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="0">
+          <label>T</label>
+        </node>
+        <node xml:id="n_U" type="witness" inDegree="1" outDegree="0">
+          <label>U</label>
+        </node>
+        <node xml:id="n_W" type="witness" inDegree="1" outDegree="0">
+          <label>W</label>
+        </node>
+        <node xml:id="n_Zb" type="witness" inDegree="1" outDegree="0">
+          <label>Zb</label>
+        </node>
+        <node xml:id="n_Eta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>η</label>
+        </node>
+        <node xml:id="n_Theta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>θ</label>
+        </node>
+        <node xml:id="n_2" type="witness" inDegree="1" outDegree="0">
+          <label>2</label>
+        </node>
+        <node xml:id="n_1" type="witness" inDegree="1" outDegree="0">
+          <label>1</label>
+        </node>
+        <node xml:id="n_p" type="witness" inDegree="1" outDegree="0">
+          <label>p</label>
+        </node>
+        <node xml:id="n_Gamma2" type="hypothetical" inDegree="1" outDegree="10">
+          <label>Gamma2</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <node xml:id="n_R" type="witness" inDegree="1" outDegree="0">
+          <label>R</label>
+        </node>
+        <node xml:id="n_X" type="witness" inDegree="1" outDegree="0">
+          <label>X</label>
+        </node>
+        <node xml:id="n_Za" type="witness" inDegree="1" outDegree="0">
+          <label>Za</label>
+        </node>
+        <node xml:id="n_Zc" type="witness" inDegree="1" outDegree="0">
+          <label>Zc</label>
+        </node>
+        <node xml:id="n_Zd" type="witness" inDegree="1" outDegree="0">
+          <label>Zd</label>
+        </node>
+        <node xml:id="n_Zw" type="witness" inDegree="1" outDegree="0">
+          <label>Zw</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_Original" to="#n_Archetypus" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_Archetypus" to="#n_Alpha" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_Archetypus" to="#n_LinieBeta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_Archetypus" to="#n_Gamma2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_Alpha" to="#n_V" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_Alpha" to="#n_Z" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_Alpha" to="#n_Gamma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_V" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_Gamma" to="#n_Ypsilon" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_Gamma" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_LinieBeta" to="#n_Epsilon" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_LinieBeta" to="#n_Delta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_Epsilon" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_Epsilon" to="#n_N" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_D" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_Delta" to="#n_QO" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_Delta" to="#n_GIJKLSTUWZb" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_Delta" to="#n_Eta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_QO" to="#n_Q" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_QO" to="#n_O" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_GIJKLSTUWZb" to="#n_Z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_22" from="#n_GIJKLSTUWZb" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_23" from="#n_GIJKLSTUWZb" to="#n_I" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_24" from="#n_GIJKLSTUWZb" to="#n_J" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_25" from="#n_GIJKLSTUWZb" to="#n_K" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_26" from="#n_GIJKLSTUWZb" to="#n_L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_27" from="#n_GIJKLSTUWZb" to="#n_S" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_28" from="#n_GIJKLSTUWZb" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_29" from="#n_GIJKLSTUWZb" to="#n_U" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_30" from="#n_GIJKLSTUWZb" to="#n_W" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_31" from="#n_GIJKLSTUWZb" to="#n_Zb" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_32" from="#n_Eta" to="#n_Theta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_33" from="#n_Eta" to="#n_p" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_34" from="#n_Theta" to="#n_2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_35" from="#n_Theta" to="#n_1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_36" from="#n_Gamma2" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_37" from="#n_Gamma2" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_38" from="#n_Gamma2" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_39" from="#n_Gamma2" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_40" from="#n_Gamma2" to="#n_R" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_41" from="#n_Gamma2" to="#n_X" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_42" from="#n_Gamma2" to="#n_Za" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_43" from="#n_Gamma2" to="#n_Zc" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_44" from="#n_Gamma2" to="#n_Zd" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_45" from="#n_Gamma2" to="#n_Zw" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

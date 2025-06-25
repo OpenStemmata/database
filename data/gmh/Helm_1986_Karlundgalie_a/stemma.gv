@@ -1,0 +1,22 @@
+digraph {
+
+    omega[label="Original von KG\n um 1215-1220", color="grey"];
+    1[label="UWDR\nEnde des 13. Jh.", color="grey"];
+    B[label="B\num 1270-12280"];
+    K[label="K\num 1270-1280"];
+    2[color="grey", label="Hm\num 1300"];
+
+    omega->1;
+    1 -> U;
+    1 -> W;
+    1 -> D;
+    1 -> R;
+    omega -> B;
+    omega -> K;
+    omega -> 2;
+    2->H;
+    2->m;
+    
+    K -> 2 [style="dashed"];
+
+}

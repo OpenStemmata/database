@@ -1,0 +1,30 @@
+digraph {
+T[label="T (Tiradengedicht)", color="grey"];
+r[label="r (Gedicht in achtsilbingen Reimpaaren)", color="grey"];
+p[color="grey"];
+q[color="grey"];
+x[color="grey"];
+y[color="grey"];
+z[color="grey"];
+w[color="grey"];
+
+T->r;
+r->R;
+r->p;
+p->q;
+q->x;
+x->M;
+x->B;
+x->P;
+q->y;
+y->C;
+y->A;
+y->V;
+p->z;
+z->w;
+w->D;
+w->F;
+z->H;
+
+}
+

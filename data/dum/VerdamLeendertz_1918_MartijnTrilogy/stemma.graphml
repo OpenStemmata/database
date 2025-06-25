@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="X">
+  <data key="d0">grey</data>
+</node>
+<node id="AOprime">
+  <data key="d0">grey</data>
+</node>
+<node id="CEWprime">
+  <data key="d0">grey</data>
+</node>
+<node id="Xprime">
+  <data key="d0">grey</data>
+</node>
+<node id="AGprime">
+  <data key="d0">grey</data>
+</node>
+<node id="A"/>
+<node id="C"/>
+<node id="EWprime">
+  <data key="d0">grey</data>
+</node>
+<node id="EOprime">
+  <data key="d0">grey</data>
+</node>
+<node id="FWprime">
+  <data key="d0">grey</data>
+</node>
+<node id="E"/>
+<node id="Wprime">
+  <data key="d0">grey</data>
+  <data key="d1">W*</data>
+</node>
+<node id="OFprime">
+  <data key="d0">grey</data>
+</node>
+<node id="Wsecond">
+  <data key="d0">grey</data>
+</node>
+<node id="W"/>
+<node id="G"/>
+<node id="O"/>
+<node id="DFprime">
+  <data key="d0">grey</data>
+</node>
+<node id="ZFprime">
+  <data key="d0">grey</data>
+</node>
+<node id="D"/>
+<node id="Z"/>
+<node id="F"/>
+<node id="BWprime">
+  <data key="d0">grey</data>
+</node>
+<node id="BFprime">
+  <data key="d0">grey</data>
+</node>
+<node id="BOprime">
+  <data key="d0">grey</data>
+</node>
+<node id="BGprime">
+  <data key="d0">grey</data>
+</node>
+<node id="BDprime">
+  <data key="d0">grey</data>
+</node>
+<node id="B"/>
+<edge source="X" target="AOprime">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="X" target="CEWprime">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="X" target="Xprime">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="AOprime" target="AGprime">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="AOprime" target="O">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="CEWprime" target="C">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="CEWprime" target="EWprime">
+  <data key="d2">contamination</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="Xprime" target="BWprime">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Xprime" target="D">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="AGprime" target="A">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="AGprime" target="G">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="EWprime" target="EOprime">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="EWprime" target="FWprime">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="EOprime" target="E">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="EOprime" target="O">
+  <data key="d2">contamination</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="FWprime" target="Wprime">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="FWprime" target="OFprime">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Wprime" target="Wsecond">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Wprime" target="O">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="OFprime" target="O">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="OFprime" target="DFprime">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Wsecond" target="W">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Wsecond" target="G">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="DFprime" target="ZFprime">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="DFprime" target="D">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="DFprime" target="G">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="ZFprime" target="Z">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="ZFprime" target="F">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="BWprime" target="EWprime">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="BWprime" target="BFprime">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="BFprime" target="BOprime">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="BFprime" target="F">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="BOprime" target="BGprime">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="BOprime" target="O">
+  <data key="d2">contamination</data>
+  <data key="d3">low</data>
+</edge>
+<edge source="BGprime" target="BDprime">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="BGprime" target="G">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="BDprime" target="B">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="BDprime" target="D">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

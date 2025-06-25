@@ -1,0 +1,14 @@
+digraph {
+
+O[color="grey"];
+Lprime[color="grey", label="L'"];
+Tprime[color="grey", label="T'"];
+
+O->Lprime;
+Lprime->L;
+Lprime->S;
+
+O->Tprime;
+Tprime->T;
+
+}

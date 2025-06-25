@@ -1,0 +1,847 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">roman de Troie</title>
+        <author>Constans, Léopold</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>This stemma is described as an approximation, since «L’extraordinaire complexité des rapports entre les 39 mss. dont nous disposons ne permet pas de résumer les résultats de l'étude … en un tableau exact dans tous ses détails». O is the original, alpha and beta the first and second families; y the first section of the first family; z the 2nd section of the 2nd family (??). Italics in the original indicate contaminated manuscripts. Moreover, the drawn stemma is filled with ambiguities in terms of representation, which makes the transcription rather hazardous. I update the date and provenance of the witnesses according to Arlima. Five lost manuscripts are also described. Some witnesses are unknown/not described: Amsterdam (A3), the fifth Bruxelles fragment (B5); Châlons en Champagne BM (C3); Cuneo (C4), the two Haag mss (G1 and G2); Firenze (F1); the New Haven fragment; Nottingham (N4), Oxford (O); BnF, fr. 1420 (fragment); Bibl. Ste Geneviève (fragment); Philadelphia fragment; the third Venezia manuscript; Vevey fragment; Vicenza fragment; the two Lyon fragment; and the Livingstone fragment (L3)</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Le roman de Troie par Benoit de Sainte-Maure publié d’après tous les manuscrits connus</title>
+          <author>Constans, Léopold</author>
+          <date>1912</date>
+          <pubPlace>Paris</pubPlace>
+          <series>Société des anciens textes français</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="105"/>
+          <ptr type="digitised" target="https://archive.org/details/leromandetroie06benouoft/page/105"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_M2">
+            <label type="siglum">M2</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Milano</settlement>
+                <repository> Bibllioteca Ambrosiana</repository>
+                <idno> D 55</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1180-1220</origDate>
+            <origPlace>Provence or Italy (Veneto)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 794</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1233</origDate>
+            <origPlace>Champagne (Provins)</origPlace>
+            <note>Copied by: Guiot de Provins</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F">
+            <label type="siglum">F</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 821</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1320</origDate>
+            <origPlace>Italy</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_K">
+            <label type="siglum">K</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 2181</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1264</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 19159</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1400</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M1">
+            <label type="siglum">M1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Montpellier</settlement>
+                <repository> BIU Médecine</repository>
+                <idno> H 251</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1251-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_N">
+            <label type="siglum">N</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Napoli</settlement>
+                <repository> Biblioteca nazionale</repository>
+                <idno> XIII. C. 38</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1250</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 60</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1313-1349</origDate>
+            <origPlace>Paris</origPlace>
+            <note>Copist: Libraire Thomas de Maubeuge</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A1">
+            <label type="siglum">A1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Arsenal</repository>
+                <idno> 3340</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1237</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 374</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>2 February 1288</origDate>
+            <origPlace></origPlace>
+            <note>Copist: Jehan Madot d’Arras et Perrot de Nesle</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 782</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1400</origDate>
+            <origPlace>Italy</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C1">
+            <label type="siglum">C1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Cologny (Genève)</settlement>
+                <repository> Fondation Martin Bodmer</repository>
+                <idno> 18</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1300</origDate>
+            <origPlace></origPlace>
+            <note>Olim Cheltenham, Thomas Philipps, 8384</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 783</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace>1201-1300</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 903</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1267-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_H">
+            <label type="siglum">H</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 1450</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1226-1250</origDate>
+            <origPlace>Picardy</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_I">
+            <label type="siglum">I</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 1553</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1285-1290</origDate>
+            <origPlace>Picardy</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_J">
+            <label type="siglum">J</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 1610</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1264</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 12600</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1400</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L1">
+            <label type="siglum">L1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> BL</repository>
+                <idno> Harl. 4482</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1298-1302</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L2">
+            <label type="siglum">L2</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> BL</repository>
+                <idno> Add. 30863</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1220</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P">
+            <label type="siglum">P</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> NAF 6774</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_R">
+            <label type="siglum">R</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vaticano</settlement>
+                <repository> BAV</repository>
+                <idno> Reg. lat. 1505</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1341-1360</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_S">
+            <label type="siglum">S</label>
+            <idno>Российская национальная библиотека (Bibliothèque nationale de Russie), Fr. F. v. XIV. 3</idno>
+            <origDate>1340</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_S1">
+            <label type="siglum">S1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Saint-Pétersbourg</settlement>
+                <repository> Российская национальная библиотека (Bibliothèque nationale de Russie)</repository>
+                <idno> Fr. F. v. XIV. 6</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1401-1450</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_V1">
+            <label type="siglum">V1</label>
+            <idno>Venezia, Biblioteca Nazionale Marciana, Fr. Z. 17, f. 1</idno>
+            <origDate>1351-1400</origDate>
+            <origPlace>Northern Italy</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_V2">
+            <label type="siglum">V2</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Venezia</settlement>
+                <repository> Biblioteca Nazionale Marciana</repository>
+                <idno> Fr. Z. 18</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1351-1400</origDate>
+            <origPlace>Northern Italy</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B1">
+            <label type="siglum">B1</label>
+            <idno>Basel, Öffentliche Bibliothek der Universität, N. I. 2 Nr. 83 + Bruxelles, KBR, II 139 / 3, f. 6r</idno>
+            <origDate>1181-1200</origDate>
+            <origPlace></origPlace>
+            <note>fragment</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B2">
+            <label type="siglum">B2</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Bordeaux</settlement>
+                <repository> Bibliothèque municipale</repository>
+                <idno> 674</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1300</origDate>
+            <origPlace></origPlace>
+            <note>fragment</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B3">
+            <label type="siglum">B3</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Besançon</settlement>
+                <repository> Archives départementales du Doubs</repository>
+                <idno> s. c.</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1300</origDate>
+            <origPlace></origPlace>
+            <note>fragment, may be lost; has been communicated to Paul Meyer, and then ?</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B4">
+            <label type="siglum">B4</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Bruxelles</settlement>
+                <repository> Archives générales du Royaume</repository>
+                <idno> ??</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace>fragment, may be lost</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M3">
+            <label type="siglum">M3</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Münster</settlement>
+                <repository> Universitätsbibliothek</repository>
+                <idno> [sans cote]</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1320</origDate>
+            <origPlace></origPlace>
+            <note>fragments, destroyed during WW2</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_N1">
+            <label type="siglum">N1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Nevers</settlement>
+                <repository> Archives départementales de la Nièvre</repository>
+                <idno> ??</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1251-1300</origDate>
+            <origPlace></origPlace>
+            <note>fragment, may be lost</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_N2">
+            <label type="siglum">N2</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Namur</settlement>
+                <repository> Archives de l’État</repository>
+                <idno> ??</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1250</origDate>
+            <origPlace></origPlace>
+            <note>fragment, may be lost</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P1">
+            <label type="siglum">P1</label>
+            <idno>Paris, Bibliothèque nationale de France, nouvelles acquisitions françaises, 5094</idno>
+            <origDate>1241-1260</origDate>
+            <origPlace></origPlace>
+            <note>fragment</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P2">
+            <label type="siglum">P2</label>
+            <idno>Paris, Bibliothèque nationale de France, nouvelles acquisitions françaises, 6534</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>fragment</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_S2">
+            <label type="siglum">S2</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Barcelona</settlement>
+                <repository> Institut d’estudis catalans</repository>
+                <idno> chansonnier Gil</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1400</origDate>
+            <origPlace></origPlace>
+            <note>fragment, copied at the end of an occitan chansonnier; olim Zaragoza, coll. privée, chansonnier occitan</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_S3">
+            <label type="siglum">S3</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Strasbourg</settlement>
+                <repository> Bibliothèque nationale et universitaire</repository>
+                <idno> MS.0.350</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1300</origDate>
+            <origPlace></origPlace>
+            <note>fragment</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">roman de Troie</title>
+        <persName role="author" ref="http://viaf.org/">Benoît de Sainte Maure</persName>
+        <origDate>1165</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">roman antique en vers</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">excluded</term>
+          <term type="derivatives">excluded</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Constans_1912_BSteMaure-RTroie/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="59" size="60">
+        <label></label>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="2">
+          <label>O</label>
+        </node>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2">
+          <label>α</label>
+        </node>
+        <node xml:id="n_v" type="hypothetical" inDegree="1" outDegree="3">
+          <label>v</label>
+        </node>
+        <node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="3">
+          <label>1</label>
+        </node>
+        <node xml:id="n_4" type="hypothetical" inDegree="1" outDegree="2">
+          <label>4</label>
+        </node>
+        <node xml:id="n_5" type="hypothetical" inDegree="1" outDegree="2">
+          <label>5</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="3">
+          <label>x</label>
+        </node>
+        <node xml:id="n_n" type="hypothetical" inDegree="1" outDegree="1">
+          <label>n</label>
+        </node>
+        <node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>2</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>β</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="2" outDegree="1">
+          <label>y</label>
+        </node>
+        <node xml:id="n_3" type="hypothetical" inDegree="1" outDegree="3">
+          <label>3</label>
+        </node>
+        <node xml:id="n_6" type="hypothetical" inDegree="1" outDegree="2">
+          <label>6</label>
+        </node>
+        <node xml:id="n_7" type="hypothetical" inDegree="1" outDegree="3">
+          <label>7</label>
+        </node>
+        <node xml:id="n_8" type="hypothetical" inDegree="1" outDegree="3">
+          <label>8</label>
+        </node>
+        <node xml:id="n_9" type="hypothetical" inDegree="1" outDegree="2">
+          <label>9</label>
+        </node>
+        <node xml:id="n_z" type="hypothetical" inDegree="2" outDegree="1">
+          <label>z</label>
+        </node>
+        <node xml:id="n_10" type="hypothetical" inDegree="1" outDegree="4">
+          <label>10</label>
+        </node>
+        <node xml:id="n_11" type="hypothetical" inDegree="1" outDegree="2">
+          <label>11</label>
+        </node>
+        <node xml:id="n_12" type="hypothetical" inDegree="1" outDegree="3">
+          <label>12</label>
+        </node>
+        <node xml:id="n_13" type="hypothetical" inDegree="1" outDegree="3">
+          <label>13</label>
+        </node>
+        <node xml:id="n_k" type="hypothetical" inDegree="1" outDegree="3">
+          <label>k</label>
+        </node>
+        <node xml:id="n_B1" type="witness" inDegree="1" outDegree="0">
+          <label>B1</label>
+        </node>
+        <node xml:id="n_A2" type="witness" inDegree="1" outDegree="1">
+          <label>A2</label>
+        </node>
+        <node xml:id="n_R" type="witness" inDegree="1" outDegree="0">
+          <label>R</label>
+        </node>
+        <node xml:id="n_S" type="witness" inDegree="1" outDegree="0">
+          <label>S</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_V1" type="witness" inDegree="1" outDegree="0">
+          <label>V1</label>
+        </node>
+        <node xml:id="n_V2" type="witness" inDegree="1" outDegree="0">
+          <label>V2</label>
+        </node>
+        <node xml:id="n_M2" type="witness" inDegree="1" outDegree="0">
+          <label>M2</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <node xml:id="n_N" type="witness" inDegree="1" outDegree="1">
+          <label>N</label>
+        </node>
+        <node xml:id="n_L1" type="witness" inDegree="1" outDegree="5">
+          <label>L1</label>
+        </node>
+        <node xml:id="n_B3" type="witness" inDegree="1" outDegree="0">
+          <label>B3</label>
+        </node>
+        <node xml:id="n_N1" type="witness" inDegree="1" outDegree="0">
+          <label>N1</label>
+        </node>
+        <node xml:id="n_N2" type="witness" inDegree="1" outDegree="0">
+          <label>N2</label>
+        </node>
+        <node xml:id="n_P1" type="witness" inDegree="1" outDegree="0">
+          <label>P1</label>
+        </node>
+        <node xml:id="n_P2" type="witness" inDegree="1" outDegree="0">
+          <label>P2</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
+          <label>D</label>
+        </node>
+        <node xml:id="n_M1" type="witness" inDegree="1" outDegree="0">
+          <label>M1</label>
+        </node>
+        <node xml:id="n_J" type="witness" inDegree="1" outDegree="0">
+          <label>J</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+          <label>P</label>
+        </node>
+        <node xml:id="n_B2" type="witness" inDegree="1" outDegree="0">
+          <label>B2</label>
+        </node>
+        <node xml:id="n_B4" type="witness" inDegree="1" outDegree="0">
+          <label>B4</label>
+        </node>
+        <node xml:id="n_S3" type="witness" inDegree="1" outDegree="0">
+          <label>S3</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <node xml:id="n_A1" type="witness" inDegree="1" outDegree="0">
+          <label>A1</label>
+        </node>
+        <node xml:id="n_L2" type="witness" inDegree="1" outDegree="0">
+          <label>L2</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_W" type="witness" inDegree="1" outDegree="0">
+          <label>W</label>
+        </node>
+        <node xml:id="n_C1" type="witness" inDegree="1" outDegree="0">
+          <label>C1</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_I" type="witness" inDegree="1" outDegree="0">
+          <label>I</label>
+        </node>
+        <node xml:id="n_S1" type="witness" inDegree="1" outDegree="0">
+          <label>S1</label>
+        </node>
+        <node xml:id="n_K" type="witness" inDegree="1" outDegree="1">
+          <label>K</label>
+        </node>
+        <node xml:id="n_S2" type="witness" inDegree="1" outDegree="0">
+          <label>S2</label>
+        </node>
+        <node xml:id="n_M3" type="witness" inDegree="1" outDegree="0">
+          <label>M3</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_O" to="#n_alpha" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_O" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_alpha" to="#n_v" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_alpha" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_v" to="#n_B1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_v" to="#n_A2" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_7" from="#n_v" to="#n_M2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_1" to="#n_4" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_1" to="#n_A" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_10" from="#n_1" to="#n_5" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_4" to="#n_R" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_4" to="#n_S" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_5" to="#n_V1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_5" to="#n_V2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_x" to="#n_n" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_x" to="#n_y" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_x" to="#n_z" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_n" to="#n_2" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_19" from="#n_2" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_2" to="#n_N" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_beta" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_22" from="#n_beta" to="#n_z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_23" from="#n_y" to="#n_3" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_24" from="#n_3" to="#n_6" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_25" from="#n_3" to="#n_7" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_26" from="#n_3" to="#n_9" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_27" from="#n_6" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_28" from="#n_6" to="#n_M1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_29" from="#n_7" to="#n_J" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_30" from="#n_7" to="#n_P" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_31" from="#n_7" to="#n_8" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_32" from="#n_8" to="#n_B2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_33" from="#n_8" to="#n_B4" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_34" from="#n_8" to="#n_S3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_35" from="#n_9" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_36" from="#n_9" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_37" from="#n_z" to="#n_10" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_38" from="#n_10" to="#n_11" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_39" from="#n_10" to="#n_12" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_40" from="#n_10" to="#n_13" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_41" from="#n_10" to="#n_k" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_42" from="#n_11" to="#n_A1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_43" from="#n_11" to="#n_L2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_44" from="#n_12" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_45" from="#n_12" to="#n_W" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_46" from="#n_12" to="#n_C1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_47" from="#n_13" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_48" from="#n_13" to="#n_I" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_49" from="#n_13" to="#n_S1" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_50" from="#n_k" to="#n_K" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_51" from="#n_k" to="#n_M3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_52" from="#n_k" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_53" from="#n_A2" to="#n_1" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_54" from="#n_N" to="#n_L1" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_55" from="#n_L1" to="#n_B3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_56" from="#n_L1" to="#n_N1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_57" from="#n_L1" to="#n_N2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_58" from="#n_L1" to="#n_P1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_59" from="#n_L1" to="#n_P2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_60" from="#n_K" to="#n_S2" od:type="filiation" cert="low"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

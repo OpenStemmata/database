@@ -1,0 +1,13 @@
+digraph {
+o[color="grey"]
+x[color="grey"];
+x1[label="x¹", color="grey"];
+
+
+o->x;
+x->A;
+x->x1;
+x1->B;
+x1->C;
+
+}

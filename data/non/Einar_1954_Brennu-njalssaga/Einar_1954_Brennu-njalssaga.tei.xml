@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Njáls saga</title>
+        <author>Einar Ól. Sveinsson (ed.)</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>C. M. Sperberg-McQueen</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Einar identifies several manuscripts as having been copied from two exemplars, piece by piece; they appear in the stemma with suffixes (R1, R2, R3 for the parts of R, for example).  O2 appears twice in the stemma; it’s not clear whether Einar thinks it exhibits contamination or is uncertain where it goes. In the list of witnesses, ÁM is the Arnamagnaean collection, but I do not know whether the mss in question are in Copenhagen or Reykjavík.  Ditto for the Gl. kgl. sml. (old royal collection):  was in Copenhagen, but may now be in Reykjavík.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Brennu-Njálssaga</title>
+          <author>Einar Ól. Sveinsson (ed.)</author>
+          <date>1954</date>
+          <pubPlace>Reykjavík</pubPlace>
+          <series>Íslenzk Fornrit</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="12"/>
+          <biblScope unit="page" n="CLIII"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_R">
+            <label type="siglum">R</label>
+            <idno>Reykjabók, ÁM 468</idno>
+            <origDate>ca. 1300</origDate>
+            <origPlace></origPlace>
+            <note>Appears in stemma as R1, R2, R3, R4</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_K">
+            <label type="siglum">K</label>
+            <idno>Kalfalækjarbók, ÁM 133</idno>
+            <origDate>ca. 1300</origDate>
+            <origPlace></origPlace>
+            <note>Appears in stemma as K1, K2</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Gr">
+            <label type="siglum">Gr</label>
+            <idno>Gráskinna, Gl. kgl. sml. 2870</idno>
+            <origDate>ca. 1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_δ">
+            <label type="siglum">δ</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Fragment ÁM 162</settlement>
+                <repository> B</repository>
+                <idno> δ</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>ca. 1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_ζ">
+            <label type="siglum">ζ</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Fragment ÁM 162</settlement>
+                <repository> B</repository>
+                <idno> ζ</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>beginning of 14th century</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_γ">
+            <label type="siglum">γ</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Fragment ÁM 162</settlement>
+                <repository> B</repository>
+                <idno> γ</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>early 14th century</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <idno>Möðruvallabók, ÁM 132</idno>
+            <origDate>1316-1350</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_S">
+            <label type="siglum">S</label>
+            <idno>Skafinskinna, Gl. kgl. sml. 2868</idno>
+            <origDate>ca. 1400</origDate>
+            <origPlace></origPlace>
+            <note>Appears in stemma as S1, S2</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_ε">
+            <label type="siglum">ε</label>
+            <idno>Fragment ÁM 162 B, ε</idno>
+            <origDate>ca. 1400</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Sv">
+            <label type="siglum">Sv</label>
+            <idno>Sveinsbók, Gl. kgl. sml. 2869</idno>
+            <origDate>15th century</origDate>
+            <origPlace></origPlace>
+            <note>Appears in stemma as Sv1, Sv2</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_O">
+            <label type="siglum">O</label>
+            <idno>Oddsbók, ÁM 466</idno>
+            <origDate>15th century</origDate>
+            <origPlace></origPlace>
+            <note>Appears in stemma as O1, O2, O3</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Bb">
+            <label type="siglum">Bb</label>
+            <idno>Bæjarbók, ÁM 309</idno>
+            <origDate>1498</origDate>
+            <origPlace></origPlace>
+            <note>Appears in stemma as Bb1, Bb2, Bb3</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ga">
+            <label type="siglum">Ga</label>
+            <idno>Gráskinnuauki (Gl. kgl. sml. 2870)</idno>
+            <origDate>First half of 16th century</origDate>
+            <origPlace></origPlace>
+            <note>Late additions to manuscript Gr; appears in stemma as Ga1, Ga2</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/182692356">Njáls saga</title>
+        <persName role="author" ref="http://viaf.org/">Anonymous</persName>
+        <origDate>1280?</origDate>
+        <origPlace>Iceland</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">Islendingasaga</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="non"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/non/Einar_1954_Brennu-njalssaga/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="33" size="33">
+        <label></label>
+        <node xml:id="n_Astar" type="hypothetical" inDegree="0" outDegree="2">
+          <label>*A</label>
+        </node>
+        <node xml:id="n_Xstar" type="hypothetical" inDegree="1" outDegree="5">
+          <label>*X</label>
+        </node>
+        <node xml:id="n_Vstar" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*V</label>
+        </node>
+        <node xml:id="n_Ystar" type="hypothetical" inDegree="1" outDegree="3">
+          <label>*Y</label>
+        </node>
+        <node xml:id="n_Zstar" type="hypothetical" inDegree="1" outDegree="3">
+          <label>*Z</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_y1star" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*y₁</label>
+        </node>
+        <node xml:id="n_Ga2" type="witness" inDegree="1" outDegree="0">
+          <label>Ga2</label>
+        </node>
+        <node xml:id="n_O2" type="witness" inDegree="2" outDegree="0">
+          <label>O2</label>
+        </node>
+        <node xml:id="n_Bb2" type="witness" inDegree="1" outDegree="0">
+          <label>Bb2</label>
+        </node>
+        <node xml:id="n_Gr" type="witness" inDegree="1" outDegree="0">
+          <label>Gr</label>
+        </node>
+        <node xml:id="n_S1" type="witness" inDegree="1" outDegree="0">
+          <label>S1</label>
+        </node>
+        <node xml:id="n_Sv2" type="witness" inDegree="1" outDegree="0">
+          <label>Sv2</label>
+        </node>
+        <node xml:id="n_x1star" type="hypothetical" inDegree="1" outDegree="2">
+          <label>*x₁</label>
+        </node>
+        <node xml:id="n_K2" type="witness" inDegree="1" outDegree="0">
+          <label>K2</label>
+        </node>
+        <node xml:id="n_R2" type="witness" inDegree="1" outDegree="0">
+          <label>R2</label>
+        </node>
+        <node xml:id="n_R4" type="witness" inDegree="1" outDegree="0">
+          <label>R4</label>
+        </node>
+        <node xml:id="n_O3" type="witness" inDegree="1" outDegree="0">
+          <label>O3</label>
+        </node>
+        <node xml:id="n_x2star" type="hypothetical" inDegree="1" outDegree="7">
+          <label>*x₂</label>
+        </node>
+        <node xml:id="n_x3star" type="hypothetical" inDegree="1" outDegree="7">
+          <label>*x₃</label>
+        </node>
+        <node xml:id="n_gamma" type="witness" inDegree="1" outDegree="0">
+          <label>γ</label>
+        </node>
+        <node xml:id="n_delta" type="witness" inDegree="1" outDegree="0">
+          <label>δ</label>
+        </node>
+        <node xml:id="n_epsilon" type="witness" inDegree="1" outDegree="0">
+          <label>ε</label>
+        </node>
+        <node xml:id="n_zeta" type="witness" inDegree="1" outDegree="0">
+          <label>ζ</label>
+        </node>
+        <node xml:id="n_S2" type="witness" inDegree="1" outDegree="0">
+          <label>S2</label>
+        </node>
+        <node xml:id="n_Sv1" type="witness" inDegree="1" outDegree="0">
+          <label>Sv1</label>
+        </node>
+        <node xml:id="n_Ga1" type="witness" inDegree="1" outDegree="0">
+          <label>Ga1</label>
+        </node>
+        <node xml:id="n_R1" type="witness" inDegree="1" outDegree="0">
+          <label>R1</label>
+        </node>
+        <node xml:id="n_R3" type="witness" inDegree="1" outDegree="0">
+          <label>R3</label>
+        </node>
+        <node xml:id="n_K1" type="witness" inDegree="1" outDegree="0">
+          <label>K1</label>
+        </node>
+        <node xml:id="n_Bb1" type="witness" inDegree="1" outDegree="0">
+          <label>Bb1</label>
+        </node>
+        <node xml:id="n_Bb3" type="witness" inDegree="1" outDegree="0">
+          <label>Bb3</label>
+        </node>
+        <node xml:id="n_O1" type="witness" inDegree="1" outDegree="0">
+          <label>O1</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_Astar" to="#n_Xstar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_Astar" to="#n_Vstar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_Xstar" to="#n_x1star" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_Xstar" to="#n_K2" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_5" from="#n_Xstar" to="#n_R2" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_6" from="#n_Xstar" to="#n_R4" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_7" from="#n_Xstar" to="#n_O3" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_8" from="#n_Vstar" to="#n_Ystar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_Vstar" to="#n_Zstar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_Ystar" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_Ystar" to="#n_y1star" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_Ystar" to="#n_Ga2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_Zstar" to="#n_Gr" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_Zstar" to="#n_S1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_Zstar" to="#n_Sv2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_y1star" to="#n_O2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_y1star" to="#n_Bb2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_x1star" to="#n_x2star" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_x1star" to="#n_x3star" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_x2star" to="#n_gamma" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_21" from="#n_x2star" to="#n_delta" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_22" from="#n_x2star" to="#n_epsilon" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_23" from="#n_x2star" to="#n_zeta" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_24" from="#n_x2star" to="#n_S2" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_25" from="#n_x2star" to="#n_Sv1" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_26" from="#n_x2star" to="#n_Ga1" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_27" from="#n_x3star" to="#n_R1" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_28" from="#n_x3star" to="#n_R3" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_29" from="#n_x3star" to="#n_K1" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_30" from="#n_x3star" to="#n_Bb1" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_31" from="#n_x3star" to="#n_Bb3" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_32" from="#n_x3star" to="#n_O1" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_33" from="#n_x3star" to="#n_O2" od:type="contamination" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

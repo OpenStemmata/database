@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Bairisch-österreichisches Buch von Troja</title>
+        <author>Thoelen, Heinz</author>
+        <author>Hilgers, Heribert A. </author>
+        <author>Thoelen, Heinz</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0002-2202-6354">Gustavo Fernández Riva</persName>
+        </respStmt>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Johannes Barnsteiner</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>The fragmentary manuscript K can't be placed in the stemma due to lack of enough relevant information.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Das Bairisch-österreichische Buch von Troja</title>
+          <author>Thoelen, Heinz</author>
+          <author>Hilgers, Heribert A. </author>
+          <author>Thoelen, Heinz</author>
+          <date>2012</date>
+          <pubPlace>Wiesbaden</pubPlace>
+          <series>Wissensliteratur im Mittelalter</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="48"/>
+          <biblScope unit="page" n="LXVIII"/>
+          <ptr type="digitised" target="https://katalog.ub.uni-heidelberg.de/titel/67476266"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_W">
+            <label type="siglum">W</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wien</settlement>
+                <repository> Österr. Nationalbibl.</repository>
+                <idno> Cod. 2802</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1450-1500</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/6511"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Berlin</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> mgq 1145</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1425-1475</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/4522"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Klagenfurt</settlement>
+                <repository> Landesarchiv Arnoldstein Kloster und Herrschaft</repository>
+                <idno> Hs. 355</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1452-1500</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/4286"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Z">
+            <label type="siglum">Z</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Leutkirch</settlement>
+                <repository> Fürstl. Waldburg zu Zeil und Trauchburgsches Gesamtarchiv</repository>
+                <idno> ZAMs 21</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1464</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/3982"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Le">
+            <label type="siglum">Le</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Leipzig</settlement>
+                <repository> Universitätsbibl.</repository>
+                <idno> Ms. 1711a</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>c. 1455</origDate>
+            <origPlace></origPlace>
+            <note>Fragmentary</note>
+            <ptr type="description" target="https://handschriftencensus.de/23239"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Mailand</settlement>
+                <repository> Bibl. Nazionale Braidense</repository>
+                <idno> AE.XIII.13</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1467-1471</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/7145"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P">
+            <label type="siglum">P</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Prag</settlement>
+                <repository> Nationalbibl.</repository>
+                <idno> Cod. I.B.6</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1400-1499</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/5561"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/198560986">Bairisch-österreichisches Buch von Troja</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1440-1460</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">epic</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gmh"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Hilgers_2012_BairBuchvonTroja/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="12" size="11">
+        <label>1</label>
+        <node xml:id="n_Original" type="hypothetical" inDegree="0" outDegree="1">
+          <label>X</label>
+        </node>
+        <node xml:id="n_Archetype" type="hypothetical" inDegree="1" outDegree="2">
+          <label>α</label>
+        </node>
+        <node xml:id="n_X1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>X1</label>
+        </node>
+        <node xml:id="n_X2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>X2</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+          <label>P</label>
+        </node>
+        <node xml:id="n_X3" type="hypothetical" inDegree="1" outDegree="2">
+          <label>X3</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_W" type="witness" inDegree="1" outDegree="0">
+          <label>W</label>
+        </node>
+        <node xml:id="n_X4" type="hypothetical" inDegree="1" outDegree="2">
+          <label>X4</label>
+        </node>
+        <node xml:id="n_Z" type="witness" inDegree="1" outDegree="0">
+          <label>Z</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_Original" to="#n_Archetype" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_Archetype" to="#n_X1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_Archetype" to="#n_X2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_X1" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_X1" to="#n_P" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_X2" to="#n_X3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_X2" to="#n_X4" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_X3" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_X3" to="#n_W" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_X4" to="#n_Z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_X4" to="#n_L" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

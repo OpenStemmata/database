@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Fin d'Elias</title>
+        <author>Nelson, Jan A.</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Dates and origin of witnesses are given following the edition. x, y and z, stand for the first, second and third revisions. The image shows the witnesses of the Fin d'Elias «superimposed on the patterns established for the Chevalier au Cygne», of which they form a subset. Manuscrits relations that do not apply to the Fin d'Elias are shown in dotted lines, and not transcribed in our graph file.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Le Chevalier au Cygne and La Fin d’Elias</title>
+          <author>Nelson, Jan A.</author>
+          <date>1985</date>
+          <pubPlace>University, Alabama</pubPlace>
+          <series>The Old French Crusade Cycle</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="7"/>
+          <biblScope unit="page" n="xliv"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <idno> Paris, Bibliothèque nationale de France, français, 786</idno>
+            <origDate>1271-1280</origDate>
+            <origPlace>Tournai</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <idno> Paris, Bibliothèque nationale de France, français, 795</idno>
+            <origDate>1281-1300</origDate>
+            <origPlace>Central Picardy</origPlace>
+            <note>Three scribes</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <idno> Paris, Bibliothèque nationale de France, français, 12569</idno>
+            <origDate>1271-1280</origDate>
+            <origPlace>Central Picardy</origPlace>
+            <note>single scribe</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F">
+            <label type="siglum">F</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Bern</settlement>
+                <repository> Burgerbibliothek</repository>
+                <idno> 320</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1271-1280</origDate>
+            <origPlace>North-Eastern France</origPlace>
+            <note>single scribe</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <idno>Paris, Bibliothèque nationale de France, Arsenal, 3139</idno>
+            <origDate>1268</origDate>
+            <origPlace>North-Eastern Picardy</origPlace>
+            <note>single scribe</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_I">
+            <label type="siglum">I</label>
+            <idno>London, British Library, Additional, 36615</idno>
+            <origDate>1381-1320</origDate>
+            <origPlace>North-Eastern France</origPlace>
+            <note>several scribes</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_T">
+            <label type="siglum">T</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Torino</settlement>
+                <repository> Biblioteca Nazionale Universitaria</repository>
+                <idno> L. III. 25</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1300</origDate>
+            <origPlace>North-Eastern France</origPlace>
+            <note>single scribe</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Fin d'Elias</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1198-1218</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">chanson de geste</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Nelson_1985_FinElias/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="13" size="12">
+        <label>3</label>
+        <node xml:id="n_4" type="hypothetical" inDegree="1" outDegree="2">
+          <label>4</label>
+        </node>
+        <node xml:id="n_6" type="hypothetical" inDegree="0" outDegree="3">
+          <label>6</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="1">
+          <label>y</label>
+        </node>
+        <node xml:id="n_7" type="hypothetical" inDegree="1" outDegree="2">
+          <label>7</label>
+        </node>
+        <node xml:id="n_8" type="hypothetical" inDegree="1" outDegree="2">
+          <label>8</label>
+        </node>
+        <node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="2">
+          <label>z</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="0">
+          <label>T</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <node xml:id="n_I" type="witness" inDegree="1" outDegree="0">
+          <label>I</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_4" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_4" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_6" to="#n_4" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_6" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_6" to="#n_7" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_y" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_7" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_7" to="#n_8" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_8" to="#n_z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_8" to="#n_I" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_z" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_z" to="#n_G" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

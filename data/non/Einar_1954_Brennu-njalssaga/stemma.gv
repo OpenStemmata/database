@@ -1,0 +1,76 @@
+digraph {
+
+    Astar -> Xstar
+    Astar -> Vstar
+    Vstar -> Ystar
+    Vstar -> Zstar
+    
+    Ystar -> M
+    Ystar -> y1star
+    Ystar -> Ga2
+    y1star -> O2
+    y1star -> Bb2
+
+    Zstar -> Gr
+    Zstar -> S1
+    Zstar -> Sv2
+
+    Xstar -> x1star
+    Xstar -> K2 [color="grey"]
+    Xstar -> R2 [color="grey"]
+    Xstar -> R4 [color="grey"]
+    Xstar -> O3 [color="grey"]
+    
+    x1star -> x2star
+    x1star -> x3star
+    
+
+    x2star -> gamma [color="grey"]
+    x2star -> delta [color="grey"]
+    x2star -> epsilon [color="grey"]
+    x2star -> zeta [color="grey"]
+    x2star -> S2  [color="grey"]
+    x2star -> Sv1 [color="grey"]
+    x2star -> Ga1 [color="grey"]
+    
+    x3star -> R1 [color="grey"]
+    x3star -> R3 [color="grey"]
+    x3star -> K1 [color="grey"]
+    x3star -> Bb1 [color="grey"]
+    x3star -> Bb3 [color="grey"]
+    x3star -> O1 [color="grey"]
+    x3star -> O2 [style="dashed"]
+
+
+    Astar[color="grey", label="*A"]
+    Xstar[color="grey", label="*X"]
+    Vstar[color="grey", label="*V"]
+    Ystar[color="grey", label="*Y"]
+    Zstar[color="grey", label="*Z"]
+    y1star[color="grey", label="*y₁"]
+    x1star[color="grey", label="*x₁"]
+    x2star[color="grey", label="*x₂"]
+    x3star[color="grey", label="*x₃"]
+
+    K2[label="K2"]
+    R2[label="R2"]
+    R4[label="R4"]
+    O3[label="O3"]
+
+    gamma [label="γ"]
+    delta [label="δ"]
+    epsilon [label="ε"]
+    zeta  [label="ζ"]
+    S2    [label="S2"]
+    Sv1   [label="Sv1"]
+    Ga1   [label="Ga1"]
+    
+    R1  [label="R1"]
+    R3  [label="R3"]
+    K1  [label="K1"]
+    Bb1 [label="Bb1"]
+    Bb3 [label="Bb3"]
+    O1  [label="O1"]
+
+}
+

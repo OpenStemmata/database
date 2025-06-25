@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Cycle de Guillaume d'Orange</title>
+        <author>McMillan</author>
+        <author>Tyssens</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Anna Preto</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>The drawn stemma is extracted from ‘La geste de Guillaume d’Orange dans les manuscrits cycliques [compte-rendu]’ by McMillan</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>La geste de Guillaume d’Orange dans les manuscrits cycliques</title>
+          <author>McMillan</author>
+          <author>Tyssens</author>
+          <date>1967</date>
+          <pubPlace>Paris</pubPlace>
+          <series>Bibl. Fac. Philos. Et Lettres Univ. De Liège</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="178"/>
+          <biblScope unit="page" n="339"/>
+          <ptr type="digitised" target="https://www.persee.fr/doc/ccmed_0007-9731_1972_num_15_60_1930_t1_0336_0000_2"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Cycle de Guillaume d'Orange</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate></origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">chanson de geste</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+          <term type="drawnStemma">false</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Tyssens_1967_Guillaume/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="14" size="13">
+        <label>0</label>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="3">
+          <label>O</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="4">
+          <label>a</label>
+        </node>
+        <node xml:id="n_b" type="hypothetical" inDegree="1" outDegree="2">
+          <label>b</label>
+        </node>
+        <node xml:id="n_r" type="hypothetical" inDegree="1" outDegree="2">
+          <label>r</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>(E)</label>
+        </node>
+        <node xml:id="n_A2" type="witness" inDegree="1" outDegree="0">
+          <label>A²</label>
+        </node>
+        <node xml:id="n_A1" type="witness" inDegree="1" outDegree="0">
+          <label>A¹</label>
+        </node>
+        <node xml:id="n_A3" type="witness" inDegree="1" outDegree="0">
+          <label>A³</label>
+        </node>
+        <node xml:id="n_A4" type="witness" inDegree="1" outDegree="0">
+          <label>A⁴</label>
+        </node>
+        <node xml:id="n_B1" type="witness" inDegree="1" outDegree="0">
+          <label>B¹</label>
+        </node>
+        <node xml:id="n_B2" type="witness" inDegree="1" outDegree="0">
+          <label>B²</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
+          <label>D</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_O" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_O" to="#n_r" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_O" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_x" to="#n_a" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_x" to="#n_b" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_a" to="#n_A1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_a" to="#n_A2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_a" to="#n_A3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_a" to="#n_A4" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_b" to="#n_B1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_b" to="#n_B2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_r" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_r" to="#n_E" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

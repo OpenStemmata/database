@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Florimont</title>
+        <author>Hilka, Alfons</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Does not include the fragments Paris, BnF, NAF 5094, Paris, BnF, NAL 1034, nor the ms. Wien, Österreichische Nationalbibliothek, 3434 (W, close to T), nor the modern mss (Arsenal 33320, Albi, BM, Rochegude 5), nor the 3 derivative mises en prose, the 16th century rewriting and the italian version. For a recent synthesis, see M. Materni, Digital Florimont, http://digiflorimont.huma-num.fr/flsite/florimont.html</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Aimon von Varennes, Florimont, ein altfranzösischer Abenteuerroman zum ersten Mal mit Einleitung, Anmerkungen, Namenverzeichnis und Glossar unter Benützung der von Alfred Risop gesammelten handschriftlichen Materialien herausgegeben von Alfons Hilka</title>
+          <author>Hilka, Alfons</author>
+          <date>1933</date>
+          <pubPlace>Halle</pubPlace>
+          <series>Gesellschaft für romanische Literatur</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="48"/>
+          <biblScope unit="page" n="????"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 353</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1400</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 792</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1251-1300</origDate>
+            <origPlace>Sud de la France?</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 1374</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1251-1275</origDate>
+            <origPlace>Vienne?</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 1376</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1276-1320</origDate>
+            <origPlace>Bourgogne (Dijon?)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 1491</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1400</origDate>
+            <origPlace>Sud de la France?</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F">
+            <label type="siglum">F</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 15101</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1320</origDate>
+            <origPlace>Metz</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 24376</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1276-1300</origDate>
+            <origPlace>Emilia (Italie)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_H">
+            <label type="siglum">H</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> BL</repository>
+                <idno> Harley 4487</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1295</origDate>
+            <origPlace>Lotharingie</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_H2">
+            <label type="siglum">H2</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> BL</repository>
+                <idno> Harley 3983</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1323</origDate>
+            <origPlace>Lorraine</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_I">
+            <label type="siglum">I</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Venezia</settlement>
+                <repository> BN Marciana</repository>
+                <idno> Fr. Z. 22</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1321-1350</origDate>
+            <origPlace>Italia (Bologna, Ferrara or Padova)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_K">
+            <label type="siglum">K</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Torino</settlement>
+                <repository> BNU</repository>
+                <idno> L. II. 16</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1326-1350</origDate>
+            <origPlace>Italy</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Monza</settlement>
+                <repository> Biblioteca capitolare</repository>
+                <idno> b-21/137 (CXCV)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1350</origDate>
+            <origPlace>Lombardia or Emilia</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Montpellier</settlement>
+                <repository> BIU Médecine</repository>
+                <idno> H 252</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1350</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_T">
+            <label type="siglum">T</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Tours</settlement>
+                <repository> BM</repository>
+                <idno> 941</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1320</origDate>
+            <origPlace>Sud-Est de la France</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Florimont</title>
+        <persName role="author" ref="http://viaf.org/">Aimon de Varennes</persName>
+        <origDate>1188</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">roman antique en vers</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">excluded</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="fro"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/fro/Hilka_1933_AimonVarennes-Florimont/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="23" size="22">
+        <label></label>
+        <node xml:id="n_O" type="hypothetical" inDegree="0" outDegree="2">
+          <label>O</label>
+        </node>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2">
+          <label>α</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="5">
+          <label>β</label>
+        </node>
+        <node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>1</label>
+        </node>
+        <node xml:id="n_p" type="hypothetical" inDegree="1" outDegree="2">
+          <label>p</label>
+        </node>
+        <node xml:id="n_r" type="hypothetical" inDegree="1" outDegree="2">
+          <label>r</label>
+        </node>
+        <node xml:id="n_v" type="hypothetical" inDegree="1" outDegree="3">
+          <label>v</label>
+        </node>
+        <node xml:id="n_w" type="hypothetical" inDegree="1" outDegree="2">
+          <label>w</label>
+        </node>
+        <node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="2">
+          <label>z</label>
+        </node>
+        <node xml:id="n_H2" type="witness" inDegree="1" outDegree="0">
+          <label>H²</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="0">
+          <label>T</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_I" type="witness" inDegree="1" outDegree="0">
+          <label>I</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <node xml:id="n_K" type="witness" inDegree="1" outDegree="0">
+          <label>K</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
+          <label>D</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_O" to="#n_alpha" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_O" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_alpha" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_alpha" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_beta" to="#n_1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_beta" to="#n_r" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_beta" to="#n_v" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_beta" to="#n_w" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_beta" to="#n_z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_1" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_1" to="#n_p" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_p" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_p" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_r" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_r" to="#n_L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_v" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_v" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_v" to="#n_I" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_w" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_w" to="#n_K" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_z" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_22" from="#n_z" to="#n_H2" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

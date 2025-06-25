@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Wigamur</title>
+        <author>Busch, Nathanael</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Johannes Barnsteiner</persName>
+        </respStmt>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Wigamur. Kritische Edition - Übersetzung - Kommentar</title>
+          <author>Busch, Nathanael</author>
+          <date>2009</date>
+          <pubPlace>Berlin</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="17"/>
+          <ptr type="digitised" target="https://katalog.ub.uni-heidelberg.de/titel/66833323"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_W">
+            <label type="siglum">W</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wolfenbüttel</settlement>
+                <repository> Herzog August Bibl.</repository>
+                <idno> Cod. 51.2 Aug. 4°</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1450-1500</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://www.handschriftencensus.de/3689"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Munich</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> Cgm 5249/28</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1275-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://www.handschriftencensus.de/1323"/>
+            <ptr type="digitised" target="https://mdz-nbn-resolving.de/bsb00009578"/>
+          </witness>
+          <witness xml:id="w_S">
+            <label type="siglum">S</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wien</settlement>
+                <repository> Österr. Nationalbibl.</repository>
+                <idno> Cod. Ser. nova 4433</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1335-1365</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://www.handschriftencensus.de/2967"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/175867826">Wigamur</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1200-1300</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">epic, arthurian</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gmh"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Busch_2009_Wigamur/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="6" size="5">
+        <label>1</label>
+        <node xml:id="n_Archetype" type="hypothetical" inDegree="0" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>y</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_y1" type="hypothetical" inDegree="1" outDegree="1">
+          <label>y1</label>
+        </node>
+        <node xml:id="n_S" type="witness" inDegree="1" outDegree="0">
+          <label>S</label>
+        </node>
+        <node xml:id="n_W" type="witness" inDegree="1" outDegree="0">
+          <label>W</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_Archetype" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_Archetype" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_y" to="#n_y1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_y" to="#n_S" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_y1" to="#n_W" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

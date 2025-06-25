@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Florent et Octavien (version en alexandrins)</title>
+        <author>Laborderie, Noëlle</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Florent et Octavien, chanson de geste du XIVe siècle</title>
+          <author>Laborderie, Noëlle</author>
+          <date>1991</date>
+          <pubPlace>Paris</pubPlace>
+          <series>Nouvelle Bibliothèque du Moyen Âge</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="17"/>
+          <biblScope unit="page" n="VIII"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 1452</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1501-1600</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 12564</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>Janvier 1462</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 24384</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>6 juillet 1456</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Florent et Octavien (version en alexandrins)</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1356</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">chanson de geste</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="frm"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/frm/Laborderie_1991_FlorentOctavien/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="6" size="5">
+        <label></label>
+        <node xml:id="n_o" type="hypothetical" inDegree="0" outDegree="1">
+          <label>o</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_x1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x¹</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_o" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_x" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_x" to="#n_x1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_x1" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_x1" to="#n_C" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

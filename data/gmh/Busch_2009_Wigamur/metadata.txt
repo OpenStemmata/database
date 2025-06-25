@@ -49,7 +49,7 @@ wits:
       witMsDesc: "https://www.handschriftencensus.de/1323"
       witDigit: "https://mdz-nbn-resolving.de/bsb00009578"
     - witSigla: "S"
-      witSignature: "Vienna, Österr. Nationalbibl., Cod. Ser. nova 4433"
+      witSignature: "Wien, Österr. Nationalbibl., Cod. Ser. nova 4433"
       witOrigDate: "1335-1365"
       witOrigPlace: ""
       witNotes: ""

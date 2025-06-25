@@ -1,0 +1,24 @@
+digraph {
+
+    Pseudo_Turpin -> Speculum_Historiale;
+    Aspremont -> Speculum_Historiale;
+    Pseudo_Turpin -> Kms_Aa;
+    Aspremont -> Kms_Aa;
+    Kms_Aa->A;
+    Kms_Aa->a;
+    Speculum_Historiale -> Tveggja_Postola_Saga;
+    Kms_Aa -> Tveggja_Postola_Saga;
+    Tveggja_Postola_Saga -> Kms_Bb;
+    Speculum_Historiale -> Kms_Bb [style="dashed"];
+    Kms_Bb->B;
+    Kms_Bb->b;
+    
+    Pseudo_Turpin[color="grey", label="Pseudo-Turpin"];
+    Aspremont[color="grey"];
+    Kms_Aa[color="grey", label="Kms Aa"];
+    Speculum_Historiale[color="grey", label="Speculum historiale"];
+    Tveggja_Postola_Saga[color="grey", label="Tveggja Postola Saga"];
+    Kms_Bb[color="grey", label="Kms Bb"]
+
+
+}

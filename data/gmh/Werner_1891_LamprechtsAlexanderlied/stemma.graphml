@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d4" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d3" for="edge" attr.name="type" attr.type="string"/>
+<key id="d2" for="node" attr.name="note" attr.type="string"/>
+<key id="d1" for="node" attr.name="color" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="Archetype">
+  <data key="d0">A</data>
+  <data key="d1">grey</data>
+</node>
+<node id="V1">
+  <data key="d0">V¹</data>
+  <data key="d1">grey</data>
+</node>
+<node id="M">
+  <data key="d0">*M</data>
+  <data key="d2"> Asterik indicates that the witness is lost, but there are modern transcriptions.&#13;
+</data>
+</node>
+<node id="V"/>
+<node id="B1">
+  <data key="d0">B¹</data>
+  <data key="d1">grey</data>
+</node>
+<node id="B"/>
+<edge source="Archetype" target="V1">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="Archetype" target="M">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="V1" target="V">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="V1" target="B1">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+<edge source="B1" target="B">
+  <data key="d3">filiation</data>
+  <data key="d4">unknown</data>
+</edge>
+</graph></graphml>

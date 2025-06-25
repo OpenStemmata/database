@@ -1,0 +1,17 @@
+digraph {
+
+original[color="grey", label=""];
+x[color="grey"];
+y[color="grey"];
+z[color="grey"];
+
+original->x;
+x->A;
+x->B;
+original->y;
+y->C;
+y->z;
+z->D;
+z->E;
+
+}

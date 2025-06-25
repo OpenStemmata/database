@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="Original">
+  <data key="d0">grey</data>
+</node>
+<node id="Archetypus">
+  <data key="d0">grey</data>
+</node>
+<node id="Alpha">
+  <data key="d1">α</data>
+  <data key="d0">grey</data>
+</node>
+<node id="V"/>
+<node id="M"/>
+<node id="Z"/>
+<node id="Gamma">
+  <data key="d1">γ</data>
+  <data key="d0">grey</data>
+</node>
+<node id="Ypsilon">
+  <data key="d1">Y</data>
+</node>
+<node id="B"/>
+<node id="LinieBeta">
+  <data key="d1">β</data>
+  <data key="d0">grey</data>
+</node>
+<node id="Epsilon">
+  <data key="d1">ε</data>
+  <data key="d0">grey</data>
+</node>
+<node id="D"/>
+<node id="H"/>
+<node id="N"/>
+<node id="Delta">
+  <data key="d1">δ</data>
+  <data key="d0">grey</data>
+</node>
+<node id="QO">
+  <data key="d0">grey</data>
+</node>
+<node id="Q"/>
+<node id="O"/>
+<node id="GIJKLSTUWZb">
+  <data key="d0">grey</data>
+</node>
+<node id="G"/>
+<node id="I"/>
+<node id="J"/>
+<node id="K"/>
+<node id="L"/>
+<node id="S"/>
+<node id="T"/>
+<node id="U"/>
+<node id="W"/>
+<node id="Zb"/>
+<node id="Eta">
+  <data key="d1">η</data>
+  <data key="d0">grey</data>
+</node>
+<node id="Theta">
+  <data key="d1">θ</data>
+  <data key="d0">grey</data>
+</node>
+<node id="2"/>
+<node id="1"/>
+<node id="p"/>
+<node id="Gamma2">
+  <data key="d0">grey</data>
+</node>
+<node id="A"/>
+<node id="C"/>
+<node id="E"/>
+<node id="F"/>
+<node id="R"/>
+<node id="X"/>
+<node id="Za"/>
+<node id="Zc"/>
+<node id="Zd"/>
+<node id="Zw"/>
+<edge source="Original" target="Archetypus">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Archetypus" target="Alpha">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Archetypus" target="LinieBeta">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Archetypus" target="Gamma2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Alpha" target="V">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Alpha" target="Z">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Alpha" target="Gamma">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="V" target="M">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gamma" target="Ypsilon">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gamma" target="B">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="LinieBeta" target="Epsilon">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="LinieBeta" target="Delta">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Epsilon" target="D">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Epsilon" target="N">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="D" target="H">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Delta" target="QO">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Delta" target="GIJKLSTUWZb">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Delta" target="Eta">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="QO" target="Q">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="QO" target="O">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="GIJKLSTUWZb" target="Z">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="GIJKLSTUWZb" target="G">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="GIJKLSTUWZb" target="I">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="GIJKLSTUWZb" target="J">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="GIJKLSTUWZb" target="K">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="GIJKLSTUWZb" target="L">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="GIJKLSTUWZb" target="S">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="GIJKLSTUWZb" target="T">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="GIJKLSTUWZb" target="U">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="GIJKLSTUWZb" target="W">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="GIJKLSTUWZb" target="Zb">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Eta" target="Theta">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Eta" target="p">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Theta" target="2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Theta" target="1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gamma2" target="A">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gamma2" target="C">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gamma2" target="E">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gamma2" target="F">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gamma2" target="R">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gamma2" target="X">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gamma2" target="Za">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gamma2" target="Zc">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gamma2" target="Zd">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gamma2" target="Zw">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

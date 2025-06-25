@@ -1,0 +1,59 @@
+digraph {
+x1[label="x", color="grey"]
+x2[label="x", color="grey"]
+x3[label="x", color="grey"]
+xHac3[label="x (Hac³)", color="grey"]
+xHac1[label="x (Hac¹)", color="grey"]
+x4[label="x", color="grey"]
+x5[label="x", color="grey"]
+x6[label="x", color="grey"]
+x7[label="x", color="grey"]
+x8[label="x", color="grey"]
+x9[label="x", color="grey"]
+x10[label="x", color="grey"]
+x11[label="x", color="grey"]
+x12[label="x", color="grey"]
+x1[label="x", color="grey"]
+P1[label="P¹"]
+P2[label="P²"]
+P3[label="P³"]
+P4[label="P⁴"]
+P5[label="P⁵"]
+P6[label="P⁶"]
+
+
+x1->R;
+x1->x2;
+x2->x3;
+x3->xHac3;
+xHac3->A;
+xHac3->P2;
+xHac3->P6[color="grey"];
+x3->xHac1;
+xHac1->Pa;
+xHac1->Pb;
+x2->P1;
+x2->x4;
+x4->S;
+x4->x5;
+x5->x6;
+x6->G;
+x6->W;
+x5->x7;
+x7->C;
+x7->x8;
+x8->x9;
+x9->x10;
+x10->P3;
+x10->x11;
+x11->P4;
+x11->P5;
+x9->x12;
+x12->B;
+x12->D;
+x8->O;
+R->P1[style="dashed"];
+R->x4[style="dashed"];
+
+}
+

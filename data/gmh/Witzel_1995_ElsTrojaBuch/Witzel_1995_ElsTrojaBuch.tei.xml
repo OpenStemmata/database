@@ -1,0 +1,417 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Elsässisches Trojabuch</title>
+        <author>Witzel, Christoph</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="https://orcid.org/0000-0002-2202-6354">Gustavo Fernández Riva</persName>
+        </respStmt>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Johannes Barnsteiner</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Das elsässische Trojabuch</title>
+          <author>Witzel, Christoph</author>
+          <date>1995</date>
+          <pubPlace>Wiesbaden</pubPlace>
+          <series>Wissensliteratur im Mittelalter</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="21"/>
+          <biblScope unit="page" n="LXXXII"/>
+          <ptr type="digitised" target="https://katalog.ub.uni-heidelberg.de/titel/9814537"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_W1">
+            <label type="siglum">W1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wien</settlement>
+                <repository> Österr. Nationalbibl.</repository>
+                <idno> Cod. 2915</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1385-1399</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://www.handschriftencensus.de/2822"/>
+            <ptr type="digitised" target="http://data.onb.ac.at/rec/AC13946779"/>
+          </witness>
+          <witness xml:id="w_B1">
+            <label type="siglum">B1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Berlin</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> mgf 59</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1400-1499</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://www.handschriftencensus.de/4378"/>
+            <ptr type="digitised" target="http://resolver.staatsbibliothek-berlin.de/SBB00015A5A00000000"/>
+          </witness>
+          <witness xml:id="w_B2">
+            <label type="siglum">B2</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Berlin</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> mgf 1065</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1435-1465</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://www.handschriftencensus.de/4439"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B3">
+            <label type="siglum">B3</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Berlin</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> mgf 1238</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1400-1499</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://www.handschriftencensus.de/4450"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B4">
+            <label type="siglum">B4</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Berlin</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> mgq 1420</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1450-1599</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://www.handschriftencensus.de/4527"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B5">
+            <label type="siglum">B5</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Berlin</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> mgq 1817</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1500-1515</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://www.handschriftencensus.de/4548"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Gi1">
+            <label type="siglum">Gi1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Gießen</settlement>
+                <repository> Universitätsbibl.</repository>
+                <idno> Hs. 232</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1417</origDate>
+            <origPlace>Alsace</origPlace>
+            <note></note>
+            <ptr type="description" target="https://www.handschriftencensus.de/4800"/>
+            <ptr type="digitised" target="https://nbn-resolving.de/urn:nbn:de:hebis:26-digisam-1800 http://geb.uni-giessen.de/geb/volltexte/2010/7596/"/>
+          </witness>
+          <witness xml:id="w_Go1">
+            <label type="siglum">Go1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Gotha</settlement>
+                <repository> Forschungsbibl. der Universität Erfurt</repository>
+                <idno> Cod. Chart. A 26</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1470-1475</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://www.handschriftencensus.de/3903"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M1">
+            <label type="siglum">M1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> Cgm 570</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1467</origDate>
+            <origPlace>Augsburg</origPlace>
+            <note></note>
+            <ptr type="description" target="https://www.handschriftencensus.de/6175"/>
+            <ptr type="digitised" target="http://daten.digitale-sammlungen.de/bsb00086793/image_1"/>
+          </witness>
+          <witness xml:id="w_M2">
+            <label type="siglum">M2</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Staatsbibl.</repository>
+                <idno> Cgm 579</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1478</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://www.handschriftencensus.de/6179"/>
+            <ptr type="digitised" target="http://daten.digitale-sammlungen.de/bsb00095240/image_1"/>
+          </witness>
+          <witness xml:id="w_N1">
+            <label type="siglum">N1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Nürnberg</settlement>
+                <repository> Germanisches Nationalmuseum Bibliothek</repository>
+                <idno> Hs. 973</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1415-1417</origDate>
+            <origPlace>Alsace</origPlace>
+            <note></note>
+            <ptr type="description" target="https://www.handschriftencensus.de/5467"/>
+            <ptr type="digitised" target="http://dlib.gnm.de/item/Hs973"/>
+          </witness>
+          <witness xml:id="w_S1">
+            <label type="siglum">S1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Stuttgart</settlement>
+                <repository> Landesbibl.</repository>
+                <idno> Cod. HB V 86</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1468-1472</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://www.handschriftencensus.de/5900"/>
+            <ptr type="digitised" target="http://digital.wlb-stuttgart.de/purl/bsz350733023"/>
+          </witness>
+          <witness xml:id="w_S2">
+            <label type="siglum">S2</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Stuttgart</settlement>
+                <repository> Landesbibl.</repository>
+                <idno> Cod. HB XIII 10</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1479</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://www.handschriftencensus.de/5918"/>
+            <ptr type="digitised" target="http://digital.wlb-stuttgart.de/purl/bsz444984534"/>
+          </witness>
+          <witness xml:id="w_S3">
+            <label type="siglum">S3</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Stuttgart</settlement>
+                <repository> Landesbibl.</repository>
+                <idno> Cod. HB XIII 10</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1465-1499</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://www.handschriftencensus.de/5934"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A1">
+            <label type="siglum">A1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Privatbesitz</settlement>
+                <repository> Gräfl. Familie zu Knyphausen (Lütetsburg)</repository>
+                <idno> ohne Sign.</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1475-1499</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://www.handschriftencensus.de/4361"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/184380590">Elsässisches Trojabuch</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1382-1386 </origDate>
+        <origPlace>Alsace</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">epic</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gmh"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Witzel_1995_ElsTrojaBuch/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="26" size="25">
+        <label></label>
+        <node xml:id="n_Archetype" type="hypothetical" inDegree="0" outDegree="2">
+          <label>Archetype</label>
+        </node>
+        <node xml:id="n_X1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>X1</label>
+        </node>
+        <node xml:id="n_Y1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Y1</label>
+        </node>
+        <node xml:id="n_B4" type="witness" inDegree="1" outDegree="0">
+          <label>B4</label>
+        </node>
+        <node xml:id="n_X2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>X2</label>
+        </node>
+        <node xml:id="n_B1" type="witness" inDegree="1" outDegree="0">
+          <label>B1</label>
+        </node>
+        <node xml:id="n_X3" type="hypothetical" inDegree="1" outDegree="2">
+          <label>X3</label>
+        </node>
+        <node xml:id="n_S1" type="witness" inDegree="1" outDegree="0">
+          <label>S1</label>
+        </node>
+        <node xml:id="n_S3" type="witness" inDegree="1" outDegree="0">
+          <label>S3</label>
+        </node>
+        <node xml:id="n_W1" type="witness" inDegree="1" outDegree="0">
+          <label>W1</label>
+        </node>
+        <node xml:id="n_Y2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Y2</label>
+        </node>
+        <node xml:id="n_S2" type="witness" inDegree="1" outDegree="0">
+          <label>S2</label>
+        </node>
+        <node xml:id="n_Y3" type="hypothetical" inDegree="1" outDegree="3">
+          <label>Y3</label>
+        </node>
+        <node xml:id="n_Y4" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Y4</label>
+        </node>
+        <node xml:id="n_Gi1N1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Gi1,N1</label>
+        </node>
+        <node xml:id="n_Gi1" type="witness" inDegree="1" outDegree="0">
+          <label>Gi1</label>
+        </node>
+        <node xml:id="n_N1" type="witness" inDegree="1" outDegree="0">
+          <label>N1</label>
+        </node>
+        <node xml:id="n_B3" type="witness" inDegree="1" outDegree="0">
+          <label>B3</label>
+        </node>
+        <node xml:id="n_Y5" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Y5</label>
+        </node>
+        <node xml:id="n_B2" type="witness" inDegree="1" outDegree="0">
+          <label>B2</label>
+        </node>
+        <node xml:id="n_B5" type="witness" inDegree="1" outDegree="0">
+          <label>B5</label>
+        </node>
+        <node xml:id="n_Y6" type="hypothetical" inDegree="1" outDegree="4">
+          <label>Y6</label>
+        </node>
+        <node xml:id="n_A1" type="witness" inDegree="1" outDegree="0">
+          <label>A1</label>
+        </node>
+        <node xml:id="n_Go1" type="witness" inDegree="1" outDegree="0">
+          <label>Go1</label>
+        </node>
+        <node xml:id="n_M1" type="witness" inDegree="1" outDegree="0">
+          <label>M1</label>
+        </node>
+        <node xml:id="n_M2" type="witness" inDegree="1" outDegree="0">
+          <label>M2</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_Archetype" to="#n_X1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_Archetype" to="#n_Y1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_X1" to="#n_B4" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_X1" to="#n_X2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_Y1" to="#n_W1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_Y1" to="#n_Y2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_X2" to="#n_B1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_X2" to="#n_X3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_X3" to="#n_S1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_X3" to="#n_S3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_Y2" to="#n_S2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_Y2" to="#n_Y3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_Y3" to="#n_Y4" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_Y3" to="#n_Y5" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_Y3" to="#n_Y6" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_Y4" to="#n_Gi1N1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_Y4" to="#n_B3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_Gi1N1" to="#n_Gi1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_Gi1N1" to="#n_N1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_Y5" to="#n_B2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_Y5" to="#n_B5" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_22" from="#n_Y6" to="#n_A1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_23" from="#n_Y6" to="#n_Go1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_24" from="#n_Y6" to="#n_M1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_25" from="#n_Y6" to="#n_M2" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

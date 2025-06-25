@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Alexanderlied</title>
+        <author>Werner, Richard Maria</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0002-2202-6354">Gustavo Fernández Riva</persName>
+        </respStmt>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Johannes Barnsteiner</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>The asterik next to M on the stemma indicates that the witness is lost, but there are modern transcriptions</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Die Basler Bearbeitung von Lambrechts Alexander</title>
+          <author>Werner, Richard Maria</author>
+          <date>1891</date>
+          <pubPlace>Tübingen</pubPlace>
+          <series>Bibliothek des Litterarischen Vereins in Stuttgart</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="154"/>
+          <biblScope unit="page" n="2"/>
+          <ptr type="digitised" target="https://archive.org/details/diebaslerbearbe02werngoog"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_V">
+            <label type="siglum">V</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vorau</settlement>
+                <repository> Stiftsbibl.</repository>
+                <idno> Cod. 276 (früher XI)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1175-1199</origDate>
+            <origPlace>Augustiner-Chorherrenstift Vorau</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/1432"/>
+            <ptr type="digitised" target="https://doi.org/10.11588/diglit.29478"/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Basel</settlement>
+                <repository> Universitätsbibl.</repository>
+                <idno> Cod. E VI 26</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1420-1474</origDate>
+            <origPlace>Basel</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handschriftencensus.de/7373"/>
+            <ptr type="digitised" target="https://www.ub.unibas.ch/digi/a100/diverse_projekte/pdf2010ff/bau_5/BAU_5_000086050.pdf"/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Straßburg</settlement>
+                <repository> Seminarbibl.</repository>
+                <idno> Cod. C. V. 16.6. 4°</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1187-1220</origDate>
+            <origPlace></origPlace>
+            <note>Destroyed. New siglum: S</note>
+            <ptr type="description" target="https://handschriftencensus.de/3680"/>
+            <ptr type="digitised" target="https://mdz-nbn-resolving.de/details:bsb10973715"/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/179459848">Alexanderlied</title>
+        <persName role="author" ref="http://viaf.org/225910914">Pfaffe Lamprecht</persName>
+        <origDate>c. 1150</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre"></term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gmh"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gmh/Werner_1891_LamprechtsAlexanderlied/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="6" size="5">
+        <label></label>
+        <node xml:id="n_Archetype" type="hypothetical" inDegree="0" outDegree="2">
+          <label>A</label>
+        </node>
+        <node xml:id="n_V1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>V¹</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>*M</label>
+        </node>
+        <node xml:id="n_V" type="witness" inDegree="1" outDegree="0">
+          <label>V</label>
+        </node>
+        <node xml:id="n_B1" type="hypothetical" inDegree="1" outDegree="1">
+          <label>B¹</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_Archetype" to="#n_V1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_Archetype" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_V1" to="#n_V" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_V1" to="#n_B1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_B1" to="#n_B" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+      <noteGrp>
+        <note target="#n_M">Asterik indicates that the witness is lost, but there are modern transcriptions.</note>
+      </noteGrp>
+    </back>
+  </text>
+</TEI>

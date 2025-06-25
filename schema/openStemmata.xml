@@ -59,7 +59,7 @@
                     <moduleRef key="transcr"
                         include="facsimile"/>
                     <moduleRef key="msdescription"
-                        include="origDate origPlace msDesc msIdentifier repository"/>
+                        include="origDate origPlace msDesc msFrag msIdentifier repository"/>
                     <moduleRef key="namesdates"
                         include="persName orgName settlement"/>
                     
@@ -305,6 +305,7 @@
                                     <valItem ident="cat"/>
                                     <valItem ident="ita"/>
                                     <valItem ident="grc"/>
+                                    <valItem ident="non"><desc>Norse, Old</desc></valItem>
                                     <valItem ident="other"/><!-- TODO: update with full list ? -->
                                 </valList>
                             </attDef>

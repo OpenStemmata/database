@@ -291,7 +291,7 @@ def tr(changed_file):
                 if cont != '':
                     wit = et.SubElement(listWit, 'witness')
                     clean_id = 'w_' + superscript.get_normal(
-                                    cont.replace(' ', '_').replace("'", 'prime')
+                                    cont.replace(' ', '_').replace("'", 'prime').replace("(", '').replace(")", '')
                                     )
                     wit.attrib['{http://www.w3.org/XML/1998/namespace}id'] = clean_id
                     label = et.SubElement(wit, 'label', attrib= {'type': 'siglum'})
@@ -356,6 +356,9 @@ def tr(changed_file):
     graph.attrib['type'] = 'directed'
     graph.attrib['order'] = str(len(G.nodes))
     graph.attrib['size'] = str(len(G.edges))
+    if (len(graph) == 0): # If there is no PublicationStemmaNum in the metadata file and no label for the graph was created
+      graphLabel = et.SubElement(graph, 'label')
+      graphLabel.text = "stemma"
 
     for node in G.nodes(data=True):
         nodeEl = et.SubElement(graph, 'node',
@@ -409,6 +412,37 @@ def tr(changed_file):
 
     if len(noteGrp) < 1:
         back.remove(noteGrp)
+    
+    
+    # msFrag for fragements scattered with multiple shelfmarks
+    witnesses = root.findall(".//witness", ns)
+    for witness in witnesses:
+        msDescs = witness.findall('./msDesc') + witness.findall('./idno')
+        if len(msDescs) > 1:
+            new_MsDesc = et.Element("msDesc")
+            witness.insert(2, new_MsDesc)
+            counter = 0
+            for msDescr in msDescs:
+                if counter < 1:
+                    # The first identifier goes to the root of the msDesc
+                    counter += 1
+                    if msDescr.find('./msIdentifier') is not None:
+                        new_MsDesc.insert(1, msDescr.find('./msIdentifier'))
+                        witness.remove(msDescr)
+                    else:
+                        new_MsDesc.insert(1, msDescr)
+                    continue
+
+                frag = et.Element('msFrag')
+                new_MsDesc.append(frag)
+                if msDescr.find('./msIdentifier') is not None:
+                    frag.append(msDescr.find('./msIdentifier'))
+                    witness.remove(msDescr)
+                else:
+                    idno_msIdentifier = et.SubElement(frag, 'msIdentifier')
+                    idno_placeholder_repository = et.SubElement(idno_msIdentifier, 'repository')
+                    idno_msIdentifier.append(msDescr)
+                    # witness.remove(msDescr)
 
     et.indent(tree)
 

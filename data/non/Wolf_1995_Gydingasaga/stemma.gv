@@ -1,0 +1,21 @@
+digraph {
+
+
+    x -> y;
+    x -> z;
+    y -> A;
+    y -> D;
+    z -> E;
+    z -> F;
+    z -> G;
+
+
+
+
+   x [color="grey"];
+   y [color="grey"];
+   z [color="grey"];
+
+
+
+}

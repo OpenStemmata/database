@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Grettis Saga Ásmundarsonar</title>
+        <author>R. C. Boer</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0009-0005-8729-9715">Gustavo C. Campedelli</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Icelandic Saga with incorporated elements of chivalry</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Grettis Saga Ásmundarsonar herausgegeben von R. C. Boer</title>
+          <author>R. C. Boer</author>
+          <date>1900</date>
+          <pubPlace>Halle</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="XLVI"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <idno>AM 551 a 4to</idno>
+            <origDate>1491-1510</origDate>
+            <origPlace>Iceland</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handrit.is/manuscript/view/is/AM04-0551a/0#mode/2up"/>
+            <ptr type="digitised" target="https://handrit.is/manuscript/view/is/AM04-0551a/0?iabr=on#mode/2up"/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <idno>AM 556 a 4o</idno>
+            <origDate>1401-1500</origDate>
+            <origPlace>Iceland</origPlace>
+            <note></note>
+            <ptr type="description" target="https://skaldic.org/m.php?p=ms&amp;i=271"/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_b">
+            <label type="siglum">b</label>
+            <idno>AM 151 fol</idno>
+            <origDate>1636-1645</origDate>
+            <origPlace>Iceland</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handrit.is/manuscript/view/is/AM02-0151/0#mode/2up"/>
+            <ptr type="digitised" target="https://handrit.is/manuscript/view/is/AM02-0151/0?iabr=on#mode/2up"/>
+          </witness>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <idno>de la Gardie X fol </idno>
+            <origDate>?</origDate>
+            <origPlace>Probably Norway</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_β">
+            <label type="siglum">β</label>
+            <idno>AM 476 4to</idno>
+            <origDate>1702-1712</origDate>
+            <origPlace>Iceland</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handrit.is/manuscript/view/is/AM04-0476/0#mode/2up"/>
+            <ptr type="digitised" target="https://handrit.is/manuscript/view/is/AM04-0476/0?iabr=on#mode/2up"/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <idno>AM 150 fol</idno>
+            <origDate>1691-1697</origDate>
+            <origPlace>Norway</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handrit.is/manuscript/view/is/AM02-0150/0#mode/2up"/>
+            <ptr type="digitised" target="https://handrit.is/manuscript/view/is/AM02-0150/0?iabr=on#mode/2up"/>
+          </witness>
+          <witness xml:id="w_152">
+            <label type="siglum">152</label>
+            <idno>AM 152 handfol</idno>
+            <origDate>ca. 1301-1525</origDate>
+            <origPlace>Iceland</origPlace>
+            <note></note>
+            <ptr type="description" target="https://handrit.is/manuscript/view/is/AM02-0152-1-2"/>
+            <ptr type="digitised" target="https://handrit.is/manuscript/view/is/AM02-0152-1-2"/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Grettis Saga Ásmundarsonar</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>1301-1400</origDate>
+        <origPlace>Iceland</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">Icelandic Saga</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">yes</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">excluded</term>
+          <term type="derivatives">excluded</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="non"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/non/Boer_1900_Grettissaga/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="21" size="25">
+        <label>1</label>
+        <node xml:id="n_Saga" type="hypothetical" inDegree="0" outDegree="1">
+          <label>Saga</label>
+        </node>
+        <node xml:id="n_First_adaptation" type="hypothetical" inDegree="1" outDegree="2">
+          <label>erste umarbeitung</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="2" outDegree="2">
+          <label>x</label>
+        </node>
+        <node xml:id="n_Second_adaptation" type="hypothetical" inDegree="1" outDegree="1">
+          <label>zweite umarbeitung</label>
+        </node>
+        <node xml:id="n_w" type="hypothetical" inDegree="1" outDegree="3">
+          <label>w</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>y</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="2" outDegree="1">
+          <label>C</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="2" outDegree="4">
+          <label>B\n(mit randbemerkungen aus y)</label>
+        </node>
+        <node xml:id="n_z" type="hypothetical" inDegree="1" outDegree="2">
+          <label>z\n(ohne Qnundar þáttr)</label>
+        </node>
+        <node xml:id="n_E1" type="hypothetical" inDegree="1" outDegree="1">
+          <label>E1</label>
+        </node>
+        <node xml:id="n_D2" type="hypothetical" inDegree="1" outDegree="1">
+          <label>D2</label>
+        </node>
+        <node xml:id="n_D1" type="hypothetical" inDegree="1" outDegree="1">
+          <label>D1</label>
+        </node>
+        <node xml:id="n_E2" type="hypothetical" inDegree="1" outDegree="1">
+          <label>E2</label>
+        </node>
+        <node xml:id="n_AM_152_fol" type="witness" inDegree="1" outDegree="1">
+          <label>152</label>
+        </node>
+        <node xml:id="n_beta" type="witness" inDegree="1" outDegree="0">
+          <label>β</label>
+        </node>
+        <node xml:id="n_b" type="witness" inDegree="1" outDegree="0">
+          <label>b</label>
+        </node>
+        <node xml:id="n_D" type="hypothetical" inDegree="2" outDegree="1">
+          <label>=redaktion D</label>
+        </node>
+        <node xml:id="n_D_ms" type="witness" inDegree="1" outDegree="0">
+          <label>handschrift D</label>
+        </node>
+        <node xml:id="n_E" type="hypothetical" inDegree="2" outDegree="1">
+          <label>=redaktion E</label>
+        </node>
+        <node xml:id="n_E_ms" type="witness" inDegree="1" outDegree="0">
+          <label>handschrift E.</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_Saga" to="#n_First_adaptation" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_First_adaptation" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_First_adaptation" to="#n_Second_adaptation" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_x" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_x" to="#n_C" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_6" from="#n_Second_adaptation" to="#n_w" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_w" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_w" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_w" to="#n_x" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_y" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_y" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_C" to="#n_z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_B" to="#n_D1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_B" to="#n_E2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_B" to="#n_AM_152_fol" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_B" to="#n_b" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_z" to="#n_E1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_z" to="#n_D2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_E1" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_D2" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_D1" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_22" from="#n_E2" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_23" from="#n_AM_152_fol" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_24" from="#n_D" to="#n_D_ms" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_25" from="#n_E" to="#n_E_ms" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

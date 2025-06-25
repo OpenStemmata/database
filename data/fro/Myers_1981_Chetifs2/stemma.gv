@@ -1,0 +1,39 @@
+digraph {
+
+0[color="grey", label=""];
+1[color="grey", label=""];
+2[color="grey", label=""];
+3[color="grey", label=""];
+5[color="grey", label=""];
+a[color="grey"];
+d[color="grey"];
+x[color="grey"];
+6[color="grey", label=""];
+t[color="grey"];
+y[color="grey"];
+
+0->1;
+1->2;
+2->P;
+2->3;
+3->Sp;
+3->5;
+5->F;
+5->a;
+a->A;
+a->C;
+1->d;
+d->x;
+x->B;
+x->I;
+d->D;
+
+0->6;
+6->D;
+6->t;
+t->T;
+t->y;
+y->G;
+y->E;
+
+}

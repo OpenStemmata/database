@@ -30,7 +30,7 @@ derivatives : "NA"
 contributors:
     - contributor: "Johannes Barnsteiner"
       contributorORCID: ""
-note : "The text is related to other two different works: »Wartburgkrieg« and Ulrich Fuetrer's »Buch der Abenteuer'«, which appear in the printed stemma but were not encoded."
+note : "The text is related to other two different works: »Wartburgkrieg« and Ulrich Fuetrer's »Buch der Abenteuer'«, which appear in the printed stemma but were not encoded, because they represent influences, but not real versions of the text."
 wits:
     - witSigla: "M"
       witSignature: "München, Staatsbibl., Cgm 4871"

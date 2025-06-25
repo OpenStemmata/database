@@ -1,0 +1,29 @@
+digraph {
+
+1[label="", color="grey"];
+2[label="", color="grey"];
+3[label="", color="grey"];
+4[label="", color="grey"];
+5[label="", color="grey"];
+6[label="", color="grey"];
+7[label="", color="grey"];
+D1[label="D\n vv.1-4128"]
+D2[label="D\n vv.4153-10740"]
+
+
+1->2;
+2->3;
+3->U;
+3->4;
+4->e;
+4->D1;
+2->C[style="dashed"];
+1->5;
+5->6;
+6->7;
+7->C[style="dashed"];
+7->D2;
+6->B;
+5->A;
+
+}

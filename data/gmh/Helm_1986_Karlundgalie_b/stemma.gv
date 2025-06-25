@@ -1,0 +1,7 @@
+digraph {
+
+Karlmeinet_Kompilation[label="Karlmeinet-Kompilation\n1. Hälfte des 14. Jh.", color="grey"];
+A[label="Überlieferte Hs. A.\nder Kompilation\n1470-1480"]
+    Karlmeinet_Kompilation-> A;
+
+}

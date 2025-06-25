@@ -1,0 +1,32 @@
+digraph {
+
+ChCy[color="grey"];
+E1[color="grey"];
+Bt[color="grey"];
+1[color="grey", label=""];
+2[color="grey", label=""];
+E1Bt[color="grey", label="E1-Bt"];
+x[color="grey"];
+y[color="grey"];
+z[color="grey"];
+
+ChCy->E1;
+E1->A;
+E1->Bt[color="grey"];
+Bt->H;
+Bt->x;
+x->D;
+x->1[color="grey"];
+1->C;
+1->y[color="grey"];
+y->B;
+y->E;
+1->2;
+2->T;
+2->E1Bt
+E1Bt->z;
+z->G;
+E1Bt->I;
+E1->E1Bt;
+
+}

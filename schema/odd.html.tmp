@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://openstemmata.github.io/odd.html" xmlns:odd.html="http://openstemmata.github.io/odd.html" xmlns:tei="http://www.tei-c.org/ns/1.0">
+  <xs:import namespace="http://www.tei-c.org/ns/1.0" schemaLocation="openStemmata.xsd.tmp"/>
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.tmp"/>
   <xs:attribute name="type">
     <xs:annotation>
       <xs:documentation/>

@@ -1,0 +1,11 @@
+digraph {
+    omega[label="ω", color="grey"];
+
+
+    omega -> H;
+    omega -> S;
+    omega -> Hb;
+    H -> Hb [style="dashed"];
+ 
+
+}
