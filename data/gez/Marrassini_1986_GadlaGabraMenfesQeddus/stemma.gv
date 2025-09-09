@@ -1,0 +1,36 @@
+digraph {
+	omega_prime -> omega;
+	omega_prime -> extra_ct;
+	omega -> alpha;
+	omega -> beta;
+
+	alpha -> Cer711;
+	alpha -> Vat142;
+	alpha -> gamma;
+	gamma -> Wien;
+	gamma -> dA36;
+	alpha -> delta;
+	delta -> CR;
+	delta -> BtAdd;
+	alpha -> epsilon;
+	epsilon -> Vat232;
+	epsilon -> VatCer;
+
+	beta -> EMML2087;
+	beta -> zeta;
+	zeta -> EMML2300;
+	zeta -> dA126;
+	
+	extra_ct -> beta;
+	beta -> epsilon [style = "dashed", dir=none];
+	
+	omega_prime [color="grey", label="omega'"];
+	omega [color="grey"];
+	extra_ct [color="grey",label="?"];
+	alpha [color="grey"];
+	beta [color="grey"];
+	gamma [color="grey"];
+	delta [color="grey"];
+	epsilon [color="grey"];
+	zeta [color="grey", style="dashed"];
+}

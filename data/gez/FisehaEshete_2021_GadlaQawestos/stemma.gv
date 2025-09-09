@@ -1,0 +1,35 @@
+digraph {
+    omega -> alpha;
+    omega -> beta;
+    alpha -> gamma;
+    alpha -> eta;
+    beta -> delta;
+    beta -> epsilon;
+    delta -> theta;
+    gamma -> zeta;
+    zeta -> iota;
+
+    epsilon -> D;
+    epsilon -> C;
+    delta -> GG;
+    theta -> B;
+    theta -> Q2;
+    eta -> N;
+    eta -> Q1;
+    gamma -> G;
+    zeta -> N2;
+    iota -> I;
+    iota -> N1;
+
+    omega [label="Ω", color="grey"];
+    alpha [label="α", color="grey"];
+    beta [label="β", color="grey"];
+    delta [label="δ", color="grey"];
+    eta [label="η", color="grey"];
+    epsilon [label="ε", color="grey"];
+    gamma [label="γ", color="grey"];
+    zeta [label="ζ", color="grey"];
+    iota [label="ι", color="grey"];
+    theta [label="θ", color="grey"];
+    GG [label="Ğ"]
+}

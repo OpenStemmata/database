@@ -1,0 +1,22 @@
+digraph {
+
+    # To refactor nodes, place the cursor left to a node name
+    X -> W;
+    X -> M;
+    X -> Q;
+
+    W -> G;
+    W -> Br;
+    W -> Y;
+    W -> h;
+    W -> Bl;
+
+    Q -> A;
+    Q -> Kprime;
+    Kprime -> Bt;
+
+    Kprime[label="K'"];
+    X [color = "grey"];
+    W [color = "grey"];
+    Q [color = "grey"];
+}
