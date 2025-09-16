@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Dǝrsanä Ṣǝyon</title>
+        <author>Amsaly Tefera</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0001-9799-2410">Godreau, Ulysse</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>The Ethiopian Homily on the Ark of the Covenant</title>
+          <author>Amsaly Tefera</author>
+          <date>2015</date>
+          <pubPlace>Leiden, Netherlands</pubPlace>
+          <series>Brill, Texts and Studies in Eastern Christianity</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="5"/>
+          <biblScope unit="page" n="110"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <idno>Axum</idno>
+            <origDate>1932-1933</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <idno>Ǝnṭoṭṭo St Mary Church, Addis Ababa</idno>
+            <origDate>1901-2000</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <idno>Addis Ababa, National Archives and Library Agency 273</idno>
+            <origDate>1401-1500</origDate>
+            <origPlace></origPlace>
+            <note>Scribe: Wäldä Mäsqäl</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <idno>Addis Ababa, National Archives and Library Agency 630</idno>
+            <origDate>1977</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F">
+            <label type="siglum">F</label>
+            <idno>EMML 8823</idno>
+            <origDate>1801-1900</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_K">
+            <label type="siglum">K</label>
+            <idno>EMML 8429</idno>
+            <origDate>1601-1700</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P">
+            <label type="siglum">P</label>
+            <idno>Ṭana Qirqos Communal Monastery</idno>
+            <origDate>2005</origDate>
+            <origPlace></origPlace>
+            <note>Printed text</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_S">
+            <label type="siglum">S</label>
+            <idno>	EMML 8979</idno>
+            <origDate>1891-1892</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target="https://w3id.org/vhmml/readingRoom/view/201706 "/>
+            <ptr type="digitised" target="https://w3id.org/vhmml/readingRoom/view/201706 "/>
+          </witness>
+          <witness xml:id="w_Q">
+            <label type="siglum">Q</label>
+            <idno>EMML 1482</idno>
+            <origDate>1701-1800</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_T">
+            <label type="siglum">T</label>
+            <idno>Ṭānāsee 72</idno>
+            <origDate>1501-1600</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Dǝrsanä Ṣǝyon</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate>before 15th century</origDate>
+        <origPlace>Ethiopia</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">Homily</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">excluded</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gez"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gez/AmsaluTefera_2015_DersanaSayon/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="19" size="19">
+        <label>1</label>
+        <node xml:id="n_omega" type="hypothetical" inDegree="0" outDegree="2">
+          <label>Ω</label>
+        </node>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2">
+          <label>α</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>β</label>
+        </node>
+        <node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>δ</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="2" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+          <label>P</label>
+        </node>
+        <node xml:id="n_epsilon" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ε</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
+          <label>D</label>
+        </node>
+        <node xml:id="n_K" type="witness" inDegree="1" outDegree="0">
+          <label>K</label>
+        </node>
+        <node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="2">
+          <label>γ</label>
+        </node>
+        <node xml:id="n_S" type="witness" inDegree="1" outDegree="0">
+          <label>S</label>
+        </node>
+        <node xml:id="n_phi" type="hypothetical" inDegree="1" outDegree="2">
+          <label>φ</label>
+        </node>
+        <node xml:id="n_lambda" type="hypothetical" inDegree="1" outDegree="2">
+          <label>λ</label>
+        </node>
+        <node xml:id="n_xi" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ξ</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <node xml:id="n_Q" type="witness" inDegree="1" outDegree="0">
+          <label>Q</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="1">
+          <label>T</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_omega" to="#n_alpha" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_omega" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_alpha" to="#n_epsilon" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_alpha" to="#n_gamma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_beta" to="#n_delta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_beta" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_delta" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_delta" to="#n_P" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_epsilon" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_epsilon" to="#n_K" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_gamma" to="#n_S" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_gamma" to="#n_phi" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_phi" to="#n_lambda" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_phi" to="#n_xi" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_lambda" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_lambda" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_xi" to="#n_Q" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_xi" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_T" to="#n_A" od:type="contamination" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

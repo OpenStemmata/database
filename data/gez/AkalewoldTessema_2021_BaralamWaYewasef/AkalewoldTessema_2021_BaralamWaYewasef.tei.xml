@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable"> Bärälam wä-Yéwasef</title>
+        <author>Akalewold Tesemma</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0001-9799-2410">Godreau, Ulysse</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Geez translation of an earlier arabic version of the story of Barlaam and Josaphat. Date of work and indentity of translator according to colophon (common to all witnesses).</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>The Ethiopic version of Bärälam wä-Yéwasef: critical edition with annotated translation</title>
+          <author>Akalewold Tesemma</author>
+          <date>2021</date>
+          <pubPlace>Addis Ababa, Ethiopia</pubPlace>
+          <series>PhD Thesis</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="45"/>
+          <ptr type="digitised" target="https://etd.aau.edu.et/items/a40f467a-9b7a-4d51-8b64-f84c3fdb4b1d"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A1">
+            <label type="siglum">A1</label>
+            <idno>Abb 31 (BNF)</idno>
+            <origDate>1619</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A2">
+            <label type="siglum">A2</label>
+            <idno>Abb 130 (BNF)</idno>
+            <origDate>1601-1700</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <idno>Or 753 (British Library)</idno>
+            <origDate>1701-1800</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E1">
+            <label type="siglum">E1</label>
+            <idno>Et. 140 (BNF)</idno>
+            <origDate>1601-1700</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E2">
+            <label type="siglum">E2</label>
+            <idno>Et. 205 (BNF)</idno>
+            <origDate>1601-1700</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_J">
+            <label type="siglum">J</label>
+            <idno>EMML 7118</idno>
+            <origDate>1601-1700</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <idno>EMML 6926</idno>
+            <origDate>1701-1800</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_O">
+            <label type="siglum">O</label>
+            <idno>Or. 699 (British Library)</idno>
+            <origDate>1701-1800</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P">
+            <label type="siglum">P</label>
+            <idno>EMML 745</idno>
+            <origDate>1958</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_T">
+            <label type="siglum">T</label>
+            <idno>EMML 1051</idno>
+            <origDate>1940</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/"> Bärälam wä-Yéwasef</title>
+        <persName role="author" ref="http://viaf.org/">Éccäge Énbaqom of Däbrä Libanos.</persName>
+        <origDate>1545</origDate>
+        <origPlace>Ethiopia</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">Hagiography</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">excluded</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gez"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gez/AkalewoldTessema_2021_BaralamWaYewasef/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="16" size="15">
+        <label>1</label>
+        <node xml:id="n_omega" type="hypothetical" inDegree="0" outDegree="2">
+          <label>Ω</label>
+        </node>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2">
+          <label>α</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>β</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <node xml:id="n_epsilon" type="hypothetical" inDegree="1" outDegree="4">
+          <label>ε</label>
+        </node>
+        <node xml:id="n_E2" type="witness" inDegree="1" outDegree="0">
+          <label>E2</label>
+        </node>
+        <node xml:id="n_J" type="witness" inDegree="1" outDegree="0">
+          <label>J</label>
+        </node>
+        <node xml:id="n_O" type="witness" inDegree="1" outDegree="0">
+          <label>O</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="0">
+          <label>T</label>
+        </node>
+        <node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="3">
+          <label>γ</label>
+        </node>
+        <node xml:id="n_A1" type="witness" inDegree="1" outDegree="0">
+          <label>A1</label>
+        </node>
+        <node xml:id="n_A2" type="witness" inDegree="1" outDegree="0">
+          <label>A2</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>δ</label>
+        </node>
+        <node xml:id="n_E1" type="witness" inDegree="1" outDegree="0">
+          <label>E1</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+          <label>P</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_omega" to="#n_alpha" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_omega" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_alpha" to="#n_gamma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_alpha" to="#n_delta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_beta" to="#n_L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_beta" to="#n_epsilon" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_epsilon" to="#n_E2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_epsilon" to="#n_J" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_epsilon" to="#n_O" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_epsilon" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_gamma" to="#n_A1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_gamma" to="#n_A2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_gamma" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_delta" to="#n_E1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_delta" to="#n_P" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

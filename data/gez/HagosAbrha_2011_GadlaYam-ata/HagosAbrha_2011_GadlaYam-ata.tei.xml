@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Gädlä Yəmʕata</title>
+        <author>Hagos, Abrha, Abay</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0001-9799-2410">Godreau, Ulysse</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>Philological Analysis of the Manuscripts of Gädlä Yəmʕata</title>
+          <author>Hagos, Abrha, Abay</author>
+          <date>2011</date>
+          <pubPlace>Mekelle</pubPlace>
+          <series>ITYOPIS – Northeast African Journal of Social Sciences and Humanities</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="1"/>
+          <biblScope unit="page" n="75"/>
+          <ptr type="digitised" target="http://www.ityopis.org/Issues-1.html"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <idno></idno>
+            <origDate>1700-1999</origDate>
+            <origPlace>Tigray</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Kprime">
+            <label type="siglum">K'</label>
+            <idno></idno>
+            <origDate>1700-1999</origDate>
+            <origPlace>Tigray</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Bt">
+            <label type="siglum">Bt</label>
+            <idno></idno>
+            <origDate>1700-1999</origDate>
+            <origPlace>Tigray</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <idno></idno>
+            <origDate>1700-1999</origDate>
+            <origPlace>Tigray</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <idno></idno>
+            <origDate>1700-1999</origDate>
+            <origPlace>Tigray</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Br">
+            <label type="siglum">Br</label>
+            <idno></idno>
+            <origDate>1700-1999</origDate>
+            <origPlace>Tigray</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Y">
+            <label type="siglum">Y</label>
+            <idno></idno>
+            <origDate>1700-1999</origDate>
+            <origPlace>Tigray</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_h">
+            <label type="siglum">h</label>
+            <idno></idno>
+            <origDate>1700-1999</origDate>
+            <origPlace>Tigray</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Bl">
+            <label type="siglum">Bl</label>
+            <idno></idno>
+            <origDate>1700-1999</origDate>
+            <origPlace>Tigray</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Gädlä Yəmʕata</title>
+        <persName role="author" ref="http://viaf.org/">Anonymous</persName>
+        <origDate></origDate>
+        <origPlace>Tigray</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">Hagiography</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gez"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gez/HagosAbrha_2011_GadlaYam-ata/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="12" size="11">
+        <label>1</label>
+        <node xml:id="n_X" type="hypothetical" inDegree="0" outDegree="3">
+          <label>X</label>
+        </node>
+        <node xml:id="n_W" type="hypothetical" inDegree="1" outDegree="5">
+          <label>W</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_Q" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Q</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <node xml:id="n_Br" type="witness" inDegree="1" outDegree="0">
+          <label>Br</label>
+        </node>
+        <node xml:id="n_Y" type="witness" inDegree="1" outDegree="0">
+          <label>Y</label>
+        </node>
+        <node xml:id="n_h" type="witness" inDegree="1" outDegree="0">
+          <label>h</label>
+        </node>
+        <node xml:id="n_Bl" type="witness" inDegree="1" outDegree="0">
+          <label>Bl</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_Kprime" type="witness" inDegree="1" outDegree="1">
+          <label>K'</label>
+        </node>
+        <node xml:id="n_Bt" type="witness" inDegree="1" outDegree="0">
+          <label>Bt</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_X" to="#n_W" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_X" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_X" to="#n_Q" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_W" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_W" to="#n_Br" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_W" to="#n_Y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_W" to="#n_h" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_W" to="#n_Bl" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_Q" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_Q" to="#n_Kprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_Kprime" to="#n_Bt" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

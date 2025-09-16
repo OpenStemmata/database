@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Gädlä Gäbrä Manfas Qeddus</title>
+        <author>Marrassini, Paolo</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0001-9799-2410">Godreau, Ulysse</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>The archetype omega’ has been added by the contributor to include the extra-stemmatic contamination denoted by ? in the original publication</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>La vie de Gabra Manfas Qeddus: hypothèse pour un stemma codicum</title>
+          <author>Marrassini, Paolo</author>
+          <date>1986</date>
+          <pubPlace>Moscow</pubPlace>
+          <series>Proceedings of the Ninth International Congress of Ethiopian Studies</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="6"/>
+          <biblScope unit="page" n="145"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_Cer711">
+            <label type="siglum">Cer711</label>
+            <idno>British Library Orient 711</idno>
+            <origDate>1401-1500</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Vat142">
+            <label type="siglum">Vat142</label>
+            <idno>Vaticana 142</idno>
+            <origDate>1601-1700</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Wien">
+            <label type="siglum">Wien</label>
+            <idno>Wien 8 (Rhod. 23)</idno>
+            <origDate>1601-1700</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_dA36">
+            <label type="siglum">dA36</label>
+            <idno>Catalogue d'Abbadie 36 (notice 179)</idno>
+            <origDate>1601-1700</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_CR">
+            <label type="siglum">CR</label>
+            <idno>Acc. Naz. Lincei, Fonds Conti Rossini 103</idno>
+            <origDate>1601-1700</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_BtAdd">
+            <label type="siglum">BtAdd</label>
+            <idno>British Library Add. 16 198</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Vat232">
+            <label type="siglum">Vat232</label>
+            <idno>Vaticana 232</idno>
+            <origDate>1601-1700</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_VatCer">
+            <label type="siglum">VatCer</label>
+            <idno>Vaticana Cerulli 227</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_EMML2087">
+            <label type="siglum">EMML2087</label>
+            <idno>Ethiopian Manuscript Microfilm Library 2087</idno>
+            <origDate>1501-1700</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="https://w3id.org/vhmml/readingRoom/view/203916"/>
+          </witness>
+          <witness xml:id="w_EMML3000">
+            <label type="siglum">EMML3000</label>
+            <idno>Ethiopian Manuscript Microfilm Library 2300</idno>
+            <origDate>1401-1600</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target="https://w3id.org/vhmml/readingRoom/view/204129 "/>
+          </witness>
+          <witness xml:id="w_dA126">
+            <label type="siglum">dA126</label>
+            <idno>Catalogue d'Abbadie 126 (notice 174)</idno>
+            <origDate>1501-1600</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Gädlä Gäbrä Manfas Qeddus</title>
+        <persName role="author" ref="http://viaf.org/"></persName>
+        <origDate></origDate>
+        <origPlace>Ethiopia</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">Hagiography</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">yes</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="gez"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/gez/Marrassini_1986_GadlaGabraMenfesQeddus/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="20" size="21">
+        <label>1</label>
+        <node xml:id="n_omega_prime" type="hypothetical" inDegree="0" outDegree="2">
+          <label>omega_prime</label>
+        </node>
+        <node xml:id="n_omega" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Ω</label>
+        </node>
+        <node xml:id="n_extra_ct" type="hypothetical" inDegree="1" outDegree="1">
+          <label>?</label>
+        </node>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="5">
+          <label>α</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="2" outDegree="3">
+          <label>β</label>
+        </node>
+        <node xml:id="n_Cer711" type="witness" inDegree="1" outDegree="0">
+          <label>Cer711</label>
+        </node>
+        <node xml:id="n_Vat142" type="witness" inDegree="1" outDegree="0">
+          <label>Vat142</label>
+        </node>
+        <node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="2">
+          <label>γ</label>
+        </node>
+        <node xml:id="n_Wien" type="witness" inDegree="1" outDegree="0">
+          <label>Wien</label>
+        </node>
+        <node xml:id="n_dA36" type="witness" inDegree="1" outDegree="0">
+          <label>dA36</label>
+        </node>
+        <node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>δ</label>
+        </node>
+        <node xml:id="n_CR" type="witness" inDegree="1" outDegree="0">
+          <label>CR</label>
+        </node>
+        <node xml:id="n_BtAdd" type="witness" inDegree="1" outDegree="0">
+          <label>BtAdd</label>
+        </node>
+        <node xml:id="n_epsilon" type="hypothetical" inDegree="2" outDegree="2">
+          <label>ε</label>
+        </node>
+        <node xml:id="n_Vat232" type="witness" inDegree="1" outDegree="0">
+          <label>Vat232</label>
+        </node>
+        <node xml:id="n_VatCer" type="witness" inDegree="1" outDegree="0">
+          <label>VatCer</label>
+        </node>
+        <node xml:id="n_EMML2087" type="witness" inDegree="1" outDegree="0">
+          <label>EMML2087</label>
+        </node>
+        <node xml:id="n_zeta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ζ</label>
+        </node>
+        <node xml:id="n_EMML2300" type="witness" inDegree="1" outDegree="0">
+          <label>EMML2300</label>
+        </node>
+        <node xml:id="n_dA126" type="witness" inDegree="1" outDegree="0">
+          <label>dA126</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_omega_prime" to="#n_omega" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_omega_prime" to="#n_extra_ct" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_omega" to="#n_alpha" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_omega" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_extra_ct" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_alpha" to="#n_Cer711" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_alpha" to="#n_Vat142" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_alpha" to="#n_gamma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_alpha" to="#n_delta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_alpha" to="#n_epsilon" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_beta" to="#n_EMML2087" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_beta" to="#n_zeta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_beta" to="#n_epsilon" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_gamma" to="#n_Wien" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_gamma" to="#n_dA36" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_delta" to="#n_CR" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_delta" to="#n_BtAdd" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_epsilon" to="#n_Vat232" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_epsilon" to="#n_VatCer" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_zeta" to="#n_EMML2300" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_zeta" to="#n_dA126" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>
