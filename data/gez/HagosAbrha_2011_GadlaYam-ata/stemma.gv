@@ -1,6 +1,4 @@
 digraph {
-
-    # To refactor nodes, place the cursor left to a node name
     X -> W;
     X -> M;
     X -> Q;
@@ -16,7 +14,7 @@ digraph {
     Kprime -> Bt;
 
     Kprime[label="K'"];
-    X [color = "grey"];
-    W [color = "grey"];
-    Q [color = "grey"];
+    X [color="grey"];
+    W [color="grey"];
+    Q [color="grey"];
 }

@@ -2,7 +2,7 @@ publicationType: "book"
 publicationTitle: "The Ethiopian Homily on the Ark of the Covenant"
 publicationDate: "2015"
 publicationPlaces:
-    - publicationPlace: "Leiden, Netherlands"s
+    - publicationPlace: "Leiden, Netherlands"
 publicationSeries: "Brill, Texts and Studies in Eastern Christianity"
 publicationNum: "5"
 publicationStemmaNum: "1"

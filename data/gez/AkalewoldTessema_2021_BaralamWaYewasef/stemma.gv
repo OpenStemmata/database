@@ -14,14 +14,14 @@ digraph {
     gamma -> A2;
     gamma -> B;
 
-	alpha -> delta;	
-	delta -> E1;
-	delta -> P;
-
-	omega [label="Ω", color="grey];
-	alpha [label="α", color="grey];
-	beta [label="β", color="grey];
-	gamma [label="γ", color="grey];
-	delta [label="δ", color="grey];
-	epsilon [label="ε", color="grey];
+    alpha -> delta;	
+    delta -> E1;
+    delta -> P;
+    
+    omega [label="Ω",color="grey"];
+    alpha [label="α",color="grey"];
+    beta [label="β",color="grey"];
+    gamma [label="γ",color="grey"];
+    delta [label="δ",color="grey"];
+    epsilon [label="ε",color="grey"];
 }
