@@ -1,0 +1,36 @@
+digraph {
+
+    capitalomega -> omega;
+    omega -> R;
+    omega-> FloroofLyon;
+    R-> FloroofLyon;
+    FloroofLyon-> L; 
+    FloroofLyon -> V; 
+    R-> G[minlen=2]
+    G-> P
+    R-> Tilius[minlen=5]
+    Tilius-> Bigne
+    Bigne-> Bignebis
+    Bignebis-> M
+    Tilius-> B
+
+
+    capitalomega [color="grey", label="Ω"];
+    omega[color="grey", label="ω"]; 
+    R[label="R"]
+    L[label="L"]
+    V[label="V"]
+    G[label="G"]
+    P[label="P"]
+    M[label="M"]
+    B[label="B"]
+    FloroofLyon[label="Floro of Lyon"]
+    Tilius[label="edition princeps Tilius"]
+    Bigne[label="Bigne 1575"]
+    Bignebis[label="Bigne 1677"]
+
+graph [style=invis, splines=true];
+
+}
+
+

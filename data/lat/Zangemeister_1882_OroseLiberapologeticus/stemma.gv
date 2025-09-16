@@ -1,0 +1,21 @@
+digraph {
+ A ->omega
+ omega->sigma
+ omega->psi[minlen=5]  
+ omega-> 1
+ 1->X[minlen=3]
+ 1->phi
+ omega->upsilon[minlen=2]
+
+
+
+omega[label="ω",color=grey]
+A[label="A", color=grey]
+sigma[label="Σ"]
+psi[label="Ψ"]
+X[label="X"]
+phi[label="φ"]
+upsilon[label="Υ"]
+1[label="", color=grey]
+graph [style=invis, splines=true];
+}

@@ -1,0 +1,29 @@
+
+
+digraph {
+    omega->A[minlen=2]; 
+    A->S[minlen=6];
+    omega->Y;
+    Y->B;
+    Y->C[minlen=4]; 
+    Y->Z;
+    Z->O[minlen=5];
+    Z->P[minlen=4];
+    Z->R;
+    Z->V;
+    
+    
+    omega[color="grey", label="ω"];
+    Y[color="grey",label="Y"];
+    Z[color="grey",label="Z"];
+    A[label="A"];
+    B[label="B"];
+    C[label="C"];
+    O[label="O"];
+    S[label="S"];
+    R[label="R"];
+    P[label="P"];
+    V[label="V"];
+
+graph [style=invis, splines=true];
+}
