@@ -16,7 +16,7 @@ _🥈 less represented languages_
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Ffrm?type=dir&style=flat&label=frm)
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fwlm?type=dir&style=flat&label=wlm)
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fita?type=dir&style=flat&label=ita)
-![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fita?type=dir&style=flat&label=gez)
+![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fgez?type=dir&style=flat&label=gez)
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Flat?type=dir&style=flat&label=lat)
 
 _🌱 lonely trees_
