@@ -306,6 +306,7 @@
                                     <valItem ident="ita"/>
                                     <valItem ident="grc"/>
                                     <valItem ident="non"><desc>Norse, Old</desc></valItem>
+                                    <valItem ident="gez"><desc>Geʽez (Classical Ethiopic)</desc></valItem>
                                     <valItem ident="other"/><!-- TODO: update with full list ? -->
                                 </valList>
                             </attDef>
