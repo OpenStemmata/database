@@ -20,15 +20,20 @@ digraph {
     unlabeled1 -> DL1;
     unlabeled1 -> EM2;
 
-    alphaprime -> betaprime [style = "dashed"];
-    alphasec -> betaprime [style = "dashed"];
-    gammaprime -> betaprime [style = "dashed"];
-    gammasec -> betaprime [style = "dashed"];
+    alphaprime -> betaprime [style="dashed"];
+    alphasec -> betaprime [style="dashed"];
+    gammaprime -> betaprime [style="dashed"];
+    gammasec -> betaprime [style="dashed"];
 
-    unlabeled1 [label = "", color = "grey"];
-    omega [color = "grey"];
-    alpha [color = "alpha"];
-    beta [color = "grey"];
-    gamma [color = "grey"];
+    unlabeled1 [label="",color="grey"];
+    omega [label="Ω",color="grey"];
+    alpha [label="α",color="grey"];
+    beta [label="β",color="grey"];
+    gamma [label="γ",color="grey"];
+    alphaprime [label="",color="grey"];
+    alphasec [label="",color="grey"];
+    betaprime [label="",color="grey"];
+    gammaprime [label="",color="grey"];
+    gammasec [label="",color="grey"];
 }
 
