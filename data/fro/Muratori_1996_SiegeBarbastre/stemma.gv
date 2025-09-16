@@ -1,0 +1,28 @@
+digraph {
+    O[color="grey"];
+    x[color="grey"];
+    xprime[label="x¹", color="grey"];
+    xsecond[label="x²", color="grey"];
+    y[color="grey"];
+    yprime[label="y¹", color="grey"];
+    ysecond[label="y²", color="grey"];
+    ythree[label="y³", color="grey"];
+
+    O->x;
+    x->xprime;
+    xprime->A;
+    xprime->B;
+    x->xsecond;
+    xsecond->P;
+
+    O->y;
+    y->yprime;
+    yprime->C;
+    y->ysecond;
+    ysecond->P[style="dashed"];
+    ysecond->D;
+    ysecond->E;
+    y->ythree;
+    ythree->Ch;
+
+}
