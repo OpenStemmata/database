@@ -8,7 +8,7 @@ publicationNum: ""
 publicationStemmaNum: "1"
 publicationAuthors:
     - publicationAuthor: "Fiseha Eshete"
-publicationPage: ""
+publicationPage: "101"
 publicationLink: ""
 workTitle: "Gädlä Qäwəstos"
 workViaf: ""

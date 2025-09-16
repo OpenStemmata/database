@@ -8,7 +8,7 @@ publicationNum: "6"
 publicationStemmaNum: "1"
 publicationAuthors:
     - publicationAuthor: "Marrassini, Paolo"
-publicationPage: "135"
+publicationPage: "145"
 publicationLink: ""
 workTitle: "Gädlä Gäbrä Manfas Qeddus"
 workViaf: ""
@@ -29,7 +29,7 @@ sourceText: "NA"
 derivatives: "NA"
 contributors:
     - contributor: "Godreau, Ulysse"
-      contributorORCID: ""
+      contributorORCID: "0000-0001-9799-2410"
 note: "The archetype omega’ has been added by the contributor to include the extra-stemmatic contamination denoted by "?" in the original publication"
 wits:
     - witSigla: "Cer711"

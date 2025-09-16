@@ -24,13 +24,13 @@ digraph {
 	extra_ct -> beta;
 	beta -> epsilon [style = "dashed", dir=none];
 	
-	omega_prime [color="grey", label="omega'"];
-	omega [color="grey"];
+	omega_prime [color="grey", label=""];
+	omega [color="grey", label="Ω"];
 	extra_ct [color="grey",label="?"];
-	alpha [color="grey"];
-	beta [color="grey"];
-	gamma [color="grey"];
-	delta [color="grey"];
-	epsilon [color="grey"];
-	zeta [color="grey", style="dashed"];
+	alpha [color="grey", label="α"];
+	beta [color="grey", label="β"];
+	gamma [color="grey", label="γ"];
+	delta [color="grey", label="δ"];
+	epsilon [color="grey", label="ε"];
+	zeta [color="grey", style="dashed", label="ζ"];
 }

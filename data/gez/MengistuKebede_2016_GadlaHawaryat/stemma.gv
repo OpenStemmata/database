@@ -24,12 +24,12 @@ digraph {
     phi -> J;
     phi -> K;
 
-    omega [color="grey"];
-    alpha [color="grey"];
-    beta [color="grey"];
-    gamma [color="grey"];
-    delta [color="grey"];
-    Lambda [color="grey"];
-    epsilon [color="grey"];
-    phi [color="grey"];
+    omega [color="grey", label="Ω"];
+    alpha [color="grey", label="α"];
+    beta [color="grey", label="β"];
+    gamma [color="grey", label="γ"];
+    delta [color="grey", label="δ"];
+    Lambda [color="grey", label="Λ"];
+    epsilon [color="grey", label="ε"];
+    phi [color="grey", label="φ"];
 }

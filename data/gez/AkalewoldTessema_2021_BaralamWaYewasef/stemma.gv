@@ -18,10 +18,10 @@ digraph {
 	delta -> E1;
 	delta -> P;
 
-	omega [label="Ω"];
-	alpha [label="α"];
-	beta [label="β"];
-	gamma [label="γ"];
-	delta [label="δ"];
-	epsilon [label="ε"];
+	omega [label="Ω", color="grey];
+	alpha [label="α", color="grey];
+	beta [label="β", color="grey];
+	gamma [label="γ", color="grey];
+	delta [label="δ", color="grey];
+	epsilon [label="ε", color="grey];
 }

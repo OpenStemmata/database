@@ -10,11 +10,11 @@ publicationNum: ""
 publicationStemmaNum: "1"
 publicationAuthors:
     - publicationAuthor: "Mengitsu Kebede"
-publicationPage: ""
+publicationPage: "81"
 publicationLink: "https://etd.aau.edu.et/items/d1e8f6ec-1af5-4db7-ab24-f637c2e1d2db"
 workTitle: "Gädlä Ḥawaryat"
 workViaf: ""
-workOrigDate: "1200-1350"
+workOrigDate: "1201-1350"
 workOrigPlace: "Ethiopia"
 workAuthors:
     - workAuthor: ""
@@ -31,7 +31,7 @@ sourceText: "excluded"
 derivatives: "excluded"
 contributors:
     - contributor: "Godreau, Ulysse"
-      contributorORCID: ""
+      contributorORCID: "0000-0001-9799-2410"
 note: "Gädlä Ḥawaryat is a translation of the Apocryphal Acts of the Apostles from a lost arabic original"
 wits:
     - witSigla: "A"
