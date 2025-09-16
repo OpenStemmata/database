@@ -1,0 +1,41 @@
+digraph {
+    omega -> alpha;
+    omega -> beta;
+    beta -> gamma;
+    
+    alpha -> alphaprime;
+    alphaprime -> EM1;
+    alpha -> alphasec;
+    alphasec -> EM3;
+    
+    beta -> betaprime
+    betaprime -> betasec;
+    betasec -> RM1;
+    
+    gamma -> gammaprime;
+    gammaprime -> EM4;
+    
+    gamma -> gammasec;
+    gammasec -> unlabeled1;
+    
+    unlabeled1 -> DL1;
+    unlabeled1 -> EM2;
+
+    alphaprime -> betaprime [style="dashed"];
+    alphasec -> betaprime [style="dashed"];
+    gammaprime -> betasec [style="dashed"];
+    gammasec -> betasec [style="dashed"];
+
+    unlabeled1 [label="",color="grey"];
+    omega [label="Ω",color="grey"];
+    alpha [label="α",color="grey"];
+    beta [label="β",color="grey"];
+    gamma [label="γ",color="grey"];
+    alphaprime [label="",color="grey"];
+    alphasec [label="",color="grey"];
+    betaprime [label="",color="grey"];
+    betasec [label="",color="grey"];
+    gammaprime [label="",color="grey"];
+    gammasec [label="",color="grey"];
+}
+

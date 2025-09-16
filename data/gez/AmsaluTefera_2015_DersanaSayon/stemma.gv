@@ -1,0 +1,36 @@
+digraph {
+    omega -> alpha;
+    omega -> beta;
+
+    beta -> delta;
+    beta -> A;
+    delta -> B;
+    delta -> P;
+
+    alpha -> epsilon;
+    epsilon -> D;
+    epsilon -> K;
+
+    alpha-> gamma;
+    gamma -> S;
+
+    gamma ->  phi;
+    phi -> lambda;
+    phi -> xi;
+    lambda -> C;
+    lambda -> F;
+    xi -> Q;
+    xi -> T;
+
+    T  -> A [style="dashed"];
+
+    omega [label="Ω", color="grey"];
+    alpha [label="α", color="grey"];
+    beta [label="β", color="grey"];
+    delta [label="δ", color="grey"];
+    gamma [label="γ", color="grey"];
+    phi [label="φ", color="grey"];
+    lambda [label="λ", color="grey"];
+    xi [label="ξ", color="grey"];
+    epsilon [label="ε", color="grey"];
+}
