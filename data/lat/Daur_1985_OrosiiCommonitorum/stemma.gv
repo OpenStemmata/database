@@ -15,6 +15,5 @@ L[label="L"];
 C[label="C"];
 E[label="E"];
 B[label="B"];
-graph [style=invis, splines=true];
 }
 
