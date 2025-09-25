@@ -17,7 +17,7 @@ digraph {
    delta->deltaprime;
    deltaprime->B;
    B->C;
-   B->Bprime[minlen=2];
+   B->Bprime;
    B->epsilon;
    Bprime->T;
    epsilon->S;
