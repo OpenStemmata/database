@@ -32,9 +32,9 @@ digraph {
 
 
 
-   recensioI[label="recensio Isidoriana ca. 681"];
-   recensioV[label="recensio Vulgata ca. 694"];
-   recensioJ[label="recensio Isidorana ca. 633"];
+   recensioI[label="recensio Isidoriana ca. 681", color=grey];
+   recensioV[label="recensio Vulgata ca. 694", color=grey];
+   recensioJ[label="recensio Isidorana ca. 633", color=grey];
    kappa[label="κ", color=grey];
    mu[label="μ ", color=grey];
    G[label="G"];
