@@ -1,12 +1,12 @@
 digraph {
 
     
-    capitalomega -> 1 [minlen=4];
-    capitalomega-> R[minlen=10];
+    capitalomega -> 1;
+    capitalomega-> R;
     1-> M;
-    1 -> codexLugdu[minlen=4]; 
-    codexLugdu-> T[minlen=2]
-    codexLugdu-> V[minlen=2]
+    1 -> codexLugdu; 
+    codexLugdu-> T;
+    codexLugdu-> V;
    
 
     capitalomega [color="grey", label="Ω"];
