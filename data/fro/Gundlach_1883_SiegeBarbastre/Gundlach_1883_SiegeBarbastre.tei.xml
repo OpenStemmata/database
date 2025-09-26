@@ -25,7 +25,7 @@
         </availability>
       </publicationStmt>
       <notesStmt>
-        <note>The status of P is difficult, particularly, one does not know where to anchor it exactly. I have anchored it according to the discussion in the main text, that gives common errors DP (sometimes DLP) as well as HP (sometimes BHP). On P: «P, welches zum Teil mit DL, zum Teil mit HB, un am Schlusse durchaus selbständig ist, besonders metrisch, sehr corumpiert; es lässt sich keiner der beiden Gruppen unbedingt zuzählen, ist vielmehr als Mischhandschrift anzusehen». In the text, he gives, common errors of DP; HP; DLP; BHP . Image of the stemma taken from A. Henry, Les Œuvres d’Adenet le Roi, II, Buevon de Conmarchis, 1953, Bruges, p. 19 (that includes updated sigla in parentheses). This stemma does not account for the fragment University of Chicago Library, Special Collections Research Center, ed. by McMillan (1942-1943, 10.3406/roma.1942.3528)</note>
+        <note>The status of P is difficult, particularly, one does not know where to anchor it exactly. I have anchored it according to the discussion in the main text, that gives common errors DP (sometimes DLP) as well as HP (sometimes BHP). On P: «P, welches zum Teil mit DL, zum Teil mit HB, un am Schlusse durchaus selbständig ist, besonders metrisch, sehr corumpiert; es lässt sich keiner der beiden Gruppen unbedingt zuzählen, ist vielmehr als Mischhandschrift anzusehen». In the text, he gives, common errors of DP; HP; DLP; BHP . Image of the stemma taken from A. Henry, Les Œuvres d’Adenet le Roi, II, Buevon de Conmarchis, 1953, Bruges, p. 19 (that includes updated sigla in parentheses). This stemma does not account for the fragment University of Chicago Library, Special Collections Research Center, ed. by McMillan (1942-1943, 10.3406/roma.1942.3528). It is less complete than Muratori 1996, that includes this fragment Ch, as well as fragment E.</note>
       </notesStmt>
       <sourceDesc>
         <bibl type="book">
@@ -124,9 +124,9 @@
                 <idno> NAF 6298</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1251-1300</origDate>
             <origPlace></origPlace>
-            <note>Perrier E</note>
+            <note>Perrier E; fragment; date 2em. 13es. from DEAF, MortAymR</note>
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>
@@ -137,7 +137,7 @@
       <creation>
         <title ref="http://viaf.org/186272943">Siege de Barbastre</title>
         <persName role="author" ref="http://viaf.org/"></persName>
-        <origDate>1175-1220</origDate>
+        <origDate>1176-1220</origDate>
         <origPlace></origPlace>
       </creation>
       <textClass>
