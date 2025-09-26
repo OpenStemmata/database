@@ -1,0 +1,19 @@
+digraph {
+
+    
+    capitalomega -> 1;
+    capitalomega-> R;
+    1-> M;
+    1 -> codexLugdu; 
+    codexLugdu-> T;
+    codexLugdu-> V;
+   
+
+    capitalomega [color="grey", label="Ω"];
+    V[label="V"]
+    M[label="M"]
+    V[label="V"]
+    R[label="R"]
+    codexLugdu[label="(codex Lugdunensis)", color="grey"]
+    1[color="grey", label=""]; 
+}

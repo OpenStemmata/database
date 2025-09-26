@@ -1,0 +1,33 @@
+
+
+
+digraph {
+    omega ->1[minlen=1 ]; 
+    omega ->2;
+    omega ->sigma[minlen=1];
+    1 -> pi;
+    1 -> rho;
+    2->gamma;
+    2->B;
+    sigma->tauone[minlen=2];
+    sigma->constitutumconstantini [dir=none, style="dashed",minlen=4];
+    tauone-> 3
+    3->tautwo;
+    3->tauthree;
+    
+    omega [color="grey", label="ω"];
+    pi[label="π"]; 
+    rho[label="ρ"];
+    sigma[label="σ"];
+    tauone[label="τ1"];
+    tautwo[label="τ2"];
+    tauthree[label="τ3"];
+    gamma[label="γ"];
+    B[label="B"];
+    constitutumconstantini[label="constitutum constantini"];
+    1[label="", color="grey"];
+    2[label="", color="grey"];
+    3[label="", color="grey"];
+    
+
+}

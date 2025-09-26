@@ -1,0 +1,18 @@
+
+
+digraph {
+
+    H -> HH;
+    H -> HG;
+    HG -> HA;
+    H -> T;
+ 
+
+    H[label="H"];
+    HH[label="HH"];
+    HG[label="HG"];
+    HA[label="HA"];
+    T[label="T"]; 
+    
+
+}
