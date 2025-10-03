@@ -4,23 +4,23 @@ digraph {
     alpha->x2alpha; 
     alpha ->alphabeta;
     x2alpha ->A;
-    x2alpha ->Y[minlen=2]
-    Y ->C[minlen=3];
-    Y ->D[minlen=3];
+    x2alpha ->Y;
+    Y ->C;
+    Y ->D;
     Y ->beta;
     beta ->x2beta;
     beta ->betaalpha;
     x2beta ->M;
-    x2beta ->O[minlen=3];
+    x2beta ->O;
     x2beta ->S;
     x2beta ->U;
-    betaalpha->P[minlen=3];
-    betaalpha->E[minlen=2];
+    betaalpha->P;
+    betaalpha->E;
     alphabeta ->B;
-    alphabeta ->delta[minlen=3];
+    alphabeta ->delta;
     delta ->betaalpha;
-    delta ->N[minlen=4];
-    delta ->V[minlen=3];
+    delta ->N;
+    delta ->V;
     
     
     alpha [color="grey", label="α"];
@@ -43,7 +43,6 @@ digraph {
     N[label="N"];
     V[label="V"];
 
-graph [style=invis, splines=true];
 }
 
 

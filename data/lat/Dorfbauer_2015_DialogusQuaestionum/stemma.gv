@@ -1,57 +1,55 @@
 
 
-# Place the cursor inside "graph" to get some refactoring options
-
 digraph {
 
-    # To refactor nodes, place the cursor left to a node name
+  
     omega -> chi;
     omega -> gamma;
     chi-> alpha;
     chi-> beta;
     alpha -> alpha1; 
-    alpha -> alpha2 
-    alpha1-> G
-    alpha1->1
-    1->M14468
-    1->2
-    2->Paris2718
-    2->L
-    alpha2 -> M2
-    alpha2 -> 3
-    3 -> V
-    3 -> 4
-    4 -> Montecassino187
-    4 -> Montecassino29
-    alpha-> 5 [style="dashed"]
-    5-> Ro
-    5-> phi [style="dashed"]
-    phi ->Li
-    alpha -> Mons43219 [dir=none, style="dashed"]
-    beta->5 [style="dashed"]
-    beta->M1
-    beta->beta1
-    beta1->Mons43219[style="dashed"]
-    beta1->P
-    beta1->E
-    beta1->Paris2710
-    beta->gamma2 [style="dashed"]
-    gamma->gamma2
-    gamma->5
-    gamma-> R [style="dashed"]
-    gamma-> gamma1 [style="dashed"]
-    gamma1->6
-    6->Ly
-    6->Oxford383
-    gamma1->7
-    7->Ma
-    7->Madrid10018
-    gamma1->A
-    gamma->8
-    8->Albi42
-    8->Gent324
-    gamma2->F
-    gamma2->O
+    alpha -> alpha2 ;
+    alpha1-> G;
+    alpha1->1;
+    1->M14468;
+    1->2;
+    2->Paris2718;
+    2->L;
+    alpha2 -> M2;
+    alpha2 -> 3;
+    3 -> V;
+    3 -> 4;
+    4 -> Montecassino187;
+    4 -> Montecassino29;
+    alpha-> 5 [style="dashed"];
+    5-> Ro;
+    5-> phi [style="dashed"];
+    phi ->Li;
+    alpha -> Mons43219 [dir=none, style="dashed"];
+    beta->5 [style="dashed"];
+    beta->M1;
+    beta->beta1;
+    beta1->Mons43219[style="dashed"];
+    beta1->P;
+    beta1->E;
+    beta1->Paris2710;
+    beta->gamma2 [style="dashed"];
+    gamma->gamma2;
+    gamma->5;
+    gamma-> R [style="dashed"];
+    gamma-> gamma1 [style="dashed"];
+    gamma1->6;
+    6->Ly;
+    6->Oxford383;
+    gamma1->7;
+    7->Ma;
+    7->Madrid10018;
+    gamma1->A;
+    gamma->8;
+    8->Albi42;
+    8->Gent324;
+    gamma2->F;
+    gamma2->O;
 
 
 
@@ -60,7 +58,7 @@ digraph {
 
    
 
-    # Grey color is used for hypothetical nodes; labels can be redefined if needed
+ 
     omega [color="grey", label="ω"];
      chi[color="grey", label="χ"]; 
      gamma[color="grey", label="γ"];

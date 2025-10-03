@@ -2,9 +2,9 @@
 
 digraph {
 
-    H -> HH[minlen="3"];
+    H -> HH;
     H -> HG;
-    HG -> HA[minlen="2"];
+    HG -> HA;
     H -> T;
  
 
