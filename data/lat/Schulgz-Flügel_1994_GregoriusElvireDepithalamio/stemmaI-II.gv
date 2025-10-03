@@ -4,7 +4,7 @@ digraph {
 
     
     omega1 -> gamma;
-    gamma -> B [minlen=2] ;
+    gamma -> B ;
     gamma ->P;
     omega1 -> chi;
     chi ->A;
