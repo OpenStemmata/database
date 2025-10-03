@@ -1,14 +1,14 @@
 
 
 digraph {
-    omega->A[minlen=2]; 
-    A->S[minlen=6];
+    omega->A; 
+    A->S;
     omega->Y;
     Y->B;
-    Y->C[minlen=4]; 
+    Y->C; 
     Y->Z;
-    Z->O[minlen=5];
-    Z->P[minlen=4];
+    Z->O;
+    Z->P;
     Z->R;
     Z->V;
     
