@@ -1,0 +1,36 @@
+# Place the cursor inside "graph" to get some refactoring options
+
+digraph {
+
+    # To refactor nodes, place the cursor left to a node name
+     alpha-> beta;
+    alpha -> B;
+    beta -> Y;
+    beta -> R;
+    Y -> delta; 
+    Y -> G;
+    delta -> c; 
+    delta -> epsilon;
+    epsilon -> zeta;
+    zeta -> AOS;
+    zeta -> C1;
+    epsilon -> eta;
+    eta -> B1;
+    eta -> B3
+
+
+  
+
+    # Grey color is used for hypothetical nodes; labels can be redefined if needed
+    alpha [color="grey", label = "α"];
+    beta [color="grey",label="β"];
+    B [color="grey"];
+    R [color="grey"];
+    Y [color="grey", label="Y"];
+    G [color="grey"]
+    delta [color="grey", label="δ"];
+    c [color="grey"];
+    epsilon [color ="grey",label="ε"];
+    zeta [color="grey",label="ζ"]
+    eta [color="grey",label="η"]
+}
