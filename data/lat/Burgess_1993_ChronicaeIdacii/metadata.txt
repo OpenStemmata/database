@@ -127,7 +127,7 @@ wits:
       witSignature: ""
       witOrigDate: "613-614"
       witOrigPlace: "Bourgogne (France)?"
-      witNotes: "lost; autograph of original text "Fredegario""
+      witNotes: "lost; autograph of original text Fredegario"
       witMsDesc: ""
       witDigit: ""
     - witSigla: "cF"

@@ -2,16 +2,16 @@
 
 
 digraph {
-    omega ->1[minlen=1 ]; 
+    omega ->1; 
     omega ->2;
-    omega ->sigma[minlen=1];
+    omega ->sigma;
     1 -> pi;
     1 -> rho;
     2->gamma;
     2->B;
-    sigma->tauone[minlen=2];
-    sigma->constitutumconstantini [dir=none, style="dashed",minlen=4];
-    tauone-> 3
+    sigma->tauone;
+    sigma->constitutumconstantini [dir=none, style="dashed"];
+    tauone-> 3;
     3->tautwo;
     3->tauthree;
     

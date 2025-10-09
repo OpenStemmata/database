@@ -1,4 +1,4 @@
-digraph{
+digraph {
 
 omega-> alpha;
 omega -> gamma;
