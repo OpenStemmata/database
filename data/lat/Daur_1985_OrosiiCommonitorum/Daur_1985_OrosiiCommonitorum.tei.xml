@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Commonitorium de errore Priscillianistarum et Origenistarum</title>
+        <author>Daur K.D.</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Emilie Guidi</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Contra adversarium legis et prophetarum. Commonitorium Orosii et sancti Aurelii Augustini contra Priscillianistas et Origenistas</title>
+          <author>Daur K.D.</author>
+          <date>1985</date>
+          <pubPlace>Wien</pubPlace>
+          <series>Corpus Christianorum :Series Latina  </series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="49"/>
+          <biblScope unit="page" n=""/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Laon</settlement>
+                <repository> Bibliothèque Municipale</repository>
+                <idno> 330</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>701-800</origDate>
+            <origPlace></origPlace>
+            <note>f 48r-51r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Subiaco</settlement>
+                <repository> Biblioteca ed Archivio del Monumento Nazionale di Santa Scolastica</repository>
+                <idno> LXII(64)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1100</origDate>
+            <origPlace></origPlace>
+            <note>f 115r-116v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <idno>Milano, Biblioteca Capitolare dell’Arcibasilica di Sant'Amborgio, Perg.s. XII, nr. 208</idno>
+            <origDate>1101-1200</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 2093</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1101-1200</origDate>
+            <origPlace></origPlace>
+            <note>f 125v-139v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Troyes</settlement>
+                <repository> Bibliothèque Municipale(Médiathèque de l’Agglomération troyenne)</repository>
+                <idno> 610</idno>
+              </msIdentifier>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Montecassino</settlement>
+                  <repository> Biblioteca del Monumento Nazionale di Montecassino</repository>
+                  <idno> 16</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Philadelphia</settlement>
+                  <repository> University Library</repository>
+                  <idno> lat. 63</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Sevilla</settlement>
+                  <repository> Biblioteca Capitular y Colombina</repository>
+                  <idno> 85-5-3</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository> Bibliothèque Nationale de France</repository>
+                  <idno> lat. 15298</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Cesena</settlement>
+                  <repository> Biblioteca Malatestiana</repository>
+                  <idno> D XXI 5</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Escorial</settlement>
+                  <repository> Real Biblioteca del Monasterio de San Lorenzo del Escorial</repository>
+                  <idno> a I 10</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Vaticano</settlement>
+                  <repository> Biblioteca Apostolica Vaticana</repository>
+                  <idno> Vat. lat. 495</idno>
+                </msIdentifier>
+              </msFrag>
+              <msFrag>
+                <msIdentifier>
+                  <settlement>Vaticano</settlement>
+                  <repository> Biblioteca Apostolica Vaticana</repository>
+                  <idno> Vat. lat. 499</idno>
+                </msIdentifier>
+              </msFrag>
+            </msDesc>
+            <origDate>1101-1200</origDate>
+            <origPlace></origPlace>
+            <note>f 133r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+            <origDate>1001-1100</origDate>
+            <origPlace></origPlace>
+            <note>p. 226-234</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+            <origDate>1101-1200</origDate>
+            <origPlace></origPlace>
+            <note>f. 36r-37v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+            <origDate>1101-1200</origDate>
+            <origPlace></origPlace>
+            <note>f. 71r-72v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+            <origDate>1301-1400</origDate>
+            <origPlace></origPlace>
+            <note>f. 336rv</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+            <origDate>1401-1500</origDate>
+            <origPlace></origPlace>
+            <note>f. 132rv</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+            <origDate>1401-1500</origDate>
+            <origPlace></origPlace>
+            <note>f. 262r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+            <origDate>1001-1100</origDate>
+            <origPlace></origPlace>
+            <note>f. 200r-202v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+            <origDate>1401-1500</origDate>
+            <origPlace></origPlace>
+            <note>f. 249v-250r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/1173165326423616290005">Commonitorium de errore Priscillianistarum et Origenistarum</title>
+        <persName role="author" ref="http://viaf.org/2479624">Paulus Orosius</persName>
+        <origDate>320-417</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">essay </term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">false</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="lat"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/lat/Daur_1985_OrosiiCommonitorum/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="8" size="7">
+        <label>1</label>
+        <node xml:id="n_omega" type="hypothetical" inDegree="0" outDegree="2">
+          <label>ω</label>
+        </node>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2">
+          <label>α</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="3">
+          <label>β</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_omega" to="#n_alpha" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_omega" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_alpha" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_alpha" to="#n_L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_beta" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_beta" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_beta" to="#n_B" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>
