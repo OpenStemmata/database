@@ -295,6 +295,6 @@ wits:
       witSignature: "Constitutum Constantini"
       witOrigDate: "310-315"
       witOrigPlace: ""
-      witNotes: "only a quotation; Constitutum Constantini is a "forgerie",supposed to have given Pope Sylvester imperium over the West in 315"
+      witNotes: "only a quotation; Constitutum Constantini is a «forgerie»,supposed to have given Pope Sylvester imperium over the West in 315"
       witMsDesc: ""
       witDigit: ""

@@ -132,7 +132,7 @@ wits:
       witDigit: ""
     - witSigla: "cF"
       witSignature: ""
-      witOrigDate: "Rest of "Fredegario" codices"
+      witOrigDate: "Rest of «Fredegario» codices"
       witOrigPlace: ""
       witNotes: ""
       witMsDesc: ""

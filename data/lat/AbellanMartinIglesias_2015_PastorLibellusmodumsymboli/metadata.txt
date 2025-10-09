@@ -159,7 +159,7 @@ wits:
       witMsDesc: ""
       witDigit: ""
     - witSigla: "Colleccion Hispana Gallica"
-      witSignature: "Estraburgo, codex Rachionis""
+      witSignature: "Estraburgo, codex Rachionis"
       witOrigDate: ""
       witOrigPlace: ""
       witNotes: "lost; destructed during the city’s bombardment in 1870."
