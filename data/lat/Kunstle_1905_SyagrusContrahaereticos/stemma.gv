@@ -24,6 +24,4 @@ digraph {
     R[label="R"];
     P[label="P"];
     V[label="V"];
-
-
 }

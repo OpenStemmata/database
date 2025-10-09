@@ -1,7 +1,7 @@
 digraph {
 
     
-    capitalomega -> 1 ;
+    capitalomega -> 1;
     capitalomega-> R;
     1-> M;
     1 -> codexLugdu; 
@@ -14,6 +14,6 @@ digraph {
     M[label="M"]
     V[label="V"]
     R[label="R"]
-    codexLugdu[label="(codex Lugdunensis)"]
+    codexLugdu[label="(codex Lugdunensis)", color="grey"]
     1[color="grey", label=""]; 
 }

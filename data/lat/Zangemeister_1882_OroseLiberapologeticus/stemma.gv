@@ -18,8 +18,5 @@ phi[label="φ"];
 upsilon[label="Υ"];
 1[label="", color=grey];
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 02b9f9a169a7611c27e11dbd03a18dcea3c59911
+
