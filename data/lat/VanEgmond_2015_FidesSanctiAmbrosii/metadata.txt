@@ -210,7 +210,7 @@ wits:
     - witSigla: "τ1 (Upper Rhineland  tradition)"
       witSignature: "Sankt Gallen, Stiftsbibliothek 40"
       witOrigDate: "ca 780"
-      witOrigPlace: "Sankt Gallen (Switzerland)
+      witOrigPlace: "Sankt Gallen (Switzerland)"
       witNotes: "p. 332"
       witMsDesc: ""
       witDigit: ""

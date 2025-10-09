@@ -1,0 +1,54 @@
+digraph {
+
+ recensioI-> recensioJ;
+ recensioI-> recensioV;
+ recensioV-> kappa;
+ kappa->1;
+ 1-> 2;
+ 2-> 3 ;
+ 2->C;
+ C->Ma [style=dashed];
+ 2->Lu;
+ Lu->Vat;
+ 3->T;
+ T->Z;
+ T->Ma;
+ 3->S;
+ kappa->4;
+ 4->5;
+ 5->P;
+ 5->B;
+ 4->R;
+ recensioV->mu;
+ mu->U;
+ U->Bal;
+ mu->G;
+
+
+   recensioI[label="recensio Isidoriana ca. 681", color=grey];
+   recensioV[label="recensio Vulgata ca. 694", color=grey];
+   recensioJ[label="recensio Isidorana ca. 633", color=grey];
+   kappa[label="κ", color=grey];
+   mu[label="μ ", color=grey];
+   G[label="G"];
+   U[label="U"];
+   Bal[label="Bal"];
+   P[label="P"];
+   B[label="B"];
+   R[label="R"];
+   T[label="T"];
+   S[label="S"];
+   C[label="C"];
+   Lu[label="(Lu)"];
+   Vat[label="Vat"];
+   Z[label="Z"];
+   Ma[label="Ma"];
+   1[label="",color=grey];
+   2[label="",color=grey];
+   3[label="",color=grey];
+   4[label="",color=grey];
+   5[label="",color=grey];
+}
+
+
+

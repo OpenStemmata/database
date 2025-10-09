@@ -11,7 +11,7 @@ digraph {
     2->B;
     sigma->tauone;
     sigma->constitutumconstantini [dir=none, style="dashed"];
-    tauone-> 3
+    tauone-> 3;
     3->tautwo;
     3->tauthree;
     
