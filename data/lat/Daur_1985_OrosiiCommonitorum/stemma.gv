@@ -2,7 +2,8 @@ digraph {
  omega-> alpha;
  omega-> beta;
  alpha-> A;
- alpha -> L beta-> C ;
+ alpha -> L;
+ beta-> C ;
  beta-> E ;
  beta-> B ;
 

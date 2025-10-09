@@ -30,7 +30,7 @@ derivatives : "NA"
 contributors:
     - contributor: "Emilie Guidi"
       contributorORCID: ""
-note : "The stemma codicum is made up of collections and not manuscripts in its tree structure"
+note : "The stemma codicum is made up of collections and not manuscripts in its tree structure. Each node represents a collection, seen in several witnesses. This is not a stemma codicum as such. The letters after the name of the collection are then added by us, and not in the published source."
 wits:
     - witSigla: "Colleccion Hispana"
       witSignature: "Escorial, Real Biblioteca del Monasterio de San Lorenzo del Escorial, d I 1"
