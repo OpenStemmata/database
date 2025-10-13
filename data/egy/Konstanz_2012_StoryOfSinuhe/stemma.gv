@@ -9,7 +9,7 @@ digraph {
     beta -> R;
     Y -> delta; 
     Y -> G;
-    delta -> c; 
+    delta -> C; 
     delta -> epsilon;
     epsilon -> zeta;
     zeta -> AOS;
@@ -24,12 +24,8 @@ digraph {
     # Grey color is used for hypothetical nodes; labels can be redefined if needed
     alpha [color="grey", label = "α"];
     beta [color="grey",label="β"];
-    B [color="grey"];
-    R [color="grey"];
     Y [color="grey", label="Y"];
-    G [color="grey"]
     delta [color="grey", label="δ"];
-    c [color="grey"];
     epsilon [color ="grey",label="ε"];
     zeta [color="grey",label="ζ"]
     eta [color="grey",label="η"]
