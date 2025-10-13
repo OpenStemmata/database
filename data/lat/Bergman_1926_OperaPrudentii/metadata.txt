@@ -30,7 +30,7 @@ derivatives : "NA"
 contributors:
     - contributor: "Emilie Guidi"
       contributorORCID: ""
-note : ""
+note : "Most of Prudentius's works share the same tree because they were transmitted as one single work."
 wits:
     - witSigla: "A"
       witSignature: "Paris, Bibliothèque Nationale de France, lat. 8084"
@@ -111,17 +111,5 @@ wits:
       witDigit: ""
       witMsDesc: ""
       witDigit: ""
-    - witSigla: "K"
-      witSignature: "Cambridge, Corpus Christi College, 23"
-      witOrigDate: "901-1000"
-      witOrigPlace: "England"
-      witNotes: ""
-      witMsDesc: ""
-      witDigit: ""
-    - witSigla: "R"
-      witSignature: "Orléans, Bibliothèque Municipale, 307"
-      witOrigDate: "1001-1100"
-      witOrigPlace: ""
-      witNotes: ""
-      witMsDesc: ""
-      witDigit: ""
+
+
