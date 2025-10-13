@@ -30,7 +30,7 @@ derivatives : "NA"
 contributors:
     - contributor: "Emilie Guidi"
       contributorORCID: ""
-note : "The stemma focuses on manuscript families rather than individual witnesses. The lowercase letters (a,c,d, etc...) have been added to each collection's siglum in order to create a unique identifier for each manuscript.
+note : "The stemma codicum is made up of collections and not manuscripts in its tree structure. Each node represents a collection, seen in several witnesses. This is not a stemma codicum as such. The letters after the name of the collection are then added by us, and not in the published source."
 wits:
     - witSigla: "σa (collectio Sanblasiana)"
       witSignature: "Berlin, Staastbibliothek zu Berlin, Preussischer Kulturbesitz, Philipps 1671 (Rose 78)"
@@ -298,4 +298,5 @@ wits:
       witNotes: "only a quotation; Constitutum Constantini is a «forgerie»,supposed to have given Pope Sylvester imperium over the West in 315"
       witMsDesc: ""
       witDigit: ""
+
 
