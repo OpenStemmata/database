@@ -24,6 +24,7 @@ _🌱 lonely trees_
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Flat?type=dir&style=flat&label=lat)
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fosp?type=dir&style=flat&label=osp)
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fdum?type=dir&style=flat&label=dum)
+![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fegy?type=dir&style=flat&label=egy)
 
 ## Contributing
 
