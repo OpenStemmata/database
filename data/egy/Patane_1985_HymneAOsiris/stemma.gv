@@ -1,0 +1,48 @@
+# Place the cursor inside "graph" to get some refactoring options
+
+digraph {
+
+    # To refactor nodes, place the cursor left to a node name
+    alpha -> gama;
+    alpha -> beta;
+    beta -> A;
+    beta -> C;
+    C-> mu;
+    mu -> rho;
+    mu -> k;
+    C-> to;
+    to -> M;
+    to -> sigma;
+    sigma -> F;
+    sigma -> N;
+    gama -> delta; 
+    delta -> G;
+    delta -> H; 
+    gama -> B;
+    B ->  epsilon; 
+    epsilon -> J; 
+    B -> eta; 
+    eta -> omicron;
+    eta -> D;
+    omicron -> E;
+    omicron -> I;
+    E -> lambda; 
+    E -> pi;
+    lambda -> LA;
+    pi -> Ja;
+
+    # Grey color is used for hypothetical nodes; labels can be redefined if needed
+    alpha[color="grey", label="α"];
+    beta[color="grey", label="β"];
+    gama[color="grey", label="Γ"];
+    mu[color="grey", label="μ"];
+    rho[color="grey", label="ρ"];
+    to[color="grey", label="ξ"];
+    sigma[color="grey", label="σ"];
+    delta[color="grey", label="δ"];
+    epsilon[color="grey", label="ε"];
+    eta[color="grey", label="η"];
+    omicron[color="grey", label="ο"];
+    lambda[color="grey", label="λ"];
+    pi[color="grey", label="π"];
+}
