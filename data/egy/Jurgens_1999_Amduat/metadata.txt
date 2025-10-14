@@ -1,5 +1,5 @@
 publicationType: "publicationPart"
-publicationTitle: "Das Stemma des Amduat "
+publicationTitle: "Das Stemma des Amduat"
 publicationDate: "1999"
 publicationPlaces:
     - publicationPlace: "Hamburg"
@@ -17,7 +17,7 @@ workOrigPlace: "Egypte"
 workAuthors:
     - workAuthor: "Anonymous"
       workAuthorViaf: ""
-workGenre: "Funeary litterature "
+workGenre: "Funeary litterature"
 workLangCode: "egy"
 stemmaType: "reconstructed"
 drawnStemma: "true"
@@ -28,7 +28,7 @@ completeWits: "included"
 sourceText: "NA"
 derivatives: "NA"
 contributors:
-    - contributor: "Adonis Dulaurent "
+    - contributor: "Adonis Dulaurent"
       contributorORCID: "0009-0003-3460-0821"
 note: ""
 wits:
