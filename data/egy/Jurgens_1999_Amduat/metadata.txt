@@ -3,7 +3,7 @@ publicationTitle: "Das Stemma des Amduat "
 publicationDate: "1999"
 publicationPlaces:
     - publicationPlace: "Hamburg"
-publicationSeries: "Studien zur Altägyptischen Kultur "
+publicationSeries: "Studien zur Altägyptischen Kultur"
 publicationNum: "27"
 publicationStemmaNum: ""
 publicationAuthors:
