@@ -23,7 +23,7 @@ digraph {
     beta[color="grey", label="β"];
     Y[color="grey", label="Y"];
     delta[color="grey", label="δ"];
-    epsilon[color ="grey", label="ε"];
+    epsilon[color="grey", label="ε"];
     zeta[color="grey", label="ζ"];
     eta[color="grey", label="η"];
 }
