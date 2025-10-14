@@ -200,3 +200,11 @@ wits:
       witNotes: "f. 2r-16v"
       witMsDesc: ""
       witDigit: ""
+    - witSigla: "Paris 2710"
+      witSignature: "Paris, Bibliothèque Nationale de France, lat. 2710"
+      witOrigDate: ""
+      witOrigPlace: ""
+      witNotes: ""
+      witMsDesc: ""
+      witDigit: ""
+
