@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Story of Sinuhe</title>
+        <author>Carsten Peust</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0009-0003-3460-0821">Adonis Dulaurent </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>the informations about the witnesses can be found on Koch's 1990 edition, which is available in Campus Condorcet (https://www.sudoc.fr/008783993).</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>The stemma of the story of Sinuhe : or How to use an unrooted phylogenetic tree in textual criticism </title>
+          <author>Carsten Peust</author>
+          <date>2012</date>
+          <pubPlace>Hamburg</pubPlace>
+          <series>Lingua Aegyptia </series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="20"/>
+          <biblScope unit="page" n="218"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Story of Sinuhe</title>
+        <persName role="author" ref="http://viaf.org/">Anonymous</persName>
+        <origDate>ca. 2000 BCE</origDate>
+        <origPlace>Egypte</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">Literary texts</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="egy"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/egy/Konstanz_2012_StoryOfSinuhe/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="15" size="14">
+        <label>5</label>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="0" outDegree="2">
+          <label>α</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>β</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_Y" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Y</label>
+        </node>
+        <node xml:id="n_R" type="witness" inDegree="1" outDegree="0">
+          <label>R</label>
+        </node>
+        <node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>δ</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_epsilon" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ε</label>
+        </node>
+        <node xml:id="n_zeta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ζ</label>
+        </node>
+        <node xml:id="n_AOS" type="witness" inDegree="1" outDegree="0">
+          <label>AOS</label>
+        </node>
+        <node xml:id="n_C1" type="witness" inDegree="1" outDegree="0">
+          <label>C1</label>
+        </node>
+        <node xml:id="n_eta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>η</label>
+        </node>
+        <node xml:id="n_B1" type="witness" inDegree="1" outDegree="0">
+          <label>B1</label>
+        </node>
+        <node xml:id="n_B3" type="witness" inDegree="1" outDegree="0">
+          <label>B3</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_alpha" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_alpha" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_beta" to="#n_Y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_beta" to="#n_R" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_Y" to="#n_delta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_Y" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_delta" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_delta" to="#n_epsilon" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_epsilon" to="#n_zeta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_epsilon" to="#n_eta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_zeta" to="#n_AOS" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_zeta" to="#n_C1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_eta" to="#n_B1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_eta" to="#n_B3" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>
