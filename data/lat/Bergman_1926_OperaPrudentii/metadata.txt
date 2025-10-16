@@ -118,8 +118,8 @@ wits:
       witNotes: ""
       witMsDesc: ""
       witDigit: ""
-      witMsDesc: ""
-      witDigit: 
+
+
 
 
 
