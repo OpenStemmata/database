@@ -1,7 +1,4 @@
-
-
 digraph {
-
   
     omega -> chi;
     omega -> gamma;
@@ -51,15 +48,7 @@ digraph {
     gamma2->F;
     gamma2->O;
 
-
-
-
-
-
-   
-
- 
-    omega [color="grey", label="ω"];
+     omega [color="grey", label="ω"];
      chi[color="grey", label="χ"]; 
      gamma[color="grey", label="γ"];
      alpha[color="grey", label="α"];
@@ -79,44 +68,29 @@ digraph {
      L[label="L"];
      Paris2718[label="Paris 2718"];
      M2[label="M2"];
-      V[label="V"];
-      Montecassino187[label="Montecassino 187"];
-      Montecassino29[label="Montecassino 29"];
-      Ro[label="Ro"];
-      phi[color="grey", label="φ"];
-      Li[label="Li"];
-      Mons43219[label="Mons 43/219"];
-      M1[label="M1"];
-      beta1[color="grey",label="β1"];
-      P[label="P"];
-      E[label="E"];
-      Paris2710[label="Paris 2710"];
-      gamma2[color="grey",label="γ2"];
-      R[label="R"];
-      gamma1[color="grey",label="γ1"];
-      Ly[label="Ly"];
-      Oxford383[label="Oxford 383"];
-      Ma[label="Ma"];
-      Madrid10018[label="Madrid 10018"];
-      A[label="A"];
-      Albi42[label="Albi 42"];
-      Gent324[label="Gent 324"];
-      F[label="F"];
-      O[label="O"];
-
-     
-
-
-
-
-
-     
-     
-     
-     
-
-
+     V[label="V"];
+     Montecassino187[label="Montecassino 187"];
+     Montecassino29[label="Montecassino 29"];
+     Ro[label="Ro"];
+     phi[color="grey", label="φ"];
+     Li[label="Li"];
+     Mons43219[label="Mons 43 219"];
+     M1[label="M1"];
+     beta1[color="grey",label="β1"];
+     P[label="P"];
+     E[label="E"];
+     Paris2710[label="Paris 2710"];
+     gamma2[color="grey",label="γ2"];
+     R[label="R"];
+     gamma1[color="grey",label="γ1"];
+     Ly[label="Ly"];
+     Oxford383[label="Oxford 383"];
+     Ma[label="Ma"];
+     Madrid10018[label="Madrid 10018"];
+     A[label="A"];
+     Albi42[label="Albi 42"];
+     Gent324[label="Gent 324"];
+     F[label="F"];
+     O[label="O"];
 
 }
-
-
