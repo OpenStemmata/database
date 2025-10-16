@@ -109,8 +109,6 @@ wits:
       witNotes: ""
       witMsDesc: ""
       witDigit: ""
-      witMsDesc: ""
-      witDigit: ""
     - witSigla: "O"
       witSignature: "Oxford, Oriel College, 3"
       witOrigDate: "901-1000"
@@ -118,6 +116,7 @@ wits:
       witNotes: ""
       witMsDesc: ""
       witDigit: ""
+
 
 
 
