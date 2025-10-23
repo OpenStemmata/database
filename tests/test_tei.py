@@ -1,3 +1,4 @@
+import os
 import glob 
 import sys
 from lxml import etree as et 
