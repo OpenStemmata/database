@@ -1,8 +1,5 @@
-# Place the cursor inside "graph" to get some refactoring options
-
 digraph {
 
-    # To refactor nodes, place the cursor left to a node name
     alpha -> beta;
     beta -> ThI;
     beta -> U; 
@@ -23,9 +20,9 @@ digraph {
     iota -> kappa;
     kappa -> SI;
     kappa -> RII;
-    iota -> Ta [style="dashed"];
+    iota -> Ta [color="grey"];
     iota -> lambda;
-    lambda -> mu [style="dashed"];
+    lambda -> mu [color="grey"];
     mu -> M;
     mu -> Ms;
     lambda -> SII;
@@ -33,7 +30,7 @@ digraph {
     lambda -> RIII;
     nu -> RVI;
     nu -> RIX;
-    alpha -> RVI [style="dashed"];
+    alpha -> RVI [style="dashed", color="grey"];
 
     # Grey color is used for hypothetical nodes; labels can be redefined if needed
     alpha[color="grey", label="α"];
