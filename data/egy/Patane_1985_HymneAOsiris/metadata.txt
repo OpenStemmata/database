@@ -7,7 +7,7 @@ publicationSeries: "Bulletin de la Société d’Égyptologie de Genève"
 publicationNum: "9-10"
 publicationStemmaNum: ""
 publicationAuthors:
-    - publicationAuthor: "Patane Massimo"
+    - publicationAuthor: "Patane, Massimo"
 publicationPage: "224"
 publicationLink: ""
 workTitle: "Hymne à Osiris"
@@ -30,7 +30,7 @@ derivatives: "NA"
 contributors:
     - contributor: "Adonis Dulaurent "
       contributorORCID: "0009-0003-3460-0821"
-note: ""
+note: "There are some surprising things on this stemma: apparent direct descents between surviving nodes, as well as hypothetical node as leaf (?). One should check the different sigla, to see which ones actually are witnesses or not, as the conventions of greek and roman letters are not always very clear, maybe they are not followed as such"
 wits:
     - witSigla: ""
       witSignature: ""
