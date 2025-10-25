@@ -1,5 +1,3 @@
-# Place the cursor inside "graph" to get some refactoring options
-
 digraph {
     alpha -> beta;
     alpha -> delta;
@@ -10,13 +8,12 @@ digraph {
     beta -> epsilon;
     gama -> W;
     epsilon -> W;
-    epsilon -> T[style="dashed"];
+    epsilon -> T[color="grey"];
     gama -> zeta;
     zeta -> TT33
     zeta -> eta;
     eta -> S;
     eta -> Q1Q;
-
    
     alpha[color="grey",label="α" ];
     beta[color="grey", label="β"];
