@@ -1,8 +1,5 @@
-# Place the cursor inside "graph" to get some refactoring options
-
 digraph {
 
-    # To refactor nodes, place the cursor left to a node name
     alpha -> gama;
     alpha -> beta;
     beta -> A;
@@ -31,7 +28,6 @@ digraph {
     lambda -> LA;
     pi -> Ja;
 
-    # Grey color is used for hypothetical nodes; labels can be redefined if needed
     alpha[color="grey", label="α"];
     beta[color="grey", label="β"];
     gama[color="grey", label="Γ"];
@@ -45,4 +41,6 @@ digraph {
     omicron[color="grey", label="ο"];
     lambda[color="grey", label="λ"];
     pi[color="grey", label="π"];
+    Ja[label="J(a)"]
+
 }
