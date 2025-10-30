@@ -13,7 +13,7 @@ publicationLink: "https://www.jstor.org/stable/pdf/25152800.pdf"
 workTitle: "Amduat"
 workViaf: "177877620"
 workOrigDate: "ca. 1539-1292 BCE"
-workOrigPlace: "Egypte"
+workOrigPlace: "Egypt"
 workAuthors:
     - workAuthor: "Anonymous"
       workAuthorViaf: ""
