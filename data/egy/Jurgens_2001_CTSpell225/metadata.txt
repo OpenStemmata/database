@@ -1,5 +1,5 @@
 publicationType: "publicationPart"
-publicationTitle: "Ein Textzwilling zu M2NY im Stemma des CT-Spruchs 225"
+publicationTitle: "Ein Textzwilling zu M2NY im Stemma des CT-Spruches 225"
 publicationDate: "2001"
 publicationPlaces:
     - publicationPlace: "Göttingen"
