@@ -30,7 +30,7 @@ derivatives: "NA"
 contributors:
     - contributor: "Adonis Dulaurent "
       contributorORCID: "0009-0003-3460-0821"
-note: "There are some surprising things on this stemma: apparent direct descents between surviving nodes, as well as hypothetical node as leaf (?). One should check the different sigla, to see which ones actually are witnesses or not, as the conventions of greek and roman letters are not always very clear, maybe they are not followed as such"
+note: "There are some surprising things on this stemma: apparent direct descents between surviving nodes, as well as hypothetical node as leaf (?). Witness data were obtained from D.C. Luft, Osiris-Hymnen (Mohr-Siebeck 2019), which proposes a new and more complete stemma."
 wits:
     - witSigla: "G"
       witSignature: "Stela Cairo CG 34057 (Neferhotep A)"
