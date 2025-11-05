@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Liber apologeticus contra Pelaganios</title>
+        <author>Zangemeister K.</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Emilie Guidi</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>A represents the interpolation in the archetype of the preserved examples ; work associated to the Augustinian corpus.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Pauli Orosii Historiam adversus paganos libri septem. Accedit eiusdem Liber-Apologeticus</title>
+          <author>Zangemeister K.</author>
+          <date>1882</date>
+          <pubPlace>Wien</pubPlace>
+          <series>Corpus Scriptorum Ecclesiasticorum Latinorum</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n=""/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_Σ">
+            <label type="siglum">Σ</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 17349(olim S. Cornelii Compediensis)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>701-900</origDate>
+            <origPlace></origPlace>
+            <note>f 165-203</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Υ">
+            <label type="siglum">Υ</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 1863</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1100</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_φ">
+            <label type="siglum">φ</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vaticano</settlement>
+                <repository> Biblioteca Apostolica Vaticana</repository>
+                <idno> Reg. lat. 286(olim 1501)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>901-1100</origDate>
+            <origPlace></origPlace>
+            <note>f 42-95r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_X">
+            <label type="siglum">X</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Troyes</settlement>
+                <repository> Bibliothèque Municipale</repository>
+                <idno>1145</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1101-1200</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ψ">
+            <label type="siglum">Ψ</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Saint-Omer</settlement>
+                <repository> Bibliothèque Municipale</repository>
+                <idno> 61</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1500</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Liber apologeticus contra Pelaganios</title>
+        <persName role="author" ref="http://viaf.org/2479624">Paulus Orosius</persName>
+        <origDate>320-417</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">essay </term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">false</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="lat"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/lat/Zangemeister_1882_OroseLiberapologeticus/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="8" size="7">
+        <label></label>
+        <node xml:id="n_A" type="hypothetical" inDegree="0" outDegree="1">
+          <label>A</label>
+        </node>
+        <node xml:id="n_omega" type="hypothetical" inDegree="1" outDegree="4">
+          <label>ω</label>
+        </node>
+        <node xml:id="n_sigma" type="witness" inDegree="1" outDegree="0">
+          <label>Σ</label>
+        </node>
+        <node xml:id="n_psi" type="witness" inDegree="1" outDegree="0">
+          <label>Ψ</label>
+        </node>
+        <node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>1</label>
+        </node>
+        <node xml:id="n_X" type="witness" inDegree="1" outDegree="0">
+          <label>X</label>
+        </node>
+        <node xml:id="n_phi" type="witness" inDegree="1" outDegree="0">
+          <label>φ</label>
+        </node>
+        <node xml:id="n_upsilon" type="witness" inDegree="1" outDegree="0">
+          <label>Υ</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_A" to="#n_omega" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_omega" to="#n_sigma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_omega" to="#n_psi" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_omega" to="#n_1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_omega" to="#n_upsilon" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_1" to="#n_X" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_1" to="#n_phi" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="color" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="recensioI">
+  <data key="d0">recensio Isidoriana ca. 681</data>
+  <data key="d1">grey</data>
+</node>
+<node id="recensioJ">
+  <data key="d0">recensio Isidorana ca. 633</data>
+  <data key="d1">grey</data>
+</node>
+<node id="recensioV">
+  <data key="d0">recensio Vulgata ca. 694</data>
+  <data key="d1">grey</data>
+</node>
+<node id="kappa">
+  <data key="d0">κ</data>
+  <data key="d1">grey</data>
+</node>
+<node id="1">
+  <data key="d1">grey</data>
+</node>
+<node id="2">
+  <data key="d1">grey</data>
+</node>
+<node id="3">
+  <data key="d1">grey</data>
+</node>
+<node id="C">
+  <data key="d0">C</data>
+</node>
+<node id="Ma">
+  <data key="d0">Ma</data>
+</node>
+<node id="Lu">
+  <data key="d0">(Lu)</data>
+</node>
+<node id="Vat">
+  <data key="d0">Vat</data>
+</node>
+<node id="T">
+  <data key="d0">T</data>
+</node>
+<node id="Z">
+  <data key="d0">Z</data>
+</node>
+<node id="S">
+  <data key="d0">S</data>
+</node>
+<node id="4">
+  <data key="d1">grey</data>
+</node>
+<node id="5">
+  <data key="d1">grey</data>
+</node>
+<node id="P">
+  <data key="d0">P</data>
+</node>
+<node id="B">
+  <data key="d0">B</data>
+</node>
+<node id="R">
+  <data key="d0">R</data>
+</node>
+<node id="mu">
+  <data key="d0">μ </data>
+  <data key="d1">grey</data>
+</node>
+<node id="U">
+  <data key="d0">U</data>
+</node>
+<node id="Bal">
+  <data key="d0">Bal</data>
+</node>
+<node id="G">
+  <data key="d0">G</data>
+</node>
+<edge source="recensioI" target="recensioJ">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="recensioI" target="recensioV">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="recensioV" target="kappa">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="recensioV" target="mu">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="kappa" target="1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="kappa" target="4">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="1" target="2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="2" target="3">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="2" target="C">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="2" target="Lu">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="3" target="T">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="3" target="S">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="C" target="Ma">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Lu" target="Vat">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="T" target="Z">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="T" target="Ma">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="4" target="5">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="4" target="R">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="5" target="P">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="5" target="B">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="mu" target="U">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="mu" target="G">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="U" target="Bal">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

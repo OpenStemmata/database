@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">De fide</title>
+        <author>Abellan S., I.Martin-Iglesias J. M.</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Emilie Guidi</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>Traditio Patrum. I - Scriptores Hispaniae</title>
+          <author>Abellan S., I.Martin-Iglesias J. M.</author>
+          <date>2015</date>
+          <pubPlace>Turnhout</pubPlace>
+          <series>Corpus christianorum : claves subsidia </series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="4"/>
+          <biblScope unit="page" n="405"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Milano</settlement>
+                <repository> Biblioteca Ambrosiana</repository>
+                <idno> O 112 sup.</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>601-700</origDate>
+            <origPlace>Bobbio(Emilia-Romana, Italy)</origPlace>
+            <note>f 8r-14r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_T">
+            <label type="siglum">T</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Troyes</settlement>
+                <repository> Bibliothèque Municipale (Médiathèque de l’agglomération troyenne)</repository>
+                <idno> 1979</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1100</origDate>
+            <origPlace>Saint-Bénigne de Dijon (Bourgogne-Franche Comté, France)</origPlace>
+            <note>f 30r-35r ; mutilated at the beginning</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_R">
+            <label type="siglum">R</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Barcelona</settlement>
+                <repository> Archivo de la Corona de Aragon</repository>
+                <idno> Ripoll 151</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1100</origDate>
+            <origPlace>Ripoll (Catalonia, Spain)</origPlace>
+            <note>f 146v-152r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_V">
+            <label type="siglum">V</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vaticano</settlement>
+                <repository> Biblioteca Apostolica Vaticana</repository>
+                <idno> Reg. lat. 194</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1200</origDate>
+            <origPlace>Saint Pierre-aux-Monts(Châlons-sur-Marne, Grand-Est, France)</origPlace>
+            <note>f 138v-140v (fragment)</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_codex_Lugdunensis">
+            <label type="siglum">codex Lugdunensis</label>
+            <idno>codex Lugdunensis</idno>
+            <origDate>901-1000</origDate>
+            <origPlace></origPlace>
+            <note>lost;codex that existed in the entourage of Floro de Lyon</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/4999159699935503500004">De fide</title>
+        <persName role="author" ref="http://viaf.org/88663747">Bachiarius Monachus</persName>
+        <origDate>401-500</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">profession of faith</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="lat"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/lat/AbellanMartinIglesias_2015_BachiarusDefide/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="7" size="6">
+        <label>1</label>
+        <node xml:id="n_capitalomega" type="hypothetical" inDegree="0" outDegree="2">
+          <label>Ω</label>
+        </node>
+        <node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>1</label>
+        </node>
+        <node xml:id="n_R" type="witness" inDegree="1" outDegree="0">
+          <label>R</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_codexLugdu" type="hypothetical" inDegree="1" outDegree="2">
+          <label>(codex Lugdunensis)</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="0">
+          <label>T</label>
+        </node>
+        <node xml:id="n_V" type="witness" inDegree="1" outDegree="0">
+          <label>V</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_capitalomega" to="#n_1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_capitalomega" to="#n_R" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_1" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_1" to="#n_codexLugdu" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_codexLugdu" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_codexLugdu" to="#n_V" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

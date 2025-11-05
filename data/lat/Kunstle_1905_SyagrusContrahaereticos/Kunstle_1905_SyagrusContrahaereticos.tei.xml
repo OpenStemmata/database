@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Regulae definitionum contra haereticos prolatae</title>
+        <author>Künstle K.</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Emilie Guidi</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Antipriscilliana. Dogmengeschichtliche Untersuchungen und Texte aus dem Streite ggen Priscillans Irrlehere</title>
+          <author>Künstle K.</author>
+          <date>1905</date>
+          <pubPlace>Freiburg im Breisgau</pubPlace>
+          <series>Herdersche Verlagshandlung</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n=""/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Karlsruhe</settlement>
+                <repository> Badische Landesbibliothek</repository>
+                <idno> Augiensis perg. 18</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace>Reichenau(Bade-Wurtemberg, Germany)</origPlace>
+            <note>f 47ra-49rb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <idno>Berlin, Staatsbibliothek zu Berlin, preubischer Kulturbesitz, Philipps 1671 (Rose 78)</idno>
+            <origDate>801-900</origDate>
+            <origPlace>Fleury (Centre-Val-de-Loire, France)</origPlace>
+            <note>f 57v-62v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Oxford</settlement>
+                <repository> Balliol College</repository>
+                <idno> 147</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1101-1200</origDate>
+            <origPlace></origPlace>
+            <note>f 202r-207v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_O">
+            <label type="siglum">O</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Oxford</settlement>
+                <repository> Mrton College</repository>
+                <idno> 26  (B . III.4)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1401-1500</origDate>
+            <origPlace>Great-Britain</origPlace>
+            <note>f 54r-56v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P">
+            <label type="siglum">P</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Mazarine</repository>
+                <idno> 627</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1300</origDate>
+            <origPlace>Grands-Augustins (Paris,Île-de-France, France)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_R">
+            <label type="siglum">R</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Reims</settlement>
+                <repository> Bibliothèque d’étude et du patrimoine (Bibliothèque Carnegie)</repository>
+                <idno> 295 (E. 380)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1100</origDate>
+            <origPlace>Reims, Grand-Est, France</origPlace>
+            <note>f 11vb-18va</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_S">
+            <label type="siglum">S</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Augsburg</settlement>
+                <repository> Staats- und Stadtbibliothek</repository>
+                <idno> 2° Cod. 517</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1501-1600</origDate>
+            <origPlace>Reichenau (Bade-Wurtemberg, Germany)</origPlace>
+            <note>f 17v-23v; Apograph of A</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_V">
+            <label type="siglum">V</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vaticano</settlement>
+                <repository> Biblioteca Apostolica Vaticana</repository>
+                <idno> Reg. Lat. 557</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1100</origDate>
+            <origPlace></origPlace>
+            <note>f 7rv ; factice codex ; fragment mutilated at the beginning and at the end</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Regulae definitionum contra haereticos prolatae</title>
+        <persName role="author" ref="http://viaf.org/59476332">Syagrius Episcopus</persName>
+        <origDate>435-475</origDate>
+        <origPlace>Gallaecia? (Portugal)</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">essay</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">false</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="lat"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/lat/Kunstle_1905_SyagrusContrahaereticos/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="11" size="10">
+        <label>1</label>
+        <node xml:id="n_omega" type="hypothetical" inDegree="0" outDegree="2">
+          <label>ω</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="1">
+          <label>A</label>
+        </node>
+        <node xml:id="n_S" type="witness" inDegree="1" outDegree="0">
+          <label>S</label>
+        </node>
+        <node xml:id="n_Y" type="hypothetical" inDegree="1" outDegree="3">
+          <label>Y</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_Z" type="hypothetical" inDegree="1" outDegree="4">
+          <label>Z</label>
+        </node>
+        <node xml:id="n_O" type="witness" inDegree="1" outDegree="0">
+          <label>O</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+          <label>P</label>
+        </node>
+        <node xml:id="n_R" type="witness" inDegree="1" outDegree="0">
+          <label>R</label>
+        </node>
+        <node xml:id="n_V" type="witness" inDegree="1" outDegree="0">
+          <label>V</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_omega" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_omega" to="#n_Y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_A" to="#n_S" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_Y" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_Y" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_Y" to="#n_Z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_Z" to="#n_O" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_Z" to="#n_P" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_Z" to="#n_R" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_Z" to="#n_V" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

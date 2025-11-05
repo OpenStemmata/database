@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d4" for="edge" attr.name="dir" attr.type="string"/>
+<key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="omega">
+  <data key="d0">grey</data>
+  <data key="d1">ω</data>
+</node>
+<node id="chi">
+  <data key="d0">grey</data>
+  <data key="d1">χ</data>
+</node>
+<node id="gamma">
+  <data key="d0">grey</data>
+  <data key="d1">γ</data>
+</node>
+<node id="alpha">
+  <data key="d0">grey</data>
+  <data key="d1">α</data>
+</node>
+<node id="beta">
+  <data key="d0">grey</data>
+  <data key="d1">β</data>
+</node>
+<node id="alpha1">
+  <data key="d0">grey</data>
+  <data key="d1">α1</data>
+</node>
+<node id="alpha2">
+  <data key="d0">grey</data>
+  <data key="d1">α2</data>
+</node>
+<node id="G">
+  <data key="d1">G</data>
+</node>
+<node id="1">
+  <data key="d0">grey</data>
+</node>
+<node id="M14468">
+  <data key="d1">München 14468</data>
+</node>
+<node id="2">
+  <data key="d0">grey</data>
+</node>
+<node id="Paris2718">
+  <data key="d1">Paris 2718</data>
+</node>
+<node id="L">
+  <data key="d1">L</data>
+</node>
+<node id="M2">
+  <data key="d1">M2</data>
+</node>
+<node id="3">
+  <data key="d0">grey</data>
+</node>
+<node id="V">
+  <data key="d1">V</data>
+</node>
+<node id="4">
+  <data key="d0">grey</data>
+</node>
+<node id="Montecassino187">
+  <data key="d1">Montecassino 187</data>
+</node>
+<node id="Montecassino29">
+  <data key="d1">Montecassino 29</data>
+</node>
+<node id="5">
+  <data key="d0">grey</data>
+</node>
+<node id="Ro">
+  <data key="d1">Ro</data>
+</node>
+<node id="phi">
+  <data key="d0">grey</data>
+  <data key="d1">φ</data>
+</node>
+<node id="Li">
+  <data key="d1">Li</data>
+</node>
+<node id="Mons43219">
+  <data key="d1">Mons 43 219</data>
+</node>
+<node id="M1">
+  <data key="d1">M1</data>
+</node>
+<node id="beta1">
+  <data key="d0">grey</data>
+  <data key="d1">β1</data>
+</node>
+<node id="P">
+  <data key="d1">P</data>
+</node>
+<node id="E">
+  <data key="d1">E</data>
+</node>
+<node id="Paris2710">
+  <data key="d1">Paris 2710</data>
+</node>
+<node id="gamma2">
+  <data key="d0">grey</data>
+  <data key="d1">γ2</data>
+</node>
+<node id="R">
+  <data key="d1">R</data>
+</node>
+<node id="gamma1">
+  <data key="d0">grey</data>
+  <data key="d1">γ1</data>
+</node>
+<node id="6">
+  <data key="d0">grey</data>
+</node>
+<node id="Ly">
+  <data key="d1">Ly</data>
+</node>
+<node id="Oxford383">
+  <data key="d1">Oxford 383</data>
+</node>
+<node id="7">
+  <data key="d0">grey</data>
+</node>
+<node id="Ma">
+  <data key="d1">Ma</data>
+</node>
+<node id="Madrid10018">
+  <data key="d1">Madrid 10018</data>
+</node>
+<node id="A">
+  <data key="d1">A</data>
+</node>
+<node id="8">
+  <data key="d0">grey</data>
+</node>
+<node id="Albi42">
+  <data key="d1">Albi 42</data>
+</node>
+<node id="Gent324">
+  <data key="d1">Gent 324</data>
+</node>
+<node id="F">
+  <data key="d1">F</data>
+</node>
+<node id="O">
+  <data key="d1">O</data>
+</node>
+<edge source="omega" target="chi">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="omega" target="gamma">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="chi" target="alpha">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="chi" target="beta">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="gamma" target="gamma2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="gamma" target="5">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="gamma" target="R">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="gamma" target="gamma1">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="gamma" target="8">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="alpha" target="alpha1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="alpha" target="alpha2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="alpha" target="5">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="alpha" target="Mons43219">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+  <data key="d4">none</data>
+</edge>
+<edge source="beta" target="5">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="beta" target="M1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="beta" target="beta1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="beta" target="gamma2">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="alpha1" target="G">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="alpha1" target="1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="alpha2" target="M2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="alpha2" target="3">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="1" target="M14468">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="1" target="2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="2" target="Paris2718">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="2" target="L">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="3" target="V">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="3" target="4">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="4" target="Montecassino187">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="4" target="Montecassino29">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="5" target="Ro">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="5" target="phi">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="phi" target="Li">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="beta1" target="Mons43219">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="beta1" target="P">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="beta1" target="E">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="beta1" target="Paris2710">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="gamma2" target="F">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="gamma2" target="O">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="gamma1" target="6">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="gamma1" target="7">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="gamma1" target="A">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="6" target="Ly">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="6" target="Oxford383">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="7" target="Ma">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="7" target="Madrid10018">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="8" target="Albi42">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="8" target="Gent324">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

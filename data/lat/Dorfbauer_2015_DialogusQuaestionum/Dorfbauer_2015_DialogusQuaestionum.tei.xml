@@ -1,0 +1,633 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Dialogus Quaestionum</title>
+        <author>Dorfbauer Lukas J.</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Emilie Guidi</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>Traditio Patrum. I - Scriptores Hispaniae</title>
+          <author>Dorfbauer Lukas J.</author>
+          <date>2015</date>
+          <pubPlace>Turnhout</pubPlace>
+          <series>Corpus christianorum : claves subsidia</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="4"/>
+          <biblScope unit="page" n="535"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Sankt-Gallen</settlement>
+                <repository> Stiftsbibliothek</repository>
+                <idno> 230</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>701-800</origDate>
+            <origPlace></origPlace>
+            <note>p. 269-311</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Leiden</settlement>
+                <repository> Universiteitbibliotheek</repository>
+                <idno> BPL 67 F</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>701-900</origDate>
+            <origPlace>Northern of France</origPlace>
+            <note>f. 155r-158v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_München_14468">
+            <label type="siglum">München 14468</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Bayerische Staatsbibliothek</repository>
+                <idno> Clm 14468</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>821</origDate>
+            <origPlace>St Emmeram-Regensburg (Bavaria, Germany)</origPlace>
+            <note>f. 88r-94r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Paris_2718">
+            <label type="siglum">Paris 2718</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 2718</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-830</origDate>
+            <origPlace>Tours (Centre-Val-de-Loire, France)</origPlace>
+            <note>p. 269-311</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M2">
+            <label type="siglum">M2</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Bayerische Staatsbibliothek</repository>
+                <idno> Clm 14500</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace></origPlace>
+            <note>f. 1r-22r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_V">
+            <label type="siglum">V</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vaticano</settlement>
+                <repository> Biblioteca Apostolica Vaticana</repository>
+                <idno> Vat. lat. 6018</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-830</origDate>
+            <origPlace>Middle of Italy</origPlace>
+            <note>f. 103v-116v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Montecassino_187">
+            <label type="siglum">Montecassino 187</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Montecassino</settlement>
+                <repository> Biblioteca del Monumento Nazionale di Monte Cassino</repository>
+                <idno> 187</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace>Montecassino (Latium, Italy)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Montecassino_29">
+            <label type="siglum">Montecassino 29</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Montecassino</settlement>
+                <repository> Biblioteca del Monumento Nazionale di Monte Cassino</repository>
+                <idno> 29</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-1000</origDate>
+            <origPlace>Rome (Latium, Italy)</origPlace>
+            <note>p. 269-311</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ro">
+            <label type="siglum">Ro</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Roma</settlement>
+                <repository> Biblioteca Vallicelliana</repository>
+                <idno> C 9</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>871-900</origDate>
+            <origPlace></origPlace>
+            <note>f. 276v-291v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Mons_43_219">
+            <label type="siglum">Mons 43 219</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Mons</settlement>
+                <repository> Bibliothèque publique et universitaire</repository>
+                <idno> 43/219</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>875-900</origDate>
+            <origPlace></origPlace>
+            <note>f. 134r-151r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M1">
+            <label type="siglum">M1</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Bayerische Staatsbibliothek</repository>
+                <idno> Clm 14492</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>850-875</origDate>
+            <origPlace>St Emmeram, Regensburg (Bavaria, Germany)</origPlace>
+            <note>f. 1r-39r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P">
+            <label type="siglum">P</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 13373</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace>Corbie (Somme, France)</origPlace>
+            <note>f. 1r-32v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Escorial</settlement>
+                <repository> Real Biblioteca del Monasterio de San Lorenzo del Escorial</repository>
+                <idno> b IV 17</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>871-900</origDate>
+            <origPlace>Southern France</origPlace>
+            <note>f. 61r-87r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Autun</settlement>
+                <repository> Bibliothèque Municipale</repository>
+                <idno> S 40 (36)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace>France</origPlace>
+            <note>f. 99v-125v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ma">
+            <label type="siglum">Ma</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Madrid</settlement>
+                <repository> Biblioteca de la Real Academia de la Historia</repository>
+                <idno> 39</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1100</origDate>
+            <origPlace>San Millan de la Cogola (La Rioja, Spain)?</origPlace>
+            <note>f. 196v-214v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Madrid_10018">
+            <label type="siglum">Madrid 10018</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Madrid</settlement>
+                <repository> Biblioteca Nacional</repository>
+                <idno> 10018</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace>Cordoba (Andalusia, Spain)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ly">
+            <label type="siglum">Ly</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Lyon</settlement>
+                <repository> Bibliothèque Municipale</repository>
+                <idno> 611</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace>Southern France</origPlace>
+            <note>f. 1r-31v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Oxford_383">
+            <label type="siglum">Oxford 383</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Oxford</settlement>
+                <repository> Bodleian Library</repository>
+                <idno> Laud. Misc. 383</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1200</origDate>
+            <origPlace>France?</origPlace>
+            <note>f. 93v-134r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_O">
+            <label type="siglum">O</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Oxford</settlement>
+                <repository> Bodleian Library</repository>
+                <idno> Bodl. 385</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1100</origDate>
+            <origPlace></origPlace>
+            <note>f. 112v-124v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F">
+            <label type="siglum">F</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Freiburg im Breisgau</settlement>
+                <repository> Universitätbibliothek</repository>
+                <idno> 377</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1101-1200</origDate>
+            <origPlace></origPlace>
+            <note>f. 90r-130r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_R">
+            <label type="siglum">R</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Roma</settlement>
+                <repository> Biblioteca Nazionale Centrale Vittorio Emanuele II</repository>
+                <idno> Sess. 76</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-1000</origDate>
+            <origPlace>Nonantola (Emilia-Romagna, Italy)</origPlace>
+            <note>f. 81v-98v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Albi_42">
+            <label type="siglum">Albi 42</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Albi</settlement>
+                <repository> Bibliothèque Municipale de Rochegude</repository>
+                <idno> 42</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>871-900</origDate>
+            <origPlace>France?</origPlace>
+            <note>f. 72v-80r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Gent_324">
+            <label type="siglum">Gent 324</label>
+            <idno>Gent, Universiteit Gent, Bibliotheek, 324 (SG 581)</idno>
+            <origDate>801-900</origDate>
+            <origPlace></origPlace>
+            <note>f. 96v-108v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Li">
+            <label type="siglum">Li</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Liège</settlement>
+                <repository> Bibliothèque du Grand Séminaire</repository>
+                <idno> 6 F 30 bis</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1100</origDate>
+            <origPlace></origPlace>
+            <note>f. 2r-16v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Paris_2710">
+            <label type="siglum">Paris 2710</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 2710</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/4132171191115458030003">Dialogus Quaestionum</title>
+        <persName role="author" ref="http://viaf.org/">Anonymous</persName>
+        <origDate></origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre"></term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="lat"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/lat/Dorfbauer_2015_DialogusQuaestionum/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="44" size="47">
+        <label></label>
+        <node xml:id="n_omega" type="hypothetical" inDegree="0" outDegree="2">
+          <label>ω</label>
+        </node>
+        <node xml:id="n_chi" type="hypothetical" inDegree="1" outDegree="2">
+          <label>χ</label>
+        </node>
+        <node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="5">
+          <label>γ</label>
+        </node>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="4">
+          <label>α</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="4">
+          <label>β</label>
+        </node>
+        <node xml:id="n_alpha1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>α1</label>
+        </node>
+        <node xml:id="n_alpha2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>α2</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>1</label>
+        </node>
+        <node xml:id="n_M14468" type="witness" inDegree="1" outDegree="0">
+          <label>München 14468</label>
+        </node>
+        <node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>2</label>
+        </node>
+        <node xml:id="n_Paris2718" type="witness" inDegree="1" outDegree="0">
+          <label>Paris 2718</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <node xml:id="n_M2" type="witness" inDegree="1" outDegree="0">
+          <label>M2</label>
+        </node>
+        <node xml:id="n_3" type="hypothetical" inDegree="1" outDegree="2">
+          <label>3</label>
+        </node>
+        <node xml:id="n_V" type="witness" inDegree="1" outDegree="0">
+          <label>V</label>
+        </node>
+        <node xml:id="n_4" type="hypothetical" inDegree="1" outDegree="2">
+          <label>4</label>
+        </node>
+        <node xml:id="n_Montecassino187" type="witness" inDegree="1" outDegree="0">
+          <label>Montecassino 187</label>
+        </node>
+        <node xml:id="n_Montecassino29" type="witness" inDegree="1" outDegree="0">
+          <label>Montecassino 29</label>
+        </node>
+        <node xml:id="n_5" type="hypothetical" inDegree="3" outDegree="2">
+          <label>5</label>
+        </node>
+        <node xml:id="n_Ro" type="witness" inDegree="1" outDegree="0">
+          <label>Ro</label>
+        </node>
+        <node xml:id="n_phi" type="hypothetical" inDegree="1" outDegree="1">
+          <label>φ</label>
+        </node>
+        <node xml:id="n_Li" type="witness" inDegree="1" outDegree="0">
+          <label>Li</label>
+        </node>
+        <node xml:id="n_Mons43219" type="witness" inDegree="2" outDegree="0">
+          <label>Mons 43 219</label>
+        </node>
+        <node xml:id="n_M1" type="witness" inDegree="1" outDegree="0">
+          <label>M1</label>
+        </node>
+        <node xml:id="n_beta1" type="hypothetical" inDegree="1" outDegree="4">
+          <label>β1</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+          <label>P</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_Paris2710" type="witness" inDegree="1" outDegree="0">
+          <label>Paris 2710</label>
+        </node>
+        <node xml:id="n_gamma2" type="hypothetical" inDegree="2" outDegree="2">
+          <label>γ2</label>
+        </node>
+        <node xml:id="n_R" type="witness" inDegree="1" outDegree="0">
+          <label>R</label>
+        </node>
+        <node xml:id="n_gamma1" type="hypothetical" inDegree="1" outDegree="3">
+          <label>γ1</label>
+        </node>
+        <node xml:id="n_6" type="hypothetical" inDegree="1" outDegree="2">
+          <label>6</label>
+        </node>
+        <node xml:id="n_Ly" type="witness" inDegree="1" outDegree="0">
+          <label>Ly</label>
+        </node>
+        <node xml:id="n_Oxford383" type="witness" inDegree="1" outDegree="0">
+          <label>Oxford 383</label>
+        </node>
+        <node xml:id="n_7" type="hypothetical" inDegree="1" outDegree="2">
+          <label>7</label>
+        </node>
+        <node xml:id="n_Ma" type="witness" inDegree="1" outDegree="0">
+          <label>Ma</label>
+        </node>
+        <node xml:id="n_Madrid10018" type="witness" inDegree="1" outDegree="0">
+          <label>Madrid 10018</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_8" type="hypothetical" inDegree="1" outDegree="2">
+          <label>8</label>
+        </node>
+        <node xml:id="n_Albi42" type="witness" inDegree="1" outDegree="0">
+          <label>Albi 42</label>
+        </node>
+        <node xml:id="n_Gent324" type="witness" inDegree="1" outDegree="0">
+          <label>Gent 324</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <node xml:id="n_O" type="witness" inDegree="1" outDegree="0">
+          <label>O</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_omega" to="#n_chi" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_omega" to="#n_gamma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_chi" to="#n_alpha" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_chi" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_gamma" to="#n_gamma2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_gamma" to="#n_5" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_gamma" to="#n_R" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_gamma" to="#n_gamma1" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_gamma" to="#n_8" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_alpha" to="#n_alpha1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_alpha" to="#n_alpha2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_alpha" to="#n_5" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_alpha" to="#n_Mons43219" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_beta" to="#n_5" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_beta" to="#n_M1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_beta" to="#n_beta1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_beta" to="#n_gamma2" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_alpha1" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_alpha1" to="#n_1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_alpha2" to="#n_M2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_alpha2" to="#n_3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_22" from="#n_1" to="#n_M14468" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_23" from="#n_1" to="#n_2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_24" from="#n_2" to="#n_Paris2718" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_25" from="#n_2" to="#n_L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_26" from="#n_3" to="#n_V" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_27" from="#n_3" to="#n_4" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_28" from="#n_4" to="#n_Montecassino187" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_29" from="#n_4" to="#n_Montecassino29" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_30" from="#n_5" to="#n_Ro" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_31" from="#n_5" to="#n_phi" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_32" from="#n_phi" to="#n_Li" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_33" from="#n_beta1" to="#n_Mons43219" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_34" from="#n_beta1" to="#n_P" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_35" from="#n_beta1" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_36" from="#n_beta1" to="#n_Paris2710" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_37" from="#n_gamma2" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_38" from="#n_gamma2" to="#n_O" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_39" from="#n_gamma1" to="#n_6" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_40" from="#n_gamma1" to="#n_7" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_41" from="#n_gamma1" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_42" from="#n_6" to="#n_Ly" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_43" from="#n_6" to="#n_Oxford383" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_44" from="#n_7" to="#n_Ma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_45" from="#n_7" to="#n_Madrid10018" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_46" from="#n_8" to="#n_Albi42" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_47" from="#n_8" to="#n_Gent324" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

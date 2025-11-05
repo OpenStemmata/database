@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="alpha">
+  <data key="d0">grey</data>
+  <data key="d1">α</data>
+</node>
+<node id="x2alpha">
+  <data key="d0">grey</data>
+  <data key="d1">αα</data>
+</node>
+<node id="alphabeta">
+  <data key="d0">grey</data>
+  <data key="d1">αϐ</data>
+</node>
+<node id="A">
+  <data key="d1">A</data>
+</node>
+<node id="Y">
+  <data key="d0">grey</data>
+  <data key="d1">Y</data>
+</node>
+<node id="C">
+  <data key="d1">C</data>
+</node>
+<node id="D">
+  <data key="d1">D</data>
+</node>
+<node id="beta">
+  <data key="d0">grey</data>
+  <data key="d1">ϐ</data>
+</node>
+<node id="x2beta">
+  <data key="d0">grey</data>
+  <data key="d1">ϐϐ</data>
+</node>
+<node id="betaalpha">
+  <data key="d0">grey</data>
+  <data key="d1">ϐα</data>
+</node>
+<node id="M">
+  <data key="d1">M</data>
+</node>
+<node id="O">
+  <data key="d1">O</data>
+</node>
+<node id="S">
+  <data key="d1">S</data>
+</node>
+<node id="U">
+  <data key="d1">U</data>
+</node>
+<node id="P">
+  <data key="d1">P</data>
+</node>
+<node id="E"/>
+<node id="B">
+  <data key="d1">B</data>
+</node>
+<node id="delta">
+  <data key="d0">grey</data>
+  <data key="d1">δ</data>
+</node>
+<node id="N">
+  <data key="d1">N</data>
+</node>
+<node id="V">
+  <data key="d1">V</data>
+</node>
+<edge source="alpha" target="x2alpha">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="alpha" target="alphabeta">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x2alpha" target="A">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x2alpha" target="Y">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="alphabeta" target="B">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="alphabeta" target="delta">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y" target="C">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y" target="D">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Y" target="beta">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="beta" target="x2beta">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="beta" target="betaalpha">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x2beta" target="M">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x2beta" target="O">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x2beta" target="S">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x2beta" target="U">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="betaalpha" target="P">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="betaalpha" target="E">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="delta" target="betaalpha">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="delta" target="N">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="delta" target="V">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

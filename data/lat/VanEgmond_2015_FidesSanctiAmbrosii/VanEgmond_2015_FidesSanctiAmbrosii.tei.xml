@@ -1,0 +1,682 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Fides  sancti Ambrosii</title>
+        <author>Van Egmond, P.</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Emilie Guidi</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>The stemma codicum is made up of collections and not manuscripts in its tree structure. Each node represents a collection, seen in several witnesses. This is not a stemma codicum as such. The letters after the name of the collection are then added by us, and not in the published source.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>Traditio Patrum. I - Scriptores Hispaniae</title>
+          <author>Van Egmond, P.</author>
+          <date>2015</date>
+          <pubPlace>Turnhout</pubPlace>
+          <series>Corpus christianorum : claves subsidia </series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="4"/>
+          <biblScope unit="page" n="250"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_σa_collectio_Sanblasiana">
+            <label type="siglum">σa (collectio Sanblasiana)</label>
+            <idno>Berlin, Staastbibliothek zu Berlin, Preussischer Kulturbesitz, Philipps 1671 (Rose 78)</idno>
+            <origDate>801-900</origDate>
+            <origPlace>Fleury(Centre-Val-de-Loire, France)</origPlace>
+            <note>f 114va-144vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_σb_collectio_Sanblasiana">
+            <label type="siglum">σb (collectio Sanblasiana)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Koln</settlement>
+                <repository> Erzbischöfliche Diözan-und Dombibliotrk</repository>
+                <idno> 213</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>775-800</origDate>
+            <origPlace>Northumbria (England)</origPlace>
+            <note>f 141r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_σc_collectio_Sanblasiana">
+            <label type="siglum">σc (collectio Sanblasiana)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Lucca</settlement>
+                <repository> Biblioteca Capitolare Feliniana</repository>
+                <idno> 490</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>ca 800</origDate>
+            <origPlace>Salzburg (Tuscany, Italy)</origPlace>
+            <note>f 267r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_σd_collectio_Sanblasiana">
+            <label type="siglum">σd (collectio Sanblasiana)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Bayerische Staatsbibliothek</repository>
+                <idno> Clm 5508 (Diess. 8)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace>Salzburg (Austria)</origPlace>
+            <note>f 130rb-va</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_σe_collectio_Sanblasiana">
+            <label type="siglum">σe (collectio Sanblasiana)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 1455</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace>near Reims (Grand-Est, France) ?</origPlace>
+            <note>f 36rb-va</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_σf_collectio_Sanblasiana">
+            <label type="siglum">σf (collectio Sanblasiana)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 3836</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>701-800</origDate>
+            <origPlace>Corbie or surrounding region (Hauts-de-France, France)</origPlace>
+            <note>f 91v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_σg_collectio_Sanblasiana">
+            <label type="siglum">σg (collectio Sanblasiana)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Sankt Paul in Lavanttal</settlement>
+                <repository> Bibliothek des Benediktinerstifts</repository>
+                <idno> 7/1 (olim  XXIX Kassette 1)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace>Italy</origPlace>
+            <note>f 141v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_πacollectio_Quesnelliana">
+            <label type="siglum">πa(collectio Quesnelliana)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Arras</settlement>
+                <repository> Bibliothèque Municipale</repository>
+                <idno> 644 (572)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-1000</origDate>
+            <origPlace>Northeastern France or Northwestern Austrasia</origPlace>
+            <note>f 77rv</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_πbcollectio_Quesnelliana">
+            <label type="siglum">πb(collectio Quesnelliana)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Gravenhage</settlement>
+                <repository> Koninklijke Bibliotheek</repository>
+                <idno> 130 E 6</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace>The Netherlands-Belgium- north-eastern France</origPlace>
+            <note>f 5v-6r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_πccollectio_Quesnelliana">
+            <label type="siglum">πc(collectio Quesnelliana)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Montecassino</settlement>
+                <repository> Biblioteca del Monumento Nazionale di Monte Cassino</repository>
+                <idno> 30</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>901-1000</origDate>
+            <origPlace>Fleury(Centre-Val-de-Loire, France)</origPlace>
+            <note>p 226</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_πdcollectio_Quesnelliana">
+            <label type="siglum">πd(collectio Quesnelliana)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Oxford</settlement>
+                <repository> Oriel College</repository>
+                <idno> 42</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1101-1200</origDate>
+            <origPlace>prov. Malmesbury (Wiltshire County, England)</origPlace>
+            <note>f 51vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_πecollectio_Quesnelliana">
+            <label type="siglum">πe(collectio Quesnelliana)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 1454</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>875-900</origDate>
+            <origPlace>Paris region, Saint-Denis?</origPlace>
+            <note>f 99v-100r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_πfcollectio_Quesnelliana">
+            <label type="siglum">πf(collectio Quesnelliana)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 3842A</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace>med. Paris?</origPlace>
+            <note>f 76r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_πgcollectio_Quesnelliana">
+            <label type="siglum">πg(collectio Quesnelliana)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 3848A</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-815</origDate>
+            <origPlace>Metz region (Grand-Est, France)</origPlace>
+            <note>f 80r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_πhcollectio_Quesnelliana">
+            <label type="siglum">πh(collectio Quesnelliana)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vaticano</settlement>
+                <repository> Biblioteca Apostolica Vaticana</repository>
+                <idno> Vat. Lat. 1328</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1501-1600</origDate>
+            <origPlace></origPlace>
+            <note>f 415v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_πicollectio_Quesnelliana">
+            <label type="siglum">πi(collectio Quesnelliana)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wien</settlement>
+                <repository> Österreichische National Bibliothek</repository>
+                <idno> 2141</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>ca 780</origDate>
+            <origPlace>Lorsch region (Hesse, Germany)</origPlace>
+            <note>f 49v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_πjcollectio_Quesnelliana">
+            <label type="siglum">πj(collectio Quesnelliana)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wien</settlement>
+                <repository> Österreichische National Bibliothek</repository>
+                <idno> 2147</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>ca 780</origDate>
+            <origPlace>Lorsch region(Germany)</origPlace>
+            <note>f 81v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_ρa_Reims_Creed_Collection">
+            <label type="siglum">ρa (Reims Creed Collection)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Escorial</settlement>
+                <repository> real Biblioteca del Monasteriode San Lorenzo del Escorial</repository>
+                <idno> l III 8</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>860-870</origDate>
+            <origPlace>Senlis (Hautq-de-France, France)</origPlace>
+            <note>f 10v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_ρb_Reims_Creed_Collection">
+            <label type="siglum">ρb (Reims Creed Collection)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Orléans</settlement>
+                <repository> Bibliothèque Municipale</repository>
+                <idno> 149</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1101-1200</origDate>
+            <origPlace>Fleury(Centre-Val-de-Loire, France)</origPlace>
+            <note>p 151-152</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_ρc_Reims_Creed_Collection">
+            <label type="siglum">ρc (Reims Creed Collection)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vaticano</settlement>
+                <repository> Biblioteca Apostolica Vaticana</repository>
+                <idno> Reg. lat. 191</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace>Reims(Grand-Est,France)</origPlace>
+            <note>f 77r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_τ1a_Upper_Rhineland__tradition">
+            <label type="siglum">τ1a (Upper Rhineland  tradition)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Ausburg</settlement>
+                <repository> Staats- und Stadtbibliothek</repository>
+                <idno> 2° Cod.517</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1514</origDate>
+            <origPlace></origPlace>
+            <note>f 9v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_τ1b_Upper_Rhineland__tradition">
+            <label type="siglum">τ1b (Upper Rhineland  tradition)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Karlsruhe</settlement>
+                <repository> Badische Landesbibliothek</repository>
+                <idno> Aug. Perg. 18</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>802-821</origDate>
+            <origPlace>Reichenau(Bade-Wurtemberg, Germany)</origPlace>
+            <note>f 16ra</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_τ1c_Upper_Rhineland__tradition">
+            <label type="siglum">τ1c (Upper Rhineland  tradition)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Leiden</settlement>
+                <repository> Universiteitbibliotheek</repository>
+                <idno> BPL 67 F</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>701-1000</origDate>
+            <origPlace>north-eastern France</origPlace>
+            <note>f 154v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_τ3a_Upper_Rhineland__tradition">
+            <label type="siglum">τ3a (Upper Rhineland  tradition)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> lat. 2076</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace>abbey of Montier-en-der, diocese of Châlons</origPlace>
+            <note>f 54vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_τ3b_Upper_Rhineland__tradition">
+            <label type="siglum">τ3b (Upper Rhineland  tradition)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> lat. 2341</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>825-850</origDate>
+            <origPlace>Orléans (Centre-Val-de-Loire, France)</origPlace>
+            <note>f 150ra</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_τ1d_Upper_Rhineland__tradition">
+            <label type="siglum">τ1d (Upper Rhineland  tradition)</label>
+            <idno>Sankt Gallen, Stiftsbibliothek 40</idno>
+            <origDate>ca 780</origDate>
+            <origPlace>Sankt Gallen (Switzerland)</origPlace>
+            <note>p. 332</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_τ2a_Upper_Rhineland__tradition">
+            <label type="siglum">τ2a (Upper Rhineland  tradition)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Stuttgart</settlement>
+                <repository> Würrttembergische Landesbibliothek</repository>
+                <idno> HB VI 112</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>901-1000</origDate>
+            <origPlace>Lake Constance Area (border between Germany, Switzerland and Austria)</origPlace>
+            <note>f 1v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_τ2b_Upper_Rhineland__tradition">
+            <label type="siglum">τ2b (Upper Rhineland  tradition)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vaticano</settlement>
+                <repository> Biblioteca Apostolica Vaticana</repository>
+                <idno> Pal. lat. 176</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace> Lorsch (Hesse, Germany)</origPlace>
+            <note>f 162v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_τ2c_Upper_Rhineland__tradition">
+            <label type="siglum">τ2c (Upper Rhineland  tradition)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wien</settlement>
+                <repository> Österreichische Nationalbibliothek</repository>
+                <idno> 1032(Theol. 397)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace>Middle Rhine area</origPlace>
+            <note>f 83v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_γa_Dagulf_Creed_Collection">
+            <label type="siglum">γa (Dagulf Creed Collection)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Bruxelles</settlement>
+                <repository> Bibliothèque royale de Belgique</repository>
+                <idno> 8654-72 (1324)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-830</origDate>
+            <origPlace>Saint-Bertin (Saint-Omer,Hauts-de-France, France) </origPlace>
+            <note>f 108v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_γb_Dagulf_Creed_Collection">
+            <label type="siglum">γb (Dagulf Creed Collection)</label>
+            <idno>London, British Library, Cotton Vespasian, D XIV</idno>
+            <origDate>901-1000</origDate>
+            <origPlace>England?</origPlace>
+            <note>f 218v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_γc_Dagulf_Creed_Collection">
+            <label type="siglum">γc (Dagulf Creed Collection)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Bayerische Staatsbibliothek</repository>
+                <idno> Clm 7420 (Ind.20)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1401-1500</origDate>
+            <origPlace>Indersdorf (Upper Bavaria, Germany)</origPlace>
+            <note>f 10vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_γd_Dagulf_Creed_Collection">
+            <label type="siglum">γd (Dagulf Creed Collection)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 2390</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1101-1200</origDate>
+            <origPlace>southern France</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_γe_Dagulf_Creed_Collection">
+            <label type="siglum">γe (Dagulf Creed Collection)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 14085</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1100</origDate>
+            <origPlace>Corbie (Hauts-de-France, France)</origPlace>
+            <note>f 232r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_γf_Dagulf_Creed_Collection">
+            <label type="siglum">γf (Dagulf Creed Collection)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vaticano</settlement>
+                <repository> Biblioteca Apostolica Vaticana</repository>
+                <idno> Pagès 1</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>794-797</origDate>
+            <origPlace>Aachen(North Rhine-Westphalia)</origPlace>
+            <note>f 107v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_γg_Dagulf_Creed_Collection">
+            <label type="siglum">γg (Dagulf Creed Collection)</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wien</settlement>
+                <repository> Österreichische Nationalbibliothek</repository>
+                <idno> 1861 (Theol. 652)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>794-795</origDate>
+            <origPlace>Aachen(North Rhine-Westphalia)</origPlace>
+            <note>f 5rv</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Milano</settlement>
+                <repository> Biblioteca Ambrosiana</repository>
+                <idno> I 101 sup.</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>701-800</origDate>
+            <origPlace>Bobbio(Emilia-Romagna)</origPlace>
+            <note>f 73v, 75r ; independent manuscript</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Constitutum_Constantini">
+            <label type="siglum">Constitutum Constantini</label>
+            <idno>Constitutum Constantini</idno>
+            <origDate>310-315</origDate>
+            <origPlace></origPlace>
+            <note>only a quotation; Constitutum Constantini is a «forgerie»,supposed to have given Pope Sylvester imperium over the West in 315</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Fides  sancti Ambrosii</title>
+        <persName role="author" ref="http://viaf.org/">authorship questioned</persName>
+        <origDate>380-400</origDate>
+        <origPlace>Northern Italy</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">credo</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="lat"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/lat/VanEgmond_2015_FidesSanctiAmbrosii/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="13" size="12">
+        <label>1</label>
+        <node xml:id="n_omega" type="hypothetical" inDegree="0" outDegree="3">
+          <label>ω</label>
+        </node>
+        <node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>1</label>
+        </node>
+        <node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>2</label>
+        </node>
+        <node xml:id="n_sigma" type="witness" inDegree="1" outDegree="2">
+          <label>σ</label>
+        </node>
+        <node xml:id="n_pi" type="witness" inDegree="1" outDegree="0">
+          <label>π</label>
+        </node>
+        <node xml:id="n_rho" type="witness" inDegree="1" outDegree="0">
+          <label>ρ</label>
+        </node>
+        <node xml:id="n_gamma" type="witness" inDegree="1" outDegree="0">
+          <label>γ</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_tauone" type="witness" inDegree="1" outDegree="1">
+          <label>τ1</label>
+        </node>
+        <node xml:id="n_constitutumconstantini" type="witness" inDegree="1" outDegree="0">
+          <label>constitutum constantini</label>
+        </node>
+        <node xml:id="n_3" type="hypothetical" inDegree="1" outDegree="2">
+          <label>3</label>
+        </node>
+        <node xml:id="n_tautwo" type="witness" inDegree="1" outDegree="0">
+          <label>τ2</label>
+        </node>
+        <node xml:id="n_tauthree" type="witness" inDegree="1" outDegree="0">
+          <label>τ3</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_omega" to="#n_1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_omega" to="#n_2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_omega" to="#n_sigma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_1" to="#n_pi" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_1" to="#n_rho" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_2" to="#n_gamma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_2" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_sigma" to="#n_tauone" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_sigma" to="#n_constitutumconstantini" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_tauone" to="#n_3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_3" to="#n_tautwo" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_3" to="#n_tauthree" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

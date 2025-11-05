@@ -1,0 +1,444 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Historarium adversum paganos libri VII</title>
+        <author>Arnaud-Lindet M-P</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Emilie Guidi</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>Orose. Histoires (contre les païens), 1-3</title>
+          <author>Arnaud-Lindet M-P</author>
+          <date>1990-1991</date>
+          <pubPlace>Paris</pubPlace>
+          <series>Les Belles Lettres </series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="XC(introduction)"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Firenze</settlement>
+                <repository> Biblioteca Medicea Laurenziana</repository>
+                <idno> Plut. 65.1</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>501-600</origDate>
+            <origPlace></origPlace>
+            <note>f. 1r-189v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Milano</settlement>
+                <repository> Biblioteca Ambrosiana</repository>
+                <idno> D 23 sup.</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>601-700</origDate>
+            <origPlace></origPlace>
+            <note>f. 2r-48v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F">
+            <label type="siglum">F</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Laon</settlement>
+                <repository> Bibliothèque Municipale</repository>
+                <idno> 137</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>701-800</origDate>
+            <origPlace></origPlace>
+            <note>f. 1-69; 80-140</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Donaueschingen</settlement>
+                <repository> Fürstliche Fürstenbergische Hofbibliothek</repository>
+                <idno> 18 (private collection)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>701-800</origDate>
+            <origPlace></origPlace>
+            <note>f. 33r-51r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Mprime">
+            <label type="siglum">M'</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Bayerische Staatsbibliothek</repository>
+                <idno> Clm 29022</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>701-800</origDate>
+            <origPlace></origPlace>
+            <note>f. 1r-20</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Aprime">
+            <label type="siglum">A'</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Albi</settlement>
+                <repository> Bibliothèque Municipale</repository>
+                <idno> 29</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>701-800</origDate>
+            <origPlace></origPlace>
+            <note>f. 58v-61v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Bayerische Staatsbibliothek</repository>
+                <idno> Clm 6308</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>764-784</origDate>
+            <origPlace></origPlace>
+            <note>f. 1r-149r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_H">
+            <label type="siglum">H</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 9665</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace>701-900</origPlace>
+            <note>f. 1v-212v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P">
+            <label type="siglum">P</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vaticano</settlement>
+                <repository> Biblioteca Apostolica Vaticana</repository>
+                <idno> Pal. lat. 829</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-815</origDate>
+            <origPlace></origPlace>
+            <note>f. 1r-113r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Q">
+            <label type="siglum">Q</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vaticano</settlement>
+                <repository> Biblioteca Apostolica Vaticana</repository>
+                <idno> Reg. lat. 296</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-815</origDate>
+            <origPlace></origPlace>
+            <note>f. 1ra-107vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_U">
+            <label type="siglum">U</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Valenciennes</settlement>
+                <repository> Bibliothèque Municipale</repository>
+                <idno> 545</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-815</origDate>
+            <origPlace></origPlace>
+            <note>f. 1r-123r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Z">
+            <label type="siglum">Z</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Sankt-Peterburg</settlement>
+                <repository> Gosudarstvennaïa Publicnaïa Biblioteka im M. E. Saltykova-Scedrina</repository>
+                <idno> lat. F.v.1.9</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-850</origDate>
+            <origPlace></origPlace>
+            <note>f. 1r-162</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_I">
+            <label type="siglum">I</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>München</settlement>
+                <repository> Bayerische Staatsbibliothek</repository>
+                <idno> Clm 396</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>841-860</origDate>
+            <origPlace></origPlace>
+            <note>f. 35r-42r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_R">
+            <label type="siglum">R</label>
+            <idno>Berlin, Staatsbibliothek zu Berlin, Preussischer Kultorbesitz, Dep. Breslau 5</idno>
+            <origDate>801-900</origDate>
+            <origPlace></origPlace>
+            <note>f. 1v-87v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Sankt-Gallen</settlement>
+                <repository> Stiftsbibliothek</repository>
+                <idno> 621</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-1000</origDate>
+            <origPlace></origPlace>
+            <note>f. 5a-338a;close relationship with Einsiedeln, StiftsB, 351.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_J">
+            <label type="siglum">J</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Einsiedeln</settlement>
+                <repository> Stiftsbilbiothek</repository>
+                <idno> 351</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>871-910</origDate>
+            <origPlace></origPlace>
+            <note>f. 1-291</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/27152682592623312907">Historarium adversum paganos libri VII</title>
+        <persName role="author" ref="http://viaf.org/2479624">Paulus Orosius</persName>
+        <origDate>320-470</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">epistolary</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="lat"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/lat/ArnaudLindet_1990_OroseHistoriaadversumpaganos/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="31" size="32">
+        <label>1</label>
+        <node xml:id="n_omega" type="hypothetical" inDegree="0" outDegree="3">
+          <label>ω</label>
+        </node>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="1">
+          <label>α</label>
+        </node>
+        <node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="2">
+          <label>γ</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="3">
+          <label>β</label>
+        </node>
+        <node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>1</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>2</label>
+        </node>
+        <node xml:id="n_U" type="witness" inDegree="1" outDegree="0">
+          <label>U</label>
+        </node>
+        <node xml:id="n_3" type="hypothetical" inDegree="1" outDegree="2">
+          <label>3</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="2" outDegree="1">
+          <label>G</label>
+        </node>
+        <node xml:id="n_4" type="hypothetical" inDegree="1" outDegree="1">
+          <label>4</label>
+        </node>
+        <node xml:id="n_5" type="hypothetical" inDegree="1" outDegree="3">
+          <label>5</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_Z" type="witness" inDegree="1" outDegree="0">
+          <label>Z</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="1">
+          <label>P</label>
+        </node>
+        <node xml:id="n_6" type="hypothetical" inDegree="1" outDegree="2">
+          <label>6</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
+          <label>D</label>
+        </node>
+        <node xml:id="n_J" type="witness" inDegree="1" outDegree="0">
+          <label>J</label>
+        </node>
+        <node xml:id="n_7" type="hypothetical" inDegree="1" outDegree="3">
+          <label>7</label>
+        </node>
+        <node xml:id="n_R" type="witness" inDegree="2" outDegree="0">
+          <label>R</label>
+        </node>
+        <node xml:id="n_8" type="hypothetical" inDegree="1" outDegree="2">
+          <label>8</label>
+        </node>
+        <node xml:id="n_Q" type="witness" inDegree="1" outDegree="0">
+          <label>Q</label>
+        </node>
+        <node xml:id="n_Mprime" type="witness" inDegree="1" outDegree="0">
+          <label>M'</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_9" type="hypothetical" inDegree="1" outDegree="1">
+          <label>9</label>
+        </node>
+        <node xml:id="n_10" type="hypothetical" inDegree="1" outDegree="1">
+          <label>10</label>
+        </node>
+        <node xml:id="n_11" type="hypothetical" inDegree="1" outDegree="2">
+          <label>11</label>
+        </node>
+        <node xml:id="n_Aprime" type="witness" inDegree="1" outDegree="0">
+          <label>A'</label>
+        </node>
+        <node xml:id="n_I" type="witness" inDegree="1" outDegree="0">
+          <label>I</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_omega" to="#n_alpha" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_omega" to="#n_gamma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_omega" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_alpha" to="#n_1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_gamma" to="#n_L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_gamma" to="#n_2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_beta" to="#n_6" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_beta" to="#n_7" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_beta" to="#n_9" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_1" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_1" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_2" to="#n_U" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_2" to="#n_3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_3" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_3" to="#n_4" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_G" to="#n_J" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_4" to="#n_5" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_5" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_5" to="#n_Z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_5" to="#n_P" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_P" to="#n_R" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_22" from="#n_6" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_23" from="#n_6" to="#n_G" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_24" from="#n_7" to="#n_R" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_25" from="#n_7" to="#n_8" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_26" from="#n_7" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_27" from="#n_8" to="#n_Q" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_28" from="#n_8" to="#n_Mprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_29" from="#n_9" to="#n_10" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_30" from="#n_10" to="#n_11" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_31" from="#n_11" to="#n_Aprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_32" from="#n_11" to="#n_I" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Epistulae II</title>
+        <author>Martinez-Diez G.</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Emilie Guidi</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>The initial nodes of the tree do not represent individual manuscripts, but rather a recension.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>La Collecion Canonica Hispana</title>
+          <author>Martinez-Diez G.</author>
+          <date>1972-2002</date>
+          <pubPlace>Madrid-Barcelona</pubPlace>
+          <series></series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="1"/>
+          <biblScope unit="page" n="203"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_S">
+            <label type="siglum">S</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Escorial</settlement>
+                <repository> Real Biblioteca del Monasterio de San Lorenzo del Escorial</repository>
+                <idno> E I 13</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>901-1000</origDate>
+            <origPlace>Cordoue (codex Soriensis)</origPlace>
+            <note>f 3rb-4vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Girona</settlement>
+                <repository> Archivo Capitular</repository>
+                <idno> s. n.</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace>Girona(Catalonia, Spain)</origPlace>
+            <note>f 113ra-114vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_U">
+            <label type="siglum">U</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Seo de Urel</settlement>
+                <repository> Archivo de la Catedra</repository>
+                <idno> 2005</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1100</origDate>
+            <origPlace>Urgell(Lerida, Spain)</origPlace>
+            <note>f 100v-101v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ma">
+            <label type="siglum">Ma</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Madrid</settlement>
+                <repository> Biblioteca Nacional</repository>
+                <idno> 711</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1601-1700</origDate>
+            <origPlace></origPlace>
+            <note>f 115r-157v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_R">
+            <label type="siglum">R</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Madrid</settlement>
+                <repository> Biblioteca Nacional</repository>
+                <idno> 1872</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>901-1000</origDate>
+            <origPlace>cordovan area (codex regius)</origPlace>
+            <note>f 131ra-132vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_T">
+            <label type="siglum">T</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Madrid</settlement>
+                <repository> Biblioteca Nacional</repository>
+                <idno> 10041</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1035</origDate>
+            <origPlace>Cordoue (codex Toletanus)</origPlace>
+            <note>f 126vb-128ra</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Oxford</settlement>
+                <repository> Bodleian Lilbrary</repository>
+                <idno> Holkham misc. 19</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1100</origDate>
+            <origPlace>Monastery of St. Zenon (Italia)</origPlace>
+            <note>f 87v-88v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Z">
+            <label type="siglum">Z</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Oxford</settlement>
+                <repository> Bodleian Library</repository>
+                <idno> La. th. c. 5</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1100-1200</origDate>
+            <origPlace>Toledo (Spain)? (codex Zuritanensis)</origPlace>
+            <note>f 4v-6r; apograph of T</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Bal">
+            <label type="siglum">Bal</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 3850</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1601-1700</origDate>
+            <origPlace></origPlace>
+            <note>f 154r-156r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P">
+            <label type="siglum">P</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Roma</settlement>
+                <repository> Biblioteca Angelica</repository>
+                <idno> 1091</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-1000</origDate>
+            <origPlace>south of France (codex Passioneiensis)</origPlace>
+            <note>f 35b-37b</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Toledo</settlement>
+                <repository> Archivo y Biblioteca Capitular</repository>
+                <idno> 15-17</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1100</origDate>
+            <origPlace>Alcala de Henares (Madrid, Spain)</origPlace>
+            <note>f 131vb-132vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Vat">
+            <label type="siglum">Vat</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vaticano</settlement>
+                <repository> Biblioteca Apostolica Vaticana</repository>
+                <idno> Vat. lat. 4887</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1575</origDate>
+            <origPlace></origPlace>
+            <note>f 149r-152v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Lu_">
+            <label type="siglum">(Lu) </label>
+            <idno>Lugo, Biblioteca Capitular</idno>
+            <origDate>901-1000 ex.</origDate>
+            <origPlace>Lugo (Spain) ??</origPlace>
+            <note> lost during a fire on 7 June 1671 (Monastery library of Escorial)</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Epistulae II</title>
+        <persName role="author" ref="http://viaf.org/ 32343959 ">Montanus Episcopus Toletanus</persName>
+        <origDate>501-600</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">letter</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="lat"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/lat/MartinezDiez_1972_MontanusEpistulaeII/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="23" size="23">
+        <label>1</label>
+        <node xml:id="n_recensioI" type="hypothetical" inDegree="0" outDegree="2">
+          <label>recensio Isidoriana ca. 681</label>
+        </node>
+        <node xml:id="n_recensioJ" type="hypothetical" inDegree="1" outDegree="0">
+          <label>recensio Isidorana ca. 633</label>
+        </node>
+        <node xml:id="n_recensioV" type="hypothetical" inDegree="1" outDegree="2">
+          <label>recensio Vulgata ca. 694</label>
+        </node>
+        <node xml:id="n_kappa" type="hypothetical" inDegree="1" outDegree="2">
+          <label>κ</label>
+        </node>
+        <node xml:id="n_1" type="hypothetical" inDegree="1" outDegree="1">
+          <label>1</label>
+        </node>
+        <node xml:id="n_2" type="hypothetical" inDegree="1" outDegree="3">
+          <label>2</label>
+        </node>
+        <node xml:id="n_3" type="hypothetical" inDegree="1" outDegree="2">
+          <label>3</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="1">
+          <label>C</label>
+        </node>
+        <node xml:id="n_Ma" type="witness" inDegree="2" outDegree="0">
+          <label>Ma</label>
+        </node>
+        <node xml:id="n_Lu" type="witness" inDegree="1" outDegree="1">
+          <label>(Lu)</label>
+        </node>
+        <node xml:id="n_Vat" type="witness" inDegree="1" outDegree="0">
+          <label>Vat</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="2">
+          <label>T</label>
+        </node>
+        <node xml:id="n_Z" type="witness" inDegree="1" outDegree="0">
+          <label>Z</label>
+        </node>
+        <node xml:id="n_S" type="witness" inDegree="1" outDegree="0">
+          <label>S</label>
+        </node>
+        <node xml:id="n_4" type="hypothetical" inDegree="1" outDegree="2">
+          <label>4</label>
+        </node>
+        <node xml:id="n_5" type="hypothetical" inDegree="1" outDegree="2">
+          <label>5</label>
+        </node>
+        <node xml:id="n_P" type="witness" inDegree="1" outDegree="0">
+          <label>P</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_R" type="witness" inDegree="1" outDegree="0">
+          <label>R</label>
+        </node>
+        <node xml:id="n_mu" type="hypothetical" inDegree="1" outDegree="2">
+          <label>μ </label>
+        </node>
+        <node xml:id="n_U" type="witness" inDegree="1" outDegree="1">
+          <label>U</label>
+        </node>
+        <node xml:id="n_Bal" type="witness" inDegree="1" outDegree="0">
+          <label>Bal</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_recensioI" to="#n_recensioJ" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_recensioI" to="#n_recensioV" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_recensioV" to="#n_kappa" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_recensioV" to="#n_mu" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_kappa" to="#n_1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_kappa" to="#n_4" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_1" to="#n_2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_2" to="#n_3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_2" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_2" to="#n_Lu" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_3" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_3" to="#n_S" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_C" to="#n_Ma" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_Lu" to="#n_Vat" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_T" to="#n_Z" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_T" to="#n_Ma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_4" to="#n_5" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_4" to="#n_R" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_5" to="#n_P" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_5" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_mu" to="#n_U" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_22" from="#n_mu" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_23" from="#n_U" to="#n_Bal" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

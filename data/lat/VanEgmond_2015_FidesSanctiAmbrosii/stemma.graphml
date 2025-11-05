@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d4" for="edge" attr.name="dir" attr.type="string"/>
+<key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="omega">
+  <data key="d0">grey</data>
+  <data key="d1">ω</data>
+</node>
+<node id="1">
+  <data key="d0">grey</data>
+</node>
+<node id="2">
+  <data key="d0">grey</data>
+</node>
+<node id="sigma">
+  <data key="d1">σ</data>
+</node>
+<node id="pi">
+  <data key="d1">π</data>
+</node>
+<node id="rho">
+  <data key="d1">ρ</data>
+</node>
+<node id="gamma">
+  <data key="d1">γ</data>
+</node>
+<node id="B">
+  <data key="d1">B</data>
+</node>
+<node id="tauone">
+  <data key="d1">τ1</data>
+</node>
+<node id="constitutumconstantini">
+  <data key="d1">constitutum constantini</data>
+</node>
+<node id="3">
+  <data key="d0">grey</data>
+</node>
+<node id="tautwo">
+  <data key="d1">τ2</data>
+</node>
+<node id="tauthree">
+  <data key="d1">τ3</data>
+</node>
+<edge source="omega" target="1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="omega" target="2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="omega" target="sigma">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="1" target="pi">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="1" target="rho">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="2" target="gamma">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="2" target="B">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="sigma" target="tauone">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="sigma" target="constitutumconstantini">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+  <data key="d4">none</data>
+</edge>
+<edge source="tauone" target="3">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="3" target="tautwo">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="3" target="tauthree">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

@@ -102,106 +102,10 @@
                 <repository> Bibliothèque Municipale(Médiathèque de l’Agglomération troyenne)</repository>
                 <idno> 610</idno>
               </msIdentifier>
-              <msFrag>
-                <msIdentifier>
-                  <settlement>Montecassino</settlement>
-                  <repository> Biblioteca del Monumento Nazionale di Montecassino</repository>
-                  <idno> 16</idno>
-                </msIdentifier>
-              </msFrag>
-              <msFrag>
-                <msIdentifier>
-                  <settlement>Philadelphia</settlement>
-                  <repository> University Library</repository>
-                  <idno> lat. 63</idno>
-                </msIdentifier>
-              </msFrag>
-              <msFrag>
-                <msIdentifier>
-                  <settlement>Sevilla</settlement>
-                  <repository> Biblioteca Capitular y Colombina</repository>
-                  <idno> 85-5-3</idno>
-                </msIdentifier>
-              </msFrag>
-              <msFrag>
-                <msIdentifier>
-                  <settlement>Paris</settlement>
-                  <repository> Bibliothèque Nationale de France</repository>
-                  <idno> lat. 15298</idno>
-                </msIdentifier>
-              </msFrag>
-              <msFrag>
-                <msIdentifier>
-                  <settlement>Cesena</settlement>
-                  <repository> Biblioteca Malatestiana</repository>
-                  <idno> D XXI 5</idno>
-                </msIdentifier>
-              </msFrag>
-              <msFrag>
-                <msIdentifier>
-                  <settlement>Escorial</settlement>
-                  <repository> Real Biblioteca del Monasterio de San Lorenzo del Escorial</repository>
-                  <idno> a I 10</idno>
-                </msIdentifier>
-              </msFrag>
-              <msFrag>
-                <msIdentifier>
-                  <settlement>Vaticano</settlement>
-                  <repository> Biblioteca Apostolica Vaticana</repository>
-                  <idno> Vat. lat. 495</idno>
-                </msIdentifier>
-              </msFrag>
-              <msFrag>
-                <msIdentifier>
-                  <settlement>Vaticano</settlement>
-                  <repository> Biblioteca Apostolica Vaticana</repository>
-                  <idno> Vat. lat. 499</idno>
-                </msIdentifier>
-              </msFrag>
             </msDesc>
             <origDate>1101-1200</origDate>
             <origPlace></origPlace>
             <note>f 133r</note>
-            <ptr type="description" target=""/>
-            <ptr type="digitised" target=""/>
-            <origDate>1001-1100</origDate>
-            <origPlace></origPlace>
-            <note>p. 226-234</note>
-            <ptr type="description" target=""/>
-            <ptr type="digitised" target=""/>
-            <origDate>1101-1200</origDate>
-            <origPlace></origPlace>
-            <note>f. 36r-37v</note>
-            <ptr type="description" target=""/>
-            <ptr type="digitised" target=""/>
-            <origDate>1101-1200</origDate>
-            <origPlace></origPlace>
-            <note>f. 71r-72v</note>
-            <ptr type="description" target=""/>
-            <ptr type="digitised" target=""/>
-            <origDate>1301-1400</origDate>
-            <origPlace></origPlace>
-            <note>f. 336rv</note>
-            <ptr type="description" target=""/>
-            <ptr type="digitised" target=""/>
-            <origDate>1401-1500</origDate>
-            <origPlace></origPlace>
-            <note>f. 132rv</note>
-            <ptr type="description" target=""/>
-            <ptr type="digitised" target=""/>
-            <origDate>1401-1500</origDate>
-            <origPlace></origPlace>
-            <note>f. 262r</note>
-            <ptr type="description" target=""/>
-            <ptr type="digitised" target=""/>
-            <origDate>1001-1100</origDate>
-            <origPlace></origPlace>
-            <note>f. 200r-202v</note>
-            <ptr type="description" target=""/>
-            <ptr type="digitised" target=""/>
-            <origDate>1401-1500</origDate>
-            <origPlace></origPlace>
-            <note>f. 249v-250r</note>
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>

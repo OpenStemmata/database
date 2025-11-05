@@ -1,0 +1,442 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Continuatio Chronicorum Hieronymianorum ad a. 468</title>
+        <author>Burgess R.W.</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Emilie Guidi</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="book">
+          <title>The Chronicle of Hydatius and the Consularia Constantinopolitana, Two Contemporary Accounts of the Final Year of the Roman Empire</title>
+          <author>Burgess R.W.</author>
+          <date>1993</date>
+          <pubPlace>Oxford</pubPlace>
+          <series>Oxford Classical Monographs</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n=""/>
+          <biblScope unit="page" n="21-22"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <idno>Berlin, Staatsbibliothek zu Berlin, Preussischer Kultorbesitz,Phillipps 1829</idno>
+            <origDate>ca 830</origDate>
+            <origPlace></origPlace>
+            <note>f 153r-172v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Carpentras</settlement>
+                <repository> Bibliothèque municipale de France</repository>
+                <idno>lat. 10910</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1501-1600</origDate>
+            <origPlace></origPlace>
+            <note>f 137r-151r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F">
+            <label type="siglum">F</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris </settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat.10910</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>701-800</origDate>
+            <origPlace></origPlace>
+            <note>f 153r-172v, copy of (F)</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Hb">
+            <label type="siglum">Hb</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> British Library</repository>
+                <idno> Egerton 1873</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>ca 1590</origDate>
+            <origPlace></origPlace>
+            <note>f 24r-27v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Hm">
+            <label type="siglum">Hm</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Madrid</settlement>
+                <repository> Biblioteca de la Universidad Central</repository>
+                <idno> 134</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1300</origDate>
+            <origPlace></origPlace>
+            <note>f 40r-41v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Hn">
+            <label type="siglum">Hn</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Madrid</settlement>
+                <repository> Biblioteca Nacional</repository>
+                <idno> 1376</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1501-1600</origDate>
+            <origPlace></origPlace>
+            <note>f 28r-31r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ht">
+            <label type="siglum">Ht</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Toledo</settlement>
+                <repository> Archivo y Biblioteca Capitular</repository>
+                <idno> 27-26</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1586-1600</origDate>
+            <origPlace></origPlace>
+            <note>f 29v-33r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_H_lost">
+            <label type="siglum">(H) lost</label>
+            <idno></idno>
+            <origDate>ca 570</origDate>
+            <origPlace>Spain</origPlace>
+            <note>lost</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A_lost">
+            <label type="siglum">(A) lost</label>
+            <idno>Manuscript from Alcobaça</idno>
+            <origDate>701-900? 901-1000?</origDate>
+            <origPlace></origPlace>
+            <note>lost</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_O_lost">
+            <label type="siglum">(O) lost</label>
+            <idno>Manuscript from Burgo de Osma</idno>
+            <origDate>1201-1300?</origDate>
+            <origPlace></origPlace>
+            <note> lost</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_IP">
+            <label type="siglum">IP</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Historia Gothorum</settlement>
+                <repository> Wandalorum et Sueurom</repository>
+                <idno> Isidore of Sevilla</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>ca 830</origDate>
+            <origPlace></origPlace>
+            <note>f 153r-172v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ha_lost">
+            <label type="siglum">(Ha) lost</label>
+            <idno>Juan Paez's transcription</idno>
+            <origDate>1501-1600</origDate>
+            <origPlace></origPlace>
+            <note>lost, transcription by Juan Paez (cronist of Philip II)</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Hc">
+            <label type="siglum">Hc</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>lost</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F_lost">
+            <label type="siglum">(F) lost</label>
+            <idno></idno>
+            <origDate>613-614</origDate>
+            <origPlace>Bourgogne (France)?</origPlace>
+            <note>lost; autograph of original text Fredegario</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_cF">
+            <label type="siglum">cF</label>
+            <idno></idno>
+            <origDate>Rest of «Fredegario» codices</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <idno>Chronica Gallica ad annum DXI, Hidacio</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>indirect tradition</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Montpellier</settlement>
+                <repository> BU Fac. Médecine</repository>
+                <idno> H 151</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>f 99v- 100r Chronicon Luxouiense, indirect tradition</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_S">
+            <label type="siglum">S</label>
+            <idno>Chronographia of Sigebert of Gembloux</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>indirect tradition</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_T">
+            <label type="siglum">T</label>
+            <idno>Chronicon abbatiae Palidensis</idno>
+            <origDate> 1182</origDate>
+            <origPlace></origPlace>
+            <note>indirect tradition</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Hs_lost">
+            <label type="siglum">(Hs) lost</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note> lost, copy from Juan Paez's transcription</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/231844919">Continuatio Chronicorum Hieronymianorum ad a. 468</title>
+        <persName role="author" ref="http://viaf.org/267516275">Idacius Episcopus Aquae Flaviae</persName>
+        <origDate>400-500</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">chronicle(historical)</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="lat"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/lat/Burgess_1993_ChronicaeIdacii/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="32" size="33">
+        <label>1</label>
+        <node xml:id="n_autograph" type="hypothetical" inDegree="0" outDegree="1">
+          <label>autograph</label>
+        </node>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="1" outDegree="2">
+          <label>α</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>β</label>
+        </node>
+        <node xml:id="n_gamma" type="hypothetical" inDegree="1" outDegree="2">
+          <label>γ</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="2">
+          <label>(H)</label>
+        </node>
+        <node xml:id="n_IP" type="witness" inDegree="1" outDegree="0">
+          <label>IP</label>
+        </node>
+        <node xml:id="n_O" type="witness" inDegree="1" outDegree="4">
+          <label>(O)</label>
+        </node>
+        <node xml:id="n_Hb" type="witness" inDegree="1" outDegree="0">
+          <label>Hb</label>
+        </node>
+        <node xml:id="n_Ha" type="witness" inDegree="1" outDegree="3">
+          <label>(Ha)</label>
+        </node>
+        <node xml:id="n_Hc" type="witness" inDegree="1" outDegree="0">
+          <label>Hc</label>
+        </node>
+        <node xml:id="n_Ht" type="witness" inDegree="1" outDegree="0">
+          <label>Ht</label>
+        </node>
+        <node xml:id="n_Hn" type="witness" inDegree="1" outDegree="0">
+          <label>Hn</label>
+        </node>
+        <node xml:id="n_Hs" type="witness" inDegree="2" outDegree="0">
+          <label>(Hs)</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="1">
+          <label>(A)</label>
+        </node>
+        <node xml:id="n_Hm" type="witness" inDegree="1" outDegree="0">
+          <label>Hm</label>
+        </node>
+        <node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="1">
+          <label>δ</label>
+        </node>
+        <node xml:id="n_deltaprime" type="hypothetical" inDegree="1" outDegree="3">
+          <label>δ'</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="3">
+          <label>B</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_Bprime" type="witness" inDegree="1" outDegree="1">
+          <label>B'</label>
+        </node>
+        <node xml:id="n_epsilon" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ε</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="2" outDegree="0">
+          <label>T</label>
+        </node>
+        <node xml:id="n_S" type="witness" inDegree="1" outDegree="0">
+          <label>S</label>
+        </node>
+        <node xml:id="n_Fpar" type="witness" inDegree="1" outDegree="2">
+          <label>(F)</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <node xml:id="n_phi" type="hypothetical" inDegree="1" outDegree="2">
+          <label>φ</label>
+        </node>
+        <node xml:id="n_Fdeux" type="witness" inDegree="1" outDegree="0">
+          <label>F2</label>
+        </node>
+        <node xml:id="n_cF" type="witness" inDegree="1" outDegree="0">
+          <label>cF</label>
+        </node>
+        <node xml:id="n_mu" type="hypothetical" inDegree="1" outDegree="1">
+          <label>μ</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_kappa" type="hypothetical" inDegree="1" outDegree="1">
+          <label>κ</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_autograph" to="#n_alpha" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_alpha" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_alpha" to="#n_kappa" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_beta" to="#n_gamma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_beta" to="#n_delta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_gamma" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_gamma" to="#n_IP" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_H" to="#n_O" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_H" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_O" to="#n_Hb" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_O" to="#n_Ha" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_O" to="#n_Hc" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_O" to="#n_Hs" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_Ha" to="#n_Ht" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_Ha" to="#n_Hn" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_Ha" to="#n_Hs" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_A" to="#n_Hm" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_delta" to="#n_deltaprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_deltaprime" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_deltaprime" to="#n_Fpar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_deltaprime" to="#n_mu" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_22" from="#n_B" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_23" from="#n_B" to="#n_Bprime" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_24" from="#n_B" to="#n_epsilon" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_25" from="#n_Bprime" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_26" from="#n_epsilon" to="#n_S" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_27" from="#n_epsilon" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_28" from="#n_Fpar" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_29" from="#n_Fpar" to="#n_phi" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_30" from="#n_phi" to="#n_Fdeux" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_31" from="#n_phi" to="#n_cF" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_32" from="#n_mu" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_33" from="#n_kappa" to="#n_G" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

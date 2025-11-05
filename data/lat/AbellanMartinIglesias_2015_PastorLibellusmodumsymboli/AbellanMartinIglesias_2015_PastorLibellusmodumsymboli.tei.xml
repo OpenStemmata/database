@@ -1,0 +1,935 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Libellus in modum symboli</title>
+        <author>Abellan, S. I., Martin-Iglesias, J. C.</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName>Emilie Guidi</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>The stemma codicum is made up of collections and not manuscripts in its tree structure. Each node represents a collection, seen in several witnesses. This is not a stemma codicum as such. The letters after the name of the collection are then added by us, and not in the published source.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>Traditio Patrum. I - Scriptores Hispaniae</title>
+          <author>Abellan, S. I., Martin-Iglesias, J. C.</author>
+          <date>2015</date>
+          <pubPlace>Turnhout</pubPlace>
+          <series>Corpus christianorum : claves subsidia </series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="4"/>
+          <biblScope unit="page" n="349"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_Colleccion_Hispana_a">
+            <label type="siglum">Colleccion Hispana a</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Escorial</settlement>
+                <repository> Real Biblioteca del Monasterio de San Lorenzo del Escorial</repository>
+                <idno> d I 1</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>901-1000</origDate>
+            <origPlace>San Millan de la Cogolla (La Rioja, Spain)</origPlace>
+            <note>f 131ra-vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_b">
+            <label type="siglum">Colleccion Hispana b</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Escorial</settlement>
+                <repository> Real Biblioteca del Monasterio de San Lorenzo del Escorial</repository>
+                <idno> d I 2</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>901-1000</origDate>
+            <origPlace>San Martin de Albelda (La Rioja, Spain)</origPlace>
+            <note>f 143bis ra-vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_c">
+            <label type="siglum">Colleccion Hispana c</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Escorial</settlement>
+                <repository> Real Biblioteca del Monasterio de San Lorenzo del Escorial</repository>
+                <idno> e I 12</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace>South of Spain (maybe Cordoba?)</origPlace>
+            <note>f 107ra-vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_d">
+            <label type="siglum">Colleccion Hispana d</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Escorial</settlement>
+                <repository> Real Biblioteca del Monasterio de San Lorenzo del Escorial</repository>
+                <idno> e I 13</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>901-1100</origDate>
+            <origPlace>Cordoba (Andalusia, Spain)</origPlace>
+            <note>f 1vb-2rb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_e">
+            <label type="siglum">Colleccion Hispana e</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Girona</settlement>
+                <repository> Archivo Capitular</repository>
+                <idno> Codice Conciliar</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace>Gerona(Catalonia, Spain)</origPlace>
+            <note>f 111ra-vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_f">
+            <label type="siglum">Colleccion Hispana f</label>
+            <idno>Karlsruhe, Badische Landesbibliothek, Augiensis perg. 18, f. 14rb</idno>
+            <origDate>801-900</origDate>
+            <origPlace>Reichenau ( Bade-Wurtemberg, Germany)</origPlace>
+            <note>f 14rb; mutilated (it is the only manuscript that does not include the acts of the First Council of Toledo)</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_g">
+            <label type="siglum">Colleccion Hispana g</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Madrid</settlement>
+                <repository> Biblioteca Nacional</repository>
+                <idno> 711</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1601-1700</origDate>
+            <origPlace>San Millan de la Cogolla (La Rioja, Spain)</origPlace>
+            <note>f 164v-165v and 152r; apograph from Madrid, Biblioteca Nacional, 10041 with commentaries and variants from Toledo, A. and B. Cap. 15-17 and Escorial (EL), B. Mon. d I 1)</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_h">
+            <label type="siglum">Colleccion Hispana h</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Madrid</settlement>
+                <repository> Biblioteca Nacional</repository>
+                <idno> 1872</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>901-1000</origDate>
+            <origPlace>region of Cordoba (Andalusia, Spain)</origPlace>
+            <note>f 128vb-129va</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_i">
+            <label type="siglum">Colleccion Hispana i</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Madrid</settlement>
+                <repository> Biblioteca Nacional</repository>
+                <idno> 10041</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1034</origDate>
+            <origPlace>San Millan de la Cogolla (La Rioja, Spain)</origPlace>
+            <note>f 125rb-vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_j">
+            <label type="siglum">Colleccion Hispana j</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Madrid</settlement>
+                <repository> Biblioteca Nacional</repository>
+                <idno> 13407</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1800</origDate>
+            <origPlace>San Millan de la Cogolla (La Rioja, Spain)</origPlace>
+            <note>f 208v-209v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_k">
+            <label type="siglum">Colleccion Hispana k</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Oxford</settlement>
+                <repository> Bodleian Library</repository>
+                <idno> Holkham misc. 19</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1100 (Tuscany, Italy)</origDate>
+            <origPlace>Pistoia</origPlace>
+            <note>f 86r-87r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_l">
+            <label type="siglum">Colleccion Hispana l</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Oxford</settlement>
+                <repository> Bodleian Library</repository>
+                <idno> Lat. th. c. 5</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1101-1200</origDate>
+            <origPlace></origPlace>
+            <note>maybe Toledo (Spain); apograph from Madrid, BN, 10041</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_m">
+            <label type="siglum">Colleccion Hispana m</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 3850</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1601-1700</origDate>
+            <origPlace>San Millan de la Cogolla (La Rioja, Spain)</origPlace>
+            <note>f 151v-152v; apograph from Seo de Urgel, AC, 2005</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_n">
+            <label type="siglum">Colleccion Hispana n</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Roma</settlement>
+                <repository> Biblioteca Angelica</repository>
+                <idno> 1091</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-1000</origDate>
+            <origPlace>south of France</origPlace>
+            <note>p. 33a-34a</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_o">
+            <label type="siglum">Colleccion Hispana o</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Seo de Urgel</settlement>
+                <repository> Archivo de la Catedral</repository>
+                <idno> 2005</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1100</origDate>
+            <origPlace>probably Seo de Urgel (Lérida, Spain)</origPlace>
+            <note>f 98vb-99va</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_p">
+            <label type="siglum">Colleccion Hispana p</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Toledo </settlement>
+                <repository>Archivio y Biblioteca Capitular</repository>
+                <idno> 15-17</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1095</origDate>
+            <origPlace>Alcala de Henares (Madrid, Spain)</origPlace>
+            <note>f 130ra-vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_Gallica_a">
+            <label type="siglum">Colleccion Hispana Gallica a</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Roma</settlement>
+                <repository> Biblioteca Vallicelliana</repository>
+                <idno> D 18</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>901-1000</origDate>
+            <origPlace></origPlace>
+            <note>f 61v-62v</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_Gallica_b">
+            <label type="siglum">Colleccion Hispana Gallica b</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wien</settlement>
+                <repository> Osterreichische Nationalbibliothek</repository>
+                <idno> 411</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>701-900</origDate>
+            <origPlace>East of France</origPlace>
+            <note>f 101r-102r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_Gallica_c">
+            <label type="siglum">Colleccion Hispana Gallica c</label>
+            <idno>Estraburgo, codex Rachionis</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>lost; destructed during the city’s bombardment in 1870.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_q">
+            <label type="siglum">Colleccion Hispana q</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vaticano</settlement>
+                <repository>Biblioteca Apostolica Vaticana</repository>
+                <idno> Pal. lat. 575</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-1000</origDate>
+            <origPlace>San Martin de Maguncia (Maguncia, Germany)</origPlace>
+            <note>f 4vb-5va</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_r">
+            <label type="siglum">Colleccion Hispana r</label>
+            <idno>Lugo, Biblioteca Capitular</idno>
+            <origDate>901-1000</origDate>
+            <origPlace></origPlace>
+            <note>lost; destructed during the fire of El Escorial monastery’s library (June 7, 1641)</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_s">
+            <label type="siglum">Colleccion Hispana s</label>
+            <idno>Oviedo, Biblioteca de la Catedral</idno>
+            <origDate>701-800</origDate>
+            <origPlace>Andalusia or Toledo (Spain)?</origPlace>
+            <note>lost</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_t">
+            <label type="siglum">Colleccion Hispana t</label>
+            <idno>Carrion de los Condes, Biblioteca del monastero de San Zoilo</idno>
+            <origDate>901-1000</origDate>
+            <origPlace>Cordoba(Andalusia)</origPlace>
+            <note>lost</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_u">
+            <label type="siglum">Colleccion Hispana u</label>
+            <idno>San Pedro de Montes</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>lost</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_v">
+            <label type="siglum">Colleccion Hispana v</label>
+            <idno>Celanova</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>lost</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_w">
+            <label type="siglum">Colleccion Hispana w</label>
+            <idno>Oña</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>lost</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_x">
+            <label type="siglum">Colleccion Hispana x</label>
+            <idno>San Juan de la Peña</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>lost</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_y">
+            <label type="siglum">Colleccion Hispana y</label>
+            <idno>San Pedro de Cardeña</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>lost</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_z">
+            <label type="siglum">Colleccion Hispana z</label>
+            <idno>codex Hispalense</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>lost; also destructed by the fire at Escorial in 1671.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_zbis">
+            <label type="siglum">Colleccion Hispana zbis</label>
+            <idno>San Pedro de Arlanza</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_Gallica_Augustodunensis_a">
+            <label type="siglum">Colleccion Hispana Gallica Augustodunensis a</label>
+            <idno>Berlin, Staatsbibliothek zu Berlin, PreuBischer Kulturbesitz, Hamilton 132</idno>
+            <origDate>801-900</origDate>
+            <origPlace>France</origPlace>
+            <note>f 181vb-182rb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hispana_Gallica_Augustodunensis_b">
+            <label type="siglum">Colleccion Hispana Gallica Augustodunensis b</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vaticano</settlement>
+                <repository> Biblioteca Apostolica Vaticana</repository>
+                <idno> Vat. lat.1341</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace>Autun (Bourgogne-Franche-Comté, France)</origPlace>
+            <note>f 63ra-va</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_a">
+            <label type="siglum">Colleccion Pseudoisidoriana a</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Angers</settlement>
+                <repository> Bibliothèque Municipale</repository>
+                <idno> 367(354)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>901-1000</origDate>
+            <origPlace>Angers (Pays de la Loire, France)</origPlace>
+            <note>f 135va-136ra</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_b">
+            <label type="siglum">Colleccion Pseudoisidoriana b</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Boulogne-sur-mer</settlement>
+                <repository> Bibliothèque Municipale</repository>
+                <idno> 115</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1101-1200</origDate>
+            <origPlace>Flandres (Nord-Pas-de-Calais, France)</origPlace>
+            <note>f 113va-114ra</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_c">
+            <label type="siglum">Colleccion Pseudoisidoriana c</label>
+            <idno>Boulogne-sur-mer, Bibliothèque Municipale, 116, tom. 1</idno>
+            <origDate>1101-1200</origDate>
+            <origPlace>Flandres (Nord-Pas-de-Calais, France)</origPlace>
+            <note>f 109ra-va</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_d">
+            <label type="siglum">Colleccion Pseudoisidoriana d</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Cambrai</settlement>
+                <repository> Bibliothèque Municipale</repository>
+                <idno> 624(575)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1101-1200</origDate>
+            <origPlace>very deteriorated</origPlace>
+            <note>f 92va-93ra</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_e">
+            <label type="siglum">Colleccion Pseudoisidoriana e</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Chartes</settlement>
+                <repository> Bibliothèque Municipale</repository>
+                <idno> 376( olim 140)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1100</origDate>
+            <origPlace>Chartes (Centre-Val de Loire, France)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_f">
+            <label type="siglum">Colleccion Pseudoisidoriana f</label>
+            <idno>Douai, Bibliothèque Municipale, 582, tom. 1</idno>
+            <origDate>1101-1200</origDate>
+            <origPlace>Saint-Bertin (Saint-Omer, Hauts-de-France, Paris)</origPlace>
+            <note>f 155va-156ra</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_g">
+            <label type="siglum">Colleccion Pseudoisidoriana g</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Eton</settlement>
+                <repository> Eton College Library</repository>
+                <idno> 97 (olim Bl.1.6)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1101-1200</origDate>
+            <origPlace>maybe Normandie (France)</origPlace>
+            <note>f 304rb-vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_h">
+            <label type="siglum">Colleccion Pseudoisidoriana h</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Lincoln</settlement>
+                <repository> Lincoln Cathedral Library</repository>
+                <idno> 161 (olim B.2.3)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1101-1200</origDate>
+            <origPlace>Lincoln(Lincolnshire, England)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_i">
+            <label type="siglum">Colleccion Pseudoisidoriana i</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> British Library</repository>
+                <idno> Royal 9 B XII</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1101-1200</origDate>
+            <origPlace>Worcester(Worcestershire, England)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_j">
+            <label type="siglum">Colleccion Pseudoisidoriana j</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> British Library</repository>
+                <idno> Royal 11 D IV</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1401-1500</origDate>
+            <origPlace>Great-Britain</origPlace>
+            <note>it seems to belong to the tradition of Eton, College Library, 97 (directly ou indirectly)</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_k">
+            <label type="siglum">Colleccion Pseudoisidoriana k</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> British Library</repository>
+                <idno> Royal 11 D VIII</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1101-1200</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_l">
+            <label type="siglum">Colleccion Pseudoisidoriana l</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> British Library</repository>
+                <idno> Cotton Claudius D IX</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1300</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_m">
+            <label type="siglum">Colleccion Pseudoisidoriana m</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Milano</settlement>
+                <repository> Biblioteca Ambrosiana</repository>
+                <idno> A 87 inf.</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1100</origDate>
+            <origPlace>Angers (Pays-de-la-Loire, France)</origPlace>
+            <note>f 153v-154r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_n">
+            <label type="siglum">Colleccion Pseudoisidoriana n</label>
+            <idno>Montpellier, Bibliothèque interuniversitaire, Faculté de Médecine, H 3, tom. 1</idno>
+            <origDate>1101-1200</origDate>
+            <origPlace>north of France</origPlace>
+            <note>f 126rb-vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_o">
+            <label type="siglum">Colleccion Pseudoisidoriana o</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque de l’Assemblée Nationale</repository>
+                <idno> 27 (B 19)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1101-1200</origDate>
+            <origPlace>north of France</origPlace>
+            <note>f 85va-86ra</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_p">
+            <label type="siglum">Colleccion Pseudoisidoriana p</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 1563</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1401-1500</origDate>
+            <origPlace></origPlace>
+            <note>f 62ra-va</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_q">
+            <label type="siglum">Colleccion Pseudoisidoriana q</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 3853</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1154-1159</origDate>
+            <origPlace>Saint-Amand (Bourgogne-Franche-Comté, France)</origPlace>
+            <note>f 111va-112ra</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_r">
+            <label type="siglum">Colleccion Pseudoisidoriana r</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 3855</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1401-1500</origDate>
+            <origPlace>english origin</origPlace>
+            <note>f 95va-96ra</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_s">
+            <label type="siglum">Colleccion Pseudoisidoriana s</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 14314</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1101-1200</origDate>
+            <origPlace>Flandres (Nord-Pas-de-Calais, France)</origPlace>
+            <note>f 103rv-vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_t">
+            <label type="siglum">Colleccion Pseudoisidoriana t</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Roma</settlement>
+                <repository> Biblioteca Casanatense</repository>
+                <idno> 221 (D III 16)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1401-1500</origDate>
+            <origPlace>Italy</origPlace>
+            <note>f 228vb-229va</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_u">
+            <label type="siglum">Colleccion Pseudoisidoriana u</label>
+            <idno>Saint-Omer, Bibliothèque Municipale, 189, tom. 2</idno>
+            <origDate>1001-1100</origDate>
+            <origPlace>north of France</origPlace>
+            <note>f 144ra-va</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_v">
+            <label type="siglum">Colleccion Pseudoisidoriana v</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Torino</settlement>
+                <repository> Biblioteca Nazionale Universitaria</repository>
+                <idno> E II 26</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1401-1500</origDate>
+            <origPlace>Italy</origPlace>
+            <note>f 212v-213r ; it’s the possible copy of Milao, BA, A 87 inf..</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_w">
+            <label type="siglum">Colleccion Pseudoisidoriana w</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vaticano</settlement>
+                <repository> Biblioteca Apostolica Vaticana</repository>
+                <idno> Ottob. lat. 93</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace>north of France</origPlace>
+            <note>f 68va-69ra</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_x">
+            <label type="siglum">Colleccion Pseudoisidoriana x</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vaticano</settlement>
+                <repository> Biblioteca Apostolica Vaticana</repository>
+                <idno> Vat. lat. 630</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>801-900</origDate>
+            <origPlace>Corbie( Somme, Hauts-de-France, France)</origPlace>
+            <note>f 131rb-va</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_y">
+            <label type="siglum">Colleccion Pseudoisidoriana y</label>
+            <idno>Vaticano, Biblioteca Apostolica Vaticana, Vat. lat. 631, tom. 1</idno>
+            <origDate>1201-1300</origDate>
+            <origPlace>France</origPlace>
+            <note>f 145rb-vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_z">
+            <label type="siglum">Colleccion Pseudoisidoriana z</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vaticano</settlement>
+                <repository> Biblioteca Apostolica Vaticana</repository>
+                <idno> Vat. lat. 1340</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1300</origDate>
+            <origPlace>France</origPlace>
+            <note>f 109v-110r</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_ybis">
+            <label type="siglum">Colleccion Pseudoisidoriana ybis</label>
+            <idno>Vendôme, Bibliothèque municipale 91</idno>
+            <origDate>1001-1100</origDate>
+            <origPlace>Angers (Pays de Loire, France)</origPlace>
+            <note>f 142vb-143rb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Pseudoisidoriana_zbis">
+            <label type="siglum">Colleccion Pseudoisidoriana zbis</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Venezia</settlement>
+                <repository> Biblioteca Nazionale di San Marco</repository>
+                <idno> lat. Z 168 (1615)</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1401-1500</origDate>
+            <origPlace>Venezia (Veneto, Italy)</origPlace>
+            <note>f 2032ra-vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_Hadriano-Hispanica_">
+            <label type="siglum">Colleccion Hadriano-Hispanica </label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Vaticano</settlement>
+                <repository> Biblioteca Apostolica Vaticana</repository>
+                <idno> Vat. lat. 1338</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1100</origDate>
+            <origPlace>France</origPlace>
+            <note>f 131rv</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_de_Saint-Amand_a">
+            <label type="siglum">Colleccion de Saint-Amand a</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 1455</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>876-900</origDate>
+            <origPlace>around Reims (Grand-Est, France)</origPlace>
+            <note>f 128va-129ra</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Colleccion_de_Saint-Amand_b">
+            <label type="siglum">Colleccion de Saint-Amand b</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque Nationale de France</repository>
+                <idno> lat. 3846</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1001-1100</origDate>
+            <origPlace>north-east of France</origPlace>
+            <note>f 193rb-vb</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Libellus in modum symboli</title>
+        <persName role="author" ref="http://viaf.org/34844049">Pastor episcopus  gallaeciae</persName>
+        <origDate>301-400</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">symbol of faith</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="lat"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/lat/AbellanMartinIglesias_2015_PastorLibellusmodumsymboli/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="5" size="4">
+        <label>1</label>
+        <node xml:id="n_H" type="witness" inDegree="0" outDegree="3">
+          <label>H</label>
+        </node>
+        <node xml:id="n_HH" type="witness" inDegree="1" outDegree="0">
+          <label>HH</label>
+        </node>
+        <node xml:id="n_HG" type="witness" inDegree="1" outDegree="1">
+          <label>HG</label>
+        </node>
+        <node xml:id="n_HA" type="witness" inDegree="1" outDegree="0">
+          <label>HA</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="0">
+          <label>T</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_H" to="#n_HH" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_H" to="#n_HG" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_H" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_HG" to="#n_HA" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

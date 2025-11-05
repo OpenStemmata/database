@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="capitalomega">
+  <data key="d0">grey</data>
+  <data key="d1">Ω</data>
+</node>
+<node id="omega">
+  <data key="d0">grey</data>
+  <data key="d1">ω</data>
+</node>
+<node id="R">
+  <data key="d1">R</data>
+</node>
+<node id="FloroofLyon">
+  <data key="d1">Floro of Lyon</data>
+</node>
+<node id="L">
+  <data key="d1">L</data>
+</node>
+<node id="V">
+  <data key="d1">V</data>
+</node>
+<node id="G">
+  <data key="d1">G</data>
+</node>
+<node id="P">
+  <data key="d1">P</data>
+</node>
+<node id="Tilius">
+  <data key="d1">edition princeps Tilius</data>
+</node>
+<node id="Bigne">
+  <data key="d1">Bigne 1575</data>
+</node>
+<node id="Bignebis">
+  <data key="d1">Bigne 1677</data>
+</node>
+<node id="M">
+  <data key="d1">M</data>
+</node>
+<node id="B">
+  <data key="d1">B</data>
+</node>
+<edge source="capitalomega" target="omega">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="omega" target="R">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="omega" target="FloroofLyon">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="R" target="FloroofLyon">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="R" target="G">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="R" target="Tilius">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="FloroofLyon" target="L">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="FloroofLyon" target="V">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="G" target="P">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Tilius" target="Bigne">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Tilius" target="B">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Bigne" target="Bignebis">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Bignebis" target="M">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>
