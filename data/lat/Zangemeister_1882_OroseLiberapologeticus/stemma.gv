@@ -1,0 +1,22 @@
+digraph {
+ A ->omega;
+ omega->sigma;
+ omega->psi;
+ omega-> 1;
+ 1->X;
+ 1->phi;
+ omega->upsilon;
+
+
+
+omega[label="ω",color=grey];
+A[label="A", color=grey];
+sigma[label="Σ"];
+psi[label="Ψ"];
+X[label="X"];
+phi[label="φ"];
+upsilon[label="Υ"];
+1[label="", color=grey];
+
+}
+

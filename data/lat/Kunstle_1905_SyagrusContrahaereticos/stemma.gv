@@ -1,0 +1,27 @@
+
+
+digraph {
+    omega->A; 
+    A->S;
+    omega->Y;
+    Y->B;
+    Y->C; 
+    Y->Z;
+    Z->O;
+    Z->P;
+    Z->R;
+    Z->V;
+    
+    
+    omega[color="grey", label="ω"];
+    Y[color="grey",label="Y"];
+    Z[color="grey",label="Z"];
+    A[label="A"];
+    B[label="B"];
+    C[label="C"];
+    O[label="O"];
+    S[label="S"];
+    R[label="R"];
+    P[label="P"];
+    V[label="V"];
+}

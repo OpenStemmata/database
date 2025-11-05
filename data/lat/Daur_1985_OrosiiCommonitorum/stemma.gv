@@ -1,0 +1,19 @@
+digraph {
+ omega-> alpha;
+ omega-> beta;
+ alpha-> A;
+ alpha -> L;
+ beta-> C ;
+ beta-> E ;
+ beta-> B ;
+
+omega[label="ω", color=grey];
+alpha[label="α", color=grey];
+beta[label="β", color=grey];
+A[label="A"];
+L[label="L"];
+C[label="C"];
+E[label="E"];
+B[label="B"];
+}
+

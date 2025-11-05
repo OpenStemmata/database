@@ -1,0 +1,46 @@
+digraph {
+    alpha->x2alpha; 
+    alpha ->alphabeta;
+    x2alpha ->A;
+    x2alpha ->Y;
+    Y ->C;
+    Y ->D;
+    Y ->beta;
+    beta ->x2beta;
+    beta ->betaalpha;
+    x2beta ->M;
+    x2beta ->O;
+    x2beta ->S;
+    x2beta ->U;
+    betaalpha->P;
+    betaalpha->E;
+    alphabeta ->B;
+    alphabeta ->delta;
+    delta ->betaalpha;
+    delta ->N;
+    delta ->V;
+    
+    
+    alpha [color="grey", label="α"];
+    x2alpha[color="grey",label="αα"]; 
+    alphabeta[color="grey",label="αϐ"];
+    Y[color="grey",label="Y"];
+    A[label="A"];
+    B[label="B"];
+    delta[color="grey",label="δ"];
+    beta[color="grey",label="ϐ"];
+    x2beta[color="grey",label="ϐϐ"];
+    betaalpha[color="grey",label="ϐα"];
+    C[label="C"];
+    D[label="D"];
+    M[label="M"];
+    O[label="O"];
+    S[label="S"];
+    U[label="U"];
+    P[label="P"];
+    N[label="N"];
+    V[label="V"];
+
+}
+
+
