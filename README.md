@@ -12,6 +12,7 @@ _🏆 most represented languages_
 _🥈 less represented languages_
 
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fgrc?type=dir&style=flat&label=grc)
+![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Flat?type=dir&style=flat&label=lat)
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fpro?type=dir&style=flat&label=pro)
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Ffrm?type=dir&style=flat&label=frm)
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fwlm?type=dir&style=flat&label=wlm)
@@ -21,7 +22,6 @@ _🌱 lonely trees_
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fita?type=dir&style=flat&label=ita)
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fgez?type=dir&style=flat&label=gez)
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fnon?type=dir&style=flat&label=non)
-![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Flat?type=dir&style=flat&label=lat)
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fosp?type=dir&style=flat&label=osp)
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fdum?type=dir&style=flat&label=dum)
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fegy?type=dir&style=flat&label=egy)
