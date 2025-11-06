@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Hymne à Osiris</title>
+        <author>Patane, Massimo</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0009-0003-3460-0821">Adonis Dulaurent </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>There are some surprising things on this stemma: apparent direct descents between surviving nodes, as well as hypothetical node as leaf (?). Witness data were obtained from D.C. Luft, Osiris-Hymnen (Mohr-Siebeck 2019), which proposes a new and more complete stemma.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>Approche d’un texte a plusieurs variantes</title>
+          <author>Patane, Massimo</author>
+          <date>1984-1985</date>
+          <pubPlace>Genève</pubPlace>
+          <series>Bulletin de la Société d’Égyptologie de Genève</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="9-10"/>
+          <biblScope unit="page" n="224"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_G">
+            <label type="siglum">G</label>
+            <idno>Stela Cairo CG 34057 (Neferhotep A)</idno>
+            <origDate></origDate>
+            <origPlace>Gournah (Egypt)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_H">
+            <label type="siglum">H</label>
+            <idno>Stela Cairo CG 34057 (Neferhotep B)</idno>
+            <origDate></origDate>
+            <origPlace>Gournah (Egypt)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <idno>Stela London BM 218</idno>
+            <origDate>13. Dynasty</origDate>
+            <origPlace>Abydos (Egypt)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <idno>Stela Cairo CG 20498</idno>
+            <origDate>13. Dynasty</origDate>
+            <origPlace>Abydos (Egypt)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_I">
+            <label type="siglum">I</label>
+            <idno>Ptahmes Statue</idno>
+            <origDate>18. Dynasty (time of Thutmosis III)</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <idno>Stela Brussels E 5300</idno>
+            <origDate>19. Dynasty (time of Sethos I)</origDate>
+            <origPlace>Abydos (Egypt)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <idno>Stella Leiden no 50</idno>
+            <origDate>20-21. dynasty</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ja">
+            <label type="siglum">J(a)</label>
+            <idno>Vatican 63</idno>
+            <origDate>18. dynasty</origDate>
+            <origPlace>Thebe (Egypt)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <idno>Stela Louvre C 30</idno>
+            <origDate>13. dynasty</origDate>
+            <origPlace>Abydos (Egypt)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <idno>Stela Louvre no 88</idno>
+            <origDate>13. dynasty</origDate>
+            <origPlace>Abydos (Egypt)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_K">
+            <label type="siglum">K</label>
+            <idno>Statue Ägyptisches Museum Berlin 2294</idno>
+            <origDate>Time of Tutankhamun</origDate>
+            <origPlace>Abydos (Egypt)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F">
+            <label type="siglum">F</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_N">
+            <label type="siglum">N</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Hymne à Osiris</title>
+        <persName role="author" ref="http://viaf.org/">Anonymous</persName>
+        <origDate>ca. 1974-1781 BCE</origDate>
+        <origPlace>Egypte </origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">Religious hymn</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="egy"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/egy/Patane_1985_HymneAOsiris/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="28" size="27">
+        <label></label>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="0" outDegree="2">
+          <label>α</label>
+        </node>
+        <node xml:id="n_gama" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Γ</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>β</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="2">
+          <label>C</label>
+        </node>
+        <node xml:id="n_mu" type="hypothetical" inDegree="1" outDegree="2">
+          <label>μ</label>
+        </node>
+        <node xml:id="n_rho" type="hypothetical" inDegree="1" outDegree="0">
+          <label>ρ</label>
+        </node>
+        <node xml:id="n_k" type="witness" inDegree="1" outDegree="0">
+          <label>k</label>
+        </node>
+        <node xml:id="n_to" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ξ</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_sigma" type="hypothetical" inDegree="1" outDegree="2">
+          <label>σ</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <node xml:id="n_N" type="witness" inDegree="1" outDegree="0">
+          <label>N</label>
+        </node>
+        <node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>δ</label>
+        </node>
+        <node xml:id="n_G" type="witness" inDegree="1" outDegree="0">
+          <label>G</label>
+        </node>
+        <node xml:id="n_H" type="witness" inDegree="1" outDegree="0">
+          <label>H</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="2">
+          <label>B</label>
+        </node>
+        <node xml:id="n_epsilon" type="hypothetical" inDegree="1" outDegree="1">
+          <label>ε</label>
+        </node>
+        <node xml:id="n_J" type="witness" inDegree="1" outDegree="0">
+          <label>J</label>
+        </node>
+        <node xml:id="n_eta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>η</label>
+        </node>
+        <node xml:id="n_omicron" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ο</label>
+        </node>
+        <node xml:id="n_D" type="witness" inDegree="1" outDegree="0">
+          <label>D</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="2">
+          <label>E</label>
+        </node>
+        <node xml:id="n_I" type="witness" inDegree="1" outDegree="0">
+          <label>I</label>
+        </node>
+        <node xml:id="n_lambda" type="hypothetical" inDegree="1" outDegree="1">
+          <label>λ</label>
+        </node>
+        <node xml:id="n_pi" type="hypothetical" inDegree="1" outDegree="1">
+          <label>π</label>
+        </node>
+        <node xml:id="n_LA" type="witness" inDegree="1" outDegree="0">
+          <label>LA</label>
+        </node>
+        <node xml:id="n_Ja" type="witness" inDegree="1" outDegree="0">
+          <label>J(a)</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_alpha" to="#n_gama" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_alpha" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_gama" to="#n_delta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_gama" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_beta" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_beta" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_C" to="#n_mu" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_C" to="#n_to" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_mu" to="#n_rho" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_mu" to="#n_k" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_to" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_to" to="#n_sigma" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_sigma" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_sigma" to="#n_N" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_delta" to="#n_G" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_delta" to="#n_H" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_B" to="#n_epsilon" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_18" from="#n_B" to="#n_eta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_19" from="#n_epsilon" to="#n_J" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_20" from="#n_eta" to="#n_omicron" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_21" from="#n_eta" to="#n_D" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_22" from="#n_omicron" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_23" from="#n_omicron" to="#n_I" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_24" from="#n_E" to="#n_lambda" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_25" from="#n_E" to="#n_pi" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_26" from="#n_lambda" to="#n_LA" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_27" from="#n_pi" to="#n_Ja" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

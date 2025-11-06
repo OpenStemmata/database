@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable"> Pyramid Texts spell 302-312</title>
+        <author>Jochem Kahl</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0009-0003-3460-0821">Adonis Dulaurent</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>The witnesses printed on the stemma are not all those who are described. The author specifies that Aba and P should not be classified below gamma, and that T 3 Be should not be classified below zeta. The author also states that the older text of W goes back to epsilon, while the modified text goes back to gamma (they could be encoded as two different witnesses, practically)</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>Das überlieferungsgeschichtliche Verhältnis von Unas und Sesostrisanch am Beispiel von PT 302-312</title>
+          <author>Jochem Kahl</author>
+          <date>1995</date>
+          <pubPlace>Hamburg</pubPlace>
+          <series>Studien zur Altägyptischen Kultur</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="22"/>
+          <biblScope unit="page" n="197"/>
+          <ptr type="digitised" target="https://archiv.ub.uni-heidelberg.de/propylaeumdok/2374/1/Kahl_Das_ueberlieferungsgeschichtliche_Verhaeltnis_von_Unas_1995.pdf"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_Aba">
+            <label type="siglum">Aba</label>
+            <idno>Pyramid of the king ḳꜣ-kꜣ-Rꜥw I̓bi̓</idno>
+            <origDate>ca. 2250-2200 BCE</origDate>
+            <origPlace>Saqqara (Egypt)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_M">
+            <label type="siglum">M</label>
+            <idno>Pyramid of the king Mr.n-Rꜥw</idno>
+            <origDate>ca. 2413-2250 BCE</origDate>
+            <origPlace>Saqqara (Egypt)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_N">
+            <label type="siglum">N</label>
+            <idno>Pyramid of the king Nfr-kꜣ-Rꜥw Ppy</idno>
+            <origDate>ca. 2250-2200 BCE</origDate>
+            <origPlace>Saqqara (Egypt)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Nt">
+            <label type="siglum">Nt</label>
+            <idno>Pyramid of the king Ni̓.t</idno>
+            <origDate>ca. 2250-2200 BCE</origDate>
+            <origPlace>Saqqara (Egypt)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P">
+            <label type="siglum">P</label>
+            <idno>Pyramid of the king MrI̓.y-Rꜥw Ppy</idno>
+            <origDate>ca. 2250-2200 BCE</origDate>
+            <origPlace>Saqqara (Egypt)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Q_1_Q">
+            <label type="siglum">Q 1 Q</label>
+            <idno>Burial chamber of Nhꜣ</idno>
+            <origDate>ca. 1974-1781 BCE</origDate>
+            <origPlace>El Qattah (Egypt)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_S">
+            <label type="siglum">S</label>
+            <idno>Burial chamber of Si̓-ni̓-wśr.t-ꜥnḫ</idno>
+            <origDate>ca. 1974-1781 BCE</origDate>
+            <origPlace>al-lišt (Egypt)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_T">
+            <label type="siglum">T</label>
+            <idno>Pyramid of the king Tti̓</idno>
+            <origDate>ca. 2413-2250 BCE</origDate>
+            <origPlace>Saqqara (Egypt)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_T_3_Be">
+            <label type="siglum">T 3 Be</label>
+            <idno>Sarg of Śbk-ꜥꜣ</idno>
+            <origDate>ca. 1974-1700 BCE</origDate>
+            <origPlace>Thebes (Egypt)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_TT_33">
+            <label type="siglum">TT 33</label>
+            <idno>Tomb of  P(ꜣ)-ṭi̓-I̓mn.w-i̓p.t</idno>
+            <origDate>ca. 750-650 BCE</origDate>
+            <origPlace>Assasif (Egypt)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_W">
+            <label type="siglum">W</label>
+            <idno>Pyramid of the king Wni̓ś</idno>
+            <origDate>ca. 2544-2413 BCE</origDate>
+            <origPlace>Saqqara (Egypt)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/"> Pyramid Texts spell 302-312</title>
+        <persName role="author" ref="http://viaf.org/">Anonymous </persName>
+        <origDate>ca. 2544-2413 BCE</origDate>
+        <origPlace>Egypt</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">funerary text</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="egy"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/egy/Kahl_1995_PT302-312/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="15" size="15">
+        <label></label>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="0" outDegree="2">
+          <label>α</label>
+        </node>
+        <node xml:id="n_beta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>β</label>
+        </node>
+        <node xml:id="n_delta" type="hypothetical" inDegree="1" outDegree="3">
+          <label>δ</label>
+        </node>
+        <node xml:id="n_M" type="witness" inDegree="1" outDegree="0">
+          <label>M</label>
+        </node>
+        <node xml:id="n_N" type="witness" inDegree="1" outDegree="0">
+          <label>N</label>
+        </node>
+        <node xml:id="n_Nt" type="witness" inDegree="1" outDegree="0">
+          <label>Nt</label>
+        </node>
+        <node xml:id="n_gama" type="hypothetical" inDegree="1" outDegree="2">
+          <label>γ</label>
+        </node>
+        <node xml:id="n_epsilon" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ε</label>
+        </node>
+        <node xml:id="n_W" type="witness" inDegree="2" outDegree="0">
+          <label>W</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="0">
+          <label>T</label>
+        </node>
+        <node xml:id="n_zeta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ζ</label>
+        </node>
+        <node xml:id="n_TT33" type="witness" inDegree="1" outDegree="0">
+          <label>TT33</label>
+        </node>
+        <node xml:id="n_eta" type="hypothetical" inDegree="1" outDegree="2">
+          <label>η</label>
+        </node>
+        <node xml:id="n_S" type="witness" inDegree="1" outDegree="0">
+          <label>S</label>
+        </node>
+        <node xml:id="n_Q1Q" type="witness" inDegree="1" outDegree="0">
+          <label>Q1Q</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_alpha" to="#n_beta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_alpha" to="#n_delta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_beta" to="#n_gama" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_beta" to="#n_epsilon" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_delta" to="#n_M" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_delta" to="#n_N" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_delta" to="#n_Nt" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_gama" to="#n_W" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_gama" to="#n_zeta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_epsilon" to="#n_W" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_epsilon" to="#n_T" od:type="filiation" cert="low"/>
+        <arc xml:id="arc_12" from="#n_zeta" to="#n_TT33" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_zeta" to="#n_eta" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_eta" to="#n_S" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_eta" to="#n_Q1Q" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

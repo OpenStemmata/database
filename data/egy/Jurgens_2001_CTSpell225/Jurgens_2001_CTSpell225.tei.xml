@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Coffin text spell 225</title>
+        <author>Peter Jürgens</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0009-0003-3460-0821">Adonis Dulaurent </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>Ein Textzwilling zu M2NY im Stemma des CT-Spruches 225</title>
+          <author>Peter Jürgens</author>
+          <date>2001</date>
+          <pubPlace>Göttingen</pubPlace>
+          <series>Göttinger Miszellen : Beiträge zur ägyptologischen Diskussion </series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="180"/>
+          <biblScope unit="page" n="8"/>
+          <ptr type="digitised" target=""/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Coffin text spell 225</title>
+        <persName role="author" ref="http://viaf.org/">Anonymous</persName>
+        <origDate>ca. 2000-1730 BCE</origDate>
+        <origPlace>Egypt</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">funerary text</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unspecified</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="egy"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/egy/Jurgens_2001_CTSpell225/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="16" size="15">
+        <label>2</label>
+        <node xml:id="n_kappa1" type="hypothetical" inDegree="0" outDegree="2">
+          <label>κ¹</label>
+        </node>
+        <node xml:id="n_kappa2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>κ²</label>
+        </node>
+        <node xml:id="n_omega" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ο</label>
+        </node>
+        <node xml:id="n_lambda" type="hypothetical" inDegree="1" outDegree="1">
+          <label>λ</label>
+        </node>
+        <node xml:id="n_nu" type="hypothetical" inDegree="1" outDegree="1">
+          <label>ν</label>
+        </node>
+        <node xml:id="n_alBirsa" type="witness" inDegree="1" outDegree="0">
+          <label>al-Biršā</label>
+        </node>
+        <node xml:id="n_asyut" type="witness" inDegree="1" outDegree="0">
+          <label>Asyūṭ</label>
+        </node>
+        <node xml:id="n_rho" type="hypothetical" inDegree="1" outDegree="2">
+          <label>ρ</label>
+        </node>
+        <node xml:id="n_M5War" type="witness" inDegree="1" outDegree="0">
+          <label>M5War</label>
+        </node>
+        <node xml:id="n_M2NY" type="witness" inDegree="1" outDegree="0">
+          <label>M2NY</label>
+        </node>
+        <node xml:id="n_pi" type="hypothetical" inDegree="1" outDegree="2">
+          <label>π</label>
+        </node>
+        <node xml:id="n_T2Be" type="witness" inDegree="1" outDegree="0">
+          <label>T2Be</label>
+        </node>
+        <node xml:id="n_pi1" type="hypothetical" inDegree="1" outDegree="3">
+          <label>π¹</label>
+        </node>
+        <node xml:id="n_T1Be" type="witness" inDegree="1" outDegree="0">
+          <label>T1Be</label>
+        </node>
+        <node xml:id="n_T2L" type="witness" inDegree="1" outDegree="0">
+          <label>T2L</label>
+        </node>
+        <node xml:id="n_T3Be" type="witness" inDegree="1" outDegree="0">
+          <label>T3Be</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_kappa1" to="#n_kappa2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_kappa1" to="#n_omega" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_kappa2" to="#n_lambda" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_kappa2" to="#n_nu" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_omega" to="#n_rho" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_omega" to="#n_pi" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_lambda" to="#n_alBirsa" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_nu" to="#n_asyut" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_rho" to="#n_M5War" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_rho" to="#n_M2NY" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_pi" to="#n_T2Be" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_pi" to="#n_pi1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_pi1" to="#n_T1Be" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_pi1" to="#n_T2L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_pi1" to="#n_T3Be" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

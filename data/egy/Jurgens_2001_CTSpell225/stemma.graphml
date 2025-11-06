@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="kappa1">
+  <data key="d0">grey</data>
+  <data key="d1">κ¹</data>
+</node>
+<node id="kappa2">
+  <data key="d0">grey</data>
+  <data key="d1">κ²</data>
+</node>
+<node id="omega">
+  <data key="d0">grey</data>
+  <data key="d1">ο</data>
+</node>
+<node id="lambda">
+  <data key="d0">grey</data>
+  <data key="d1">λ</data>
+</node>
+<node id="nu">
+  <data key="d0">grey</data>
+  <data key="d1">ν</data>
+</node>
+<node id="alBirsa">
+  <data key="d1">al-Biršā</data>
+</node>
+<node id="asyut">
+  <data key="d1">Asyūṭ</data>
+</node>
+<node id="rho">
+  <data key="d0">grey</data>
+  <data key="d1">ρ</data>
+</node>
+<node id="M5War"/>
+<node id="M2NY"/>
+<node id="pi">
+  <data key="d0">grey</data>
+  <data key="d1">π</data>
+</node>
+<node id="T2Be"/>
+<node id="pi1">
+  <data key="d0">grey</data>
+  <data key="d1">π¹</data>
+</node>
+<node id="T1Be"/>
+<node id="T2L"/>
+<node id="T3Be"/>
+<edge source="kappa1" target="kappa2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="kappa1" target="omega">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="kappa2" target="lambda">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="kappa2" target="nu">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="omega" target="rho">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="omega" target="pi">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="lambda" target="alBirsa">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="nu" target="asyut">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="rho" target="M5War">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="rho" target="M2NY">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="pi" target="T2Be">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="pi" target="pi1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="pi1" target="T1Be">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="pi1" target="T2L">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="pi1" target="T3Be">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>
