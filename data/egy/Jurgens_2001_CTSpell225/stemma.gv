@@ -1,0 +1,29 @@
+digraph {
+
+    kappa1 -> kappa2;
+    kappa1 -> omega;
+    kappa2 -> lambda;
+    kappa2 -> nu;
+    lambda -> alBirsa;
+    nu -> asyut;
+    omega -> rho;
+    rho->M5War;
+    rho-> M2NY; 
+    omega -> pi;
+    pi -> T2Be;
+    pi -> pi1;
+    pi1 -> T1Be;
+    pi1 -> T2L;
+    pi1 -> T3Be;
+
+    kappa1[color="grey", label="κ¹"];
+    kappa2[color="grey", label="κ²"]; 
+    omega[color="grey", label="ο"];
+    lambda[color="grey", label="λ"];
+    nu[color="grey", label="ν"];
+    rho[color="grey", label="ρ"]
+    alBirsa[label="al-Biršā"];
+    asyut[label="Asyūṭ"];
+    pi[color="grey", label="π"];
+    pi1[color="grey", label="π¹"];
+}

@@ -1,0 +1,49 @@
+digraph {
+
+    alpha -> beta;
+    beta -> ThI;
+    beta -> U; 
+    alpha -> gama; 
+    gama -> delta;
+    delta -> epsilon;
+    gama -> theta;
+    epsilon -> ThIII;
+    epsilon -> ThIIIK;
+    delta -> zeta;
+    zeta -> AII; 
+    zeta -> eta;
+    eta -> AIII;
+    eta -> T;
+    eta -> A;
+    theta -> iota;
+    theta -> nu;
+    iota -> kappa;
+    kappa -> SI;
+    kappa -> RII;
+    iota -> Ta [color="grey"];
+    iota -> lambda;
+    lambda -> mu [color="grey"];
+    mu -> M;
+    mu -> Ms;
+    lambda -> SII;
+    lambda -> Si;
+    lambda -> RIII;
+    nu -> RVI;
+    nu -> RIX;
+    alpha -> RVI [style="dashed", color="grey"];
+
+    # Grey color is used for hypothetical nodes; labels can be redefined if needed
+    alpha[color="grey", label="α"];
+    beta[color="grey", label="β"];
+    gama[color="grey", label="γ"];
+    delta[color="grey", label="δ"];
+    theta[color="grey", label="θ"];
+    epsilon[color="grey", label="ε"];
+    zeta[color="grey", label="ζ"];
+    eta[color="grey", label="η"];
+    iota[color="grey", label="ι"];
+    nu[color="grey", label="ν"];
+    kappa[color="grey", label="κ"];
+    lambda[color="grey", label="λ"];
+    mu[color="grey", label="μ"];
+}

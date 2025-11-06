@@ -1,0 +1,46 @@
+digraph {
+
+    alpha -> gama;
+    alpha -> beta;
+    beta -> A;
+    beta -> C;
+    C-> mu;
+    mu -> rho;
+    mu -> k;
+    C-> to;
+    to -> M;
+    to -> sigma;
+    sigma -> F;
+    sigma -> N;
+    gama -> delta; 
+    delta -> G;
+    delta -> H; 
+    gama -> B;
+    B ->  epsilon; 
+    epsilon -> J; 
+    B -> eta; 
+    eta -> omicron;
+    eta -> D;
+    omicron -> E;
+    omicron -> I;
+    E -> lambda; 
+    E -> pi;
+    lambda -> LA;
+    pi -> Ja;
+
+    alpha[color="grey", label="α"];
+    beta[color="grey", label="β"];
+    gama[color="grey", label="Γ"];
+    mu[color="grey", label="μ"];
+    rho[color="grey", label="ρ"];
+    to[color="grey", label="ξ"];
+    sigma[color="grey", label="σ"];
+    delta[color="grey", label="δ"];
+    epsilon[color="grey", label="ε"];
+    eta[color="grey", label="η"];
+    omicron[color="grey", label="ο"];
+    lambda[color="grey", label="λ"];
+    pi[color="grey", label="π"];
+    Ja[label="J(a)"]
+
+}
