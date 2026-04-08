@@ -1,11 +1,9 @@
 digraph {
 
 X[color="grey"];
-X1[color="grey", label="X¹"];
-X2[color="grey", label="X²"];
+X1[color="grey"];
+X2[color="grey"];
 Y[color="grey"];
-F1[label="F¹"]
-F2[label="F²"]
 
 X->X1;
 X1->X2;

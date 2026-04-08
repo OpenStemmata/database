@@ -8,7 +8,6 @@ r[color="grey"];
 v[color="grey"];
 w[color="grey"];
 z[color="grey"];
-H2[label="H²"];
 
 O->alpha;
 alpha->F;
