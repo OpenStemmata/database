@@ -1,0 +1,24 @@
+digraph {
+    // Hypothetical nodes
+    x1[color="grey", label="x1"];
+    x2[color="grey", label="x2"];
+    x3[color="grey", label="x3"];
+
+    // Manuscripts
+    I[label="I"];
+    T[label="T"];
+    C[label="C"];
+    O[label="O"];
+    B[label="B"];
+
+    // Relationships
+    x1 -> I;
+    x1 -> x2;
+    x2 -> T;
+    x2 -> C;
+    x2 -> x3;
+    x3 -> O;
+    x3 -> B;
+
+}
+

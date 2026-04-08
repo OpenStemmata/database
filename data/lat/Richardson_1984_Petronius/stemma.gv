@@ -1,0 +1,40 @@
+digraph {
+    // Hypothetical nodes
+    alpha[color="grey", label="α"];
+
+    // Intermediary nodes
+    a[color="grey", label="a"];
+    i[color="grey", label="i"];
+    e[color="grey", label="e"];
+    f[color="grey", label="f"];
+    u[color="grey", label="u"];
+    v[color="grey", label="v"];
+    ep[color="grey", label="ep"];
+
+    eprinceps[label="editio princeps"];
+
+    // Relationships
+    alpha -> Bel;
+    alpha -> a;
+    a->i;
+    i -> I;
+    i -> e;
+    e -> E;
+
+    a->f;
+    f -> A;
+    f->u;
+    u -> F;
+    u -> K;
+    
+    alpha -> v;
+    v -> Barb;
+    v->ep;
+    ep->eprinceps;
+
+    // Contamination lines
+    i -> u[style="dashed", color="grey"];
+    I -> Barb[style="dashed"];
+
+}
+

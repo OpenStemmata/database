@@ -1,0 +1,27 @@
+digraph {
+
+archetype[color="grey", label="archétype"];
+alpha[color="grey", label="α"];
+beta[color="grey", label="β"];
+epsilon[color="grey", label="ε"];
+lambda[color="grey", label="λ"];
+
+archetype->alpha;
+alpha->B;
+alpha->beta;
+beta->O;
+beta->M;
+beta->H;
+beta->A;
+beta->V;
+beta->lambda[style="dashed", dir=none];
+
+archetype->epsilon;
+epsilon->lambda;
+lambda->O[style="dashed"];
+lambda->A[style="dashed"];
+lambda->V[style="dashed"];
+lambda->L;
+lambda->P;
+
+}

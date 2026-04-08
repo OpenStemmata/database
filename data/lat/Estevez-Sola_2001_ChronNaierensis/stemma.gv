@@ -1,0 +1,17 @@
+digraph {
+    // Original and lost copy
+    omega[color="grey", label="ω"];
+    x[color="grey", label="x (copia perdida con errores)"];
+
+    // Manuscripts
+    I[label="I"];
+    S[label="S"];
+    C[label="C"];
+
+    // Relationships
+    omega -> x;
+    x -> I;
+    x -> S;
+    S -> C;
+
+}

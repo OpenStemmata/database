@@ -1,0 +1,28 @@
+digraph {
+
+Gr[color="grey", label="Gr (an 124)"];
+Gr1[color="grey", label="Gr1\n (branche égyptienne)"];
+Pi1[label="Π¹\n (Oxyrhynchos)"];
+Pi2[label="Π²\n (Oxyrhynchos ?)"];
+Gr2[color="grey", label="Gr2\n (branche grecque)"];
+x[color="grey", label="x\n(mont Athos ?)"];
+Ba[label="Ba (Xᵉ siècle)\n(métaphrase)"];
+Gr3[color="grey", label="Gr3\n (branche orientale)"];
+Sy[color="grey", label="Sy (IVᵉ-Vᵉ siècle)"];
+codSin[label="cod. Sin. (VIᵉ s.)"];
+Ar[color="grey", label="Ar (Vᵉ s.)"];
+codErev[label="cod. Erev. an. 981"];
+
+Gr->Gr1;
+Gr1->Pi1;
+Gr1->Pi2;
+Gr->Gr2;
+Gr2->x;
+x->Ba;
+Gr->Gr3;
+Gr3->Sy;
+Sy->codSin;
+Gr3->Ar;
+Ar->codErev;
+
+}
