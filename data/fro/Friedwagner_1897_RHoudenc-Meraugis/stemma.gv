@@ -1,10 +1,10 @@
 digraph {
 O[color="grey"];
-O1[color="grey"];  
+O1[color="grey", label="O¹"];  
 alpha[label="α", color="grey"];
 beta[label="β", color="grey"];
 x[color="grey"];
-x1[color="grey"];
+x1[color="grey", label="x¹"];
 y[color="grey"];
 
 

@@ -25,7 +25,7 @@ contributorORCID: "0000-0003-0385-7037"
 note: "Two stemmata are given, according to two sets of conflicting variant locations, p. 292, but indicating that the first should be retained, and then a stemma, p. 415, of the descendants of X1 (i.e. the Tristanian Quest). These first two can be merged into a single file. On the other hand, p. 445, stemma of the post-Vulgate Artu Death, which stands alone.  The Spanish and Portuguese version have several manuscripts, that could be included in the tree."
 wits:
     - witSigla: "N1"
-      witSignature: "BnF, fr. 340"
+      witSignature: "Paris, BnF, fr. 340"
       witOrigDate: "1395-1405"
       witOrigPlace: "Workshop of the Duc de Berry"
       witNotes: ""

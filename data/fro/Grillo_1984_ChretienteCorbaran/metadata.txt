@@ -53,7 +53,7 @@ wits:
       witNotes: "several scribes"
       witMsDesc: ""
       witDigit: ""
-    - witSigla: "I"
+    - witSigla: "I2"
       witSignature: "London, British Library, Additional, 36615"
       witOrigDate: "1296-1350"
       witOrigPlace: "North-Eastern France"

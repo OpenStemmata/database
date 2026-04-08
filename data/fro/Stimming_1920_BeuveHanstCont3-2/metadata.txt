@@ -33,7 +33,7 @@ contributors:
 note : "Stemma for the five different parts are included. Some contain also manuscripts of the first and third continental version. Here, part 2."
 wits:
     - witSigla: "P"
-      witSignature: "BnF, fr. 12548"
+      witSignature: "Paris, BnF, fr. 12548"
       witOrigDate: "1280-1290"
       witOrigPlace: ""
       witNotes: "Date from Arlima"
@@ -82,7 +82,7 @@ wits:
       witMsDesc: ""
       witDigit: ""
     - witSigla: "P1"
-      witSignature: "BnF, fr.  25516"
+      witSignature: "Paris, BnF, fr.  25516"
       witOrigDate: "1230-1300"
       witOrigPlace: ""
       witNotes: "Date from Arlima. Ms. from 1st redaction, with some shared parts with other."

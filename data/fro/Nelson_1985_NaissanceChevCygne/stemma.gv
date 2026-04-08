@@ -16,7 +16,7 @@ E1->Bt[color="grey"];
 Bt->H;
 Bt->x;
 x->D;
-x->1;
+x->1[color="grey"];
 1->C;
 1->y[color="grey"];
 y->B;
@@ -27,5 +27,6 @@ y->E;
 E1Bt->z;
 z->G;
 E1Bt->I;
+E1->E1Bt;
 
 }

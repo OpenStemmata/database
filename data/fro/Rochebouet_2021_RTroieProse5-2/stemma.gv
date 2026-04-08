@@ -2,8 +2,8 @@ digraph {
 x1[label="x", color="grey"]
 x2[label="x", color="grey"]
 x3[label="x", color="grey"]
-xHac3[label="x (Hac3)", color="grey"]
-xHac1[label="x (Hac1)", color="grey"]
+xHac3[label="x (Hac³)", color="grey"]
+xHac1[label="x (Hac¹)", color="grey"]
 x4[label="x", color="grey"]
 x5[label="x", color="grey"]
 x6[label="x", color="grey"]
@@ -14,6 +14,12 @@ x10[label="x", color="grey"]
 x11[label="x", color="grey"]
 x12[label="x", color="grey"]
 x1[label="x", color="grey"]
+P1[label="P¹"]
+P2[label="P²"]
+P3[label="P³"]
+P4[label="P⁴"]
+P5[label="P⁵"]
+P6[label="P⁶"]
 
 
 x1->R;

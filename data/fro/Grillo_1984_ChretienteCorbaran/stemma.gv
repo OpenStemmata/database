@@ -1,7 +1,8 @@
 digraph {
 
 O[color="grey"];
-O1[color="grey"];
+O1[color="grey", label="O¹"];
+I2[label="I²"]
 a[color="grey"];
 d[color="grey"];
 c[color="grey"];
