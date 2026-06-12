@@ -1,0 +1,451 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="original">
+  <data key="d0">grey</data>
+  <data key="d1">Original</data>
+</node>
+<node id="archetyp">
+  <data key="d0">grey</data>
+  <data key="d1">Archetyp</data>
+</node>
+<node id="X">
+  <data key="d0">grey</data>
+  <data key="d1">*X</data>
+</node>
+<node id="1">
+  <data key="d0">grey</data>
+</node>
+<node id="starOP">
+  <data key="d0">grey</data>
+  <data key="d1">*OP</data>
+</node>
+<node id="starH">
+  <data key="d0">grey</data>
+  <data key="d1">*H</data>
+</node>
+<node id="beta">
+  <data key="d0">grey</data>
+  <data key="d1">β</data>
+</node>
+<node id="starBNE">
+  <data key="d0">grey</data>
+  <data key="d1">*BNE</data>
+</node>
+<node id="starEbe">
+  <data key="d0">grey</data>
+  <data key="d1">*Ebe</data>
+</node>
+<node id="starEb">
+  <data key="d0">grey</data>
+  <data key="d1">*Eb</data>
+</node>
+<node id="starE">
+  <data key="d0">grey</data>
+  <data key="d1">*E</data>
+</node>
+<node id="starNRS">
+  <data key="d0">grey</data>
+  <data key="d1">*NRS</data>
+</node>
+<node id="starN">
+  <data key="d0">grey</data>
+  <data key="d1">*N</data>
+</node>
+<node id="zslashz1">
+  <data key="d1">z/z1</data>
+</node>
+<node id="oe">
+  <data key="d1">ö</data>
+</node>
+<node id="starRS">
+  <data key="d0">grey</data>
+  <data key="d1">*RS</data>
+</node>
+<node id="2">
+  <data key="d0">grey</data>
+</node>
+<node id="starstarS">
+  <data key="d0">grey</data>
+  <data key="d1">**S</data>
+</node>
+<node id="starS">
+  <data key="d0">grey</data>
+  <data key="d1">*S</data>
+</node>
+<node id="starZ">
+  <data key="d0">grey</data>
+  <data key="d1">*Z</data>
+</node>
+<node id="gamma">
+  <data key="d0">grey</data>
+  <data key="d1">γ</data>
+</node>
+<node id="starO">
+  <data key="d0">grey</data>
+  <data key="d1">*O</data>
+</node>
+<node id="f1hf">
+  <data key="d1">f1/h/f</data>
+</node>
+<node id="starFBNE">
+  <data key="d0">grey</data>
+  <data key="d1">*FBNE</data>
+</node>
+<node id="starstarEbe">
+  <data key="d0">grey</data>
+  <data key="d1">**Ebe</data>
+</node>
+<node id="e1e">
+  <data key="d1">e1/e</data>
+</node>
+<node id="starFp">
+  <data key="d0">grey</data>
+  <data key="d1">*Fp</data>
+</node>
+<node id="delta">
+  <data key="d0">grey</data>
+  <data key="d1">δ</data>
+</node>
+<node id="q1q">
+  <data key="d1">q1/q</data>
+</node>
+<node id="starY">
+  <data key="d0">grey</data>
+  <data key="d1">*Y</data>
+</node>
+<node id="alpha">
+  <data key="d0">grey</data>
+  <data key="d1">α</data>
+</node>
+<node id="starW">
+  <data key="d0">grey</data>
+  <data key="d1">*W</data>
+</node>
+<node id="starOPv">
+  <data key="d0">grey</data>
+  <data key="d1">*OPv</data>
+</node>
+<node id="starstarO">
+  <data key="d0">grey</data>
+  <data key="d1">**O</data>
+</node>
+<node id="ff"/>
+<node id="H"/>
+<node id="M"/>
+<node id="B"/>
+<node id="b"/>
+<node id="E"/>
+<node id="g"/>
+<node id="N"/>
+<node id="F"/>
+<node id="r"/>
+<node id="n"/>
+<node id="l"/>
+<node id="R"/>
+<node id="S"/>
+<node id="P"/>
+<node id="m"/>
+<node id="p"/>
+<node id="a"/>
+<node id="t"/>
+<node id="W"/>
+<node id="w"/>
+<node id="s"/>
+<node id="v"/>
+<node id="O"/>
+<edge source="original" target="archetyp">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="archetyp" target="X">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="archetyp" target="starZ">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="archetyp" target="starY">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="X" target="ff">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="X" target="starH">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="X" target="M">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="1" target="H">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="1" target="starOP">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starOP" target="starstarO">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starOP" target="P">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starH" target="1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="beta" target="starW">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="beta" target="s">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="beta" target="starOPv">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starBNE" target="B">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starBNE" target="starEbe">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starBNE" target="N">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starBNE" target="F">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starBNE" target="starNRS">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starEbe" target="e1e">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starEbe" target="starEb">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starEb" target="b">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starEb" target="starE">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starEb" target="starO">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starE" target="E">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starE" target="g">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starNRS" target="starN">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starNRS" target="zslashz1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starNRS" target="l">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starNRS" target="oe">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starNRS" target="2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starN" target="N">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starN" target="r">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starN" target="n">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starRS" target="R">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starRS" target="starstarS">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starRS" target="P">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="2" target="starRS">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starstarS" target="starS">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starS" target="S">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starZ" target="B">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starZ" target="gamma">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starZ" target="delta">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="gamma" target="m">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="gamma" target="f1hf">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="gamma" target="starFBNE">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starO" target="O">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starFBNE" target="starBNE">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starFBNE" target="starstarEbe">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starFBNE" target="e1e">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starFBNE" target="g">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starFBNE" target="starFp">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starstarEbe" target="starEbe">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starFp" target="F">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starFp" target="p">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="delta" target="q1q">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="delta" target="a">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="delta" target="t">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="delta" target="beta">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starY" target="alpha">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starY" target="beta">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="alpha" target="starFp">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="alpha" target="starNRS">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starW" target="W">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starW" target="w">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starOPv" target="v">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starOPv" target="starOP">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starstarO" target="starN">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="starstarO" target="starO">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="M" target="beta">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="M" target="starBNE">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="B" target="2">
+  <data key="d2">contamination</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>
