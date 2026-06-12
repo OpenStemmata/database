@@ -39,13 +39,63 @@
           <biblScope unit="page" n="188-198"/>
           <ptr type="digitised" target="https://doi.org/10.3406/roma.1960.3217"/>
         </bibl>
+        <listWit>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Cambridge</settlement>
+                <repository> University of Cambridge. Library</repository>
+                <idno> MS Add. 7071</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1320</origDate>
+            <origPlace>England or Northern France (DÉAF)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_H">
+            <label type="siglum">H</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> British library</repository>
+                <idno> Add MS 38117</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1320</origDate>
+            <origPlace>pic. -- Paris; Nord-Est de la France (Legge et Vinaver); pic. déb. 14es. (DÉAF) -- Source: Arlima, DÉAF</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_S">
+            <label type="siglum">S</label>
+            <idno>Siena, Archivio di Stato [without shelfmark]</idno>
+            <origDate>1281-1300</origDate>
+            <origPlace></origPlace>
+            <note>fragment</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <idno>Demanda (ed. 1535)</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
         <title ref="http://viaf.org/293320611">Suite du Merlin</title>
         <persName role="author" ref="http://viaf.org/"></persName>
-        <origDate>1201-1300</origDate>
+        <origDate>1236-1245</origDate>
         <origPlace></origPlace>
       </creation>
       <textClass>

@@ -102,13 +102,7 @@
           </witness>
           <witness xml:id="w_O">
             <label type="siglum">O</label>
-            <msDesc>
-              <msIdentifier>
-                <settlement>Osaka</settlement>
-                <repository> Otemae Univ. Libr.</repository>
-                <idno> OUL 1</idno>
-              </msIdentifier>
-            </msDesc>
+            <idno>Osaka, Otemae Univ. Libr. 1</idno>
             <origDate>1441-1460</origDate>
             <origPlace>France</origPlace>
             <note></note>

@@ -39,6 +39,146 @@
           <biblScope unit="page" n=""/>
           <ptr type="digitised"/>
         </bibl>
+        <listWit>
+          <witness xml:id="w_O">
+            <label type="siglum">O</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Oxford</settlement>
+                <repository> Bodleian Library</repository>
+                <idno> MS. Digby 23</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1126-1150</origDate>
+            <origPlace>England</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> British library</repository>
+                <idno> Add MS 41295G</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1300</origDate>
+            <origPlace>Ouest</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Châteauroux</settlement>
+                <repository> Bibliothèque Municipale</repository>
+                <idno> 1</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1300</origDate>
+            <origPlace>francoit.</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F">
+            <label type="siglum">F</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> NAF 5237</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1400</origDate>
+            <origPlace>Lorraine</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Lyon</settlement>
+                <repository> Bibliothèque municipale</repository>
+                <idno> Ms 743</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1201-1400</origDate>
+            <origPlace>bourg.</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_l">
+            <label type="siglum">l</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> NAF 14658</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1281-1300</origDate>
+            <origPlace>lorr. -- lorr. fin 13es. -- Source: DÉAF</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_P">
+            <label type="siglum">P</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> Français 860</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1256-1295</origDate>
+            <origPlace>lorr. sept. -- Lorraine ou Picardie (Laon?); lorr.sept. ca. 1275 (DÉAF)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_T">
+            <label type="siglum">T</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Cambridge</settlement>
+                <repository> Trinity College</repository>
+                <idno> R.3.32</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1431-1500</origDate>
+            <origPlace>Ouest -- Ouest après 1431 -- Source: DÉAF</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_V4">
+            <label type="siglum">V4</label>
+            <idno>Venice, Biblioteca nazionale marciana, fr., Z. 4</idno>
+            <origDate>1341-1360</origDate>
+            <origPlace>francoit. – Nord de l'Italie</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_V7">
+            <label type="siglum">V7</label>
+            <idno>Venice, Biblioteca nazionale marciana, fr., Z. 7</idno>
+            <origDate>1241-1320</origDate>
+            <origPlace>francoit. -- Vénétie (Italie)</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

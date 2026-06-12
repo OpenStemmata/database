@@ -147,7 +147,13 @@
           </witness>
           <witness xml:id="w_H">
             <label type="siglum">H</label>
-            <idno>London, British Library, Royal, 15. E. VI</idno>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London</settlement>
+                <repository> British Library</repository>
+                <idno> Royal 15. E. VI</idno>
+              </msIdentifier>
+            </msDesc>
             <origDate>1445</origDate>
             <origPlace>England</origPlace>
             <note>Presented by John Talbot, first earl of Shrewsbury, to Margaret of Anjou, probably for her wedding to Henry VI in 1445</note>
@@ -163,7 +169,7 @@
                 <idno> Additional 36615</idno>
               </msIdentifier>
             </msDesc>
-            <origDate>1381-1320</origDate>
+            <origDate>1296-1350</origDate>
             <origPlace>North-Eastern France</origPlace>
             <note>several scribes</note>
             <ptr type="description" target=""/>

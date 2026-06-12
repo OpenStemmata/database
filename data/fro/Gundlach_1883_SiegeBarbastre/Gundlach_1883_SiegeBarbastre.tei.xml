@@ -49,7 +49,7 @@
                 <idno> 20 D XI</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1301-1350</origDate>
             <origPlace></origPlace>
             <note>Perrier A</note>
             <ptr type="description" target=""/>
@@ -64,7 +64,7 @@
                 <idno> fr. 24369</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1301-1320</origDate>
             <origPlace></origPlace>
             <note>Perrier B</note>
             <ptr type="description" target=""/>
@@ -79,7 +79,7 @@
                 <idno> Harley 1321</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1241-1260</origDate>
             <origPlace></origPlace>
             <note>Perrier D</note>
             <ptr type="description" target=""/>
@@ -94,7 +94,7 @@
                 <idno> Roy. 20 B XIX</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1281-1300</origDate>
             <origPlace></origPlace>
             <note>Perrier C</note>
             <ptr type="description" target=""/>
@@ -109,7 +109,7 @@
                 <idno> fr. 1448</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1241-1260</origDate>
             <origPlace></origPlace>
             <note>Perrier P</note>
             <ptr type="description" target=""/>
@@ -126,7 +126,7 @@
             </msDesc>
             <origDate>1251-1300</origDate>
             <origPlace></origPlace>
-            <note>Perrier E; fragment; date 2em. 13es. from DEAF, MortAymR</note>
+            <note>Perrier E</note>
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>

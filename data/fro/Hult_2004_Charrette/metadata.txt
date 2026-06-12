@@ -12,7 +12,7 @@ publicationPage : "148"
 publicationLink : "https://www.brepolsonline.net/doi/pdf/10.1484/J.RPH.2.304526"
 workTitle : "Le Conte de la Charrette"
 workViaf : ""
-workOrigDate : "premier quart du XIIIe siècle"
+workOrigDate : "1200-1225"
 workOrigPlace : ""
 workAuthors:
     - workAuthor: ""

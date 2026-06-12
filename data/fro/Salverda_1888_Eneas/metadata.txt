@@ -10,7 +10,7 @@ publicationPage : "25"
 publicationLink : ""
 workTitle : "Roman d’Énéas"
 workViaf : ""
-workOrigDate : ""
+workOrigDate : "1158-1162"
 workOrigPlace : ""
 workAuthor : ""
 workAuthorViaf : ""
@@ -87,4 +87,3 @@ wits:
       witNotes: "Copied for Henry de Spencer, bishop of Norwich (1370-1406), olim Spalding, Lincolnshire, Rév. Edw. Moore personal collection (in 1888)"
       witMsDesc: "https://www.arlima.net/mss/united_kingdom/london/british_library/additional/34114.html"
       witDigit: "http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_34114"
-

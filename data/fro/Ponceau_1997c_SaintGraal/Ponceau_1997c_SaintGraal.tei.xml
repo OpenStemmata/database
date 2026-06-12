@@ -203,7 +203,7 @@
                 <idno> Add. 32125</idno>
               </msIdentifier>
             </msDesc>
-            <origDate>1180-1200</origDate>
+            <origDate>1301-1333</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -308,7 +308,7 @@
                 <idno> Douce 303</idno>
               </msIdentifier>
             </msDesc>
-            <origDate>1201-1300</origDate>
+            <origDate>1295-1305</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -323,7 +323,7 @@
                 <idno> 2997</idno>
               </msIdentifier>
             </msDesc>
-            <origDate>1201-1300</origDate>
+            <origDate>1297-1306</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -503,7 +503,7 @@
                 <idno> fr. 747</idno>
               </msIdentifier>
             </msDesc>
-            <origDate>1201-1300</origDate>
+            <origDate>1231-1250</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -548,7 +548,7 @@
                 <idno> fr. 770</idno>
               </msIdentifier>
             </msDesc>
-            <origDate>1240-1260</origDate>
+            <origDate>1281-1290</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -608,7 +608,7 @@
                 <idno> fr. 12582</idno>
               </msIdentifier>
             </msDesc>
-            <origDate>1201-1300</origDate>
+            <origDate>1251-1300</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -638,7 +638,7 @@
                 <idno> fr. 24394</idno>
               </msIdentifier>
             </msDesc>
-            <origDate>1201-1300</origDate>
+            <origDate>1285</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -653,7 +653,7 @@
                 <idno> 255</idno>
               </msIdentifier>
             </msDesc>
-            <origDate>1201-1300</origDate>
+            <origDate>1216-1235</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -954,7 +954,7 @@
       <creation>
         <title ref="http://viaf.org/179506093">L’Estoire del Saint Graal</title>
         <persName role="author" ref="http://viaf.org/">Anonymous</persName>
-        <origDate>1220-1230</origDate>
+        <origDate>1221-1230</origDate>
         <origPlace></origPlace>
       </creation>
       <textClass>
