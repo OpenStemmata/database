@@ -12,7 +12,7 @@ publicationPage : "lvi"
 publicationLink : ""
 workTitle : "Horn"
 workViaf : ""
-workOrigDate : "1171-1180"
+workOrigDate : "1166-1250"
 workOrigPlace : "England"
 workAuthors:
     - workAuthor: "Thomas"
@@ -34,7 +34,7 @@ note : "The dotted lines on the original image are supposed to indicate oral tra
 wits:
     - witSigla: "C"
       witSignature: "Cambridge, University Library, Ff.6.17"
-      witOrigDate: ""
+      witOrigDate: "1201-1300"
       witOrigPlace: "England"
       witNotes: ""
       witMsDesc: ""

@@ -98,7 +98,7 @@ wits:
       witDigit: ""
     - witSigla: "Add. 32125"
       witSignature: "London, British Library, Add. 32125"
-      witOrigDate: "1180-1200"
+      witOrigDate: "1301-1333"
       witOrigPlace: ""
       witNotes: ""
       witMsDesc: ""

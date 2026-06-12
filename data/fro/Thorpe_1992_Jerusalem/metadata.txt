@@ -90,7 +90,7 @@ wits:
       witDigit: ""
     - witSigla: "I"
       witSignature: "London, British Library, Additional, 36615"
-      witOrigDate: "1381-1320"
+      witOrigDate: "1296-1350"
       witOrigPlace: "North-Eastern France or Normandy"
       witNotes: "four scribes"
       witMsDesc: ""

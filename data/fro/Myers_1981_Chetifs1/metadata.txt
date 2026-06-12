@@ -83,7 +83,7 @@ wits:
       witDigit: ""
     - witSigla: "I"
       witSignature: "London, British Library, Additional 36615"
-      witOrigDate: "1381-1320"
+      witOrigDate: "1320-1381"
       witOrigPlace: "North-Eastern France"
       witNotes: "several scribes"
       witMsDesc: ""

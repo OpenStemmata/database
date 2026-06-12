@@ -12,7 +12,7 @@ publicationPage : "187"
 publicationLink : ""
 workTitle : "Enfances Vivien"
 workViaf : ""
-workOrigDate : "1267-1300"
+workOrigDate : "1201-1300"
 workOrigPlace : ""
 workAuthors:
     - workAuthor: ""

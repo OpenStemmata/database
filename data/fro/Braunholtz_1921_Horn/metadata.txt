@@ -34,7 +34,7 @@ note : "The stemma include all witnesses, except for the F2 fragment, that conta
 wits:
     - witSigla: "C"
       witSignature: "Cambridge, University Library, Ff.6.17"
-      witOrigDate: ""
+      witOrigDate: "1201-1300"
       witOrigPlace: ""
       witNotes: ""
       witMsDesc: ""

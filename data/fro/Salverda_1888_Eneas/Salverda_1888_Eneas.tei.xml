@@ -25,7 +25,7 @@
         </availability>
       </publicationStmt>
       <notesStmt>
-        <note>Deprecated by the one of the same author, in his later edition of the text; please note that he apparently CHANGED THE SIGLA of the witnesses. In this older stemma, the direction of the contamination is not indicated on the source image, but is in the source text. The dashed are used with three different meanings: 1. the presence of intermediaries, between O and E; 2. uncertainty, for the relation x and I; 3. contamination (other instances). Additionnally, it is not clear that the editor meant the existence of direct transmission from E to I or C to E (on the contrary, he states that the links are somewhat distant).</note>
+        <note>The direction of the contamination is not indicated on the source image, but is in the source text. The dashed are used with three different meanings: 1. the presence of intermediaries, between O and E; 2. uncertainty, for the relation x and I; 3. contamination (other instances). Additionnally, it is not clear that the editor meant the existence of direct transmission from E to I or C to E (on the contrary, he states that the links are somewhat distant).</note>
       </notesStmt>
       <sourceDesc>
         <bibl type="book">
@@ -42,13 +42,7 @@
         <listWit>
           <witness xml:id="w_A">
             <label type="siglum">A</label>
-            <msDesc>
-              <msIdentifier>
-                <settlement>Paris</settlement>
-                <repository> BnF</repository>
-                <idno> fr. 1450</idno>
-              </msIdentifier>
-            </msDesc>
+            <idno>BnF, fr. 1450</idno>
             <origDate>1225-1250</origDate>
             <origPlace>Picardy</origPlace>
             <note></note>
@@ -72,13 +66,7 @@
           </witness>
           <witness xml:id="w_C">
             <label type="siglum">C</label>
-            <msDesc>
-              <msIdentifier>
-                <settlement>Paris</settlement>
-                <repository> BnF</repository>
-                <idno> fr. 1416</idno>
-              </msIdentifier>
-            </msDesc>
+            <idno>BnF, fr. 1416</idno>
             <origDate>1292</origDate>
             <origPlace></origPlace>
             <note>13th century, with the year 1252 or 1292 named.</note>
@@ -87,13 +75,7 @@
           </witness>
           <witness xml:id="w_D">
             <label type="siglum">D</label>
-            <msDesc>
-              <msIdentifier>
-                <settlement>Paris</settlement>
-                <repository> BnF</repository>
-                <idno> fr. 784</idno>
-              </msIdentifier>
-            </msDesc>
+            <idno>BnF, fr. 784</idno>
             <origDate>1280-1320</origDate>
             <origPlace></origPlace>
             <note></note>
@@ -102,13 +84,7 @@
           </witness>
           <witness xml:id="w_E">
             <label type="siglum">E</label>
-            <msDesc>
-              <msIdentifier>
-                <settlement>Paris</settlement>
-                <repository> BnF</repository>
-                <idno> fr. 60</idno>
-              </msIdentifier>
-            </msDesc>
+            <idno>BnF, fr. 60</idno>
             <origDate>1313-1349</origDate>
             <origPlace></origPlace>
             <note></note>
@@ -117,13 +93,7 @@
           </witness>
           <witness xml:id="w_F">
             <label type="siglum">F</label>
-            <msDesc>
-              <msIdentifier>
-                <settlement>Paris</settlement>
-                <repository> BnF</repository>
-                <idno> fr. 12603</idno>
-              </msIdentifier>
-            </msDesc>
+            <idno>BnF, fr. 12603</idno>
             <origDate>1280-1320</origDate>
             <origPlace>Picardy</origPlace>
             <note></note>
@@ -189,7 +159,7 @@
         <keywords>
           <term type="workGenre">roman antique en vers</term>
           <term type="stemmaType">reconstructed</term>
-          <term type="contam">yes</term>
+          <term type="contam">no</term>
           <term type="extraStemmContam">no</term>
           <term type="rootType">archetype</term>
         </keywords>
