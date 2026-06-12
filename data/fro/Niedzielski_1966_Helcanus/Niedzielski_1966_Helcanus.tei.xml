@@ -121,12 +121,12 @@
               <msIdentifier>
                 <settlement>London</settlement>
                 <repository> British Library</repository>
-                <idno> Harley 4903 f. 1r-16r </idno>
+                <idno> Harley 4903</idno>
               </msIdentifier>
             </msDesc>
             <origDate>1341-1360</origDate>
             <origPlace>Paris</origPlace>
-            <note>Second volume of X</note>
+            <note>f. 1r-16r; Second volume of X</note>
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>

@@ -203,7 +203,7 @@
                 <idno> Add. 32125</idno>
               </msIdentifier>
             </msDesc>
-            <origDate>1180-1200</origDate>
+            <origDate>1301-1333</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -959,7 +959,7 @@
       </creation>
       <textClass>
         <keywords>
-          <term type="workGenre">roman</term>
+          <term type="workGenre">roman arthurien en prose</term>
           <term type="stemmaType">reconstructed</term>
           <term type="contam">no</term>
           <term type="extraStemmContam">no</term>

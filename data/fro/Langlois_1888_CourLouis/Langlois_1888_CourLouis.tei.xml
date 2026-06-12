@@ -39,13 +39,99 @@
           <biblScope unit="page" n="CXXVIII"/>
           <ptr type="digitised" target="https://gallica.bnf.fr/ark:/12148/bpt6k9762011k/f146"/>
         </bibl>
+        <listWit>
+          <witness xml:id="w_A1">
+            <label type="siglum">A1</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 774</idno>
+            <origDate>1251-1300</origDate>
+            <origPlace>Île-de-France</origPlace>
+            <note>Same workshop as A2 and A4</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A2">
+            <label type="siglum">A2</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 1449</idno>
+            <origDate>1251-1300</origDate>
+            <origPlace>Île-de-France</origPlace>
+            <note>Same workshop as A1 and A4</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A3">
+            <label type="siglum">A3</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 368</idno>
+            <origDate>1301-1313</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A4">
+            <label type="siglum">A4</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Milano</settlement>
+                <repository> Biblioteca Trivulziana</repository>
+                <idno> 1025</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1251-1300</origDate>
+            <origPlace>Île-de-France</origPlace>
+            <note>Same workshop as A1 and A2</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B1">
+            <label type="siglum">B1</label>
+            <idno>London, British Library, Royal, 20. D. XI</idno>
+            <origDate>1301-1350</origDate>
+            <origPlace>France</origPlace>
+            <note>Same workshop as B2</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B2">
+            <label type="siglum">B2</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 24369-24370</idno>
+            <origDate>1301-1320</origDate>
+            <origPlace>France</origPlace>
+            <note>Same workshop as B1</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_D">
+            <label type="siglum">D</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 1448</idno>
+            <origDate>1241-1260</origDate>
+            <origPlace>Lorraine</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Boulogne-sur-Mer</settlement>
+                <repository> Bibliothèque municipale</repository>
+                <idno> 192</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1295</origDate>
+            <origPlace>Picardy or Paris</origPlace>
+            <note>Copy finished on 16/04/1295</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
         <title ref="http://viaf.org/182635496">Couronnement de Louis</title>
         <persName role="author" ref="http://viaf.org/"></persName>
-        <origDate></origDate>
+        <origDate>1101-1166</origDate>
         <origPlace></origPlace>
       </creation>
       <textClass>

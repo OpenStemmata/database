@@ -49,7 +49,7 @@
                 <idno> fr. 1444</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1281-1300</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -64,7 +64,7 @@
                 <idno> fr. 24430</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1281-1320</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -79,7 +79,7 @@
                 <idno> L.I.13</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1301-1360</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -101,7 +101,7 @@
       <creation>
         <title ref="http://viaf.org/">Eracle</title>
         <persName role="author" ref="http://viaf.org/">Gautier d’Arras</persName>
-        <origDate>1150-1154</origDate>
+        <origDate>1150-1186</origDate>
         <origPlace></origPlace>
       </creation>
       <textClass>

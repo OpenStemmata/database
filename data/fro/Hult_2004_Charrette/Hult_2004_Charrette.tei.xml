@@ -86,12 +86,12 @@
       <creation>
         <title ref="http://viaf.org/">Le Conte de la Charrette</title>
         <persName role="author" ref="http://viaf.org/"></persName>
-        <origDate>premier quart du XIIIe siècle</origDate>
+        <origDate>1200-1225</origDate>
         <origPlace></origPlace>
       </creation>
       <textClass>
         <keywords>
-          <term type="workGenre">roman en prose</term>
+          <term type="workGenre">roman arthurien en prose</term>
           <term type="stemmaType">reconstructed</term>
           <term type="contam">no</term>
           <term type="extraStemmContam">yes</term>

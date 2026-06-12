@@ -61,7 +61,7 @@
           <witness xml:id="w_I">
             <label type="siglum">I</label>
             <idno>London, British Library, Additional, 36615</idno>
-            <origDate>1381-1320</origDate>
+            <origDate>1296-1350</origDate>
             <origPlace>North-Eastern France</origPlace>
             <note>several scribes</note>
             <ptr type="description" target=""/>
@@ -70,7 +70,7 @@
           <witness xml:id="w_I2">
             <label type="siglum">I2</label>
             <idno>London, British Library, Additional, 36615</idno>
-            <origDate>1381-1320</origDate>
+            <origDate>1296-1350</origDate>
             <origPlace>North-Eastern France</origPlace>
             <note>Same manuscript as I, but this time it designates the second Continuation contained inside, that remaniates elements of the Chrétienté Corbaran</note>
             <ptr type="description" target=""/>

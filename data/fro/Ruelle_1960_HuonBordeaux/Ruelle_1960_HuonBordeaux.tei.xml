@@ -25,7 +25,7 @@
         </availability>
       </publicationStmt>
       <notesStmt>
-        <note>Decasyllabic version (also exists a version in alexandrins, and one in prose, that could be included in the stemma). At least one witness (b) is omitted.</note>
+        <note>Decasyllabic version (also exists a version in alexandrins, and one in prose, that could be included in the stemma). At least one witness (b) is omitted (Boston, Massachusetts Historical Society, ??, 1351-1400).</note>
       </notesStmt>
       <sourceDesc>
         <bibl type="book">
@@ -42,7 +42,13 @@
         <listWit>
           <witness xml:id="w_M">
             <label type="siglum">M</label>
-            <idno>BM Tours, 936</idno>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Tours</settlement>
+                <repository> BM</repository>
+                <idno> 936</idno>
+              </msIdentifier>
+            </msDesc>
             <origDate>1260-1280</origDate>
             <origPlace>Picardy</origPlace>
             <note></note>
@@ -51,7 +57,13 @@
           </witness>
           <witness xml:id="w_P">
             <label type="siglum">P</label>
-            <idno>BnF, fr. 22555</idno>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> BnF</repository>
+                <idno> fr. 22555</idno>
+              </msIdentifier>
+            </msDesc>
             <origDate>1401-1500</origDate>
             <origPlace>Lorraine</origPlace>
             <note></note>
@@ -60,26 +72,17 @@
           </witness>
           <witness xml:id="w_T">
             <label type="siglum">T</label>
-            <idno>Torino, L.II.14</idno>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Torino</settlement>
+                <repository> BNU</repository>
+                <idno> L.II.14</idno>
+              </msIdentifier>
+            </msDesc>
             <origDate>1311</origDate>
             <origPlace>Picardy</origPlace>
             <note></note>
             <ptr type="description" target=""/>
-            <ptr type="digitised" target=""/>
-          </witness>
-          <witness xml:id="w_b">
-            <label type="siglum">b</label>
-            <msDesc>
-              <msIdentifier>
-                <settlement>Boston</settlement>
-                <repository> Massachusetts Historical Society</repository>
-                <idno> ??</idno>
-              </msIdentifier>
-            </msDesc>
-            <origDate></origDate>
-            <origPlace></origPlace>
-            <note></note>
-            <ptr type="description" target="https://www.arlima.net/eh/huon_de_bordeaux.html"/>
             <ptr type="digitised" target=""/>
           </witness>
         </listWit>
@@ -89,7 +92,7 @@
       <creation>
         <title ref="http://viaf.org/186718999">Huon de Bordeaux</title>
         <persName role="author" ref="http://viaf.org/"></persName>
-        <origDate>1260-1268</origDate>
+        <origDate>1181-1268</origDate>
         <origPlace>Picardy</origPlace>
       </creation>
       <textClass>

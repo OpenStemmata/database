@@ -42,8 +42,8 @@
         <listWit>
           <witness xml:id="w_M">
             <label type="siglum">M</label>
-            <idno>Venedig</idno>
-            <origDate></origDate>
+            <idno>Venedig [Venice, Biblioteca nazionale marciana, fr., Z. 8 (52)]</idno>
+            <origDate>1351-1400</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -51,17 +51,29 @@
           </witness>
           <witness xml:id="w_f">
             <label type="siglum">f</label>
-            <idno>Boulogne</idno>
-            <origDate></origDate>
-            <origPlace></origPlace>
-            <note></note>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Boulogne [Boulogne-sur-Mer</settlement>
+                <repository> Bibliothèque municipale</repository>
+                <idno> 192]</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1295</origDate>
+            <origPlace>Picardy or Paris</origPlace>
+            <note>Copy finished on 16/04/1295</note>
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>
           <witness xml:id="w_L">
             <label type="siglum">L</label>
-            <idno>London</idno>
-            <origDate></origDate>
+            <msDesc>
+              <msIdentifier>
+                <settlement>London [London</settlement>
+                <repository> British library</repository>
+                <idno> Royal MS 20 D XI]</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1350</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -69,8 +81,8 @@
           </witness>
           <witness xml:id="w_a">
             <label type="siglum">a</label>
-            <idno>Arsenal</idno>
-            <origDate></origDate>
+            <idno>Arsenal [Paris, Bibliothèque nationale de France, Arsenal, Ms-6562]</idno>
+            <origDate>1221-1230</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -78,17 +90,17 @@
           </witness>
           <witness xml:id="w_V">
             <label type="siglum">V</label>
-            <idno>BN 24369</idno>
-            <origDate></origDate>
-            <origPlace></origPlace>
+            <idno>BN 24369 [Paris, Bibliothèque nationale de France, français, 24369-24370]</idno>
+            <origDate>1301-1320</origDate>
+            <origPlace>France</origPlace>
             <note></note>
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>
           <witness xml:id="w_B">
             <label type="siglum">B</label>
-            <idno>BN 368</idno>
-            <origDate></origDate>
+            <idno>BN 368 [Paris, Bibliothèque nationale de France, français, 368]</idno>
+            <origDate>1301-1313</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -96,8 +108,14 @@
           </witness>
           <witness xml:id="w_C">
             <label type="siglum">C</label>
-            <idno>Bern</idno>
-            <origDate></origDate>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Bern [Bern</settlement>
+                <repository> Bürgerbibliothek Bern</repository>
+                <idno> Cod. 296]</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1251-1300</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -105,17 +123,23 @@
           </witness>
           <witness xml:id="w_A">
             <label type="siglum">A</label>
-            <idno>BN 774</idno>
-            <origDate></origDate>
-            <origPlace></origPlace>
+            <idno>BN 774 [Paris, Bibliothèque nationale de France, français, 774]</idno>
+            <origDate>1251-1300</origDate>
+            <origPlace>Île-de-France</origPlace>
             <note></note>
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>
           <witness xml:id="w_d">
             <label type="siglum">d</label>
-            <idno>BN 2494</idno>
-            <origDate></origDate>
+            <msDesc>
+              <msIdentifier>
+                <settlement>BN 2494 [Paris</settlement>
+                <repository> Bibliothèque nationale de France</repository>
+                <idno> Français 2494]</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1226-1250</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -123,35 +147,47 @@
           </witness>
           <witness xml:id="w_e">
             <label type="siglum">e</label>
-            <idno>BN 1448</idno>
-            <origDate></origDate>
-            <origPlace></origPlace>
+            <idno>BN 1448 [Paris, Bibliothèque nationale de France, français, 1448]</idno>
+            <origDate>1241-1260</origDate>
+            <origPlace>Lorraine</origPlace>
             <note></note>
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>
           <witness xml:id="w_T">
             <label type="siglum">T</label>
-            <idno>Trivulziana</idno>
-            <origDate></origDate>
-            <origPlace></origPlace>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Trivulziana [Milano</settlement>
+                <repository> Biblioteca Trivulziana</repository>
+                <idno> 1025]</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1251-1300</origDate>
+            <origPlace>Île-de-France</origPlace>
             <note></note>
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>
           <witness xml:id="w_b">
             <label type="siglum">b</label>
-            <idno>BN 1449</idno>
-            <origDate></origDate>
-            <origPlace></origPlace>
+            <idno>BN 1449 [Paris, Bibliothèque nationale de France, français, 1449]</idno>
+            <origDate>1251-1300</origDate>
+            <origPlace>Île-de-France</origPlace>
             <note></note>
             <ptr type="description" target=""/>
             <ptr type="digitised" target=""/>
           </witness>
           <witness xml:id="w_P">
             <label type="siglum">P</label>
-            <idno>Cheltenhamer Handschrift</idno>
-            <origDate></origDate>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Cheltenhamer Handschrift [Oxford</settlement>
+                <repository> Bodleian Library</repository>
+                <idno> MS. Fr. e. 32]</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1191-1220</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -164,7 +200,7 @@
       <creation>
         <title ref="http://viaf.org/182731512">Aliscans, 1re partie (Guillaume)</title>
         <persName role="author" ref="http://viaf.org/"></persName>
-        <origDate></origDate>
+        <origDate>1151-1200</origDate>
         <origPlace></origPlace>
       </creation>
       <textClass>

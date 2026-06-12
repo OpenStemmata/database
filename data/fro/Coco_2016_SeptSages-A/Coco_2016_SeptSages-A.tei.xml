@@ -49,7 +49,7 @@
                 <idno> 657</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1278</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -64,7 +64,7 @@
                 <idno> 388</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1281-1305</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -79,7 +79,7 @@
                 <idno> 9245</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1321-1340</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -94,7 +94,7 @@
                 <idno> 9433</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1326-1335</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -109,7 +109,7 @@
                 <idno> 10171</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1293</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -124,7 +124,7 @@
                 <idno> 11190</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1386-1405</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -139,7 +139,7 @@
                 <idno> McClean 179</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1281-1300</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -154,7 +154,7 @@
                 <idno> Gg. I. 1</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1307-1325</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -169,7 +169,7 @@
                 <idno> Gg. VI. 28</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1281-1315</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -178,7 +178,7 @@
           <witness xml:id="w_ASH">
             <label type="siglum">ASH</label>
             <idno>Firenze, Biblioteca Medicea Laurenziana, Ashburnham, 49</idno>
-            <origDate></origDate>
+            <origDate>1301-1320</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -193,7 +193,7 @@
                 <idno> L13</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1459</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -202,7 +202,7 @@
           <witness xml:id="w_HAR">
             <label type="siglum">HAR</label>
             <idno>London, British Library, Harley, 3860</idno>
-            <origDate></origDate>
+            <origDate>1301-1320</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -217,7 +217,7 @@
                 <idno> 330/215</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1281-1320</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -232,7 +232,7 @@
                 <idno> 102</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1381-1400</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -241,7 +241,7 @@
           <witness xml:id="w_ARS3152">
             <label type="siglum">ARS3152</label>
             <idno>Paris, Bibliothèque nationale de France, Arsenal, 3152</idno>
-            <origDate></origDate>
+            <origDate>1267-1300</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -250,7 +250,7 @@
           <witness xml:id="w_ARS3354">
             <label type="siglum">ARS3354</label>
             <idno>Paris, Bibliothèque nationale de France, Arsenal, 3354</idno>
-            <origDate></origDate>
+            <origDate>1401-1500</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -259,7 +259,7 @@
           <witness xml:id="w_ARS">
             <label type="siglum">ARS</label>
             <idno>Paris, Bibliothèque nationale de France, Arsenal, 3516</idno>
-            <origDate></origDate>
+            <origDate>1261-1300</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -268,7 +268,7 @@
           <witness xml:id="w_F93">
             <label type="siglum">F93</label>
             <idno>Paris, Bibliothèque nationale de France, français, 93</idno>
-            <origDate></origDate>
+            <origDate>1466</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -277,7 +277,7 @@
           <witness xml:id="w_F95">
             <label type="siglum">F95</label>
             <idno>Paris, Bibliothèque nationale de France, français, 95</idno>
-            <origDate></origDate>
+            <origDate>1286-1305</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -286,7 +286,7 @@
           <witness xml:id="w_F1421">
             <label type="siglum">F1421</label>
             <idno>Paris, Bibliothèque nationale de France, français, 1421</idno>
-            <origDate></origDate>
+            <origDate>1276-1300</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -295,7 +295,7 @@
           <witness xml:id="w_F2137">
             <label type="siglum">F2137</label>
             <idno>Paris, Bibliothèque nationale de France, français, 2137</idno>
-            <origDate></origDate>
+            <origDate>1278-1300</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -304,7 +304,7 @@
           <witness xml:id="w_F5586">
             <label type="siglum">F5586</label>
             <idno>Paris, Bibliothèque nationale de France, français, 5586</idno>
-            <origDate></origDate>
+            <origDate>1477</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -313,7 +313,7 @@
           <witness xml:id="w_F20040">
             <label type="siglum">F20040</label>
             <idno>Paris, Bibliothèque nationale de France, français, 20040</idno>
-            <origDate></origDate>
+            <origDate>1281-1300</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -322,7 +322,7 @@
           <witness xml:id="w_F25545">
             <label type="siglum">F25545</label>
             <idno>Paris, Bibliothèque nationale de France, français, 25545</idno>
-            <origDate></origDate>
+            <origDate>1316-1317</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -331,7 +331,7 @@
           <witness xml:id="w_F22548">
             <label type="siglum">F22548</label>
             <idno>Paris, Bibliothèque nationale de France, français, 22548</idno>
-            <origDate></origDate>
+            <origDate>1281-1320</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -340,7 +340,7 @@
           <witness xml:id="w_NA1263">
             <label type="siglum">NA1263</label>
             <idno>Paris, Bibliothèque nationale de France, nouvelles acquisitions françaises, 1263</idno>
-            <origDate></origDate>
+            <origDate>1241-1260</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -349,7 +349,7 @@
           <witness xml:id="w_NA12791">
             <label type="siglum">NA12791</label>
             <idno>Paris, Bibliothèque nationale de France, nouvelles acquisitions françaises, 12791</idno>
-            <origDate></origDate>
+            <origDate>1326-1350</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -358,7 +358,7 @@
           <witness xml:id="w_NA13521">
             <label type="siglum">NA13521</label>
             <idno>Paris, Bibliothèque nationale de France, nouvelles acquisitions françaises, 13521</idno>
-            <origDate></origDate>
+            <origDate>1281-1300</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>
@@ -373,7 +373,7 @@
                 <idno> 109</idno>
               </msIdentifier>
             </msDesc>
-            <origDate></origDate>
+            <origDate>1281-1320</origDate>
             <origPlace></origPlace>
             <note></note>
             <ptr type="description" target=""/>

@@ -39,13 +39,99 @@
           <biblScope unit="page" n="2"/>
           <ptr type="digitised" target="https://archive.org/stream/EnfancesVivienZorn/Die_Enfances_Vivien#page/n9"/>
         </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 1448</idno>
+            <origDate>1241-1260</origDate>
+            <origPlace>Lorraine</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Boulogne-sur-Mer</settlement>
+                <repository> Bibliothèque municipale</repository>
+                <idno> 192</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1295</origDate>
+            <origPlace>Picardy or Paris</origPlace>
+            <note>Copy finished on 16/04/1295</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C1">
+            <label type="siglum">C1</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 1449</idno>
+            <origDate>1251-1300</origDate>
+            <origPlace>Île-de-France</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C2">
+            <label type="siglum">C2</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 368</idno>
+            <origDate>1301-1313</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C3">
+            <label type="siglum">C3</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 774</idno>
+            <origDate>1251-1300</origDate>
+            <origPlace>Île-de-France</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C4">
+            <label type="siglum">C4</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Milano</settlement>
+                <repository> Biblioteca Trivulziana</repository>
+                <idno> 1025</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1251-1300</origDate>
+            <origPlace>Île-de-France</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_D1">
+            <label type="siglum">D1</label>
+            <idno>London, British Library, Royal, 20. D. XI</idno>
+            <origDate>1301-1350</origDate>
+            <origPlace>France</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_D2">
+            <label type="siglum">D2</label>
+            <idno>Paris, Bibliothèque nationale de France, français, 24369-24370</idno>
+            <origDate>1301-1320</origDate>
+            <origPlace>France</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
         <title ref="http://viaf.org/182450584">Enfances Vivien</title>
         <persName role="author" ref="http://viaf.org/"></persName>
-        <origDate></origDate>
+        <origDate>1201-1300</origDate>
         <origPlace></origPlace>
       </creation>
       <textClass>
