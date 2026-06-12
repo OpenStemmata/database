@@ -1,0 +1,16 @@
+digraph {
+
+X[color="grey"];
+L[color="grey"];
+V[color="grey"];
+L1[label="L¹"];
+L2[label="L²"];
+
+X->L;
+L->L1;
+L1->Halki;
+L->L2;
+X->V;
+V->Va;
+
+}

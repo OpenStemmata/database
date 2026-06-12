@@ -1,0 +1,18 @@
+digraph {
+    // Hypothetical nodes
+    omega[color="grey", label=""];
+    unnamed_1[color="grey", label=""];
+    unnamed_2[color="grey", label=""];
+    unnamed_3[color="grey", label=""];
+
+    // Relationships
+    omega -> A;
+    omega -> unnamed_1;
+    unnamed_1->B;
+    unnamed_1->unnamed_2;
+    unnamed_2->T;
+    unnamed_2->unnamed_3;
+    unnamed_3->E;
+    unnamed_3->S;
+
+}

@@ -22,9 +22,10 @@ _🌱 lonely trees_
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fita?type=dir&style=flat&label=ita)
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fgez?type=dir&style=flat&label=gez)
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fnon?type=dir&style=flat&label=non)
+![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fegy?type=dir&style=flat&label=egy)
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fosp?type=dir&style=flat&label=osp)
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fdum?type=dir&style=flat&label=dum)
-![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/OpenStemmata/database/data%2Fegy?type=dir&style=flat&label=egy)
+
 
 ## Contributing
 

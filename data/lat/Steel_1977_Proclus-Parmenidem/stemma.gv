@@ -1,0 +1,19 @@
+digraph {
+
+Lambda[color="grey"];
+x[color="grey", label="(x)"];
+y[color="grey", label="(y)"];
+Cprime[label="C'"]
+
+Lambda->O;
+Lambda->x;
+x->A;
+Lambda->y;
+y->R;
+y->Cprime[style="dashed"];
+Cprime->L;
+y->V;
+V->C;
+C->Cprime;
+
+}

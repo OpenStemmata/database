@@ -1,5 +1,5 @@
 publicationType: "publicationPart"
-publicationTitle: "The stemma of the story of Sinuhe : or How to use an unrooted phylogenetic tree in textual criticism "
+publicationTitle: "The stemma of the story of Sinuhe : or How to use an unrooted phylogenetic tree in textual criticism"
 publicationDate: "2012"
 publicationPlaces:
     - publicationPlace: "Hamburg"
@@ -9,7 +9,7 @@ publicationStemmaNum: "5"
 publicationAuthors:
     - publicationAuthor: "Carsten Peust"
 publicationPage: "218"
-publicationLink: ""
+publicationLink: "https://archiv.ub.uni-heidelberg.de/propylaeumdok/2543/1/Peust_The_stemma_of_the_story_of_Sinuhe_2012.pdf"
 workTitle: "Story of Sinuhe"
 workViaf: ""
 workOrigDate: "ca. 2000 BCE"
