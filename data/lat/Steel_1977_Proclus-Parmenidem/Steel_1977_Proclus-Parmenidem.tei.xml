@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Latin translation of Proclus, In Parmenidem</title>
+        <author>Carlos Steel</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>This article analyzes the position of the manuscript Vat. lat. 11600 in the tradition of the Latin translation of Proclus' commentary on Parmenides by Guillaume de Moerbeke. The author notes that «A semble être plus proche de y puisqu'il partage avec y quelques fautes importantes» but still produces a trifid stemma, while it then would make more sense to attach x and y to the same hyparchetype and produce a bifid stemma.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>La place du Vat. lat. 11600 dans la tradition de la traduction latine du commentaire « In Parmenidem » de Proclus</title>
+          <author>Carlos Steel</author>
+          <date>1977</date>
+          <pubPlace>Louvain</pubPlace>
+          <series>Scriptorium</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="31"/>
+          <biblScope unit="page" n="266"/>
+          <ptr type="digitised" target="https://www.persee.fr/doc/scrip_0036-9772_1977_num_31_2_2837"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_V">
+            <label type="siglum">V</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Rome</settlement>
+                <repository> BAV</repository>
+                <idno> Vat. lat. 3074</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1401-1450</origDate>
+            <origPlace></origPlace>
+            <note>Manuscrit appartenant autrefois à Nicolas de Cuse. Utilisé comme modèle pour C et L.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_R">
+            <label type="siglum">R</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Rome</settlement>
+                <repository> BAV</repository>
+                <idno> Vat. lat. 11600</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>Après 1473</origDate>
+            <origPlace></origPlace>
+            <note>Contient la traduction de Moerbeke du commentaire de Proclus sur le Parménide. Probablement copié à partir du même exemplar (y) que V.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_O">
+            <label type="siglum">O</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Oxford</settlement>
+                <repository> Bodleian Library</repository>
+                <idno> Digby 236</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>1301-1400</origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <idno>Ambrosianus A 167 sup.</idno>
+            <origDate>1508</origDate>
+            <origPlace></origPlace>
+            <note>Manuscrit indépendant de la famille V-R, plus proche de y.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <idno>Cusanus Hosp. 186</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Copie directe de V, corrigée par Jean de Bussis (C') à partir d'un manuscrit perdu (z), probablement identique à y.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_L">
+            <label type="siglum">L</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Leipzig</settlement>
+                <repository> Stadtbibl.</repository>
+                <idno> I fol. 26</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Copie directe de C.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Latin translation of Proclus, In Parmenidem</title>
+        <persName role="author" ref="http://viaf.org/">Guillaume de Moerbeke</persName>
+        <origDate>Antiquité tardive</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">commentaire philosophique</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">excluded</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="lat"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/lat/Steel_1977_Proclus-Parmenidem/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="10" size="10">
+        <label>2</label>
+        <node xml:id="n_Lambda" type="hypothetical" inDegree="0" outDegree="3">
+          <label>Lambda</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="1">
+          <label>(x)</label>
+        </node>
+        <node xml:id="n_y" type="hypothetical" inDegree="1" outDegree="3">
+          <label>(y)</label>
+        </node>
+        <node xml:id="n_Cprime" type="witness" inDegree="2" outDegree="1">
+          <label>C'</label>
+        </node>
+        <node xml:id="n_O" type="witness" inDegree="1" outDegree="0">
+          <label>O</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_R" type="witness" inDegree="1" outDegree="0">
+          <label>R</label>
+        </node>
+        <node xml:id="n_L" type="witness" inDegree="1" outDegree="0">
+          <label>L</label>
+        </node>
+        <node xml:id="n_V" type="witness" inDegree="1" outDegree="1">
+          <label>V</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="1">
+          <label>C</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_Lambda" to="#n_O" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_Lambda" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_Lambda" to="#n_y" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_x" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_y" to="#n_R" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_y" to="#n_Cprime" od:type="contamination" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_y" to="#n_V" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_Cprime" to="#n_L" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_V" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_C" to="#n_Cprime" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

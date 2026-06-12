@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Apologie</title>
+        <author>Bernard Outtier</author>
+        <author>Marie-Joseph Pierre</author>
+        <author>Bernard Pouderon</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>This article examines the relationship between the original Greek, and the Syriac and Armenian versions of Aristides' Apology. It contains the manuscript witnesses of all versions, as well as the derived texts. All of the versions survive only through fragments or paraphrases. Contamination is not shown on the tree, but the abstract states that «La présence dans les deux versions (syriaque et arménienne) de la glose sur les éléments, dans laquelle tous les éditeurs ont vu une interpolation manifeste, s'explique donc par une contamination antérieure à l'élaboration des deux traductions»</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>À propos de l'Apologie d'Aristide. Recherches sur un prototype commun aux versions syriaque et arménienne</title>
+          <author>Bernard Outtier</author>
+          <author>Marie-Joseph Pierre</author>
+          <author>Bernard Pouderon</author>
+          <date>2000</date>
+          <pubPlace>Paris</pubPlace>
+          <series>Revue des Sciences Religieuses</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="74"/>
+          <biblScope unit="page" n="193"/>
+          <ptr type="digitised" target="https://www.persee.fr/doc/rscir_0035-2217_2000_num_74_2_3529"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_Gr">
+            <label type="siglum">Gr</label>
+            <idno>Original grec (perdu)</idno>
+            <origDate>124-125</origDate>
+            <origPlace></origPlace>
+            <note>Original Greek text of Aristides' Apology, now lost.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Gr1">
+            <label type="siglum">Gr¹</label>
+            <idno>Branche égyptienne</idno>
+            <origDate>301-400</origDate>
+            <origPlace>Égypte</origPlace>
+            <note>Represented by papyri Π¹ and Π² from Oxyrhynchus.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Π1">
+            <label type="siglum">Π¹</label>
+            <idno>Papyrus Oxyrhynchus 1778</idno>
+            <origDate>301-400</origDate>
+            <origPlace>Oxyrhynchus</origPlace>
+            <note>Greek papyrus fragment of Aristides' Apology.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Π2">
+            <label type="siglum">Π²</label>
+            <idno>Papyrus Lond. Lit. 223</idno>
+            <origDate>301-400</origDate>
+            <origPlace>Oxyrhynchus</origPlace>
+            <note>Greek papyrus fragment of Aristides' Apology.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Gr2">
+            <label type="siglum">Gr²</label>
+            <idno>Branche grecque</idno>
+            <origDate>901-1000</origDate>
+            <origPlace>Mont Athos</origPlace>
+            <note>Lost (?) manuscript, represented by the Greek metaphrase in the Barlaam and Joasaph romance.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ba">
+            <label type="siglum">Ba</label>
+            <idno>Barlaam et Joasaph (métaphrase grecque)</idno>
+            <origDate>901-1000</origDate>
+            <origPlace>Mont Athos</origPlace>
+            <note>Greek metaphrase of Aristides' Apology included in the romance of Barlaam and Joasaph.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Gr3">
+            <label type="siglum">Gr³</label>
+            <idno>Branche orientale</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Represented by the Syriac and Armenian versions.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Sy">
+            <label type="siglum">Sy</label>
+            <idno>Version syriaque</idno>
+            <origDate>301-500</origDate>
+            <origPlace></origPlace>
+            <note>Syriac version of Aristides' Apology.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_cod._Sin.">
+            <label type="siglum">cod. Sin.</label>
+            <idno>Codex Sinaiticus</idno>
+            <origDate>501-600</origDate>
+            <origPlace></origPlace>
+            <note>Syriac manuscript of Aristides' Apology, with a corrected title.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Ar">
+            <label type="siglum">Ar</label>
+            <idno>Version arménienne</idno>
+            <origDate>401-500</origDate>
+            <origPlace></origPlace>
+            <note>Armenian version of Aristides' Apology.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_cod._Erev.">
+            <label type="siglum">cod. Erev.</label>
+            <idno>Codex Erevan (florilège)</idno>
+            <origDate>981</origDate>
+            <origPlace>Erevan</origPlace>
+            <note>Armenian florilegium containing a fragment of Aristides' Apology.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Apologie</title>
+        <persName role="author" ref="http://viaf.org/">Aristide d'Athènes</persName>
+        <origDate>124-125</origDate>
+        <origPlace></origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">apologie</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">original</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">included</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="grc"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/grc/Pouderon_2000_Aristide/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="12" size="11">
+        <label>1</label>
+        <node xml:id="n_Gr" type="hypothetical" inDegree="0" outDegree="3">
+          <label>Gr (an 124)</label>
+        </node>
+        <node xml:id="n_Gr1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Gr1\n (branche égyptienne)</label>
+        </node>
+        <node xml:id="n_Pi1" type="witness" inDegree="1" outDegree="0">
+          <label>Π¹\n (Oxyrhynchos)</label>
+        </node>
+        <node xml:id="n_Pi2" type="witness" inDegree="1" outDegree="0">
+          <label>Π²\n (Oxyrhynchos ?)</label>
+        </node>
+        <node xml:id="n_Gr2" type="hypothetical" inDegree="1" outDegree="1">
+          <label>Gr2\n (branche grecque)</label>
+        </node>
+        <node xml:id="n_x" type="hypothetical" inDegree="1" outDegree="1">
+          <label>x\n(mont Athos ?)</label>
+        </node>
+        <node xml:id="n_Ba" type="witness" inDegree="1" outDegree="0">
+          <label>Ba (Xᵉ siècle)\n(métaphrase)</label>
+        </node>
+        <node xml:id="n_Gr3" type="hypothetical" inDegree="1" outDegree="2">
+          <label>Gr3\n (branche orientale)</label>
+        </node>
+        <node xml:id="n_Sy" type="hypothetical" inDegree="1" outDegree="1">
+          <label>Sy (IVᵉ-Vᵉ siècle)</label>
+        </node>
+        <node xml:id="n_codSin" type="witness" inDegree="1" outDegree="0">
+          <label>cod. Sin. (VIᵉ s.)</label>
+        </node>
+        <node xml:id="n_Ar" type="hypothetical" inDegree="1" outDegree="1">
+          <label>Ar (Vᵉ s.)</label>
+        </node>
+        <node xml:id="n_codErev" type="witness" inDegree="1" outDegree="0">
+          <label>cod. Erev. an. 981</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_Gr" to="#n_Gr1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_Gr" to="#n_Gr2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_Gr" to="#n_Gr3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_Gr1" to="#n_Pi1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_Gr1" to="#n_Pi2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_Gr2" to="#n_x" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_x" to="#n_Ba" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_Gr3" to="#n_Sy" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_9" from="#n_Gr3" to="#n_Ar" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_Sy" to="#n_codSin" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_Ar" to="#n_codErev" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

@@ -37,7 +37,7 @@
           <!-- Numero de série -->
           <biblScope unit="volume" n="54"/>
           <biblScope unit="page" n="203"/>
-          <ptr type="digitised" target=""/>
+          <ptr type="digitised" target="https://archive.org/details/lesdeuxrdacti02moni/page/202/mode/2up"/>
         </bibl>
       </sourceDesc>
     </fileDesc>

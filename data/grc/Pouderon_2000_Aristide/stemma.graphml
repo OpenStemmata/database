@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cert" attr.type="string"/>
+<key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="color" attr.type="string"/>
+<graph edgedefault="directed"><node id="Gr">
+  <data key="d0">grey</data>
+  <data key="d1">Gr (an 124)</data>
+</node>
+<node id="Gr1">
+  <data key="d0">grey</data>
+  <data key="d1">Gr1\n (branche égyptienne)</data>
+</node>
+<node id="Pi1">
+  <data key="d1">Π¹\n (Oxyrhynchos)</data>
+</node>
+<node id="Pi2">
+  <data key="d1">Π²\n (Oxyrhynchos ?)</data>
+</node>
+<node id="Gr2">
+  <data key="d0">grey</data>
+  <data key="d1">Gr2\n (branche grecque)</data>
+</node>
+<node id="x">
+  <data key="d0">grey</data>
+  <data key="d1">x\n(mont Athos ?)</data>
+</node>
+<node id="Ba">
+  <data key="d1">Ba (Xᵉ siècle)\n(métaphrase)</data>
+</node>
+<node id="Gr3">
+  <data key="d0">grey</data>
+  <data key="d1">Gr3\n (branche orientale)</data>
+</node>
+<node id="Sy">
+  <data key="d0">grey</data>
+  <data key="d1">Sy (IVᵉ-Vᵉ siècle)</data>
+</node>
+<node id="codSin">
+  <data key="d1">cod. Sin. (VIᵉ s.)</data>
+</node>
+<node id="Ar">
+  <data key="d0">grey</data>
+  <data key="d1">Ar (Vᵉ s.)</data>
+</node>
+<node id="codErev">
+  <data key="d1">cod. Erev. an. 981</data>
+</node>
+<edge source="Gr" target="Gr1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gr" target="Gr2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gr" target="Gr3">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gr1" target="Pi1">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gr1" target="Pi2">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gr2" target="x">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="x" target="Ba">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gr3" target="Sy">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Gr3" target="Ar">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Sy" target="codSin">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+<edge source="Ar" target="codErev">
+  <data key="d2">filiation</data>
+  <data key="d3">unknown</data>
+</edge>
+</graph></graphml>

@@ -97,8 +97,8 @@
           <term type="extraStemmContam">yes</term>
           <term type="rootType">archetype</term>
           <term type="drawnStemma">true</term>
-          <term type="sourceText">selected</term>
-          <term type="derivatives">excluded</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">selected</term>
         </keywords>
       </textClass>
       <langUsage>

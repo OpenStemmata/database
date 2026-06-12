@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Sermonnaire</title>
+        <author>Thomas Falmagne</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note> This article examines the manuscript tradition of the sermon collection attributed to Jean de Villers, a Cistercian abbot who died in 1336. The author, Thomas Falmagne, analyzes the manuscripts and their relationships, focusing on the Cistercian and Parisian origins of the sermons. The article includes a detailed stemma codicum illustrating the manuscript tradition and discusses the historical context of the sermons' transmission.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>La tradition manuscrite du sermonnaire attribué à Jean de Villers (mort en 1336)</title>
+          <author>Thomas Falmagne</author>
+          <date>1992</date>
+          <pubPlace>Ottignies</pubPlace>
+          <series>Scriptorium</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="46"/>
+          <biblScope unit="page" n="48"/>
+          <ptr type="digitised" target="https://www.persee.fr/doc/scrip_0036-9772_1992_num_46_1_1612"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_x1">
+            <label type="siglum">x1</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Lost archetype of the sermons attributed to Jean de Villers.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_x2">
+            <label type="siglum">x2</label>
+            <idno></idno>
+            <origDate>1346</origDate>
+            <origPlace></origPlace>
+            <note>Common model with reference to Jean de Villers in Brabant.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_x3">
+            <label type="siglum">x3</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Common model with reference to the Villers origin.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_C">
+            <label type="siglum">C</label>
+            <idno>Cambridge, University Library Ff.I.20</idno>
+            <origDate>1473</origDate>
+            <origPlace>Stoneleigh</origPlace>
+            <note>Hec scripsit monachus cui nomen extat Iohannes Kynggyswod in Ardern professus de Stonley sacerdos. Anno domini MCCCCLXXIII.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_O">
+            <label type="siglum">O</label>
+            <idno>Oxford, Bodleian Library Laud. misc. 432</idno>
+            <origDate>1301-1400</origDate>
+            <origPlace>Paris</origPlace>
+            <note>Oxford manuscript.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <idno>Bruges, Bibliothèque de la Ville 276</idno>
+            <origDate>1381-1420</origDate>
+            <origPlace>Bruges</origPlace>
+            <note>Bruges manuscript.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_T">
+            <label type="siglum">T</label>
+            <idno>Troyes, Bibliothèque municipale 1476</idno>
+            <origDate>1346</origDate>
+            <origPlace>Paris</origPlace>
+            <note>expliciunt sermones dominicales editi a reuerendo uiro domno Iohanne de Barba, ordinis cysterciensis, magistro in sacra theologia, scripti Parisius per manum Iohannis Yvisani Britonis, Trecorensis dyocesis, completi die sabbati post festim B. Dionisii sociorumque eius, anno Domini MCCCXLVI.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_I">
+            <label type="siglum">I</label>
+            <idno>Innsbruck, Univ. 468</idno>
+            <origDate>1346</origDate>
+            <origPlace>Paris</origPlace>
+            <note>Scripta per manus fratris Marci ordinis cysterciensis Parysius. Anno Domini MCCCXLVI. Comes from the Cistercian abbey of Stams</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Sermonnaire</title>
+        <persName role="author" ref="http://viaf.org/">Jean de Villers</persName>
+        <origDate>First half of the XIVth century, before 1336, probably after 1313</origDate>
+        <origPlace>Paris</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">sermons</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">no</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="lat"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/lat/Falmagne_1992_JVillers-Sermonnaire/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="8" size="7">
+        <label>1</label>
+        <node xml:id="n_x1" type="hypothetical" inDegree="0" outDegree="2">
+          <label>x1</label>
+        </node>
+        <node xml:id="n_x2" type="hypothetical" inDegree="1" outDegree="3">
+          <label>x2</label>
+        </node>
+        <node xml:id="n_x3" type="hypothetical" inDegree="1" outDegree="2">
+          <label>x3</label>
+        </node>
+        <node xml:id="n_I" type="witness" inDegree="1" outDegree="0">
+          <label>I</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="0">
+          <label>T</label>
+        </node>
+        <node xml:id="n_C" type="witness" inDegree="1" outDegree="0">
+          <label>C</label>
+        </node>
+        <node xml:id="n_O" type="witness" inDegree="1" outDegree="0">
+          <label>O</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_x1" to="#n_I" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_x1" to="#n_x2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_x2" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_x2" to="#n_C" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_x2" to="#n_x3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_x3" to="#n_O" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_x3" to="#n_B" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

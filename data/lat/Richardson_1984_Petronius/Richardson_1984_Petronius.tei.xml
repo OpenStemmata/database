@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Satyricon</title>
+        <author>T.-W. Richardson</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>This stemma is limited to the Renaissance family alpha of witnesses. The article introduces a newly discovered Renaissance manuscript of Petronius' Satyricon, Indiana, Notre Dame 58 (I). The article includes a detailed stemma codicum illustrating the relationships among the Renaissance subgroup α. The shelfmarks are not given here (nor in Reynolds) and should be checked in K. Müller, ed. 1961. Petronii Arbitri Satyricon cum apparatu critico. Munich: Heimeran.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>A New Renaissance Petronius Manuscript: Indiana, Notre Dame 58 (I)</title>
+          <author>T.-W. Richardson</author>
+          <date>1984</date>
+          <pubPlace>Montréal</pubPlace>
+          <series>Scriptorium</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="38"/>
+          <biblScope unit="page" n="98"/>
+          <ptr type="digitised" target="https://www.persee.fr/doc/scrip_0036-9772_1984_num_38_1_1343"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Barb">
+            <label type="siglum">Barb</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Barberini manuscript?</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_Bel">
+            <label type="siglum">Bel</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Belluno</settlement>
+                <repository> Biblioteca Lolliniana</repository>
+                <idno> Ms. 25</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Belluno manuscript</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <idno></idno>
+            <origDate>12th century?</origDate>
+            <origPlace></origPlace>
+            <note>Lost manuscript, readings cited by Beck and Buecheler</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_F">
+            <label type="siglum">F</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_K">
+            <label type="siglum">K</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_I">
+            <label type="siglum">I</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Indiana</settlement>
+                <repository> University of Notre Dame</repository>
+                <idno> Memorial Library 58</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate>last quarter of the fifteenth century</origDate>
+            <origPlace>North-Eastern Italy</origPlace>
+            <note>Newly discovered Renaissance manuscript of Petronius' Satyricon.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_editio_princeps">
+            <label type="siglum">editio princeps</label>
+            <idno></idno>
+            <origDate>c.1482</origDate>
+            <origPlace>Milan</origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Satyricon</title>
+        <persName role="author" ref="http://viaf.org/">Petronius Arbiter</persName>
+        <origDate>1-100</origDate>
+        <origPlace>Rome</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">roman</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">yes</term>
+          <term type="rootType">archetype</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="lat"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/lat/Richardson_1984_Petronius/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="16" size="17">
+        <label>3</label>
+        <node xml:id="n_alpha" type="hypothetical" inDegree="0" outDegree="3">
+          <label>α</label>
+        </node>
+        <node xml:id="n_a" type="hypothetical" inDegree="1" outDegree="2">
+          <label>a</label>
+        </node>
+        <node xml:id="n_i" type="hypothetical" inDegree="1" outDegree="3">
+          <label>i</label>
+        </node>
+        <node xml:id="n_e" type="hypothetical" inDegree="1" outDegree="1">
+          <label>e</label>
+        </node>
+        <node xml:id="n_f" type="hypothetical" inDegree="1" outDegree="2">
+          <label>f</label>
+        </node>
+        <node xml:id="n_u" type="hypothetical" inDegree="2" outDegree="2">
+          <label>u</label>
+        </node>
+        <node xml:id="n_v" type="hypothetical" inDegree="1" outDegree="2">
+          <label>v</label>
+        </node>
+        <node xml:id="n_ep" type="hypothetical" inDegree="1" outDegree="1">
+          <label>ep</label>
+        </node>
+        <node xml:id="n_eprinceps" type="witness" inDegree="1" outDegree="0">
+          <label>editio princeps</label>
+        </node>
+        <node xml:id="n_Bel" type="witness" inDegree="1" outDegree="0">
+          <label>Bel</label>
+        </node>
+        <node xml:id="n_I" type="witness" inDegree="1" outDegree="1">
+          <label>I</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_F" type="witness" inDegree="1" outDegree="0">
+          <label>F</label>
+        </node>
+        <node xml:id="n_K" type="witness" inDegree="1" outDegree="0">
+          <label>K</label>
+        </node>
+        <node xml:id="n_Barb" type="witness" inDegree="2" outDegree="0">
+          <label>Barb</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_alpha" to="#n_Bel" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_alpha" to="#n_a" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_alpha" to="#n_v" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_a" to="#n_i" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_a" to="#n_f" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_i" to="#n_I" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_i" to="#n_e" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_i" to="#n_u" od:type="contamination" cert="low"/>
+        <arc xml:id="arc_9" from="#n_e" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_10" from="#n_f" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_11" from="#n_f" to="#n_u" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_12" from="#n_u" to="#n_F" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_13" from="#n_u" to="#n_K" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_14" from="#n_v" to="#n_Barb" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_15" from="#n_v" to="#n_ep" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_16" from="#n_ep" to="#n_eprinceps" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_17" from="#n_I" to="#n_Barb" od:type="contamination" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenStemmata/database/main/schema/openStemmata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard">Stemma of</title>
+        <title type="variable">Carmina</title>
+        <author>Ludwig Bieler</author>
+        <respStmt>
+          <resp>contributed to OpenStemmata by</resp>
+          <persName ref="0000-0003-0385-7037">Jean-Baptiste Camps</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Openstemmata</orgName>
+          <ptr target="https://openstemmata.github.io/"/>
+        </authority>
+        <date/>
+        <!-- File creation date? -->
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>This section of the article discusses the manuscript tradition of Prudentius' *Carmina*, focusing on the stemma codicum provided on page 80. The stemma is a basic structure, with not all witnesses (only a selection out of the 300 or more surviving manuscripts), and «with generous allowance for contamination. The text also specifies that the group CD and parents was thought by Bergman to share a parent with A; and P, with E, but with likely contamination of ACD. It would be easy to complete the stemma with this information. Shelfmarked would need to be checked in the original edition.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl type="publicationPart">
+          <title>Corpus Christianorum</title>
+          <author>Ludwig Bieler</author>
+          <date>1970</date>
+          <pubPlace>Dublin</pubPlace>
+          <series>Scriptorium</series>
+          <!-- Numero de série -->
+          <biblScope unit="volume" n="24"/>
+          <biblScope unit="page" n="80"/>
+          <ptr type="digitised" target="https://www.persee.fr/doc/scrip_0036-9772_1970_num_24_1_3403"/>
+        </bibl>
+        <listWit>
+          <witness xml:id="w_A">
+            <label type="siglum">A</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Putaneus</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_B">
+            <label type="siglum">B</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Ambrosianus.</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_T">
+            <label type="siglum">T</label>
+            <msDesc>
+              <msIdentifier>
+                <settlement>Paris</settlement>
+                <repository> B. N.</repository>
+                <idno> lat. 8087</idno>
+              </msIdentifier>
+            </msDesc>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note>Thuaneuus</note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_E">
+            <label type="siglum">E</label>
+            <idno>E</idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+          <witness xml:id="w_S">
+            <label type="siglum">S</label>
+            <idno></idno>
+            <origDate></origDate>
+            <origPlace></origPlace>
+            <note></note>
+            <ptr type="description" target=""/>
+            <ptr type="digitised" target=""/>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <title ref="http://viaf.org/">Carmina</title>
+        <persName role="author" ref="http://viaf.org/">Prudentius</persName>
+        <origDate>351-420</origDate>
+        <origPlace>Spain</origPlace>
+      </creation>
+      <textClass>
+        <keywords>
+          <term type="workGenre">poésie</term>
+          <term type="stemmaType">reconstructed</term>
+          <term type="contam">yes</term>
+          <term type="extraStemmContam">no</term>
+          <term type="rootType">unknown</term>
+          <term type="drawnStemma">true</term>
+          <term type="sourceText">NA</term>
+          <term type="derivatives">NA</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language ident="lat"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://github.com/OpenStemmata/database/blob/main/data/lat/Bieler_1970_Prudentius-Carmina/stemma.png?raw=true"/>
+  </facsimile>
+  <text>
+    <body>
+      <graph type="directed" order="9" size="8">
+        <label>1</label>
+        <node xml:id="n_omega" type="hypothetical" inDegree="0" outDegree="2">
+          <label>omega</label>
+        </node>
+        <node xml:id="n_unnamed_1" type="hypothetical" inDegree="1" outDegree="2">
+          <label>unnamed_1</label>
+        </node>
+        <node xml:id="n_unnamed_2" type="hypothetical" inDegree="1" outDegree="2">
+          <label>unnamed_2</label>
+        </node>
+        <node xml:id="n_unnamed_3" type="hypothetical" inDegree="1" outDegree="2">
+          <label>unnamed_3</label>
+        </node>
+        <node xml:id="n_A" type="witness" inDegree="1" outDegree="0">
+          <label>A</label>
+        </node>
+        <node xml:id="n_B" type="witness" inDegree="1" outDegree="0">
+          <label>B</label>
+        </node>
+        <node xml:id="n_T" type="witness" inDegree="1" outDegree="0">
+          <label>T</label>
+        </node>
+        <node xml:id="n_E" type="witness" inDegree="1" outDegree="0">
+          <label>E</label>
+        </node>
+        <node xml:id="n_S" type="witness" inDegree="1" outDegree="0">
+          <label>S</label>
+        </node>
+        <arc xml:id="arc_1" from="#n_omega" to="#n_A" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_2" from="#n_omega" to="#n_unnamed_1" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_3" from="#n_unnamed_1" to="#n_B" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_4" from="#n_unnamed_1" to="#n_unnamed_2" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_5" from="#n_unnamed_2" to="#n_T" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_6" from="#n_unnamed_2" to="#n_unnamed_3" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_7" from="#n_unnamed_3" to="#n_E" od:type="filiation" cert="unknown"/>
+        <arc xml:id="arc_8" from="#n_unnamed_3" to="#n_S" od:type="filiation" cert="unknown"/>
+      </graph>
+    </body>
+    <back>
+         </back>
+  </text>
+</TEI>

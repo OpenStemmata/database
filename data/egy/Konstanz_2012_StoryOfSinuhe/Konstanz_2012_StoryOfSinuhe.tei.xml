@@ -29,7 +29,7 @@
       </notesStmt>
       <sourceDesc>
         <bibl type="publicationPart">
-          <title>The stemma of the story of Sinuhe : or How to use an unrooted phylogenetic tree in textual criticism </title>
+          <title>The stemma of the story of Sinuhe : or How to use an unrooted phylogenetic tree in textual criticism</title>
           <author>Carsten Peust</author>
           <date>2012</date>
           <pubPlace>Hamburg</pubPlace>
@@ -37,7 +37,7 @@
           <!-- Numero de série -->
           <biblScope unit="volume" n="20"/>
           <biblScope unit="page" n="218"/>
-          <ptr type="digitised" target=""/>
+          <ptr type="digitised" target="https://archiv.ub.uni-heidelberg.de/propylaeumdok/2543/1/Peust_The_stemma_of_the_story_of_Sinuhe_2012.pdf"/>
         </bibl>
         <listWit>
           <witness xml:id="w_B">

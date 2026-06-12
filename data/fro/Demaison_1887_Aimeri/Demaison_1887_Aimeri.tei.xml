@@ -37,7 +37,7 @@
           <!-- Numero de série -->
           <biblScope unit="volume" n="24"/>
           <biblScope unit="page" n="LX"/>
-          <ptr type="digitised" target="https://archive.org/details/aymeridenarbonne01demauoft/page/60/mode/2up"/>
+          <ptr type="digitised" target="https://gallica.bnf.fr/ark:/12148/bpt6k5014h/f65"/>
         </bibl>
         <listWit>
           <witness xml:id="w_A1">
