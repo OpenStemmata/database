@@ -13,7 +13,7 @@ workTitle: "Gesta Karoli Magni ad Carcassonam et Narbonam"
 workViaf: ""
 workOrigDate: "1237 to 1255"
 workOrigPlace: "Lagrasse (Aude, France)"
-workAuthors: []
+workAuthors: ""
 workGenre: "chronique"
 workLangCode: "lat"
 stemmaType: "reconstructed"
