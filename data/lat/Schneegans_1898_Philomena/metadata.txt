@@ -27,7 +27,7 @@ derivatives: "included"
 contributors:
   - contributor: "Jean-Baptiste Camps"
     contributorORCID: "0000-0003-0385-7037"
-note: | This stemma covers the (supposedly, although there is some debate) Latin original, with two of its witnesses, alongside the Occitan and French versions of this text, sometimes also called Filomena or Roman de Notre-Dame de Lagrasse. There are several manuscripts that are omitted, especially for the Latin tradition (see Arlima). Perhaps a more recent stemma can be found in: Gesta Karoli Magni ad Carcassonam et Narbonam. Untersuchungen und Neuedition von Christian Heitzmann, Tavarnuzze, SISMEL-Edizioni del Galluzzo (Millennio medievale; 11; Testi, 4), 1999.|
+note: "This stemma covers the (supposedly, although there is some debate) Latin original, with two of its witnesses, alongside the Occitan and French versions of this text, sometimes also called Filomena or Roman de Notre-Dame de Lagrasse. There are several manuscripts that are omitted, especially for the Latin tradition (see Arlima). Perhaps a more recent stemma can be found in: Gesta Karoli Magni ad Carcassonam et Narbonam. Untersuchungen und Neuedition von Christian Heitzmann, Tavarnuzze, SISMEL-Edizioni del Galluzzo (Millennio medievale; 11; Testi, 4), 1999."
 wits:
   - witSigla: "O"
     witSignature: ""
