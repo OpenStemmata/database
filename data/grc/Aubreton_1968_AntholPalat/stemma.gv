@@ -1,0 +1,101 @@
+
+digraph {
+
+    EdSaum[label="Ed. Saumaise, Jacobs"];
+    syllS[label="Sylloge S"];
+    RecEpiScriAno[label="Recueil d'épigrammes scripturaires anonymes"]; 
+    Mele[label="Couronne de Méléagre"]; 
+    CourPhi[label="Couronne de Philippe"]; 
+    EdLeoTarRufLuci[label="Editions de Léonidas de Tarente, Rufin, Lucillius"]; 
+    Anthologeion[label="Anthologeion de Diogénien, Editions de Straton"];
+    syllSigma[label="Sylloge Σ"]; 
+    syllE[label="Sylloge E"]; 
+    syllF[label="Sylloge F"]; 
+    anthoPerdue[label="Anthologie perdue"]; 
+    1[label="", color="grey"];
+    edPallad[label="Edition de Palladas?"];
+    cyclAgad[label="Cycle d'Agathias"];
+    metaNonnus[label="Métaphrase de Nonnus"];
+    ekphraChristo[label="ekphrasis de Christodoros"];
+    anthoCéphal[label="Anthologie de Céphalas"];
+    syllSigmaPi[label="Sylloge Σπ"];
+    plana[label="Plan. a"];
+    syllK[label="Sylloge K"];
+    planb[label="Plan. b"];
+    parisinus[label="Parisinus 2739"];
+    parisinusautre[label="Parisinus 2744"];
+    parisinuster[label="Parisinus 2742"];
+    parisinusquart[label="Parisinus 2741"];
+    parisinusquint[label="Parisinus 2891"];
+    edXVIXVII[label="Ed. XVI et XVIII s."];
+    2[label="", color="grey"];
+    laurentianus[label="Laurentianus Gr XXXI_28"];
+    syllVB[label="Sylloge VB"];
+    ancreon[label="Ancréon"];
+    cyzique[label="Iscriptions de Cyzique"];
+    nazianze[label="S. Grégoire de Nazianze"];
+    christodoros[label="ekphrasis de Christodoros"];
+    inscFuneraires[label="Inscriptions funéraires chrétiennes"];
+    gaza[label="ekphrasis de Jean Gaza"];
+    epigrNeufDix[label="Epigrammes des IX-X s."];
+    ambrosianus[label="Ambrosianus Gr 57"];
+    syllV[label="Sylloge V"];
+
+    1 -> Simonide; 
+    1 -> RecEpiScriAno; 
+    1 -> Mele; 
+    1 -> CourPhi; 
+    1 -> EdLeoTarRufLuci; 
+    1 -> Anthologeion;
+    1 -> syllSigma; 
+    1 -> syllE; 
+    1 -> syllF; 
+    1 -> anthoPerdue; 
+
+    anthoPerdue -> edPallad;
+    anthoPerdue -> cyclAgad;
+    anthoPerdue -> metaNonnus [style="dashed"];
+    anthoPerdue -> ekphraChristo [style="dashed"];
+    anthoPerdue -> Palat[label="Palatinus"]; 
+    anthoPerdue -> anthoCéphal;
+    anthoPerdue -> syllS; 
+    anthoPerdue -> syllSigmaPi; 
+    anthoPerdue -> plana; 
+    anthoPerdue -> syllK [style="dashed"]; 
+    syllK -> Matritensis[style="dashed"]; 
+    plana->Marcianus;
+    anthoPerdue -> planb; 
+
+    planb -> syllVB; 
+    planb -> Marcianus; 
+    Marcianus -> Londinensis; 
+    Marcianus -> parisinusautre; 
+
+    parisinusautre -> syllK; 
+    parisinusautre -> 2;
+    parisinusautre-> syllV;
+     
+    2 -> parisinus; 
+    2 -> laurentianus; 
+    2 -> ambrosianus; 
+    2 -> parisinusquart; 
+
+    parisinus -> Matritensis; 
+    parisinus -> edXVIXVII; 
+
+    edXVIXVII -> parisinuster; 
+    edXVIXVII -> parisinusquint; 
+
+
+    ancreon -> Palat [style="dashed"]; 
+    cyzique -> Palat [style="dashed"]; 
+    nazianze -> Palat [style="dashed"]; 
+    christodoros -> Palat[style="dashed"]; 
+    inscFuneraires -> Palat [style="dashed"]; 
+    gaza -> Palat [style="dashed"]; 
+    epigrNeufDix -> Palat [style="dashed"]; 
+
+    Palat -> EdSaum; 
+    Palat -> syllS; 
+
+}
