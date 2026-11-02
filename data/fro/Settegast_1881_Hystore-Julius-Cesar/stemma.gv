@@ -1,0 +1,22 @@
+digraph {
+    x[color="grey", label="x"];
+    x1[color="grey", label="x¹"];
+    x2[color="grey", label="x²"];
+    x3[color="grey", label="x³"];
+
+    V[label="V"];
+    A[label="A"];
+    S[label="S"];
+    B[label="B"];
+    F[label="(F) Jacot"];
+
+    x -> x1;
+    x1 -> x2;
+    x1 -> x3;
+    x2 -> V;
+    x3 -> A;
+    x3 -> S;
+    x3 -> B;
+    x2 -> F[style="dashed", color="grey"];
+
+}
