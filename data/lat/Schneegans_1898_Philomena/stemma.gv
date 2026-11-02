@@ -1,0 +1,25 @@
+digraph {
+    // Hypothetical nodes
+    O[color="grey", label="O"];
+    l[color="grey", label="l"];
+    l_second[color="grey", label="l″"];
+    p[color="grey", label="p"];
+
+    // Manuscripts
+    L[label="L"];
+    C[label="C"];
+    B[label="B"];
+    P[label="P"];
+    F[label="F"];
+
+    // Relationships
+    O -> l;
+    l -> L;
+    l -> C;
+    O -> l_second;
+    l_second -> F;
+    l_second-> p;
+    p -> B;
+    p -> P;
+
+}

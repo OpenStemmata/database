@@ -1,0 +1,30 @@
+digraph {
+    // Hypothetical nodes
+    Vulg[color="grey", label="Vulgate"];
+    TradCat[color="grey", label="Traduction (catalan ?)"];
+    v1[color="grey", label="v¹"];
+    v2[color="grey", label="v²"];
+    v3[color="grey", label="v³"];
+
+    // Manuscripts and versions
+    LAcat[label="Legenda aurea (catalan)"];
+    Vic[label="s. Vic (catalan)"];
+    alpha[label="α (italien)"];
+    P[label="P = fr. 1049 (occitan)"];
+    G[label="G (italien)"];
+    beta[label="β (italien)"];
+    
+    // Relationships
+    Vulg -> TradCat;
+    TradCat->Vic;
+    TradCat->v1;
+    v1->alpha;
+    v1->v2;
+    v2->P;
+    v2->v3;
+    v3->G;
+    v3->beta; 
+
+    LAcat->Vic;
+
+}
