@@ -30,8 +30,7 @@ derivatives: "excluded"
 contributors:
   - contributor: "Jean-Baptiste Camps"
     contributorORCID: "0000-0003-0385-7037"
-note: |
-  The stemma posits a lost archetype x (Jehan de Tuim's original), from which would derive a lost x¹ (source of the common errors shared by V, A, S and B); x¹ branches into x² (immediate model of V) and x³ (common ancestor of the group ASB, which share errors against V). The so-called F or Jacot de Forest is actually now thought to be the original verse version, written by the same Jean de Tuim, from which he would have derived the prose version that is the object of this current stemma. This means that, on this aspect at least, the stemma is erroneous, or at the very least should be rerooted with Jacot/F (Jean de Thuim original verse version) as the root, and V vs ASB as the two main branches. Several witnesses and fragments, discovered since, are missing.
+note: "The stemma posits a lost archetype x (Jehan de Tuim's original), from which would derive a lost x¹ (source of the common errors shared by V, A, S and B); x¹ branches into x² (immediate model of V) and x³ (common ancestor of the group ASB, which share errors against V). The so-called F or Jacot de Forest is actually now thought to be the original verse version, written by the same Jean de Tuim, from which he would have derived the prose version that is the object of this current stemma. This means that, on this aspect at least, the stemma is erroneous, or at the very least should be rerooted with Jacot/F (Jean de Thuim original verse version) as the root, and V vs ASB as the two main branches. Several witnesses and fragments, discovered since, are missing."
 wits:
   - witSigla: "V"
     witSignature: "Città del Vaticano, Biblioteca Apostolica Vaticana, Reginensis lat. 824"

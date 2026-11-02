@@ -1,18 +1,15 @@
 digraph {
-    // Hypothetical nodes
     x[color="grey", label="x"];
     x1[color="grey", label="x¹"];
     x2[color="grey", label="x²"];
     x3[color="grey", label="x³"];
 
-    // Manuscripts
     V[label="V"];
     A[label="A"];
     S[label="S"];
     B[label="B"];
     F[label="(F) Jacot"];
 
-    // Relationships
     x -> x1;
     x1 -> x2;
     x1 -> x3;
@@ -20,8 +17,6 @@ digraph {
     x3 -> A;
     x3 -> S;
     x3 -> B;
-
-    // Possible (uncertain) relation
     x2 -> F[style="dashed", color="grey"];
 
 }
